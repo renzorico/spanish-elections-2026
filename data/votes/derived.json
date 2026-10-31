@@ -3388,6 +3388,127 @@
           "implied_stance": null
         }
       }
+    },
+    "v-regularizacion-mocion-pp-2026-03-18": {
+      "statement": "inm-regularizacion",
+      "date": "2026-03-18",
+      "yes_means": "disagree",
+      "title": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.\n",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 348,
+        "afavor": 176,
+        "enContra": 172,
+        "abstenciones": 0,
+        "noVotan": 2
+      },
+      "by_party": {
+        "pp": {
+          "yes": 136,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 121,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 32,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 26,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 5,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
     }
   }
 }

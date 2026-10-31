@@ -114,7 +114,8 @@
       ],
       "vote_refs": [
         "v-irpf-deflactar-2024-04-09",
-        "v-irpf-deflactar-2025-06-12"
+        "v-irpf-deflactar-2025-06-12",
+        "v-irpf-deflactar-mocion-2026-04-22"
       ],
       "note": "El programa 2023 no trata el IRPF. Los votos en contra de deflactar el IRPF son solo relacionados. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No (4), con 1 abstención; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
     },
@@ -320,22 +321,21 @@
     },
     {
       "statement": "der-cambio-sexo-informe",
-      "stance": "disagree",
-      "confidence": "medium",
-      "evidence_type": "program_2023",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
       "sources": [
         {
           "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
-          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "title": "Programa electoral 23J 2023",
           "publisher": "EH Bildu",
-          "date": "2023-07-06",
-          "quote": "Defenderemos todos y cada uno de los avances y conquistas logradas para las personas LGTBIQ+, que amplían derechos y libertades.",
-          "accessed": "2026-10-31",
-          "page": "p. 10"
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Compromiso genérico de defender las leyes LGTBIQ+ aprobadas; no menciona expresamente la autodeterminación registral. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "El programa 2023 solo defiende de forma genérica los avances LGTBIQ+; no se encontró pronunciamiento sobre la autodeterminación registral ni sobre la Ley 4/2023 en la XV legislatura."
     },
     {
       "statement": "inm-regularizacion",
@@ -345,27 +345,36 @@
       "sources": [
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
-          "title": "Congreso de los Diputados, votación: Toma en consideración de la ILP de regularización extraordinaria",
+          "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
-          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
-          "publisher": "EH Bildu",
-          "date": "2023-07-06",
-          "quote": "Exigiremos la derogación de la Ley de Extranjería, sustituyéndola por una nueva legislación que respete y garantice todos los derechos humanos y civiles de todas las personas migrantes",
-          "accessed": "2026-10-31",
-          "page": "p. 11"
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+          "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-18",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Iñarritu García, GP EH Bildu)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-17",
+          "quote": "las regularizaciones no son un fracaso del sistema, sino una herramienta para ordenar una realidad social y económica que ya existe.",
+          "page": "p. 62 del PDF",
+          "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-regularizacion-ilp-2024-04-09",
-        "v-regularizacion-pnl-2025-02-26"
+        "v-regularizacion-pnl-2025-02-26",
+        "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "Votó a favor (5 Sí, 1 no vota) de tomar en consideración la ILP de regularización extraordinaria (09-04-2024)."
+      "note": "Votó sí a la ILP (2024) y no (6) a la moción del PP contra la regularización (18/3/2026)."
     },
     {
       "statement": "inm-reparto-menores",
@@ -396,9 +405,9 @@
       "sources": [
         {
           "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
-          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "title": "Programa electoral 23J 2023",
           "publisher": "EH Bildu",
-          "date": "2023-07-06",
+          "date": "2023-07-01",
           "quote": "",
           "accessed": "2026-10-31"
         }
@@ -483,6 +492,27 @@
       ],
       "vote_refs": [],
       "note": "Defiende el derecho a decidir de Euskal Herria con 'el diálogo y el acuerdo como base'."
+    },
+    {
+      "statement": "ter-concierto-ccaa",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Programa electoral 23J 2023",
+          "publisher": "EH Bildu",
+          "date": "2023-07-01",
+          "quote": "Concierto Económico Vasco y Convenio",
+          "page": "p. 16 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
+      "note": "El programa defiende el Concierto vasco y el Convenio navarro propios, pero no se pronuncia sobre extender ese modelo a otras comunidades. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (EH Bildu votó sí.)"
     },
     {
       "statement": "ter-recentralizar",
@@ -604,15 +634,15 @@
       "sources": [
         {
           "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
-          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "title": "Programa electoral 23J 2023",
           "publisher": "EH Bildu",
-          "date": "2023-07-06",
+          "date": "2023-07-01",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró en el programa 2023 ni en votaciones XV una propuesta de referéndum monarquía/república (solo declaraciones anteriores a 2023)."
+      "note": "No se encontró en el programa 2023, en votaciones de la XV legislatura ni en declaraciones oficiales recientes una propuesta de referéndum entre monarquía y república."
     },
     {
       "statement": "ins-derogar-memoria",
@@ -644,10 +674,19 @@
       "sources": [
         {
           "url": "https://ehbildu.eus/es/noticias/arnaldo-otegi-no-vamos-a-apoyar-el-gasto-en-la-aceleracion-militar-en-absoluto",
-          "title": "Arnaldo Otegi: «No vamos a apoyar el gasto en la aceleración militar, en absoluto»",
+          "title": "Arnaldo Otegi: «No vamos a apoyar el gasto en la aceleración militar en absoluto»",
           "publisher": "EH Bildu",
           "date": "2025-03-20",
           "quote": "Nosotros no vamos a apoyar la aceleración del gasto militar en absoluto.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Matute García de Jalón, GP EH Bildu)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-07-09",
+          "quote": "ni un euro es necesario para un rearme en esa lógica imperialista",
+          "page": "p. 19 del PDF",
           "accessed": "2026-10-31"
         }
       ],

@@ -68,3 +68,18 @@ test('topics are balanced: 2–5 statements each', () => {
     assert.ok(n >= 2 && n <= 5, `${t.id} has ${n}`);
   }
 });
+
+test('acquiescence check: answering "strongly agree" (or disagree) to everything gives no well-documented party an extreme score', async () => {
+  const { computeMatch } = await import('../site/js/match.js');
+  const d = loadAll();
+  const positions = Object.fromEntries(
+    Object.entries(d.positions).map(([pid, doc]) => [pid, Object.fromEntries(doc.positions.map((p) => [p.statement, p]))]),
+  );
+  for (const v of [2, -2]) {
+    const answers = Object.fromEntries(d.statements.map((s) => [s.id, v]));
+    for (const r of computeMatch({ statements: d.statements, topics: d.topics, parties: d.parties, positions, answers })) {
+      if (r.limitedData) continue;
+      assert.ok(r.overall >= 0.3 && r.overall <= 0.7, `${r.party} scores ${r.overall} when answering ${v} to everything`);
+    }
+  }
+});

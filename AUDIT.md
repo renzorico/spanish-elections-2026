@@ -34,15 +34,15 @@ Severity: **H** high · **M** medium · **L** low. Status: ✅ fixed · ⚠️ p
 | M4 | Methodology said Frente Amplio is capped at medium on the Sumar program, but the data had high | Methodology now states that Frente Amplio, as Sumar's successor, is not capped; Podemos and Compromís are | ✅ |
 | M5 | Same Sumar quote: Frente Amplio medium, Podemos low (2035 cars) | Both medium | ✅ |
 | M6 | Acquiescence bias (17 statements where "agree" = left vs 13 right); limited-data parties could top the sorted view | Polarity rebalanced to 15/15 (languages item reversed, bank-tax item framed as abolition, non-EU buyers item dropped). Limited data is now ≤ 50 % and such parties are listed after the others when sorting. | ✅ |
-| M7 | Low-information items (non-EU buyers 2/13 coded; immigration numbers 2/13; monarchy referendum 3/13) | Non-EU buyers item removed; the other two re-searched for all parties | ⚠️ (see coverage in DATA_GAPS.md) |
+| M7 | Low-information items (non-EU buyers 2/13 coded; immigration numbers 2/13; monarchy referendum 3/13) | Non-EU buyers item removed. The other two were re-searched for all parties: immigration numbers now 4/13 coded (context clarifies "total arrivals"); monarchy referendum 3/13 (Vox's inferred coding removed). Kept because missing positions do not affect scores, and the UI shows coverage. | ⚠️ partly |
 | M8 | Territorial items centred on Catalonia | Catalan financing item generalised to "regions that ask for it should be able to collect all their taxes" | ✅ |
 | M9 | Only the tax-cut item carried a cost clause | Cost clause removed | ✅ |
 | M10 | Eviction item asked two things (speed + vulnerable occupants) | Vulnerability clause removed; all parties recoded | ✅ |
-| M11 | Minimum-wage "reach 60 %" premise possibly outdated | Verified and reworded by the recoder (see `data/statements.json`) | ✅ |
+| M11 | Minimum-wage "reach 60 %" premise possibly outdated | Verified: the Government has said since 14/02/2023 that the SMI has reached 60 % of the average wage. Reworded to "keep rising and stay at no less than 60 %", context states the 2026 SMI (€1,221 × 14) | ✅ |
 | M12 | Contradictory "yes =" text in vote notes shown to users | Notes rewritten | ✅ |
 | M13 | Unclear how coalition votes count for the 1 % criterion (Geroa Bai) | Methodology: coalition votes count only for the coalition as a whole | ✅ |
 | L1–L3 | Context lines: dangling reference (2035 cars), incomplete (37.5 h week, abortion), inaccurate dates (recentralisation) | Rewritten | ✅ |
-| L4 | Wealth-tax item ambiguous (two taxes) | Clarified by the recoder | ✅ |
+| L4 | Wealth-tax item ambiguous (two taxes) | Now names the Temporary Solidarity Tax on Large Fortunes (wealth above €3 m); recoded | ✅ |
 | L5 | National 2 % rent-update cap labelled a "direct" vote on rent caps in high-price areas | Relabelled `related` | ✅ |
 | L6 | Neutral party stance cushions scores; PP minimum wage was neutral without an explicit intermediate position | Recoded (M11); methodology explains the effect of neutral codings | ✅ |
 | L7 | Official titles containing charged words repeated unquoted in vote notes | Official titles now in «…»; the loaded-term lint now covers vote notes (quoted titles exempt) | ✅ |
@@ -50,6 +50,15 @@ Severity: **H** high · **M** medium · **L** low. Status: ✅ fixed · ⚠️ p
 | L9 | Podemos notes said "capped at medium" on high codings | Notes corrected | ✅ |
 | L10 | Asturias "PODEMOS (PAZ, CASA Y TRABAJO)" mapped to Podemos without confirmation | Re-check after proclamation (BOE 3 Nov) | ⏳ |
 | L11 | Explainer omitted the 2-seat provincial minimum | Added | ✅ |
+
+## Post-fix verification (2026-10-31)
+
+* `npm run validate`: 0 errors. The 4 warnings are undated policy pages on junts.cat, each with an access date.
+* `npm test`: 29/29 pass, including the new acquiescence test.
+* Acquiescence simulation: a user answering "strongly agree" to all 30 statements now gets 42–60 % for every well-documented party, with no left/right pattern (PSOE 42, PP 48, Frente Amplio 50, Vox 54, BNG 60). Before the fixes it was 44–71 %, with left/government parties on top. Limited-data parties (CCa, EAJ-PNV, SALF) can score up to 64 %, but they are flagged and listed after the others when sorting.
+* Polarity: 15 statements where "agree" matches left/government/nationalist positions, 15 where it matches right/opposition positions.
+* Stances per party are now balanced, e.g. PP 10 agree / 11 disagree, PSOE 10/14, Vox 14/12, Frente Amplio 12/12 (full table in DATA_GAPS.md).
+* Further concerns raised by the recoders and applied: the defence context now presents Spain's "exception" as the Government's claim, not a fact; the immigration-numbers item states that it means total arrivals.
 
 ## Checks now automated (run on every `npm test`)
 

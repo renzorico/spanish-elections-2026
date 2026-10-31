@@ -1,0 +1,522 @@
+{
+ "statement": "inm-regularizacion",
+ "coded_on": "2026-10-31",
+ "coded_by": "subagent:recode-b",
+ "positions": {
+  "pp": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "vote_xv",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+     "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-18",
+     "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Acedo Reyes, GP Popular)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-17",
+     "quote": "hoy venimos aquí a exigirle al Gobierno de España que renuncie, de manera inmediata, al proyecto de regularización masiva que pretenden imponer sin garantías, sin planificación y sin respeto a los compromisos europeos en materia migratoria",
+     "page": "p. 55 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+     "title": "Plan Nacional para una inmigración legal, ordenada y mutuamente beneficiosa",
+     "publisher": "PP",
+     "date": "2025-10-14",
+     "quote": "Fin de regularizaciones generalizadas y sin control",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+     "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-04-09",
+     "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [
+    "v-regularizacion-ilp-2024-04-09"
+   ],
+   "note": "Evidencia contradictoria entre votaciones directas: en abril de 2024 el Grupo Popular votó a favor de tramitar la ILP de regularización; el 18/3/2026 sacó adelante (176-172) una moción que exige al Gobierno renunciar a la regularización extraordinaria, y su plan de inmigración (oct. 2025) pone fin a las «regularizaciones generalizadas» y propone solo un régimen transitorio individualizado por puntos. Se codifica la postura más reciente y se rebaja un nivel la confianza. El PP no se ha pronunciado sobre el RD 316/2026 en el Congreso más allá de esa moción previa."
+  },
+  "psoe": {
+   "stance": "agree",
+   "confidence": "high",
+   "evidence_type": "vote_xv",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+     "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-04-09",
+     "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+     "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-18",
+     "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Garrido Jiménez, GP Socialista)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-17",
+     "quote": "la norma lo que dice es que se va a regularizar a personas que lleven un mínimo de cinco meses viviendo en nuestro país",
+     "page": "p. 68 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [
+    "v-regularizacion-ilp-2024-04-09"
+   ],
+   "note": "El Grupo Socialista votó sí a tramitar la ILP (9/4/2024) y no (121 votos) a la moción del PP contra la regularización (18/3/2026). Su Gobierno aprobó el RD 316/2026 de regularización extraordinaria."
+  },
+  "vox": {
+   "stance": "disagree",
+   "confidence": "high",
+   "evidence_type": "vote_xv",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+     "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-04-09",
+     "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+     "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-18",
+     "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "Vox",
+     "date": "2023-07-01",
+     "quote": "Trasladaremos el mensaje claro de que cualquier inmigrante que llegue ilegalmente nunca podrá regularizar su situación en España.",
+     "page": "p. 101 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [
+    "v-regularizacion-ilp-2024-04-09"
+   ],
+   "note": "Vox fue el único grupo que votó en contra de tramitar la ILP (9/4/2024) y votó a favor (33) de la moción del PP contra la regularización (18/3/2026)."
+  },
+  "frente-amplio": {
+   "stance": "agree",
+   "confidence": "high",
+   "evidence_type": "vote_xv",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+     "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-04-09",
+     "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+     "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-18",
+     "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://movimientosumar.es/aprobamos-en-consejo-de-ministros-la-regularizacion-de-mas-de-500-000-personas/",
+     "title": "Aprobamos en Consejo de Ministros la regularización de más de 500.000 personas",
+     "publisher": "Movimiento Sumar",
+     "date": "2026-04-14",
+     "quote": "Esta mañana se ha aprobado por fin en el Consejo de Ministros el reglamento para la puesta en marcha de la regularización extraordinaria",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [
+    "v-regularizacion-ilp-2024-04-09"
+   ],
+   "note": "El Grupo SUMAR votó sí a tramitar la ILP (2024) y no (26) a la moción del PP contra la regularización (18/3/2026); Movimiento Sumar celebró la aprobación del RD 316/2026."
+  },
+  "podemos": {
+   "stance": "agree",
+   "confidence": "high",
+   "evidence_type": "vote_xv",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+     "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-04-09",
+     "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+     "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-18",
+     "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Santana Perera, Podemos (G. Mixto))",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-17",
+     "quote": "llamar irresponsabilidad a regular a personas que viven, luchan y trabajan en nuestro país es injusto y, además, equivocado",
+     "page": "p. 60 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [
+    "v-regularizacion-ilp-2024-04-09"
+   ],
+   "note": "Los diputados de Podemos votaron sí a tramitar la ILP (2024) y no a la moción del PP contra la regularización (18/3/2026: Belarra, Sánchez Serna, Santana y Velarde)."
+  },
+  "erc": {
+   "stance": "agree",
+   "confidence": "high",
+   "evidence_type": "vote_xv",
+   "sources": [
+    {
+     "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+     "title": "Programa electoral eleccions generals 2023",
+     "publisher": "ERC",
+     "date": "2023-07-01",
+     "quote": "Regularitzar a les persones en situació administrativa irregular, incloses les persones inexpulsables, en base a la Iniciativa Legislativa Popular portada a terme pel moviment Regularització Ja!",
+     "page": "p. 41 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+     "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-04-09",
+     "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+     "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-18",
+     "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Salvador i Duch, GP Republicano)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-17",
+     "quote": "I per això votarem que no a aquesta moció.",
+     "page": "p. 63 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [
+    "v-regularizacion-ilp-2024-04-09"
+   ],
+   "note": "Programa 2023 explícito; votó sí a la ILP (2024) y no a la moción del PP contra la regularización (18/3/2026)."
+  },
+  "junts": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "vote_xv",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+     "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-18",
+     "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Cervera Pinart, GP Junts per Catalunya)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-17",
+     "quote": "La primera comparteix l’objectiu dels populars per aturar aquesta regularització extraordinària, aquesta que el Govern ens vol imposar per la porta del darrere mitjançant un Reial decret del Consell de Ministres",
+     "page": "p. 56 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Cervera Pinart, GP Junts per Catalunya)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-17",
+     "quote": "Nosaltres, ja ho saben, condicionem qualsevol regularització extraordinària a una avaluació exhaustiva de la seva magnitud i de les conseqüències per al nostre país, Catalunya.",
+     "page": "p. 56 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://junts.cat/actualitat/nogueras-catalunya-ha-de-tenir-el-control-de-la-immigracio/",
+     "title": "Nogueras: «Catalunya ha de tenir el control de la immigració»",
+     "publisher": "Junts",
+     "date": "2026-08-26",
+     "quote": "ha denunciat especialment la regularització massiva impulsada pel govern del PSOE i Sumar.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+     "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-04-09",
+     "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [
+    "v-regularizacion-ilp-2024-04-09"
+   ],
+   "note": "Evidencia contradictoria: Junts votó sí a tramitar la ILP (2024), pero el 18/3/2026 votó a favor (6) de la moción del PP para que el Gobierno renuncie a la regularización extraordinaria y en agosto de 2026 la criticó. Condiciona cualquier regularización a una evaluación previa. Se codifica la postura más reciente con confianza rebajada."
+  },
+  "eh-bildu": {
+   "stance": "agree",
+   "confidence": "high",
+   "evidence_type": "vote_xv",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+     "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-04-09",
+     "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+     "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-18",
+     "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Iñarritu García, GP EH Bildu)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-17",
+     "quote": "las regularizaciones no son un fracaso del sistema, sino una herramienta para ordenar una realidad social y económica que ya existe.",
+     "page": "p. 62 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [
+    "v-regularizacion-ilp-2024-04-09"
+   ],
+   "note": "Votó sí a la ILP (2024) y no (6) a la moción del PP contra la regularización (18/3/2026)."
+  },
+  "pnv": {
+   "stance": "agree",
+   "confidence": "medium",
+   "evidence_type": "vote_xv",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+     "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-04-09",
+     "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+     "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-18",
+     "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Vaquero Montero, GP Vasco (EAJ-PNV))",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-17",
+     "quote": "la admitimos a trámite considerando que debía orientarse a una regularización extraordinaria caso por caso, por motivos humanitarios, por reagrupaciones familiares o vinculada a razones económicas y demográficas",
+     "page": "p. 61 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Vaquero Montero, GP Vasco (EAJ-PNV))",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-17",
+     "quote": "los fenómenos estructurales no se pueden despachar con regularizaciones puntuales cada cierto tiempo realizadas por ambos partidos cuando han estado al frente del Gobierno.",
+     "page": "p. 61 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [
+    "v-regularizacion-ilp-2024-04-09"
+   ],
+   "note": "El PNV votó sí a tramitar la ILP (2024) y no (5) a la moción del PP contra la regularización (18/3/2026), pero su portavoz matizó que la quiere «caso por caso», adaptada a la realidad vasca, y criticó las «regularizaciones puntuales». Por esa reserva se rebaja la confianza a media."
+  },
+  "bng": {
+   "stance": "agree",
+   "confidence": "high",
+   "evidence_type": "vote_xv",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+     "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-04-09",
+     "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+     "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-18",
+     "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+     "title": "Programa eleccións xerais 2023",
+     "publisher": "BNG",
+     "date": "2023-07-05",
+     "quote": "así como favorecer e facilitar os procesos de",
+     "page": "p. 19 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [
+    "v-regularizacion-ilp-2024-04-09"
+   ],
+   "note": "Néstor Rego votó sí a la ILP (2024) y no a la moción del PP contra la regularización (18/3/2026). El programa 2023 se compromete a «favorecer e facilitar os procesos de regularización administrativa»."
+  },
+  "cc": {
+   "stance": "agree",
+   "confidence": "high",
+   "evidence_type": "vote_xv",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+     "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-04-09",
+     "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+     "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-18",
+     "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+     "title": "Manifiesto electoral Coalición por Canarias 2023",
+     "publisher": "Coalición Canaria",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [
+    "v-regularizacion-ilp-2024-04-09"
+   ],
+   "note": "Cristina Valido (CC) votó sí a tramitar la ILP (2024) y no a la moción del PP contra la regularización extraordinaria (18/3/2026). No se encontró declaración oficial de CC sobre el RD 316/2026."
+  },
+  "compromis": {
+   "stance": "agree",
+   "confidence": "high",
+   "evidence_type": "vote_xv",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+     "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-04-09",
+     "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+     "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-18",
+     "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Micó Micó, Compromís (G. Mixto))",
+     "publisher": "Congreso de los Diputados",
+     "date": "2026-03-17",
+     "quote": "la regularització és una ferramenta per traure a les persones de l’explotació, de l’economia submergida i de la invisibilitat.",
+     "page": "p. 59 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [
+    "v-regularizacion-ilp-2024-04-09"
+   ],
+   "note": "Àgueda Micó votó sí a la ILP (2024, entonces en el Grupo SUMAR) y no a la moción del PP contra la regularización (18/3/2026)."
+  },
+  "salf": {
+   "stance": "disagree",
+   "confidence": "low",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+     "title": "Programa electoral de SALF para Castilla y León (marzo de 2026)",
+     "publisher": "Se Acabó La Fiesta (copia alojada por The Objective)",
+     "date": "2026-03-04",
+     "quote": "La ley de extranjería se cumplirá: el que esté ilegal, será repatriado sin excusas.",
+     "page": "p. 7 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+     "title": "Programa electoral de SALF para Castilla y León (marzo de 2026)",
+     "publisher": "Se Acabó La Fiesta (copia alojada por The Objective)",
+     "date": "2026-03-04",
+     "quote": "para ejecutar el mayor plan de deportación de inmigrantes ilegales",
+     "page": "p. 7 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Única fuente: el programa autonómico de SALF para Castilla y León (marzo de 2026), que propone repatriar a quien esté en situación irregular. Es evidencia indirecta de su posición estatal; SALF no tiene programa estatal ni votaciones en el Congreso."
+  }
+ },
+ "proposed_votes": [
+  {
+   "id": "v-regularizacion-mocion-pp-2026-03-18",
+   "statement": "inm-regularizacion",
+   "date": "2026-03-18",
+   "legislature": 15,
+   "session": 166,
+   "number": 3,
+   "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+   "title": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+   "yes_means": "disagree",
+   "relation": "direct",
+   "note": "Moción del PP que insta al Gobierno a renunciar de inmediato a la regularización extraordinaria (DS PL-171, 17/3/2026, intervención de Acedo Reyes). Sí = disagree. Aprobada 176-172: sí PP, Vox, Junts y UPN; no PSOE, SUMAR, ERC, EH Bildu, PNV, Podemos, BNG, CC y Compromís."
+  }
+ ]
+}

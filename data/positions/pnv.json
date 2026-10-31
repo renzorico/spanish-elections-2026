@@ -122,7 +122,8 @@
       ],
       "vote_refs": [
         "v-irpf-deflactar-2024-04-09",
-        "v-irpf-deflactar-2025-06-12"
+        "v-irpf-deflactar-2025-06-12",
+        "v-irpf-deflactar-mocion-2026-04-22"
       ],
       "note": "El programa 2023 no trata el IRPF estatal (en Euskadi es foral). Se abstuvo en las tres votaciones relacionadas. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: abstención; PNL del PP de 12/06/2025: abstención; punto 1 de la moción del PP de 22/04/2026: abstención."
     },
@@ -332,43 +333,70 @@
     },
     {
       "statement": "der-cambio-sexo-informe",
-      "stance": "disagree",
-      "confidence": "medium",
-      "evidence_type": "program_2023",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
       "sources": [
         {
           "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-          "title": "Con voz propia / Euskadiren ahotsa. Programa Electoral 23-J",
+          "title": "Con voz propia. Programa electoral 23-J",
           "publisher": "EAJ-PNV",
-          "date": "2023-07-23",
-          "quote": "realizará en colaboración con el colectivo el seguimiento tanto del cumplimiento de la legislación aprobada que garantiza sus derechos como de su aplicación real en las políticas públicas.",
-          "accessed": "2026-10-31",
-          "page": "p. 27"
+          "date": "2023-07-01",
+          "quote": "realizará en colaboración con el colectivo el seguimiento tanto del cumplimiento de la legislación aprobada",
+          "page": "p. 27 del PDF",
+          "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Compromiso genérico con la legislación LGTBI aprobada; no menciona expresamente la autodeterminación registral. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "Compromiso genérico con la legislación LGTBI; nada sobre el cambio registral sin informes."
     },
     {
       "statement": "inm-regularizacion",
       "stance": "agree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "vote_xv",
       "sources": [
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
-          "title": "Congreso de los Diputados, votación: Toma en consideración de la ILP de regularización extraordinaria",
+          "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+          "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-18",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Vaquero Montero, GP Vasco (EAJ-PNV))",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-17",
+          "quote": "la admitimos a trámite considerando que debía orientarse a una regularización extraordinaria caso por caso, por motivos humanitarios, por reagrupaciones familiares o vinculada a razones económicas y demográficas",
+          "page": "p. 61 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Vaquero Montero, GP Vasco (EAJ-PNV))",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-17",
+          "quote": "los fenómenos estructurales no se pueden despachar con regularizaciones puntuales cada cierto tiempo realizadas por ambos partidos cuando han estado al frente del Gobierno.",
+          "page": "p. 61 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-regularizacion-ilp-2024-04-09",
-        "v-regularizacion-pnl-2025-02-26"
+        "v-regularizacion-pnl-2025-02-26",
+        "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "El PNV votó Sí (5) a tomar en consideración la ILP de regularización extraordinaria (09-04-2024)."
+      "note": "El PNV votó sí a tramitar la ILP (2024) y no (5) a la moción del PP contra la regularización (18/3/2026), pero su portavoz matizó que la quiere «caso por caso», adaptada a la realidad vasca, y criticó las «regularizaciones puntuales». Por esa reserva se rebaja la confianza a media."
     },
     {
       "statement": "inm-reparto-menores",
@@ -408,15 +436,15 @@
       "sources": [
         {
           "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-          "title": "Con voz propia / Euskadiren ahotsa. Programa Electoral 23-J",
+          "title": "Con voz propia. Programa electoral 23-J",
           "publisher": "EAJ-PNV",
-          "date": "2023-07-23",
+          "date": "2023-07-01",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "El programa 2023 pide una política europea de inmigración y asilo y la transferencia de políticas migratorias, sin pronunciarse sobre reducir llegadas."
+      "note": "El programa 2023 pide una política europea de inmigración y asilo y el traspaso de competencias migratorias, sin pronunciarse sobre reducir llegadas."
     },
     {
       "statement": "cli-nucleares",
@@ -504,6 +532,27 @@
       ],
       "vote_refs": [],
       "note": "El programa defiende el 'derecho a decidir' y la bilateralidad con el Estado, sin usar la palabra referéndum."
+    },
+    {
+      "statement": "ter-concierto-ccaa",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+          "title": "Con voz propia. Programa electoral 23-J",
+          "publisher": "EAJ-PNV",
+          "date": "2023-07-01",
+          "quote": "compromete a defender con convicción y determinación nuestro Estatuto, el Concierto Económico y la nación vasca",
+          "page": "p. 6 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
+      "note": "El PNV defiende el Concierto vasco, pero no se encontró posición sobre extenderlo a otras comunidades. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (El PNV se abstuvo.)"
     },
     {
       "statement": "ter-recentralizar",
@@ -625,15 +674,15 @@
       "sources": [
         {
           "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-          "title": "Con voz propia / Euskadiren ahotsa. Programa Electoral 23-J",
+          "title": "Con voz propia. Programa electoral 23-J",
           "publisher": "EAJ-PNV",
-          "date": "2023-07-23",
+          "date": "2023-07-01",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "El programa 2023 pide suprimir la inviolabilidad del Rey en actos no institucionales, pero no propone un referéndum monarquía/república."
+      "note": "El programa 2023 pide suprimir la inviolabilidad del Rey en actos no institucionales, pero no propone un referéndum entre monarquía y república."
     },
     {
       "statement": "ins-derogar-memoria",
@@ -663,24 +712,25 @@
       "evidence_type": "none",
       "sources": [
         {
-          "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-          "title": "Con voz propia / Euskadiren ahotsa. Programa Electoral 23-J",
-          "publisher": "EAJ-PNV",
-          "date": "2023-07-23",
-          "quote": "",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Vaquero Montero, GP Vasco (EAJ-PNV))",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-07-09",
+          "quote": "Yo no voy a entrar en el tanto por ciento del PIB necesario para cubrir las obligaciones y los objetivos de capacidades requeridas por la OTAN",
+          "page": "p. 21 del PDF",
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://www.ondavasca.com/esteban-muestra-su-cercania-con-sanchez-sobre-gasto-en-defensa-y-seguridad-europea/",
-          "title": "Esteban muestra su cercanía con Sánchez sobre gasto en defensa y seguridad europea",
-          "publisher": "Onda Vasca",
-          "date": "2025-03-13",
+          "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+          "title": "Con voz propia. Programa electoral 23-J",
+          "publisher": "EAJ-PNV",
+          "date": "2023-07-01",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Declaraciones de Aitor Esteban (2025) muestran cercanía a la posición del Gobierno (alrededor del 2 % del PIB), pero no se encontró apoyo explícito a los objetivos de la OTAN (hasta el 5 %)."
+      "note": "La portavoz del PNV declinó expresamente pronunciarse sobre el porcentaje."
     },
     {
       "statement": "ext-embargo-israel",

@@ -1,6 +1,6 @@
 {
   "checked_on": "2026-10-31",
-  "total": 116,
+  "total": 105,
   "failing": 1,
   "results": {
     "https://www.bng.gal/articulo/novas/ana-ponton-propon-limitar-prezos-do-alugueiro-pide-ao-goberno-do-pp-programa-propio-axudas-familias-mocidade/20250224145058039849.html": {
@@ -9,40 +9,21 @@
         "bng:viv-limite-alquiler"
       ]
     },
-    "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf": {
-      "status": 206,
-      "used_by": [
-        "bng:viv-compra-no-residentes",
-        "bng:eco-impuesto-grandes-fortunas",
-        "bng:eco-bajar-irpf",
-        "bng:eco-impuesto-energeticas-banca",
-        "bng:tra-jornada-37h",
-        "bng:tra-salario-minimo",
-        "bng:san-gestion-privada",
-        "bng:san-dental-publica",
-        "bng:der-eutanasia",
-        "bng:der-ley-trans",
-        "bng:inm-regularizacion",
-        "bng:inm-reducir-llegadas",
-        "bng:cli-coches-2035",
-        "bng:ter-referendum",
-        "bng:ter-financiacion-cataluna",
-        "bng:ter-recentralizar",
-        "bng:ter-recentralizar",
-        "bng:edu-concertada",
-        "bng:edu-lengua-castellano",
-        "bng:ins-referendum-monarquia",
-        "bng:ins-memoria-democratica",
-        "bng:ext-gasto-defensa"
-      ]
-    },
     "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json": {
       "status": 200,
       "used_by": [
         "bng:viv-desalojo-rapido",
         "cc:viv-desalojo-rapido",
+        "compromis:viv-desalojo-rapido",
         "eh-bildu:viv-desalojo-rapido",
+        "erc:viv-desalojo-rapido",
+        "frente-amplio:viv-desalojo-rapido",
+        "junts:viv-desalojo-rapido",
         "pnv:viv-desalojo-rapido",
+        "podemos:viv-desalojo-rapido",
+        "pp:viv-desalojo-rapido",
+        "psoe:viv-desalojo-rapido",
+        "vox:viv-desalojo-rapido",
         "vote:v-okupacion-junts-2025-03-18"
       ]
     },
@@ -51,9 +32,81 @@
       "used_by": [
         "bng:viv-desalojo-rapido",
         "cc:viv-desalojo-rapido",
+        "compromis:viv-desalojo-rapido",
         "eh-bildu:viv-desalojo-rapido",
+        "erc:viv-desalojo-rapido",
+        "frente-amplio:viv-desalojo-rapido",
+        "junts:viv-desalojo-rapido",
         "pnv:viv-desalojo-rapido",
+        "podemos:viv-desalojo-rapido",
+        "pp:viv-desalojo-rapido",
+        "psoe:viv-desalojo-rapido",
+        "vox:viv-desalojo-rapido",
         "vote:v-okupacion-pp-2026-05-19"
+      ]
+    },
+    "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf": {
+      "status": 206,
+      "used_by": [
+        "bng:eco-suprimir-impuesto-fortunas",
+        "bng:eco-bajar-irpf",
+        "bng:eco-bajar-irpf",
+        "bng:eco-impuesto-energeticas",
+        "bng:eco-suprimir-impuesto-banca",
+        "bng:tra-jornada-37h",
+        "bng:tra-salario-minimo",
+        "bng:san-gestion-privada",
+        "bng:san-dental-publica",
+        "bng:der-derogar-eutanasia",
+        "bng:der-cambio-sexo-informe",
+        "bng:inm-regularizacion",
+        "bng:inm-reducir-llegadas",
+        "bng:cli-coches-combustion-despues-2035",
+        "bng:ter-referendum",
+        "bng:ter-concierto-ccaa",
+        "bng:ter-recentralizar",
+        "bng:ter-recentralizar",
+        "bng:edu-concertada",
+        "bng:edu-lengua-castellano",
+        "bng:ins-referendum-monarquia",
+        "bng:ins-derogar-memoria",
+        "bng:ext-gasto-defensa"
+      ]
+    },
+    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json": {
+      "status": 200,
+      "used_by": [
+        "bng:eco-bajar-irpf",
+        "cc:eco-bajar-irpf",
+        "compromis:eco-bajar-irpf",
+        "eh-bildu:eco-bajar-irpf",
+        "erc:eco-bajar-irpf",
+        "frente-amplio:eco-bajar-irpf",
+        "junts:eco-bajar-irpf",
+        "pnv:eco-bajar-irpf",
+        "podemos:eco-bajar-irpf",
+        "pp:eco-bajar-irpf",
+        "psoe:eco-bajar-irpf",
+        "vox:eco-bajar-irpf",
+        "vote:v-irpf-deflactar-2024-04-09"
+      ]
+    },
+    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json": {
+      "status": 200,
+      "used_by": [
+        "bng:eco-bajar-irpf",
+        "cc:eco-bajar-irpf",
+        "compromis:eco-bajar-irpf",
+        "eh-bildu:eco-bajar-irpf",
+        "erc:eco-bajar-irpf",
+        "frente-amplio:eco-bajar-irpf",
+        "junts:eco-bajar-irpf",
+        "pnv:eco-bajar-irpf",
+        "podemos:eco-bajar-irpf",
+        "pp:eco-bajar-irpf",
+        "psoe:eco-bajar-irpf",
+        "vox:eco-bajar-irpf",
+        "vote:v-irpf-deflactar-2025-06-12"
       ]
     },
     "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json": {
@@ -61,17 +114,71 @@
       "used_by": [
         "bng:eco-bajar-irpf",
         "cc:eco-bajar-irpf",
+        "compromis:eco-bajar-irpf",
         "eh-bildu:eco-bajar-irpf",
-        "pnv:eco-bajar-irpf"
+        "erc:eco-bajar-irpf",
+        "frente-amplio:eco-bajar-irpf",
+        "junts:eco-bajar-irpf",
+        "pnv:eco-bajar-irpf",
+        "podemos:eco-bajar-irpf",
+        "pp:eco-bajar-irpf",
+        "psoe:eco-bajar-irpf",
+        "vox:eco-bajar-irpf",
+        "vote:v-irpf-deflactar-mocion-2026-04-22"
       ]
     },
-    "https://forbes.es/economia/912299/el-congreso-con-el-psoe-en-contra-exige-al-gobierno-deflactar-el-irpf-y-eximir-de-iva-a-pequenos-autonomos/": {
+    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json": {
       "status": 200,
       "used_by": [
-        "bng:eco-bajar-irpf",
-        "cc:eco-bajar-irpf",
-        "eh-bildu:eco-bajar-irpf",
-        "pnv:eco-bajar-irpf"
+        "bng:eco-impuesto-energeticas",
+        "cc:eco-impuesto-energeticas",
+        "compromis:eco-impuesto-energeticas",
+        "eh-bildu:eco-impuesto-energeticas",
+        "erc:eco-impuesto-energeticas",
+        "frente-amplio:eco-impuesto-energeticas",
+        "junts:eco-impuesto-energeticas",
+        "pnv:eco-impuesto-energeticas",
+        "podemos:eco-impuesto-energeticas",
+        "pp:eco-impuesto-energeticas",
+        "psoe:eco-impuesto-energeticas",
+        "vox:eco-impuesto-energeticas",
+        "vote:v-gravamen-energetico-2025-01-22"
+      ]
+    },
+    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json": {
+      "status": 200,
+      "used_by": [
+        "bng:eco-impuesto-energeticas",
+        "cc:eco-impuesto-energeticas",
+        "compromis:eco-impuesto-energeticas",
+        "eh-bildu:eco-impuesto-energeticas",
+        "erc:eco-impuesto-energeticas",
+        "frente-amplio:eco-impuesto-energeticas",
+        "junts:eco-impuesto-energeticas",
+        "pnv:eco-impuesto-energeticas",
+        "podemos:eco-impuesto-energeticas",
+        "pp:eco-impuesto-energeticas",
+        "psoe:eco-impuesto-energeticas",
+        "vox:eco-impuesto-energeticas",
+        "vote:v-pnl-beneficios-energeticas-2026-09-30"
+      ]
+    },
+    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json": {
+      "status": 200,
+      "used_by": [
+        "bng:eco-suprimir-impuesto-banca",
+        "cc:eco-suprimir-impuesto-banca",
+        "compromis:eco-suprimir-impuesto-banca",
+        "eh-bildu:eco-suprimir-impuesto-banca",
+        "erc:eco-suprimir-impuesto-banca",
+        "frente-amplio:eco-suprimir-impuesto-banca",
+        "junts:eco-suprimir-impuesto-banca",
+        "pnv:eco-suprimir-impuesto-banca",
+        "podemos:eco-suprimir-impuesto-banca",
+        "pp:eco-suprimir-impuesto-banca",
+        "psoe:eco-suprimir-impuesto-banca",
+        "vox:eco-suprimir-impuesto-banca",
+        "vote:v-impuesto-banca-ley7-2024-11-21"
       ]
     },
     "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion130/20250910/Votacion010/VOT_20250910213544.json": {
@@ -112,13 +219,33 @@
         "cc:inm-regularizacion",
         "compromis:inm-regularizacion",
         "eh-bildu:inm-regularizacion",
+        "erc:inm-regularizacion",
         "frente-amplio:inm-regularizacion",
+        "junts:inm-regularizacion",
         "pnv:inm-regularizacion",
         "podemos:inm-regularizacion",
         "pp:inm-regularizacion",
         "psoe:inm-regularizacion",
         "vox:inm-regularizacion",
         "vote:v-regularizacion-ilp-2024-04-09"
+      ]
+    },
+    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json": {
+      "status": 200,
+      "used_by": [
+        "bng:inm-regularizacion",
+        "cc:inm-regularizacion",
+        "compromis:inm-regularizacion",
+        "eh-bildu:inm-regularizacion",
+        "erc:inm-regularizacion",
+        "frente-amplio:inm-regularizacion",
+        "junts:inm-regularizacion",
+        "pnv:inm-regularizacion",
+        "podemos:inm-regularizacion",
+        "pp:inm-regularizacion",
+        "psoe:inm-regularizacion",
+        "vox:inm-regularizacion",
+        "vote:v-regularizacion-mocion-pp-2026-03-18"
       ]
     },
     "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion106/20250410/Votacion015/VOT_20250410155154.json": {
@@ -164,25 +291,19 @@
         "vote:v-amnistia-2024-03-14"
       ]
     },
-    "https://valenciaplaza.com/valenciaplaza/compromis-bng-ven-cupo-catalan-oportunidad-mejorar-financiacion-territorios": {
-      "status": 200,
-      "used_by": [
-        "bng:ter-financiacion-cataluna"
-      ]
-    },
     "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion003/20230921/Votacion004/VOT_20230921120100.json": {
       "status": 200,
       "used_by": [
-        "bng:ter-lenguas-congreso",
-        "cc:ter-lenguas-congreso",
-        "compromis:ter-lenguas-congreso",
-        "eh-bildu:ter-lenguas-congreso",
-        "frente-amplio:ter-lenguas-congreso",
-        "pnv:ter-lenguas-congreso",
-        "podemos:ter-lenguas-congreso",
-        "pp:ter-lenguas-congreso",
-        "psoe:ter-lenguas-congreso",
-        "vox:ter-lenguas-congreso",
+        "bng:ter-solo-castellano-congreso",
+        "cc:ter-solo-castellano-congreso",
+        "compromis:ter-solo-castellano-congreso",
+        "eh-bildu:ter-solo-castellano-congreso",
+        "frente-amplio:ter-solo-castellano-congreso",
+        "pnv:ter-solo-castellano-congreso",
+        "podemos:ter-solo-castellano-congreso",
+        "pp:ter-solo-castellano-congreso",
+        "psoe:ter-solo-castellano-congreso",
+        "vox:ter-solo-castellano-congreso",
         "vote:v-lenguas-reglamento-2023-09-21"
       ]
     },
@@ -207,13 +328,21 @@
         "pnv:ins-cgpj"
       ]
     },
-    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion040/20240523/Votacion004/VOT_20240523140934.json": {
-      "status": 200,
+    "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF": {
+      "status": 206,
       "used_by": [
-        "bng:ins-memoria-democratica",
-        "cc:ins-memoria-democratica",
-        "junts:ins-memoria-democratica",
-        "vote:v-memoria-pnl-2024-05-23"
+        "bng:ext-gasto-defensa",
+        "eh-bildu:ext-gasto-defensa",
+        "erc:ext-gasto-defensa",
+        "frente-amplio:ext-gasto-defensa",
+        "frente-amplio:ext-gasto-defensa",
+        "junts:ext-gasto-defensa",
+        "pnv:ext-gasto-defensa",
+        "podemos:ext-gasto-defensa",
+        "pp:ext-gasto-defensa",
+        "psoe:ext-gasto-defensa",
+        "psoe:ext-gasto-defensa",
+        "vox:ext-gasto-defensa"
       ]
     },
     "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/Votacion087/VOT_20251008195359.json": {
@@ -232,53 +361,52 @@
         "vote:v-embargo-israel-rdl-2025-10-08"
       ]
     },
-    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion175/20260428/Votacion003/VOT_20260428200330.json": {
-      "status": 200,
-      "used_by": [
-        "cc:viv-limite-alquiler",
-        "compromis:viv-limite-alquiler",
-        "frente-amplio:viv-limite-alquiler",
-        "junts:viv-limite-alquiler",
-        "podemos:viv-limite-alquiler",
-        "vote:v-alquiler-rdl8-2026-04-28"
-      ]
-    },
     "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf": {
       "status": 206,
       "used_by": [
         "cc:viv-limite-alquiler",
-        "cc:viv-compra-no-residentes",
-        "cc:eco-impuesto-grandes-fortunas",
-        "cc:eco-impuesto-energeticas-banca",
+        "cc:eco-suprimir-impuesto-fortunas",
+        "cc:eco-bajar-irpf",
+        "cc:eco-impuesto-energeticas",
+        "cc:eco-suprimir-impuesto-banca",
         "cc:tra-salario-minimo",
         "cc:san-gestion-privada",
         "cc:san-dental-publica",
-        "cc:der-eutanasia",
-        "cc:der-ley-trans",
+        "cc:der-derogar-eutanasia",
+        "cc:der-cambio-sexo-informe",
+        "cc:inm-regularizacion",
         "cc:inm-reparto-menores",
         "cc:inm-reducir-llegadas",
-        "cc:cli-coches-2035",
+        "cc:cli-coches-combustion-despues-2035",
         "cc:ter-referendum",
-        "cc:ter-financiacion-cataluna",
+        "cc:ter-concierto-ccaa",
         "cc:ter-recentralizar",
         "cc:edu-concertada",
         "cc:edu-lengua-castellano",
         "cc:ins-referendum-monarquia",
-        "cc:ins-memoria-democratica",
+        "cc:ins-derogar-memoria",
         "cc:ext-gasto-defensa"
       ]
     },
-    "https://rtvc.es/ejecutivo-canario-propone-residencia-10-anos-en-canarias-comprar-vivienda-15-octubre-2026/": {
+    "https://www.congreso.es/docu/tramit/LegXV/AT/ATCD_15_PL_20260519.pdf": {
       "status": 206,
       "used_by": [
-        "cc:viv-compra-no-residentes"
+        "cc:viv-desalojo-rapido",
+        "junts:viv-desalojo-rapido",
+        "pnv:viv-desalojo-rapido",
+        "psoe:viv-desalojo-rapido"
+      ]
+    },
+    "https://rtvc.es/cc-no-entiende-estado-dinero-defensa-y-no-cumplir-agenda-canaria/": {
+      "status": 206,
+      "used_by": [
+        "cc:ext-gasto-defensa"
       ]
     },
     "https://vivenda.compromis.net/": {
       "status": 200,
       "used_by": [
-        "compromis:viv-limite-alquiler",
-        "compromis:viv-compra-no-residentes"
+        "compromis:viv-limite-alquiler"
       ]
     },
     "https://compromis.net/36136/compromis-llanca-una-campanya-de-carrer-per-defensar-que-la-vivenda-es-un-dret-no-un-negoci/": {
@@ -287,30 +415,39 @@
         "compromis:viv-limite-alquiler"
       ]
     },
+    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion175/20260428/Votacion003/VOT_20260428200330.json": {
+      "status": 200,
+      "used_by": [
+        "compromis:viv-limite-alquiler",
+        "frente-amplio:viv-limite-alquiler",
+        "podemos:viv-limite-alquiler",
+        "vote:v-alquiler-rdl8-2026-04-28"
+      ]
+    },
     "https://sumar.compromis.net/docs/programa-cas.pdf": {
       "status": 206,
       "used_by": [
-        "compromis:viv-desalojo-rapido",
-        "compromis:eco-impuesto-grandes-fortunas",
+        "compromis:eco-suprimir-impuesto-fortunas",
         "compromis:eco-bajar-irpf",
-        "compromis:eco-impuesto-energeticas-banca",
+        "compromis:eco-impuesto-energeticas",
+        "compromis:eco-suprimir-impuesto-banca",
         "compromis:tra-jornada-37h",
         "compromis:tra-salario-minimo",
         "compromis:san-gestion-privada",
         "compromis:san-dental-publica",
-        "compromis:der-eutanasia",
-        "compromis:der-ley-trans",
+        "compromis:der-derogar-eutanasia",
+        "compromis:der-cambio-sexo-informe",
         "compromis:inm-reducir-llegadas",
-        "compromis:cli-coches-2035",
+        "compromis:cli-coches-combustion-despues-2035",
         "compromis:ter-referendum",
-        "compromis:ter-financiacion-cataluna",
+        "compromis:ter-concierto-ccaa",
         "compromis:ter-recentralizar",
-        "compromis:ter-lenguas-congreso",
+        "compromis:ter-solo-castellano-congreso",
         "compromis:edu-concertada",
         "compromis:edu-lengua-castellano",
         "compromis:ins-cgpj",
         "compromis:ins-referendum-monarquia",
-        "compromis:ins-memoria-democratica",
+        "compromis:ins-derogar-memoria",
         "compromis:ext-gasto-defensa"
       ]
     },
@@ -328,10 +465,70 @@
         "compromis:der-aborto-constitucion"
       ]
     },
-    "https://compromis.net/36442/compromis-exigeix-ampliar-el-termini-de-regularitzacio-i-adverteix-dun-colp-en-el-suprem-per-a-carregar-se-els-drets-dels-nostres-veins/": {
+    "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf": {
       "status": 206,
       "used_by": [
-        "compromis:inm-regularizacion"
+        "compromis:der-cambio-sexo-informe",
+        "frente-amplio:viv-limite-alquiler",
+        "frente-amplio:viv-desalojo-rapido",
+        "frente-amplio:eco-suprimir-impuesto-fortunas",
+        "frente-amplio:eco-bajar-irpf",
+        "frente-amplio:eco-impuesto-energeticas",
+        "frente-amplio:eco-suprimir-impuesto-banca",
+        "frente-amplio:tra-jornada-37h",
+        "frente-amplio:tra-salario-minimo",
+        "frente-amplio:tra-salario-minimo",
+        "frente-amplio:san-gestion-privada",
+        "frente-amplio:san-dental-publica",
+        "frente-amplio:der-derogar-eutanasia",
+        "frente-amplio:der-cambio-sexo-informe",
+        "frente-amplio:der-cambio-sexo-informe",
+        "frente-amplio:inm-reducir-llegadas",
+        "frente-amplio:cli-nucleares",
+        "frente-amplio:cli-coches-combustion-despues-2035",
+        "frente-amplio:ter-referendum",
+        "frente-amplio:ter-concierto-ccaa",
+        "frente-amplio:ter-recentralizar",
+        "frente-amplio:ter-solo-castellano-congreso",
+        "frente-amplio:edu-concertada",
+        "frente-amplio:edu-lengua-castellano",
+        "frente-amplio:ins-cgpj",
+        "frente-amplio:ins-referendum-monarquia",
+        "frente-amplio:ins-derogar-memoria",
+        "podemos:viv-limite-alquiler",
+        "podemos:eco-suprimir-impuesto-fortunas",
+        "podemos:eco-bajar-irpf",
+        "podemos:eco-suprimir-impuesto-banca",
+        "podemos:tra-salario-minimo",
+        "podemos:san-gestion-privada",
+        "podemos:san-dental-publica",
+        "podemos:der-derogar-eutanasia",
+        "podemos:der-cambio-sexo-informe",
+        "podemos:inm-reducir-llegadas",
+        "podemos:cli-nucleares",
+        "podemos:cli-coches-combustion-despues-2035",
+        "podemos:ter-referendum",
+        "podemos:ter-concierto-ccaa",
+        "podemos:ter-recentralizar",
+        "podemos:edu-concertada",
+        "podemos:edu-lengua-castellano",
+        "podemos:ins-cgpj",
+        "podemos:ins-derogar-memoria"
+      ]
+    },
+    "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF": {
+      "status": 206,
+      "used_by": [
+        "compromis:inm-regularizacion",
+        "eh-bildu:inm-regularizacion",
+        "erc:inm-regularizacion",
+        "junts:inm-regularizacion",
+        "junts:inm-regularizacion",
+        "pnv:inm-regularizacion",
+        "pnv:inm-regularizacion",
+        "podemos:inm-regularizacion",
+        "pp:inm-regularizacion",
+        "psoe:inm-regularizacion"
       ]
     },
     "https://compromis.net/36589/compromis-reclama-la-compareixenca-de-perez-llorca-i-elena-albalat-en-la-diputacio-permanent-per-lacolliment-de-menors-despres-de-la-crisi-de-ceuta/": {
@@ -346,6 +543,12 @@
         "compromis:cli-nucleares"
       ]
     },
+    "https://valenciaplaza.com/cvalenciana/el-pp-rechaza-en-las-corts-reclamar-un-referendum-sobre-la-monarquia-el-pspv-se-abstiene-y-compromis-lo-apoya": {
+      "status": 200,
+      "used_by": [
+        "compromis:ins-referendum-monarquia"
+      ]
+    },
     "https://compromis.net/35763/compromis-exigeix-la-suspensio-immediata-de-lacord-dassociacio-amb-israel-un-embargament-total-darmes-i-sancions-contra-el-seu-govern/": {
       "status": 206,
       "used_by": [
@@ -356,26 +559,27 @@
       "status": 206,
       "used_by": [
         "eh-bildu:viv-limite-alquiler",
-        "eh-bildu:viv-compra-no-residentes",
-        "eh-bildu:eco-impuesto-grandes-fortunas",
-        "eh-bildu:eco-impuesto-energeticas-banca",
+        "eh-bildu:eco-suprimir-impuesto-fortunas",
+        "eh-bildu:eco-bajar-irpf",
+        "eh-bildu:eco-impuesto-energeticas",
+        "eh-bildu:eco-suprimir-impuesto-banca",
         "eh-bildu:tra-jornada-37h",
+        "eh-bildu:tra-salario-minimo",
         "eh-bildu:tra-salario-minimo",
         "eh-bildu:san-gestion-privada",
         "eh-bildu:san-dental-publica",
-        "eh-bildu:der-eutanasia",
-        "eh-bildu:der-ley-trans",
-        "eh-bildu:inm-regularizacion",
+        "eh-bildu:der-derogar-eutanasia",
+        "eh-bildu:der-cambio-sexo-informe",
         "eh-bildu:inm-reducir-llegadas",
-        "eh-bildu:cli-coches-2035",
+        "eh-bildu:cli-coches-combustion-despues-2035",
         "eh-bildu:ter-referendum",
-        "eh-bildu:ter-financiacion-cataluna",
+        "eh-bildu:ter-concierto-ccaa",
         "eh-bildu:ter-recentralizar",
-        "eh-bildu:ter-lenguas-congreso",
+        "eh-bildu:ter-solo-castellano-congreso",
         "eh-bildu:edu-concertada",
         "eh-bildu:edu-lengua-castellano",
         "eh-bildu:ins-referendum-monarquia",
-        "eh-bildu:ins-memoria-democratica"
+        "eh-bildu:ins-derogar-memoria"
       ]
     },
     "https://ehbildu.eus/es/noticias/arnaldo-otegi-no-vamos-a-apoyar-el-gasto-en-la-aceleracion-militar-en-absoluto": {
@@ -389,39 +593,37 @@
       "used_by": [
         "erc:viv-limite-alquiler",
         "erc:viv-limite-alquiler",
-        "erc:viv-compra-no-residentes",
         "erc:viv-desalojo-rapido",
-        "erc:viv-desalojo-rapido",
-        "erc:eco-impuesto-grandes-fortunas",
-        "erc:eco-impuesto-grandes-fortunas",
+        "erc:eco-suprimir-impuesto-fortunas",
+        "erc:eco-suprimir-impuesto-fortunas",
         "erc:eco-bajar-irpf",
-        "erc:eco-impuesto-energeticas-banca",
+        "erc:eco-impuesto-energeticas",
+        "erc:eco-suprimir-impuesto-banca",
         "erc:tra-jornada-37h",
         "erc:tra-salario-minimo",
         "erc:san-gestion-privada",
         "erc:san-dental-publica",
         "erc:der-aborto-constitucion",
-        "erc:der-eutanasia",
-        "erc:der-ley-trans",
-        "erc:der-ley-trans",
+        "erc:der-derogar-eutanasia",
+        "erc:der-cambio-sexo-informe",
         "erc:inm-regularizacion",
         "erc:inm-reparto-menores",
         "erc:inm-reducir-llegadas",
         "erc:cli-nucleares",
-        "erc:cli-coches-2035",
+        "erc:cli-coches-combustion-despues-2035",
         "erc:ter-amnistia",
         "erc:ter-referendum",
         "erc:ter-referendum",
-        "erc:ter-financiacion-cataluna",
+        "erc:ter-concierto-ccaa",
         "erc:ter-recentralizar",
         "erc:ter-recentralizar",
-        "erc:ter-lenguas-congreso",
+        "erc:ter-solo-castellano-congreso",
         "erc:edu-concertada",
         "erc:edu-lengua-castellano",
         "erc:edu-lengua-castellano",
         "erc:ins-cgpj",
         "erc:ins-referendum-monarquia",
-        "erc:ins-memoria-democratica",
+        "erc:ins-derogar-memoria",
         "erc:ext-gasto-defensa",
         "erc:ext-embargo-israel"
       ]
@@ -455,55 +657,16 @@
         "junts:ext-embargo-israel"
       ]
     },
-    "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf": {
+    "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-82.PDF": {
       "status": 206,
       "used_by": [
-        "frente-amplio:viv-limite-alquiler",
-        "frente-amplio:viv-compra-no-residentes",
-        "frente-amplio:viv-desalojo-rapido",
-        "frente-amplio:eco-impuesto-grandes-fortunas",
-        "frente-amplio:eco-bajar-irpf",
-        "frente-amplio:eco-impuesto-energeticas-banca",
-        "frente-amplio:tra-jornada-37h",
-        "frente-amplio:tra-salario-minimo",
-        "frente-amplio:san-gestion-privada",
-        "frente-amplio:san-dental-publica",
-        "frente-amplio:der-eutanasia",
-        "frente-amplio:der-ley-trans",
-        "frente-amplio:inm-regularizacion",
-        "frente-amplio:inm-reducir-llegadas",
-        "frente-amplio:cli-nucleares",
-        "frente-amplio:cli-coches-2035",
-        "frente-amplio:ter-referendum",
-        "frente-amplio:ter-financiacion-cataluna",
-        "frente-amplio:ter-recentralizar",
-        "frente-amplio:ter-lenguas-congreso",
-        "frente-amplio:edu-concertada",
-        "frente-amplio:edu-lengua-castellano",
-        "frente-amplio:ins-cgpj",
-        "frente-amplio:ins-referendum-monarquia",
-        "frente-amplio:ins-memoria-democratica",
-        "podemos:viv-limite-alquiler",
-        "podemos:viv-compra-no-residentes",
-        "podemos:viv-desalojo-rapido",
-        "podemos:eco-impuesto-grandes-fortunas",
-        "podemos:eco-bajar-irpf",
-        "podemos:eco-impuesto-energeticas-banca",
-        "podemos:tra-salario-minimo",
-        "podemos:san-gestion-privada",
-        "podemos:san-dental-publica",
-        "podemos:der-eutanasia",
-        "podemos:der-ley-trans",
-        "podemos:inm-reducir-llegadas",
-        "podemos:cli-nucleares",
-        "podemos:cli-coches-2035",
-        "podemos:ter-referendum",
-        "podemos:ter-financiacion-cataluna",
-        "podemos:ter-recentralizar",
-        "podemos:edu-concertada",
-        "podemos:edu-lengua-castellano",
-        "podemos:ins-cgpj",
-        "podemos:ins-memoria-democratica"
+        "frente-amplio:eco-suprimir-impuesto-banca",
+        "junts:eco-suprimir-impuesto-banca",
+        "pnv:eco-suprimir-impuesto-banca",
+        "pp:eco-impuesto-energeticas",
+        "pp:eco-suprimir-impuesto-banca",
+        "psoe:eco-suprimir-impuesto-banca",
+        "vox:eco-suprimir-impuesto-banca"
       ]
     },
     "https://movimientosumar.es/cuentas-para-transformar-pge-2025/": {
@@ -530,19 +693,6 @@
         "frente-amplio:cli-nucleares"
       ]
     },
-    "https://theobjective.com/espana/politica/2025-07-09/sumar-sanchez-gasto-militar-otan/": {
-      "status": 206,
-      "used_by": [
-        "frente-amplio:ext-gasto-defensa"
-      ]
-    },
-    "https://www.elindependiente.com/espana/2025/04/22/sumar-podemos-rechazo-gasto-extra-defensas-2025-compra-armamento/": {
-      "status": 206,
-      "used_by": [
-        "frente-amplio:ext-gasto-defensa",
-        "podemos:ext-gasto-defensa"
-      ]
-    },
     "https://movimientosumar.es/aprobamos-el-embargo-de-armas-a-israel/": {
       "status": 200,
       "used_by": [
@@ -553,32 +703,29 @@
       "status": 206,
       "used_by": [
         "junts:viv-limite-alquiler",
-        "junts:viv-compra-no-residentes",
         "junts:viv-desalojo-rapido",
-        "junts:viv-desalojo-rapido",
-        "junts:eco-impuesto-grandes-fortunas",
+        "junts:eco-suprimir-impuesto-fortunas",
         "junts:eco-bajar-irpf",
         "junts:tra-salario-minimo",
         "junts:tra-salario-minimo",
         "junts:san-gestion-privada",
         "junts:san-dental-publica",
         "junts:der-aborto-constitucion",
-        "junts:der-eutanasia",
-        "junts:der-ley-trans",
-        "junts:inm-regularizacion",
+        "junts:der-derogar-eutanasia",
+        "junts:der-cambio-sexo-informe",
         "junts:cli-nucleares",
-        "junts:cli-coches-2035",
+        "junts:cli-coches-combustion-despues-2035",
         "junts:ter-amnistia",
         "junts:ter-referendum",
-        "junts:ter-financiacion-cataluna",
+        "junts:ter-concierto-ccaa",
         "junts:ter-recentralizar",
-        "junts:ter-lenguas-congreso",
+        "junts:ter-solo-castellano-congreso",
         "junts:edu-concertada",
         "junts:edu-lengua-castellano",
         "junts:edu-lengua-castellano",
         "junts:ins-cgpj",
         "junts:ins-referendum-monarquia",
-        "junts:ins-memoria-democratica",
+        "junts:ins-derogar-memoria",
         "junts:ext-gasto-defensa"
       ]
     },
@@ -586,12 +733,6 @@
       "status": 200,
       "used_by": [
         "junts:viv-limite-alquiler"
-      ]
-    },
-    "https://junts.cat/actualitat/okupacions/": {
-      "status": 200,
-      "used_by": [
-        "junts:viv-desalojo-rapido"
       ]
     },
     "https://junts.cat/propostes/impostos/": {
@@ -603,7 +744,7 @@
     "https://junts.cat/actualitat/nogueras-quan-junts-te-forca-catalunya-hi-guanya/": {
       "status": 200,
       "used_by": [
-        "junts:eco-impuesto-energeticas-banca"
+        "junts:eco-impuesto-energeticas"
       ]
     },
     "https://www.ondavasca.com/junts-confirma-su-rechazo-a-la-rebaja-de-la-jornada-laboral-y-mantiene-la-enmienda-a-la-totalidad/": {
@@ -626,7 +767,7 @@
       ]
     },
     "https://rtvc.es/debate-congreso-ley-extranjeria-10-abril-2025/": {
-      "status": 206,
+      "status": 200,
       "used_by": [
         "junts:inm-reparto-menores"
       ]
@@ -638,22 +779,10 @@
         "junts:ter-recentralizar"
       ]
     },
-    "https://junts.cat/propostes/financament-per-catalunya/": {
-      "status": 200,
-      "used_by": [
-        "junts:ter-financiacion-cataluna"
-      ]
-    },
     "https://junts.cat/propostes/llengua/": {
       "status": 200,
       "used_by": [
-        "junts:ter-lenguas-congreso"
-      ]
-    },
-    "https://okdiario.com/espana/junts-sanchez-apoyara-aumento-del-gasto-militar-solo-si-inversion-espana-cataluna-14438399": {
-      "status": 200,
-      "used_by": [
-        "junts:ext-gasto-defensa"
+        "junts:ter-solo-castellano-congreso"
       ]
     },
     "https://www.elsaltodiario.com/congreso-de-los-diputados/congreso-convalida-decreto-embargo-armas-votos-podemos-junts": {
@@ -666,51 +795,40 @@
       "status": 206,
       "used_by": [
         "pnv:viv-limite-alquiler",
-        "pnv:viv-compra-no-residentes",
-        "pnv:eco-impuesto-grandes-fortunas",
+        "pnv:eco-suprimir-impuesto-fortunas",
         "pnv:eco-bajar-irpf",
+        "pnv:eco-impuesto-energeticas",
         "pnv:tra-salario-minimo",
         "pnv:san-gestion-privada",
         "pnv:san-dental-publica",
-        "pnv:der-eutanasia",
-        "pnv:der-ley-trans",
+        "pnv:der-derogar-eutanasia",
+        "pnv:der-cambio-sexo-informe",
         "pnv:inm-reparto-menores",
         "pnv:inm-reducir-llegadas",
-        "pnv:cli-coches-2035",
+        "pnv:cli-coches-combustion-despues-2035",
         "pnv:ter-referendum",
         "pnv:ter-referendum",
-        "pnv:ter-financiacion-cataluna",
+        "pnv:ter-concierto-ccaa",
         "pnv:ter-recentralizar",
-        "pnv:ter-lenguas-congreso",
+        "pnv:ter-solo-castellano-congreso",
         "pnv:edu-concertada",
         "pnv:edu-lengua-castellano",
         "pnv:ins-referendum-monarquia",
-        "pnv:ins-memoria-democratica",
+        "pnv:ins-derogar-memoria",
         "pnv:ext-gasto-defensa"
-      ]
-    },
-    "https://www.ondavasca.com/el-pnv-propone-en-el-congreso-un-cambio-legal-para-ejecutar-desahucios-en-48-horas-en-casos-de-ocupacion/": {
-      "status": 200,
-      "used_by": [
-        "pnv:viv-desalojo-rapido"
       ]
     },
     "https://congreso.eaj-pnv.eus/es/noticias/56081/el-grupo-vasco-logra-la-concertacion-con-capacidad": {
       "status": 200,
       "used_by": [
-        "pnv:eco-impuesto-energeticas-banca"
+        "pnv:eco-impuesto-energeticas",
+        "pnv:eco-suprimir-impuesto-banca"
       ]
     },
     "https://www.eaj-pnv.eus/es/noticias/56223/aitor-esteban-no-participara-en-el-paripe-promovid/": {
       "status": 200,
       "used_by": [
-        "pnv:eco-impuesto-energeticas-banca"
-      ]
-    },
-    "https://www.ondavasca.com/esteban-muestra-su-cercania-con-sanchez-sobre-gasto-en-defensa-y-seguridad-europea/": {
-      "status": 200,
-      "used_by": [
-        "pnv:ext-gasto-defensa"
+        "pnv:eco-impuesto-energeticas"
       ]
     },
     "https://www.elespanol.com/espana/politica/20251017/carmen-calvo-suma-irene-montero-cuestiona-reforma-constitucion-propone-gobierno-aborto/1003743974273_0.html": {
@@ -719,16 +837,10 @@
         "podemos:der-aborto-constitucion"
       ]
     },
-    "https://es.ara.cat/politica/anuncia-pacto-psoe-regularizar-migrantes-irregulares-espana_1_5629388.html": {
+    "https://www.menorca.info/actualidad/nacional/2021/12/11/1677823/podemos-monarquia-como-mecanismo-corrupcion.html": {
       "status": 200,
       "used_by": [
-        "podemos:inm-regularizacion"
-      ]
-    },
-    "https://www.ultimahora.es/noticias/local/2026/06/16/2651303/podemos-gobierno-esta-altura-importancia-regularizacion-debe-ampliar-plazo.html": {
-      "status": 200,
-      "used_by": [
-        "podemos:inm-regularizacion"
+        "podemos:ins-referendum-monarquia"
       ]
     },
     "https://www.eldebate.com/espana/20220517/irene-montero-aboga-referendum-sobre-monarquia.html": {
@@ -737,20 +849,8 @@
         "podemos:ins-referendum-monarquia"
       ]
     },
-    "https://theobjective.com/sociedad/2024-06-16/manifestacion-republica-podemos-madrid/": {
+    "https://www.elindependiente.com/espana/2025/04/22/sumar-podemos-rechazo-gasto-extra-defensas-2025-compra-armamento/": {
       "status": 206,
-      "used_by": [
-        "podemos:ins-referendum-monarquia"
-      ]
-    },
-    "https://www.eldebate.com/espana/20250222/belarra-pide-fin-monarquia-sectores-reaccionarios-idea-psoe-trajo-democracia_272866.html": {
-      "status": 200,
-      "used_by": [
-        "podemos:ins-referendum-monarquia"
-      ]
-    },
-    "https://www.eldiario.es/politica/pp-acusan-sanchez-pactar-gasto-militar-llegue-5-pib_1_12414646.html": {
-      "status": 200,
       "used_by": [
         "podemos:ext-gasto-defensa"
       ]
@@ -765,54 +865,30 @@
       "status": 206,
       "used_by": [
         "pp:viv-limite-alquiler",
-        "pp:viv-compra-no-residentes",
         "pp:viv-desalojo-rapido",
-        "pp:eco-impuesto-grandes-fortunas",
+        "pp:eco-suprimir-impuesto-fortunas",
         "pp:eco-bajar-irpf",
+        "pp:eco-suprimir-impuesto-banca",
         "pp:tra-salario-minimo",
         "pp:san-gestion-privada",
         "pp:san-dental-publica",
-        "pp:der-eutanasia",
-        "pp:der-ley-trans",
-        "pp:inm-reducir-llegadas",
+        "pp:der-derogar-eutanasia",
+        "pp:der-cambio-sexo-informe",
         "pp:cli-nucleares",
-        "pp:ter-financiacion-cataluna",
+        "pp:ter-concierto-ccaa",
         "pp:ter-recentralizar",
         "pp:edu-concertada",
         "pp:edu-lengua-castellano",
         "pp:ins-cgpj",
         "pp:ins-referendum-monarquia",
-        "pp:ins-memoria-democratica",
+        "pp:ins-derogar-memoria",
         "pp:ext-gasto-defensa"
-      ]
-    },
-    "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/": {
-      "status": 206,
-      "used_by": [
-        "pp:viv-desalojo-rapido"
       ]
     },
     "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/": {
       "status": 206,
       "used_by": [
         "pp:eco-bajar-irpf"
-      ]
-    },
-    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json": {
-      "status": 200,
-      "used_by": [
-        "pp:eco-impuesto-energeticas-banca",
-        "psoe:eco-impuesto-energeticas-banca",
-        "vox:eco-impuesto-energeticas-banca",
-        "vote:v-gravamen-energetico-2025-01-22"
-      ]
-    },
-    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json": {
-      "status": 200,
-      "used_by": [
-        "pp:eco-impuesto-energeticas-banca",
-        "psoe:eco-impuesto-energeticas-banca",
-        "vote:v-impuesto-banca-ley7-2024-11-21"
       ]
     },
     "https://www.pp.es/actualidad/articulos/feijoo-mi-objetivo-no-solo-es-que-suba-el-salario-minimo-sino-tambien-el-salario-medio-para-hacer-crecer-la-economia/": {
@@ -830,22 +906,21 @@
     "https://www.pp.es/actualidad/articulos/el-pp-registrara-en-las-cortes-una-proposicion-de-ley-para-modificar-la-ley-trans-y-la-ley-del-deporte-que-garantice-la-igualdad-de-oportunidades-en-las-competiciones-femeninas/": {
       "status": 206,
       "used_by": [
-        "pp:der-ley-trans"
+        "pp:der-cambio-sexo-informe"
       ]
     },
-    "https://www.pp.es/actualidad/articulos/la-mayoria-del-congreso-aprueba-una-propuesta-del-pp-que-rechaza-la-regularizacion-masiva-de-inmigrantes-del-gobierno/": {
-      "status": 206,
+    "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf": {
+      "status": 200,
       "used_by": [
-        "pp:inm-regularizacion"
+        "pp:inm-regularizacion",
+        "pp:inm-reducir-llegadas"
       ]
     },
-    "https://www.pp.es/actualidad/articulos/feijoo-firma-el-contrato-para-gobernar-el-cambio-mi-mayor-ambicion-es-lograr-que-la-palabra-de-un-presidente-vuelva-a-tener-valor/": {
+    "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-68.PDF": {
       "status": 206,
       "used_by": [
         "pp:inm-reducir-llegadas",
-        "pp:ter-recentralizar",
-        "pp:edu-lengua-castellano",
-        "pp:ins-cgpj"
+        "psoe:inm-reducir-llegadas"
       ]
     },
     "https://www.pp.es/actualidad/articulos/el-pp-plantea-un-decalogo-de-reformas-economicas-para-recuperar-el-poder-adquisitivo-y-modernizar-la-economia/": {
@@ -857,28 +932,42 @@
     "https://www.pp.es/actualidad/articulos/el-pp-insta-a-sanchez-a-rectificar-sus-politicas-ideologizadas-para-el-automovil-despues-de-que-se-haya-quedado-solo-y-aislado-en-la-ue/": {
       "status": 206,
       "used_by": [
-        "pp:cli-coches-2035"
+        "pp:cli-coches-combustion-despues-2035"
       ]
     },
     "https://www.pp.es/actualidad/articulos/feijoo-se-revuelve-contra-el-cupo-separatista-y-advierte-de-que-derogara-todo-lo-que-atente-contra-la-igualdad-de-los-espanoles/": {
       "status": 206,
       "used_by": [
         "pp:ter-amnistia",
-        "pp:ter-referendum",
-        "pp:ter-financiacion-cataluna"
+        "pp:ter-referendum"
       ]
     },
     "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf": {
       "status": 200,
       "used_by": [
         "pp:ter-referendum",
-        "pp:ins-memoria-democratica"
+        "pp:ins-derogar-memoria"
+      ]
+    },
+    "https://www.pp.es/sites/default/files/documentos/240904_camps_y_barreiro_-comparecencia_montero_financiacion_autonomica-_0.pdf": {
+      "status": 200,
+      "used_by": [
+        "pp:ter-concierto-ccaa",
+        "pp:ter-concierto-ccaa"
+      ]
+    },
+    "https://www.pp.es/actualidad/articulos/feijoo-firma-el-contrato-para-gobernar-el-cambio-mi-mayor-ambicion-es-lograr-que-la-palabra-de-un-presidente-vuelva-a-tener-valor/": {
+      "status": 206,
+      "used_by": [
+        "pp:ter-recentralizar",
+        "pp:edu-lengua-castellano",
+        "pp:ins-cgpj"
       ]
     },
     "https://www.pp.es/actualidad/articulos/marta-gonzalez-afirma-que-esta-reforma-del-reglamento-no-beneficia-a-nadie-ni-hara-el-congreso-mas-democratico-igualitario-o-eficiente/": {
       "status": 206,
       "used_by": [
-        "pp:ter-lenguas-congreso"
+        "pp:ter-solo-castellano-congreso"
       ]
     },
     "https://www.pp.es/actualidad/articulos/alicia-garcia-recalca-firme-compromiso-rey-democracia-libertad-constitucion/": {
@@ -893,54 +982,61 @@
         "pp:ext-gasto-defensa"
       ]
     },
+    "https://www.publico.es/politica/pp-compromete-llegar-5-pib-defensa-pide-trump.html": {
+      "status": 200,
+      "used_by": [
+        "pp:ext-gasto-defensa"
+      ]
+    },
     "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf": {
       "status": 206,
       "used_by": [
         "psoe:viv-limite-alquiler",
         "psoe:viv-limite-alquiler",
         "psoe:viv-desalojo-rapido",
-        "psoe:viv-desalojo-rapido",
-        "psoe:eco-impuesto-grandes-fortunas",
+        "psoe:eco-suprimir-impuesto-fortunas",
         "psoe:eco-bajar-irpf",
-        "psoe:eco-impuesto-energeticas-banca",
+        "psoe:eco-impuesto-energeticas",
+        "psoe:eco-suprimir-impuesto-banca",
         "psoe:tra-jornada-37h",
         "psoe:tra-salario-minimo",
         "psoe:san-gestion-privada",
         "psoe:san-dental-publica",
         "psoe:der-aborto-constitucion",
         "psoe:der-aborto-constitucion",
-        "psoe:der-eutanasia",
-        "psoe:der-eutanasia",
-        "psoe:der-ley-trans",
-        "psoe:der-ley-trans",
+        "psoe:der-derogar-eutanasia",
+        "psoe:der-derogar-eutanasia",
+        "psoe:der-cambio-sexo-informe",
+        "psoe:der-cambio-sexo-informe",
         "psoe:inm-reducir-llegadas",
         "psoe:cli-nucleares",
         "psoe:cli-nucleares",
+        "psoe:ter-concierto-ccaa",
         "psoe:ter-recentralizar",
         "psoe:edu-concertada",
         "psoe:edu-lengua-castellano",
         "psoe:ins-cgpj",
         "psoe:ins-referendum-monarquia",
-        "psoe:ins-memoria-democratica",
-        "psoe:ins-memoria-democratica"
+        "psoe:ins-derogar-memoria",
+        "psoe:ins-derogar-memoria"
       ]
     },
-    "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-229-1.PDF": {
-      "status": 206,
+    "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2024/091024-sanchez-comparecencia-congreso.aspx": {
+      "status": 200,
       "used_by": [
-        "psoe:viv-compra-no-residentes"
+        "psoe:inm-reducir-llegadas"
       ]
     },
     "https://www.deia.eus/economia/2025/12/12/sanchez-von-der-leyen-motor-combustion-10464731.html": {
       "status": 406,
       "used_by": [
-        "psoe:cli-coches-2035"
+        "psoe:cli-coches-combustion-despues-2035"
       ]
     },
     "https://es.ara.cat/economia/sanchez-tilda-error-historico-flexibilizacion-bruselas-coches-combustion_1_5595291.html": {
       "status": 200,
       "used_by": [
-        "psoe:cli-coches-2035"
+        "psoe:cli-coches-combustion-despues-2035"
       ]
     },
     "https://rtvc.es/el-psoe-insiste-en-que-no-apoyara-un-referendum-de-autodeterminacion/": {
@@ -955,63 +1051,45 @@
         "psoe:ter-referendum"
       ]
     },
-    "https://www.ultimahora.es/noticias/comunidades/2024/08/21/2226929/montero-defiende-cataluna-tenga-financiacion-singular-sostiene-acuerdo-psc-erc-concierto-1.html": {
-      "status": 200,
-      "used_by": [
-        "psoe:ter-financiacion-cataluna"
-      ]
-    },
-    "https://www.ondavasca.com/erc-avanza-que-sin-soberania-fiscal-no-habra-investidura-pero-el-psoe-rechaza-un-concierto-para-catalunya/": {
-      "status": 200,
-      "used_by": [
-        "psoe:ter-financiacion-cataluna"
-      ]
-    },
-    "https://rtvc.es/reunion-lideres-otan-gasto-en-defensa-del-5-del-pib-25-junio-2025/": {
+    "https://www.moncloa.com/2024/06/17/psoe-enfoque-cataluna-financiacion-2670056/": {
       "status": 206,
       "used_by": [
-        "psoe:ext-gasto-defensa"
-      ]
-    },
-    "https://es.ara.cat/internacional/sanchez-anuncia-acuerdo-otan-espana-no-incremente-gasto-defensa-5-pib_1_5420053.html": {
-      "status": 200,
-      "used_by": [
-        "psoe:ext-gasto-defensa"
+        "psoe:ter-concierto-ccaa"
       ]
     },
     "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf": {
       "status": 200,
       "used_by": [
         "salf:viv-limite-alquiler",
-        "salf:viv-compra-no-residentes",
         "salf:viv-desalojo-rapido",
-        "salf:eco-impuesto-grandes-fortunas",
+        "salf:eco-suprimir-impuesto-fortunas",
         "salf:eco-bajar-irpf",
-        "salf:eco-impuesto-energeticas-banca",
+        "salf:eco-impuesto-energeticas",
+        "salf:eco-suprimir-impuesto-banca",
         "salf:tra-jornada-37h",
         "salf:tra-salario-minimo",
         "salf:san-gestion-privada",
         "salf:san-gestion-privada",
         "salf:san-dental-publica",
         "salf:der-aborto-constitucion",
-        "salf:der-eutanasia",
-        "salf:der-ley-trans",
+        "salf:der-derogar-eutanasia",
+        "salf:der-cambio-sexo-informe",
         "salf:inm-regularizacion",
         "salf:inm-regularizacion",
         "salf:inm-reparto-menores",
         "salf:inm-reducir-llegadas",
         "salf:cli-nucleares",
-        "salf:cli-coches-2035",
+        "salf:cli-coches-combustion-despues-2035",
         "salf:ter-amnistia",
         "salf:ter-referendum",
-        "salf:ter-financiacion-cataluna",
+        "salf:ter-concierto-ccaa",
         "salf:ter-recentralizar",
-        "salf:ter-lenguas-congreso",
+        "salf:ter-solo-castellano-congreso",
         "salf:edu-concertada",
         "salf:edu-lengua-castellano",
         "salf:ins-cgpj",
         "salf:ins-referendum-monarquia",
-        "salf:ins-memoria-democratica",
+        "salf:ins-derogar-memoria",
         "salf:ext-gasto-defensa",
         "salf:ext-embargo-israel"
       ]
@@ -1019,25 +1097,19 @@
     "https://www.eldebate.com/espana/20240609/quien-alvise-perez-cual-programa-electoral-acabo-fiesta-cns_203773.html": {
       "status": 200,
       "used_by": [
-        "salf:viv-compra-no-residentes",
-        "salf:eco-impuesto-energeticas-banca",
         "salf:tra-jornada-37h",
-        "salf:tra-salario-minimo",
         "salf:san-dental-publica",
         "salf:der-aborto-constitucion",
-        "salf:der-eutanasia",
-        "salf:der-ley-trans",
+        "salf:der-derogar-eutanasia",
         "salf:inm-reparto-menores",
-        "salf:cli-coches-2035",
+        "salf:cli-coches-combustion-despues-2035",
         "salf:ter-amnistia",
         "salf:ter-referendum",
         "salf:ter-recentralizar",
-        "salf:ter-lenguas-congreso",
+        "salf:ter-solo-castellano-congreso",
         "salf:edu-lengua-castellano",
         "salf:ins-cgpj",
-        "salf:ins-referendum-monarquia",
-        "salf:ins-memoria-democratica",
-        "salf:ext-gasto-defensa",
+        "salf:ins-derogar-memoria",
         "salf:ext-embargo-israel"
       ]
     },
@@ -1047,45 +1119,33 @@
         "vox:viv-limite-alquiler",
         "vox:viv-limite-alquiler",
         "vox:viv-desalojo-rapido",
-        "vox:viv-desalojo-rapido",
-        "vox:eco-impuesto-grandes-fortunas",
+        "vox:eco-suprimir-impuesto-fortunas",
         "vox:eco-bajar-irpf",
+        "vox:eco-suprimir-impuesto-banca",
         "vox:tra-salario-minimo",
         "vox:san-gestion-privada",
         "vox:san-dental-publica",
         "vox:der-aborto-constitucion",
         "vox:der-aborto-constitucion",
-        "vox:der-eutanasia",
-        "vox:der-ley-trans",
+        "vox:der-derogar-eutanasia",
+        "vox:der-cambio-sexo-informe",
         "vox:inm-regularizacion",
         "vox:inm-reparto-menores",
         "vox:inm-reducir-llegadas",
         "vox:inm-reducir-llegadas",
         "vox:cli-nucleares",
-        "vox:cli-coches-2035",
+        "vox:cli-coches-combustion-despues-2035",
         "vox:ter-referendum",
         "vox:ter-referendum",
-        "vox:ter-financiacion-cataluna",
-        "vox:ter-financiacion-cataluna",
+        "vox:ter-concierto-ccaa",
         "vox:ter-recentralizar",
         "vox:edu-concertada",
         "vox:edu-lengua-castellano",
         "vox:ins-cgpj",
         "vox:ins-cgpj",
         "vox:ins-referendum-monarquia",
-        "vox:ins-memoria-democratica"
-      ]
-    },
-    "https://forbes.es/economia/821981/vox-propone-costear-las-ayudas-a-espanoles-para-vivienda-con-mas-impuestos-a-los-compradores-extranjeros/": {
-      "status": 200,
-      "used_by": [
-        "vox:viv-compra-no-residentes"
-      ]
-    },
-    "https://brainsre.news/vox-elevar-impuestos-compradores-extranjeros-casas/": {
-      "status": 206,
-      "used_by": [
-        "vox:viv-compra-no-residentes"
+        "vox:ins-derogar-memoria",
+        "vox:ext-gasto-defensa"
       ]
     },
     "https://www.que.es/2026/10/12/precampana-vox-29n-abascal/": {
@@ -1094,34 +1154,10 @@
         "vox:inm-reducir-llegadas"
       ]
     },
-    "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-107.PDF": {
-      "status": 206,
-      "used_by": [
-        "vox:ext-gasto-defensa"
-      ]
-    },
     "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion086/20241217/Votacion001/VOT_20241217205720.json": {
       "status": 200,
       "used_by": [
         "vote:v-alquiler-temporada-2024-12-17"
-      ]
-    },
-    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json": {
-      "status": 200,
-      "used_by": [
-        "vote:v-irpf-deflactar-2024-04-09"
-      ]
-    },
-    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json": {
-      "status": 200,
-      "used_by": [
-        "vote:v-irpf-deflactar-2025-06-12"
-      ]
-    },
-    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json": {
-      "status": 200,
-      "used_by": [
-        "vote:v-pnl-beneficios-energeticas-2026-09-30"
       ]
     },
     "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion023/20240222/Votacion002/VOT_20240222110733.json": {
@@ -1152,6 +1188,12 @@
       "status": 200,
       "used_by": [
         "vote:v-memoria-mocion-2024-02-06"
+      ]
+    },
+    "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion040/20240523/Votacion004/VOT_20240523140934.json": {
+      "status": 200,
+      "used_by": [
+        "vote:v-memoria-pnl-2024-05-23"
       ]
     },
     "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion112/20250520/Votacion002/VOT_20250520203911.json": {

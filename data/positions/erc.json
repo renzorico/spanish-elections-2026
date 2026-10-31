@@ -142,7 +142,8 @@
       ],
       "vote_refs": [
         "v-irpf-deflactar-2024-04-09",
-        "v-irpf-deflactar-2025-06-12"
+        "v-irpf-deflactar-2025-06-12",
+        "v-irpf-deflactar-mocion-2026-04-22"
       ],
       "note": "ERC propone subir el IRPF a las rentas del capital y a las más altas, no una bajada general. Sí propone deducciones concretas, como la del alquiler. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
     },
@@ -361,46 +362,64 @@
       "sources": [
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-11",
+          "title": "Programa electoral eleccions generals 2023",
+          "publisher": "ERC",
+          "date": "2023-07-01",
           "quote": "pel reconeixement del dret a l’autodeterminació de gènere, fet que implica despatologitzar el fet trans.",
-          "page": "p. 50 (PDF), p. 49 (imprès)",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-11",
-          "quote": "donant suport a les lleis que han blindat i han garantit nous drets a les dones i al col·lectiu LGTBIQ+, com la Llei Trans.",
-          "page": "p. 7 (PDF), p. 6 (imprès)",
+          "page": "p. 50 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "ERC va donar suport a la Llei 4/2023 i critica que deixi fora menors trans i persones no binàries (vol ampliar-la, no restringir-la). [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "ERC apoyó la Ley 4/2023 y quiere ampliarla a menores y personas no binarias."
     },
     {
       "statement": "inm-regularizacion",
       "stance": "agree",
       "confidence": "high",
-      "evidence_type": "program_2023",
+      "evidence_type": "vote_xv",
       "sources": [
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-11",
+          "title": "Programa electoral eleccions generals 2023",
+          "publisher": "ERC",
+          "date": "2023-07-01",
           "quote": "Regularitzar a les persones en situació administrativa irregular, incloses les persones inexpulsables, en base a la Iniciativa Legislativa Popular portada a terme pel moviment Regularització Ja!",
-          "page": "p. 41 (PDF), p. 40 (imprès)",
+          "page": "p. 41 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+          "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+          "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-18",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Salvador i Duch, GP Republicano)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-17",
+          "quote": "I per això votarem que no a aquesta moció.",
+          "page": "p. 63 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-regularizacion-ilp-2024-04-09",
-        "v-regularizacion-pnl-2025-02-26"
-      ]
+        "v-regularizacion-pnl-2025-02-26",
+        "v-regularizacion-mocion-pp-2026-03-18"
+      ],
+      "note": "Programa 2023 explícito; votó sí a la ILP (2024) y no a la moción del PP contra la regularización (18/3/2026)."
     },
     {
       "statement": "inm-reparto-menores",
@@ -443,20 +462,21 @@
     {
       "statement": "inm-reducir-llegadas",
       "stance": "no_clear_position",
+      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-11",
+          "title": "Programa electoral eleccions generals 2023",
+          "publisher": "ERC",
+          "date": "2023-07-01",
           "quote": "Regulació dels fluxos migratoris des d’una perspectiva real i objectiva de les causes de les migracions per a la bona gestió de les entrades i sortides.",
-          "page": "p. 37 (PDF), p. 36 (imprès)",
+          "page": "p. 37 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "El programa defensa vies legals i segures i 'regulació dels fluxos', sense pronunciar-se sobre reduir o augmentar les arribades."
+      "note": "El programa defiende vías legales y seguras y la «regulació dels fluxos», sin pronunciarse sobre reducir o aumentar las llegadas."
     },
     {
       "statement": "cli-nucleares",
@@ -544,6 +564,27 @@
         }
       ],
       "vote_refs": []
+    },
+    {
+      "statement": "ter-concierto-ccaa",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Programa electoral eleccions generals 2023",
+          "publisher": "ERC",
+          "date": "2023-07-01",
+          "quote": "Continuar avançant cap a la plena sobirania fiscal. Ampliar les funcions de l’Agència Tributària de Catalunya (ATC) i fer possible els convenis amb les entitats que conformen el sector públic per recaptar i gestionar tots els tributs",
+          "page": "p. 71 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
+      "note": "ERC pide que Cataluña recaude y gestione todos sus tributos. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (ERC votó sí.)"
     },
     {
       "statement": "ter-recentralizar",
@@ -684,11 +725,11 @@
       "sources": [
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-11",
+          "title": "Programa electoral eleccions generals 2023",
+          "publisher": "ERC",
+          "date": "2023-07-01",
           "quote": "Donar suport a la convocatòria d’un referèndum sobre monarquia o república.",
-          "page": "p. 12 (PDF), p. 11 (imprès)",
+          "page": "p. 12 del PDF",
           "accessed": "2026-10-31"
         }
       ],
@@ -719,20 +760,30 @@
     {
       "statement": "ext-gasto-defensa",
       "stance": "disagree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-11",
+          "title": "Programa electoral eleccions generals 2023",
+          "publisher": "ERC",
+          "date": "2023-07-01",
           "quote": "Reduir la despesa militar espanyola, tant en efectius com en capacitat armamentística, per tal de revertir l’increment de l’última dècada.",
-          "page": "p. 30 (PDF), p. 29 (imprès)",
+          "page": "p. 30 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Rufián Romero, GP Republicano)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-07-09",
+          "quote": "Lo que me extraña es que ustedes lo critiquen por no firmar un aumento en defensa que se cargaría partidas sociales en este país que provocarían un dolor inmenso.",
+          "page": "p. 15 del PDF",
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [],
+      "note": "El programa de 2023 (anterior al objetivo del 3,5 %) pide reducir el gasto militar, lo que implica claramente rechazar subirlo; en 2025 su portavoz se opuso al aumento."
     },
     {
       "statement": "ext-embargo-israel",

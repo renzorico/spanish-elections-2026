@@ -363,5 +363,18 @@
     "yes_means": "agree",
     "relation": "related",
     "note": "Punto 1 de la moción del PP, que pide deflactar de forma generalizada el IRPF. Relacionada: deflactar no es una bajada de tipos. Sí = de acuerdo. Aprobada 177-163-5 (Sí: GP, GVOX, GJxCAT, Valido, Catalán; abstención: GV (EAJ-PNV); No: el resto)."
+  },
+  {
+    "id": "v-regularizacion-mocion-pp-2026-03-18",
+    "statement": "inm-regularizacion",
+    "date": "2026-03-18",
+    "legislature": 15,
+    "session": 166,
+    "number": 3,
+    "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+    "title": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+    "yes_means": "disagree",
+    "relation": "direct",
+    "note": "Moción del PP que insta al Gobierno a renunciar de inmediato a la regularización extraordinaria (DS PL-171, 17/3/2026, intervención de Acedo Reyes). Sí = disagree. Aprobada 176-172: sí PP, Vox, Junts y UPN; no PSOE, SUMAR, ERC, EH Bildu, PNV, Podemos, BNG, CC y Compromís."
   }
 ]

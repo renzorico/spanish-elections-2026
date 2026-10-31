@@ -132,7 +132,8 @@
       ],
       "vote_refs": [
         "v-irpf-deflactar-2024-04-09",
-        "v-irpf-deflactar-2025-06-12"
+        "v-irpf-deflactar-2025-06-12",
+        "v-irpf-deflactar-mocion-2026-04-22"
       ],
       "note": "El programa propone bajar el IRPF a dos tipos del 15 % y el 25 %. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: Sí; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: Sí."
     },
@@ -335,15 +336,16 @@
       "sources": [
         {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
-          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "title": "Programa electoral elecciones generales 2023",
           "publisher": "Vox",
-          "date": "2023-07-06",
-          "quote": "Derogación de las leyes ideológicas que no protegen a las personas, sino que colectivizan al individuo y los someten a las exigencias de grupos de interés, ya sea LGTBIQ+ o Ley trans.",
-          "page": "p. 11",
+          "date": "2023-07-01",
+          "quote": "Derogaremos la ley Trans, Ley 4/2023",
+          "page": "p. 173 del PDF",
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [],
+      "note": "El programa propone derogar la Ley 4/2023 y rechaza la «autodeterminación de género»."
     },
     {
       "statement": "inm-regularizacion",
@@ -353,27 +355,36 @@
       "sources": [
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
-          "title": "Votación Congreso XV, sesión 34, votación 1 (09/04/2024): toma en consideración ILP regularización",
+          "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
           "accessed": "2026-10-31"
         },
         {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+          "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-18",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+          "accessed": "2026-10-31"
+        },
+        {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
-          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "title": "Programa electoral elecciones generales 2023",
           "publisher": "Vox",
-          "date": "2023-07-06",
+          "date": "2023-07-01",
           "quote": "Trasladaremos el mensaje claro de que cualquier inmigrante que llegue ilegalmente nunca podrá regularizar su situación en España.",
-          "page": "p. 101",
+          "page": "p. 101 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-regularizacion-ilp-2024-04-09",
-        "v-regularizacion-pnl-2025-02-26"
+        "v-regularizacion-pnl-2025-02-26",
+        "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "The 33 Vox deputies cast all 33 votes against taking the regularisation ILP into consideration (310 yes)."
+      "note": "Vox fue el único grupo que votó en contra de tramitar la ILP (9/4/2024) y votó a favor (33) de la moción del PP contra la regularización (18/3/2026)."
     },
     {
       "statement": "inm-reparto-menores",
@@ -413,33 +424,33 @@
       "sources": [
         {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
-          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "title": "Programa electoral elecciones generales 2023",
           "publisher": "Vox",
-          "date": "2023-07-06",
+          "date": "2023-07-01",
           "quote": "Impulsaremos un bloqueo naval que proteja nuestras costas de la llegada masiva de inmigrantes ilegales",
-          "page": "p. 102",
+          "page": "p. 102 del PDF",
           "accessed": "2026-10-31"
         },
         {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
-          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "title": "Programa electoral elecciones generales 2023",
           "publisher": "Vox",
-          "date": "2023-07-06",
-          "quote": "Inmediata expulsión de todos los inmigrantes que accedan ilegalmente a nuestro país.",
-          "page": "p. 100",
+          "date": "2023-07-01",
+          "quote": "El gobierno de Sánchez y las entidades supranacionales están imponiendo un modelo de puertas abiertas que ha importado inseguridad y ha provocado ruina",
+          "page": "p. 89 del PDF",
           "accessed": "2026-10-31"
         },
         {
           "url": "https://www.que.es/2026/10/12/precampana-vox-29n-abascal/",
-          "title": "Abascal arranca la precampaña de Vox: vivienda, pensiones y 'remigración' para el 29-N",
+          "title": "Abascal arranca la precampaña de Vox: vivienda, pensiones y remigración para el 29-N",
           "publisher": "Qué!",
           "date": "2026-10-12",
-          "quote": "Junto a esas palabras, situó tres ejes para la campaña: la remigración (la salida del país de determinados inmigrantes), la 'prioridad nacional' y la desregulación administrativa.",
+          "quote": "La formación coloca vivienda, pensiones y 'remigración' en el centro de su discurso",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "The program measures target irregular immigration. It says immigration must be \"legal, controlada, adaptada a las necesidades de España\" and sets no overall numerical target. Its 2026 pre-campaign message centres on \"remigración\"."
+      "note": "El programa de 2023 se centra en la inmigración irregular, pero rechaza las «políticas de puertas abiertas» y la llegada «masiva»; en la precampaña de 2026 Vox habla de «remigración». No fija una cifra global, de ahí la confianza media."
     },
     {
       "statement": "cli-nucleares",
@@ -527,6 +538,27 @@
       ],
       "vote_refs": [],
       "note": "The program does not address a referendum agreed with the State specifically. It opposes any route to secession, including outlawing separatist parties."
+    },
+    {
+      "statement": "ter-concierto-ccaa",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral elecciones generales 2023",
+          "publisher": "Vox",
+          "date": "2023-07-01",
+          "quote": "Igualmente, la gestión y recaudación de todos los tributos estatales, cedidos o no, se realizará por la AEAT, poniendo fin a la proliferación de Agencias tributarias regionales",
+          "page": "p. 78 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
+      "note": "El programa quiere que toda la recaudación la haga la Agencia Tributaria estatal. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Vox votó no.)"
     },
     {
       "statement": "ter-recentralizar",
@@ -635,22 +667,22 @@
     },
     {
       "statement": "ins-referendum-monarquia",
-      "stance": "disagree",
-      "confidence": "low",
-      "evidence_type": "program_2023",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
       "sources": [
         {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
-          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "title": "Programa electoral elecciones generales 2023",
           "publisher": "Vox",
-          "date": "2023-07-06",
-          "quote": "Dotaremos de la máxima protección jurídica a los símbolos de la nación, especialmente la Bandera, el Himno y la Coro-",
-          "page": "p. 16",
+          "date": "2023-07-01",
+          "quote": "Dotaremos de la máxima protección jurídica a los símbolos de la nación, especialmente la Bandera, el Himno y la",
+          "page": "p. 16 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Indirect evidence: the program gives maximum legal protection to the Crown as a national symbol and says nothing about a referendum on the monarchy."
+      "note": "El programa protege la Corona como símbolo nacional, pero no se pronuncia sobre un referéndum entre monarquía y república. Por la regla común, la defensa genérica de la Corona no basta (antes se codificaba en contra por inferencia)."
     },
     {
       "statement": "ins-derogar-memoria",
@@ -675,22 +707,30 @@
     },
     {
       "statement": "ext-gasto-defensa",
-      "stance": "agree",
-      "confidence": "low",
-      "evidence_type": "official_statement",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
       "sources": [
         {
-          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-107.PDF",
-          "title": "Diario de Sesiones del Congreso, Pleno, núm. 107 (26/03/2025) – intervención de Santiago Abascal",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Abascal Conde, GP VOX)",
           "publisher": "Congreso de los Diputados",
-          "date": "2025-03-26",
-          "quote": "¡Claro que hay que aumentar el gasto en defensa! ¿Cómo vamos a negarlo si llevamos diciéndolo desde mucho antes que ustedes? Pero en nuestra defensa, en los Ejércitos de España, para que protejan nuestra frontera",
-          "page": "p. 19",
+          "date": "2025-07-09",
+          "quote": "podríamos exigir como condición previa antes de aumentar nuestro gasto militar la protección absoluta de nuestro territorio nacional bajo el paraguas de la OTAN, incluyendo a Ceuta y Melilla",
+          "page": "p. 9 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral elecciones generales 2023",
+          "publisher": "Vox",
+          "date": "2023-07-01",
+          "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Vox's leader backed higher defence spending in the Congreso but tied it to Spain's own borders (Ceuta, Melilla) and did not commit to the NATO targets. The 2023 program sets no spending figure."
+      "note": "Vox defiende aumentar el gasto en defensa, pero lo condiciona a la protección de Ceuta y Melilla y no se compromete con el objetivo OTAN del 3,5 %. El programa de 2023 no fija cifra. Apoyo genérico, insuficiente para la afirmación concreta."
     },
     {
       "statement": "ext-embargo-israel",

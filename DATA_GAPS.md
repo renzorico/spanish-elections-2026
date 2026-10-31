@@ -6,34 +6,32 @@ _Updated 2026-10-31. Detailed per-party logs (what was searched, unreachable sit
 
 | Party | agree | disagree | neutral | no clear position | high/med/low |
 |---|---|---|---|---|---|
-| PP | 5 | 16 | 3 | 6 | 13/10/1 |
-| PSOE | 16 | 5 | 3 | 6 | 13/9/2 |
-| Vox | 10 | 19 | 0 | 1 | 20/7/2 |
-| Frente Amplio | 18 | 4 | 0 | 8 | 17/5/0 |
-| Podemos | 19 | 4 | 0 | 7 | 12/9/2 |
-| ERC | 18 | 6 | 0 | 6 | 20/4/0 |
-| Junts | 10 | 9 | 1 | 10 | 11/9/0 |
-| EH Bildu | 16 | 7 | 0 | 7 | 17/6/0 |
-| EAJ-PNV | 11 | 3 | 1 | 15 | 11/4/0 |
-| BNG | 17 | 5 | 1 | 7 | 19/4/0 |
-| CCa | 11 | 3 | 0 | 16 | 10/4/0 |
-| Compromís | 15 | 5 | 1 | 9 | 15/6/0 |
-| SALF | 4 | 5 | 1 | 20 | 0/3/7 |
+| PP | 10 | 11 | 3 | 6 | 14/10/0 |
+| PSOE | 10 | 14 | 1 | 5 | 14/7/4 |
+| Vox | 14 | 12 | 0 | 4 | 20/6/0 |
+| Frente Amplio | 12 | 12 | 0 | 6 | 20/4/0 |
+| Podemos | 13 | 12 | 0 | 5 | 12/12/1 |
+| ERC | 12 | 13 | 0 | 5 | 21/4/0 |
+| Junts | 9 | 10 | 0 | 11 | 11/8/0 |
+| EH Bildu | 12 | 10 | 0 | 8 | 19/3/0 |
+| EAJ-PNV | 8 | 7 | 0 | 15 | 11/4/0 |
+| BNG | 14 | 9 | 1 | 6 | 19/5/0 |
+| CCa | 7 | 4 | 0 | 19 | 9/2/0 |
+| Compromís | 12 | 11 | 0 | 7 | 15/7/1 |
+| SALF | 4 | 3 | 1 | 22 | 0/2/6 |
 
 ## Statements with most `no_clear_position`
 
-- `viv-compra-no-residentes`: 11 — PP, Frente Amplio, Podemos, ERC, Junts, EH Bildu, EAJ-PNV, BNG, CCa, Compromís, SALF
-- `inm-reducir-llegadas`: 11 — PP, PSOE, Frente Amplio, Podemos, ERC, Junts, EH Bildu, EAJ-PNV, BNG, CCa, Compromís
-- `ins-referendum-monarquia`: 10 — PP, PSOE, Frente Amplio, Junts, EH Bildu, EAJ-PNV, BNG, CCa, Compromís, SALF
+- `ins-referendum-monarquia`: 10 — PP, PSOE, Vox, Frente Amplio, Junts, EH Bildu, EAJ-PNV, BNG, CCa, SALF
+- `inm-reducir-llegadas`: 9 — Frente Amplio, Podemos, ERC, Junts, EH Bildu, EAJ-PNV, BNG, CCa, Compromís
 - `san-dental-publica`: 7 — PP, ERC, Junts, EAJ-PNV, CCa, Compromís, SALF
 - `edu-lengua-castellano`: 7 — PSOE, Frente Amplio, Podemos, EAJ-PNV, BNG, CCa, SALF
-- `ter-financiacion-cataluna`: 7 — Frente Amplio, Podemos, EH Bildu, EAJ-PNV, BNG, CCa, Compromís
-- `der-eutanasia`: 7 — Junts, EH Bildu, EAJ-PNV, BNG, CCa, Compromís, SALF
-- `cli-coches-2035`: 7 — Junts, EH Bildu, EAJ-PNV, BNG, CCa, Compromís, SALF
+- `ter-concierto-ccaa`: 7 — Frente Amplio, Podemos, EH Bildu, EAJ-PNV, CCa, Compromís, SALF
+- `der-derogar-eutanasia`: 7 — Junts, EH Bildu, EAJ-PNV, BNG, CCa, Compromís, SALF
+- `cli-coches-combustion-despues-2035`: 7 — Junts, EH Bildu, EAJ-PNV, BNG, CCa, Compromís, SALF
+- `ext-gasto-defensa`: 6 — PP, Vox, Junts, EAJ-PNV, CCa, SALF
+- `tra-salario-minimo`: 5 — PP, Vox, EAJ-PNV, CCa, SALF
 - `san-gestion-privada`: 5 — PP, PSOE, ERC, EAJ-PNV, CCa
-- `edu-concertada`: 5 — PSOE, ERC, EH Bildu, EAJ-PNV, CCa
-- `ter-referendum`: 5 — Frente Amplio, Podemos, CCa, Compromís, SALF
-- `ter-recentralizar`: 4 — PP, Frente Amplio, Podemos, SALF
 
 ## Unreachable or blocked sources (not circumvented)
 - **psoe.es** — bot-check page for curl/WebFetch. PSOE 2023 program cited from an identical copy (PDF author "PSOE") hosted by El Independiente. TODO: confirm the official URL https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf in a browser.
@@ -59,7 +57,10 @@ None of the 13 parties had published a 2026 general-election program as of 31 Oc
 ## Candidacies
 Based on presented lists (BOE 28/10/2026); proclamation 2 Nov (BOE 3 Nov) still to check. See `data/gaps/candidacies.md`.
 
-## Reconciliation decisions (votes vs. coded positions)
-- Only DIRECT votes with a clear yes/no majority may fill a missing position (10 filled). Abstentions and related votes are attached as context only.
-- CC `ins-cgpj`: recoded to agree/medium (most recent vote, 10/09/2026, yes to judges electing judicial members; earlier 2024 no).
-- 20 remaining stance/vote differences all carry explanatory notes (mostly related votes or explicit later statements).
+## Reconciliation and calibration decisions (after the neutrality audit)
+- Single evidence ladder for all parties (see data/SCHEMA.md and the methodology page). Press-only evidence counts as low. Program PDFs mirrored on press sites count as party documents.
+- Only DIRECT curated votes with a yes/no majority may create a coding. Related votes and abstentions are context only, and the validator enforces this.
+- 12 statements were recoded for all 13 parties in one calibrated pass (data/recode/*.json holds the per-statement working files, with sources).
+- Rewordings verified against primary sources: minimum wage (the Government has said since Feb 2023 that the SMI has reached 60 % of the average wage); wealth tax (now names the Temporary Solidarity Tax on Large Fortunes); regularisation (RD 316/2026, BOE 15/04/2026); defence (NATO 3.5 % target; Spain's "exception" is presented as the Government's claim).
+- Remaining stance/vote differences all carry explanatory notes (`node scripts/reconcile_votes.mjs --dry`).
+- `inm-reducir-llegadas` and `ins-referendum-monarquia` remain low-coverage (few parties take explicit positions); kept, because their absence is itself informative, and missing positions do not affect scores.

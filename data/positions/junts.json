@@ -147,7 +147,8 @@
       ],
       "vote_refs": [
         "v-irpf-deflactar-2024-04-09",
-        "v-irpf-deflactar-2025-06-12"
+        "v-irpf-deflactar-2025-06-12",
+        "v-irpf-deflactar-mocion-2026-04-22"
       ],
       "note": "Junts propone en su web una rebaja del IRPF para las rentas medias y del trabajo, y su programa 2023 considera excesivos los tipos. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: abstención; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: Sí."
     },
@@ -358,50 +359,77 @@
     {
       "statement": "der-cambio-sexo-informe",
       "stance": "no_clear_position",
+      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
-          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
-          "publisher": "Junts per Catalunya",
+          "title": "Programa electoral per Catalunya (eleccions generals 2023)",
+          "publisher": "Junts",
           "date": "2023-07-19",
-          "quote": "Pel reconeixement i defensa dels drets de les persones del col·lectiu LGTBI (lesbianes, gais, bisexuals, trans i intersexuals) en tots els àmbits.",
-          "page": "p. 116 (PDF)",
+          "quote": "de la diversitat d’orientació sexual i identitat de gènere.",
+          "page": "p. 116 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Suport genèric als drets LGTBI, sense posició sobre l'autodeterminació registral de la Llei 4/2023. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "Solo apoyo genérico a los derechos LGTBI; nada sobre la autodeterminación registral ni sobre la Ley 4/2023."
     },
     {
       "statement": "inm-regularizacion",
       "stance": "disagree",
       "confidence": "medium",
-      "evidence_type": "official_statement",
+      "evidence_type": "vote_xv",
       "sources": [
         {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+          "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-18",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Cervera Pinart, GP Junts per Catalunya)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-17",
+          "quote": "La primera comparteix l’objectiu dels populars per aturar aquesta regularització extraordinària, aquesta que el Govern ens vol imposar per la porta del darrere mitjançant un Reial decret del Consell de Ministres",
+          "page": "p. 56 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Cervera Pinart, GP Junts per Catalunya)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-17",
+          "quote": "Nosaltres, ja ho saben, condicionem qualsevol regularització extraordinària a una avaluació exhaustiva de la seva magnitud i de les conseqüències per al nostre país, Catalunya.",
+          "page": "p. 56 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
           "url": "https://junts.cat/actualitat/nogueras-catalunya-ha-de-tenir-el-control-de-la-immigracio/",
-          "title": "Nogueras: “Catalunya ha de tenir el control de la immigració”",
-          "publisher": "Junts per Catalunya",
+          "title": "Nogueras: «Catalunya ha de tenir el control de la immigració»",
+          "publisher": "Junts",
           "date": "2026-08-26",
           "quote": "ha denunciat especialment la regularització massiva impulsada pel govern del PSOE i Sumar.",
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
-          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
-          "publisher": "Junts per Catalunya",
-          "date": "2023-07-19",
-          "quote": "Buscar vies de solució a les persones que es troben al territori sense tenir la situació administrativa resolta.",
-          "page": "p. 110 (PDF)",
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+          "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-regularizacion-ilp-2024-04-09",
-        "v-regularizacion-pnl-2025-02-26"
+        "v-regularizacion-pnl-2025-02-26",
+        "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "Evidència mixta: el programa 2023 parlava de 'buscar vies de solució' per a persones en situació irregular, però el 2026 Junts critica explícitament la regularització extraordinària del Govern. En abril de 2024 su grupo votó a favor de tomar en consideración la ILP de regularización (v-regularizacion-ilp-2024-04-09); se registra la posición más reciente."
+      "note": "Evidencia contradictoria: Junts votó sí a tramitar la ILP (2024), pero el 18/3/2026 votó a favor (6) de la moción del PP para que el Gobierno renuncie a la regularización extraordinaria y en agosto de 2026 la criticó. Condiciona cualquier regularización a una evaluación previa. Se codifica la postura más reciente con confianza rebajada."
     },
     {
       "statement": "inm-reparto-menores",
@@ -434,19 +462,20 @@
     {
       "statement": "inm-reducir-llegadas",
       "stance": "no_clear_position",
+      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://junts.cat/actualitat/nogueras-catalunya-ha-de-tenir-el-control-de-la-immigracio/",
-          "title": "Nogueras: “Catalunya ha de tenir el control de la immigració”",
-          "publisher": "Junts per Catalunya",
+          "title": "Nogueras: «Catalunya ha de tenir el control de la immigració»",
+          "publisher": "Junts",
           "date": "2026-08-26",
-          "quote": "“ Catalunya no té capacitat d’acollida infinita, i cal dir-ho ”",
+          "quote": "Catalunya no té capacitat d’acollida infinita, i cal dir-ho",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Junts reclama que Catalunya controli els fluxos i afirma que la seva capacitat d'acollida no és infinita, però no es pronuncia explícitament sobre reduir les arribades al conjunt d'Espanya."
+      "note": "Junts pide que Cataluña controle la inmigración y dice que su capacidad de acogida no es infinita, pero no se pronuncia sobre reducir las llegadas al conjunto de España."
     },
     {
       "statement": "cli-nucleares",
@@ -532,6 +561,27 @@
       ],
       "vote_refs": [],
       "note": "Junts defensa el dret a l'autodeterminació de Catalunya sense condicionar-lo a un acord amb l'Estat; el programa no parla explícitament d'un referèndum pactat."
+    },
+    {
+      "statement": "ter-concierto-ccaa",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya (eleccions generals 2023)",
+          "publisher": "Junts",
+          "date": "2023-07-19",
+          "quote": "L’Agència Tributària de Catalunya ha de poder recaptar, gestionar, liquidar i inspeccionar tots els tributs generats a Catalunya.",
+          "page": "p. 60 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
+      "note": "Junts pide que Cataluña recaude y gestione todos sus tributos. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Junts votó sí.)"
     },
     {
       "statement": "ter-recentralizar",
@@ -674,20 +724,20 @@
     {
       "statement": "ins-referendum-monarquia",
       "stance": "no_clear_position",
+      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
-          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
-          "publisher": "Junts per Catalunya",
+          "title": "Programa electoral per Catalunya (eleccions generals 2023)",
+          "publisher": "Junts",
           "date": "2023-07-19",
           "quote": "",
-          "page": "p. 27 (PDF)",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "El programa esmenta la monarquia només com a debat bloquejat a la Mesa del Congrés; no proposa cap referèndum monarquia/república."
+      "note": "El programa menciona la monarquía solo como debate bloqueado en la Mesa del Congreso; no propone un referéndum entre monarquía y república."
     },
     {
       "statement": "ins-derogar-memoria",
@@ -714,28 +764,29 @@
     {
       "statement": "ext-gasto-defensa",
       "stance": "no_clear_position",
+      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
-          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
-          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
-          "publisher": "Junts per Catalunya",
-          "date": "2023-07-19",
-          "quote": "",
-          "page": "p. 131 (PDF)",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Gavín i Valls, GP Junts per Catalunya)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-07-09",
+          "quote": "Un sistema de seguretat i defensa que ha de ser un sistema de seguretat i defensa netament europeu propi d’Europa, que ha de ser completament comú.",
+          "page": "p. 17 del PDF",
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://okdiario.com/espana/junts-sanchez-apoyara-aumento-del-gasto-militar-solo-si-inversion-espana-cataluna-14438399",
-          "title": "Junts a Sánchez: apoyará el aumento del gasto militar sólo si la inversión es «en España y en Cataluña»",
-          "publisher": "OKDIARIO",
-          "date": "2025-03-13",
-          "quote": "Junts se muestra abierto a apoyar el aumento del gasto en defensa que el Ejecutivo socialista quiere impulsar, pero con condiciones",
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya (eleccions generals 2023)",
+          "publisher": "Junts",
+          "date": "2023-07-19",
+          "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Només una font de premsa (març 2025) informa d'un suport condicionat a un augment, sense referència als objectius de l'OTAN; insuficient per codificar."
+      "note": "Junts defiende la disuasión y una defensa europea común, pero no se pronuncia sobre el objetivo del 3,5 %."
     },
     {
       "statement": "ext-embargo-israel",

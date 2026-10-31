@@ -123,7 +123,8 @@
       ],
       "vote_refs": [
         "v-irpf-deflactar-2024-04-09",
-        "v-irpf-deflactar-2025-06-12"
+        "v-irpf-deflactar-2025-06-12",
+        "v-irpf-deflactar-mocion-2026-04-22"
       ],
       "note": "La única prueba es el programa conjunto de Sumar 2023, que sube los tipos altos del IRPF; confianza media. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
     },
@@ -326,16 +327,16 @@
       "sources": [
         {
           "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
           "publisher": "Sumar",
-          "date": "2023-07-10",
-          "quote": "Para Sumar, es una prioridad dar cumplimiento efectivo a las disposiciones contenidas en la Ley 4/2023 para la Igualdad Real y Efectiva de las Personas Trans y para la Garantía de los Derechos de las Personas LGTBI+",
-          "page": "PDF p. 114",
+          "date": "2023-07-07",
+          "quote": "Defender el principio de autodeterminación y libre desarrollo de la personalidad y autonomía corporal de las personas trans, intersex y no binarias.",
+          "page": "p. 116 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "Podemos concurrió dentro de Sumar en 2023; el programa conjunto es la única fuente abierta, por lo que la confianza se limita a media. podemos.info bloquea el acceso automatizado."
     },
     {
       "statement": "inm-regularizacion",
@@ -345,34 +346,36 @@
       "sources": [
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
-          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://es.ara.cat/politica/anuncia-pacto-psoe-regularizar-migrantes-irregulares-espana_1_5629388.html",
-          "title": "El gobierno español realizará una regularización extraordinaria de medio millón de migrantes",
-          "publisher": "Ara",
-          "date": "2026-01-26",
-          "quote": "\"Es una medida urgente y de justicia social que reconoce los derechos de cientos de miles de personas que viven y trabajan\" en España, defienden fuentes de Podemos.",
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+          "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-18",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://www.ultimahora.es/noticias/local/2026/06/16/2651303/podemos-gobierno-esta-altura-importancia-regularizacion-debe-ampliar-plazo.html",
-          "title": "Podemos: El Gobierno «no está a la altura de la importancia» de la regularización y debe ampliar el plazo",
-          "publisher": "Última Hora (Europa Press)",
-          "date": "2026-06-16",
-          "quote": "La secretaria general de Podemos, Ione Belarra, cree que «el Gobierno no está a la altura de la importancia de la absoluta medida crucial que es la regularización»",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Santana Perera, Podemos (G. Mixto))",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-17",
+          "quote": "llamar irresponsabilidad a regular a personas que viven, luchan y trabajan en nuestro país es injusto y, además, equivocado",
+          "page": "p. 60 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-regularizacion-ilp-2024-04-09",
-        "v-regularizacion-pnl-2025-02-26"
+        "v-regularizacion-pnl-2025-02-26",
+        "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "Belarra, Sánchez Serna and Santana voted yes to take the ILP into consideration (2024-04-09). Podemos negotiated the January 2026 extraordinary regularisation decree with the Government (press, two outlets)."
+      "note": "Los diputados de Podemos votaron sí a tramitar la ILP (2024) y no a la moción del PP contra la regularización (18/3/2026: Belarra, Sánchez Serna, Santana y Velarde)."
     },
     {
       "statement": "inm-reparto-menores",
@@ -398,19 +401,20 @@
     {
       "statement": "inm-reducir-llegadas",
       "stance": "no_clear_position",
+      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
           "publisher": "Sumar",
-          "date": "2023-07-10",
+          "date": "2023-07-07",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "No explicit position found in the Sumar 2023 joint program or in press. podemos.info could not be reached (HTTP 403)."
+      "note": "No se encontró posición explícita en el programa conjunto de Sumar 2023 ni en declaraciones oficiales; podemos.info bloquea el acceso automatizado."
     },
     {
       "statement": "cli-nucleares",
@@ -490,6 +494,26 @@
       ],
       "vote_refs": [],
       "note": "The joint 2023 program supports a vote on a negotiated agreement, not an independence referendum. No current Podemos document found; podemos.info could not be reached (HTTP 403)."
+    },
+    {
+      "statement": "ter-concierto-ccaa",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
+      "note": "No se encontró posición oficial de Podemos sobre extender el modelo de concierto. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Sus diputados votaron mayoritariamente sí.)"
     },
     {
       "statement": "ter-recentralizar",
@@ -593,32 +617,24 @@
       "evidence_type": "official_statement",
       "sources": [
         {
+          "url": "https://www.menorca.info/actualidad/nacional/2021/12/11/1677823/podemos-monarquia-como-mecanismo-corrupcion.html",
+          "title": "Podemos ve a la monarquía como «mecanismo para la corrupción»",
+          "publisher": "Menorca.info",
+          "date": "2021-12-11",
+          "quote": "La formación reclamó también una reforma de la Constitución para que la ciudadanía pueda elegir entre una monarquía «obsoleta y corrompida» o una república «moderna y democrática»",
+          "accessed": "2026-10-31"
+        },
+        {
           "url": "https://www.eldebate.com/espana/20220517/irene-montero-aboga-referendum-sobre-monarquia.html",
           "title": "Irene Montero aboga por un referéndum sobre la monarquía",
-          "publisher": "El Debate (Europa Press)",
+          "publisher": "El Debate",
           "date": "2022-05-17",
-          "quote": "Montero ha sugerido veladamente la realización de un referéndum ciudadano sobre la monarquía, puesto que considera que «todas las instituciones del Estado deberían de poder decidirse democráticamente»",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://theobjective.com/sociedad/2024-06-16/manifestacion-republica-podemos-madrid/",
-          "title": "Pincha la «marcha republicana» en Madrid: 4.000 personas piden abolir la monarquía",
-          "publisher": "The Objective (EFE)",
-          "date": "2024-06-16",
-          "quote": "su secretaria general, Ione Belarra, ha asegurado que España no tendrá una “democracia plena hasta que no seamos una república”.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.eldebate.com/espana/20250222/belarra-pide-fin-monarquia-sectores-reaccionarios-idea-psoe-trajo-democracia_272866.html",
-          "title": "Belarra pide el fin de la Monarquía, los sectores reaccionarios y la idea de que el PSOE «trajo la democracia»",
-          "publisher": "El Debate (EFE)",
-          "date": "2025-02-22",
-          "quote": "Belarra ha afirmado que está «absolutamente convencida» de que hasta que no se logre «acabar con la Monarquía y avanzar hacia una República»",
+          "quote": "Montero ha sugerido veladamente la realización de un referéndum ciudadano sobre la monarquía",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Only indirect or older evidence: a 2022 interview in which Irene Montero suggested a referendum on the monarchy, plus Belarra's 2024-2025 calls for a republic as reported in the press. No recent official text explicitly proposing a referendum was found; podemos.info could not be reached (HTTP 403)."
+      "note": "Solo hay informes de prensa antiguos (2021-2022, cuando Podemos formaba parte de Unidas Podemos). En 2024-2025 Belarra pide una república, pero no menciona expresamente un referéndum."
     },
     {
       "statement": "ins-derogar-memoria",
@@ -649,11 +665,12 @@
       "evidence_type": "official_statement",
       "sources": [
         {
-          "url": "https://www.eldiario.es/politica/pp-acusan-sanchez-pactar-gasto-militar-llegue-5-pib_1_12414646.html",
-          "title": "PP y Podemos acusan a Sánchez de pactar que el gasto militar llegue al 5% del PIB",
-          "publisher": "elDiario.es",
-          "date": "2025-06-25",
-          "quote": "“No solo es que el presidente ha comprometido inmensos aumentos del gasto militar para las próximas décadas, es también que nos ha comprometido con los objetivos políticos y militares de una organización criminal",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Belarra Urteaga, Podemos (G. Mixto))",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-07-09",
+          "quote": "la cumbre de los días 24 y 25 de junio en La Haya ha disipado todas las dudas sobre de qué va este rearme criminal, que es un auténtico robo a mano armada de la clase trabajadora.",
+          "page": "p. 24 del PDF",
           "accessed": "2026-10-31"
         },
         {
@@ -661,12 +678,12 @@
           "title": "Sumar y Podemos, frente a Sánchez: rechazan el gasto en defensa",
           "publisher": "El Independiente",
           "date": "2025-04-22",
-          "quote": "“No formaría parte de un Gobierno que hace el mayor incremento militar de la historia del país”, adelantó la secretaria general de Podemos, Ione Belarra.",
+          "quote": "No formaría parte de un Gobierno que hace el mayor incremento militar de la historia del país",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Belarra and Montero rejected the increase in military spending and the NATO 5% commitment, as reported by two outlets."
+      "note": "La secretaria general de Podemos rechaza en el Congreso el rearme acordado en la cumbre de La Haya."
     },
     {
       "statement": "ext-embargo-israel",

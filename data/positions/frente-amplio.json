@@ -131,7 +131,8 @@
       ],
       "vote_refs": [
         "v-irpf-deflactar-2024-04-09",
-        "v-irpf-deflactar-2025-06-12"
+        "v-irpf-deflactar-2025-06-12",
+        "v-irpf-deflactar-mocion-2026-04-22"
       ],
       "note": "El programa propone subir los tipos altos del IRPF (hasta el 52 %) y la tributación del ahorro, no bajarlo. Es una implicación clara, pero ninguna frase rechaza expresamente una bajada: confianza media. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
     },
@@ -368,11 +369,20 @@
       "sources": [
         {
           "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
           "publisher": "Sumar",
-          "date": "2023-07-10",
-          "quote": "Para Sumar, es una prioridad dar cumplimiento efectivo a las disposiciones contenidas en la Ley 4/2023 para la Igualdad Real y Efectiva de las Personas Trans y para la Garantía de los Derechos de las Personas LGTBI+",
-          "page": "PDF p. 114",
+          "date": "2023-07-07",
+          "quote": "Defender el principio de autodeterminación y libre desarrollo de la personalidad y autonomía corporal de las personas trans, intersex y no binarias.",
+          "page": "p. 116 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-07",
+          "quote": "es una prioridad dar cumplimiento efectivo a las disposiciones contenidas en la Ley 4/2023",
+          "page": "p. 114 del PDF",
           "accessed": "2026-10-31"
         }
       ],
@@ -386,10 +396,18 @@
       "sources": [
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
-          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+          "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-18",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
           "accessed": "2026-10-31"
         },
         {
@@ -397,24 +415,16 @@
           "title": "Aprobamos en Consejo de Ministros la regularización de más de 500.000 personas",
           "publisher": "Movimiento Sumar",
           "date": "2026-04-14",
-          "quote": "Esta mañana se ha aprobado por fin en el Consejo de Ministros el reglamento para la puesta en marcha de la regularización extraordinaria para más de 500.000 de nuestros vecinos y vecinas",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
-          "publisher": "Sumar",
-          "date": "2023-07-10",
-          "quote": "introduzca un procedimiento de regularización permanente.",
-          "page": "PDF p. 104",
+          "quote": "Esta mañana se ha aprobado por fin en el Consejo de Ministros el reglamento para la puesta en marcha de la regularización extraordinaria",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-regularizacion-ilp-2024-04-09",
-        "v-regularizacion-pnl-2025-02-26"
+        "v-regularizacion-pnl-2025-02-26",
+        "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "The SUMAR group voted 25 yes (2 did not vote) to take the regularisation ILP into consideration (2024-04-09). Movimiento Sumar celebrated the 2026 extraordinary regularisation decree."
+      "note": "El Grupo SUMAR votó sí a tramitar la ILP (2024) y no (26) a la moción del PP contra la regularización (18/3/2026); Movimiento Sumar celebró la aprobación del RD 316/2026."
     },
     {
       "statement": "inm-reparto-menores",
@@ -440,19 +450,20 @@
     {
       "statement": "inm-reducir-llegadas",
       "stance": "no_clear_position",
+      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
           "publisher": "Sumar",
-          "date": "2023-07-10",
+          "date": "2023-07-07",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "The Sumar 2023 program (migration chapter, pp. 103-105) sets no target on the number of arrivals. No official statement found."
+      "note": "El capítulo de migraciones del programa de Sumar 2023 no fija posición sobre el número de llegadas; no se encontró declaración oficial."
     },
     {
       "statement": "cli-nucleares",
@@ -540,6 +551,26 @@
       ],
       "vote_refs": [],
       "note": "The program supports a vote by Catalans on a negotiated Catalonia–State agreement, not a referendum on independence. No explicit position on the statement."
+    },
+    {
+      "statement": "ter-concierto-ccaa",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
+      "note": "El programa de Sumar 2023 no trata el concierto ni la recaudación autonómica de todos los impuestos (buscado: concierto, financiación autonómica, Agencia Tributaria). La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (El Grupo SUMAR se abstuvo mayoritariamente.)"
     },
     {
       "statement": "ter-recentralizar",
@@ -647,19 +678,20 @@
     {
       "statement": "ins-referendum-monarquia",
       "stance": "no_clear_position",
+      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
           "publisher": "Sumar",
-          "date": "2023-07-10",
+          "date": "2023-07-07",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "No mention of a referendum on the monarchy in the 2023 program (searched: monarquía, Corona, república, referéndum) or on movimientosumar.es."
+      "note": "El programa de Sumar 2023 no menciona un referéndum sobre la monarquía (buscado: monarquía, Corona, república, referéndum). Izquierda Unida, partido integrante, lo ha pedido por su cuenta, pero eso no es posición de la coalición."
     },
     {
       "statement": "ins-derogar-memoria",
@@ -689,24 +721,26 @@
       "evidence_type": "official_statement",
       "sources": [
         {
-          "url": "https://theobjective.com/espana/politica/2025-07-09/sumar-sanchez-gasto-militar-otan/",
-          "title": "Sumar exige a Sánchez que «no se doble» con el gasto y los socios piden salir de la OTAN",
-          "publisher": "The Objective",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Martínez Barbero, GP Plurinacional SUMAR)",
+          "publisher": "Congreso de los Diputados",
           "date": "2025-07-09",
-          "quote": "Sumar ha exigido este miércoles al presidente del Gobierno, Pedro Sánchez, que «no se doble» y se mantenga firme en su negativa a que España alcance el 5% del PIB en gasto en seguridad y defensa",
+          "quote": "en SUMAR nos hemos opuesto desde el principio a los planes de rearme de Von der Leyen y al chantaje del 5 % del gasto militar de Trump",
+          "page": "p. 12 del PDF",
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://www.elindependiente.com/espana/2025/04/22/sumar-podemos-rechazo-gasto-extra-defensas-2025-compra-armamento/",
-          "title": "Sumar y Podemos, frente a Sánchez: rechazan el gasto en defensa",
-          "publisher": "El Independiente",
-          "date": "2025-04-22",
-          "quote": "Los ministros de Sumar se han opuesto en el Consejo de Ministros al plan y a la partida destinada a la adquisición de armamento",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Martínez Barbero, GP Plurinacional SUMAR)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-07-09",
+          "quote": "Llegar al 5 % en defensa obligaría a incrementar el gasto militar y eso realmente solo se podría hacer recortando inversión en educación, sanidad o pensiones",
+          "page": "p. 12 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Press reports (two outlets) say Sumar opposed the NATO 5% target and the 2025 extra defence spending. The 2023 program asks only for audits of arms programmes."
+      "note": "Postura de la portavoz del Grupo SUMAR, del que procede Frente Amplio."
     },
     {
       "statement": "ext-embargo-israel",

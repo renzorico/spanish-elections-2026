@@ -130,7 +130,8 @@
       ],
       "vote_refs": [
         "v-irpf-deflactar-2024-04-09",
-        "v-irpf-deflactar-2025-06-12"
+        "v-irpf-deflactar-2025-06-12",
+        "v-irpf-deflactar-mocion-2026-04-22"
       ],
       "note": "El programa 2023 habla en general de «bajar los impuestos a las personas corrientes» dentro de un plan de progresividad, y de mantener la progresividad del IRPF. No se pronuncia sobre bajar el IRPF. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
     },
@@ -345,17 +346,25 @@
       "evidence_type": "program_2023",
       "sources": [
         {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-07",
+          "quote": "Defender el principio de autodeterminación y libre desarrollo de la personalidad y autonomía corporal de las personas trans, intersex y no binarias.",
+          "page": "p. 116 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
           "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
-          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "title": "Programa de Compromís para Compromís-Sumar 2023",
           "publisher": "Compromís",
-          "date": "2023-07-11",
-          "quote": "Blindaje de los avances, leyes y normas que garantizan los derechos LGTBI.",
-          "page": "PDF p. 12",
+          "date": "2023-07-01",
+          "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "The program asks to protect existing LGTBI laws; Law 4/2023 is the LGTBI and trans law. The self-ID rule is not named. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "Compromís concurrió con Sumar en 2023; su programa propio solo habla de forma genérica de blindar las leyes LGTBI, así que la única fuente específica es el programa conjunto de Sumar (confianza limitada a media)."
     },
     {
       "statement": "inm-regularizacion",
@@ -365,26 +374,36 @@
       "sources": [
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
-          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://compromis.net/36442/compromis-exigeix-ampliar-el-termini-de-regularitzacio-i-adverteix-dun-colp-en-el-suprem-per-a-carregar-se-els-drets-dels-nostres-veins/",
-          "title": "Compromís exigeix ampliar el termini de regularització",
-          "publisher": "Compromís",
-          "date": "2026-06-30",
-          "quote": "Compromís ha exigit al Govern d’Espanya ampliar el termini de regularització de persones migrants",
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+          "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-18",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 171 (intervención de Micó Micó, Compromís (G. Mixto))",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-17",
+          "quote": "la regularització és una ferramenta per traure a les persones de l’explotació, de l’economia submergida i de la invisibilitat.",
+          "page": "p. 59 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-regularizacion-ilp-2024-04-09",
-        "v-regularizacion-pnl-2025-02-26"
+        "v-regularizacion-pnl-2025-02-26",
+        "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "Micó and Ibáñez (then in the SUMAR group) voted yes to take the ILP into consideration (2024-04-09). In 2026 Compromís asked for the regularisation deadline to be extended."
+      "note": "Àgueda Micó votó sí a la ILP (2024, entonces en el Grupo SUMAR) y no a la moción del PP contra la regularización (18/3/2026)."
     },
     {
       "statement": "inm-reparto-menores",
@@ -418,19 +437,20 @@
     {
       "statement": "inm-reducir-llegadas",
       "stance": "no_clear_position",
+      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
-          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "title": "Programa de Compromís para Compromís-Sumar 2023",
           "publisher": "Compromís",
-          "date": "2023-07-11",
+          "date": "2023-07-01",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "The program calls for a rights-based migration policy but sets no target on the number of arrivals. Not inferred."
+      "note": "El programa pide una política migratoria basada en derechos, sin objetivo sobre el número de llegadas."
     },
     {
       "statement": "cli-nucleares",
@@ -506,6 +526,26 @@
       ],
       "vote_refs": [],
       "note": "No explicit position found in the 2023 program or on compromis.net."
+    },
+    {
+      "statement": "ter-concierto-ccaa",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa de Compromís para Compromís-Sumar 2023",
+          "publisher": "Compromís",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
+      "note": "El programa 2023 no trata el concierto económico ni la recaudación autonómica de todos los impuestos. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Compromís se abstuvo.)"
     },
     {
       "statement": "ter-recentralizar",
@@ -616,20 +656,29 @@
     },
     {
       "statement": "ins-referendum-monarquia",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
+      "stance": "agree",
+      "confidence": "low",
+      "evidence_type": "official_statement",
       "sources": [
         {
+          "url": "https://valenciaplaza.com/cvalenciana/el-pp-rechaza-en-las-corts-reclamar-un-referendum-sobre-la-monarquia-el-pspv-se-abstiene-y-compromis-lo-apoya",
+          "title": "El PP rechaza en las Corts reclamar un referéndum sobre la Monarquía, el PSPV se abstiene y Compromís lo apoya",
+          "publisher": "Valencia Plaza",
+          "date": "2014-06-12",
+          "quote": "instar al Gobierno a convocar un referéndum para la ciudadanía decida entre Monarquía o República",
+          "accessed": "2026-10-31"
+        },
+        {
           "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
-          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "title": "Programa de Compromís para Compromís-Sumar 2023",
           "publisher": "Compromís",
-          "date": "2023-07-11",
+          "date": "2023-07-01",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "No explicit position found in the 2023 program or on compromis.net."
+      "note": "Única evidencia: una votación en las Corts Valencianes de 2014 (informe de prensa) en la que Compromís apoyó pedir un referéndum. Es antigua; el programa de 2023 no lo menciona."
     },
     {
       "statement": "ins-derogar-memoria",
@@ -661,15 +710,16 @@
       "sources": [
         {
           "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
-          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "title": "Programa de Compromís para Compromís-Sumar 2023",
           "publisher": "Compromís",
-          "date": "2023-07-11",
-          "quote": "Potenciación de la tarea social del ejército en emergencias y misiones humanitarias. Reducción de la inversión en armamento.",
-          "page": "PDF p. 11",
+          "date": "2023-07-01",
+          "quote": "Reducción de la inversión en",
+          "page": "p. 11 del PDF",
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [],
+      "note": "El programa propio de Compromís (2023) pide «reducción de la inversión en armamento», lo que implica rechazar el aumento."
     },
     {
       "statement": "ext-embargo-israel",

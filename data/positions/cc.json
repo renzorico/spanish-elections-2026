@@ -122,7 +122,8 @@
       ],
       "vote_refs": [
         "v-irpf-deflactar-2024-04-09",
-        "v-irpf-deflactar-2025-06-12"
+        "v-irpf-deflactar-2025-06-12",
+        "v-irpf-deflactar-mocion-2026-04-22"
       ],
       "note": "El manifiesto 2023 solo pide una bonificación del IRPF para La Palma, no una bajada general. Los votos son solo relacionados. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: Sí."
     },
@@ -312,15 +313,15 @@
       "sources": [
         {
           "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
-          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
-          "publisher": "Coalición Canaria y otras fuerzas firmantes",
-          "date": "2023-06-26",
+          "title": "Manifiesto electoral Coalición por Canarias 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "El manifiesto 2023 pide luchar contra la LGTBIfobia, sin pronunciarse sobre el cambio registral de sexo. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "El manifiesto 2023 pide luchar contra la LGTBIfobia, sin pronunciarse sobre el cambio registral de sexo."
     },
     {
       "statement": "inm-regularizacion",
@@ -330,18 +331,35 @@
       "sources": [
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
-          "title": "Congreso de los Diputados, votación: Toma en consideración de la ILP de regularización extraordinaria",
+          "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+          "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-18",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto electoral Coalición por Canarias 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-regularizacion-ilp-2024-04-09",
-        "v-regularizacion-pnl-2025-02-26"
+        "v-regularizacion-pnl-2025-02-26",
+        "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "Cristina Valido (CC, Grupo Mixto) votó Sí a tomar en consideración la ILP de regularización extraordinaria (09-04-2024)."
+      "note": "Cristina Valido (CC) votó sí a tramitar la ILP (2024) y no a la moción del PP contra la regularización extraordinaria (18/3/2026). No se encontró declaración oficial de CC sobre el RD 316/2026."
     },
     {
       "statement": "inm-reparto-menores",
@@ -381,15 +399,15 @@
       "sources": [
         {
           "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
-          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
-          "publisher": "Coalición Canaria y otras fuerzas firmantes",
-          "date": "2023-06-26",
+          "title": "Manifiesto electoral Coalición por Canarias 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "El manifiesto 2023 pide cooperación con países de origen 'en la lucha contra la inmigración irregular', pero no se pronuncia sobre reducir el número total de inmigrantes."
+      "note": "El manifiesto 2023 pide cooperar con los países de origen contra la inmigración irregular, sin pronunciarse sobre el número total de inmigrantes."
     },
     {
       "statement": "cli-nucleares",
@@ -467,6 +485,26 @@
       ],
       "vote_refs": [],
       "note": "No se encontró posición en el manifiesto 2023 ni en declaraciones revisadas."
+    },
+    {
+      "statement": "ter-concierto-ccaa",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto electoral Coalición por Canarias 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
+      "note": "El manifiesto 2023 no propone un concierto para Canarias ni para otras comunidades. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (CC votó no, sin explicación encontrada.)"
     },
     {
       "statement": "ter-recentralizar",
@@ -580,15 +618,15 @@
       "sources": [
         {
           "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
-          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
-          "publisher": "Coalición Canaria y otras fuerzas firmantes",
-          "date": "2023-06-26",
+          "title": "Manifiesto electoral Coalición por Canarias 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el manifiesto 2023 ni en declaraciones revisadas."
+      "note": "No se encontró posición en el manifiesto 2023 ni en las declaraciones revisadas."
     },
     {
       "statement": "ins-derogar-memoria",
@@ -619,15 +657,23 @@
       "sources": [
         {
           "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
-          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
-          "publisher": "Coalición Canaria y otras fuerzas firmantes",
-          "date": "2023-06-26",
+          "title": "Manifiesto electoral Coalición por Canarias 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
           "quote": "",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://rtvc.es/cc-no-entiende-estado-dinero-defensa-y-no-cumplir-agenda-canaria/",
+          "title": "CC no entiende por qué el Estado tiene dinero para defensa y no para la agenda canaria",
+          "publisher": "RTVC",
+          "date": "2025-04-28",
+          "quote": "ha reconocido este lunes que no entiende",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el manifiesto 2023 ni en declaraciones revisadas."
+      "note": "CC cuestiona las prioridades del gasto en defensa frente a la agenda canaria, pero no se pronuncia sobre el objetivo del 3,5 %."
     },
     {
       "statement": "ext-embargo-israel",

@@ -123,7 +123,8 @@
       ],
       "vote_refs": [
         "v-irpf-deflactar-2024-04-09",
-        "v-irpf-deflactar-2025-06-12"
+        "v-irpf-deflactar-2025-06-12",
+        "v-irpf-deflactar-mocion-2026-04-22"
       ],
       "note": "Postura intermedia explícita: el programa pide más progresividad, bajar el IRPF de las rentas del trabajo y deflactar la tarifa, pero subir el de las rentas del capital. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: abstención; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: No."
     },
@@ -326,16 +327,16 @@
       "sources": [
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "title": "Programa eleccións xerais 2023",
           "publisher": "BNG",
           "date": "2023-07-05",
-          "quote": "Logo dos avances lexislativos producidos neste ámbito co goberno de coalición, aprobados co apoio do BNG e doutras forzas soberanistas, a folla de ruta pasa por consolidar e ampliar o acadado.",
-          "accessed": "2026-10-31",
-          "page": "p. 25"
+          "quote": "a despatoloxización legal precisa de ser acompañada dunha “despatoloxización social”",
+          "page": "p. 25 del PDF",
+          "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Defiende consolidar y ampliar las leyes LGTB aprobadas (incluida la despatologización legal trans). [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "El BNG respalda la «despatoloxización legal» de las personas trans y pide ampliarla a menores y personas no binarias."
     },
     {
       "statement": "inm-regularizacion",
@@ -345,27 +346,36 @@
       "sources": [
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
-          "title": "Congreso de los Diputados, votación: Toma en consideración de la ILP de regularización extraordinaria",
+          "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
           "accessed": "2026-10-31"
         },
         {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+          "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-18",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+          "accessed": "2026-10-31"
+        },
+        {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "title": "Programa eleccións xerais 2023",
           "publisher": "BNG",
           "date": "2023-07-05",
-          "quote": "Impulsar as reformas lexislativas necesarias para garantir os dereitos da poboación migrante (vivenda, traballo, atención sanitaria, educación...) así como favorecer e facilitar os procesos de regularización administrativa.",
-          "accessed": "2026-10-31",
-          "page": "pp. 19-20"
+          "quote": "así como favorecer e facilitar os procesos de",
+          "page": "p. 19 del PDF",
+          "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-regularizacion-ilp-2024-04-09",
-        "v-regularizacion-pnl-2025-02-26"
+        "v-regularizacion-pnl-2025-02-26",
+        "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "Rego votó Sí a tomar en consideración la ILP de regularización (09-04-2024)."
+      "note": "Néstor Rego votó sí a la ILP (2024) y no a la moción del PP contra la regularización (18/3/2026). El programa 2023 se compromete a «favorecer e facilitar os procesos de regularización administrativa»."
     },
     {
       "statement": "inm-reparto-menores",
@@ -396,7 +406,7 @@
       "sources": [
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "title": "Programa eleccións xerais 2023",
           "publisher": "BNG",
           "date": "2023-07-05",
           "quote": "",
@@ -404,7 +414,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El programa 2023 defiende los derechos de las personas migrantes y combatir las causas de las migraciones, pero no se pronuncia sobre reducir el número de llegadas."
+      "note": "El programa 2023 defiende los derechos de las personas migrantes y combatir las causas de la emigración, sin pronunciarse sobre el número de llegadas."
     },
     {
       "statement": "cli-nucleares",
@@ -482,6 +492,27 @@
         }
       ],
       "vote_refs": []
+    },
+    {
+      "statement": "ter-concierto-ccaa",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Programa eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Un novo modelo de financiamento baseado no concerto económico e na bilateralidade co Estado. Trátase de que a Galiza recade todos os impostos e teña capacidade para decidir como os inviste",
+          "page": "p. 11 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
+      "note": "El BNG pide un concierto económico para Galicia en el que la comunidad recaude todos los impuestos. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Rego votó sí.)"
     },
     {
       "statement": "ter-recentralizar",
@@ -603,15 +634,16 @@
       "sources": [
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "title": "Programa eleccións xerais 2023",
           "publisher": "BNG",
           "date": "2023-07-05",
-          "quote": "",
+          "quote": "convocatoria de referendos vinculantes en asuntos de",
+          "page": "p. 28 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "El BNG defiende una República gallega soberana, pero no se encontró en el programa 2023 ni en votaciones XV una propuesta de referéndum estatal monarquía/república."
+      "note": "El BNG defiende una República gallega y referendos vinculantes en general, pero no se encontró una propuesta de referéndum estatal entre monarquía y república."
     },
     {
       "statement": "ins-derogar-memoria",
@@ -638,21 +670,30 @@
     {
       "statement": "ext-gasto-defensa",
       "stance": "disagree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "title": "Programa eleccións xerais 2023",
           "publisher": "BNG",
           "date": "2023-07-05",
-          "quote": "Anular o compromiso do goberno español de aumentar o gasto militar até chegar a 2 % do PIB estatal, de maneira que se destinen ditos fondos ao incremento de diferentes partidas de gasto social.",
-          "accessed": "2026-10-31",
-          "page": "pp. 66-67"
+          "quote": "Anular o compromiso do goberno español de aumentar o gasto militar até chegar a 2 % do PIB estatal",
+          "page": "p. 66 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Rego Candamil, BNG (G. Mixto))",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-07-09",
+          "quote": "Vostede asinou o acordo da OTAN para chegar até 5 % do Produto Interior Bruto en gasto militar",
+          "page": "p. 25 del PDF",
+          "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "También defiende la salida de la OTAN."
+      "note": "El programa de 2023 rechaza incluso llegar al 2 % y pide salir de la OTAN; en 2025 Rego criticó que el Gobierno firmara el objetivo del 5 %."
     },
     {
       "statement": "ext-embargo-israel",
