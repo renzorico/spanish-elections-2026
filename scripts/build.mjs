@@ -10,9 +10,9 @@ const election = {
   campaign: { start: '2026-11-13', end: '2026-11-27' },
   chambers_convene: '2026-12-23',
   decree: {
-    title: 'Real Decreto 806/2026, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones',
+    title: 'Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones',
     boe_date: '2026-10-06',
-    url: 'https://www.boe.es/boe/dias/2026/10/06/',
+    url: 'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742',
   },
 };
 

@@ -200,7 +200,9 @@ function viewResults() {
 
   const notice =
     inProv && d.candidacies
-      ? `<p class="notice">${esc(t('provinceNotice')(d.candidacies.status))}</p>`
+      ? `<p class="notice">${esc(t('provinceNotice')(d.candidacies.status))}${
+          loc(d.candidacies.notes?.[state.province]) ? `<br>${esc(loc(d.candidacies.notes[state.province]))}` : ''
+        }</p>`
       : '';
   const cards = answeredCount === 0 ? `<p class="notice">${esc(t('resultsNoAnswers'))}</p>` : results.map((r) => viewPartyResult(r, inProv)).join('');
 
