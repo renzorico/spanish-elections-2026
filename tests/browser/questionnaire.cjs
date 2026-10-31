@@ -91,12 +91,12 @@ const ok = (c, m) => {
   // D-001: reference page mid-quiz keeps answers; browser Back works
   await p.click('header a[href="metodologia.html"]');
   await p.waitForSelector('#ref-body h1');
-  ok(await p.waitForSelector('#coverage table', { timeout: 5000 }).then(() => true).catch(() => false), 'D-001 methodology opens inside the app with the coverage table');
+  ok(await p.waitForSelector("[data-coverage] table", { timeout: 5000 }).then(() => true).catch(() => false), 'D-001 methodology opens inside the app with the coverage table');
   await p.click('[data-act=close-ref]');
   await p.waitForSelector('#q-text');
   ok((await qtext()) === q3, 'D-001 returning from the reference page restores the same question');
   await p.click('header a[href="eleccion.html"]');
-  await p.waitForSelector('#ref-body .steps');
+  await p.waitForSelector("#ref-body .ballots");
   await p.goBack();
   await p.waitForSelector('#q-text');
   ok((await qtext()) === q3, 'D-001 browser Back from a reference page restores the question');

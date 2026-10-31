@@ -1,6 +1,6 @@
-// Script for the standalone reference pages (election explainer, methodology):
-// language toggle and the data-coverage table on the methodology page.
-import { applyLang, renderCoverage } from './reference.js';
+// Script for the standalone reference pages ("Cómo se vota", "Metodología"):
+// language toggle, data widgets and the contents list.
+import { applyLang, enhanceReference } from './reference.js';
 
 const params = new URLSearchParams(location.search);
 let lang = params.get('lang') === 'en' ? 'en' : 'es';
@@ -25,10 +25,6 @@ document.getElementById('lang')?.addEventListener('click', () => {
   else url.searchParams.delete('lang');
   history.replaceState(null, '', url);
   apply();
-  const cov = document.getElementById('coverage');
-  if (cov?.querySelector('table, [role=alert]')) renderCoverage(cov, lang, apply);
 });
 apply();
-
-const cov = document.getElementById('coverage');
-if (cov) renderCoverage(cov, lang, apply);
+enhanceReference(document.querySelector('main') || document);

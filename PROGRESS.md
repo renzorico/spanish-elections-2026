@@ -40,3 +40,10 @@ Owner's choices: logo B (hemicycle), hero keeps the big "30" tile inside a regul
 Exports rebuilt as vector PDFs with embedded Fraunces/Atkinson (site/js/pdf.js, report.js): full report (ranking, observations, topic map, every answer with party positions, return-to-results link) and a one-page summary to share (top 3 parties with enough data, invitation + QR; also as PNG). Restore link: site/js/restore.js (#r= fragment, never sent to servers).
 Phone review done at 390 px and 320 px: sticky Previous/Next, short topic names in tiles, 2×2 facts, swipe hint on the topic map, no horizontal overflow. Tests: 48 unit, 51 browser checks.
 Open: party logos (licence check in progress; monograms until then).
+
+## Reference pages redesign (31 Oct 2026)
+"Cómo se vota" and "Metodología" rebuilt in the current design system: sticky contents list (chips on phones), numbered sections with a one-line summary, one visual each and details collapsed.
+- Cómo se vota: key facts, illustrated Congreso/Senado ballots, 3 % rule + worked D'Hondt example, "how many deputies does your province elect" widget (seats, lists analysed, approximate effective threshold), investiture flow, timeline, practical voting cards with official links, sources.
+- Metodología: inclusion criteria + party chips, statement rules + 15/15 polarity bar, stance chips, confidence ladder, "nothing is inferred" callout, 3-step calculation + full agreement grid, results/downloads, privacy, limitations, per-party coverage bars, corrections.
+- Shared widgets in site/js/reference.js (enhanceReference), used by the standalone pages and inside the app; in-page links scroll without touching the URL so the app's history is not affected.
+- Fixed in passing: reference pages' CSP now allows the site's inline select icon; party-detail header no longer overflows at 320 px.
