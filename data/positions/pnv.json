@@ -16,14 +16,18 @@
           "date": "2023-07-23",
           "quote": "Pero no podemos compartir las propuestas que erosionen nuestro autogobierno y menoscaben al Parlamento Vasco",
           "accessed": "2026-10-31",
-          "page": "p. 45"
+          "page": "p. 45",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-alquiler-rdl8-2026-04-28",
         "v-alquiler-temporada-2024-12-17"
       ],
-      "note": "El programa 2023 apoya fomentar el alquiler y la vivienda pública y rechaza propuestas estatales que 'erosionen nuestro autogobierno', sin pronunciarse sobre limitar precios."
+      "note": {
+        "es": "El programa de 2023 apoya fomentar el alquiler y la vivienda pública y rechaza las propuestas estatales que «erosionen nuestro autogobierno», sin pronunciarse sobre limitar los precios.",
+        "en": "The 2023 program supports promoting rentals and public housing and rejects state proposals that «erode our self-government», without taking a stance on limiting prices."
+      }
     },
     {
       "statement": "viv-desalojo-rapido",
@@ -37,7 +41,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-03-18",
           "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
@@ -45,7 +50,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-05-19",
           "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/docu/tramit/LegXV/AT/ATCD_15_PL_20260519.pdf",
@@ -54,14 +60,18 @@
           "date": "2026-05-19",
           "quote": "a nuestro grupo parlamentario lo encontrarán en el camino de hallar respuestas judiciales eficaces desde el momento inicial del proceso para recuperación inmediata de la propiedad usurpada",
           "accessed": "2026-10-31",
-          "page": "p. 10 (Legarda Uriarte, GV)"
+          "page": "p. 10 (Legarda Uriarte, GV)",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-okupacion-junts-2025-03-18",
         "v-okupacion-pp-2026-05-19"
       ],
-      "note": "Votó Sí a tramitar la ley de Junts (2025). Se abstuvo en la del PP (2026) porque rechaza que la policía desaloje sin orden judicial, pero su portavoz defendió una recuperación judicial inmediata. Pide además atención social a los ocupantes vulnerables."
+      "note": {
+        "es": "Votó Sí a tramitar la ley de Junts (2025) y se abstuvo en la del PP (2026), porque rechaza que la policía desaloje sin orden judicial. Su portavoz defendió una recuperación judicial inmediata y pidió atención social para los ocupantes vulnerables.",
+        "en": "It voted Yes on taking up Junts' bill (2025) and abstained on the PP's (2026), because it rejects police evictions without a court order. Its spokesperson defended immediate recovery through the courts and asked for social support for vulnerable occupants."
+      }
     },
     {
       "statement": "eco-suprimir-impuesto-fortunas",
@@ -75,11 +85,15 @@
           "publisher": "EAJ-PNV",
           "date": "2023-07-01",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. El programa 2023 no trata el ITSGF ni el Impuesto sobre el Patrimonio estatal (en Euskadi la fiscalidad es foral)."
+      "note": {
+        "es": "El programa de 2023 no trata este impuesto ni el Impuesto sobre el Patrimonio estatal (en Euskadi la fiscalidad es foral).",
+        "en": "The 2023 program covers neither this tax nor the state Wealth Tax (taxation in the Basque Country is set by its provincial authorities)."
+      }
     },
     {
       "statement": "eco-bajar-irpf",
@@ -93,7 +107,8 @@
           "publisher": "EAJ-PNV",
           "date": "2023-07-01",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
@@ -101,7 +116,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
@@ -109,7 +125,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-06-12",
           "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
@@ -117,7 +134,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-04-22",
           "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
@@ -125,7 +143,10 @@
         "v-irpf-deflactar-2025-06-12",
         "v-irpf-deflactar-mocion-2026-04-22"
       ],
-      "note": "El programa 2023 no trata el IRPF estatal (en Euskadi es foral). Se abstuvo en las tres votaciones relacionadas. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: abstención; PNL del PP de 12/06/2025: abstención; punto 1 de la moción del PP de 22/04/2026: abstención."
+      "note": {
+        "es": "El programa de 2023 no trata el IRPF estatal (en Euskadi es foral). Se abstuvo en las tres votaciones relacionadas sobre deflactar el IRPF (PNL del PP de 2024 y 2025 y moción del PP de 2026), que solo sirven de contexto.",
+        "en": "The 2023 program does not address the state income tax (in the Basque Country it is set by the provincial authorities). It abstained in all three related votes on adjusting income tax for inflation (PP motions in 2024, 2025 and 2026), which are context only."
+      }
     },
     {
       "statement": "eco-impuesto-energeticas",
@@ -139,7 +160,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-01-22",
           "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://congreso.eaj-pnv.eus/es/noticias/56081/el-grupo-vasco-logra-la-concertacion-con-capacidad",
@@ -147,7 +169,8 @@
           "publisher": "EAJ-PNV",
           "date": "2024-10",
           "quote": "El gravamen a energéticas decaerá por factores externos a la formación jeltzale, que ha mostrado su voluntad de convertir en impuesto y concertar dicho tributo.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.eaj-pnv.eus/es/noticias/56223/aitor-esteban-no-participara-en-el-paripe-promovid/",
@@ -155,7 +178,8 @@
           "publisher": "EAJ-PNV",
           "date": "2024-12-11",
           "quote": "reformar el Impuesto de Sociedades para dejar de hacer parches impositivos que generan inseguridad jurídica",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
@@ -164,13 +188,17 @@
           "date": "2023-07",
           "quote": "en caso de querer mantenerlas, deberían incluirse en una reforma tributaria y tramitarse como impuestos",
           "accessed": "2026-10-31",
-          "page": "p. 16"
+          "page": "p. 16",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó en contra de convalidar el RDL 10/2024 (votación directa, 22/01/2025). Evidencia matizada: el PNV dijo estar dispuesto a convertir el gravamen en impuesto concertable y su programa 2023 lo admitiría solo como impuesto tras una reforma tributaria; en diciembre de 2024 pidió dejar los «parches impositivos». Se mantiene disagree con confianza media por esa matización. Abstención en la PNL de 2026 (solo contexto)."
+      "note": {
+        "es": "Votó en contra de convalidar el RDL 10/2024 (votación directa, 22/01/2025). La evidencia es matizada: el PNV se mostró dispuesto a convertir el gravamen en impuesto concertable, su programa de 2023 solo lo admitiría tras una reforma tributaria y en diciembre de 2024 pidió dejar los «parches impositivos». Por eso la confianza es media.",
+        "en": "It voted against validating Royal Decree-law 10/2024 (direct vote, 22 Jan 2025). The evidence is mixed: the PNV said it was willing to turn the levy into a tax agreed with the Basque authorities, its 2023 program would accept it only after a tax reform, and in December 2024 it called for an end to «tax patches». Confidence is therefore medium."
+      }
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -184,7 +212,8 @@
           "publisher": "EAJ-PNV (Grupo Vasco en el Congreso)",
           "date": "2024-10-30",
           "quote": "El Grupo Vasco logra la concertación con capacidad normativa de los impuestos a grupos multinacionales y banca, que serán así regulados por las haciendas forales",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-82.PDF",
@@ -193,7 +222,8 @@
           "date": "2024-11-21",
           "quote": "llegamos a un acuerdo dentro de ese común denominador, con la condición de que aquellos impuestos que se aprueben sean concertados",
           "accessed": "2026-10-31",
-          "page": "p. 60 del PDF (Sagastizabal Unzetabarrenetxea, GV)"
+          "page": "p. 60 del PDF (Sagastizabal Unzetabarrenetxea, GV)",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
@@ -201,13 +231,17 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-11-21",
           "quote": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el […]",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-impuesto-banca-ley7-2024-11-21"
       ],
-      "note": "El PNV apoyó el impuesto a cambio de que fuera concertado con las haciendas forales, lo que consiguió. Nunca pidió suprimirlo. Votó Sí al dictamen de la Ley 7/2024 (21/11/2024), que creó el impuesto junto con otros tributos (votación relacionada, solo contexto)."
+      "note": {
+        "es": "El PNV apoyó el impuesto a cambio de que fuera concertado con las haciendas forales, lo que consiguió, y nunca pidió suprimirlo. Votó Sí al dictamen de la Ley 7/2024 (21/11/2024), que lo creó junto con otros tributos (votación relacionada, solo contexto).",
+        "en": "The PNV backed the tax in exchange for it being agreed with the provincial treasuries, which it obtained, and never asked to abolish it. It voted Yes on the report for Law 7/2024 (21 Nov 2024), which created it together with other taxes (related vote, context only)."
+      }
     },
     {
       "statement": "tra-jornada-37h",
@@ -221,14 +255,18 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-09-10",
           "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-jornada-totalidad-2025-09-10",
         "v-jornada-pnl-2024-02-22"
       ],
-      "note": "El PNV votó No (5) a las enmiendas de devolución al proyecto de ley de 37,5 horas (10-09-2025), permitiendo su tramitación."
+      "note": {
+        "es": "Votó No a las enmiendas de devolución al proyecto de ley de 37,5 horas (10/09/2025), lo que permitió su tramitación.",
+        "en": "It voted No on the amendments seeking to reject the 37.5-hour bill (10 Sep 2025), allowing it to proceed."
+      }
     },
     {
       "statement": "tra-salario-minimo",
@@ -242,11 +280,15 @@
           "publisher": "EAJ-PNV",
           "date": "2023-07-01",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. El programa 2023 no trata el SMI (buscado: salario mínimo, SMI, salario medio)."
+      "note": {
+        "es": "El programa de 2023 no trata el salario mínimo (se buscó: salario mínimo, SMI, salario medio).",
+        "en": "The 2023 program does not address the minimum wage (searched for: minimum wage, SMI, average wage)."
+      }
     },
     {
       "statement": "san-gestion-privada",
@@ -260,11 +302,15 @@
           "publisher": "EAJ-PNV",
           "date": "2023-07-23",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas."
+      "note": {
+        "es": "No se encontró posición en el programa de 2023 ni en las declaraciones revisadas.",
+        "en": "No position was found in the 2023 program or in the statements reviewed."
+      }
     },
     {
       "statement": "san-dental-publica",
@@ -277,11 +323,15 @@
           "publisher": "EAJ-PNV",
           "date": "2023-07",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El programa 2023 no trata la cobertura dental.",
+      "note": {
+        "es": "El programa de 2023 no trata la cobertura dental.",
+        "en": "The 2023 program does not address dental coverage."
+      },
       "confidence": null
     },
     {
@@ -296,13 +346,17 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-04-30",
           "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de reforma del artículo 43 de la Constitución Española, presentadas por los Grupos Parlamentarios Popular en el Congreso y VOX.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-aborto-constitucion-totalidad-2026-04-30"
       ],
-      "note": "El PNV votó No (5) a las enmiendas de devolución de PP y Vox contra la reforma del art. 43 (30-04-2026)."
+      "note": {
+        "es": "Votó No a las enmiendas de devolución de PP y Vox contra la reforma del artículo 43 de la Constitución (30/04/2026), lo que permitió seguir adelante con la reforma.",
+        "en": "It voted No on the PP and Vox amendments seeking to reject the reform of Article 43 of the Constitution (30 Apr 2026), allowing it to proceed."
+      }
     },
     {
       "statement": "der-derogar-eutanasia",
@@ -316,11 +370,15 @@
           "publisher": "EAJ-PNV",
           "date": "2023-07-23",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni votación XV específica. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "No se encontró posición en el programa de 2023 ni votación específica en esta legislatura.",
+        "en": "No position was found in the 2023 program, and there is no specific vote in this legislature."
+      }
     },
     {
       "statement": "der-cambio-sexo-informe",
@@ -335,11 +393,15 @@
           "date": "2023-07-01",
           "quote": "realizará en colaboración con el colectivo el seguimiento tanto del cumplimiento de la legislación aprobada",
           "page": "p. 27 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "Compromiso genérico con la legislación LGTBI; nada sobre el cambio registral sin informes."
+      "note": {
+        "es": "Compromiso genérico con la legislación LGTBI; el programa no dice nada sobre el cambio registral de sexo sin informes.",
+        "en": "A general commitment to LGTBI legislation; the program says nothing about changing the registered sex without medical reports."
+      }
     },
     {
       "statement": "inm-regularizacion",
@@ -353,7 +415,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
@@ -361,7 +424,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-03-18",
           "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
@@ -370,7 +434,8 @@
           "date": "2026-03-17",
           "quote": "la admitimos a trámite considerando que debía orientarse a una regularización extraordinaria caso por caso, por motivos humanitarios, por reagrupaciones familiares o vinculada a razones económicas y demográficas",
           "page": "p. 61 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
@@ -379,7 +444,8 @@
           "date": "2026-03-17",
           "quote": "los fenómenos estructurales no se pueden despachar con regularizaciones puntuales cada cierto tiempo realizadas por ambos partidos cuando han estado al frente del Gobierno.",
           "page": "p. 61 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
@@ -387,7 +453,10 @@
         "v-regularizacion-pnl-2025-02-26",
         "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "El PNV votó sí a tramitar la ILP (2024) y no (5) a la moción del PP contra la regularización (18/3/2026), pero su portavoz matizó que la quiere «caso por caso», adaptada a la realidad vasca, y criticó las «regularizaciones puntuales». Por esa reserva se rebaja la confianza a media."
+      "note": {
+        "es": "Votó sí a tramitar la ILP (2024) y no a la moción del PP contra la regularización (18/03/2026), pero su portavoz matizó que la quiere «caso por caso», adaptada a la realidad vasca, y criticó las «regularizaciones puntuales». Por esa reserva la confianza es media.",
+        "en": "It voted yes on taking up the citizens' bill (2024) and no on the PP motion against regularisation (18 Mar 2026), but its spokesperson said it should be «case by case», adapted to Basque circumstances, and criticised «one-off regularisations». Because of this reservation, confidence is medium."
+      }
     },
     {
       "statement": "inm-reparto-menores",
@@ -401,7 +470,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-04-10",
           "quote": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
@@ -410,14 +480,18 @@
           "date": "2023-07-23",
           "quote": "Adopción de medidas para una equitativa distribución de menores migrantes no acompañados y de personas demandantes de asilo.",
           "accessed": "2026-10-31",
-          "page": "p. 10"
+          "page": "p. 10",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-menores-rdl2-2025-04-10",
         "v-menores-lo4-2000-2024-07-23"
       ],
-      "note": "Votó Sí (5) a convalidar el RDL 2/2025 (10-04-2025)."
+      "note": {
+        "es": "Votó Sí a convalidar el RDL 2/2025 (10/04/2025).",
+        "en": "It voted Yes on validating Royal Decree-law 2/2025 (10 Apr 2025)."
+      }
     },
     {
       "statement": "inm-devolver-irregulares",
@@ -432,11 +506,15 @@
           "date": "2023-07-01",
           "quote": "velaremos por la aplicación de alternativas a la privación de libertad en los Centros de Internamiento de Extranjeros (CIE), por la reforma del Reglamento de los CIE",
           "accessed": "2026-10-31",
-          "page": "p. 11 del PDF"
+          "page": "p. 11 del PDF",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "Pide alternativas a la privación de libertad y reformar el reglamento de los CIE, y garantías en las devoluciones en caliente; no rechaza ni defiende acelerar las devoluciones."
+      "note": {
+        "es": "Pide alternativas a la privación de libertad, reformar el reglamento de los CIE y garantías en las devoluciones en caliente; no rechaza ni defiende acelerar las devoluciones.",
+        "en": "It asks for alternatives to detention, a reform of the rules for immigration detention centres (CIE) and safeguards in summary returns at the border; it neither rejects nor defends speeding up returns."
+      }
     },
     {
       "statement": "cli-nucleares",
@@ -450,14 +528,18 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-02-12",
           "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, sobre el cierre programado de la generación nuclear en España.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-nucleares-pnl-2025-02-12",
         "v-nucleares-pl-2025-06-17"
       ],
-      "note": "Votó No (5) a la PNL del PP sobre el cierre programado de las nucleares (12-02-2025)."
+      "note": {
+        "es": "Votó No a la PNL del PP sobre el cierre programado de las nucleares (12/02/2025).",
+        "en": "It voted No on the PP motion on the scheduled closure of nuclear plants (12 Feb 2025)."
+      }
     },
     {
       "statement": "cli-coches-combustion-despues-2035",
@@ -471,11 +553,15 @@
           "publisher": "EAJ-PNV",
           "date": "2023-07-23",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "No se encontró posición en el programa de 2023 ni en las declaraciones revisadas.",
+        "en": "No position was found in the 2023 program or in the statements reviewed."
+      }
     },
     {
       "statement": "ter-amnistia",
@@ -489,13 +575,17 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-03-14",
           "quote": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-amnistia-2024-03-14"
       ],
-      "note": "Votó Sí (5) a la ley de amnistía (14-03-2024)."
+      "note": {
+        "es": "Votó Sí a la ley de amnistía (14/03/2024).",
+        "en": "It voted Yes on the amnesty law (14 Mar 2024)."
+      }
     },
     {
       "statement": "ter-referendum",
@@ -510,7 +600,8 @@
           "date": "2023-07-23",
           "quote": "Seguiremos defendiendo a Euskadi en Madrid. Planteando el derecho a decidir nuestro futuro",
           "accessed": "2026-10-31",
-          "page": "p. 3"
+          "page": "p. 3",
+          "lang": "es"
         },
         {
           "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
@@ -519,11 +610,15 @@
           "date": "2023-07-23",
           "quote": "EAJ-PNV defenderá el reconocimiento nacional de Euskadi y la bilateralidad en relación con el Estado a través de un ejercicio compartido de la soberanía.",
           "accessed": "2026-10-31",
-          "page": "p. 6"
+          "page": "p. 6",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El programa defiende el 'derecho a decidir' y la bilateralidad con el Estado, sin usar la palabra referéndum."
+      "note": {
+        "es": "El programa defiende el «derecho a decidir» y la bilateralidad con el Estado, sin usar la palabra referéndum.",
+        "en": "The program defends the «right to decide» and bilateral relations with the State, without using the word referendum."
+      }
     },
     {
       "statement": "ter-concierto-ccaa",
@@ -537,13 +632,17 @@
           "publisher": "PNV",
           "date": "2023-07-01",
           "quote": "compromete a defender con convicción y determinación nuestro Estatuto, el Concierto Económico y la nación vasca",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "Defiende el Concierto vasco propio; no se encontró posición sobre que otras comunidades lo tengan. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (El PNV se abstuvo.)"
+      "note": {
+        "es": "Defiende el Concierto vasco propio; no se encontró posición sobre que otras comunidades lo tengan. Se abstuvo en la moción de ERC sobre financiación singular para Cataluña (23/04/2024), votación relacionada que solo sirve de contexto.",
+        "en": "It defends the Basque Economic Agreement for itself; no position was found on other regions having one. It abstained on ERC's motion on singular financing for Catalonia (23 Apr 2024), a related vote that is context only."
+      }
     },
     {
       "statement": "ter-recentralizar",
@@ -558,7 +657,8 @@
           "date": "2023-07-23",
           "quote": "EAJ-PNV se seguirá oponiendo frontalmente a la visión y tentación recentralizadora existente que pueda afectar a Euskadi.",
           "accessed": "2026-10-31",
-          "page": "p. 6"
+          "page": "p. 6",
+          "lang": "es"
         }
       ],
       "vote_refs": []
@@ -575,7 +675,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2023-09-21",
           "quote": "Proposición de reforma del Reglamento del Congreso de los Diputados.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
@@ -584,13 +685,17 @@
           "date": "2023-07-23",
           "quote": "Respeto a las lenguas oficiales. Defenderemos el derecho de las personas al uso de su lengua propia, la correcta aplicación de la cooficialidad y su pleno uso en todos los ámbitos dependientes de la Administración del Estado.",
           "accessed": "2026-10-31",
-          "page": "p. 8"
+          "page": "p. 8",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
       ],
-      "note": "Votó Sí (5) a la reforma del Reglamento (21-09-2023). [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "Votó Sí a la reforma del Reglamento del Congreso que permite el uso de las lenguas cooficiales (21/09/2023).",
+        "en": "It voted Yes on the reform of the Congress rules allowing the use of co-official languages (21 Sep 2023)."
+      }
     },
     {
       "statement": "edu-concertada",
@@ -604,11 +709,15 @@
           "publisher": "EAJ-PNV",
           "date": "2023-07-23",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas."
+      "note": {
+        "es": "No se encontró posición en el programa de 2023 ni en las declaraciones revisadas.",
+        "en": "No position was found in the 2023 program or in the statements reviewed."
+      }
     },
     {
       "statement": "edu-lengua-castellano",
@@ -622,11 +731,15 @@
           "publisher": "EAJ-PNV",
           "date": "2023-07-23",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El programa 2023 defiende la cooficialidad y el uso del euskera, sin pronunciarse expresamente sobre la elección de lengua vehicular en la escuela."
+      "note": {
+        "es": "El programa de 2023 defiende la cooficialidad y el uso del euskera, sin pronunciarse expresamente sobre la elección de lengua vehicular en la escuela.",
+        "en": "The 2023 program defends the co-official status and use of Basque, without expressly taking a stance on the choice of language of instruction at school."
+      }
     },
     {
       "statement": "ins-cgpj",
@@ -640,7 +753,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-02-27",
           "quote": "Orgánica por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para la reforma del procedimiento de elección de los vocales del Consejo General del Poder Judicial.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.elobservador.com.uy/espana/el-congreso-rechaza-que-los-jueces-puedan-elegir-la-mayoria-de-los-vocales-del-poder-judicial-2024227194732",
@@ -648,14 +762,18 @@
           "publisher": "El Observador (EFE)",
           "date": "2024-02-27",
           "quote": "el nombramiento parlamentario de los vocales no menoscaba la independencia del Consejo",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-cgpj-vox-2024-02-27",
         "v-cgpj-pp-2026-09-10"
       ],
-      "note": "Votó No (5) a la proposición de Vox (27-02-2024); su portavoz Mikel Legarda defendió el nombramiento parlamentario."
+      "note": {
+        "es": "Votó No a la proposición de Vox (27/02/2024); su portavoz Mikel Legarda defendió el nombramiento parlamentario de los vocales.",
+        "en": "It voted No on Vox's bill (27 Feb 2024); its spokesperson Mikel Legarda defended parliamentary appointment of the members."
+      }
     },
     {
       "statement": "ins-referendum-monarquia",
@@ -669,11 +787,15 @@
           "publisher": "EAJ-PNV",
           "date": "2023-07-01",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El programa 2023 pide suprimir la inviolabilidad del Rey en actos no institucionales, pero no propone un referéndum entre monarquía y república."
+      "note": {
+        "es": "El programa de 2023 pide suprimir la inviolabilidad del Rey en actos no institucionales, pero no propone un referéndum entre monarquía y república.",
+        "en": "The 2023 program calls for ending the King's inviolability for non-institutional acts, but does not propose a referendum between monarchy and republic."
+      }
     },
     {
       "statement": "ins-derogar-memoria",
@@ -688,7 +810,8 @@
           "date": "2023-07-23",
           "quote": "Plena aplicación de la Ley de la Memoria Histórica y de la Ley de Memoria Democrática.",
           "accessed": "2026-10-31",
-          "page": "p. 9"
+          "page": "p. 9",
+          "lang": "es"
         }
       ],
       "vote_refs": [
@@ -709,7 +832,8 @@
           "date": "2025-07-09",
           "quote": "Yo no voy a entrar en el tanto por ciento del PIB necesario para cubrir las obligaciones y los objetivos de capacidades requeridas por la OTAN",
           "page": "p. 21 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
@@ -717,11 +841,15 @@
           "publisher": "EAJ-PNV",
           "date": "2023-07-01",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "La portavoz del PNV declinó expresamente pronunciarse sobre el porcentaje."
+      "note": {
+        "es": "La portavoz del PNV declinó expresamente pronunciarse sobre el porcentaje del PIB.",
+        "en": "The PNV spokesperson expressly declined to take a stance on the percentage of GDP."
+      }
     },
     {
       "statement": "ext-embargo-israel",
@@ -735,14 +863,18 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-10-08",
           "quote": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-embargo-israel-rdl-2025-10-08",
         "v-embargo-ley-2025-05-20"
       ],
-      "note": "Votó Sí (4 Sí, 1 no vota) a convalidar el RDL 10/2025, que incluye el embargo de armas a Israel (08-10-2025)."
+      "note": {
+        "es": "Votó Sí (4 a favor y 1 sin votar) a convalidar el RDL 10/2025, que incluye el embargo de armas a Israel (08/10/2025).",
+        "en": "It voted Yes (4 in favour, 1 not voting) on validating Royal Decree-law 10/2025, which includes the arms embargo on Israel (8 Oct 2025)."
+      }
     }
   ]
 }
