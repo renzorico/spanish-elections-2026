@@ -1,0 +1,31 @@
+- link "Skip to content":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "How the election works":
+      - /url: eleccion.html?lang=en
+    - link "Methodology":
+      - /url: metodologia.html?lang=en
+    - button "Español"
+- main:
+  - paragraph: "Statement 1 of 30 · Topic: Rights and freedoms"
+  - heading "A medical or psychological report should be required to change one's legal sex at the civil registry." [level=2]
+  - generic "Context"
+  - group "A medical or psychological report should be required to change one's legal sex at the civil registry.":
+    - generic: Your answer
+    - radio "Strongly disagree"
+    - generic: Strongly disagree
+    - radio "Disagree" [checked] [active]
+    - generic: Disagree
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "Agree"
+    - generic: Agree
+    - radio "Strongly agree"
+    - generic: Strongly agree
+  - button "Back"
+  - button "Skip this question"
+- contentinfo:
+  - paragraph: Independent, non-profit tool, not linked to any party. Positions are based on programs, votes and public statements with linked sources; they may contain errors — check the sources.

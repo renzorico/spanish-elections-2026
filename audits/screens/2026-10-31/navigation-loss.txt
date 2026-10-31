@@ -1,0 +1,25 @@
+- link "Skip to content":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "How the election works":
+      - /url: eleccion.html?lang=en
+    - link "Methodology":
+      - /url: metodologia.html?lang=en
+    - button "Español"
+- main:
+  - 'heading "2026 general election: compare your views with the parties" [level=1]'
+  - paragraph: On Sunday 29 November 2026 Spain elects its Congreso de los Diputados and Senate. This independent tool helps you see which parties hold positions closest to yours, topic by topic.
+  - paragraph:
+    - strong: "It does not tell you whom to vote for. It does not store your answers: everything is computed in your browser."
+  - 'generic "In one minute: what is elected on 29 November"'
+  - paragraph:
+    - time: 29/11/2026
+    - text: ·
+    - link "BOE 2026-10-06":
+      - /url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742
+  - button "Start"
+- contentinfo:
+  - paragraph: Independent, non-profit tool, not linked to any party. Positions are based on programs, votes and public statements with linked sources; they may contain errors — check the sources.

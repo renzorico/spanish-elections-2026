@@ -1,0 +1,927 @@
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 2 de 30 · Tema: Modelo territorial"
+  - heading "La educación y la sanidad deberían volver a ser gestionadas por el Estado central en lugar de por las comunidades autónomas." [active] [level=2]
+  - generic "Contexto"
+  - group "La educación y la sanidad deberían volver a ser gestionadas por el Estado central en lugar de por las comunidades autónomas.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 3 de 30 · Tema: Trabajo"
+  - heading "El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio." [active] [level=2]
+  - generic "Contexto"
+  - group "El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 4 de 30 · Tema: Vivienda"
+  - heading "Debería acelerarse por ley el desalojo de viviendas ocupadas sin permiso del propietario." [active] [level=2]
+  - generic "Contexto"
+  - group "Debería acelerarse por ley el desalojo de viviendas ocupadas sin permiso del propietario.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 5 de 30 · Tema: Política exterior y defensa"
+  - heading "España debería aumentar su gasto en defensa hasta el 3,5 % del PIB, el objetivo acordado en la OTAN en 2025." [active] [level=2]
+  - generic "Contexto"
+  - group "España debería aumentar su gasto en defensa hasta el 3,5 % del PIB, el objetivo acordado en la OTAN en 2025.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 6 de 30 · Tema: Modelo territorial"
+  - heading "En los debates del Congreso solo debería poder usarse el castellano." [active] [level=2]
+  - generic "Contexto"
+  - group "En los debates del Congreso solo debería poder usarse el castellano.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 7 de 30 · Tema: Justicia e instituciones"
+  - heading "Los jueces deberían elegir directamente a la mayoría de los miembros del Consejo General del Poder Judicial, en lugar del Congreso y el Senado." [active] [level=2]
+  - generic "Contexto"
+  - group "Los jueces deberían elegir directamente a la mayoría de los miembros del Consejo General del Poder Judicial, en lugar del Congreso y el Senado.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 8 de 30 · Tema: Justicia e instituciones"
+  - heading "Debería derogarse la Ley de Memoria Democrática de 2022." [active] [level=2]
+  - generic "Contexto"
+  - group "Debería derogarse la Ley de Memoria Democrática de 2022.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 9 de 30 · Tema: Vivienda"
+  - heading "Las administraciones deberían poder limitar el precio del alquiler en las zonas donde es especialmente alto." [active] [level=2]
+  - generic "Contexto"
+  - group "Las administraciones deberían poder limitar el precio del alquiler en las zonas donde es especialmente alto.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 10 de 30 · Tema: Sanidad"
+  - heading "La sanidad pública debería cubrir la atención dental general (empastes, endodoncias, prótesis) para toda la población." [active] [level=2]
+  - generic "Contexto"
+  - group "La sanidad pública debería cubrir la atención dental general (empastes, endodoncias, prótesis) para toda la población.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 11 de 30 · Tema: Inmigración"
+  - heading "España debería reducir el número de personas inmigrantes que llegan cada año." [active] [level=2]
+  - generic "Contexto"
+  - group "España debería reducir el número de personas inmigrantes que llegan cada año.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 12 de 30 · Tema: Educación"
+  - heading "Debería reducirse la financiación pública de los colegios concertados para destinarla a la escuela pública." [active] [level=2]
+  - generic "Contexto"
+  - group "Debería reducirse la financiación pública de los colegios concertados para destinarla a la escuela pública.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 13 de 30 · Tema: Economía e impuestos"
+  - heading "Debería eliminarse el impuesto especial a la banca." [active] [level=2]
+  - generic "Contexto"
+  - group "Debería eliminarse el impuesto especial a la banca.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 14 de 30 · Tema: Inmigración"
+  - heading "Todas las comunidades autónomas deberían estar obligadas a acoger a menores migrantes no acompañados según un reparto fijado por el Estado." [active] [level=2]
+  - generic "Contexto"
+  - group "Todas las comunidades autónomas deberían estar obligadas a acoger a menores migrantes no acompañados según un reparto fijado por el Estado.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 15 de 30 · Tema: Política exterior y defensa"
+  - heading "España debería mantener la prohibición de comprar y vender armas a Israel." [active] [level=2]
+  - generic "Contexto"
+  - group "España debería mantener la prohibición de comprar y vender armas a Israel.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 16 de 30 · Tema: Economía e impuestos"
+  - heading "Deberían bajarse los impuestos sobre la renta (IRPF)." [active] [level=2]
+  - generic "Contexto"
+  - group "Deberían bajarse los impuestos sobre la renta (IRPF).":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 17 de 30 · Tema: Modelo territorial"
+  - heading "Una comunidad autónoma debería poder votar en referéndum si quiere independizarse, si lo acuerda con el Estado." [active] [level=2]
+  - generic "Contexto"
+  - group "Una comunidad autónoma debería poder votar en referéndum si quiere independizarse, si lo acuerda con el Estado.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 18 de 30 · Tema: Justicia e instituciones"
+  - heading "Debería celebrarse un referéndum para que la ciudadanía elija entre monarquía y república." [active] [level=2]
+  - generic "Contexto"
+  - group "Debería celebrarse un referéndum para que la ciudadanía elija entre monarquía y república.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 19 de 30 · Tema: Modelo territorial"
+  - heading "Debería mantenerse la ley de amnistía para las personas implicadas en el proceso independentista de Cataluña." [active] [level=2]
+  - generic "Contexto"
+  - group "Debería mantenerse la ley de amnistía para las personas implicadas en el proceso independentista de Cataluña.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 20 de 30 · Tema: Economía e impuestos"
+  - heading "Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)." [active] [level=2]
+  - generic "Contexto"
+  - group "Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros).":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 21 de 30 · Tema: Derechos y libertades"
+  - heading "Debería derogarse la ley que regula la eutanasia." [active] [level=2]
+  - generic "Contexto"
+  - group "Debería derogarse la ley que regula la eutanasia.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 22 de 30 · Tema: Clima y energía"
+  - heading "Las centrales nucleares deberían seguir funcionando más allá del calendario de cierre previsto." [active] [level=2]
+  - generic "Contexto"
+  - group "Las centrales nucleares deberían seguir funcionando más allá del calendario de cierre previsto.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 23 de 30 · Tema: Clima y energía"
+  - heading "Debería permitirse vender coches nuevos de gasolina o diésel también después de 2035." [active] [level=2]
+  - generic "Contexto"
+  - group "Debería permitirse vender coches nuevos de gasolina o diésel también después de 2035.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 24 de 30 · Tema: Economía e impuestos"
+  - heading "Debería volver a aplicarse un impuesto especial sobre los beneficios de las grandes empresas energéticas." [active] [level=2]
+  - generic "Contexto"
+  - group "Debería volver a aplicarse un impuesto especial sobre los beneficios de las grandes empresas energéticas.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 25 de 30 · Tema: Inmigración"
+  - heading "Deberían hacerse regularizaciones extraordinarias de las personas extranjeras que ya viven en España sin permiso de residencia." [active] [level=2]
+  - generic "Contexto"
+  - group "Deberían hacerse regularizaciones extraordinarias de las personas extranjeras que ya viven en España sin permiso de residencia.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 26 de 30 · Tema: Sanidad"
+  - heading "Debería limitarse por ley que la sanidad pública encargue la gestión de hospitales o servicios a empresas privadas." [active] [level=2]
+  - generic "Contexto"
+  - group "Debería limitarse por ley que la sanidad pública encargue la gestión de hospitales o servicios a empresas privadas.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 27 de 30 · Tema: Derechos y libertades"
+  - heading "El derecho al aborto debería incluirse en la Constitución." [active] [level=2]
+  - generic "Contexto"
+  - group "El derecho al aborto debería incluirse en la Constitución.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 28 de 30 · Tema: Trabajo"
+  - heading "La jornada laboral máxima debería reducirse por ley a 37,5 horas semanales sin bajar el salario." [active] [level=2]
+  - generic "Contexto"
+  - group "La jornada laboral máxima debería reducirse por ley a 37,5 horas semanales sin bajar el salario.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 29 de 30 · Tema: Educación"
+  - heading "Las familias deberían poder elegir que sus hijos estudien principalmente en castellano en cualquier comunidad autónoma." [active] [level=2]
+  - generic "Contexto"
+  - group "Las familias deberían poder elegir que sus hijos estudien principalmente en castellano en cualquier comunidad autónoma.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."
+
+- link "Saltar al contenido":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "Cómo funciona la elección":
+      - /url: eleccion.html
+    - link "Metodología":
+      - /url: metodologia.html
+    - button "English"
+- main:
+  - paragraph: "Afirmación 30 de 30 · Tema: Modelo territorial"
+  - heading "Las comunidades autónomas que lo pidan deberían poder recaudar y gestionar todos sus impuestos, como hacen el País Vasco y Navarra." [active] [level=2]
+  - generic "Contexto"
+  - group "Las comunidades autónomas que lo pidan deberían poder recaudar y gestionar todos sus impuestos, como hacen el País Vasco y Navarra.":
+    - generic: Tu respuesta
+    - radio "Muy en desacuerdo"
+    - generic: Muy en desacuerdo
+    - radio "En desacuerdo"
+    - generic: En desacuerdo
+    - radio "Neutral"
+    - generic: Neutral
+    - radio "De acuerdo"
+    - generic: De acuerdo
+    - radio "Muy de acuerdo"
+    - generic: Muy de acuerdo
+  - button "Atrás"
+  - button "Saltar esta pregunta"
+- contentinfo:
+  - paragraph: "Herramienta independiente y sin ánimo de lucro. No está vinculada a ningún partido. Las posiciones se basan en programas, votaciones y declaraciones públicas con fuente enlazada; pueden contener errores: consulta las fuentes."

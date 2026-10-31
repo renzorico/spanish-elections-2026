@@ -1,0 +1,25 @@
+- link "Skip to content":
+  - /url: "#app"
+- banner:
+  - link "29N · 2026":
+    - /url: ./
+  - navigation "Principal":
+    - link "How the election works":
+      - /url: eleccion.html?lang=en
+    - link "Methodology":
+      - /url: metodologia.html?lang=en
+    - button "Español"
+- main:
+  - heading "Your results" [active] [level=2]
+  - paragraph: "Percentage of agreement between your answers and each party's documented positions. Parties are listed in random order. Look at the topic breakdown: one overall number does not tell the whole story."
+  - checkbox "Sort by my overall agreement"
+  - text: Sort by my overall agreement
+  - checkbox "Exclude low-confidence positions (based only on press or indirect evidence)"
+  - text: Exclude low-confidence positions (based only on press or indirect evidence)
+  - list:
+    - paragraph: You have not answered any statement. Go back and answer at least one.
+  - button "Change answers"
+  - button "Change weights"
+  - button "Start again"
+- contentinfo:
+  - paragraph: Independent, non-profit tool, not linked to any party. Positions are based on programs, votes and public statements with linked sources; they may contain errors — check the sources.

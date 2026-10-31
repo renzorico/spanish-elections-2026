@@ -1,0 +1,48 @@
+[
+  {
+    "overflow": [
+      {
+        "right": 371,
+        "tag": "TABLE",
+        "text": "Por temaDerechos y libertades100 %1/3Modelo t"
+      },
+      {
+        "right": 342,
+        "tag": "TD",
+        "text": "100 %"
+      },
+      {
+        "right": 371,
+        "tag": "TD",
+        "text": "1/3"
+      },
+      {
+        "right": 342,
+        "tag": "TD",
+        "text": "60 %"
+      },
+      {
+        "right": 371,
+        "tag": "TD",
+        "text": "5/5"
+      }
+    ],
+    "scrollWidth": 371,
+    "viewport": 320
+  },
+  {
+    "overflow": [],
+    "scrollWidth": 375,
+    "viewport": 375
+  },
+  {
+    "overflow": [],
+    "scrollWidth": 768,
+    "viewport": 768
+  },
+  {
+    "overflow": [],
+    "scrollWidth": 1440,
+    "viewport": 1440
+  }
+]
