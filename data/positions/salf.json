@@ -65,8 +65,8 @@
       "note": "Source is SALF's March 2026 regional program for Castilla y León (reused from its Aragón program). SALF published no national program for the 2024 European or 2026 general elections, and a regional program is indirect evidence of its national position. Here the program explicitly asks the State to change the law. It says \"toda vivienda\" and makes no exception for vulnerable occupants, but does not mention them explicitly."
     },
     {
-      "statement": "eco-impuesto-grandes-fortunas",
-      "stance": "disagree",
+      "statement": "eco-suprimir-impuesto-fortunas",
+      "stance": "agree",
       "confidence": "low",
       "evidence_type": "official_statement",
       "sources": [
@@ -80,7 +80,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Source is SALF's March 2026 regional program for Castilla y León (reused from its Aragón program). SALF published no national program for the 2024 European or 2026 general elections, and a regional program is indirect evidence of its national position."
+      "note": "Source is SALF's March 2026 regional program for Castilla y León (reused from its Aragón program). SALF published no national program for the 2024 European or 2026 general elections, and a regional program is indirect evidence of its national position. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "eco-bajar-irpf",
@@ -252,7 +252,7 @@
       "note": "SALF published no national program (2024 European or 2026 general election), has no Congreso voting record, and its official website could not be reached. Its March 2026 Castilla y León regional program does not address this issue. (It offers support so that no pregnant woman is \"abocada al aborto por motivos económicos\", but says nothing about the Constitution.)"
     },
     {
-      "statement": "der-eutanasia",
+      "statement": "der-derogar-eutanasia",
       "stance": "no_clear_position",
       "evidence_type": "none",
       "sources": [
@@ -274,10 +274,10 @@
         }
       ],
       "vote_refs": [],
-      "note": "SALF published no national program (2024 European or 2026 general election), has no Congreso voting record, and its official website could not be reached. Its March 2026 Castilla y León regional program does not address this issue."
+      "note": "SALF published no national program (2024 European or 2026 general election), has no Congreso voting record, and its official website could not be reached. Its March 2026 Castilla y León regional program does not address this issue. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
-      "statement": "der-ley-trans",
+      "statement": "der-cambio-sexo-informe",
       "stance": "no_clear_position",
       "evidence_type": "none",
       "sources": [
@@ -299,7 +299,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "SALF published no national program (2024 European or 2026 general election), has no Congreso voting record, and its official website could not be reached. Its March 2026 Castilla y León regional program does not address this issue. (It does propose removing sex-change operations and treatments from regional public health coverage, which is a different issue from changing legal sex in the civil registry.)"
+      "note": "SALF published no national program (2024 European or 2026 general election), has no Congreso voting record, and its official website could not be reached. Its March 2026 Castilla y León regional program does not address this issue. (It does propose removing sex-change operations and treatments from regional public health coverage, which is a different issue from changing legal sex in the civil registry.) [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "inm-regularizacion",
@@ -389,7 +389,7 @@
       "note": "Source is SALF's March 2026 regional program for Castilla y León (reused from its Aragón program). SALF published no national program for the 2024 European or 2026 general elections, and a regional program is indirect evidence of its national position. Here the program explicitly asks the national Government to stop the nuclear closure schedule."
     },
     {
-      "statement": "cli-coches-2035",
+      "statement": "cli-coches-combustion-despues-2035",
       "stance": "no_clear_position",
       "evidence_type": "none",
       "sources": [
@@ -411,7 +411,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "SALF published no national program (2024 European or 2026 general election), has no Congreso voting record, and its official website could not be reached. Its March 2026 Castilla y León regional program does not address this issue."
+      "note": "SALF published no national program (2024 European or 2026 general election), has no Congreso voting record, and its official website could not be reached. Its March 2026 Castilla y León regional program does not address this issue. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ter-amnistia",
@@ -625,7 +625,7 @@
       "note": "SALF published no national program (2024 European or 2026 general election), has no Congreso voting record, and its official website could not be reached. Its March 2026 Castilla y León regional program does not address this issue."
     },
     {
-      "statement": "ins-memoria-democratica",
+      "statement": "ins-derogar-memoria",
       "stance": "no_clear_position",
       "evidence_type": "none",
       "sources": [
@@ -647,7 +647,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "SALF published no national program (2024 European or 2026 general election), has no Congreso voting record, and its official website could not be reached. Its March 2026 Castilla y León regional program does not address this issue."
+      "note": "SALF published no national program (2024 European or 2026 general election), has no Congreso voting record, and its official website could not be reached. Its March 2026 Castilla y León regional program does not address this issue. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ext-gasto-defensa",

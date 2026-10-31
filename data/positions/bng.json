@@ -72,8 +72,8 @@
       "note": "Néstor Rego votó No a tomar en consideración la proposición de Junts (18-03-2025) y la del PP (19-05-2026) para acelerar desalojos de viviendas ocupadas. Votos sobre medidas relacionadas, no sobre la formulación exacta."
     },
     {
-      "statement": "eco-impuesto-grandes-fortunas",
-      "stance": "agree",
+      "statement": "eco-suprimir-impuesto-fortunas",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -255,7 +255,7 @@
       "note": "Rego votó No a las enmiendas de devolución de PP y Vox contra la reforma del art. 43 (30-04-2026)."
     },
     {
-      "statement": "der-eutanasia",
+      "statement": "der-derogar-eutanasia",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
@@ -270,11 +270,11 @@
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni votación XV específica."
+      "note": "No se encontró posición en el programa 2023 ni votación XV específica. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
-      "statement": "der-ley-trans",
-      "stance": "agree",
+      "statement": "der-cambio-sexo-informe",
+      "stance": "disagree",
       "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
@@ -289,7 +289,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Defiende consolidar y ampliar las leyes LGTB aprobadas (incluida la despatologización legal trans)."
+      "note": "Defiende consolidar y ampliar las leyes LGTB aprobadas (incluida la despatologización legal trans). [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "inm-regularizacion",
@@ -382,7 +382,7 @@
       "note": "Rego votó No a la PNL del PP sobre el cierre programado de las nucleares (12-02-2025)."
     },
     {
-      "statement": "cli-coches-2035",
+      "statement": "cli-coches-combustion-despues-2035",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
@@ -397,7 +397,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas."
+      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ter-amnistia",
@@ -596,8 +596,8 @@
       "note": "El BNG defiende una República gallega soberana, pero no se encontró en el programa 2023 ni en votaciones XV una propuesta de referéndum estatal monarquía/república."
     },
     {
-      "statement": "ins-memoria-democratica",
-      "stance": "agree",
+      "statement": "ins-derogar-memoria",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "vote_xv",
       "sources": [
@@ -623,7 +623,7 @@
         "v-memoria-mocion-2024-02-06",
         "v-memoria-pnl-2024-05-23"
       ],
-      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-memoria-pnl-2024-05-23)."
+      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-memoria-pnl-2024-05-23). [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ext-gasto-defensa",

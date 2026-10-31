@@ -71,8 +71,8 @@
       "note": "Nothing explicit found in the Sumar 2023 joint program. podemos.info could not be reached (HTTP 403)."
     },
     {
-      "statement": "eco-impuesto-grandes-fortunas",
-      "stance": "agree",
+      "statement": "eco-suprimir-impuesto-fortunas",
+      "stance": "disagree",
       "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
@@ -87,7 +87,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "eco-bajar-irpf",
@@ -249,8 +249,8 @@
       "note": "Mixed evidence. On 2026-04-30 Podemos' deputies voted NO on the PP and Vox amendments, letting the abortion constitutional reform go ahead. Podemos criticises the Government's version (art. 43) and wants abortion listed as a fundamental right instead."
     },
     {
-      "statement": "der-eutanasia",
-      "stance": "agree",
+      "statement": "der-derogar-eutanasia",
+      "stance": "disagree",
       "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
@@ -265,11 +265,11 @@
         }
       ],
       "vote_refs": [],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. The joint program implies keeping the law."
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. The joint program implies keeping the law. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
-      "statement": "der-ley-trans",
-      "stance": "agree",
+      "statement": "der-cambio-sexo-informe",
+      "stance": "disagree",
       "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
@@ -284,7 +284,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "inm-regularizacion",
@@ -384,8 +384,8 @@
       "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. No Podemos statement on the 2026 Almaraz extension was found."
     },
     {
-      "statement": "cli-coches-2035",
-      "stance": "agree",
+      "statement": "cli-coches-combustion-despues-2035",
+      "stance": "disagree",
       "confidence": "low",
       "evidence_type": "program_2023",
       "sources": [
@@ -400,7 +400,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. This is only indirect evidence: the joint program's 2040 goal implies the 2035 sales ban, which it does not name."
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. This is only indirect evidence: the joint program's 2040 goal implies the 2035 sales ban, which it does not name. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ter-amnistia",
@@ -589,8 +589,8 @@
       "note": "Only indirect or older evidence: a 2022 interview in which Irene Montero suggested a referendum on the monarchy, plus Belarra's 2024-2025 calls for a republic as reported in the press. No recent official text explicitly proposing a referendum was found; podemos.info could not be reached (HTTP 403)."
     },
     {
-      "statement": "ins-memoria-democratica",
-      "stance": "agree",
+      "statement": "ins-derogar-memoria",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -608,7 +608,7 @@
         "v-memoria-mocion-2024-02-06",
         "v-memoria-pnl-2024-05-23"
       ],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ext-gasto-defensa",

@@ -84,8 +84,8 @@
       "note": "El programa apoya acelerar los desalojos (48 horas) pero vincula la medida a la atención social a la vulnerabilidad, por lo que no respalda la parte del enunciado que incluye a ocupantes vulnerables."
     },
     {
-      "statement": "eco-impuesto-grandes-fortunas",
-      "stance": "agree",
+      "statement": "eco-suprimir-impuesto-fortunas",
+      "stance": "disagree",
       "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
@@ -100,7 +100,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El PSOE creó el impuesto en 2022; el programa no promete suprimirlo y plantea avanzar en la tributación de la riqueza, pero condiciona su futuro a una evaluación. Confianza media."
+      "note": "El PSOE creó el impuesto en 2022; el programa no promete suprimirlo y plantea avanzar en la tributación de la riqueza, pero condiciona su futuro a una evaluación. Confianza media. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "eco-bajar-irpf",
@@ -276,8 +276,8 @@
       "note": "En 2026 el Gobierno impulsó una reforma del artículo 43 de la Constitución para recoger el aborto."
     },
     {
-      "statement": "der-eutanasia",
-      "stance": "agree",
+      "statement": "der-derogar-eutanasia",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -303,8 +303,8 @@
       "vote_refs": []
     },
     {
-      "statement": "der-ley-trans",
-      "stance": "agree",
+      "statement": "der-cambio-sexo-informe",
+      "stance": "disagree",
       "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
@@ -328,7 +328,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El programa se compromete a aplicar la Ley 4/2023 («ley trans y LGTBI») pero no menciona expresamente la autodeterminación registral."
+      "note": "El programa se compromete a aplicar la Ley 4/2023 («ley trans y LGTBI») pero no menciona expresamente la autodeterminación registral. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "inm-regularizacion",
@@ -421,8 +421,8 @@
       "note": "El programa da por hecho el desmantelamiento ordenado de las centrales; no menciona prórrogas."
     },
     {
-      "statement": "cli-coches-2035",
-      "stance": "agree",
+      "statement": "cli-coches-combustion-despues-2035",
+      "stance": "disagree",
       "confidence": "medium",
       "evidence_type": "official_statement",
       "sources": [
@@ -444,7 +444,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Posición expresada por Pedro Sánchez, secretario general del PSOE, como presidente del Gobierno (carta a la Comisión Europea), según la prensa."
+      "note": "Posición expresada por Pedro Sánchez, secretario general del PSOE, como presidente del Gobierno (carta a la Comisión Europea), según la prensa. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ter-amnistia",
@@ -632,8 +632,8 @@
       "note": "El programa de 2023 no trata la forma de Estado. No se ha encontrado una posición oficial reciente."
     },
     {
-      "statement": "ins-memoria-democratica",
-      "stance": "agree",
+      "statement": "ins-derogar-memoria",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [

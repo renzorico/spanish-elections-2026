@@ -72,8 +72,8 @@
       "note": "No explicit position found in the Sumar 2023 program (searched: ocupación, desalojo, allanamiento, usurpación) or on movimientosumar.es."
     },
     {
-      "statement": "eco-impuesto-grandes-fortunas",
-      "stance": "agree",
+      "statement": "eco-suprimir-impuesto-fortunas",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -256,8 +256,8 @@
       "note": "On 2026-04-30 all 26 SUMAR deputies voted NO on the PP and Vox amendments that would have returned the bill reforming art. 43 of the Constitution to include abortion. Movimiento Sumar says it first proposed this reform."
     },
     {
-      "statement": "der-eutanasia",
-      "stance": "agree",
+      "statement": "der-derogar-eutanasia",
+      "stance": "disagree",
       "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
@@ -272,11 +272,11 @@
         }
       ],
       "vote_refs": [],
-      "note": "The program refers to the euthanasia law as the framework to follow. This implies keeping it, though no sentence says so outright."
+      "note": "The program refers to the euthanasia law as the framework to follow. This implies keeping it, though no sentence says so outright. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
-      "statement": "der-ley-trans",
-      "stance": "agree",
+      "statement": "der-cambio-sexo-informe",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -399,8 +399,8 @@
       "note": "The program commits to the existing closure timetable. In August 2026 Movimiento Sumar criticised the extension of the Almaraz plant."
     },
     {
-      "statement": "cli-coches-2035",
-      "stance": "agree",
+      "statement": "cli-coches-combustion-despues-2035",
+      "stance": "disagree",
       "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
@@ -415,7 +415,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "The program aims for no combustion cars on the road by 2040. This implies supporting the EU 2035 ban on new sales, which is not named."
+      "note": "The program aims for no combustion cars on the road by 2040. This implies supporting the EU 2035 ban on new sales, which is not named. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ter-amnistia",
@@ -595,8 +595,8 @@
       "note": "No mention of a referendum on the monarchy in the 2023 program (searched: monarquía, Corona, república, referéndum) or on movimientosumar.es."
     },
     {
-      "statement": "ins-memoria-democratica",
-      "stance": "agree",
+      "statement": "ins-derogar-memoria",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [

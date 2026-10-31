@@ -78,8 +78,8 @@
       "note": "No explicit position found in the 2023 program or on compromis.net."
     },
     {
-      "statement": "eco-impuesto-grandes-fortunas",
-      "stance": "agree",
+      "statement": "eco-suprimir-impuesto-fortunas",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -259,7 +259,7 @@
       "note": "On 2026-04-30 Micó and Ibáñez voted NO on the PP and Vox amendments, letting the reform go ahead. Compromís also held an event calling for abortion rights to be protected in the Constitution."
     },
     {
-      "statement": "der-eutanasia",
+      "statement": "der-derogar-eutanasia",
       "stance": "no_clear_position",
       "evidence_type": "none",
       "sources": [
@@ -273,11 +273,11 @@
         }
       ],
       "vote_refs": [],
-      "note": "No explicit position found in the 2023 program or on compromis.net."
+      "note": "No explicit position found in the 2023 program or on compromis.net. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
-      "statement": "der-ley-trans",
-      "stance": "agree",
+      "statement": "der-cambio-sexo-informe",
+      "stance": "disagree",
       "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
@@ -292,7 +292,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "The program asks to protect existing LGTBI laws; Law 4/2023 is the LGTBI and trans law. The self-ID rule is not named."
+      "note": "The program asks to protect existing LGTBI laws; Law 4/2023 is the LGTBI and trans law. The self-ID rule is not named. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "inm-regularizacion",
@@ -391,7 +391,7 @@
       "note": "Compromís wants the Cofrents plant to close in 2030 as planned, with no extension."
     },
     {
-      "statement": "cli-coches-2035",
+      "statement": "cli-coches-combustion-despues-2035",
       "stance": "no_clear_position",
       "evidence_type": "none",
       "sources": [
@@ -405,7 +405,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "No explicit position found."
+      "note": "No explicit position found. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ter-amnistia",
@@ -588,8 +588,8 @@
       "note": "No explicit position found in the 2023 program or on compromis.net."
     },
     {
-      "statement": "ins-memoria-democratica",
-      "stance": "agree",
+      "statement": "ins-derogar-memoria",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -607,7 +607,7 @@
         "v-memoria-mocion-2024-02-06",
         "v-memoria-pnl-2024-05-23"
       ],
-      "note": "The program supports memory policies that the 2022 law includes, but does not name the law."
+      "note": "The program supports memory policies that the 2022 law includes, but does not name the law. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ext-gasto-defensa",

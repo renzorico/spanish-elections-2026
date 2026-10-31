@@ -96,7 +96,7 @@
       "note": "Junts vol accelerar el desallotjament (48 hores) en ocupacions conflictives o delinqüencials, però diferencia explícitament les situacions de vulnerabilitat, que diu que s'han d'atendre; no dona suport a la part de l'afirmació que inclou persones vulnerables."
     },
     {
-      "statement": "eco-impuesto-grandes-fortunas",
+      "statement": "eco-suprimir-impuesto-fortunas",
       "stance": "no_clear_position",
       "evidence_type": "none",
       "sources": [
@@ -111,7 +111,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Parla de progressivitat però no es pronuncia sobre l'impost de patrimoni ni l'impost de solidaritat de grans fortunes."
+      "note": "Parla de progressivitat però no es pronuncia sobre l'impost de patrimoni ni l'impost de solidaritat de grans fortunes. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "eco-bajar-irpf",
@@ -286,7 +286,7 @@
       "confidence": "high"
     },
     {
-      "statement": "der-eutanasia",
+      "statement": "der-derogar-eutanasia",
       "stance": "no_clear_position",
       "evidence_type": "none",
       "sources": [
@@ -300,10 +300,10 @@
         }
       ],
       "vote_refs": [],
-      "note": "El programa 2023 no parla d'eutanàsia."
+      "note": "El programa 2023 no parla d'eutanàsia. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
-      "statement": "der-ley-trans",
+      "statement": "der-cambio-sexo-informe",
       "stance": "no_clear_position",
       "evidence_type": "none",
       "sources": [
@@ -318,7 +318,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Suport genèric als drets LGTBI, sense posició sobre l'autodeterminació registral de la Llei 4/2023."
+      "note": "Suport genèric als drets LGTBI, sense posició sobre l'autodeterminació registral de la Llei 4/2023. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "inm-regularizacion",
@@ -417,7 +417,7 @@
       "note": "El programa 2023 té un apartat sobre el mix elèctric i el tancament de les nuclears sense posició explícita. Segons la premsa, Junts s'ha abstingut o ha votat de manera canviant en iniciatives del PP per allargar-ne la vida (2025); pendent del mapatge de votacions."
     },
     {
-      "statement": "cli-coches-2035",
+      "statement": "cli-coches-combustion-despues-2035",
       "stance": "no_clear_position",
       "evidence_type": "none",
       "sources": [
@@ -432,7 +432,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Promou l'electrificació, però no es pronuncia sobre la prohibició de vendes de 2035."
+      "note": "Promou l'electrificació, però no es pronuncia sobre la prohibició de vendes de 2035. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ter-amnistia",
@@ -662,8 +662,8 @@
       "note": "El programa esmenta la monarquia només com a debat bloquejat a la Mesa del Congrés; no proposa cap referèndum monarquia/república."
     },
     {
-      "statement": "ins-memoria-democratica",
-      "stance": "agree",
+      "statement": "ins-derogar-memoria",
+      "stance": "disagree",
       "evidence_type": "vote_xv",
       "sources": [
         {
@@ -688,7 +688,7 @@
         "v-memoria-mocion-2024-02-06",
         "v-memoria-pnl-2024-05-23"
       ],
-      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-memoria-pnl-2024-05-23).",
+      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-memoria-pnl-2024-05-23). [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]",
       "confidence": "high"
     },
     {

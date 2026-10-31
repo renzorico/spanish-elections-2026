@@ -36,11 +36,11 @@
     }
   },
   {
-    "id": "eco-impuesto-grandes-fortunas",
+    "id": "eco-suprimir-impuesto-fortunas",
     "topic": "economia",
     "text": {
-      "es": "Debería mantenerse un impuesto específico sobre los patrimonios más altos.",
-      "en": "There should continue to be a specific tax on the largest personal fortunes."
+      "es": "Debería eliminarse el impuesto específico sobre los patrimonios más altos.",
+      "en": "The specific tax on the largest personal fortunes should be abolished."
     },
     "context": {
       "es": "Existen el Impuesto sobre el Patrimonio (gestionado por las comunidades, que pueden bonificarlo) y el Impuesto Temporal de Solidaridad de las Grandes Fortunas, creado en 2022.",
@@ -132,11 +132,11 @@
     }
   },
   {
-    "id": "der-eutanasia",
+    "id": "der-derogar-eutanasia",
     "topic": "derechos",
     "text": {
-      "es": "Debería mantenerse la ley que regula la eutanasia.",
-      "en": "The law regulating euthanasia should be kept."
+      "es": "Debería derogarse la ley que regula la eutanasia.",
+      "en": "The law regulating euthanasia should be repealed."
     },
     "context": {
       "es": "La Ley Orgánica 3/2021 permite pedir ayuda médica para morir en casos de enfermedad grave e incurable, con varios controles.",
@@ -144,15 +144,15 @@
     }
   },
   {
-    "id": "der-ley-trans",
+    "id": "der-cambio-sexo-informe",
     "topic": "derechos",
     "text": {
-      "es": "Debería mantenerse que una persona mayor de 16 años pueda cambiar el sexo en el registro civil con su propia declaración, sin informes médicos.",
-      "en": "People over 16 should continue to be able to change their legal sex at the civil registry by their own declaration, without medical reports."
+      "es": "Para cambiar el sexo en el registro civil debería exigirse un informe médico o psicológico.",
+      "en": "A medical or psychological report should be required to change one's legal sex at the civil registry."
     },
     "context": {
-      "es": "Es lo que establece la Ley 4/2023 (conocida como «ley trans»).",
-      "en": "This is what Law 4/2023 (known as the 'trans law') provides."
+      "es": "La Ley 4/2023 (conocida como «ley trans») permite a los mayores de 16 años cambiarlo con su propia declaración, sin informes médicos.",
+      "en": "Law 4/2023 (known as the 'trans law') lets people over 16 change it by their own declaration, without medical reports."
     }
   },
   {
@@ -204,11 +204,11 @@
     }
   },
   {
-    "id": "cli-coches-2035",
+    "id": "cli-coches-combustion-despues-2035",
     "topic": "clima",
     "text": {
-      "es": "Debería mantenerse que, a partir de 2035, no se puedan vender coches nuevos de gasolina o diésel.",
-      "en": "The rule that new petrol or diesel cars can no longer be sold from 2035 should be kept."
+      "es": "Debería permitirse vender coches nuevos de gasolina o diésel también después de 2035.",
+      "en": "Sales of new petrol or diesel cars should still be allowed after 2035."
     },
     "context": {
       "es": "Lo establece una norma de la Unión Europea aprobada en 2023; su posible flexibilización se debate en la UE.",
@@ -324,11 +324,11 @@
     }
   },
   {
-    "id": "ins-memoria-democratica",
+    "id": "ins-derogar-memoria",
     "topic": "instituciones",
     "text": {
-      "es": "Debería mantenerse la Ley de Memoria Democrática de 2022.",
-      "en": "The 2022 Democratic Memory Law should be kept."
+      "es": "Debería derogarse la Ley de Memoria Democrática de 2022.",
+      "en": "The 2022 Democratic Memory Law should be repealed."
     },
     "context": {
       "es": "La Ley 20/2022 regula, entre otras cosas, la búsqueda de víctimas de la Guerra Civil y la dictadura y la retirada de símbolos franquistas.",

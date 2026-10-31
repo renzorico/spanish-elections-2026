@@ -73,8 +73,8 @@
       "note": "El PP propone desalojos en 24-48 horas sin excepción por vulnerabilidad, aunque no se pronuncia expresamente sobre los ocupantes vulnerables; por eso la confianza es media."
     },
     {
-      "statement": "eco-impuesto-grandes-fortunas",
-      "stance": "disagree",
+      "statement": "eco-suprimir-impuesto-fortunas",
+      "stance": "agree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -252,7 +252,7 @@
       "note": "Postura del Grupo Popular ante la reforma constitucional del Gobierno para incluir el aborto (2026)."
     },
     {
-      "statement": "der-eutanasia",
+      "statement": "der-derogar-eutanasia",
       "stance": "neutral",
       "confidence": "medium",
       "evidence_type": "program_2023",
@@ -268,11 +268,11 @@
         }
       ],
       "vote_refs": [],
-      "note": "El PP propone revisar la ley, no derogarla ni mantenerla sin cambios."
+      "note": "El PP propone revisar la ley, no derogarla ni mantenerla sin cambios. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
-      "statement": "der-ley-trans",
-      "stance": "disagree",
+      "statement": "der-cambio-sexo-informe",
+      "stance": "agree",
       "confidence": "medium",
       "evidence_type": "official_statement",
       "sources": [
@@ -295,7 +295,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El PP anuncia que derogará la Ley 4/2023 y aprobará otra; no detalla qué requisitos tendría el cambio registral."
+      "note": "El PP anuncia que derogará la Ley 4/2023 y aprobará otra; no detalla qué requisitos tendría el cambio registral. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "inm-regularizacion",
@@ -402,8 +402,8 @@
       ]
     },
     {
-      "statement": "cli-coches-2035",
-      "stance": "disagree",
+      "statement": "cli-coches-combustion-despues-2035",
+      "stance": "agree",
       "confidence": "medium",
       "evidence_type": "official_statement",
       "sources": [
@@ -417,7 +417,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El PP celebra la flexibilización de la Comisión Europea y critica que el Gobierno defienda mantener el veto de 2035."
+      "note": "El PP celebra la flexibilización de la Comisión Europea y critica que el Gobierno defienda mantener el veto de 2035. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ter-amnistia",
@@ -656,8 +656,8 @@
       "note": "El PP expresa su «lealtad» al Rey, pero no se ha encontrado un pronunciamiento explícito sobre un referéndum entre monarquía y república."
     },
     {
-      "statement": "ins-memoria-democratica",
-      "stance": "disagree",
+      "statement": "ins-derogar-memoria",
+      "stance": "agree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [

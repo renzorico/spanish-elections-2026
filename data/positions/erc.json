@@ -84,8 +84,8 @@
       "note": "El programa no parla específicament d'ocupacions, però demana garanties (alternativa habitacional, judici de proporcionalitat amb menors) abans de qualsevol desallotjament, contrari a accelerar-los en casos de vulnerabilitat."
     },
     {
-      "statement": "eco-impuesto-grandes-fortunas",
-      "stance": "agree",
+      "statement": "eco-suprimir-impuesto-fortunas",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -277,8 +277,8 @@
       "confidence": "high"
     },
     {
-      "statement": "der-eutanasia",
-      "stance": "agree",
+      "statement": "der-derogar-eutanasia",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -295,8 +295,8 @@
       "vote_refs": []
     },
     {
-      "statement": "der-ley-trans",
-      "stance": "agree",
+      "statement": "der-cambio-sexo-informe",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -320,7 +320,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "ERC va donar suport a la Llei 4/2023 i critica que deixi fora menors trans i persones no binàries (vol ampliar-la, no restringir-la)."
+      "note": "ERC va donar suport a la Llei 4/2023 i critica que deixi fora menors trans i persones no binàries (vol ampliar-la, no restringir-la). [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "inm-regularizacion",
@@ -421,8 +421,8 @@
       "note": "El programa aposta per un sistema 100 % renovable i un fons de transició nuclear, però no es pronuncia explícitament sobre allargar o mantenir el calendari de tancament."
     },
     {
-      "statement": "cli-coches-2035",
-      "stance": "agree",
+      "statement": "cli-coches-combustion-despues-2035",
+      "stance": "disagree",
       "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
@@ -437,7 +437,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Assumeix la prohibició i demana infraestructura per fer-la efectiva."
+      "note": "Assumeix la prohibició i demana infraestructura per fer-la efectiva. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ter-amnistia",
@@ -655,8 +655,8 @@
       "vote_refs": []
     },
     {
-      "statement": "ins-memoria-democratica",
-      "stance": "agree",
+      "statement": "ins-derogar-memoria",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -674,7 +674,7 @@
         "v-memoria-mocion-2024-02-06",
         "v-memoria-pnl-2024-05-23"
       ],
-      "note": "Hi dona suport tot i considerar-la insuficient."
+      "note": "Hi dona suport tot i considerar-la insuficient. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ext-gasto-defensa",

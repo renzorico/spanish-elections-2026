@@ -2785,9 +2785,9 @@
       }
     },
     "v-memoria-mocion-2024-02-06": {
-      "statement": "ins-memoria-democratica",
+      "statement": "ins-derogar-memoria",
       "date": "2024-02-06",
-      "yes_means": "agree",
+      "yes_means": "disagree",
       "title": "Del Grupo Parlamentario Republicano, en relación con el despliegue y desarrollo de la Ley 20/2022, de 19 de octubre, de Memoria Democrática.\nSe vota en los términos de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Republicano.",
       "subgroup": null,
       "totals": {
@@ -2805,7 +2805,7 @@
           "abstain": 0,
           "absent": 1,
           "majority": "no",
-          "implied_stance": "disagree"
+          "implied_stance": "agree"
         },
         "psoe": {
           "yes": 118,
@@ -2813,7 +2813,7 @@
           "abstain": 0,
           "absent": 2,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "vox": {
           "yes": 0,
@@ -2821,7 +2821,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "no",
-          "implied_stance": "disagree"
+          "implied_stance": "agree"
         },
         "frente-amplio": {
           "yes": 24,
@@ -2829,7 +2829,7 @@
           "abstain": 0,
           "absent": 2,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "podemos": {
           "yes": 4,
@@ -2837,7 +2837,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "erc": {
           "yes": 7,
@@ -2845,7 +2845,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "junts": {
           "yes": 6,
@@ -2853,7 +2853,7 @@
           "abstain": 0,
           "absent": 1,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "eh-bildu": {
           "yes": 6,
@@ -2861,7 +2861,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "pnv": {
           "yes": 5,
@@ -2869,7 +2869,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "bng": {
           "yes": 1,
@@ -2877,7 +2877,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "cc": {
           "yes": 1,
@@ -2885,7 +2885,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "compromis": {
           "yes": 1,
@@ -2893,7 +2893,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "salf": {
           "yes": 0,
@@ -2906,9 +2906,9 @@
       }
     },
     "v-memoria-pnl-2024-05-23": {
-      "statement": "ins-memoria-democratica",
+      "statement": "ins-derogar-memoria",
       "date": "2024-05-23",
-      "yes_means": "agree",
+      "yes_means": "disagree",
       "title": "Proposición no de Ley del Grupo Parlamentario Socialista, sobre la garantía de la aplicación de las políticas de memoria democrática en España.\n\nSe vota en los términos resultantes de la incorporación de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Plurinacional SUMAR.",
       "subgroup": null,
       "totals": {
@@ -2926,7 +2926,7 @@
           "abstain": 0,
           "absent": 3,
           "majority": "no",
-          "implied_stance": "disagree"
+          "implied_stance": "agree"
         },
         "psoe": {
           "yes": 118,
@@ -2934,7 +2934,7 @@
           "abstain": 0,
           "absent": 2,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "vox": {
           "yes": 0,
@@ -2942,7 +2942,7 @@
           "abstain": 0,
           "absent": 1,
           "majority": "no",
-          "implied_stance": "disagree"
+          "implied_stance": "agree"
         },
         "frente-amplio": {
           "yes": 25,
@@ -2950,7 +2950,7 @@
           "abstain": 0,
           "absent": 1,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "podemos": {
           "yes": 4,
@@ -2958,7 +2958,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "erc": {
           "yes": 7,
@@ -2966,7 +2966,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "junts": {
           "yes": 7,
@@ -2974,7 +2974,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "eh-bildu": {
           "yes": 6,
@@ -2982,7 +2982,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "pnv": {
           "yes": 4,
@@ -2990,7 +2990,7 @@
           "abstain": 0,
           "absent": 1,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "bng": {
           "yes": 1,
@@ -2998,7 +2998,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "cc": {
           "yes": 1,
@@ -3006,7 +3006,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "compromis": {
           "yes": 1,
@@ -3014,7 +3014,7 @@
           "abstain": 0,
           "absent": 0,
           "majority": "yes",
-          "implied_stance": "agree"
+          "implied_stance": "disagree"
         },
         "salf": {
           "yes": 0,

@@ -73,8 +73,8 @@
       "note": "EH Bildu votó en contra (6 No) de tomar en consideración la proposición de Junts (18-03-2025) y la del PP (19-05-2026) para acelerar desalojos de viviendas ocupadas. Son votos sobre medidas relacionadas, no sobre la formulación exacta (que incluye a ocupantes vulnerables)."
     },
     {
-      "statement": "eco-impuesto-grandes-fortunas",
-      "stance": "agree",
+      "statement": "eco-suprimir-impuesto-fortunas",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -248,7 +248,7 @@
       "note": "EH Bildu votó No (6) a las enmiendas de devolución de PP y Vox contra la reforma del art. 43 para incluir el aborto en la Constitución (30-04-2026)."
     },
     {
-      "statement": "der-eutanasia",
+      "statement": "der-derogar-eutanasia",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
@@ -263,11 +263,11 @@
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni votación XV específica."
+      "note": "No se encontró posición en el programa 2023 ni votación XV específica. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
-      "statement": "der-ley-trans",
-      "stance": "agree",
+      "statement": "der-cambio-sexo-informe",
+      "stance": "disagree",
       "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
@@ -282,7 +282,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Compromiso genérico de defender las leyes LGTBIQ+ aprobadas; no menciona expresamente la autodeterminación registral."
+      "note": "Compromiso genérico de defender las leyes LGTBIQ+ aprobadas; no menciona expresamente la autodeterminación registral. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "inm-regularizacion",
@@ -375,7 +375,7 @@
       "note": "Votó en contra (6 No) de la PNL del PP para revisar el cierre programado de las nucleares (12-02-2025)."
     },
     {
-      "statement": "cli-coches-2035",
+      "statement": "cli-coches-combustion-despues-2035",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
@@ -390,7 +390,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas."
+      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ter-amnistia",
@@ -582,8 +582,8 @@
       "note": "No se encontró en el programa 2023 ni en votaciones XV una propuesta de referéndum monarquía/república (solo declaraciones anteriores a 2023)."
     },
     {
-      "statement": "ins-memoria-democratica",
-      "stance": "agree",
+      "statement": "ins-derogar-memoria",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -601,7 +601,7 @@
         "v-memoria-mocion-2024-02-06",
         "v-memoria-pnl-2024-05-23"
       ],
-      "note": "Pide ampliar la ley, lo que implica mantenerla."
+      "note": "Pide ampliar la ley, lo que implica mantenerla. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "ext-gasto-defensa",
