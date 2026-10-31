@@ -1,0 +1,348 @@
+{
+ "statement": "ext-gasto-defensa",
+ "coded_on": "2026-10-31",
+ "coded_by": "subagent:recode-b",
+ "positions": {
+  "pp": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.pp.es/actualidad/articulos/el-pp-denuncia-la-division-del-gobierno-y-reclama-unidad-con-los-aliados-ante-la-proxima-cumbre-de-la-otan-en-ankara/",
+     "title": "El PP denuncia la división del Gobierno y reclama unidad con los aliados ante la próxima cumbre de la OTAN en Ankara",
+     "publisher": "PP",
+     "date": "2026-07-05",
+     "quote": "Sánchez firmase su compromiso de gastar el 5% del PIB en Seguridad y Defensa para, acto seguido, decir públicamente que no lo iba a cumplir.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Núñez Feijóo, GP Popular)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2025-07-09",
+     "quote": "la mía es traer cualquier propuesta en defensa al Congreso de los Diputados.",
+     "page": "p. 40 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "PP",
+     "date": "2023-07-04",
+     "quote": "adquirido por los aliados de destinar un 2% del PIB nacional en seguridad y defensa.",
+     "page": "p. 103 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.publico.es/politica/pp-compromete-llegar-5-pib-defensa-pide-trump.html",
+     "title": "El PP no se compromete a llegar al 5% del PIB para defensa que pide Trump",
+     "publisher": "Público",
+     "date": "2025-10-15",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El PP critica que el Gobierno no cumpla lo firmado en la OTAN y reclama unidad con los aliados, pero no se compromete con una cifra (Público, oct. 2025: «Tendríamos que ver el acuerdo»). En 2023 solo asumía el 2 %. No basta para codificar el 3,5 %."
+  },
+  "psoe": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de López Álvarez, GP Socialista)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2025-07-09",
+     "quote": "Nosotros defendemos, como ha dicho el presidente, la inversión del 2,1 %",
+     "page": "p. 30 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de López Álvarez, GP Socialista)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2025-07-09",
+     "quote": "Subir el gasto al 5 % no es un mero apunte contable, es una enmienda a la totalidad al corazón del modelo europeo",
+     "page": "p. 30 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El portavoz socialista en el Congreso defendió el 2,1 % y rechazó subir al 5 % (que incluye el 3,5 % de gasto en defensa en sentido estricto)."
+  },
+  "vox": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Abascal Conde, GP VOX)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2025-07-09",
+     "quote": "podríamos exigir como condición previa antes de aumentar nuestro gasto militar la protección absoluta de nuestro territorio nacional bajo el paraguas de la OTAN, incluyendo a Ceuta y Melilla",
+     "page": "p. 9 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "Vox",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Vox defiende aumentar el gasto en defensa, pero lo condiciona a la protección de Ceuta y Melilla y no se compromete con el objetivo OTAN del 3,5 %. El programa de 2023 no fija cifra. Apoyo genérico, insuficiente para la afirmación concreta."
+  },
+  "frente-amplio": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Martínez Barbero, GP Plurinacional SUMAR)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2025-07-09",
+     "quote": "en SUMAR nos hemos opuesto desde el principio a los planes de rearme de Von der Leyen y al chantaje del 5 % del gasto militar de Trump",
+     "page": "p. 12 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Martínez Barbero, GP Plurinacional SUMAR)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2025-07-09",
+     "quote": "Llegar al 5 % en defensa obligaría a incrementar el gasto militar y eso realmente solo se podría hacer recortando inversión en educación, sanidad o pensiones",
+     "page": "p. 12 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Postura de la portavoz del Grupo SUMAR, del que procede Frente Amplio."
+  },
+  "podemos": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Belarra Urteaga, Podemos (G. Mixto))",
+     "publisher": "Congreso de los Diputados",
+     "date": "2025-07-09",
+     "quote": "la cumbre de los días 24 y 25 de junio en La Haya ha disipado todas las dudas sobre de qué va este rearme criminal, que es un auténtico robo a mano armada de la clase trabajadora.",
+     "page": "p. 24 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.elindependiente.com/espana/2025/04/22/sumar-podemos-rechazo-gasto-extra-defensas-2025-compra-armamento/",
+     "title": "Sumar y Podemos, frente a Sánchez: rechazan el gasto en defensa",
+     "publisher": "El Independiente",
+     "date": "2025-04-22",
+     "quote": "No formaría parte de un Gobierno que hace el mayor incremento militar de la historia del país",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "La secretaria general de Podemos rechaza en el Congreso el rearme acordado en la cumbre de La Haya."
+  },
+  "erc": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+     "title": "Programa electoral eleccions generals 2023",
+     "publisher": "ERC",
+     "date": "2023-07-01",
+     "quote": "Reduir la despesa militar espanyola, tant en efectius com en capacitat armamentística, per tal de revertir l’increment de l’última dècada.",
+     "page": "p. 30 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Rufián Romero, GP Republicano)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2025-07-09",
+     "quote": "Lo que me extraña es que ustedes lo critiquen por no firmar un aumento en defensa que se cargaría partidas sociales en este país que provocarían un dolor inmenso.",
+     "page": "p. 15 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa de 2023 (anterior al objetivo del 3,5 %) pide reducir el gasto militar, lo que implica claramente rechazar subirlo; en 2025 su portavoz se opuso al aumento."
+  },
+  "junts": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Gavín i Valls, GP Junts per Catalunya)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2025-07-09",
+     "quote": "Un sistema de seguretat i defensa que ha de ser un sistema de seguretat i defensa netament europeu propi d’Europa, que ha de ser completament comú.",
+     "page": "p. 17 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+     "title": "Programa electoral per Catalunya (eleccions generals 2023)",
+     "publisher": "Junts",
+     "date": "2023-07-19",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Junts defiende la disuasión y una defensa europea común, pero no se pronuncia sobre el objetivo del 3,5 %."
+  },
+  "eh-bildu": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://ehbildu.eus/es/noticias/arnaldo-otegi-no-vamos-a-apoyar-el-gasto-en-la-aceleracion-militar-en-absoluto",
+     "title": "Arnaldo Otegi: «No vamos a apoyar el gasto en la aceleración militar en absoluto»",
+     "publisher": "EH Bildu",
+     "date": "2025-03-20",
+     "quote": "Nosotros no vamos a apoyar la aceleración del gasto militar en absoluto.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Matute García de Jalón, GP EH Bildu)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2025-07-09",
+     "quote": "ni un euro es necesario para un rearme en esa lógica imperialista",
+     "page": "p. 19 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": []
+  },
+  "pnv": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Vaquero Montero, GP Vasco (EAJ-PNV))",
+     "publisher": "Congreso de los Diputados",
+     "date": "2025-07-09",
+     "quote": "Yo no voy a entrar en el tanto por ciento del PIB necesario para cubrir las obligaciones y los objetivos de capacidades requeridas por la OTAN",
+     "page": "p. 21 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+     "title": "Con voz propia. Programa electoral 23-J",
+     "publisher": "EAJ-PNV",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "La portavoz del PNV declinó expresamente pronunciarse sobre el porcentaje."
+  },
+  "bng": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+     "title": "Programa eleccións xerais 2023",
+     "publisher": "BNG",
+     "date": "2023-07-05",
+     "quote": "Anular o compromiso do goberno español de aumentar o gasto militar até chegar a 2 % do PIB estatal",
+     "page": "p. 66 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Rego Candamil, BNG (G. Mixto))",
+     "publisher": "Congreso de los Diputados",
+     "date": "2025-07-09",
+     "quote": "Vostede asinou o acordo da OTAN para chegar até 5 % do Produto Interior Bruto en gasto militar",
+     "page": "p. 25 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa de 2023 rechaza incluso llegar al 2 % y pide salir de la OTAN; en 2025 Rego criticó que el Gobierno firmara el objetivo del 5 %."
+  },
+  "cc": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+     "title": "Manifiesto electoral Coalición por Canarias 2023",
+     "publisher": "Coalición Canaria",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://rtvc.es/cc-no-entiende-estado-dinero-defensa-y-no-cumplir-agenda-canaria/",
+     "title": "CC no entiende por qué el Estado tiene dinero para defensa y no para la agenda canaria",
+     "publisher": "RTVC",
+     "date": "2025-04-28",
+     "quote": "ha reconocido este lunes que no entiende",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "CC cuestiona las prioridades del gasto en defensa frente a la agenda canaria, pero no se pronuncia sobre el objetivo del 3,5 %."
+  },
+  "compromis": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+     "title": "Programa de Compromís para Compromís-Sumar 2023",
+     "publisher": "Compromís",
+     "date": "2023-07-01",
+     "quote": "Reducción de la inversión en",
+     "page": "p. 11 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa propio de Compromís (2023) pide «reducción de la inversión en armamento», lo que implica rechazar el aumento."
+  },
+  "salf": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+     "title": "Programa electoral de SALF para Castilla y León (marzo de 2026)",
+     "publisher": "Se Acabó La Fiesta (copia alojada por The Objective)",
+     "date": "2026-03-04",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "SALF no ha publicado programa estatal (ni en 2024 ni en 2026) y no tiene historial de votaciones en el Congreso; su programa autonómico de Castilla y León (marzo de 2026) no trata este asunto."
+  }
+ },
+ "proposed_votes": []
+}

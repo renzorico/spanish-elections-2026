@@ -1,0 +1,13 @@
+[
+  {"id": "vivienda", "label": {"es": "Vivienda", "en": "Housing"}},
+  {"id": "economia", "label": {"es": "Economía e impuestos", "en": "Economy and taxes"}},
+  {"id": "trabajo", "label": {"es": "Trabajo", "en": "Work"}},
+  {"id": "sanidad", "label": {"es": "Sanidad", "en": "Health care"}},
+  {"id": "derechos", "label": {"es": "Derechos y libertades", "en": "Rights and freedoms"}},
+  {"id": "inmigracion", "label": {"es": "Inmigración", "en": "Immigration"}},
+  {"id": "clima", "label": {"es": "Clima y energía", "en": "Climate and energy"}},
+  {"id": "territorial", "label": {"es": "Modelo territorial", "en": "Territorial model"}},
+  {"id": "educacion", "label": {"es": "Educación", "en": "Education"}},
+  {"id": "instituciones", "label": {"es": "Justicia e instituciones", "en": "Justice and institutions"}},
+  {"id": "exterior", "label": {"es": "Política exterior y defensa", "en": "Foreign policy and defence"}}
+]

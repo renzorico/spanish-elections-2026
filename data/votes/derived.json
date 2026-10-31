@@ -1,0 +1,3514 @@
+{
+  "generated_on": "2026-10-31",
+  "votes": {
+    "v-alquiler-rdl8-2026-04-28": {
+      "statement": "viv-limite-alquiler",
+      "date": "2026-04-28",
+      "yes_means": "agree",
+      "title": "Real Decreto-ley 8/2026, de 20 de marzo, de medidas en el alquiler en respuesta a las consecuencias económicas y sociales de la Guerra de Irán.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 348,
+        "afavor": 166,
+        "enContra": 177,
+        "abstenciones": 5,
+        "noVotan": 2
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 137,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 121,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 25,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 5,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-alquiler-temporada-2024-12-17": {
+      "statement": "viv-limite-alquiler",
+      "date": "2024-12-17",
+      "yes_means": "agree",
+      "title": "Proposición de Ley de los Grupos Parlamentarios Plurinacional SUMAR, Republicano, Euskal Herria Bildu y Mixto, para la regulación de los contratos de alquiler temporales y alquiler de habitaciones.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 345,
+        "afavor": 176,
+        "enContra": 169,
+        "abstenciones": 0,
+        "noVotan": 5
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 135,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 117,
+          "no": 0,
+          "abstain": 0,
+          "absent": 3,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 26,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 5,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-okupacion-junts-2025-03-18": {
+      "statement": "viv-desalojo-rapido",
+      "date": "2025-03-18",
+      "yes_means": "agree",
+      "title": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 344,
+        "afavor": 300,
+        "enContra": 44,
+        "abstenciones": 0,
+        "noVotan": 6
+      },
+      "by_party": {
+        "pp": {
+          "yes": 135,
+          "no": 0,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 118,
+          "no": 0,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 31,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 25,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 5,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-okupacion-pp-2026-05-19": {
+      "statement": "viv-desalojo-rapido",
+      "date": "2026-05-19",
+      "yes_means": "agree",
+      "title": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 346,
+        "afavor": 171,
+        "enContra": 164,
+        "abstenciones": 11,
+        "noVotan": 4
+      },
+      "by_party": {
+        "pp": {
+          "yes": 136,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 119,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 32,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 26,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 6,
+          "absent": 1,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 5,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-irpf-deflactar-2024-04-09": {
+      "statement": "eco-bajar-irpf",
+      "date": "2024-04-09",
+      "yes_means": "agree",
+      "title": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 343,
+        "afavor": 169,
+        "enContra": 160,
+        "abstenciones": 14,
+        "noVotan": 6
+      },
+      "by_party": {
+        "pp": {
+          "yes": 135,
+          "no": 1,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 118,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 32,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 24,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 3,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 7,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 1,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 5,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 1,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-irpf-deflactar-2025-06-12": {
+      "statement": "eco-bajar-irpf",
+      "date": "2025-06-12",
+      "yes_means": "agree",
+      "title": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 348,
+        "afavor": 179,
+        "enContra": 164,
+        "abstenciones": 5,
+        "noVotan": 2
+      },
+      "by_party": {
+        "pp": {
+          "yes": 137,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 119,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 32,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 26,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 5,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-gravamen-energetico-2025-01-22": {
+      "statement": "eco-impuesto-energeticas",
+      "date": "2025-01-22",
+      "yes_means": "agree",
+      "title": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 349,
+        "afavor": 165,
+        "enContra": 183,
+        "abstenciones": 1,
+        "noVotan": 1
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 137,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 120,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 26,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 5,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 1,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-impuesto-banca-ley7-2024-11-21": {
+      "statement": "eco-suprimir-impuesto-banca",
+      "date": "2024-11-21",
+      "yes_means": "disagree",
+      "title": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias (antes denominado Proyecto de Ley por la que se establece un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud).",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 349,
+        "afavor": 178,
+        "enContra": 171,
+        "abstenciones": 0,
+        "noVotan": 1
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 137,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 120,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 26,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 5,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-pnl-beneficios-energeticas-2026-09-30": {
+      "statement": "eco-impuesto-energeticas",
+      "date": "2026-09-30",
+      "yes_means": "agree",
+      "title": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.\n",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 347,
+        "afavor": 166,
+        "enContra": 176,
+        "abstenciones": 5,
+        "noVotan": 3
+      },
+      "by_party": {
+        "pp": {
+          "yes": 1,
+          "no": 136,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 120,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 25,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 5,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-jornada-totalidad-2025-09-10": {
+      "statement": "tra-jornada-37h",
+      "date": "2025-09-10",
+      "yes_means": "disagree",
+      "title": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo y la garantía del registro de jornada y el derecho a la desconexión, presentadas por los Grupos Parlamentarios Junts per Catalunya, VOX y Popular en el Congreso.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 348,
+        "afavor": 178,
+        "enContra": 170,
+        "abstenciones": 0,
+        "noVotan": 2
+      },
+      "by_party": {
+        "pp": {
+          "yes": 137,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 119,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 32,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 26,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 5,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 5,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-jornada-pnl-2024-02-22": {
+      "statement": "tra-jornada-37h",
+      "date": "2024-02-22",
+      "yes_means": "agree",
+      "title": "Proposición no de Ley del Grupo Parlamentario SUMAR, relativa a la reducción de la jornada máxima legal de trabajo ordinario.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 344,
+        "afavor": 169,
+        "enContra": 33,
+        "abstenciones": 142,
+        "noVotan": 6
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 136,
+          "absent": 1,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "psoe": {
+          "yes": 118,
+          "no": 0,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 31,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 26,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 6,
+          "absent": 1,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-aborto-constitucion-totalidad-2026-04-30": {
+      "statement": "der-aborto-constitucion",
+      "date": "2026-04-30",
+      "yes_means": "disagree",
+      "title": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de reforma del artículo 43 de la Constitución Española, presentadas por los Grupos Parlamentarios Popular en el Congreso y VOX.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 348,
+        "afavor": 171,
+        "enContra": 177,
+        "abstenciones": 0,
+        "noVotan": 2
+      },
+      "by_party": {
+        "pp": {
+          "yes": 137,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 119,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 32,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 26,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 5,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-regularizacion-ilp-2024-04-09": {
+      "statement": "inm-regularizacion",
+      "date": "2024-04-09",
+      "yes_means": "agree",
+      "title": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España (corresponde al número de expediente 120/000026/0000 de la XIV Legislatura).",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 343,
+        "afavor": 310,
+        "enContra": 33,
+        "abstenciones": 0,
+        "noVotan": 6
+      },
+      "by_party": {
+        "pp": {
+          "yes": 136,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 118,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 24,
+          "no": 0,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 3,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "eh-bildu": {
+          "yes": 5,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 5,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-regularizacion-pnl-2025-02-26": {
+      "statement": "inm-regularizacion",
+      "date": "2025-02-26",
+      "yes_means": "agree",
+      "title": "Proposición no de Ley del Grupo Parlamentario Mixto (Sra. Belarra Urteaga), relativa a la regularización de personas migrantes.\n\nSe vota en los términos de la enmienda presentada por los Grupos Parlamentarios Mixto (Sra. Belarra Urteaga y Sr. Rego Candamil), Euskal Herria Bildu, Republicano y Plurinacional SUMAR.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 348,
+        "afavor": 46,
+        "enContra": 183,
+        "abstenciones": 119,
+        "noVotan": 2
+      },
+      "by_party": {
+        "pp": {
+          "yes": 1,
+          "no": 136,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 119,
+          "absent": 1,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 25,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 5,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-menores-rdl2-2025-04-10": {
+      "statement": "inm-reparto-menores",
+      "date": "2025-04-10",
+      "yes_means": "agree",
+      "title": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 350,
+        "afavor": 179,
+        "enContra": 170,
+        "abstenciones": 1,
+        "noVotan": 0
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 137,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 120,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 26,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 5,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-menores-lo4-2000-2024-07-23": {
+      "statement": "inm-reparto-menores",
+      "date": "2024-07-23",
+      "yes_means": "agree",
+      "title": "Proposición de Ley de los Grupos Parlamentarios Socialista, Plurinacional SUMAR y Mixto, de modificación de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 349,
+        "afavor": 171,
+        "enContra": 177,
+        "abstenciones": 1,
+        "noVotan": 1
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 137,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 119,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 26,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 5,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-nucleares-pnl-2025-02-12": {
+      "statement": "cli-nucleares",
+      "date": "2025-02-12",
+      "yes_means": "agree",
+      "title": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, sobre el cierre programado de la generación nuclear en España.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 349,
+        "afavor": 171,
+        "enContra": 164,
+        "abstenciones": 14,
+        "noVotan": 1
+      },
+      "by_party": {
+        "pp": {
+          "yes": 137,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 119,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 32,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 26,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 7,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 7,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 5,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-nucleares-pl-2025-06-17": {
+      "statement": "cli-nucleares",
+      "date": "2025-06-17",
+      "yes_means": "agree",
+      "title": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, para garantizar la aportación de la energía nuclear en la descarbonización del sistema energético.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 344,
+        "afavor": 171,
+        "enContra": 166,
+        "abstenciones": 7,
+        "noVotan": 5
+      },
+      "by_party": {
+        "pp": {
+          "yes": 137,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 117,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 32,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 25,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 3,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 7,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 5,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-amnistia-2024-03-14": {
+      "statement": "ter-amnistia",
+      "date": "2024-03-14",
+      "yes_means": "agree",
+      "title": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña.",
+      "subgroup": "Votación del nuevo dictamen. — Votación del nuevo dictamen.",
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 350,
+        "afavor": 178,
+        "enContra": 172,
+        "abstenciones": 0,
+        "noVotan": 0
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 137,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 120,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 26,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 5,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-financiacion-singular-2024-04-23": {
+      "statement": "ter-concierto-ccaa",
+      "date": "2024-04-23",
+      "yes_means": "agree",
+      "title": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Republicano, sobre la necesidad de acordar una financiación singular para Cataluña a fin de que la ciudadanía catalana disponga de servicios públicos a la altura de su esfuerzo fiscal.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 343,
+        "afavor": 24,
+        "enContra": 291,
+        "abstenciones": 28,
+        "noVotan": 7
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 136,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 119,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 1,
+          "no": 1,
+          "abstain": 21,
+          "absent": 3,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "podemos": {
+          "yes": 2,
+          "no": 0,
+          "abstain": 1,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 5,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 1,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-lenguas-reglamento-2023-09-21": {
+      "statement": "ter-solo-castellano-congreso",
+      "date": "2023-09-21",
+      "yes_means": "disagree",
+      "title": "Proposición de reforma del Reglamento del Congreso de los Diputados.",
+      "subgroup": "Votación de conjunto. — Votación de conjunto de la Proposición de reforma del Reglamento del Congreso de los Diputados.",
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 350,
+        "afavor": 180,
+        "enContra": 170,
+        "abstenciones": 0,
+        "noVotan": 0
+      },
+      "by_party": {
+        "pp": {
+          "yes": 1,
+          "no": 136,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 120,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 25,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 5,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 5,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-cgpj-vox-2024-02-27": {
+      "statement": "ins-cgpj",
+      "date": "2024-02-27",
+      "yes_means": "agree",
+      "title": "Proposición de Ley del Grupo Parlamentario VOX, Orgánica por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para la reforma del procedimiento de elección de los vocales del Consejo General del Poder Judicial.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 346,
+        "afavor": 170,
+        "enContra": 176,
+        "abstenciones": 0,
+        "noVotan": 4
+      },
+      "by_party": {
+        "pp": {
+          "yes": 136,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 118,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 32,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 26,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 5,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-cgpj-pp-2026-09-10": {
+      "statement": "ins-cgpj",
+      "date": "2026-09-10",
+      "yes_means": "agree",
+      "title": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica de modificación de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para el cambio del modelo de elección de los vocales del Consejo General del Poder Judicial.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 345,
+        "afavor": 170,
+        "enContra": 175,
+        "abstenciones": 0,
+        "noVotan": 5
+      },
+      "by_party": {
+        "pp": {
+          "yes": 136,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 119,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 31,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 26,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 5,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-memoria-mocion-2024-02-06": {
+      "statement": "ins-derogar-memoria",
+      "date": "2024-02-06",
+      "yes_means": "disagree",
+      "title": "Del Grupo Parlamentario Republicano, en relación con el despliegue y desarrollo de la Ley 20/2022, de 19 de octubre, de Memoria Democrática.\nSe vota en los términos de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Republicano.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 344,
+        "afavor": 174,
+        "enContra": 170,
+        "abstenciones": 0,
+        "noVotan": 6
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 136,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 118,
+          "no": 0,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 24,
+          "no": 0,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 5,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-memoria-pnl-2024-05-23": {
+      "statement": "ins-derogar-memoria",
+      "date": "2024-05-23",
+      "yes_means": "disagree",
+      "title": "Proposición no de Ley del Grupo Parlamentario Socialista, sobre la garantía de la aplicación de las políticas de memoria democrática en España.\n\nSe vota en los términos resultantes de la incorporación de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Plurinacional SUMAR.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 342,
+        "afavor": 175,
+        "enContra": 167,
+        "abstenciones": 0,
+        "noVotan": 8
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 134,
+          "abstain": 0,
+          "absent": 3,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 118,
+          "no": 0,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 31,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 25,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-embargo-israel-rdl-2025-10-08": {
+      "statement": "ext-embargo-israel",
+      "date": "2025-10-08",
+      "yes_means": "agree",
+      "title": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 348,
+        "afavor": 178,
+        "enContra": 169,
+        "abstenciones": 1,
+        "noVotan": 2
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 136,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 120,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 26,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-embargo-ley-2025-05-20": {
+      "statement": "ext-embargo-israel",
+      "date": "2025-05-20",
+      "yes_means": "agree",
+      "title": "Proposición de Ley de los Grupos Parlamentarios Plurinacional SUMAR y Mixto, por la que se reforma la Ley 53/2007, de 28 de diciembre, sobre el control del comercio exterior de material de defensa y de doble uso, introduciendo la figura del embargo y su régimen jurídico.",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 347,
+        "afavor": 176,
+        "enContra": 171,
+        "abstenciones": 0,
+        "noVotan": 3
+      },
+      "by_party": {
+        "pp": {
+          "yes": 0,
+          "no": 137,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 118,
+          "no": 0,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 0,
+          "no": 32,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 25,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 4,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "eh-bildu": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 5,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-irpf-deflactar-mocion-2026-04-22": {
+      "statement": "eco-bajar-irpf",
+      "date": "2026-04-22",
+      "yes_means": "agree",
+      "title": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+      "subgroup": "Votación separada por puntos. — Punto 1.",
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 345,
+        "afavor": 177,
+        "enContra": 163,
+        "abstenciones": 5,
+        "noVotan": 5
+      },
+      "by_party": {
+        "pp": {
+          "yes": 135,
+          "no": 0,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 119,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 32,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 25,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 5,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    },
+    "v-regularizacion-mocion-pp-2026-03-18": {
+      "statement": "inm-regularizacion",
+      "date": "2026-03-18",
+      "yes_means": "disagree",
+      "title": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.\n",
+      "subgroup": null,
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 348,
+        "afavor": 176,
+        "enContra": 172,
+        "abstenciones": 0,
+        "noVotan": 2
+      },
+      "by_party": {
+        "pp": {
+          "yes": 136,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 121,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "vox": {
+          "yes": 32,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 26,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "junts": {
+          "yes": 6,
+          "no": 0,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "yes",
+          "implied_stance": "disagree"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 5,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "cc": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "agree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,603 @@
+{
+  "statement": "eco-bajar-irpf",
+  "coded_on": "2026-10-31",
+  "coded_by": "subagent:recode-a",
+  "positions": {
+    "pp": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
+          "title": "Programa electoral. Un proyecto al servicio de un gran país. 365 medidas (elecciones generales 2023)",
+          "publisher": "Partido Popular",
+          "date": "2023-07-04",
+          "quote": "APROBAREMOS UN ALIVIO FISCAL INMEDIATO A LAS FAMILIAS. Corregiremos los efectos de la inflación en la tarifa del IRPF que supone una subida real de impuestos sobre la clase media.",
+          "accessed": "2026-10-31",
+          "page": "p. 23 del PDF"
+        },
+        {
+          "url": "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/",
+          "title": "Feijóo asegura que en 2027 habrá una rebaja del IRPF para que la inflación y los impuestos no se coman el salario de los españoles",
+          "publisher": "Partido Popular",
+          "date": "2026-10-23",
+          "quote": "Y en 2027, lo haremos realidad. En 2027, habrá una rebaja del IRPF para que la inflación y los impuestos no se coman el salario de los españoles",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
+      "note": "El programa 2023 y la web del partido (octubre de 2026) prometen bajar el IRPF. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: Sí; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: Sí."
+    },
+    "psoe": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
+      "note": "El programa 2023 solo propone deducciones familiares en el IRPF (p. 33 y 38 del PDF), no una bajada general. No se encontró una posición oficial posterior. Los votos en contra de deflactar el IRPF son solo relacionados. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
+    },
+    "vox": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "VOX",
+          "date": "2023-07-01",
+          "quote": "progresiva y continuada del IRPF a un tipo único reducido del 15% a aplicar sobre bases imponibles inferiores a 70.000 euros y un tipo ordinario del 25%",
+          "accessed": "2026-10-31",
+          "page": "p. 74"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
+      "note": "El programa propone bajar el IRPF a dos tipos del 15 % y el 25 %. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: Sí; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: Sí."
+    },
+    "frente-amplio": {
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Aumento de la progresividad del impuesto sobre la renta de las personas físicas (IRPF). En primer lugar, ampliando el número de tramos a partir de 120.000€ y aplicando tipos marginales crecientes",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
+      "note": "El programa propone subir los tipos altos del IRPF (hasta el 52 %) y la tributación del ahorro, no bajarlo. Es una implicación clara, pero ninguna frase rechaza expresamente una bajada: confianza media. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
+    },
+    "podemos": {
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Aumento de la progresividad del impuesto sobre la renta de las personas físicas (IRPF). En primer lugar, ampliando el número de tramos a partir de 120.000€ y aplicando tipos marginales crecientes",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
+      "note": "La única prueba es el programa conjunto de Sumar 2023, que sube los tipos altos del IRPF; confianza media. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
+    },
+    "erc": {
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-01",
+          "quote": "es proposa incrementar els tipus aplicats a les rendes del capital així com crear nous trams addicionals per a les rendes més altes.",
+          "accessed": "2026-10-31",
+          "page": "p. 70 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
+      "note": "ERC propone subir el IRPF a las rentas del capital y a las más altas, no una bajada general. Sí propone deducciones concretas, como la del alquiler. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
+    },
+    "junts": {
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://junts.cat/propostes/impostos/",
+          "title": "Propostes: Impostos",
+          "publisher": "Junts per Catalunya",
+          "date": "2026-07-16",
+          "quote": "Per això proposem una rebaixa real de l’IRPF per a les rendes mitjanes i treballadores",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "revisar i reequilibrar la fiscalitat que grava les rendes del treball a l’impost sobre la renda, ja que són les que suporten el gruix de la pressió fiscal, amb uns tipus impositius que arriben a ser excessius.",
+          "accessed": "2026-10-31",
+          "page": "p. 60 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
+      "note": "Junts propone en su web una rebaja del IRPF para las rentas medias y del trabajo, y su programa 2023 considera excesivos los tipos. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: abstención; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: Sí."
+    },
+    "eh-bildu": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
+      "note": "El programa 2023 no trata el IRPF. Los votos en contra de deflactar el IRPF son solo relacionados. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No (4), con 1 abstención; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
+    },
+    "pnv": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+          "title": "Con voz propia / Euskadiren ahotsa. Programa Electoral 23-J",
+          "publisher": "EAJ-PNV",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
+      "note": "El programa 2023 no trata el IRPF estatal (en Euskadi es foral). Se abstuvo en las tres votaciones relacionadas. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: abstención; PNL del PP de 12/06/2025: abstención; punto 1 de la moción del PP de 22/04/2026: abstención."
+    },
+    "bng": {
+      "stance": "neutral",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Estabelecer distintos tipos de gravame en función da natureza dos rendementos, minorando a tributación polos ingresos do traballo e aumentando a correspondente aos derivados do capital.",
+          "accessed": "2026-10-31",
+          "page": "p. 39 del PDF"
+        },
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Deflactar as tarifas do IRPF en función da taxa de inflación na Galiza.",
+          "accessed": "2026-10-31",
+          "page": "p. 39 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
+      "note": "Postura intermedia explícita: el programa pide más progresividad, bajar el IRPF de las rentas del trabajo y deflactar la tarifa, pero subir el de las rentas del capital. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: abstención; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: No."
+    },
+    "cc": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "bonificación del 60% del IRPF para los residentes en la isla de La Palma",
+          "accessed": "2026-10-31",
+          "page": "p. 5 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
+      "note": "El manifiesto 2023 solo pide una bonificación del IRPF para La Palma, no una bajada general. Los votos son solo relacionados. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: Sí."
+    },
+    "compromis": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-01",
+          "quote": "Mantenimiento del carácter progresivo del impuesto sobre la renta de las personas físicas",
+          "accessed": "2026-10-31",
+          "page": "p. 10 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
+      "note": "El programa 2023 habla en general de «bajar los impuestos a las personas corrientes» dentro de un plan de progresividad, y de mantener la progresividad del IRPF. No se pronuncia sobre bajar el IRPF. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
+    },
+    "salf": {
+      "stance": "agree",
+      "confidence": "low",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+          "title": "Contrato electoral Se Acabó La Fiesta en Castilla y León (programa autonómico 2026)",
+          "publisher": "Se Acabó La Fiesta",
+          "date": "2026-03-01",
+          "quote": "Aplicaremos una tarifa autonómica del IRPF del 0% para todos los castellanos y leoneses que ganen menos de 35.000€ al año.",
+          "accessed": "2026-10-31",
+          "page": "p. 4 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "SALF no tiene diputados en el Congreso ni programa estatal. Su programa autonómico de Castilla y León (2026) baja el tramo autonómico del IRPF; es una prueba indirecta de su posición estatal, por eso la confianza es baja."
+    }
+  },
+  "proposed_votes": [
+    {
+      "id": "v-irpf-deflactar-mocion-2026-04-22",
+      "statement": "eco-bajar-irpf",
+      "date": "2026-04-22",
+      "legislature": 15,
+      "session": 174,
+      "number": 14,
+      "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+      "title": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+      "subgroup": "Punto 1.",
+      "yes_means": "agree",
+      "relation": "related",
+      "note": "Punto 1 de la moción del PP, que pide deflactar de forma generalizada el IRPF. Relacionada: deflactar no es una bajada de tipos. Sí = de acuerdo. Aprobada 177-163-5 (Sí: GP, GVOX, GJxCAT, Valido, Catalán; abstención: GV (EAJ-PNV); No: el resto)."
+    }
+  ]
+}

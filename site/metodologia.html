@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title data-title-es="Metodología" data-title-en="Methodology">Metodología</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/page.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+  <header class="site">
+    <a class="brand" data-href-lang="./" href="./">29N · 2026</a>
+    <nav aria-label="Principal">
+      <a data-href-lang="eleccion.html" href="eleccion.html"><span data-lang="es">Cómo funciona la elección</span><span data-lang="en" hidden>How the election works</span></a>
+      <button id="lang" type="button" lang="en">English</button>
+    </nav>
+  </header>
+  <main id="main" class="prose">
+    <article class="card" data-lang="es">
+      <h1>Metodología</h1>
+      <p>Esta herramienta es independiente, no tiene ánimo de lucro y no está vinculada a ningún partido. Todo el código y los datos son públicos y revisables en el repositorio del proyecto.</p>
+
+      <h2>1. Qué partidos se incluyen</h2>
+      <p>Aplicamos la misma regla a todos: se incluye un partido o coalición que se presenta en 2026 y que (a) tenía al menos un diputado propio en el Congreso al disolverse las Cortes, o (b) obtuvo al menos el 1 % del voto en España en las últimas elecciones de ámbito estatal (europeas de junio de 2024).</p>
+      <p>Resultado (orden alfabético): BNG, CCa, Compromís, EAJ-PNV, EH Bildu, ERC, Frente Amplio, Junts, Podemos, PP (con UPN en Navarra), PSOE, SALF, Vox.</p>
+      <p>Los votos de una coalición en las europeas cuentan solo para la coalición en su conjunto, no para cada integrante por separado. Por eso no se incluyen, al no cumplir ninguno de los dos criterios por sí mismos, otras candidaturas presentes en algunas provincias (por ejemplo, PACMA, Escaños en Blanco, Existe, Geroa Bai —que en 2024 formó parte de la coalición CEUS— o la coalición UPC como tal). Esto es una limitación: pueden estar en tu papeleta.</p>
+      <p>Los partidos que se muestran en cada provincia salen de las candidaturas publicadas en el BOE del 28 de octubre de 2026. Un partido aparece si figura una candidatura con su nombre, su marca regional o el de uno de sus partidos integrantes. Si esa candidatura es una coalición encabezada por otro partido (por ejemplo, UPN-PP en Navarra, UPC en Canarias o Compromís en la Comunitat Valenciana), se muestra el nombre oficial de la papeleta y un aviso: las posiciones son las del partido a escala estatal, no necesariamente las de la coalición.</p>
+
+      <h2>2. Cómo se eligieron las afirmaciones</h2>
+      <ul>
+        <li>30 afirmaciones sobre 11 temas que ocupan el debate público: vivienda, economía, trabajo, sanidad, derechos, inmigración, clima, modelo territorial, educación, instituciones y política exterior.</li>
+        <li>Cada afirmación trata un solo asunto, se refiere a una medida concreta y está redactada sin términos valorativos. Una lista de palabras cargadas se comprueba automáticamente.</li>
+        <li>Hay afirmaciones en las que estar «de acuerdo» supone cambiar la situación actual y otras en las que supone mantenerla.</li>
+        <li>Cada una incluye una línea de contexto neutral sobre la situación legal actual.</li>
+        <li>El orden de las afirmaciones y de los partidos es aleatorio en cada visita.</li>
+      </ul>
+
+      <h2>3. Cómo se codificaron las posiciones de los partidos</h2>
+      <p>Para cada partido y afirmación se registra: <em>a favor</em>, <em>en contra</em>, <em>posición intermedia</em> o <em>sin posición clara</em>, con al menos una fuente (enlace, fecha y cita literal breve) y un nivel de confianza.</p>
+      <table>
+        <thead><tr><th>Confianza</th><th>Cuándo se usa</th></tr></thead>
+        <tbody>
+          <tr><td>Alta</td><td>Votación del partido en el Congreso en la legislatura 2023-2026 sobre esa medida, o texto explícito en su programa electoral (2026 o 2023).</td></tr>
+          <tr><td>Media</td><td>Declaración oficial del partido (en su web o canales oficiales, o de su portavoz en el Congreso) o texto de programa que implica claramente la posición.</td></tr>
+          <tr><td>Baja</td><td>Solo información de prensa sobre la posición del partido, declaraciones de dirigentes como miembros del Gobierno recogidas por la prensa, o evidencia indirecta o antigua.</td></tr>
+        </tbody>
+      </table>
+      <ul>
+        <li><strong>Nunca se deduce</strong> una posición a partir de la ideología, los aliados o lo que «probablemente» piense un partido. Si no hay fuente, se marca «sin posición clara».</li>
+        <li><strong>Programas 2026:</strong> muchos partidos no habían publicado su programa al construir esta herramienta. Esos partidos llevan la etiqueta «Programa 2026 pendiente» y se usan como base sus votaciones en el Congreso desde 2023, su programa de 2023 y sus declaraciones oficiales. Se actualizará cuando se publiquen.</li>
+        <li><strong>Votaciones relacionadas y abstenciones:</strong> cada votación se clasifica como «directa» (sobre la misma medida) o «relacionada». Una votación relacionada o una abstención nunca basta por sí sola para codificar una posición; se muestra como contexto.</li>
+        <li><strong>Afirmaciones genéricas</strong> («defenderemos los derechos LGTBI», «financiación justa») no se usan como prueba de una medida concreta.</li>
+        <li><strong>Votaciones:</strong> se obtienen de los datos abiertos del Congreso (voto nominal de cada diputado) y se atribuyen al partido por grupo parlamentario o, en el Grupo Mixto, diputado a diputado. Una votación es una prueba, no un código automático: si un partido vota en contra de una ley por motivos ajenos a la afirmación, se explica en una nota. El sistema avisa si la posición codificada contradice una votación enlazada sin explicación.</li>
+        <li>Frente Amplio es la sucesora de la coalición Sumar y su programa de 2023 se trata como propio. Podemos y Compromís concurrieron dentro de Sumar en 2023; cuando la única evidencia es aquel programa conjunto, su confianza es como máximo media.</li>
+        <li>Tras la auditoría de neutralidad (ver AUDIT.md en el repositorio), seis afirmaciones se redactaron en sentido inverso para que haya tantas en las que «de acuerdo» coincide con posiciones de un lado como del otro; las posturas de los partidos se invirtieron en consecuencia.</li>
+      </ul>
+
+      <h2>4. Cómo se calcula la coincidencia</h2>
+      <ul>
+        <li>Tu respuesta: de −2 (muy en desacuerdo) a +2 (muy de acuerdo), o saltar. Posición del partido: −1 (en contra), 0 (intermedia), +1 (a favor).</li>
+        <li>Coincidencia en una afirmación = 1 − |tu respuesta/2 − partido| / 2. Ejemplos: «muy de acuerdo» frente a «a favor» = 100 %; «de acuerdo» frente a «a favor» = 75 %; «neutral» frente a «a favor» = 50 %; «muy en desacuerdo» frente a «a favor» = 0 %.</li>
+        <li>Por tema: media de las afirmaciones que respondiste y en las que el partido tiene posición.</li>
+        <li>Total: media ponderada por los pesos que elijas para cada tema (0 = no contar, 1 normal, 2 importante, 3 muy importante), a nivel de afirmación.</li>
+        <li>Las posiciones que faltan («sin posición clara») <strong>no se rellenan</strong>: simplemente no cuentan. Por eso se muestra en cuántas de tus afirmaciones se basa cada resultado, y se avisa con «datos limitados» si es la mitad o menos. Si ordenas por coincidencia, los partidos con datos limitados aparecen después de los demás.</li>
+        <li>Una posición «intermedia» del partido da al menos un 50 % de coincidencia con cualquier respuesta; solo se usa cuando la fuente expresa explícitamente una postura intermedia.</li>
+        <li>Puedes excluir las posiciones de confianza baja.</li>
+        <li>Los resultados se muestran en orden aleatorio; solo se ordenan por coincidencia si tú lo pides. No hay recomendaciones ni etiquetas de «mejor opción».</li>
+      </ul>
+
+      <h2>5. Privacidad</h2>
+      <p>Tus respuestas no salen de tu navegador. No hay cuentas, cookies, analítica ni servicios de terceros; la página solo descarga sus propios archivos. Al cerrar la pestaña, las respuestas desaparecen.</p>
+
+      <h2>6. Limitaciones conocidas</h2>
+      <ul>
+        <li>30 afirmaciones no recogen todo lo que importa en una elección; la selección de temas es en sí una decisión editorial.</li>
+        <li>Una escala de tres posiciones simplifica posturas matizadas. Las notas y fuentes dan el detalle.</li>
+        <li>Los partidos grandes tienen más votaciones y documentos; los pequeños o sin escaños (como SALF) tienen más «sin posición clara». Eso reduce el número de afirmaciones comparables, no la puntuación.</li>
+        <li>Los programas de 2023 y las votaciones pasadas pueden no reflejar la posición actual de un partido.</li>
+        <li>Las candidaturas son las presentadas el 28 de octubre; la proclamación oficial (2 de noviembre) podría excluir alguna.</li>
+        <li>Para las coaliciones regionales (por ejemplo, UPC en Canarias) no hay posiciones propias codificadas.</li>
+      </ul>
+
+      <h2>7. Cobertura de datos por partido</h2>
+      <p>Ver la tabla al final de esta página.</p>
+
+      <h2>8. Errores y correcciones</h2>
+      <p>Si encuentras un error o una fuente mejor, abre una incidencia en el repositorio público del proyecto indicando la afirmación, el partido y la fuente. Las correcciones se aplican con el mismo criterio para todos los partidos y quedan registradas en el historial.</p>
+      <p><a data-href-lang="./" href="./">← Volver a la herramienta</a></p>
+    </article>
+
+    <article class="card" data-lang="en" hidden>
+      <h1>Methodology</h1>
+      <p>This tool is independent, non-profit and not linked to any party. All code and data are public and open to review in the project repository.</p>
+      <h2>1. Which parties are included</h2>
+      <p>The same rule applies to everyone: a party or coalition running in 2026 is included if (a) it had at least one deputy of its own in the Congreso at dissolution, or (b) it won at least 1% of the vote in Spain in the most recent nationwide election (European Parliament, June 2024).</p>
+      <p>Result (alphabetical): BNG, CCa, Compromís, EAJ-PNV, EH Bildu, ERC, Frente Amplio, Junts, Podemos, PP (with UPN in Navarre), PSOE, SALF, Vox.</p>
+      <p>A coalition's European-election vote counts only for the coalition as a whole, not for each member. Other candidacies on the ballot in some provinces (e.g. PACMA, Escaños en Blanco, Existe, Geroa Bai — part of the CEUS coalition in 2024 — or the UPC coalition as such) meet neither criterion on their own and are not included. This is a limitation: they may be on your ballot.</p>
+      <p>Parties shown per province come from the candidacies published in the BOE on 28 October 2026. A party appears if a candidacy carries its name, its regional brand or the name of one of its member parties. If that candidacy is a coalition headed by another party (e.g. UPN-PP in Navarre, UPC in the Canary Islands or Compromís in the Valencian Community), the official ballot name and a notice are shown: positions are the party's statewide ones, not necessarily the coalition's.</p>
+      <h2>2. How the statements were chosen</h2>
+      <ul>
+        <li>30 statements across 11 topics prominent in public debate.</li>
+        <li>Each statement covers one issue, refers to a concrete measure and avoids value-laden terms; a list of loaded words is checked automatically.</li>
+        <li>For some statements "agree" means changing the status quo, for others keeping it.</li>
+        <li>Each includes one neutral line of context about the current legal situation.</li>
+        <li>Statement and party order are randomised on every visit.</li>
+      </ul>
+      <h2>3. How party positions were coded</h2>
+      <p>For each party and statement we record <em>in favour</em>, <em>against</em>, <em>intermediate</em> or <em>no clear position</em>, with at least one source (link, date and short verbatim quote) and a confidence level.</p>
+      <table>
+        <thead><tr><th>Confidence</th><th>When used</th></tr></thead>
+        <tbody>
+          <tr><td>High</td><td>The party's vote in the Congreso in the 2023-2026 legislature on that measure, or explicit text in its election program (2026 or 2023).</td></tr>
+          <tr><td>Medium</td><td>Official party statement (its website or official channels, or its spokesperson in the Congreso) or program text that clearly implies the position.</td></tr>
+          <tr><td>Low</td><td>Only press reports of the party's position, statements by leaders acting as government members reported by the press, or indirect or older evidence.</td></tr>
+        </tbody>
+      </table>
+      <ul>
+        <li>A position is <strong>never inferred</strong> from ideology, allies or what a party "probably" thinks. No source → "no clear position".</li>
+        <li><strong>2026 programs:</strong> many parties had not published theirs when this tool was built. Those parties carry a "2026 program pending" label and their Congreso votes since 2023, 2023 program and official statements are used. Positions will be updated once programs are published.</li>
+        <li><strong>Votes</strong> come from Congreso open data (each deputy's recorded vote), attributed to parties by parliamentary group or, in the Mixed Group, deputy by deputy. A vote is evidence, not an automatic code; if a party voted against a bill for reasons unrelated to the statement, a note explains it. The pipeline flags any coded position that contradicts a linked vote without explanation.</li>
+        <li><strong>Related votes and abstentions</strong>: each vote is classed as "direct" (on the same measure) or "related". A related vote or an abstention alone never justifies a coding; it is shown as context. Generic statements ("we will defend LGBTI rights") are not used as evidence for a specific measure.</li>
+        <li>Frente Amplio is the successor of the Sumar coalition and its 2023 program is treated as its own. Podemos and Compromís ran within Sumar in 2023; where that joint program is the only evidence, their confidence is at most medium.</li>
+        <li>After the neutrality audit (see AUDIT.md in the repository), six statements were reversed so that "agree" aligns with each side equally often; party stances were inverted accordingly.</li>
+      </ul>
+      <h2>4. How agreement is calculated</h2>
+      <ul>
+        <li>Your answer: −2 (strongly disagree) to +2 (strongly agree), or skip. Party: −1 (against), 0 (intermediate), +1 (in favour).</li>
+        <li>Agreement on one statement = 1 − |your answer/2 − party| / 2. E.g. strongly agree vs in favour = 100%; agree vs in favour = 75%; neutral vs in favour = 50%; strongly disagree vs in favour = 0%.</li>
+        <li>Per topic: mean over statements you answered on which the party has a position.</li>
+        <li>Overall: weighted by your topic weights (0 = ignore, 1 normal, 2 important, 3 very important), at statement level.</li>
+        <li>Missing positions are <strong>not filled in</strong>; they simply do not count. Each result therefore shows how many of your statements it is based on, with a "limited data" flag at half or less. When sorting by agreement, limited-data parties are listed after the others.</li>
+        <li>An "intermediate" party position gives at least 50% agreement with any answer; it is used only when the source explicitly states an intermediate position.</li>
+        <li>You can exclude low-confidence positions.</li>
+        <li>Results are shown in random order and are only sorted by agreement if you ask. There are no recommendations or "best match" labels.</li>
+      </ul>
+      <h2>5. Privacy</h2>
+      <p>Your answers never leave your browser. No accounts, cookies, analytics or third-party services; the page only downloads its own files. Closing the tab erases your answers.</p>
+      <h2>6. Known limitations</h2>
+      <ul>
+        <li>30 statements cannot capture everything that matters; choosing topics is itself an editorial decision.</li>
+        <li>A three-point party scale simplifies nuanced positions; notes and sources give detail.</li>
+        <li>Large parties have more votes and documents; small or seatless parties (such as SALF) have more "no clear position". This reduces the number of comparable statements, not the score.</li>
+        <li>2023 programs and past votes may not reflect a party's current position.</li>
+        <li>Candidacies are those submitted on 28 October; official proclamation (2 November) could exclude some.</li>
+        <li>Regional coalitions (e.g. UPC in the Canary Islands) have no positions of their own coded.</li>
+      </ul>
+      <h2>7. Data coverage by party</h2>
+      <p>See the table at the end of this page.</p>
+      <h2>8. Errors and corrections</h2>
+      <p>If you find an error or a better source, open an issue in the public project repository naming the statement, party and source. Corrections follow the same criteria for every party and are recorded in the history.</p>
+      <p><a data-href-lang="./" href="./">← Back to the tool</a></p>
+    </article>
+    <section class="card" aria-labelledby="cov-h">
+      <h2 id="cov-h"><span data-lang="es">Cobertura de datos por partido</span><span data-lang="en" hidden>Data coverage by party</span></h2>
+      <div id="coverage"><p class="meta">…</p></div>
+    </section>
+  </main>
+</body>
+</html>

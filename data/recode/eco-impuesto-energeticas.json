@@ -1,0 +1,465 @@
+{
+  "statement": "eco-impuesto-energeticas",
+  "coded_on": "2026-10-31",
+  "coded_by": "subagent:recode-a",
+  "positions": {
+    "pp": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-82.PDF",
+          "title": "Diario de Sesiones del Congreso de los Diputados, Pleno, núm. 82 (21/11/2024)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-11-21",
+          "quote": "con nuestro voto evitamos los nuevos impuestos que ahora ustedes van a someter a votación: impuestos a la banca, […] impuesto sobre las energéticas, que ya se está viendo que promueven la deslocalización, la desinversión",
+          "accessed": "2026-10-31",
+          "page": "p. 65 del PDF (Puy Fraga, GP)"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó en contra de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+    },
+    "psoe": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Evaluaremos la prórroga y ajustes de los gravámenes temporales sobre la banca y energéticas, para que ambos sectores sigan contribuyendo a la justicia fiscal",
+          "accessed": "2026-10-31",
+          "page": "p. 39 del PDF"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). Es además autor de la PNL de 30/09/2026 (relacionada)."
+    },
+    "vox": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó en contra de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+    },
+    "frente-amplio": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Mantendremos los impuestos extraordinarios sobre las empresas energéticas y financieras mientras se aprueba e implementa completamente la reforma integral del impuesto de sociedades.",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+    },
+    "podemos": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto). Sus diputadas votaron en el Grupo Mixto."
+    },
+    "erc": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-01",
+          "quote": "Esquerra aposta per convertir els impostos extraordinaris a la banca i les empreses energètiques en figures permanents",
+          "accessed": "2026-10-31",
+          "page": "p. 70 del PDF"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+    },
+    "junts": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/actualitat/nogueras-quan-junts-te-forca-catalunya-hi-guanya/",
+          "title": "Nogueras: «Quan Junts té força, Catalunya hi guanya»",
+          "publisher": "Junts per Catalunya",
+          "date": "2026-10-27",
+          "quote": "Ha destacat les rebaixes de l’impost de societats per a petites empreses i cooperatives, els incentius fiscals a la creació d’ocupació i el fre al gravamen energètic.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). En octubre de 2026 Junts presenta como un logro haber frenado el gravamen energético. También votó en contra de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+    },
+    "eh-bildu": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-01",
+          "quote": "Aumentar la carga impositiva y convertir en permanentes los impuestos a la banca, energéticas y grandes fortunas",
+          "accessed": "2026-10-31",
+          "page": "p. 8"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+    },
+    "pnv": {
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://congreso.eaj-pnv.eus/es/noticias/56081/el-grupo-vasco-logra-la-concertacion-con-capacidad",
+          "title": "El Grupo Vasco logra la concertación con capacidad normativa de los impuestos a grupos multinacionales y banca",
+          "publisher": "EAJ-PNV (Grupo Vasco en el Congreso)",
+          "date": "2024-10-30",
+          "quote": "El gravamen a energéticas decaerá por factores externos a la formación jeltzale, que ha mostrado su voluntad de convertir en impuesto y concertar dicho tributo.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.eaj-pnv.eus/es/noticias/56223/aitor-esteban-no-participara-en-el-paripe-promovid/",
+          "title": "Aitor Esteban no participará en el “paripé” promovido por Podemos para negociar un gravamen a las energéticas",
+          "publisher": "EAJ-PNV",
+          "date": "2024-12-11",
+          "quote": "reformar el Impuesto de Sociedades para dejar de hacer parches impositivos que generan inseguridad jurídica",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+          "title": "Con voz propia / Euskadiren ahotsa. Programa Electoral 23-J",
+          "publisher": "EAJ-PNV",
+          "date": "2023-07-01",
+          "quote": "en caso de querer mantenerlas, deberían incluirse en una reforma tributaria y tramitarse como impuestos",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Pruebas contradictorias. En octubre de 2024 el PNV se mostró dispuesto a convertir el gravamen en un impuesto concertado, y su programa 2023 lo acepta solo como impuesto concertado. Pero en diciembre de 2024 pidió dejar los «parches impositivos» y en enero de 2025 votó No a la prórroga (votación directa, la prueba más reciente). Se codifica en desacuerdo con confianza media. Se abstuvo en la PNL europea de 2026 (relacionada)."
+    },
+    "bng": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Estabelecer a permanencia dos impostos específicos aos beneficios da banca, das grandes enerxéticas e ás grandes fortunas",
+          "accessed": "2026-10-31",
+          "page": "p. 40 del PDF"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+    },
+    "cc": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Cristina Valido se abstuvo en la votación directa de 2025 (una abstención no basta para codificar) y votó Sí a la PNL europea de 2026, que es solo relacionada. No se encontró posición en el manifiesto de 2023."
+    },
+    "compromis": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-01",
+          "quote": "Hacer permanente el impuesto a los beneficios extraordinarios de la banca y las empresas energéticas.",
+          "accessed": "2026-10-31",
+          "page": "p. 10 del PDF"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+    },
+    "salf": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+          "title": "Contrato electoral Se Acabó La Fiesta en Castilla y León (programa autonómico 2026)",
+          "publisher": "Se Acabó La Fiesta",
+          "date": "2026-03-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "SALF no tiene diputados en el Congreso ni programa estatal. Su programa autonómico de Castilla y León (2026) no trata este impuesto."
+    }
+  },
+  "proposed_votes": []
+}

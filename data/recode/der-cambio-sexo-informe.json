@@ -1,0 +1,272 @@
+{
+ "statement": "der-cambio-sexo-informe",
+ "coded_on": "2026-10-31",
+ "coded_by": "subagent:recode-b",
+ "positions": {
+  "pp": {
+   "stance": "agree",
+   "confidence": "medium",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://www.pp.es/actualidad/articulos/el-pp-registrara-en-las-cortes-una-proposicion-de-ley-para-modificar-la-ley-trans-y-la-ley-del-deporte-que-garantice-la-igualdad-de-oportunidades-en-las-competiciones-femeninas/",
+     "title": "El PP registrará en las Cortes una proposición de ley para modificar la Ley Trans y la Ley del Deporte",
+     "publisher": "PP",
+     "date": "2025-01-21",
+     "quote": "popularmente conocida como ‘Ley Trans’, y que el PP derogará en cuanto Alberto Núñez Feijóo alcance la Presidencia del Gobierno.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "PP",
+     "date": "2023-07-04",
+     "quote": "rechazamos también la asunción de las posiciones más extremas ante la transexualidad",
+     "page": "p. 42 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El PP anuncia que derogará la Ley 4/2023, que es la que suprimió los informes médicos; no detalla los requisitos de la ley que la sustituiría."
+  },
+  "psoe": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "PSOE",
+     "date": "2023-07-07",
+     "quote": "Hemos avanzado en el proceso de despatologización de las personas del colectivo, siguiendo las recomendaciones de la ONU",
+     "page": "p. 214 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "PSOE",
+     "date": "2023-07-07",
+     "quote": "estamos en disposición de implementar todas las medidas incluidas en la Ley LGTBI",
+     "page": "p. 214 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa reivindica la «despatologización» y se compromete a aplicar todas las medidas de la ley; no menciona expresamente el cambio registral, de ahí la confianza media."
+  },
+  "vox": {
+   "stance": "agree",
+   "confidence": "high",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "Vox",
+     "date": "2023-07-01",
+     "quote": "Derogaremos la ley Trans, Ley 4/2023",
+     "page": "p. 173 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa propone derogar la Ley 4/2023 y rechaza la «autodeterminación de género»."
+  },
+  "frente-amplio": {
+   "stance": "disagree",
+   "confidence": "high",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+     "title": "Un programa para ti. Programa electoral de Sumar 2023",
+     "publisher": "Sumar",
+     "date": "2023-07-07",
+     "quote": "Defender el principio de autodeterminación y libre desarrollo de la personalidad y autonomía corporal de las personas trans, intersex y no binarias.",
+     "page": "p. 116 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+     "title": "Un programa para ti. Programa electoral de Sumar 2023",
+     "publisher": "Sumar",
+     "date": "2023-07-07",
+     "quote": "es una prioridad dar cumplimiento efectivo a las disposiciones contenidas en la Ley 4/2023",
+     "page": "p. 114 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": []
+  },
+  "podemos": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+     "title": "Un programa para ti. Programa electoral de Sumar 2023",
+     "publisher": "Sumar",
+     "date": "2023-07-07",
+     "quote": "Defender el principio de autodeterminación y libre desarrollo de la personalidad y autonomía corporal de las personas trans, intersex y no binarias.",
+     "page": "p. 116 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Podemos concurrió dentro de Sumar en 2023; el programa conjunto es la única fuente abierta, por lo que la confianza se limita a media. podemos.info bloquea el acceso automatizado."
+  },
+  "erc": {
+   "stance": "disagree",
+   "confidence": "high",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+     "title": "Programa electoral eleccions generals 2023",
+     "publisher": "ERC",
+     "date": "2023-07-01",
+     "quote": "pel reconeixement del dret a l’autodeterminació de gènere, fet que implica despatologitzar el fet trans.",
+     "page": "p. 50 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "ERC apoyó la Ley 4/2023 y quiere ampliarla a menores y personas no binarias."
+  },
+  "junts": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+     "title": "Programa electoral per Catalunya (eleccions generals 2023)",
+     "publisher": "Junts",
+     "date": "2023-07-19",
+     "quote": "de la diversitat d’orientació sexual i identitat de gènere.",
+     "page": "p. 116 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Solo apoyo genérico a los derechos LGTBI; nada sobre la autodeterminación registral ni sobre la Ley 4/2023."
+  },
+  "eh-bildu": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+     "title": "Programa electoral 23J 2023",
+     "publisher": "EH Bildu",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa 2023 solo defiende de forma genérica los avances LGTBIQ+; no se encontró pronunciamiento sobre la autodeterminación registral ni sobre la Ley 4/2023 en la XV legislatura."
+  },
+  "pnv": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+     "title": "Con voz propia. Programa electoral 23-J",
+     "publisher": "EAJ-PNV",
+     "date": "2023-07-01",
+     "quote": "realizará en colaboración con el colectivo el seguimiento tanto del cumplimiento de la legislación aprobada",
+     "page": "p. 27 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Compromiso genérico con la legislación LGTBI; nada sobre el cambio registral sin informes."
+  },
+  "bng": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+     "title": "Programa eleccións xerais 2023",
+     "publisher": "BNG",
+     "date": "2023-07-05",
+     "quote": "a despatoloxización legal precisa de ser acompañada dunha “despatoloxización social”",
+     "page": "p. 25 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El BNG respalda la «despatoloxización legal» de las personas trans y pide ampliarla a menores y personas no binarias."
+  },
+  "cc": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+     "title": "Manifiesto electoral Coalición por Canarias 2023",
+     "publisher": "Coalición Canaria",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El manifiesto 2023 pide luchar contra la LGTBIfobia, sin pronunciarse sobre el cambio registral de sexo."
+  },
+  "compromis": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+     "title": "Un programa para ti. Programa electoral de Sumar 2023",
+     "publisher": "Sumar",
+     "date": "2023-07-07",
+     "quote": "Defender el principio de autodeterminación y libre desarrollo de la personalidad y autonomía corporal de las personas trans, intersex y no binarias.",
+     "page": "p. 116 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+     "title": "Programa de Compromís para Compromís-Sumar 2023",
+     "publisher": "Compromís",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Compromís concurrió con Sumar en 2023; su programa propio solo habla de forma genérica de blindar las leyes LGTBI, así que la única fuente específica es el programa conjunto de Sumar (confianza limitada a media)."
+  },
+  "salf": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+     "title": "Programa electoral de SALF para Castilla y León (marzo de 2026)",
+     "publisher": "Se Acabó La Fiesta (copia alojada por The Objective)",
+     "date": "2026-03-04",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "SALF no ha publicado programa estatal (ni en 2024 ni en 2026) y no tiene historial de votaciones en el Congreso; su programa autonómico de Castilla y León (marzo de 2026) no trata este asunto."
+  }
+ },
+ "proposed_votes": []
+}

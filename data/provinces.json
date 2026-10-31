@@ -1,0 +1,332 @@
+{
+  "source": {
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+    "pdf": "https://www.boe.es/boe/dias/2026/10/06/pdfs/BOE-A-2026-20742.pdf",
+    "title": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones (BOE-A-2026-20742, anexo)",
+    "date": "2026-10-06",
+    "accessed": "2026-10-31"
+  },
+  "calendar": {
+    "election_day": "2026-11-29",
+    "campaign_start": "2026-11-13",
+    "campaign_end": "2026-11-27",
+    "campaign_note": "Campaña de quince días: desde las 0:00 del viernes 13 de noviembre hasta las 24:00 del viernes 27 de noviembre (art. 4 RD 806/2026).",
+    "constitutive_session": "2026-12-23",
+    "constitutive_session_time": "10:00",
+    "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742"
+  },
+  "provinces": [
+    {
+      "id": "albacete",
+      "name": "Albacete",
+      "community": "Castilla-La Mancha",
+      "seats_congreso_2026": 4
+    },
+    {
+      "id": "alicante",
+      "name": "Alicante/Alacant",
+      "community": "Comunitat Valenciana",
+      "seats_congreso_2026": 12
+    },
+    {
+      "id": "almeria",
+      "name": "Almería",
+      "community": "Andalucía",
+      "seats_congreso_2026": 6
+    },
+    {
+      "id": "alava",
+      "name": "Araba/Álava",
+      "community": "País Vasco",
+      "seats_congreso_2026": 4
+    },
+    {
+      "id": "asturias",
+      "name": "Asturias",
+      "community": "Principado de Asturias",
+      "seats_congreso_2026": 7
+    },
+    {
+      "id": "avila",
+      "name": "Ávila",
+      "community": "Castilla y León",
+      "seats_congreso_2026": 3
+    },
+    {
+      "id": "badajoz",
+      "name": "Badajoz",
+      "community": "Extremadura",
+      "seats_congreso_2026": 5
+    },
+    {
+      "id": "balears",
+      "name": "Illes Balears",
+      "community": "Illes Balears",
+      "seats_congreso_2026": 8
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "community": "Cataluña",
+      "seats_congreso_2026": 32
+    },
+    {
+      "id": "bizkaia",
+      "name": "Bizkaia",
+      "community": "País Vasco",
+      "seats_congreso_2026": 8
+    },
+    {
+      "id": "burgos",
+      "name": "Burgos",
+      "community": "Castilla y León",
+      "seats_congreso_2026": 4
+    },
+    {
+      "id": "caceres",
+      "name": "Cáceres",
+      "community": "Extremadura",
+      "seats_congreso_2026": 4
+    },
+    {
+      "id": "cadiz",
+      "name": "Cádiz",
+      "community": "Andalucía",
+      "seats_congreso_2026": 8
+    },
+    {
+      "id": "cantabria",
+      "name": "Cantabria",
+      "community": "Cantabria",
+      "seats_congreso_2026": 5
+    },
+    {
+      "id": "castellon",
+      "name": "Castellón/Castelló",
+      "community": "Comunitat Valenciana",
+      "seats_congreso_2026": 5
+    },
+    {
+      "id": "ciudad-real",
+      "name": "Ciudad Real",
+      "community": "Castilla-La Mancha",
+      "seats_congreso_2026": 5
+    },
+    {
+      "id": "cordoba",
+      "name": "Córdoba",
+      "community": "Andalucía",
+      "seats_congreso_2026": 6
+    },
+    {
+      "id": "a-coruna",
+      "name": "A Coruña",
+      "community": "Galicia",
+      "seats_congreso_2026": 8
+    },
+    {
+      "id": "cuenca",
+      "name": "Cuenca",
+      "community": "Castilla-La Mancha",
+      "seats_congreso_2026": 3
+    },
+    {
+      "id": "gipuzkoa",
+      "name": "Gipuzkoa",
+      "community": "País Vasco",
+      "seats_congreso_2026": 6
+    },
+    {
+      "id": "girona",
+      "name": "Girona",
+      "community": "Cataluña",
+      "seats_congreso_2026": 6
+    },
+    {
+      "id": "granada",
+      "name": "Granada",
+      "community": "Andalucía",
+      "seats_congreso_2026": 7
+    },
+    {
+      "id": "guadalajara",
+      "name": "Guadalajara",
+      "community": "Castilla-La Mancha",
+      "seats_congreso_2026": 3
+    },
+    {
+      "id": "huelva",
+      "name": "Huelva",
+      "community": "Andalucía",
+      "seats_congreso_2026": 5
+    },
+    {
+      "id": "huesca",
+      "name": "Huesca",
+      "community": "Aragón",
+      "seats_congreso_2026": 3
+    },
+    {
+      "id": "jaen",
+      "name": "Jaén",
+      "community": "Andalucía",
+      "seats_congreso_2026": 5
+    },
+    {
+      "id": "leon",
+      "name": "León",
+      "community": "Castilla y León",
+      "seats_congreso_2026": 4
+    },
+    {
+      "id": "lleida",
+      "name": "Lleida",
+      "community": "Cataluña",
+      "seats_congreso_2026": 4
+    },
+    {
+      "id": "lugo",
+      "name": "Lugo",
+      "community": "Galicia",
+      "seats_congreso_2026": 4
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "community": "Comunidad de Madrid",
+      "seats_congreso_2026": 38
+    },
+    {
+      "id": "malaga",
+      "name": "Málaga",
+      "community": "Andalucía",
+      "seats_congreso_2026": 11
+    },
+    {
+      "id": "murcia",
+      "name": "Murcia",
+      "community": "Región de Murcia",
+      "seats_congreso_2026": 10
+    },
+    {
+      "id": "navarra",
+      "name": "Navarra",
+      "community": "Comunidad Foral de Navarra",
+      "seats_congreso_2026": 5
+    },
+    {
+      "id": "ourense",
+      "name": "Ourense",
+      "community": "Galicia",
+      "seats_congreso_2026": 4
+    },
+    {
+      "id": "palencia",
+      "name": "Palencia",
+      "community": "Castilla y León",
+      "seats_congreso_2026": 3
+    },
+    {
+      "id": "las-palmas",
+      "name": "Las Palmas",
+      "community": "Canarias",
+      "seats_congreso_2026": 8
+    },
+    {
+      "id": "pontevedra",
+      "name": "Pontevedra",
+      "community": "Galicia",
+      "seats_congreso_2026": 7
+    },
+    {
+      "id": "la-rioja",
+      "name": "La Rioja",
+      "community": "La Rioja",
+      "seats_congreso_2026": 4
+    },
+    {
+      "id": "salamanca",
+      "name": "Salamanca",
+      "community": "Castilla y León",
+      "seats_congreso_2026": 4
+    },
+    {
+      "id": "santa-cruz-de-tenerife",
+      "name": "Santa Cruz de Tenerife",
+      "community": "Canarias",
+      "seats_congreso_2026": 7
+    },
+    {
+      "id": "segovia",
+      "name": "Segovia",
+      "community": "Castilla y León",
+      "seats_congreso_2026": 3
+    },
+    {
+      "id": "sevilla",
+      "name": "Sevilla",
+      "community": "Andalucía",
+      "seats_congreso_2026": 12
+    },
+    {
+      "id": "soria",
+      "name": "Soria",
+      "community": "Castilla y León",
+      "seats_congreso_2026": 2
+    },
+    {
+      "id": "tarragona",
+      "name": "Tarragona",
+      "community": "Cataluña",
+      "seats_congreso_2026": 6
+    },
+    {
+      "id": "teruel",
+      "name": "Teruel",
+      "community": "Aragón",
+      "seats_congreso_2026": 3
+    },
+    {
+      "id": "toledo",
+      "name": "Toledo",
+      "community": "Castilla-La Mancha",
+      "seats_congreso_2026": 6
+    },
+    {
+      "id": "valencia",
+      "name": "Valencia/València",
+      "community": "Comunitat Valenciana",
+      "seats_congreso_2026": 16
+    },
+    {
+      "id": "valladolid",
+      "name": "Valladolid",
+      "community": "Castilla y León",
+      "seats_congreso_2026": 5
+    },
+    {
+      "id": "zamora",
+      "name": "Zamora",
+      "community": "Castilla y León",
+      "seats_congreso_2026": 3
+    },
+    {
+      "id": "zaragoza",
+      "name": "Zaragoza",
+      "community": "Aragón",
+      "seats_congreso_2026": 7
+    },
+    {
+      "id": "ceuta",
+      "name": "Ceuta",
+      "community": "Ceuta",
+      "seats_congreso_2026": 1
+    },
+    {
+      "id": "melilla",
+      "name": "Melilla",
+      "community": "Melilla",
+      "seats_congreso_2026": 1
+    }
+  ]
+}

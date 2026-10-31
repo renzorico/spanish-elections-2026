@@ -1,0 +1,275 @@
+{
+ "statement": "inm-reducir-llegadas",
+ "coded_on": "2026-10-31",
+ "coded_by": "subagent:recode-b",
+ "positions": {
+  "pp": {
+   "stance": "neutral",
+   "confidence": "medium",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+     "title": "Plan Nacional para una inmigración legal, ordenada y mutuamente beneficiosa",
+     "publisher": "PP",
+     "date": "2025-10-14",
+     "quote": "Ni el inmovilismo del “que entre quien quiera” ni el simplismo del “hay que echarlos a todos” ofrecen respuestas a la altura de un gran país.",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-68.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 68 (intervención de Núñez Feijóo, GP Popular)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-10-09",
+     "quote": "hay otras naciones de nuestro entorno que sí han logrado reducir el flujo. Oiga, no haga demagogia: mi grupo no ha cuestionado la migración regular.",
+     "page": "p. 15 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El PP quiere reducir las llegadas irregulares, pero dice expresamente que no cuestiona la migración regular y propone cuotas anuales por países y sectores. Toma una posición intermedia sobre el número total."
+  },
+  "psoe": {
+   "stance": "disagree",
+   "confidence": "low",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-68.PDF",
+     "title": "Diario de Sesiones del Congreso, Pleno núm. 68 (intervención de Sánchez Pérez-Castejón, presidente del Gobierno)",
+     "publisher": "Congreso de los Diputados",
+     "date": "2024-10-09",
+     "quote": "España tiene que elegir entre ser un país abierto y próspero o un país cerrado y pobre.",
+     "page": "p. 10 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2024/091024-sanchez-comparecencia-congreso.aspx",
+     "title": "Pedro Sánchez: «Acoger al que viene de fuera no es sólo un deber, sino un paso para garantizar el Estado del bienestar»",
+     "publisher": "La Moncloa",
+     "date": "2024-10-09",
+     "quote": "El presidente del Gobierno reivindica la política migratoria \"humanitaria y responsable\" del Ejecutivo",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "PSOE",
+     "date": "2023-07-07",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Pedro Sánchez (secretario general del PSOE) habló como presidente del Gobierno, no como portavoz del partido: defendió la inmigración frente al reto demográfico y quiere reducir solo la irregular. El programa de 2023 no fija posición sobre el número de llegadas."
+  },
+  "vox": {
+   "stance": "agree",
+   "confidence": "medium",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "Vox",
+     "date": "2023-07-01",
+     "quote": "Impulsaremos un bloqueo naval que proteja nuestras costas de la llegada masiva de inmigrantes ilegales",
+     "page": "p. 102 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "Vox",
+     "date": "2023-07-01",
+     "quote": "El gobierno de Sánchez y las entidades supranacionales están imponiendo un modelo de puertas abiertas que ha importado inseguridad y ha provocado ruina",
+     "page": "p. 89 del PDF",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.que.es/2026/10/12/precampana-vox-29n-abascal/",
+     "title": "Abascal arranca la precampaña de Vox: vivienda, pensiones y remigración para el 29-N",
+     "publisher": "Qué!",
+     "date": "2026-10-12",
+     "quote": "La formación coloca vivienda, pensiones y 'remigración' en el centro de su discurso",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa de 2023 se centra en la inmigración irregular, pero rechaza las «políticas de puertas abiertas» y la llegada «masiva»; en la precampaña de 2026 Vox habla de «remigración». No fija una cifra global, de ahí la confianza media."
+  },
+  "frente-amplio": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+     "title": "Un programa para ti. Programa electoral de Sumar 2023",
+     "publisher": "Sumar",
+     "date": "2023-07-07",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El capítulo de migraciones del programa de Sumar 2023 no fija posición sobre el número de llegadas; no se encontró declaración oficial."
+  },
+  "podemos": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+     "title": "Un programa para ti. Programa electoral de Sumar 2023",
+     "publisher": "Sumar",
+     "date": "2023-07-07",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "No se encontró posición explícita en el programa conjunto de Sumar 2023 ni en declaraciones oficiales; podemos.info bloquea el acceso automatizado."
+  },
+  "erc": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+     "title": "Programa electoral eleccions generals 2023",
+     "publisher": "ERC",
+     "date": "2023-07-01",
+     "quote": "Regulació dels fluxos migratoris des d’una perspectiva real i objectiva de les causes de les migracions per a la bona gestió de les entrades i sortides.",
+     "page": "p. 37 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa defiende vías legales y seguras y la «regulació dels fluxos», sin pronunciarse sobre reducir o aumentar las llegadas."
+  },
+  "junts": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://junts.cat/actualitat/nogueras-catalunya-ha-de-tenir-el-control-de-la-immigracio/",
+     "title": "Nogueras: «Catalunya ha de tenir el control de la immigració»",
+     "publisher": "Junts",
+     "date": "2026-08-26",
+     "quote": "Catalunya no té capacitat d’acollida infinita, i cal dir-ho",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Junts pide que Cataluña controle la inmigración y dice que su capacidad de acogida no es infinita, pero no se pronuncia sobre reducir las llegadas al conjunto de España."
+  },
+  "eh-bildu": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+     "title": "Programa electoral 23J 2023",
+     "publisher": "EH Bildu",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa 2023 pide vías seguras y derogar la Ley de Extranjería, pero no se pronuncia sobre el número de llegadas."
+  },
+  "pnv": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+     "title": "Con voz propia. Programa electoral 23-J",
+     "publisher": "EAJ-PNV",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa 2023 pide una política europea de inmigración y asilo y el traspaso de competencias migratorias, sin pronunciarse sobre reducir llegadas."
+  },
+  "bng": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+     "title": "Programa eleccións xerais 2023",
+     "publisher": "BNG",
+     "date": "2023-07-05",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa 2023 defiende los derechos de las personas migrantes y combatir las causas de la emigración, sin pronunciarse sobre el número de llegadas."
+  },
+  "cc": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+     "title": "Manifiesto electoral Coalición por Canarias 2023",
+     "publisher": "Coalición Canaria",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El manifiesto 2023 pide cooperar con los países de origen contra la inmigración irregular, sin pronunciarse sobre el número total de inmigrantes."
+  },
+  "compromis": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+     "title": "Programa de Compromís para Compromís-Sumar 2023",
+     "publisher": "Compromís",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa pide una política migratoria basada en derechos, sin objetivo sobre el número de llegadas."
+  },
+  "salf": {
+   "stance": "agree",
+   "confidence": "low",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+     "title": "Programa electoral de SALF para Castilla y León (marzo de 2026)",
+     "publisher": "Se Acabó La Fiesta (copia alojada por The Objective)",
+     "date": "2026-03-04",
+     "quote": "queremos que nazcan más españoles. Tener hijos es el futuro de Castilla y León y de España, no traer millones de inmigrantes.",
+     "page": "p. 9 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Única fuente: el programa autonómico de SALF para Castilla y León (marzo de 2026), evidencia indirecta de su posición estatal."
+  }
+ },
+ "proposed_votes": []
+}

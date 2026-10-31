@@ -1,0 +1,303 @@
+{
+  "statement": "tra-salario-minimo",
+  "coded_on": "2026-10-31",
+  "coded_by": "subagent:recode-a",
+  "coded_against_proposed_wording": {
+    "text": {
+      "es": "El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio.",
+      "en": "The minimum wage should keep rising and stay at no less than 60% of the average wage."
+    },
+    "context": {
+      "es": "El Gobierno fija el salario mínimo cada año tras consultar a sindicatos y patronal; en 2026 es de 1.221 euros al mes en 14 pagas. Desde 2023 el Gobierno considera que equivale al 60 % del salario medio neto, la referencia de la Carta Social Europea.",
+      "en": "The Government sets the minimum wage every year after consulting unions and employers; in 2026 it is €1,221 a month over 14 payments. Since 2023 the Government has considered it equal to 60% of the net average wage, the European Social Charter benchmark."
+    },
+    "reason": "Premisa superada: el 14/02/2023 el Gobierno anunció que el SMI ya había alcanzado el 60 % del salario medio (transcripción de La Moncloa). Los reales decretos 87/2025 y 126/2026 hablan de mantener ese objetivo.",
+    "sources": [
+      {
+        "url": "https://www.lamoncloa.gob.es/consejodeministros/ruedas/Documents/2023/Consejo%202023.02.14.pdf",
+        "title": "Rueda de prensa tras el Consejo de Ministros de 14/02/2023 (transcripción)",
+        "publisher": "La Moncloa",
+        "date": "2023-02-14",
+        "quote": "Cumplimos con aquel horizonte de elevar el Salario Mínimo hasta el 60% del salario medio.",
+        "accessed": "2026-10-31"
+      },
+      {
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815",
+        "title": "Real Decreto 126/2026, de 18 de febrero, por el que se fija el salario mínimo interprofesional para 2026",
+        "publisher": "BOE",
+        "date": "2026-02-19",
+        "quote": "se mantiene el objetivo de que el salario mínimo interprofesional alcance el 60 por ciento del salario medio",
+        "accessed": "2026-10-31"
+      }
+    ]
+  },
+  "positions": {
+    "pp": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
+          "title": "Programa electoral. Un proyecto al servicio de un gran país. 365 medidas (elecciones generales 2023)",
+          "publisher": "Partido Popular",
+          "date": "2023-07-04",
+          "quote": "ACTUALIZAREMOS EL SALARIO MÍNIMO INTERPROFESIONAL EN EL MARCO DEL DIÁLOGO SOCIAL.",
+          "accessed": "2026-10-31",
+          "page": "p. 19 del PDF"
+        },
+        {
+          "url": "https://www.pp.es/actualidad/articulos/feijoo-mi-objetivo-no-solo-es-que-suba-el-salario-minimo-sino-tambien-el-salario-medio-para-hacer-crecer-la-economia/",
+          "title": "Feijóo: «Mi objetivo no solo es que suba el salario mínimo, sino también el salario medio para hacer crecer la economía»",
+          "publisher": "Partido Popular",
+          "date": "2026-10-23",
+          "quote": "su objetivo no solo será subir el salario mínimo de los trabajadores, sino también el salario medio",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. El PP quiere que el SMI siga subiendo mediante el diálogo social, pero no se pronuncia sobre la referencia del 60 % del salario medio, que es el núcleo de la afirmación. Con la redacción actual la codificación sería la misma."
+    },
+    "psoe": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Garantizaremos en el Estatuto de los trabajadores que el SMI se acompase al 60% del salario medio",
+          "accessed": "2026-10-31",
+          "page": "p. 26 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. El programa quiere fijar por ley la referencia del 60 % del salario medio. Con la redacción actual sería también de acuerdo."
+    },
+    "vox": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "VOX",
+          "date": "2023-07-01",
+          "quote": "Mientras el gobierno decía subir el SMI para ayudar a los españoles, subía aún más los impuestos y se disparaban los precios",
+          "accessed": "2026-10-31",
+          "page": "p. 22"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. El programa 2023 critica cómo se subió el SMI y no fija ningún objetivo ligado al salario medio. El SMI se aprueba por real decreto, así que no hay votación en el Congreso."
+    },
+    "frente-amplio": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Haber alcanzado, con los 1.080 €, el 60% del salario medio, si bien es un gran avance, no es suficiente",
+          "accessed": "2026-10-31",
+          "page": "p. 26 del PDF"
+        },
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Subiremos el salario mínimo interprofesional por encima del IPC anual para mantener la ganancia de poder adquisitivo de las personas que lo cobran.",
+          "accessed": "2026-10-31",
+          "page": "p. 7 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. El programa da por alcanzado el 60 % y quiere seguir subiendo el SMI por encima de ese nivel."
+    },
+    "podemos": {
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Haber alcanzado, con los 1.080 €, el 60% del salario medio, si bien es un gran avance, no es suficiente",
+          "accessed": "2026-10-31",
+          "page": "p. 26 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. La única prueba es el programa conjunto de Sumar 2023, así que la confianza máxima es media."
+    },
+    "erc": {
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-01",
+          "quote": "amb l’increment del salari mínim interprofessional a 1.250 euros",
+          "accessed": "2026-10-31",
+          "page": "p. 90 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. ERC pide subir el SMI a 1.250 euros (en 2023 era de 1.080, la cifra que el Gobierno equiparó al 60 % del salario medio) y permitir SMI autonómicos más altos. No cita el 60 %, por eso la confianza es media."
+    },
+    "junts": {
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "per a Junts per Catalunya, l’actual SMI de 1.080 euros és insuficient per dignificar l’SMI",
+          "accessed": "2026-10-31",
+          "page": "p. 65 del PDF"
+        },
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "Aquest SMI català podria partir dels 1.319 €/mes, de l’actual salari mitjà europeu, per apropar-se progressivament fins als 1.400, 1500 euros al mes.",
+          "accessed": "2026-10-31",
+          "page": "p. 65 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. Junts considera insuficiente el SMI de 1.080 euros (el nivel que el Gobierno equiparó al 60 %) y propone un SMI catalán más alto. No cita el 60 %, por eso la confianza es media."
+    },
+    "eh-bildu": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-01",
+          "quote": "Exigiremos el aumento del SMI hasta los 1.200€, asumiendo además la capacidad para establecer un SMI propio",
+          "accessed": "2026-10-31",
+          "page": "p. 3"
+        },
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-01",
+          "quote": "guiado por las directrices recogidas en la Carta Social Europea, que lo fijan en el 60% del salario medio",
+          "accessed": "2026-10-31",
+          "page": "p. 3-4"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. Pide subir el SMI y vincularlo a la referencia del 60 % de la Carta Social Europea, y además un SMI vasco propio."
+    },
+    "pnv": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+          "title": "Con voz propia / Euskadiren ahotsa. Programa Electoral 23-J",
+          "publisher": "EAJ-PNV",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. El programa 2023 no trata el SMI (buscado: salario mínimo, SMI, salario medio)."
+    },
+    "bng": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Incremento do Salario Mínimo Interprofesional até o situar no 60 % do salario medio, tal e como fixa a Carta Social Europea.",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. "
+    },
+    "cc": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. El manifiesto 2023 habla de «sueldos dignos» sin fijar ningún objetivo para el SMI."
+    },
+    "compromis": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-01",
+          "quote": "Continuar incrementando el Salario Mínimo Interprofesional (SMI) como mínimo hasta llegar al 60% del salario medio español.",
+          "accessed": "2026-10-31",
+          "page": "p. 7 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. La maquetación del PDF intercala dos columnas; la cita se ha reconstruido a partir del texto extraído."
+    },
+    "salf": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+          "title": "Contrato electoral Se Acabó La Fiesta en Castilla y León (programa autonómico 2026)",
+          "publisher": "Se Acabó La Fiesta",
+          "date": "2026-03-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. SALF no tiene diputados en el Congreso ni programa estatal. Su programa autonómico de Castilla y León (2026) no trata el SMI."
+    }
+  },
+  "proposed_votes": []
+}

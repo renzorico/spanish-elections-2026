@@ -1,0 +1,1023 @@
+{
+  "status": "presented",
+  "source": {
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
+    "pdf": "https://www.boe.es/boe/dias/2026/10/28/pdfs/BOE-A-2026-22607.pdf",
+    "title": "Candidaturas presentadas para las elecciones al Congreso de los Diputados y al Senado, convocadas por Real Decreto 806/2026, de 5 de octubre (BOE núm. 267, sección III, Juntas Electorales Provinciales, BOE-A-2026-22607)",
+    "date": "2026-10-28",
+    "accessed": "2026-10-31"
+  },
+  "status_note": "Candidaturas presentadas, no proclamadas. La proclamación (2 nov., BOE 3 nov.) puede excluir listas.",
+  "by_province": {
+    "albacete": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "alicante": [
+      "pp",
+      "psoe",
+      "vox",
+      "compromis",
+      "salf",
+      "frente-amplio",
+      "podemos"
+    ],
+    "almeria": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "alava": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "eh-bildu",
+      "pnv",
+      "salf"
+    ],
+    "asturias": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "avila": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "badajoz": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "balears": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "salf"
+    ],
+    "barcelona": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "erc",
+      "junts",
+      "salf"
+    ],
+    "bizkaia": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "eh-bildu",
+      "pnv"
+    ],
+    "burgos": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "caceres": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "cadiz": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "cantabria": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos"
+    ],
+    "castellon": [
+      "pp",
+      "psoe",
+      "vox",
+      "compromis",
+      "salf",
+      "frente-amplio",
+      "podemos"
+    ],
+    "ciudad-real": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos"
+    ],
+    "cordoba": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "a-coruna": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "bng",
+      "salf"
+    ],
+    "cuenca": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "gipuzkoa": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "eh-bildu",
+      "pnv"
+    ],
+    "girona": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "erc",
+      "junts"
+    ],
+    "granada": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "guadalajara": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "huelva": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "huesca": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "jaen": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "leon": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "lleida": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "erc",
+      "junts"
+    ],
+    "lugo": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "bng",
+      "salf"
+    ],
+    "madrid": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "malaga": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "murcia": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "navarra": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "eh-bildu",
+      "salf"
+    ],
+    "ourense": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "bng",
+      "salf"
+    ],
+    "palencia": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "las-palmas": [
+      "pp",
+      "psoe",
+      "vox",
+      "cc",
+      "salf",
+      "frente-amplio",
+      "podemos"
+    ],
+    "pontevedra": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "bng",
+      "salf"
+    ],
+    "la-rioja": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "salamanca": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "santa-cruz-de-tenerife": [
+      "pp",
+      "psoe",
+      "vox",
+      "cc",
+      "salf",
+      "frente-amplio",
+      "podemos"
+    ],
+    "segovia": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "sevilla": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "soria": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "tarragona": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "erc",
+      "junts",
+      "salf"
+    ],
+    "teruel": [
+      "pp",
+      "psoe",
+      "vox",
+      "podemos",
+      "salf"
+    ],
+    "toledo": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "valencia": [
+      "pp",
+      "psoe",
+      "vox",
+      "compromis",
+      "salf",
+      "frente-amplio",
+      "podemos"
+    ],
+    "valladolid": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "zamora": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "zaragoza": [
+      "pp",
+      "psoe",
+      "vox",
+      "frente-amplio",
+      "podemos",
+      "salf"
+    ],
+    "ceuta": [
+      "pp",
+      "psoe",
+      "vox",
+      "podemos",
+      "salf"
+    ],
+    "melilla": [
+      "pp",
+      "psoe",
+      "vox",
+      "salf"
+    ]
+  },
+  "list_names": {
+    "albacete": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "alicante": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "compromis": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)",
+      "frente-amplio": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)",
+      "podemos": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)"
+    },
+    "almeria": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "alava": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE) [PSE-EE (PSOE)]",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO-FRONTE ZABALA (FRENTE AMPLIO-FRONTE ZABALA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "eh-bildu": "EUSKAL HERRIA BILDU (EH Bildu)",
+      "pnv": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO (EAJ-PNV)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "asturias": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIU POR ASTURIES (FA)",
+      "podemos": "PODEMOS (PAZ, CASA Y TRABAJO)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "avila": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "badajoz": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "balears": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA DE LAS ISLAS BALEARES (PSIB-PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "ARAMÉS-FRONT AMPLI (ARAMÉS-EU-MS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "barcelona": {
+      "pp": "PARTIT POPULAR/PARTIDO POPULAR (PP)",
+      "psoe": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "COMUNS-FRONT AMPLI (COMUNS-FRONT AMPLI)",
+      "erc": "ESQUERRA REPUBLICANA DE CATALUNYA (ERC)",
+      "junts": "JUNTS PER CATALUNYA (JxCat)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "bizkaia": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE) [PSE-EE (PSOE)]",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "eh-bildu": "EUSKAL HERRIA BILDU (EH BILDU)",
+      "pnv": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO (EAJ-PNV)"
+    },
+    "burgos": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "caceres": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA DE CÁCERES (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "cadiz": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO ANDALUZ (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "cantabria": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)"
+    },
+    "castellon": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "compromis": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)",
+      "frente-amplio": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)",
+      "podemos": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)"
+    },
+    "ciudad-real": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)"
+    },
+    "cordoba": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO ANDALUZ (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "a-coruna": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE (PSDEG-PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO-FRONTE AMPLA (FRENTE AMPLIO-FRONTE AMPLA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "bng": "BLOQUE NACIONALISTA GALEGO (BNG)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "cuenca": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "gipuzkoa": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE) [PSE-EE (PSOE)]",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "eh-bildu": "EUSKAL HERRIA BILDU (EH Bildu)",
+      "pnv": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO (EAJ-PNV)"
+    },
+    "girona": {
+      "pp": "PARTIT POPULAR/PARTIDO POPULAR (PP)",
+      "psoe": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "COMUNS-FRONT AMPLI (COMUNS-FRONT AMPLI)",
+      "erc": "ESQUERRA REPUBLICANA DE CATALUNYA (ERC)",
+      "junts": "JUNTS PER CATALUNYA (JxCat)"
+    },
+    "granada": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO ANDALUZ (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "guadalajara": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "huelva": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA DE HUELVA (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO ANDALUZ (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "huesca": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "CHUNTA ARAGONESISTA-FRENTE AMPLIO ARAGÓN (CHA-IU-MS-FRENTE AMPLIO)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "jaen": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "leon": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "lleida": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "COMUNS-FRONT AMPLI (COMUNS-FRONT AMPLI)",
+      "erc": "ESQUERRA REPUBLICANA DE CATALUNYA (ERC)",
+      "junts": "JUNTS PER CATALUNYA (JxCat)"
+    },
+    "lugo": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "bng": "BLOQUE NACIONALISTA GALEGO (BNG)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "madrid": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "malaga": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "murcia": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "navarra": {
+      "pp": "UNIÓN DEL PUEBLO NAVARRO EN COALICIÓN CON PARTIDO POPULAR (UPN-PP)",
+      "psoe": "PARTIDO SOCIALISTA DE NAVARRA - PSOE (PSN-PSOE)",
+      "vox": "VOX",
+      "frente-amplio": "FRENTE AMPLIO – FRONTE ZABALA",
+      "podemos": "PODEMOS",
+      "eh-bildu": "EUSKAL HERRIA BILDU (EH-Bildu)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "ourense": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO-FRONTE AMPLA (FRENTE AMPLIO-FRONTE AMPLA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "bng": "BLOQUE NACIONALISTA GALEGO (BNG)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "palencia": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "las-palmas": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "cc": "MUNICIPALISTAS PRIMERO CANARIAS-COALICIÓN CANARIA (1.ºCAN-CCa)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)",
+      "frente-amplio": "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)",
+      "podemos": "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)"
+    },
+    "pontevedra": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE (PSDEG-PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRONTE AMPLA (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "bng": "BLOQUE NACIONALISTA GALEGO (BNG)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "la-rioja": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "salamanca": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "santa-cruz-de-tenerife": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA DE SANTA CRUZ DE TENERIFE (PSOE)",
+      "vox": "VOX (VOX)",
+      "cc": "COALICIÓN CANARIA-MUNICIPALISTAS PRIMERO CANARIAS (CCa-1.ºCAN)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)",
+      "frente-amplio": "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)",
+      "podemos": "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)"
+    },
+    "segovia": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "sevilla": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO ANDALUZ (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "soria": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "tarragona": {
+      "pp": "PARTIT POPULAR/PARTIDO POPULAR (PP)",
+      "psoe": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "erc": "ESQUERRA REPUBLICANA DE CATALUNYA (ERC)",
+      "junts": "JUNTS PER CATALUNYA (JxCat)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "teruel": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "toledo": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "valencia": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "compromis": "COMPROMÍS: FRONT VALENCIÀ (COMPROMÍS-EUPV-PODEM-ERPV)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)",
+      "frente-amplio": "COMPROMÍS: FRONT VALENCIÀ (COMPROMÍS-EUPV-PODEM-ERPV)",
+      "podemos": "COMPROMÍS: FRONT VALENCIÀ (COMPROMÍS-EUPV-PODEM-ERPV)"
+    },
+    "valladolid": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "zamora": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "FRENTE AMPLIO (FA)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "zaragoza": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "frente-amplio": "CHUNTA ARAGONESISTA-FRENTE AMPLIO ARAGÓN (CHA-IU-MS-FRENTE AMPLIO)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "ceuta": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "podemos": "PODEMOS (PODEMOS)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    },
+    "melilla": {
+      "pp": "PARTIDO POPULAR (PP)",
+      "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "vox": "VOX (VOX)",
+      "salf": "SE ACABÓ LA FIESTA (SALF)"
+    }
+  },
+  "notes": {
+    "a-coruna": {
+      "es": "El PSOE concurre como PSdeG-PSOE. Frente Amplio concurre como «Frente Amplio-Fronte Ampla».",
+      "en": "PSOE runs as PSdeG-PSOE. Frente Amplio runs as 'Frente Amplio-Fronte Ampla'."
+    },
+    "alava": {
+      "es": "El PSOE concurre como PSE-EE (PSOE). ERC no presenta lista al Congreso aquí; la coalición EH Bildu-ERC solo figura en la candidatura al Senado. Frente Amplio concurre como «Frente Amplio-Fronte Zabala».",
+      "en": "PSOE runs as PSE-EE (PSOE). ERC has no Congress list here; the EH Bildu-ERC coalition appears only in the Senate candidacies. Frente Amplio runs as 'Frente Amplio-Fronte Zabala'."
+    },
+    "alicante": {
+      "es": "Compromís encabeza «Compromís: Front Valencià», que integra a Podem (Podemos) y a EUPV (federación valenciana de IU, integrante de Frente Amplio). No hay listas separadas de Podemos ni de Frente Amplio.",
+      "en": "Compromís heads 'Compromís: Front Valencià', which includes Podem (Podemos) and EUPV (the Valencian federation of IU, a Frente Amplio member). There are no separate Podemos or Frente Amplio lists."
+    },
+    "asturias": {
+      "es": "Frente Amplio concurre como «Frente Ampliu por Asturies (FA)». La lista de Podemos figura como «PODEMOS (PAZ, CASA Y TRABAJO)».",
+      "en": "Frente Amplio runs as 'Frente Ampliu por Asturies (FA)'. The Podemos list is printed as 'PODEMOS (PAZ, CASA Y TRABAJO)'."
+    },
+    "balears": {
+      "es": "El PSOE concurre como PSIB-PSOE. Frente Amplio concurre como «Ara Més-Front Ampli (ARAMÉS-EU-MS)». No hay lista de Podemos. (La coalición «Acord de Progrés per Mallorca», PSIB-PSOE-Més-Sumar-EUIB, es solo para el Senado.)",
+      "en": "PSOE runs as PSIB-PSOE. Frente Amplio runs as 'Ara Més-Front Ampli (ARAMÉS-EU-MS)'. No Podemos list. (The 'Acord de Progrés per Mallorca' coalition is Senate-only.)"
+    },
+    "barcelona": {
+      "es": "El PSOE concurre como PSC (PSC-PSOE). No hay lista de Podemos al Congreso. Frente Amplio concurre como «Comuns-Front Ampli».",
+      "en": "PSOE runs as PSC (PSC-PSOE). No Podemos list for Congress. Frente Amplio runs as 'Comuns-Front Ampli'."
+    },
+    "bizkaia": {
+      "es": "El PSOE concurre como PSE-EE (PSOE). ERC no presenta lista al Congreso aquí; la coalición EH Bildu-ERC solo figura en la candidatura al Senado. SALF no presenta lista al Congreso.",
+      "en": "PSOE runs as PSE-EE (PSOE). ERC has no Congress list here; the EH Bildu-ERC coalition appears only in the Senate candidacies. SALF has no Congress list."
+    },
+    "caceres": {
+      "es": "El PSOE figura como «Partido Socialista de Cáceres (PSOE)».",
+      "en": "PSOE appears as 'Partido Socialista de Cáceres (PSOE)'."
+    },
+    "cadiz": {
+      "es": "Frente Amplio concurre como «Frente Amplio Andaluz (FA)» (candidatos de Movimiento Sumar e IU Andalucía).",
+      "en": "Frente Amplio runs as 'Frente Amplio Andaluz (FA)' (Movimiento Sumar and IU Andalucía candidates)."
+    },
+    "cantabria": {
+      "es": "SALF no presenta lista al Congreso.",
+      "en": "SALF has no Congress list."
+    },
+    "castellon": {
+      "es": "Compromís encabeza «Compromís: Front Valencià», que integra a Podem (Podemos) y a EUPV (federación valenciana de IU, integrante de Frente Amplio). No hay listas separadas de Podemos ni de Frente Amplio.",
+      "en": "Compromís heads 'Compromís: Front Valencià', which includes Podem (Podemos) and EUPV (the Valencian federation of IU, a Frente Amplio member). There are no separate Podemos or Frente Amplio lists."
+    },
+    "ceuta": {
+      "es": "No hay lista de Frente Amplio.",
+      "en": "No Frente Amplio list."
+    },
+    "ciudad-real": {
+      "es": "SALF no presenta lista al Congreso.",
+      "en": "SALF has no Congress list."
+    },
+    "cordoba": {
+      "es": "Frente Amplio concurre como «Frente Amplio Andaluz (FA)» (candidatos de Movimiento Sumar e IU Andalucía).",
+      "en": "Frente Amplio runs as 'Frente Amplio Andaluz (FA)' (Movimiento Sumar and IU Andalucía candidates)."
+    },
+    "gipuzkoa": {
+      "es": "El PSOE concurre como PSE-EE (PSOE). SALF no presenta lista al Congreso.",
+      "en": "PSOE runs as PSE-EE (PSOE). SALF has no Congress list."
+    },
+    "girona": {
+      "es": "El PSOE concurre como PSC (PSC-PSOE). No hay lista de Podemos al Congreso. Frente Amplio concurre como «Comuns-Front Ampli». SALF no presenta lista al Congreso.",
+      "en": "PSOE runs as PSC (PSC-PSOE). No Podemos list for Congress. Frente Amplio runs as 'Comuns-Front Ampli'. SALF has no Congress list."
+    },
+    "granada": {
+      "es": "Frente Amplio concurre como «Frente Amplio Andaluz (FA)» (candidatos de Movimiento Sumar e IU Andalucía).",
+      "en": "Frente Amplio runs as 'Frente Amplio Andaluz (FA)' (Movimiento Sumar and IU Andalucía candidates)."
+    },
+    "huelva": {
+      "es": "Frente Amplio concurre como «Frente Amplio Andaluz (FA)» (candidatos de Movimiento Sumar e IU Andalucía). El PSOE figura como «Partido Socialista de Huelva (PSOE)».",
+      "en": "Frente Amplio runs as 'Frente Amplio Andaluz (FA)' (Movimiento Sumar and IU Andalucía candidates). PSOE appears as 'Partido Socialista de Huelva (PSOE)'."
+    },
+    "huesca": {
+      "es": "Frente Amplio concurre como «Chunta Aragonesista-Frente Amplio Aragón (CHA-IU-MS-Frente Amplio)».",
+      "en": "Frente Amplio runs as 'Chunta Aragonesista-Frente Amplio Aragón (CHA-IU-MS-Frente Amplio)'."
+    },
+    "las-palmas": {
+      "es": "Podemos y partidos de Frente Amplio (IU, Sumar) concurren dentro de «Unidad del Pueblo Canario UPC», encabezada por NC-BC. CC concurre con Municipalistas Primero Canarias.",
+      "en": "Podemos and Frente Amplio parties (IU, Sumar) run within 'Unidad del Pueblo Canario UPC', headed by NC-BC. CC runs with Municipalistas Primero Canarias."
+    },
+    "lleida": {
+      "es": "El PSOE concurre como PSC (PSC-PSOE). No hay lista de Podemos al Congreso. Frente Amplio concurre como «Comuns-Front Ampli». SALF no presenta lista al Congreso.",
+      "en": "PSOE runs as PSC (PSC-PSOE). No Podemos list for Congress. Frente Amplio runs as 'Comuns-Front Ampli'. SALF has no Congress list."
+    },
+    "melilla": {
+      "es": "No hay listas de Frente Amplio ni de Podemos.",
+      "en": "No Frente Amplio or Podemos lists."
+    },
+    "navarra": {
+      "es": "El PP concurre en coalición con UPN («Unión del Pueblo Navarro en coalición con Partido Popular (UPN-PP)»). El PSOE concurre como PSN-PSOE. Frente Amplio concurre como «Frente Amplio – Fronte Zabala». Geroa Bai presenta lista, pero el BOE no detalla sus integrantes, por lo que el PNV no se incluye en Navarra.",
+      "en": "PP runs jointly with UPN ('UPN-PP'). PSOE runs as PSN-PSOE. Frente Amplio runs as 'Frente Amplio – Fronte Zabala'. Geroa Bai has a list but the BOE does not name its member parties, so PNV is not listed for Navarre."
+    },
+    "ourense": {
+      "es": "El PSOE concurre como PSdeG-PSOE. Frente Amplio concurre como «Frente Amplio-Fronte Ampla».",
+      "en": "PSOE runs as PSdeG-PSOE. Frente Amplio runs as 'Frente Amplio-Fronte Ampla'."
+    },
+    "pontevedra": {
+      "es": "El PSOE concurre como PSdeG-PSOE. Frente Amplio concurre como «Fronte Ampla (FA)».",
+      "en": "PSOE runs as PSdeG-PSOE. Frente Amplio runs as 'Fronte Ampla (FA)'."
+    },
+    "santa-cruz-de-tenerife": {
+      "es": "Podemos y partidos de Frente Amplio (IU, Sumar) concurren dentro de «Unidad del Pueblo Canario UPC», encabezada por NC-BC. CC concurre con Municipalistas Primero Canarias.",
+      "en": "Podemos and Frente Amplio parties (IU, Sumar) run within 'Unidad del Pueblo Canario UPC', headed by NC-BC. CC runs with Municipalistas Primero Canarias."
+    },
+    "sevilla": {
+      "es": "Frente Amplio concurre como «Frente Amplio Andaluz (FA)» (candidatos de Movimiento Sumar e IU Andalucía).",
+      "en": "Frente Amplio runs as 'Frente Amplio Andaluz (FA)' (Movimiento Sumar and IU Andalucía candidates)."
+    },
+    "tarragona": {
+      "es": "El PSOE concurre como PSC (PSC-PSOE). No hay lista de Podemos al Congreso. Frente Amplio concurre como «Frente Amplio (FA)» (no figura «Comuns-Front Ampli» en Tarragona).",
+      "en": "PSOE runs as PSC (PSC-PSOE). No Podemos list for Congress. Frente Amplio runs as 'Frente Amplio (FA)' ('Comuns-Front Ampli' is not listed in Tarragona)."
+    },
+    "teruel": {
+      "es": "No hay lista de Frente Amplio ni de CHA-Frente Amplio al Congreso.",
+      "en": "No Frente Amplio (or CHA-Frente Amplio) list for Congress."
+    },
+    "valencia": {
+      "es": "Compromís encabeza «Compromís: Front Valencià», que integra a Podem (Podemos) y a EUPV (federación valenciana de IU, integrante de Frente Amplio). No hay listas separadas de Podemos ni de Frente Amplio.",
+      "en": "Compromís heads 'Compromís: Front Valencià', which includes Podem (Podemos) and EUPV (the Valencian federation of IU, a Frente Amplio member). There are no separate Podemos or Frente Amplio lists."
+    },
+    "zaragoza": {
+      "es": "Frente Amplio concurre como «Chunta Aragonesista-Frente Amplio Aragón (CHA-IU-MS-Frente Amplio)».",
+      "en": "Frente Amplio runs as 'Chunta Aragonesista-Frente Amplio Aragón (CHA-IU-MS-Frente Amplio)'."
+    }
+  },
+  "inclusion_rule": {
+    "es": "Un partido aparece en una provincia si en el BOE figura una candidatura con su nombre, su marca regional o el de uno de sus partidos integrantes (incluidas sus federaciones regionales). Si esa candidatura es una coalición encabezada por otro partido, se indica con el nombre oficial de la candidatura y un aviso: las posiciones que se muestran son las del partido a escala estatal, no necesariamente las de la coalición.",
+    "en": "A party is shown in a province if the BOE lists a candidacy under its name, its regional brand or the name of one of its member parties (including regional federations). If that candidacy is a coalition headed by another party, the official candidacy name and a notice are shown: the positions displayed are the party's statewide positions, not necessarily the coalition's."
+  },
+  "coalition_member": {
+    "las-palmas": [
+      "frente-amplio",
+      "podemos"
+    ],
+    "santa-cruz-de-tenerife": [
+      "frente-amplio",
+      "podemos"
+    ],
+    "valencia": [
+      "frente-amplio",
+      "podemos"
+    ],
+    "alicante": [
+      "frente-amplio",
+      "podemos"
+    ],
+    "castellon": [
+      "frente-amplio",
+      "podemos"
+    ],
+    "navarra": [
+      "pp"
+    ],
+    "balears": [
+      "frente-amplio"
+    ]
+  }
+}

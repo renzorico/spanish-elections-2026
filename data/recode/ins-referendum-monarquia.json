@@ -1,0 +1,255 @@
+{
+ "statement": "ins-referendum-monarquia",
+ "coded_on": "2026-10-31",
+ "coded_by": "subagent:recode-b",
+ "positions": {
+  "pp": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "PP",
+     "date": "2023-07-04",
+     "quote": "",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.pp.es/actualidad/articulos/alicia-garcia-recalca-firme-compromiso-rey-democracia-libertad-constitucion/",
+     "title": "Alicia García recalca el firme compromiso del Rey, con la democracia, la libertad y la Constitución Española",
+     "publisher": "PP",
+     "date": "2024-07-17",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El PP expresa lealtad al Rey, pero no se encontró pronunciamiento explícito sobre un referéndum entre monarquía y república. No se infiere."
+  },
+  "psoe": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "PSOE",
+     "date": "2023-07-07",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa de 2023 no trata la forma de Estado; no se encontró posición oficial reciente sobre un referéndum."
+  },
+  "vox": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+     "title": "Programa electoral elecciones generales 2023",
+     "publisher": "Vox",
+     "date": "2023-07-01",
+     "quote": "Dotaremos de la máxima protección jurídica a los símbolos de la nación, especialmente la Bandera, el Himno y la",
+     "page": "p. 16 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa protege la Corona como símbolo nacional, pero no se pronuncia sobre un referéndum entre monarquía y república. Por la regla común, la defensa genérica de la Corona no basta (antes se codificaba en contra por inferencia)."
+  },
+  "frente-amplio": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+     "title": "Un programa para ti. Programa electoral de Sumar 2023",
+     "publisher": "Sumar",
+     "date": "2023-07-07",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa de Sumar 2023 no menciona un referéndum sobre la monarquía (buscado: monarquía, Corona, república, referéndum). Izquierda Unida, partido integrante, lo ha pedido por su cuenta, pero eso no es posición de la coalición."
+  },
+  "podemos": {
+   "stance": "agree",
+   "confidence": "low",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://www.menorca.info/actualidad/nacional/2021/12/11/1677823/podemos-monarquia-como-mecanismo-corrupcion.html",
+     "title": "Podemos ve a la monarquía como «mecanismo para la corrupción»",
+     "publisher": "Menorca.info",
+     "date": "2021-12-11",
+     "quote": "La formación reclamó también una reforma de la Constitución para que la ciudadanía pueda elegir entre una monarquía «obsoleta y corrompida» o una república «moderna y democrática»",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://www.eldebate.com/espana/20220517/irene-montero-aboga-referendum-sobre-monarquia.html",
+     "title": "Irene Montero aboga por un referéndum sobre la monarquía",
+     "publisher": "El Debate",
+     "date": "2022-05-17",
+     "quote": "Montero ha sugerido veladamente la realización de un referéndum ciudadano sobre la monarquía",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Solo hay informes de prensa antiguos (2021-2022, cuando Podemos formaba parte de Unidas Podemos). En 2024-2025 Belarra pide una república, pero no menciona expresamente un referéndum."
+  },
+  "erc": {
+   "stance": "agree",
+   "confidence": "high",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+     "title": "Programa electoral eleccions generals 2023",
+     "publisher": "ERC",
+     "date": "2023-07-01",
+     "quote": "Donar suport a la convocatòria d’un referèndum sobre monarquia o república.",
+     "page": "p. 12 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": []
+  },
+  "junts": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+     "title": "Programa electoral per Catalunya (eleccions generals 2023)",
+     "publisher": "Junts",
+     "date": "2023-07-19",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa menciona la monarquía solo como debate bloqueado en la Mesa del Congreso; no propone un referéndum entre monarquía y república."
+  },
+  "eh-bildu": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+     "title": "Programa electoral 23J 2023",
+     "publisher": "EH Bildu",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "No se encontró en el programa 2023, en votaciones de la XV legislatura ni en declaraciones oficiales recientes una propuesta de referéndum entre monarquía y república."
+  },
+  "pnv": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+     "title": "Con voz propia. Programa electoral 23-J",
+     "publisher": "EAJ-PNV",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa 2023 pide suprimir la inviolabilidad del Rey en actos no institucionales, pero no propone un referéndum entre monarquía y república."
+  },
+  "bng": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+     "title": "Programa eleccións xerais 2023",
+     "publisher": "BNG",
+     "date": "2023-07-05",
+     "quote": "convocatoria de referendos vinculantes en asuntos de",
+     "page": "p. 28 del PDF",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El BNG defiende una República gallega y referendos vinculantes en general, pero no se encontró una propuesta de referéndum estatal entre monarquía y república."
+  },
+  "cc": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+     "title": "Manifiesto electoral Coalición por Canarias 2023",
+     "publisher": "Coalición Canaria",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "No se encontró posición en el manifiesto 2023 ni en las declaraciones revisadas."
+  },
+  "compromis": {
+   "stance": "agree",
+   "confidence": "low",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://valenciaplaza.com/cvalenciana/el-pp-rechaza-en-las-corts-reclamar-un-referendum-sobre-la-monarquia-el-pspv-se-abstiene-y-compromis-lo-apoya",
+     "title": "El PP rechaza en las Corts reclamar un referéndum sobre la Monarquía, el PSPV se abstiene y Compromís lo apoya",
+     "publisher": "Valencia Plaza",
+     "date": "2014-06-12",
+     "quote": "instar al Gobierno a convocar un referéndum para la ciudadanía decida entre Monarquía o República",
+     "accessed": "2026-10-31"
+    },
+    {
+     "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+     "title": "Programa de Compromís para Compromís-Sumar 2023",
+     "publisher": "Compromís",
+     "date": "2023-07-01",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Única evidencia: una votación en las Corts Valencianes de 2014 (informe de prensa) en la que Compromís apoyó pedir un referéndum. Es antigua; el programa de 2023 no lo menciona."
+  },
+  "salf": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+     "title": "Programa electoral de SALF para Castilla y León (marzo de 2026)",
+     "publisher": "Se Acabó La Fiesta (copia alojada por The Objective)",
+     "date": "2026-03-04",
+     "quote": "",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "SALF no ha publicado programa estatal (ni en 2024 ni en 2026) y no tiene historial de votaciones en el Congreso; su programa autonómico de Castilla y León (marzo de 2026) no trata este asunto."
+  }
+ },
+ "proposed_votes": []
+}

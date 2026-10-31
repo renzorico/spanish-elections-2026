@@ -1,0 +1,775 @@
+{
+  "party": "frente-amplio",
+  "coded_by": "subagent:group-c",
+  "coded_on": "2026-10-31",
+  "positions": [
+    {
+      "statement": "viv-limite-alquiler",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "haremos obligatoria la declaración de zona de mercado tensionado en las áreas geográficas en las que se cumplan objetivamente los requisitos que la Ley de Vivienda establece, aplicando así la regulación de alquileres a todas las zonas de mercado tensionado",
+          "page": "PDF p. 78",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion175/20260428/Votacion003/VOT_20260428200330.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-28",
+          "quote": "Real Decreto-ley 8/2026, de 20 de marzo, de medidas en el alquiler en respuesta a las consecuencias económicas y sociales de la Guerra de Irán.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-alquiler-rdl8-2026-04-28",
+        "v-alquiler-temporada-2024-12-17"
+      ],
+      "note": "Sumar 2023 program wants rent regulation applied in all stressed areas. The SUMAR group also voted 25 yes on RDL 8/2026 (rent-update limits and contract extensions; the decree was not validated)."
+    },
+    {
+      "statement": "viv-desalojo-rapido",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Votó en contra de tomar en consideración las dos proposiciones de ley que aceleran el desalojo de viviendas ocupadas (Junts, 18/03/2025, y PP, 19/05/2026), ambas votaciones directas. No se encontró posición explícita en el programa de Sumar 2023 (buscado: ocupación, desalojo, usurpación)."
+    },
+    {
+      "statement": "eco-suprimir-impuesto-fortunas",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Implementaremos un impuesto a las grandes fortunas de forma permanente, reforzando además su progresividad, hasta llegar a tipos impositivos de al menos el 4% para los patrimonios más elevados.",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. "
+    },
+    {
+      "statement": "eco-bajar-irpf",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Aumento de la progresividad del impuesto sobre la renta de las personas físicas (IRPF). En primer lugar, ampliando el número de tramos a partir de 120.000€ y aplicando tipos marginales crecientes",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12",
+        "v-irpf-deflactar-mocion-2026-04-22"
+      ],
+      "note": "El programa propone subir los tipos altos del IRPF (hasta el 52 %) y la tributación del ahorro, no bajarlo. Es una implicación clara, pero ninguna frase rechaza expresamente una bajada: confianza media. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
+    },
+    {
+      "statement": "eco-impuesto-energeticas",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Mantendremos los impuestos extraordinarios sobre las empresas energéticas y financieras mientras se aprueba e implementa completamente la reforma integral del impuesto de sociedades.",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+    },
+    {
+      "statement": "eco-suprimir-impuesto-banca",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Mantendremos los impuestos extraordinarios sobre las empresas energéticas y financieras mientras se aprueba e implementa completamente la reforma integral del impuesto de sociedades.",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-82.PDF",
+          "title": "Diario de Sesiones del Congreso de los Diputados, Pleno, núm. 82 (21/11/2024)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-11-21",
+          "quote": "Y mantenemos el impuesto a la banca, que es muy importante",
+          "accessed": "2026-10-31",
+          "page": "p. 56 del PDF (Martín Urriza, GSUMAR)"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
+          "title": "Congreso de los Diputados – votación de 21/11/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-11-21",
+          "quote": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el […]",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-impuesto-banca-ley7-2024-11-21"
+      ],
+      "note": "El programa 2023 mantiene el impuesto extraordinario a la banca, y en el debate de 2024 su portavoz celebró mantenerlo. Votó Sí al dictamen de la Ley 7/2024 (21/11/2024), que creó el impuesto junto con otros tributos (votación relacionada, solo contexto)."
+    },
+    {
+      "statement": "tra-jornada-37h",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion130/20250910/Votacion010/VOT_20250910213544.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-09-10",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo y la garantía del registro de jornada",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Reordenaremos el tiempo de trabajo, incluyendo la reducción y la distribución de la jornada laboral, pero sin reducción de salario. En 2024 se establecerá por ley una jornada laboral máxima de 37,5 horas",
+          "page": "PDF p. 7",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-jornada-totalidad-2025-09-10",
+        "v-jornada-pnl-2024-02-22"
+      ],
+      "note": "On 2025-09-10 all 26 SUMAR deputies voted NO on the amendments to reject the 37.5-hour bill, which means they supported the bill."
+    },
+    {
+      "statement": "tra-salario-minimo",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Haber alcanzado, con los 1.080 €, el 60% del salario medio, si bien es un gran avance, no es suficiente",
+          "accessed": "2026-10-31",
+          "page": "p. 26 del PDF"
+        },
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Subiremos el salario mínimo interprofesional por encima del IPC anual para mantener la ganancia de poder adquisitivo de las personas que lo cobran.",
+          "accessed": "2026-10-31",
+          "page": "p. 7 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. El programa da por alcanzado el 60 % y quiere seguir subiendo el SMI por encima de ese nivel."
+    },
+    {
+      "statement": "san-gestion-privada",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Se blindará el carácter público del Sistema Nacional de Salud, impidiendo las formas de gestión privatizadas. Promoveremos un plan de desprivatización",
+          "page": "PDF p. 89",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "san-dental-publica",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Proponemos incorporar a los servicios sanitarios públicos nuevas prestaciones, como la salud bucodental, la nutrición, la salud óptica, la audioprótesis, la psicoterapia, la terapia ocupacional y la fisioterapia.",
+          "page": "PDF p. 89",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/cuentas-para-transformar-pge-2025/",
+          "title": "Cuentas para transformar: prioridades de Sumar para los PGE 2025",
+          "publisher": "Movimiento Sumar",
+          "date": "2024-09-16",
+          "quote": "la ampliación de las prestaciones sanitarias en salud bucodental",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "der-aborto-constitucion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion177/20260430/Votacion012/VOT_20260430125200.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-30",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de reforma del artículo 43 de la Constitución Española, presentadas por los Grupos Parlamentarios Popular en el Congreso y VOX.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/un-paso-mas-para-que-el-aborto-entre-en-la-constitucion/",
+          "title": "Un paso más para que el aborto entre en la Constitución",
+          "publisher": "Movimiento Sumar",
+          "date": "2026-04-30",
+          "quote": "Si hoy estamos aquí, fue porque hace más de dos años nosotras planteamos que el derecho al aborto debía estar en la Constitución.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-aborto-constitucion-totalidad-2026-04-30"
+      ],
+      "note": "On 2026-04-30 all 26 SUMAR deputies voted NO on the PP and Vox amendments that would have returned the bill reforming art. 43 of the Constitution to include abortion. Movimiento Sumar says it first proposed this reform."
+    },
+    {
+      "statement": "der-derogar-eutanasia",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "reconociendo la necesidad de tener una muerte digna, en coherencia con lo establecido en la Ley de Regulación de la Eutanasia.",
+          "page": "PDF p. 99",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program refers to the euthanasia law as the framework to follow. This implies keeping it, though no sentence says so outright. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+    },
+    {
+      "statement": "der-cambio-sexo-informe",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-07",
+          "quote": "Defender el principio de autodeterminación y libre desarrollo de la personalidad y autonomía corporal de las personas trans, intersex y no binarias.",
+          "page": "p. 116 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-07",
+          "quote": "es una prioridad dar cumplimiento efectivo a las disposiciones contenidas en la Ley 4/2023",
+          "page": "p. 114 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "inm-regularizacion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+          "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+          "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-18",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/aprobamos-en-consejo-de-ministros-la-regularizacion-de-mas-de-500-000-personas/",
+          "title": "Aprobamos en Consejo de Ministros la regularización de más de 500.000 personas",
+          "publisher": "Movimiento Sumar",
+          "date": "2026-04-14",
+          "quote": "Esta mañana se ha aprobado por fin en el Consejo de Ministros el reglamento para la puesta en marcha de la regularización extraordinaria",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-regularizacion-ilp-2024-04-09",
+        "v-regularizacion-pnl-2025-02-26",
+        "v-regularizacion-mocion-pp-2026-03-18"
+      ],
+      "note": "El Grupo SUMAR votó sí a tramitar la ILP (2024) y no (26) a la moción del PP contra la regularización (18/3/2026); Movimiento Sumar celebró la aprobación del RD 316/2026."
+    },
+    {
+      "statement": "inm-reparto-menores",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion106/20250410/Votacion015/VOT_20250410155154.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-04-10",
+          "quote": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-menores-rdl2-2025-04-10",
+        "v-menores-lo4-2000-2024-07-23"
+      ],
+      "note": "All 27 SUMAR deputies voted yes to validate RDL 2/2025, which made the distribution of unaccompanied migrant minors among regions mandatory."
+    },
+    {
+      "statement": "inm-reducir-llegadas",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El capítulo de migraciones del programa de Sumar 2023 no fija posición sobre el número de llegadas; no se encontró declaración oficial."
+    },
+    {
+      "statement": "cli-nucleares",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Sumar se compromete a mantener el calendario de cierre del parque nuclear español, aplicando una moratoria a cualquier nueva iniciativa nuclear",
+          "page": "PDF p. 48",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/prorrogar-almaraz-una-decision-al-servicio-del-oligopolio-que-frena-la-transicion-energetica-e-hipotec-a-la-ciudadania/",
+          "title": "Prorrogar Almaraz: una decisión al servicio del oligopolio que frena la transición energética e hipoteca a la ciudadanía",
+          "publisher": "Movimiento Sumar",
+          "date": "2026-08-14",
+          "quote": "No podemos seguir hipotecando el futuro energético y económico de la ciudadanía para alargar la vida de infraestructuras obsoletas.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-nucleares-pnl-2025-02-12",
+        "v-nucleares-pl-2025-06-17"
+      ],
+      "note": "The program commits to the existing closure timetable. In August 2026 Movimiento Sumar criticised the extension of the Almaraz plant."
+    },
+    {
+      "statement": "cli-coches-combustion-despues-2035",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "siga desarrollando la electrificación del parque móvil, con el objetivo de que en 2040 no circulen en España vehículos con motores de combustión interna.",
+          "page": "PDF p. 11",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program aims for no combustion cars on the road by 2040. This implies supporting the EU 2035 ban on new sales, which is not named. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+    },
+    {
+      "statement": "ter-amnistia",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion030/20240314/Votacion001/VOT_20240314135323.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-03-14",
+          "quote": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña. Votación del nuevo dictamen.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-amnistia-2024-03-14"
+      ],
+      "note": "All 27 SUMAR deputies voted yes on the amnesty law (new committee report, 2024-03-14)."
+    },
+    {
+      "statement": "ter-referendum",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "El acuerdo surgido de la negociación entre la Generalitat de Catalunya y el Gobierno del Estado tiene que ser votado por la ciudadanía de Catalunya.",
+          "page": "PDF p. 122",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program supports a vote by Catalans on a negotiated Catalonia–State agreement, not a referendum on independence. No explicit position on the statement."
+    },
+    {
+      "statement": "ter-concierto-ccaa",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
+      "note": "El programa de Sumar 2023 no trata el concierto ni la recaudación autonómica de todos los impuestos (buscado: concierto, financiación autonómica, Agencia Tributaria). La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (El Grupo SUMAR se abstuvo mayoritariamente.)"
+    },
+    {
+      "statement": "ter-recentralizar",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program describes Spain as plurinational and supports self-government, but says nothing explicit about who should manage education and health. Not inferred."
+    },
+    {
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion003/20230921/Votacion004/VOT_20230921120100.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2023-09-21",
+          "quote": "Proposición de reforma del Reglamento del Congreso de los Diputados. Votación de conjunto.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "La pluralidad lingüística no se debe limitar a las comunidades autónomas con lengua propia, sino que su promoción y uso debe extenderse al conjunto de España y sus instituciones",
+          "page": "PDF p. 121",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-lenguas-reglamento-2023-09-21"
+      ],
+      "note": "All 31 SUMAR deputies voted yes on the 2023 reform of the Congreso rules that allows co-official languages (final vote, 2023-09-21). [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+    },
+    {
+      "statement": "edu-concertada",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "se establecerá también por ley el incremento progresivo del porcentaje de los fondos públicos destinados a la red pública.",
+          "page": "PDF p. 155",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program would also fund places in concertada schools only when the public network falls short."
+    },
+    {
+      "statement": "edu-lengua-castellano",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No explicit position in the 2023 program (searched: castellano, inmersión, lengua vehicular)."
+    },
+    {
+      "statement": "ins-cgpj",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "En cuanto a los vocales del CGPJ de procedencia judicial, mantenemos el modelo de elección parlamentaria.",
+          "page": "PDF p. 129",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-cgpj-vox-2024-02-27",
+        "v-cgpj-pp-2026-09-10"
+      ]
+    },
+    {
+      "statement": "ins-referendum-monarquia",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa de Sumar 2023 no menciona un referéndum sobre la monarquía (buscado: monarquía, Corona, república, referéndum). Izquierda Unida, partido integrante, lo ha pedido por su cuenta, pero eso no es posición de la coalición."
+    },
+    {
+      "statement": "ins-derogar-memoria",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Abordaremos de forma urgente el desarrollo reglamentario de la Ley de Memoria Democrática de 2022 y desplegar todas las medidas contenidas en la misma.",
+          "page": "PDF p. 134",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-memoria-mocion-2024-02-06",
+        "v-memoria-pnl-2024-05-23"
+      ]
+    },
+    {
+      "statement": "ext-gasto-defensa",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Martínez Barbero, GP Plurinacional SUMAR)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-07-09",
+          "quote": "en SUMAR nos hemos opuesto desde el principio a los planes de rearme de Von der Leyen y al chantaje del 5 % del gasto militar de Trump",
+          "page": "p. 12 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno núm. 131 (intervención de Martínez Barbero, GP Plurinacional SUMAR)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-07-09",
+          "quote": "Llegar al 5 % en defensa obligaría a incrementar el gasto militar y eso realmente solo se podría hacer recortando inversión en educación, sanidad o pensiones",
+          "page": "p. 12 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Postura de la portavoz del Grupo SUMAR, del que procede Frente Amplio."
+    },
+    {
+      "statement": "ext-embargo-israel",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/Votacion087/VOT_20251008195359.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-10-08",
+          "quote": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/aprobamos-el-embargo-de-armas-a-israel/",
+          "title": "Aprobamos el embargo de armas a Israel",
+          "publisher": "Movimiento Sumar",
+          "date": "2025-10-08",
+          "quote": "El Congreso ha convalidado este miércoles 8 de octubre el Real Decreto Ley de embargo económico y de armas que impulsamos hace unas semanas.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-embargo-israel-rdl-2025-10-08",
+        "v-embargo-ley-2025-05-20"
+      ],
+      "note": "All 26 SUMAR deputies voted yes to validate RDL 10/2025 (arms embargo on Israel) on 2025-10-08."
+    }
+  ]
+}

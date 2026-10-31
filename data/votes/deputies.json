@@ -1,0 +1,25 @@
+{
+  "source": [
+    {"url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/", "title": "Congreso de los Diputados – datos abiertos de votaciones, XV legislatura (campo 'grupo' por diputado; se revisó la primera votación con JSON de cada día de votación entre el 19/09/2023 y el 30/09/2026)", "accessed": "2026-10-31"},
+    {"url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-372.PDF", "title": "BOCG Congreso, Serie D, núm. 372 (7 jul. 2025): baja de Àgueda Micó Micó en el G.P. Plurinacional SUMAR y alta en el G.P. Mixto, con efectos de 3 jul. 2025", "accessed": "2026-10-31"},
+    {"url": "https://www.vilaweb.cat/noticies/mes-compromis-trenca-sumar-agueda-mico-grup-mixt/", "title": "VilaWeb – Més-Compromís trenca amb Sumar i Àgueda Micó passa al grup mixt (23 jun. 2025)", "accessed": "2026-10-31"},
+    {"url": "https://www.ultimahora.es/noticias/nacional/2025/06/24/2415685/diputado-compromis-pasa-grupo-mixto-otro-sigue-sumar.html", "title": "Última Hora – Un diputado de Compromís pasa al grupo mixto y otro sigue en Sumar (24 jun. 2025)", "accessed": "2026-10-31"},
+    {"url": "https://www.elsaltodiario.com/psoe/abalos-se-resiste-no-deja-acta-diputado-se-va-al-grupo-mixto", "title": "El Salto – Ábalos no deja el acta de diputado y se va al Grupo Mixto (27 feb. 2024)", "accessed": "2026-10-31"},
+    {"url": "https://www.publico.es/politica/abalos-renuncia-escano-congreso.html", "title": "Público – José Luis Ábalos renuncia a su escaño en el Congreso (ene. 2026)", "accessed": "2026-10-31"},
+    {"url": "https://www.menorca.info/actualidad/nacional/2026/07/17/2672261/ortega-smith-abandona-grupo-parlamentario-vox-congreso-arremete-contra-liderazgo-abascal.html", "title": "Menorca.info/Europa Press – Ortega Smith abandona el grupo parlamentario de Vox en el Congreso (17 jul. 2026)", "accessed": "2026-10-31"},
+    {"url": "https://www.elindependiente.com/espana/2025/06/24/sumar-distingue-la-salida-de-agueda-mico-al-grupo-mixto-de-la-de-podemos-en-2023-no-es-transfuguismo/", "title": "El Independiente – la salida de Micó frente a la de los diputados de Podemos en diciembre de 2023", "accessed": "2026-10-31"}
+  ],
+  "deputies": {
+    "Belarra Urteaga, Ione": {"party": "podemos", "note": "Secretaria general de Podemos. Elegida en la lista de Sumar; en el GSUMAR hasta la votación del 28/11/2023, en el GMx desde la del 12/12/2023 (los diputados de Podemos dejaron SUMAR en diciembre de 2023)."},
+    "Sánchez Serna, Javier": {"party": "podemos", "note": "Podemos (Murcia). GSUMAR hasta el 28/11/2023; GMx desde el 12/12/2023."},
+    "Velarde Gómez, Martina": {"party": "podemos", "note": "Podemos (Sevilla). GSUMAR hasta el 28/11/2023; GMx desde el 12/12/2023."},
+    "Santana Perera, Noemí": {"party": "podemos", "note": "Podemos (Las Palmas). GSUMAR hasta el 28/11/2023; GMx desde el 12/12/2023. En el JSON del 11/02/2025 aparece con 'grupo' vacío (error de los datos), así que conviene emparejar por nombre."},
+    "Verstrynge Revuelta, Lilith": {"party": "podemos", "note": "Podemos. GMx del 12/12/2023 al 16/01/2024 (última votación en la que aparece); dejó el escaño en enero de 2024. Solo afecta a votaciones de esas fechas."},
+    "Rego Candamil, Néstor": {"party": "bng", "note": "Único diputado del BNG (A Coruña); en el GMx toda la legislatura."},
+    "Valido García, Cristina": {"party": "cc", "note": "Coalición Canaria (Santa Cruz de Tenerife); en el GMx toda la legislatura."},
+    "Catalán Higueras, Alberto": {"party": "upn", "note": "UPN (Navarra), elegido en coalición con el PP; en el GMx toda la legislatura. En parties.json el PP incluye 'UPN (en Navarra)' como componente: hay que decidir si su voto se suma al del PP."},
+    "Micó Micó, Àgueda": {"party": "compromis", "note": "Més-Compromís (Valencia). Elegida en la lista de Sumar; en el GSUMAR hasta el 26/06/2025 y en el GMx con efectos de 3/07/2025 (BOCG D-372); primera votación como GMx el 08/07/2025. Para votaciones anteriores su voto está en el GSUMAR."},
+    "Ábalos Meco, José Luis": {"party": "independent", "note": "Exministro, ex-PSOE (suspendido de militancia). En el GS hasta el 22/02/2024; en el GMx desde el 27/02/2024; renunció al escaño en enero de 2026 (última aparición en los JSON: 27/01/2026). No representa a ningún partido del cuestionario."},
+    "Ortega Smith-Molina, Francisco Javier": {"party": "independent", "note": "Expulsado de Vox (2026). En el GVOX hasta el 14/07/2026; dejó el grupo el 17/07/2026 y aparece en el GMx desde el 23/07/2026. No representa a ningún partido del cuestionario."}
+  }
+}

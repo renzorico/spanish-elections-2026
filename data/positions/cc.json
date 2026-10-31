@@ -1,0 +1,700 @@
+{
+  "party": "cc",
+  "coded_by": "subagent:group-e",
+  "coded_on": "2026-10-31",
+  "positions": [
+    {
+      "statement": "viv-limite-alquiler",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria y otras fuerzas firmantes",
+          "date": "2023-06-26",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-alquiler-rdl8-2026-04-28",
+        "v-alquiler-temporada-2024-12-17"
+      ],
+      "note": "Sin posición explícita en los documentos consultados. Su voto a favor del RDL 8/2026 (tope estatal del 2 %) es una votación relacionada y por sí sola no basta para codificar. [Calibración 31/10/2026 tras auditoría de neutralidad.]"
+    },
+    {
+      "statement": "viv-desalojo-rapido",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/docu/tramit/LegXV/AT/ATCD_15_PL_20260519.pdf",
+          "title": "Acta taquigráfica, Sesión plenaria del Congreso de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Y todo esto pasa porque los procedimientos se eternizan y porque tenemos que disuadir",
+          "accessed": "2026-10-31",
+          "page": "p. 7 (Valido García, GMx)"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Cristina Valido (Grupo Mixto) votó Sí en las dos votaciones directas (2025 y 2026)."
+    },
+    {
+      "statement": "eco-suprimir-impuesto-fortunas",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. No se encontró posición en el manifiesto de 2023."
+    },
+    {
+      "statement": "eco-bajar-irpf",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "bonificación del 60% del IRPF para los residentes en la isla de La Palma",
+          "accessed": "2026-10-31",
+          "page": "p. 5 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12",
+        "v-irpf-deflactar-mocion-2026-04-22"
+      ],
+      "note": "El manifiesto 2023 solo pide una bonificación del IRPF para La Palma, no una bajada general. Los votos son solo relacionados. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: Sí."
+    },
+    {
+      "statement": "eco-impuesto-energeticas",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Cristina Valido se abstuvo en la votación directa de 2025 (una abstención no basta para codificar) y votó Sí a la PNL europea de 2026, que es solo relacionada. No se encontró posición en el manifiesto de 2023."
+    },
+    {
+      "statement": "eco-suprimir-impuesto-banca",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
+          "title": "Congreso de los Diputados – votación de 21/11/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-11-21",
+          "quote": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el […]",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-impuesto-banca-ley7-2024-11-21"
+      ],
+      "note": "Cristina Valido votó Sí a la Ley 7/2024, pero esa votación es solo relacionada (iba en un paquete con otros impuestos). No se encontró posición en el manifiesto de 2023 ni declaraciones sobre este impuesto."
+    },
+    {
+      "statement": "tra-jornada-37h",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion130/20250910/Votacion010/VOT_20250910213544.json",
+          "title": "Congreso de los Diputados, votación: Enmiendas a la totalidad (devolución) al proyecto de ley de jornada de 37,5 horas",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-09-10",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-jornada-totalidad-2025-09-10",
+        "v-jornada-pnl-2024-02-22"
+      ],
+      "note": "Cristina Valido (CC, Grupo Mixto) votó No a las enmiendas de devolución al proyecto de ley de 37,5 horas (10-09-2025)."
+    },
+    {
+      "statement": "tra-salario-minimo",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. El manifiesto 2023 habla de «sueldos dignos» sin fijar ningún objetivo para el SMI."
+    },
+    {
+      "statement": "san-gestion-privada",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria y otras fuerzas firmantes",
+          "date": "2023-06-26",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El manifiesto 2023 defiende 'una Sanidad pública y universal' pero no trata la gestión privada."
+    },
+    {
+      "statement": "san-dental-publica",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria y otras fuerzas firmantes",
+          "date": "2023-06-26",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el manifiesto 2023 ni en declaraciones revisadas."
+    },
+    {
+      "statement": "der-aborto-constitucion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion177/20260430/Votacion012/VOT_20260430125200.json",
+          "title": "Congreso de los Diputados, votación: Enmiendas a la totalidad a la reforma constitucional del art. 43 (aborto)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-30",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de reforma del artículo 43 de la Constitución Española, presentadas por los Grupos Parlamentarios Popular en el Congreso y VOX.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-aborto-constitucion-totalidad-2026-04-30"
+      ],
+      "note": "Cristina Valido (CC, Grupo Mixto) votó No a las enmiendas de devolución de PP y Vox contra la reforma del art. 43 (30-04-2026)."
+    },
+    {
+      "statement": "der-derogar-eutanasia",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria y otras fuerzas firmantes",
+          "date": "2023-06-26",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el manifiesto 2023 ni votación XV específica. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+    },
+    {
+      "statement": "der-cambio-sexo-informe",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto electoral Coalición por Canarias 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El manifiesto 2023 pide luchar contra la LGTBIfobia, sin pronunciarse sobre el cambio registral de sexo."
+    },
+    {
+      "statement": "inm-regularizacion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+          "title": "Votación: toma en consideración de la ILP de regularización extraordinaria",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
+          "title": "Votación: moción consecuencia de interpelación del GP Popular sobre la política en materia de migración (18/3/2026)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-03-18",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto electoral Coalición por Canarias 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-regularizacion-ilp-2024-04-09",
+        "v-regularizacion-pnl-2025-02-26",
+        "v-regularizacion-mocion-pp-2026-03-18"
+      ],
+      "note": "Cristina Valido (CC) votó sí a tramitar la ILP (2024) y no a la moción del PP contra la regularización extraordinaria (18/3/2026). No se encontró declaración oficial de CC sobre el RD 316/2026."
+    },
+    {
+      "statement": "inm-reparto-menores",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion106/20250410/Votacion015/VOT_20250410155154.json",
+          "title": "Congreso de los Diputados, votación: Convalidación del RDL 2/2025 (reparto de menores migrantes)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-04-10",
+          "quote": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria y otras fuerzas firmantes",
+          "date": "2023-06-26",
+          "quote": "que promueva las modificaciones legislativas necesarias para que todas las comunidades autónomas se impliquen en la acogida, formación e integración de los menores que llegan a Canarias",
+          "accessed": "2026-10-31",
+          "page": "p. 13"
+        }
+      ],
+      "vote_refs": [
+        "v-menores-rdl2-2025-04-10",
+        "v-menores-lo4-2000-2024-07-23"
+      ],
+      "note": "Cristina Valido (CC, Grupo Mixto) votó Sí a convalidar el RDL 2/2025 (10-04-2025)."
+    },
+    {
+      "statement": "inm-reducir-llegadas",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto electoral Coalición por Canarias 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El manifiesto 2023 pide cooperar con los países de origen contra la inmigración irregular, sin pronunciarse sobre el número total de inmigrantes."
+    },
+    {
+      "statement": "cli-nucleares",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion091/20250212/Votacion001/VOT_20250212154036.json",
+          "title": "Congreso de los Diputados, votación: PNL del PP sobre el cierre programado de las nucleares",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-02-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, sobre el cierre programado de la generación nuclear en España.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-nucleares-pnl-2025-02-12",
+        "v-nucleares-pl-2025-06-17"
+      ],
+      "note": "Cristina Valido (CC, Grupo Mixto) votó No a la PNL del PP sobre el cierre programado de las nucleares (12-02-2025)."
+    },
+    {
+      "statement": "cli-coches-combustion-despues-2035",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria y otras fuerzas firmantes",
+          "date": "2023-06-26",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el manifiesto 2023 ni en declaraciones revisadas. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+    },
+    {
+      "statement": "ter-amnistia",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion030/20240314/Votacion001/VOT_20240314135323.json",
+          "title": "Congreso de los Diputados, votación: Votación del nuevo dictamen (14-03-2024)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-03-14",
+          "quote": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-amnistia-2024-03-14"
+      ],
+      "note": "Cristina Valido (CC, Grupo Mixto) votó No a la ley de amnistía (14-03-2024)."
+    },
+    {
+      "statement": "ter-referendum",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria y otras fuerzas firmantes",
+          "date": "2023-06-26",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el manifiesto 2023 ni en declaraciones revisadas."
+    },
+    {
+      "statement": "ter-concierto-ccaa",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto electoral Coalición por Canarias 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
+      "note": "El manifiesto 2023 no propone un concierto para Canarias ni para otras comunidades. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (CC votó no, sin explicación encontrada.)"
+    },
+    {
+      "statement": "ter-recentralizar",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria y otras fuerzas firmantes",
+          "date": "2023-06-26",
+          "quote": "creemos en una Canarias más fuerte y con el máximo nivel de autogobierno, en igualdad de condiciones y competencias, dentro de un consensuado estado plurinacional.",
+          "accessed": "2026-10-31",
+          "page": "p. 3"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Defiende el máximo autogobierno; no menciona expresamente educación y sanidad."
+    },
+    {
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion003/20230921/Votacion004/VOT_20230921120100.json",
+          "title": "Congreso de los Diputados, votación: Votación de conjunto de la reforma del Reglamento (uso de lenguas cooficiales)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2023-09-21",
+          "quote": "Proposición de reforma del Reglamento del Congreso de los Diputados.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-lenguas-reglamento-2023-09-21"
+      ],
+      "note": "Cristina Valido (CC, Grupo Mixto) votó Sí a la reforma del Reglamento que permite las lenguas cooficiales (21-09-2023). [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+    },
+    {
+      "statement": "edu-concertada",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria y otras fuerzas firmantes",
+          "date": "2023-06-26",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el manifiesto 2023 ni en declaraciones revisadas."
+    },
+    {
+      "statement": "edu-lengua-castellano",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria y otras fuerzas firmantes",
+          "date": "2023-06-26",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el manifiesto 2023 ni en declaraciones revisadas."
+    },
+    {
+      "statement": "ins-cgpj",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion024/20240227/Votacion002/VOT_20240227205808.json",
+          "title": "Congreso de los Diputados, votación: Toma en consideración de la proposición de ley de VOX sobre elección de vocales del CGPJ",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-02-27",
+          "quote": "Orgánica por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para la reforma del procedimiento de elección de los vocales del Consejo General del Poder Judicial.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elobservador.com.uy/espana/el-congreso-rechaza-que-los-jueces-puedan-elegir-la-mayoria-de-los-vocales-del-poder-judicial-2024227194732",
+          "title": "El Congreso rechaza que los jueces puedan elegir la mayoría de los vocales del Poder Judicial",
+          "publisher": "El Observador (EFE)",
+          "date": "2024-02-27",
+          "quote": "Vox planteaba que los jueces eligieran de forma directa a los doce vocales de extracción judicial del CGPJ",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-cgpj-vox-2024-02-27",
+        "v-cgpj-pp-2026-09-10"
+      ],
+      "note": "Votos contradictorios en el tiempo: Cristina Valido (CC) votó No a la proposición de Vox (27-02-2024) y Sí a la del PP (10-09-2026), ambas para que los jueces elijan a los vocales judiciales. Se registra la posición más reciente con confianza media."
+    },
+    {
+      "statement": "ins-referendum-monarquia",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto electoral Coalición por Canarias 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el manifiesto 2023 ni en las declaraciones revisadas."
+    },
+    {
+      "statement": "ins-derogar-memoria",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria y otras fuerzas firmantes",
+          "date": "2023-06-26",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-memoria-mocion-2024-02-06",
+        "v-memoria-pnl-2024-05-23"
+      ],
+      "note": "Sin posición explícita sobre la derogación. Los votos sobre la aplicación de la ley (moción y PNL de 2024) son votaciones relacionadas y por sí solas no bastan para codificar. [Calibración 31/10/2026 tras auditoría de neutralidad.]"
+    },
+    {
+      "statement": "ext-gasto-defensa",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto electoral Coalición por Canarias 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://rtvc.es/cc-no-entiende-estado-dinero-defensa-y-no-cumplir-agenda-canaria/",
+          "title": "CC no entiende por qué el Estado tiene dinero para defensa y no para la agenda canaria",
+          "publisher": "RTVC",
+          "date": "2025-04-28",
+          "quote": "ha reconocido este lunes que no entiende",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "CC cuestiona las prioridades del gasto en defensa frente a la agenda canaria, pero no se pronuncia sobre el objetivo del 3,5 %."
+    },
+    {
+      "statement": "ext-embargo-israel",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/Votacion087/VOT_20251008195359.json",
+          "title": "Congreso de los Diputados, votación: Convalidación del RDL 10/2025 (embargo de armas a Israel)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-10-08",
+          "quote": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-embargo-israel-rdl-2025-10-08",
+        "v-embargo-ley-2025-05-20"
+      ],
+      "note": "Cristina Valido (CC, Grupo Mixto) votó Sí a convalidar el RDL 10/2025, que incluye el embargo de armas a Israel (08-10-2025)."
+    }
+  ]
+}
