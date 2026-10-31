@@ -141,30 +141,12 @@
           "date": "2025-01-22",
           "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
           "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
-          "publisher": "BNG",
-          "date": "2023-07-05",
-          "quote": "Estabelecer a permanencia dos impostos específicos aos beneficios da banca, das grandes enerxéticas e ás grandes fortunas",
-          "accessed": "2026-10-31",
-          "page": "p. 40 del PDF"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal energético sobre la cifra de negocios (votación directa, 22/01/2025; no convalidado 165-183-1). La PNL de 30/09/2026 (beneficios extraordinarios, ámbito UE) es solo contexto: otra base imponible y otro ámbito. El programa 2023 habla de impuestos a los beneficios de las grandes energéticas (otra base): contexto."
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -265,21 +247,21 @@
     {
       "statement": "san-dental-publica",
       "stance": "agree",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "title": "Programa electoral BNG, xerais 2023",
           "publisher": "BNG",
-          "date": "2023-07-05",
-          "quote": "Ampliar a Carteira de Servizos comúns do sistema público de saúde [...] así como as prestacións sanitarias actualmente fora da atención primaria, ou só parcialmente financiadas como asistencia odontolóxica",
+          "date": "2023-07",
+          "quote": "as prestacións sanitarias actualmente fora da atención primaria, ou só parcialmente financiadas como asistencia odontolóxica, podoloxía, óptico-optometrista",
           "accessed": "2026-10-31",
           "page": "p. 36"
         }
       ],
       "vote_refs": [],
-      "note": "Pide incluir la asistencia odontológica en la cartera común, sin detallar tratamientos."
+      "note": "Pide ampliar la cartera común y financiar al 100% prestaciones hoy no cubiertas o solo parcialmente, citando la asistencia odontológica."
     },
     {
       "statement": "der-aborto-constitucion",

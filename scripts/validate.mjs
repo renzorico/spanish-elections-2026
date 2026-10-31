@@ -111,7 +111,7 @@ export function validate(data) {
       if (!Array.isArray(pos.sources) || pos.sources.length === 0) err(`${where}: at least one source required`);
       for (const src of pos.sources || []) {
         if (!/^https?:\/\//.test(src.url || '')) err(`${where}: source url missing/invalid`);
-        if (src.date && !ISO.test(src.date)) err(`${where}: source date not ISO (${src.date})`);
+        if (src.date && !ISO.test(src.date) && !/^\d{4}-\d{2}$/.test(src.date)) err(`${where}: source date must be YYYY-MM-DD (or YYYY-MM when only the month is known): ${src.date}`);
         if (!src.date && !src.date_unknown && !ncp) warn(`${where}: source without date (set date_unknown: true if the page is genuinely undated)`);
         if (src.quote && src.quote.split(/\s+/).length > 60) warn(`${where}: quote longer than 60 words`);
       }

@@ -149,30 +149,12 @@
           "date": "2025-01-22",
           "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
           "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
-          "publisher": "Sumar",
-          "date": "2023-07-01",
-          "quote": "Mantendremos los impuestos extraordinarios sobre las empresas energéticas y financieras mientras se aprueba e implementa completamente la reforma integral del impuesto de sociedades.",
-          "accessed": "2026-10-31",
-          "page": "p. 16 del PDF"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal energético sobre la cifra de negocios (votación directa, 22/01/2025; no convalidado 165-183-1). La PNL de 30/09/2026 (beneficios extraordinarios, ámbito UE) es solo contexto: otra base imponible y otro ámbito. El programa Sumar 2023 (mantener los impuestos extraordinarios a energéticas y financieras) es contexto."
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -296,23 +278,16 @@
       "sources": [
         {
           "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "title": "Un programa para ti (Sumar, elecciones generales 2023)",
           "publisher": "Sumar",
-          "date": "2023-07-10",
-          "quote": "Proponemos incorporar a los servicios sanitarios públicos nuevas prestaciones, como la salud bucodental, la nutrición, la salud óptica, la audioprótesis, la psicoterapia, la terapia ocupacional y la fisioterapia.",
-          "page": "PDF p. 89",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://movimientosumar.es/cuentas-para-transformar-pge-2025/",
-          "title": "Cuentas para transformar: prioridades de Sumar para los PGE 2025",
-          "publisher": "Movimiento Sumar",
-          "date": "2024-09-16",
-          "quote": "la ampliación de las prestaciones sanitarias en salud bucodental",
-          "accessed": "2026-10-31"
+          "date": "2023-07",
+          "quote": "Proponemos incorporar a los servicios sanitarios públicos nuevas prestaciones, como la salud bucodental, la nutrición, la salud óptica, la audioprótesis, la psicoterapia",
+          "accessed": "2026-10-31",
+          "page": "PDF p. 89"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [],
+      "note": "Propone incorporar la salud bucodental como nueva prestación de la sanidad pública (hoy fuera de la cartera básica, según el propio programa), sin detallar tratamientos. Ampliación de cobertura, no mera mejora genérica."
     },
     {
       "statement": "der-aborto-constitucion",

@@ -150,21 +150,12 @@
           "date": "2025-01-22",
           "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
           "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó en contra de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal energético sobre la cifra de negocios (votación directa, 22/01/2025; no convalidado 165-183-1). La PNL de 30/09/2026 (beneficios extraordinarios, ámbito UE) es solo contexto: otra base imponible y otro ámbito."
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -265,21 +256,21 @@
     {
       "statement": "san-dental-publica",
       "stance": "agree",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
-          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
-          "publisher": "Vox",
-          "date": "2023-07-06",
+          "title": "Programa VOX 2023",
+          "publisher": "VOX",
+          "date": "2023-07",
           "quote": "Incluiremos en la cartera de servicios las prestaciones relacionadas con la salud bucodental y oftalmológica.",
-          "page": "p. 58",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "page": "medida 114"
         }
       ],
       "vote_refs": [],
-      "note": "The program commits to adding dental care to the public benefits catalogue but does not say exactly which treatments or groups are covered."
+      "note": "Compromiso de incluir prestaciones bucodentales en la cartera pública (ampliación concreta de cobertura), sin detallar tratamientos ni colectivos."
     },
     {
       "statement": "der-aborto-constitucion",

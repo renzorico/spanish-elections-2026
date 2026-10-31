@@ -81,20 +81,20 @@
     {
       "statement": "eco-impuesto-energeticas",
       "stance": "no_clear_position",
-      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
-          "title": "Contrato electoral Se Acabó La Fiesta en Castilla y León (programa autonómico 2026)",
-          "publisher": "Se Acabó La Fiesta",
-          "date": "2026-03-01",
+          "title": "Programa electoral Castilla y León 2026",
+          "publisher": "SALF",
+          "date": "2026-03",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "SALF no tiene diputados en el Congreso ni programa estatal. Su programa autonómico de Castilla y León (2026) no trata este impuesto."
+      "note": "SALF no tiene diputados en el Congreso ni programa estatal; su programa autonómico no trata el gravamen.",
+      "confidence": null
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -190,23 +190,16 @@
       "sources": [
         {
           "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
-          "title": "Contrato electoral Se Acabó La Fiesta en Castilla y León – Programa Electoral SALF Castilla y León 2026",
-          "publisher": "Se Acabó La Fiesta (SALF) (copia alojada por The Objective)",
-          "date": "2026-03-04",
-          "quote": "",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.eldebate.com/espana/20240609/quien-alvise-perez-cual-programa-electoral-acabo-fiesta-cns_203773.html",
-          "title": "¿Quién es Alvise Pérez y cuál es el programa electoral de 'Se acabó la fiesta'?",
-          "publisher": "El Debate",
-          "date": "2024-06-09",
+          "title": "Programa electoral Castilla y León 2026",
+          "publisher": "SALF",
+          "date": "2026-03",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "SALF published no national program (2024 European or 2026 general election), has no Congreso voting record, and its official website could not be reached. Its March 2026 Castilla y León regional program does not address this issue."
+      "note": "Sin programa estatal ni votos en el Congreso; el programa autonómico no trata el tema.",
+      "confidence": null
     },
     {
       "statement": "der-aborto-constitucion",

@@ -160,30 +160,12 @@
           "date": "2025-01-22",
           "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
           "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-01",
-          "quote": "Esquerra aposta per convertir els impostos extraordinaris a la banca i les empreses energètiques en figures permanents",
-          "accessed": "2026-10-31",
-          "page": "p. 70 del PDF"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal energético sobre la cifra de negocios (votación directa, 22/01/2025; no convalidado 165-183-1). La PNL de 30/09/2026 (beneficios extraordinarios, ámbito UE) es solo contexto: otra base imponible y otro ámbito. El programa 2023 (hacer permanentes los impuestos extraordinarios) es contexto."
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -288,16 +270,17 @@
       "sources": [
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-11",
+          "title": "Programa electoral ERC 2023",
+          "publisher": "ERC",
+          "date": "2023-09",
           "quote": "Transferència financera per a l’aplicació efectiva dels plans de salut bucodental inclosos a la cartera de serveis.",
-          "page": "p. 62 (PDF), p. 61 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "page": "PDF p. 62"
         }
       ],
       "vote_refs": [],
-      "note": "Només demana finançament per als plans bucodentals ja inclosos a la cartera; no proposa cobertura dental general universal."
+      "note": "Solo pide financiar los planes bucodentales ya incluidos en la cartera; no propone ampliar los tratamientos cubiertos.",
+      "confidence": null
     },
     {
       "statement": "der-aborto-constitucion",

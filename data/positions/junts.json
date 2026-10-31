@@ -167,27 +167,18 @@
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
-        },
-        {
           "url": "https://junts.cat/actualitat/nogueras-quan-junts-te-forca-catalunya-hi-guanya/",
-          "title": "Nogueras: «Quan Junts té força, Catalunya hi guanya»",
+          "title": "Nogueras: quan Junts té força, Catalunya hi guanya",
           "publisher": "Junts per Catalunya",
-          "date": "2026-10-27",
+          "date": "2026-10",
           "quote": "Ha destacat les rebaixes de l’impost de societats per a petites empreses i cooperatives, els incentius fiscals a la creació d’ocupació i el fre al gravamen energètic.",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). En octubre de 2026 Junts presenta como un logro haber frenado el gravamen energético. También votó en contra de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal energético sobre la cifra de negocios (votación directa, 22/01/2025; no convalidado 165-183-1). La PNL de 30/09/2026 (beneficios extraordinarios, ámbito UE) es solo contexto: otra base imponible y otro ámbito."
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -301,15 +292,16 @@
       "sources": [
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
-          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "title": "Programa electoral Junts 2026",
           "publisher": "Junts per Catalunya",
-          "date": "2023-07-19",
+          "date": "2026-10",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Cap menció a la cobertura dental al programa 2023 ni a la pàgina de propostes de sanitat."
+      "note": "No se menciona la cobertura dental en el programa revisado.",
+      "confidence": null
     },
     {
       "statement": "der-aborto-constitucion",

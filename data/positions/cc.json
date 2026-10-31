@@ -130,7 +130,6 @@
     {
       "statement": "eco-impuesto-energeticas",
       "stance": "no_clear_position",
-      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
@@ -142,27 +141,19 @@
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
-        },
-        {
           "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
-          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» (elecciones generales 23-J 2023)",
+          "title": "Programa electoral CC 2023",
           "publisher": "Coalición Canaria",
-          "date": "2023-07-01",
+          "date": "2023-07",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Cristina Valido se abstuvo en la votación directa de 2025 (una abstención no basta para codificar) y votó Sí a la PNL europea de 2026, que es solo relacionada. No se encontró posición en el manifiesto de 2023."
+      "note": "Cristina Valido se abstuvo en la votación directa de 2025; una abstención no basta para codificar. Votó Sí en la PNL de 2026 (relacionada, otra base y ámbito UE: solo contexto). El programa 2023 no trata el gravamen.",
+      "confidence": null
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -252,20 +243,20 @@
     {
       "statement": "san-dental-publica",
       "stance": "no_clear_position",
-      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
-          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
-          "publisher": "Coalición Canaria y otras fuerzas firmantes",
-          "date": "2023-06-26",
+          "title": "Programa electoral CC 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el manifiesto 2023 ni en declaraciones revisadas."
+      "note": "El programa 2023 no trata la cobertura dental.",
+      "confidence": null
     },
     {
       "statement": "der-aborto-constitucion",

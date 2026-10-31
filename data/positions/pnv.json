@@ -142,24 +142,16 @@
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
-        },
-        {
           "url": "https://congreso.eaj-pnv.eus/es/noticias/56081/el-grupo-vasco-logra-la-concertacion-con-capacidad",
-          "title": "El Grupo Vasco logra la concertación con capacidad normativa de los impuestos a grupos multinacionales y banca",
-          "publisher": "EAJ-PNV (Grupo Vasco en el Congreso)",
-          "date": "2024-10-30",
+          "title": "El Grupo Vasco logra la concertación con capacidad normativa",
+          "publisher": "EAJ-PNV",
+          "date": "2024-10",
           "quote": "El gravamen a energéticas decaerá por factores externos a la formación jeltzale, que ha mostrado su voluntad de convertir en impuesto y concertar dicho tributo.",
           "accessed": "2026-10-31"
         },
         {
           "url": "https://www.eaj-pnv.eus/es/noticias/56223/aitor-esteban-no-participara-en-el-paripe-promovid/",
-          "title": "Aitor Esteban no participará en el “paripé” promovido por Podemos para negociar un gravamen a las energéticas",
+          "title": "Aitor Esteban no participará en el «paripé» promovido por Podemos",
           "publisher": "EAJ-PNV",
           "date": "2024-12-11",
           "quote": "reformar el Impuesto de Sociedades para dejar de hacer parches impositivos que generan inseguridad jurídica",
@@ -167,19 +159,18 @@
         },
         {
           "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-          "title": "Con voz propia / Euskadiren ahotsa. Programa Electoral 23-J",
+          "title": "Con voz propia. Programa electoral 23-J",
           "publisher": "EAJ-PNV",
-          "date": "2023-07-01",
+          "date": "2023-07",
           "quote": "en caso de querer mantenerlas, deberían incluirse en una reforma tributaria y tramitarse como impuestos",
           "accessed": "2026-10-31",
-          "page": "p. 16 del PDF"
+          "page": "p. 16"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Pruebas contradictorias. En octubre de 2024 el PNV se mostró dispuesto a convertir el gravamen en un impuesto concertado, y su programa 2023 lo acepta solo como impuesto concertado. Pero en diciembre de 2024 pidió dejar los «parches impositivos» y en enero de 2025 votó No a la prórroga (votación directa, la prueba más reciente). Se codifica en desacuerdo con confianza media. Se abstuvo en la PNL europea de 2026 (relacionada)."
+      "note": "Votó en contra de convalidar el RDL 10/2024 (votación directa, 22/01/2025). Evidencia matizada: el PNV dijo estar dispuesto a convertir el gravamen en impuesto concertable y su programa 2023 lo admitiría solo como impuesto tras una reforma tributaria; en diciembre de 2024 pidió dejar los «parches impositivos». Se mantiene disagree con confianza media por esa matización. Abstención en la PNL de 2026 (solo contexto)."
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -278,20 +269,20 @@
     {
       "statement": "san-dental-publica",
       "stance": "no_clear_position",
-      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-          "title": "Con voz propia / Euskadiren ahotsa. Programa Electoral 23-J",
+          "title": "Con voz propia. Programa electoral 23-J",
           "publisher": "EAJ-PNV",
-          "date": "2023-07-23",
+          "date": "2023-07",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas."
+      "note": "El programa 2023 no trata la cobertura dental.",
+      "confidence": null
     },
     {
       "statement": "der-aborto-constitucion",

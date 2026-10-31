@@ -1,7 +1,7 @@
 # Data schema
 
 All files are UTF-8 JSON. `scripts/validate.mjs` enforces everything below
-(`npm run validate`). Dates are ISO `YYYY-MM-DD`.
+(`npm run validate`). Dates are ISO `YYYY-MM-DD`; source dates may be `YYYY-MM` when only the month is known, and `date_unknown: true` marks a genuinely undated page.
 
 ## parties.json
 Array of objects — see PLAN.md §2. `vote_match` tells the vote pipeline how to

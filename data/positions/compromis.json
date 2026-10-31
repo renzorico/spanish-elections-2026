@@ -148,30 +148,12 @@
           "date": "2025-01-22",
           "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
           "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
-          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
-          "publisher": "Compromís",
-          "date": "2023-07-01",
-          "quote": "Hacer permanente el impuesto a los beneficios extraordinarios de la banca y las empresas energéticas.",
-          "accessed": "2026-10-31",
-          "page": "p. 10 del PDF"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal energético sobre la cifra de negocios (votación directa, 22/01/2025; no convalidado 165-183-1). La PNL de 30/09/2026 (beneficios extraordinarios, ámbito UE) es solo contexto: otra base imponible y otro ámbito. El programa conjunto Sumar-Compromís (impuesto a beneficios extraordinarios) es contexto."
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -271,20 +253,30 @@
     },
     {
       "statement": "san-dental-publica",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
       "sources": [
         {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti (Sumar, elecciones generales 2023)",
+          "publisher": "Sumar",
+          "date": "2023-07",
+          "quote": "Proponemos incorporar a los servicios sanitarios públicos nuevas prestaciones, como la salud bucodental, la nutrición, la salud óptica, la audioprótesis, la psicoterapia",
+          "accessed": "2026-10-31",
+          "page": "PDF p. 89"
+        },
+        {
           "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
-          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "title": "Programa Sumar-Compromís 2023",
           "publisher": "Compromís",
-          "date": "2023-07-11",
+          "date": "2023-07",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "Not mentioned in the 2023 program (health chapter, p. 8). No compromis.net statement found."
+      "note": "Única evidencia: el programa conjunto Sumar 2023 en el que concurrió Compromís (el documento propio de Compromís no menciona lo dental), por lo que se limita a media. Antes figuraba sin posición."
     },
     {
       "statement": "der-aborto-constitucion",

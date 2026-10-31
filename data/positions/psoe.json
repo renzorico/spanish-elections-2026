@@ -160,28 +160,19 @@
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
-        },
-        {
           "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
           "title": "Programa electoral. Elecciones Generales 23 julio 2023",
           "publisher": "PSOE",
           "date": "2023-07-07",
           "quote": "Evaluaremos la prórroga y ajustes de los gravámenes temporales sobre la banca y energéticas, para que ambos sectores sigan contribuyendo a la justicia fiscal",
           "accessed": "2026-10-31",
-          "page": "p. 39 del PDF"
+          "page": "Alojado por El Independiente"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). Es además autor de la PNL de 30/09/2026 (relacionada)."
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal energético sobre la cifra de negocios (votación directa, 22/01/2025; no convalidado 165-183-1). La PNL de 30/09/2026 (beneficios extraordinarios, ámbito UE) es solo contexto: otra base imponible y otro ámbito."
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -289,8 +280,8 @@
     },
     {
       "statement": "san-dental-publica",
-      "stance": "neutral",
-      "confidence": "medium",
+      "stance": "agree",
+      "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
         {
@@ -299,12 +290,12 @@
           "publisher": "PSOE",
           "date": "2023-07-07",
           "quote": "Salud Bucodental: promoveremos la incorporación progresiva de servicios como las obturaciones (empastes) o los implantes dentales a más colectivos, comenzando por personas mayores de 75 años.",
-          "page": "p. 204 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "page": "Alojado por El Independiente"
         }
       ],
       "vote_refs": [],
-      "note": "Propone ampliar la cobertura dental de forma progresiva y por colectivos, no una cobertura general para toda la población."
+      "note": "Propone ampliar los tratamientos dentales cubiertos (empastes, implantes), de forma progresiva y por colectivos. Cumple la afirmación (más tratamientos que hoy); no plantea cobertura universal, pero la frase no la exige. Recodificado de neutral: ampliar gradualmente es una ampliación, no una posición intermedia."
     },
     {
       "statement": "der-aborto-constitucion",

@@ -152,28 +152,19 @@
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
-        },
-        {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-82.PDF",
-          "title": "Diario de Sesiones del Congreso de los Diputados, Pleno, núm. 82 (21/11/2024)",
+          "title": "Diario de Sesiones del Congreso, Pleno, núm. 82",
           "publisher": "Congreso de los Diputados",
           "date": "2024-11-21",
-          "quote": "con nuestro voto evitamos los nuevos impuestos que ahora ustedes van a someter a votación: impuestos a la banca, […] impuesto sobre las energéticas, que ya se está viendo que promueven la deslocalización, la desinversión",
+          "quote": "con nuestro voto evitamos los nuevos impuestos que ahora ustedes van a someter a votación: impuestos a la banca, […] impuesto sobre las energéticas",
           "accessed": "2026-10-31",
-          "page": "p. 65 del PDF (Puy Fraga, GP)"
+          "page": "DS Pleno 82, intervención de Puy Fraga (GP)"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó en contra de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal energético sobre la cifra de negocios (votación directa, 22/01/2025; no convalidado 165-183-1). La PNL de 30/09/2026 (beneficios extraordinarios, ámbito UE) es solo contexto: otra base imponible y otro ámbito."
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -284,15 +275,16 @@
       "sources": [
         {
           "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
-          "title": "Programa electoral. Un proyecto al servicio de un gran país. 365 medidas (elecciones generales 2023)",
-          "publisher": "Partido Popular",
-          "date": "2023-07-04",
+          "title": "Programa electoral PP 2023 (365 medidas)",
+          "publisher": "PP",
+          "date": "2023-07",
           "quote": "",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "El programa de 2023 no menciona la atención bucodental."
+      "note": "El programa 2023 no menciona la cobertura bucodental pública.",
+      "confidence": null
     },
     {
       "statement": "der-aborto-constitucion",
