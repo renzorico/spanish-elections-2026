@@ -76,3 +76,44 @@ Severity: **H** high · **M** medium · **L** low. Status: ✅ fixed · ⚠️ p
 * Smaller and seatless parties (SALF, CCa, EAJ-PNV) have more "no clear position" codings. This lowers the number of comparable statements, not their scores, and is flagged in the UI.
 * Several official party websites block automated access (psoe.es, voxespana.es, podemos.info, esquerra.cat). Mirrors of party documents were used and recorded in DATA_GAPS.md.
 * No 2026 programs were published as of 31 Oct 2026; positions should be re-checked when they are.
+
+---
+
+# Follow-up: independent Codex audit (2026-10-31)
+
+A second, fully independent audit (Codex, with separate code, content and UX reviewers) is in [`audits/FULL-AUDIT-2026-10-31.md`](audits/FULL-AUDIT-2026-10-31.md), with the [code review](audits/AUDIT-2026-10-31-deep.md), the [UX review](audits/UX-2026-10-31-deep.md) and 32 screenshots. It found 21 verified defects (3 high, 13 medium, 5 low) and one suspected content issue, and no sign of intentional manipulation. All verified defects are fixed. The table says how.
+
+| ID | Sev | Finding | Fix | Status |
+|---|---|---|---|---|
+| D-001 | H | Reference pages discarded all answers | Methodology and election pages now open **inside the app** (same document, answers stay in memory), with browser Back working. Standalone pages remain for direct links. A leave-page warning appears while a questionnaire is in progress. | ✅ browser-tested |
+| D-002 | H | Arrow keys advanced to the next question | Choosing an answer only saves it; a visible **Continue** button moves on. Mouse and touch choices still advance on their own, announced beside the answers and switchable off. A saved-answer status is announced to screen readers. | ✅ browser-tested |
+| D-003 | H | No forward action when reviewing an unchanged answer | Continue and a direct "Back to results" are available in review; Skip is the only action that clears an answer. | ✅ browser-tested |
+| D-004 | M | Restart erased everything silently | Asks for confirmation when there are answers, and says what will be erased. | ✅ |
+| D-005 | M | Expanded results overflowed at 320 px | Topic table rebuilt with a shrinking bar column; no page-level horizontal scroll at 320 px. | ✅ browser-tested |
+| D-006 | M | English results showed Spanish/Catalan explanations | All 372 position and vote notes are now `{es, en}` (validator-enforced), cleaned of internal process language; every source has a `lang` for correct language markup. Vote results in notes were re-checked against raw Congreso totals. | ✅ |
+| D-007 | M | Coverage fractions had no labels | Column headers (Topic / Agreement) and plain text such as "2 of 3 statements with a documented position", plus an explanation. | ✅ |
+| D-008 | M | Correction and voting instructions had no links | Repository and issue links on the methodology page; a pre-filled "Report an error or a better source" link on every position; official voting pages linked (see DATA_GAPS.md for what could not be re-checked). | ✅ |
+| D-009 | L | Failed coverage fetch showed only "—" | HTTP status checked; localized error with a Retry button. | ✅ |
+| D-010 | L | Missing share/search metadata | Canonical URL, Open Graph and Twitter tags, favicon, preview image and descriptions on all pages. | ✅ |
+| C-001 | M | Profits-tax question used turnover-levy evidence | Statement reworded to the levy actually voted on (2023–24, on turnover); context says so; all 13 parties recoded under a scope test. | ✅ |
+| C-002 | M | Dental item promised more than sources showed | Narrowed to "more dental treatments than today"; all parties recoded (several moved, e.g. PSOE neutral → agree, ERC stays uncoded). | ✅ |
+| C-003 | M | Unknown total-arrivals position became PP's midpoint | Scope test applied to every party: with PP, PSOE and Vox moved to "no clear position" only 1 of 13 parties had a position, so the item was **replaced** by "speed up the return of people who entered irregularly and have no right to asylum" (6 parties coded, evidence-scope applied: detention-centre closure alone is not a position on returns). | ✅ |
+| C-004 | M | Occupation context overstated what is criminal | Rewritten: can be a crime (trespass or usurpation); possession and expired-tenancy disputes are civil. | ✅ |
+| C-005 | L | Legal context too absolute | "Normally three-fifths"; "aged 16 or over". | ✅ |
+| F-002 | M | Historical tallies used today's affiliations | Dated overrides: Ábalos and Ortega Smith count for their party until they left. Vox is 33 and PSOE 121 on the 2023 votes again. No majority changed. | ✅ tested |
+| F-003 | M | Compromís explanations and counted deputies disagreed | Documented attribution policy (by party of membership); Ibáñez now counted for Compromís (2 deputies). | ✅ tested |
+| F-004 | M | Validator accepted evidence from another question | A vote_ref must belong to the same statement; every curated vote needs a raw file and a derived tally that recomputes exactly; confidence ladder enforced (high needs a direct vote or program text; Podemos/Compromís capped on the joint program). Six negative tests prove each check fails. The build refuses a missing tally and runs `--strict`. | ✅ tested |
+| F-005 | M | Source check reported success on failure | Exits non-zero on dead links; bot-blocked pages need a reason and review date in `data/source_allow.json`; weekly workflow. Unit-tested with injected fetchers. | ✅ tested |
+| F-006 | L | Podemos rent confidence broke the published ladder | Lowered to medium; the validator now makes this a build error. | ✅ |
+| F-007 | L | Restart kept sort and filters | All result preferences reset. | ✅ browser-tested |
+| C-S01 | — | PSOE fiscal-autonomy evidence suspected out of date | Re-researched. Current primary evidence (Government–Generalitat agreement of 14 Jul 2025, Hacienda model of Jan 2026) does not state whether a region should be able to collect all its taxes; the full agreement text could not be opened. PSOE moved to **no clear position**. ERC, Junts and BNG lowered to medium because they demand it for their own region only. | ✅ |
+
+## Decisions where I did not follow the audit literally
+
+* **D-002:** the audit asked for advancing only on Continue. Mouse and touch choices still advance automatically, because a 30-question quiz needs the speed; keyboard choices never do, the behaviour is announced before use (WCAG 3.2.2) and can be switched off. If you prefer strictly explicit navigation, it is one line.
+* **C-003:** replaced the statement rather than leaving a question that could be answered only against one party.
+* **Optional design directions** in the audit (grouping shared ballots, commitment estimate before Start, clearer topic-weight explanation, comparison limits next to scores) are left for the UI/UX redesign.
+
+## New automated checks (all in `npm test` / CI)
+
+Validator negative tests (wrong-statement vote, missing or non-recomputing tally, metadata drift, ladder violations, Sumar cap); dated deputy attribution; source-check classification and retry; bilingual notes and no process language; plus a real-browser suite (`npm run test:browser`, 22 checks) for keyboard navigation, review flow, reference pages mid-quiz, 320 px reflow, restart and preference reset.
