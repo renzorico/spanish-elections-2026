@@ -23,14 +23,14 @@ test('ES and EN UI dictionaries have the same keys', () => {
 test('UI never labels a party as recommended or best', () => {
   const banned = /recomend|recommend|mejor opci|best match|ganador|winner|top match/i;
   // Disclaimers that say there are NO recommendations are the opposite of a label.
-  const negations = /sin recomendaciones|no hay recomendaciones|no recommendations|without recommendations/gi;
+  const negations = /sin recomendaciones|no hay recomendaciones|no es una recomendaci[oó]n( de voto)?|no recommendations|without recommendations|not a (voting )?recommendation/gi;
   const clean = (str) => str.replace(negations, '');
   for (const lang of ['es', 'en']) for (const s of flatten(STRINGS[lang])) assert.ok(!banned.test(clean(s)), s);
   for (const f of ['site/index.html', 'site/js/app.js']) assert.ok(!banned.test(clean(readFileSync(f, 'utf8'))), f);
 });
 
 test('frontend makes no third-party requests and uses no storage', () => {
-  const src = ['site/index.html', 'site/eleccion.html', 'site/metodologia.html', 'site/js/app.js', 'site/js/page.js', 'site/js/reference.js', 'site/js/match.js', 'site/css/style.css']
+  const src = ['site/index.html', 'site/eleccion.html', 'site/metodologia.html', 'site/js/app.js', 'site/js/page.js', 'site/js/reference.js', 'site/js/match.js', 'site/js/share.js', 'site/js/topics.js', 'site/css/style.css']
     .map((f) => readFileSync(f, 'utf8'))
     .join('\n');
   assert.ok(!/localStorage|sessionStorage|indexedDB|document\.cookie/.test(src), 'storage API used');

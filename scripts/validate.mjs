@@ -69,6 +69,8 @@ export function validate(data) {
     for (const lang of ['es', 'en']) {
       if (!s.text?.[lang]) err(`statement ${s.id}: text.${lang} missing`);
       if (!s.context?.[lang]) err(`statement ${s.id}: context.${lang} missing`);
+      if (!s.simple?.[lang]) err(`statement ${s.id}: simple.${lang} (plain-language explanation) missing`);
+      for (const term of findLoadedTerms(s.simple?.[lang])) err(`statement ${s.id}: loaded term "${term}" in simple.${lang}`);
       for (const term of findLoadedTerms(s.text?.[lang])) err(`statement ${s.id}: loaded term "${term}" in text.${lang}`);
       for (const term of findLoadedTerms(s.context?.[lang])) err(`statement ${s.id}: loaded term "${term}" in context.${lang}`);
       if ((s.text?.[lang] || '').length > 200) warn(`statement ${s.id}: text.${lang} longer than 200 chars`);

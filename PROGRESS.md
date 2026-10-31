@@ -31,5 +31,6 @@ node scripts/reconcile_votes.mjs --dry      # vote vs. coding conflicts
 npm run check-sources                       # URL liveness
 ```
 
-## UI/UX direction (next step, not started)
-Goal: people drop out of a 30-question quiz. Ideas to decide together: quick-start / short mode (e.g. 10 key statements, with "keep going" for more), a live "your picture so far" after each topic, one-statement-per-screen with larger cards and keyboard/swipe shortcuts, friendlier copy, a distinctive visual identity that stays party-neutral (no party colours), progress that feels short (by topic), shareable result card (stays client-side), soft-skip "no opinion". Constraints: no storage, no ranking by default, neutral wording, accessibility (WCAG AA), works at 320 px.
+## UI/UX redesign (in progress, 31 Oct 2026)
+Done: new design system (paper/ink, Fraunces + Atkinson Hyperlegible, self-hosted), topic colours + icons, new home with countdown, dot-scale answers with Previous/Next always available, keyboard shortcuts, "Explícamelo fácil" plain-language line for every statement, topic weights per topic (Less ×0.5 / Same / More ×2, chosen by the owner: option B), results with province switcher (incl. all of Spain) and topic map, party detail with collapsible topics, shareable PNG + PDF card with QR, shorter election and methodology pages. Browser suite: 38 checks.
+Decided by the owner: answer input A (dot scale), topic weights B (Less/Same/More). Open: party logos (licence-checked from Wikimedia Commons; monograms until then).

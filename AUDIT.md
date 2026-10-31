@@ -117,3 +117,19 @@ A second, fully independent audit (Codex, with separate code, content and UX rev
 ## New automated checks (all in `npm test` / CI)
 
 Validator negative tests (wrong-statement vote, missing or non-recomputing tally, metadata drift, ladder violations, Sumar cap); dated deputy attribution; source-check classification and retry; bilingual notes and no process language; plus a real-browser suite (`npm run test:browser`, 22 checks) for keyboard navigation, review flow, reference pages mid-quiz, 320 px reflow, restart and preference reset.
+
+---
+
+# Design neutrality notes for the redesign (2026-10-31)
+
+The rebuilt interface adds visual elements that could carry bias. Each was decided deliberately:
+
+| Element | Decision | Why it stays neutral |
+|---|---|---|
+| Topic colours | 11 muted colours, all with the same OKLCH lightness (0.52) and low chroma (0.075); every topic also has an icon | Spanish party brands are saturated hues (red, blue, green, purple, magenta, orange, yellow, turquoise). Equal low chroma means no topic reads as a party colour or outweighs another. All pass WCAG AA in light and dark mode. |
+| Party identity in the UI | No party colours anywhere. Logos (where a free licence exists) or neutral ink monograms, all the same size | Same visual weight for every party |
+| Agreement colours | Neutral ink ramp in the topic map; verdicts use icons (✓ ≈ ✗ ?), never red/green | Red/green would suggest right/wrong and map onto party colours |
+| Result order | Random by default; "by agreement" is a user choice; limited-data parties listed last when sorting | Unchanged principle |
+| Shareable card / PDF | Sorted by agreement, because it is the user's own summary; limited-data parties marked and listed last; "not a voting recommendation" printed on it | Explicit user action, with the same caveats as the screen |
+| Plain-language explanations | Each says what the measure is and what "agree" means; no arguments for or against; linted for loaded terms | Helps people not into politics without steering them |
+| Answer scale | Dots grow towards the extremes on both sides symmetrically; neither side is coloured | No side looks like the "right" answer |
