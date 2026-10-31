@@ -1,0 +1,603 @@
+{
+  "party": "eh-bildu",
+  "coded_by": "subagent:group-e",
+  "coded_on": "2026-10-31",
+  "positions": [
+    {
+      "statement": "viv-limite-alquiler",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "aprobar la Ley de Vivienda que limita los alquileres, declara zonas tensionadas y pone coto a los fondos buitre",
+          "accessed": "2026-10-31",
+          "page": "p. 2"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa presenta como logro propio la aprobación de la Ley de Vivienda que limita los alquileres en zonas tensionadas."
+    },
+    {
+      "statement": "viv-compra-no-residentes",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el programa 2023 ni en declaraciones oficiales revisadas."
+    },
+    {
+      "statement": "viv-desalojo-rapido",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados, votación: Toma en consideración de la proposición de ley de Junts contra la ocupación",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados, votación: Toma en consideración de la proposición de ley del PP contra la ocupación",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "EH Bildu votó en contra (6 No) de tomar en consideración la proposición de Junts (18-03-2025) y la del PP (19-05-2026) para acelerar desalojos de viviendas ocupadas. Son votos sobre medidas relacionadas, no sobre la formulación exacta (que incluye a ocupantes vulnerables)."
+    },
+    {
+      "statement": "eco-impuesto-grandes-fortunas",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "Aumentar la carga impositiva y convertir en permanentes los impuestos a la banca, energéticas y grandes fortunas",
+          "accessed": "2026-10-31",
+          "page": "p. 8"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "eco-bajar-irpf",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados, votación: Moción del PP: punto sobre deflactación generalizada del IRPF",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://forbes.es/economia/912299/el-congreso-con-el-psoe-en-contra-exige-al-gobierno-deflactar-el-irpf-y-eximir-de-iva-a-pequenos-autonomos/",
+          "title": "El Congreso, con el PSOE en contra, exige al Gobierno deflactar el IRPF y eximir de IVA a pequeños autónomos",
+          "publisher": "Forbes España",
+          "date": "2026-04-22",
+          "quote": "La propuesta ha conseguido el apoyo de Vox, Junts, Coalición Canaria y UPN; mientras que el PNV se ha abstenido y el resto del hemiciclo, incluidos PSOE y Sumar, han votado en contra.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "EH Bildu votó No (6) al punto de la moción del PP que pedía deflactar de forma generalizada el IRPF (22-04-2026). Es un voto sobre una medida relacionada (deflactación), no una rebaja de tipos; el programa 2023 no trata el IRPF."
+    },
+    {
+      "statement": "eco-impuesto-energeticas-banca",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "Aumentar la carga impositiva y convertir en permanentes los impuestos a la banca, energéticas y grandes fortunas",
+          "accessed": "2026-10-31",
+          "page": "p. 8"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "tra-jornada-37h",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion130/20250910/Votacion010/VOT_20250910213544.json",
+          "title": "Congreso de los Diputados, votación: Enmiendas a la totalidad (devolución) al proyecto de ley de jornada de 37,5 horas",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-09-10",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "Reducción de la jornada laboral hasta las 32 horas semanales sin reducción salarial ni modificación de condiciones",
+          "accessed": "2026-10-31",
+          "page": "p. 3"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Votó en contra (5 No, 1 no vota) de las enmiendas de devolución al proyecto de 37,5 horas (10-09-2025). Su programa 2023 pide ir más allá: 32 horas sin reducción salarial."
+    },
+    {
+      "statement": "tra-salario-minimo",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "guiado por las directrices recogidas en la Carta Social Europea, que lo fijan en el 60% del salario medio",
+          "accessed": "2026-10-31",
+          "page": "p. 4"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Pide además capacidad para fijar un SMI propio vasco."
+    },
+    {
+      "statement": "san-gestion-privada",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "Derogar la Ley 15/1997 de Gestión del Sistema de Salud aprobada por el PP, que permite la privatización y externalización de los servicios sanitarios.",
+          "accessed": "2026-10-31",
+          "page": "p. 6"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "san-dental-publica",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "Incluir servicios oftalmológicos y dentales básicos en la cartera de servicios públicos sanitarios.",
+          "accessed": "2026-10-31",
+          "page": "p. 6"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa habla de servicios dentales 'básicos', sin detallar si incluye endodoncias o prótesis."
+    },
+    {
+      "statement": "der-aborto-constitucion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion177/20260430/Votacion012/VOT_20260430125200.json",
+          "title": "Congreso de los Diputados, votación: Enmiendas a la totalidad a la reforma constitucional del art. 43 (aborto)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-30",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de reforma del artículo 43 de la Constitución Española, presentadas por los Grupos Parlamentarios Popular en el Congreso y VOX.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "EH Bildu votó No (6) a las enmiendas de devolución de PP y Vox contra la reforma del art. 43 para incluir el aborto en la Constitución (30-04-2026)."
+    },
+    {
+      "statement": "der-eutanasia",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el programa 2023 ni votación XV específica."
+    },
+    {
+      "statement": "der-ley-trans",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "Defenderemos todos y cada uno de los avances y conquistas logradas para las personas LGTBIQ+, que amplían derechos y libertades.",
+          "accessed": "2026-10-31",
+          "page": "p. 10"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Compromiso genérico de defender las leyes LGTBIQ+ aprobadas; no menciona expresamente la autodeterminación registral."
+    },
+    {
+      "statement": "inm-regularizacion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+          "title": "Congreso de los Diputados, votación: Toma en consideración de la ILP de regularización extraordinaria",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "Exigiremos la derogación de la Ley de Extranjería, sustituyéndola por una nueva legislación que respete y garantice todos los derechos humanos y civiles de todas las personas migrantes",
+          "accessed": "2026-10-31",
+          "page": "p. 11"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Votó a favor (5 Sí, 1 no vota) de tomar en consideración la ILP de regularización extraordinaria (09-04-2024)."
+    },
+    {
+      "statement": "inm-reparto-menores",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion106/20250410/Votacion015/VOT_20250410155154.json",
+          "title": "Congreso de los Diputados, votación: Convalidación del RDL 2/2025 (reparto de menores migrantes)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-04-10",
+          "quote": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Votó a favor (6 Sí) de convalidar el RDL 2/2025 de reparto de menores migrantes (10-04-2025)."
+    },
+    {
+      "statement": "inm-reducir-llegadas",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa 2023 pide vías seguras y derogar la Ley de Extranjería, pero no se pronuncia sobre el número de llegadas."
+    },
+    {
+      "statement": "cli-nucleares",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion091/20250212/Votacion001/VOT_20250212154036.json",
+          "title": "Congreso de los Diputados, votación: PNL del PP sobre el cierre programado de las nucleares",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-02-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, sobre el cierre programado de la generación nuclear en España.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Votó en contra (6 No) de la PNL del PP para revisar el cierre programado de las nucleares (12-02-2025)."
+    },
+    {
+      "statement": "cli-coches-2035",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas."
+    },
+    {
+      "statement": "ter-amnistia",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion030/20240314/Votacion001/VOT_20240314135323.json",
+          "title": "Congreso de los Diputados, votación: Votación del nuevo dictamen (14-03-2024)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-03-14",
+          "quote": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Votó a favor (6 Sí) de la ley de amnistía (14-03-2024)."
+    },
+    {
+      "statement": "ter-referendum",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "El reconocimiento del derecho a decidir como mecanismo democrático para dicha solución, basada en la voluntad y decisión de la ciudadanía vasca.",
+          "accessed": "2026-10-31",
+          "page": "p. 14"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Defiende el derecho a decidir de Euskal Herria con 'el diálogo y el acuerdo como base'."
+    },
+    {
+      "statement": "ter-financiacion-cataluna",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró una posición específica de EH Bildu sobre el modelo de financiación de Cataluña; el programa 2023 solo trata el Concierto vasco y el Convenio navarro."
+    },
+    {
+      "statement": "ter-recentralizar",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "defenderemos nuestro autogobierno y todas sus capacidades de cualquier invasión o intento de recentralización de nuestros instrumentos propios.",
+          "accessed": "2026-10-31",
+          "page": "p. 16"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-lenguas-congreso",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion003/20230921/Votacion004/VOT_20230921120100.json",
+          "title": "Congreso de los Diputados, votación: Votación de conjunto de la reforma del Reglamento (uso de lenguas cooficiales)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2023-09-21",
+          "quote": "Proposición de reforma del Reglamento del Congreso de los Diputados.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "exigiremos el mismo respeto para todas las lenguas propias de los diferentes pueblos y naciones del Estado, como el catalá, el galego, al asturianu o el aragonés.",
+          "accessed": "2026-10-31",
+          "page": "p. 15"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Votó a favor (6 Sí) de la reforma del Reglamento que permite las lenguas cooficiales (21-09-2023)."
+    },
+    {
+      "statement": "edu-concertada",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición sobre la financiación de la concertada en el programa 2023 ni en declaraciones revisadas."
+    },
+    {
+      "statement": "edu-lengua-castellano",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "Blindar nuestros modelos educativos y curriculares y sus características lingüísticas, no permitiendo ningún tipo de intromisión ni cambio impuesto en los modelos educativos propios.",
+          "accessed": "2026-10-31",
+          "page": "p. 15"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ins-cgpj",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion024/20240227/Votacion002/VOT_20240227205808.json",
+          "title": "Congreso de los Diputados, votación: Toma en consideración de la proposición de ley de VOX sobre elección de vocales del CGPJ",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-02-27",
+          "quote": "Orgánica por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para la reforma del procedimiento de elección de los vocales del Consejo General del Poder Judicial.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elobservador.com.uy/espana/el-congreso-rechaza-que-los-jueces-puedan-elegir-la-mayoria-de-los-vocales-del-poder-judicial-2024227194732",
+          "title": "El Congreso rechaza que los jueces puedan elegir la mayoría de los vocales del Poder Judicial",
+          "publisher": "El Observador (EFE)",
+          "date": "2024-02-27",
+          "quote": "Vox planteaba que los jueces eligieran de forma directa a los doce vocales de extracción judicial del CGPJ",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Votó en contra (6 No) de tomar en consideración la proposición de Vox para que los jueces elijan a los 12 vocales judiciales (27-02-2024)."
+    },
+    {
+      "statement": "ins-referendum-monarquia",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró en el programa 2023 ni en votaciones XV una propuesta de referéndum monarquía/república (solo declaraciones anteriores a 2023)."
+    },
+    {
+      "statement": "ins-memoria-democratica",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-06",
+          "quote": "Ampliar la Ley de Memoria Democrática para incluir en la misma garantías de reconocimiento, justicia y reparación para todas las víctimas",
+          "accessed": "2026-10-31",
+          "page": "p. 12"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Pide ampliar la ley, lo que implica mantenerla."
+    },
+    {
+      "statement": "ext-gasto-defensa",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://ehbildu.eus/es/noticias/arnaldo-otegi-no-vamos-a-apoyar-el-gasto-en-la-aceleracion-militar-en-absoluto",
+          "title": "Arnaldo Otegi: «No vamos a apoyar el gasto en la aceleración militar, en absoluto»",
+          "publisher": "EH Bildu",
+          "date": "2025-03-20",
+          "quote": "Nosotros no vamos a apoyar la aceleración del gasto militar en absoluto.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ext-embargo-israel",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/Votacion087/VOT_20251008195359.json",
+          "title": "Congreso de los Diputados, votación: Convalidación del RDL 10/2025 (embargo de armas a Israel)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-10-08",
+          "quote": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Votó a favor (6 Sí) de convalidar el RDL 10/2025 (medidas sobre Gaza), que incluye el embargo de armas (08-10-2025)."
+    }
+  ]
+}

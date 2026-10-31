@@ -135,10 +135,18 @@
           "date": "2024-11-21",
           "quote": "Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras",
           "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Convalidación del Real Decreto-ley 10/2024 (22/01/2025)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "En noviembre de 2024 el Grupo Socialista votó a favor de la ley que convierte el gravamen a la banca en un impuesto sobre el margen de intereses y comisiones."
+      "note": "El Grupo Socialista votó a favor de la ley que crea el impuesto sobre el margen de intereses y comisiones de la banca (21/11/2024) y de convalidar el gravamen temporal energético para 2025 (22/01/2025), que no fue convalidado."
     },
     {
       "statement": "tra-jornada-37h",
@@ -368,8 +376,17 @@
           "title": "Programa electoral. Elecciones Generales 23 julio 2023",
           "publisher": "PSOE",
           "date": "2023-07-07",
-          "quote": "Este nuevo plan integrará las necesidades para la gestión de residuos radioactivos y las futuras necesidades en el desmantelamiento ordenado y progresivo de las centrales nucleares.",
-          "page": "p. 74-75 del PDF",
+          "quote": "Aprobaremos el 7º Plan General de Residuos Radioactivos. Este nuevo plan integrará las necesidades para la gestión de residuos radioactivos y las futuras",
+          "page": "p. 74 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "necesidades en el desmantelamiento ordenado y progresivo de las centrales nucleares.",
+          "page": "p. 75 del PDF",
           "accessed": "2026-10-31"
         }
       ],
@@ -465,7 +482,7 @@
           "title": "ERC avanza que sin «soberanía fiscal» no habrá investidura pero el PSOE rechaza un concierto para Catalunya",
           "publisher": "Onda Vasca",
           "date": "2024-06-26",
-          "quote": "el PSOE \"no comparte el modelo de concierto económico o similar\"",
+          "quote": "no comparte el modelo de concierto económico o similar",
           "accessed": "2026-10-31"
         }
       ],

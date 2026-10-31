@@ -1,0 +1,619 @@
+{
+  "party": "bng",
+  "coded_by": "subagent:group-e",
+  "coded_on": "2026-10-31",
+  "positions": [
+    {
+      "statement": "viv-limite-alquiler",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/articulo/novas/ana-ponton-propon-limitar-prezos-do-alugueiro-pide-ao-goberno-do-pp-programa-propio-axudas-familias-mocidade/20250224145058039849.html",
+          "title": "Ana Pontón propón limitar os prezos do alugueiro e pide ao Goberno do PP un programa propio de axudas para familias e mocidade",
+          "publisher": "BNG",
+          "date": "2025-02-24",
+          "quote": "Demandamos que a Xunta dunha vez por todas poña en marcha topes ao alugueiro naquelas zonas que están máis tensionadas porque é a única forma de frear a escalada de prezos",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Declaración de la portavoz nacional del BNG; el programa de 2023 no menciona topes de alquiler."
+    },
+    {
+      "statement": "viv-compra-no-residentes",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas."
+    },
+    {
+      "statement": "viv-desalojo-rapido",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados, votación: Toma en consideración de la proposición de ley de Junts contra la ocupación",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados, votación: Toma en consideración de la proposición de ley del PP contra la ocupación",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Néstor Rego votó No a tomar en consideración la proposición de Junts (18-03-2025) y la del PP (19-05-2026) para acelerar desalojos de viviendas ocupadas. Votos sobre medidas relacionadas, no sobre la formulación exacta."
+    },
+    {
+      "statement": "eco-impuesto-grandes-fortunas",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Estabelecer a permanencia dos impostos específicos aos beneficios da banca, das grandes enerxéticas e ás grandes fortunas",
+          "accessed": "2026-10-31",
+          "page": "pp. 40-41"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "eco-bajar-irpf",
+      "stance": "neutral",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Estabelecer distintos tipos de gravame en función da natureza dos rendementos, minorando a tributación polos ingresos do traballo e aumentando a correspondente aos derivados do capital.",
+          "accessed": "2026-10-31",
+          "page": "p. 39"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados, votación: Moción del PP: punto sobre deflactación generalizada del IRPF",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://forbes.es/economia/912299/el-congreso-con-el-psoe-en-contra-exige-al-gobierno-deflactar-el-irpf-y-eximir-de-iva-a-pequenos-autonomos/",
+          "title": "El Congreso, con el PSOE en contra, exige al Gobierno deflactar el IRPF y eximir de IVA a pequeños autónomos",
+          "publisher": "Forbes España",
+          "date": "2026-04-22",
+          "quote": "La propuesta ha conseguido el apoyo de Vox, Junts, Coalición Canaria y UPN; mientras que el PNV se ha abstenido y el resto del hemiciclo, incluidos PSOE y Sumar, han votado en contra.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Posición intermedia explícita: el programa pide más progresividad, bajar la tributación de las rentas del trabajo y subir la del capital y las rentas altas, y deflactar el IRPF según la inflación gallega. En 2026 Rego votó No a la moción del PP que pedía una deflactación generalizada."
+    },
+    {
+      "statement": "eco-impuesto-energeticas-banca",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Estabelecer a permanencia dos impostos específicos aos beneficios da banca, das grandes enerxéticas e ás grandes fortunas",
+          "accessed": "2026-10-31",
+          "page": "pp. 40-41"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "tra-jornada-37h",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion130/20250910/Votacion010/VOT_20250910213544.json",
+          "title": "Congreso de los Diputados, votación: Enmiendas a la totalidad (devolución) al proyecto de ley de jornada de 37,5 horas",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-09-10",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Promover a implantación da xornada laboral de 35 horas semanais sen redución salarial.",
+          "accessed": "2026-10-31",
+          "page": "p. 16"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Rego votó No a las enmiendas de devolución al proyecto de 37,5 horas (10-09-2025). El programa 2023 pide 35 horas."
+    },
+    {
+      "statement": "tra-salario-minimo",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Incremento do Salario Mínimo Interprofesional até o situar no 60 % do salario medio, tal e como fixa a Carta Social Europea.",
+          "accessed": "2026-10-31",
+          "page": "p. 16"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "san-gestion-privada",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "mediante unha modificación da Lei 15/97, sobre habilitación de novas formas de xestión do Sistema de Saúde, que asegure que a titularidade, o financiamento, a xestión e a provisión de servizos sanitarios se fará con entidades exclusivamente públicas.",
+          "accessed": "2026-10-31",
+          "page": "p. 35"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "san-dental-publica",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Ampliar a Carteira de Servizos comúns do sistema público de saúde [...] así como as prestacións sanitarias actualmente fora da atención primaria, ou só parcialmente financiadas como asistencia odontolóxica",
+          "accessed": "2026-10-31",
+          "page": "p. 36"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Pide incluir la asistencia odontológica en la cartera común, sin detallar tratamientos."
+    },
+    {
+      "statement": "der-aborto-constitucion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion177/20260430/Votacion012/VOT_20260430125200.json",
+          "title": "Congreso de los Diputados, votación: Enmiendas a la totalidad a la reforma constitucional del art. 43 (aborto)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-30",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de reforma del artículo 43 de la Constitución Española, presentadas por los Grupos Parlamentarios Popular en el Congreso y VOX.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Rego votó No a las enmiendas de devolución de PP y Vox contra la reforma del art. 43 (30-04-2026)."
+    },
+    {
+      "statement": "der-eutanasia",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el programa 2023 ni votación XV específica."
+    },
+    {
+      "statement": "der-ley-trans",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Logo dos avances lexislativos producidos neste ámbito co goberno de coalición, aprobados co apoio do BNG e doutras forzas soberanistas, a folla de ruta pasa por consolidar e ampliar o acadado.",
+          "accessed": "2026-10-31",
+          "page": "p. 25"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Defiende consolidar y ampliar las leyes LGTB aprobadas (incluida la despatologización legal trans)."
+    },
+    {
+      "statement": "inm-regularizacion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+          "title": "Congreso de los Diputados, votación: Toma en consideración de la ILP de regularización extraordinaria",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Impulsar as reformas lexislativas necesarias para garantir os dereitos da poboación migrante (vivenda, traballo, atención sanitaria, educación...) así como favorecer e facilitar os procesos de regularización administrativa.",
+          "accessed": "2026-10-31",
+          "page": "pp. 19-20"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Rego votó Sí a tomar en consideración la ILP de regularización (09-04-2024)."
+    },
+    {
+      "statement": "inm-reparto-menores",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion106/20250410/Votacion015/VOT_20250410155154.json",
+          "title": "Congreso de los Diputados, votación: Convalidación del RDL 2/2025 (reparto de menores migrantes)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-04-10",
+          "quote": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Rego votó Sí a convalidar el RDL 2/2025 (10-04-2025)."
+    },
+    {
+      "statement": "inm-reducir-llegadas",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa 2023 defiende los derechos de las personas migrantes y combatir las causas de las migraciones, pero no se pronuncia sobre reducir el número de llegadas."
+    },
+    {
+      "statement": "cli-nucleares",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion091/20250212/Votacion001/VOT_20250212154036.json",
+          "title": "Congreso de los Diputados, votación: PNL del PP sobre el cierre programado de las nucleares",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-02-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, sobre el cierre programado de la generación nuclear en España.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Rego votó No a la PNL del PP sobre el cierre programado de las nucleares (12-02-2025)."
+    },
+    {
+      "statement": "cli-coches-2035",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas."
+    },
+    {
+      "statement": "ter-amnistia",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion030/20240314/Votacion001/VOT_20240314135323.json",
+          "title": "Congreso de los Diputados, votación: Votación del nuevo dictamen (14-03-2024)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-03-14",
+          "quote": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Rego votó Sí a la ley de amnistía (14-03-2024)."
+    },
+    {
+      "statement": "ter-referendum",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "promoveremos e apoiaremos as mudanzas legais precisas que posibilitaren a convocatoria de referendos vinculantes en asuntos de interese, incluído o dereito de autodeterminación",
+          "accessed": "2026-10-31",
+          "page": "p. 28"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-financiacion-cataluna",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://valenciaplaza.com/valenciaplaza/compromis-bng-ven-cupo-catalan-oportunidad-mejorar-financiacion-territorios",
+          "title": "Compromis y BNG ven el cupo catalán como una oportunidad para mejorar la financiación en sus territorios",
+          "publisher": "Valencia Plaza (Europa Press)",
+          "date": "2024-09-04",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El BNG reclama un concierto económico para Galicia y ha descrito el acuerdo PSC-ERC como una oportunidad para Galicia, pero no se encontró una posición explícita sobre que Cataluña recaude todos sus impuestos."
+    },
+    {
+      "statement": "ter-recentralizar",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Transferir ao goberno galego todas as competencias pendentes, garantindo a plena capacidade para deseñar e desenvolver un modelo educativo propio.",
+          "accessed": "2026-10-31",
+          "page": "p. 32"
+        },
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "O BNG aspira a que a Galiza asuma a plena capacidade para rexer o seu sistema sanitario, sen interferencias de ningún tipo.",
+          "accessed": "2026-10-31",
+          "page": "p. 35"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-lenguas-congreso",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion003/20230921/Votacion004/VOT_20230921120100.json",
+          "title": "Congreso de los Diputados, votación: Votación de conjunto de la reforma del Reglamento (uso de lenguas cooficiales)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2023-09-21",
+          "quote": "Proposición de reforma del Reglamento del Congreso de los Diputados.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Rego votó Sí a la reforma del Reglamento que permite las lenguas cooficiales (21-09-2023)."
+    },
+    {
+      "statement": "edu-concertada",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "No camiño da supresión dos concertos en todos os niveis educativos, eliminación destes no ensino non-obrigatorio e control do financiamento alleo aos concertos nos centros sostidos con fondos públicos.",
+          "accessed": "2026-10-31",
+          "page": "p. 33"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "edu-lengua-castellano",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa reclama competencias plenas en educación y la normalización del gallego, pero no se pronuncia expresamente sobre la elección de lengua vehicular por las familias."
+    },
+    {
+      "statement": "ins-cgpj",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion024/20240227/Votacion002/VOT_20240227205808.json",
+          "title": "Congreso de los Diputados, votación: Toma en consideración de la proposición de ley de VOX sobre elección de vocales del CGPJ",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-02-27",
+          "quote": "Orgánica por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para la reforma del procedimiento de elección de los vocales del Consejo General del Poder Judicial.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elobservador.com.uy/espana/el-congreso-rechaza-que-los-jueces-puedan-elegir-la-mayoria-de-los-vocales-del-poder-judicial-2024227194732",
+          "title": "El Congreso rechaza que los jueces puedan elegir la mayoría de los vocales del Poder Judicial",
+          "publisher": "El Observador (EFE)",
+          "date": "2024-02-27",
+          "quote": "Vox planteaba que los jueces eligieran de forma directa a los doce vocales de extracción judicial del CGPJ",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Rego votó No a la proposición de Vox (27-02-2024)."
+    },
+    {
+      "statement": "ins-referendum-monarquia",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El BNG defiende una República gallega soberana, pero no se encontró en el programa 2023 ni en votaciones XV una propuesta de referéndum estatal monarquía/república."
+    },
+    {
+      "statement": "ins-memoria-democratica",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "a Lei de Memoria Democrática, que mantén na impunidade os crimes do franquismo",
+          "accessed": "2026-10-31",
+          "page": "p. 6"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa 2023 critica la ley por mantener la impunidad del franquismo, sin pronunciarse sobre mantenerla o derogarla."
+    },
+    {
+      "statement": "ext-gasto-defensa",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Anular o compromiso do goberno español de aumentar o gasto militar até chegar a 2 % do PIB estatal, de maneira que se destinen ditos fondos ao incremento de diferentes partidas de gasto social.",
+          "accessed": "2026-10-31",
+          "page": "pp. 66-67"
+        }
+      ],
+      "vote_refs": [],
+      "note": "También defiende la salida de la OTAN."
+    },
+    {
+      "statement": "ext-embargo-israel",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/Votacion087/VOT_20251008195359.json",
+          "title": "Congreso de los Diputados, votación: Convalidación del RDL 10/2025 (embargo de armas a Israel)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-10-08",
+          "quote": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Rego votó Sí a convalidar el RDL 10/2025, que incluye el embargo de armas a Israel (08-10-2025)."
+    }
+  ]
+}
