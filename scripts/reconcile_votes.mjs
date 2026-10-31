@@ -4,8 +4,9 @@
 //  * attaches vote_refs for every curated vote on that statement in which the
 //    party took part (majority yes/no/abstain);
 //  * if the position is "no_clear_position" and all DIRECT votes imply the same
-//    stance → codes it from the vote (high; medium if the implied stance is an
-//    abstention). If there are only RELATED votes and they agree → medium.
+//    agree/disagree stance → codes it from the vote (high). Abstentions and
+//    RELATED votes never create a position on their own (they are attached as
+//    context only), because their reasons are ambiguous.
 //  * if the coded stance agrees with all direct votes → confidence raised to high;
 //  * conflicts (coded stance ≠ implied by a vote) are never auto-resolved: they are
 //    listed so a human writes a note or recodes.
@@ -48,8 +49,7 @@ for (const f of readdirSync(dirs).filter((x) => x.endsWith('.json'))) {
 
     if (pos.stance === 'no_clear_position') {
       let basis = null;
-      if (direct.length && dImplied.length === 1) basis = { list: direct, stance: dImplied[0], conf: dImplied[0] === 'neutral' ? 'medium' : 'high' };
-      else if (!direct.length && rImplied.length === 1) basis = { list: related, stance: rImplied[0], conf: 'medium' };
+      if (direct.length && dImplied.length === 1 && dImplied[0] !== 'neutral') basis = { list: direct, stance: dImplied[0], conf: 'high' };
       if (basis) {
         pos.stance = basis.stance;
         pos.confidence = basis.conf;
@@ -67,9 +67,9 @@ for (const f of readdirSync(dirs).filter((x) => x.endsWith('.json'))) {
           ...searched.map((s) => ({ ...s, title: s.title || 'Documento consultado' })),
         ];
         const ids = basis.list.map(({ v }) => v.id).join(', ');
-        pos.note = `Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (${ids})${basis.conf === 'medium' ? ', sobre una medida relacionada o mediante abstención' : ''}.`;
+        pos.note = `Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (${ids}).`;
         changes.push(`${tag}: no_clear_position → ${basis.stance} (${basis.conf}) from votes`);
-      } else if (dImplied.length > 1 || rImplied.length > 1) {
+      } else if (dImplied.length > 1) {
         conflicts.push(`${tag}: no position, votes are mixed (${votes.map((x) => `${x.v.id}=${x.implied}`).join('; ')})`);
       }
       continue;

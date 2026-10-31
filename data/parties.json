@@ -3,52 +3,132 @@
     "id": "pp",
     "name": "PP",
     "full_name_2026": "Partido Popular",
-    "components": ["PP", "UPN (en Navarra)"],
+    "components": [
+      "PP",
+      "UPN (en Navarra)"
+    ],
     "scope": "statewide",
     "inclusion_basis": "seats_at_dissolution",
     "website": "https://www.pp.es",
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": ["GP"], "deputies": [], "exclude_deputies": []},
-    "notes": {"es": "En Navarra concurre en coalición con UPN.", "en": "Runs jointly with UPN in Navarre."}
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
+      "official_host": true,
+      "note": "Resumen oficial en pp.es; el texto completo se cita desde una copia del PDF del PP alojada por RTP."
+    },
+    "vote_match": {
+      "groups": [
+        "GP"
+      ],
+      "deputies": [],
+      "exclude_deputies": []
+    },
+    "notes": {
+      "es": "En Navarra concurre en coalición con UPN.",
+      "en": "Runs jointly with UPN in Navarre."
+    }
   },
   {
     "id": "psoe",
     "name": "PSOE",
     "full_name_2026": "Partido Socialista Obrero Español",
-    "components": ["PSOE", "PSC"],
+    "components": [
+      "PSOE",
+      "PSC"
+    ],
     "scope": "statewide",
     "inclusion_basis": "seats_at_dissolution",
     "website": "https://www.psoe.es",
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": ["GS"], "deputies": [], "exclude_deputies": []},
-    "notes": {"es": "En Cataluña concurre como PSC.", "en": "Runs as PSC in Catalonia."}
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+      "official_host": false,
+      "note": "Copia idéntica (autor del PDF: PSOE) alojada por El Independiente; psoe.es bloquea el acceso automatizado."
+    },
+    "vote_match": {
+      "groups": [
+        "GS"
+      ],
+      "deputies": [],
+      "exclude_deputies": []
+    },
+    "notes": {
+      "es": "En Cataluña concurre como PSC.",
+      "en": "Runs as PSC in Catalonia."
+    }
   },
   {
     "id": "vox",
     "name": "Vox",
     "full_name_2026": "Vox",
-    "components": ["Vox"],
+    "components": [
+      "Vox"
+    ],
     "scope": "statewide",
     "inclusion_basis": "seats_at_dissolution",
     "website": "https://www.voxespana.es",
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": ["GVOX"], "deputies": [], "exclude_deputies": []},
-    "notes": {"es": "", "en": ""}
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+      "official_host": true,
+      "note": "Web oficial de campaña de Vox (23J)."
+    },
+    "vote_match": {
+      "groups": [
+        "GVOX"
+      ],
+      "deputies": [],
+      "exclude_deputies": []
+    },
+    "notes": {
+      "es": "",
+      "en": ""
+    }
   },
   {
     "id": "frente-amplio",
     "name": "Frente Amplio",
     "full_name_2026": "Frente Amplio",
-    "components": ["IU", "Movimiento Sumar", "Comuns", "Más Madrid", "CHA", "otros"],
+    "components": [
+      "IU",
+      "Movimiento Sumar",
+      "Comuns",
+      "Más Madrid",
+      "CHA",
+      "otros"
+    ],
     "scope": "statewide",
     "inclusion_basis": "seats_at_dissolution",
     "website": null,
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": ["GSUMAR"], "deputies": [], "exclude_deputies": []},
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+      "official_host": true,
+      "note": "Programa de Sumar 2023 (coalición predecesora)."
+    },
+    "vote_match": {
+      "groups": [
+        "GSUMAR"
+      ],
+      "deputies": [],
+      "exclude_deputies": []
+    },
     "notes": {
       "es": "Sucesor de la coalición Sumar de 2023. Se usan como referencia el programa de Sumar 2023 y las votaciones del Grupo Parlamentario Plurinacional SUMAR.",
       "en": "Successor of the 2023 Sumar coalition. Sumar's 2023 program and the votes of the SUMAR parliamentary group are used as the baseline."
@@ -58,13 +138,27 @@
     "id": "podemos",
     "name": "Podemos",
     "full_name_2026": "Podemos",
-    "components": ["Podemos"],
+    "components": [
+      "Podemos"
+    ],
     "scope": "statewide",
     "inclusion_basis": "seats_at_dissolution",
     "website": "https://podemos.info",
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": [], "deputies": [], "exclude_deputies": []},
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+      "official_host": true,
+      "note": "Programa conjunto de Sumar 2023 (Podemos concurrió dentro de Sumar)."
+    },
+    "vote_match": {
+      "groups": [],
+      "deputies": [],
+      "exclude_deputies": []
+    },
     "notes": {
       "es": "En 2023 concurrió dentro de Sumar; sus diputados pasaron al Grupo Mixto en diciembre de 2023.",
       "en": "Ran within Sumar in 2023; its deputies moved to the Mixed Group in December 2023."
@@ -74,91 +168,221 @@
     "id": "erc",
     "name": "ERC",
     "full_name_2026": "Esquerra Republicana de Catalunya",
-    "components": ["ERC"],
+    "components": [
+      "ERC"
+    ],
     "scope": "regional",
     "inclusion_basis": "seats_at_dissolution",
     "website": "https://www.esquerra.cat",
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": ["GR"], "deputies": [], "exclude_deputies": []},
-    "notes": {"es": "", "en": ""}
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+      "official_host": true,
+      "note": null
+    },
+    "vote_match": {
+      "groups": [
+        "GR"
+      ],
+      "deputies": [],
+      "exclude_deputies": []
+    },
+    "notes": {
+      "es": "",
+      "en": ""
+    }
   },
   {
     "id": "junts",
     "name": "Junts",
     "full_name_2026": "Junts per Catalunya",
-    "components": ["Junts"],
+    "components": [
+      "Junts"
+    ],
     "scope": "regional",
     "inclusion_basis": "seats_at_dissolution",
     "website": "https://junts.cat",
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": ["GJxCAT"], "deputies": [], "exclude_deputies": []},
-    "notes": {"es": "", "en": ""}
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+      "official_host": true,
+      "note": "Programa de julio de 2023 (fecha de creación del PDF: 19/07/2023), resubido en 2026."
+    },
+    "vote_match": {
+      "groups": [
+        "GJxCAT"
+      ],
+      "deputies": [],
+      "exclude_deputies": []
+    },
+    "notes": {
+      "es": "",
+      "en": ""
+    }
   },
   {
     "id": "eh-bildu",
     "name": "EH Bildu",
     "full_name_2026": "Euskal Herria Bildu",
-    "components": ["EH Bildu"],
+    "components": [
+      "EH Bildu"
+    ],
     "scope": "regional",
     "inclusion_basis": "seats_at_dissolution",
     "website": "https://ehbildu.eus",
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": ["GEH Bildu"], "deputies": [], "exclude_deputies": []},
-    "notes": {"es": "", "en": ""}
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+      "official_host": false,
+      "note": "Documento del partido alojado por Newtral; no se encontró copia en ehbildu.eus."
+    },
+    "vote_match": {
+      "groups": [
+        "GEH Bildu"
+      ],
+      "deputies": [],
+      "exclude_deputies": []
+    },
+    "notes": {
+      "es": "",
+      "en": ""
+    }
   },
   {
     "id": "pnv",
     "name": "EAJ-PNV",
     "full_name_2026": "Euzko Alderdi Jeltzalea - Partido Nacionalista Vasco",
-    "components": ["EAJ-PNV"],
+    "components": [
+      "EAJ-PNV"
+    ],
     "scope": "regional",
     "inclusion_basis": "seats_at_dissolution",
     "website": "https://www.eaj-pnv.eus",
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": ["GV (EAJ-PNV)"], "deputies": [], "exclude_deputies": []},
-    "notes": {"es": "", "en": ""}
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+      "official_host": true,
+      "note": null
+    },
+    "vote_match": {
+      "groups": [
+        "GV (EAJ-PNV)"
+      ],
+      "deputies": [],
+      "exclude_deputies": []
+    },
+    "notes": {
+      "es": "",
+      "en": ""
+    }
   },
   {
     "id": "bng",
     "name": "BNG",
     "full_name_2026": "Bloque Nacionalista Galego",
-    "components": ["BNG"],
+    "components": [
+      "BNG"
+    ],
     "scope": "regional",
     "inclusion_basis": "seats_at_dissolution",
     "website": "https://www.bng.gal",
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": [], "deputies": [], "exclude_deputies": []},
-    "notes": {"es": "", "en": ""}
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+      "official_host": true,
+      "note": null
+    },
+    "vote_match": {
+      "groups": [],
+      "deputies": [],
+      "exclude_deputies": []
+    },
+    "notes": {
+      "es": "",
+      "en": ""
+    }
   },
   {
     "id": "cc",
     "name": "CCa",
     "full_name_2026": "Coalición Canaria - Primero Canarias (CCa-1ºCAN)",
-    "components": ["Coalición Canaria", "Municipalistas Primero Canarias"],
+    "components": [
+      "Coalición Canaria",
+      "Municipalistas Primero Canarias"
+    ],
     "scope": "regional",
     "inclusion_basis": "seats_at_dissolution",
     "website": "https://coalicioncanaria.org",
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": [], "deputies": [], "exclude_deputies": []},
-    "notes": {"es": "", "en": ""}
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+      "official_host": true,
+      "note": "Manifiesto conjunto de 14 páginas."
+    },
+    "vote_match": {
+      "groups": [],
+      "deputies": [],
+      "exclude_deputies": []
+    },
+    "notes": {
+      "es": "",
+      "en": ""
+    }
   },
   {
     "id": "compromis",
     "name": "Compromís",
     "full_name_2026": "Compromís: Front Valencià",
-    "components": ["Més-Compromís", "Iniciativa", "Verds", "Podem (PV)", "EUPV", "otros"],
+    "components": [
+      "Més-Compromís",
+      "Iniciativa",
+      "Verds",
+      "Podem (PV)",
+      "EUPV",
+      "otros"
+    ],
     "scope": "regional",
     "inclusion_basis": "seats_at_dissolution",
     "website": "https://compromis.net",
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": [], "deputies": [], "exclude_deputies": []},
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+      "official_host": true,
+      "note": "Programa propio de Compromís para la candidatura Compromís-Sumar 2023."
+    },
+    "vote_match": {
+      "groups": [],
+      "deputies": [],
+      "exclude_deputies": []
+    },
     "notes": {
       "es": "En 2023 concurrió dentro de Sumar. Se usan las votaciones de su diputada en el Grupo Mixto y sus posiciones públicas.",
       "en": "Ran within Sumar in 2023. Its deputy's votes in the Mixed Group and its public positions are used."
@@ -168,13 +392,27 @@
     "id": "salf",
     "name": "SALF",
     "full_name_2026": "Se Acabó La Fiesta",
-    "components": ["SALF"],
+    "components": [
+      "SALF"
+    ],
     "scope": "statewide",
     "inclusion_basis": "ep2024_over_1pct",
     "website": null,
-    "program_2026": {"status": "pending", "url": null, "date": null},
-    "program_2023": {"url": null},
-    "vote_match": {"groups": [], "deputies": [], "exclude_deputies": []},
+    "program_2026": {
+      "status": "pending",
+      "url": null,
+      "date": null
+    },
+    "program_2023": {
+      "url": null,
+      "official_host": null,
+      "note": "Sin programa estatal en 2023, 2024 ni 2026. Algunas posiciones se basan en su programa autonómico de Castilla y León (marzo de 2026), con confianza baja."
+    },
+    "vote_match": {
+      "groups": [],
+      "deputies": [],
+      "exclude_deputies": []
+    },
     "notes": {
       "es": "Sin diputados en el Congreso en la XV legislatura (no hay votaciones). Obtuvo representación en el Parlamento Europeo en 2024.",
       "en": "No deputies in the Congreso in the 15th legislature (no voting record). Won seats in the European Parliament in 2024."

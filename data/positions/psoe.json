@@ -28,7 +28,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [
+        "v-alquiler-rdl8-2026-04-28",
+        "v-alquiler-temporada-2024-12-17"
+      ]
     },
     {
       "statement": "viv-compra-no-residentes",
@@ -74,7 +77,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
       "note": "El programa apoya acelerar los desalojos (48 horas) pero vincula la medida a la atención social a la vulnerabilidad, por lo que no respalda la parte del enunciado que incluye a ocupantes vulnerables."
     },
     {
@@ -110,7 +116,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
       "note": "El programa de 2023 solo propone mejoras de mínimos y deducciones familiares en el IRPF (p. 33 y 38 del PDF), no una bajada general aunque reduzca la recaudación. No se ha encontrado una posición oficial posterior."
     },
     {
@@ -145,7 +154,11 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-impuesto-banca-ley7-2024-11-21",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
       "note": "El Grupo Socialista votó a favor de la ley que crea el impuesto sobre el margen de intereses y comisiones de la banca (21/11/2024) y de convalidar el gravamen temporal energético para 2025 (22/01/2025), que no fue convalidado."
     },
     {
@@ -172,7 +185,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-jornada-totalidad-2025-09-10",
+        "v-jornada-pnl-2024-02-22"
+      ],
       "note": "El 10/09/2025 el Grupo Socialista votó en contra de las enmiendas de devolución (PP, Vox, Junts) al proyecto de ley de reducción de la jornada a 37,5 horas; las enmiendas prosperaron."
     },
     {
@@ -254,7 +270,9 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-aborto-constitucion-totalidad-2026-04-30"
+      ],
       "note": "En 2026 el Gobierno impulsó una reforma del artículo 43 de la Constitución para recoger el aborto."
     },
     {
@@ -327,7 +345,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-regularizacion-ilp-2024-04-09",
+        "v-regularizacion-pnl-2025-02-26"
+      ],
       "note": "El Grupo Socialista votó a favor de tomar en consideración la ILP de regularización extraordinaria (abril de 2024). Es un voto de toma en consideración, no de aprobación final; el programa de 2023 no trata la medida."
     },
     {
@@ -345,7 +366,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-menores-rdl2-2025-04-10",
+        "v-menores-lo4-2000-2024-07-23"
+      ],
       "note": "El Grupo Socialista votó a favor de convalidar el decreto-ley que creó el reparto obligatorio de menores migrantes no acompañados."
     },
     {
@@ -368,7 +392,7 @@
     {
       "statement": "cli-nucleares",
       "stance": "disagree",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
         {
@@ -390,7 +414,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-nucleares-pnl-2025-02-12",
+        "v-nucleares-pl-2025-06-17"
+      ],
       "note": "El programa da por hecho el desmantelamiento ordenado de las centrales; no menciona prórrogas."
     },
     {
@@ -434,7 +461,9 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-amnistia-2024-03-14"
+      ],
       "note": "El Grupo Socialista votó a favor de la ley de amnistía en el Congreso."
     },
     {
@@ -486,7 +515,9 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
       "note": "Postura mixta: la dirección del PSOE (María Jesús Montero, vicesecretaria general) rechaza un concierto como el vasco, pero defiende la «financiación singular» pactada por el PSC con ERC, que prevé que la Generalitat recaude progresivamente los impuestos. Basado en prensa."
     },
     {
@@ -523,7 +554,9 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-lenguas-reglamento-2023-09-21"
+      ],
       "note": "El Grupo Socialista votó a favor de la reforma del Reglamento que permite usar las lenguas cooficiales en el Congreso."
     },
     {
@@ -576,7 +609,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [
+        "v-cgpj-vox-2024-02-27",
+        "v-cgpj-pp-2026-09-10"
+      ]
     },
     {
       "statement": "ins-referendum-monarquia",
@@ -620,7 +656,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [
+        "v-memoria-mocion-2024-02-06",
+        "v-memoria-pnl-2024-05-23"
+      ]
     },
     {
       "statement": "ext-gasto-defensa",
@@ -663,7 +702,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-embargo-israel-rdl-2025-10-08",
+        "v-embargo-ley-2025-05-20"
+      ],
       "note": "El Grupo Socialista votó a favor de convalidar el decreto-ley de embargo de armas a Israel."
     }
   ]

@@ -6,7 +6,7 @@
     {
       "statement": "viv-limite-alquiler",
       "stance": "agree",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_type": "official_statement",
       "sources": [
         {
@@ -34,7 +34,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-alquiler-rdl8-2026-04-28",
+        "v-alquiler-temporada-2024-12-17"
+      ],
       "note": "Compromís' 2026 housing campaign calls for legal rent caps in stressed areas. Micó (Mixed Group) and Ibáñez (SUMAR group) voted yes on RDL 8/2026 on rent measures."
     },
     {
@@ -68,7 +71,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
       "note": "No explicit position found in the 2023 program or on compromis.net."
     },
     {
@@ -105,7 +111,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
       "note": "Mixed: the program wants lower taxes for 'ordinary people' within a more progressive system and higher taxes for large fortunes. It does not back a general income-tax cut."
     },
     {
@@ -124,7 +133,11 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-impuesto-banca-ley7-2024-11-21",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ]
     },
     {
       "statement": "tra-jornada-37h",
@@ -150,7 +163,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-jornada-totalidad-2025-09-10",
+        "v-jornada-pnl-2024-02-22"
+      ],
       "note": "On 2025-09-10 Micó and Ibáñez voted NO on the amendments to reject the 37.5-hour bill, which means they supported the bill."
     },
     {
@@ -237,7 +253,9 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-aborto-constitucion-totalidad-2026-04-30"
+      ],
       "note": "On 2026-04-30 Micó and Ibáñez voted NO on the PP and Vox amendments, letting the reform go ahead. Compromís also held an event calling for abortion rights to be protected in the Constitution."
     },
     {
@@ -299,7 +317,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-regularizacion-ilp-2024-04-09",
+        "v-regularizacion-pnl-2025-02-26"
+      ],
       "note": "Micó and Ibáñez (then in the SUMAR group) voted yes to take the ILP into consideration (2024-04-09). In 2026 Compromís asked for the regularisation deadline to be extended."
     },
     {
@@ -325,7 +346,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-menores-rdl2-2025-04-10",
+        "v-menores-lo4-2000-2024-07-23"
+      ],
       "note": "Micó and Ibáñez voted yes to validate RDL 2/2025 (2025-04-10). In 2026 Compromís described accepting relocated minors as a legal obligation of each region."
     },
     {
@@ -348,7 +372,7 @@
     {
       "statement": "cli-nucleares",
       "stance": "disagree",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_type": "official_statement",
       "sources": [
         {
@@ -360,7 +384,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-nucleares-pnl-2025-02-12",
+        "v-nucleares-pl-2025-06-17"
+      ],
       "note": "Compromís wants the Cofrents plant to close in 2030 as planned, with no extension."
     },
     {
@@ -395,7 +422,9 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-amnistia-2024-03-14"
+      ],
       "note": "Micó and Ibáñez (SUMAR group) voted yes on the amnesty law (2024-03-14)."
     },
     {
@@ -429,7 +458,9 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ],
       "note": "The program asks for reform of the regional financing system to end Valencian underfunding. It takes no position on a concierto-style model for Catalonia."
     },
     {
@@ -475,7 +506,9 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-lenguas-reglamento-2023-09-21"
+      ],
       "note": "Micó and Ibáñez voted with the SUMAR group (31 yes) on the 2023 reform of the Congreso rules."
     },
     {
@@ -519,7 +552,7 @@
     {
       "statement": "ins-cgpj",
       "stance": "disagree",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
         {
@@ -532,7 +565,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [
+        "v-cgpj-vox-2024-02-27",
+        "v-cgpj-pp-2026-09-10"
+      ]
     },
     {
       "statement": "ins-referendum-monarquia",
@@ -554,7 +590,7 @@
     {
       "statement": "ins-memoria-democratica",
       "stance": "agree",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
         {
@@ -567,7 +603,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-memoria-mocion-2024-02-06",
+        "v-memoria-pnl-2024-05-23"
+      ],
       "note": "The program supports memory policies that the 2022 law includes, but does not name the law."
     },
     {
@@ -611,7 +650,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-embargo-israel-rdl-2025-10-08",
+        "v-embargo-ley-2025-05-20"
+      ],
       "note": "Micó (Mixed Group) and Ibáñez (SUMAR group) voted yes to validate RDL 10/2025 on 2025-10-08."
     }
   ]

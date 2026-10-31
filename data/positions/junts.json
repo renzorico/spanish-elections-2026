@@ -5,9 +5,17 @@
   "positions": [
     {
       "statement": "viv-limite-alquiler",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
+      "stance": "disagree",
+      "evidence_type": "vote_xv",
       "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion175/20260428/Votacion003/VOT_20260428200330.json",
+          "title": "Real Decreto-ley 8/2026, de 20 de marzo, de medidas en el alquiler en respuesta a las consecuencias económicas y sociales de la Guerra de Irán.",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-28",
+          "quote": "",
+          "accessed": "2026-10-31"
+        },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
           "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
@@ -25,8 +33,12 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
-      "note": "El programa 2023 no es pronuncia sobre límits de preu; la web actual s'oposa a mesures que 'limitin l'oferta' i defensa més construcció i desgravacions, però no rebutja explícitament els topalls de preu."
+      "vote_refs": [
+        "v-alquiler-rdl8-2026-04-28",
+        "v-alquiler-temporada-2024-12-17"
+      ],
+      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-alquiler-rdl8-2026-04-28).",
+      "confidence": "high"
     },
     {
       "statement": "viv-compra-no-residentes",
@@ -77,7 +89,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
       "note": "Junts vol accelerar el desallotjament (48 hores) en ocupacions conflictives o delinqüencials, però diferencia explícitament les situacions de vulnerabilitat, que diu que s'han d'atendre; no dona suport a la part de l'afirmació que inclou persones vulnerables."
     },
     {
@@ -121,7 +136,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-irpf-deflactar-2024-04-09",
+        "v-irpf-deflactar-2025-06-12"
+      ],
       "note": "Rebaixa centrada en rendes mitjanes i del treball (i deflactar trams); no es pronuncia sobre l'impacte en la recaptació."
     },
     {
@@ -139,7 +157,11 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-impuesto-banca-ley7-2024-11-21",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
       "note": "Junts reivindica haver frenat el gravamen a les energètiques. No hem trobat posició oficial sobre l'impost a la banca; el programa 2023 no en parla."
     },
     {
@@ -165,7 +187,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-jornada-totalidad-2025-09-10",
+        "v-jornada-pnl-2024-02-22"
+      ],
       "note": "Junts va presentar i mantenir una esmena a la totalitat que va tornar el projecte de 37,5 hores al Govern (10/09/2025). El programa 2023 no en parla. El mapatge sistemàtic de votacions pot elevar-ne la confiança."
     },
     {
@@ -234,9 +259,17 @@
     },
     {
       "statement": "der-aborto-constitucion",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
+      "stance": "agree",
+      "evidence_type": "vote_xv",
       "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion177/20260430/Votacion012/VOT_20260430125200.json",
+          "title": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de reforma del artículo 43 de la Constitución Española, presentadas por los Grupos Parlamentarios Popular en el Congreso y VOX.",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-30",
+          "quote": "",
+          "accessed": "2026-10-31"
+        },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
           "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
@@ -246,8 +279,11 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
-      "note": "El programa 2023 no parla d'avortament. No hem trobat declaració oficial; pendent del vot (mapatge de votacions)."
+      "vote_refs": [
+        "v-aborto-constitucion-totalidad-2026-04-30"
+      ],
+      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-aborto-constitucion-totalidad-2026-04-30).",
+      "confidence": "high"
     },
     {
       "statement": "der-eutanasia",
@@ -308,8 +344,11 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
-      "note": "Evidència mixta: el programa 2023 parlava de 'buscar vies de solució' per a persones en situació irregular, però el 2026 Junts critica explícitament la regularització extraordinària del Govern."
+      "vote_refs": [
+        "v-regularizacion-ilp-2024-04-09",
+        "v-regularizacion-pnl-2025-02-26"
+      ],
+      "note": "Evidència mixta: el programa 2023 parlava de 'buscar vies de solució' per a persones en situació irregular, però el 2026 Junts critica explícitament la regularització extraordinària del Govern. En abril de 2024 su grupo votó a favor de tomar en consideración la ILP de regularización (v-regularizacion-ilp-2024-04-09); se registra la posición más reciente."
     },
     {
       "statement": "inm-reparto-menores",
@@ -333,7 +372,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-menores-rdl2-2025-04-10",
+        "v-menores-lo4-2000-2024-07-23"
+      ],
       "note": "Junts va pactar i donar suport al mecanisme de repartiment de 2025, amb una clàusula que compensa l'acollida prèvia de Catalunya. El juliol de 2024 s'havia oposat a una proposta semblant."
     },
     {
@@ -368,7 +410,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-nucleares-pnl-2025-02-12",
+        "v-nucleares-pl-2025-06-17"
+      ],
       "note": "El programa 2023 té un apartat sobre el mix elèctric i el tancament de les nuclears sense posició explícita. Segons la premsa, Junts s'ha abstingut o ha votat de manera canviant en iniciatives del PP per allargar-ne la vida (2025); pendent del mapatge de votacions."
     },
     {
@@ -412,7 +457,9 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [
+        "v-amnistia-2024-03-14"
+      ]
     },
     {
       "statement": "ter-referendum",
@@ -456,7 +503,9 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [
+        "v-financiacion-singular-2024-04-23"
+      ]
     },
     {
       "statement": "ter-recentralizar",
@@ -506,7 +555,9 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [
+        "v-lenguas-reglamento-2023-09-21"
+      ]
     },
     {
       "statement": "edu-concertada",
@@ -556,9 +607,25 @@
     },
     {
       "statement": "ins-cgpj",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
+      "stance": "disagree",
+      "evidence_type": "vote_xv",
       "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion024/20240227/Votacion002/VOT_20240227205808.json",
+          "title": "Proposición de Ley del Grupo Parlamentario VOX, Orgánica por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para la reforma del procedimiento de elección de los vocales del Consejo General del Poder Judicial.",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-02-27",
+          "quote": "",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion196/20260910/Votacion015/VOT_20260910180649.json",
+          "title": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica de modificación de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para el cambio del modelo de elección de los vocales del Consejo General del Poder Judicial.",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-10",
+          "quote": "",
+          "accessed": "2026-10-31"
+        },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
           "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
@@ -569,8 +636,12 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
-      "note": "Critica la politització del CGPJ i proposa forçar-ne la renovació, però no diu qui hauria d'elegir els vocals."
+      "vote_refs": [
+        "v-cgpj-vox-2024-02-27",
+        "v-cgpj-pp-2026-09-10"
+      ],
+      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-cgpj-vox-2024-02-27, v-cgpj-pp-2026-09-10).",
+      "confidence": "high"
     },
     {
       "statement": "ins-referendum-monarquia",
@@ -592,9 +663,17 @@
     },
     {
       "statement": "ins-memoria-democratica",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
+      "stance": "agree",
+      "evidence_type": "vote_xv",
       "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion040/20240523/Votacion004/VOT_20240523140934.json",
+          "title": "Proposición no de Ley del Grupo Parlamentario Socialista, sobre la garantía de la aplicación de las políticas de memoria democrática en España. Se vota en los términos resultantes de la incorporación de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Plurinacional SUMAR.",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-05-23",
+          "quote": "",
+          "accessed": "2026-10-31"
+        },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
           "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
@@ -605,8 +684,12 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
-      "note": "Critica la llei per insuficient i proposa homologar-la amb lleis d'altres països; no diu si s'ha de mantenir o derogar."
+      "vote_refs": [
+        "v-memoria-mocion-2024-02-06",
+        "v-memoria-pnl-2024-05-23"
+      ],
+      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-memoria-pnl-2024-05-23).",
+      "confidence": "high"
     },
     {
       "statement": "ext-gasto-defensa",
@@ -637,7 +720,7 @@
     {
       "statement": "ext-embargo-israel",
       "stance": "agree",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_type": "official_statement",
       "sources": [
         {
@@ -657,7 +740,10 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": [],
+      "vote_refs": [
+        "v-embargo-israel-rdl-2025-10-08",
+        "v-embargo-ley-2025-05-20"
+      ],
       "note": "Segons la premsa, Junts va votar a favor de convalidar el decret d'embargo (8/10/2025) tot i considerar-lo incomplet. El programa 2023 no en parla."
     }
   ]
