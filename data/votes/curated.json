@@ -9,7 +9,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion175/20260428/Votacion003/VOT_20260428200330.json",
     "title": "Real Decreto-ley 8/2026, de 20 de marzo, de medidas en el alquiler en respuesta a las consecuencias económicas y sociales de la Guerra de Irán.",
     "yes_means": "agree",
-    "note": "Convalidación del RDL 8/2026, que establecía una prórroga extraordinaria de dos años de los contratos de alquiler y un tope del 2 % a la actualización anual de la renta. Votar sí = mantener la limitación de precios (agree). El Congreso lo derogó (166-177-5)."
+    "note": "Convalidación del RDL 8/2026, que establecía una prórroga extraordinaria de dos años de los contratos de alquiler y un tope del 2 % a la actualización anual de la renta. Votar sí = mantener la limitación de precios (agree). El Congreso lo derogó (166-177-5).",
+    "relation": "direct"
   },
   {
     "id": "v-alquiler-temporada-2024-12-17",
@@ -21,7 +22,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion086/20241217/Votacion001/VOT_20241217205720.json",
     "title": "Proposición de Ley de los Grupos Parlamentarios Plurinacional SUMAR, Republicano, Euskal Herria Bildu y Mixto, para la regulación de los contratos de alquiler temporales y alquiler de habitaciones.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL (SUMAR, ERC, Bildu, Mixto) para regular los alquileres temporales y de habitaciones, con el objetivo de que no escapen a la regulación de la Ley de vivienda (incluida la contención de rentas en zonas tensionadas). Relación indirecta con la limitación de precios: sí = agree. Aprobada 176-169."
+    "note": "Toma en consideración de la PL (SUMAR, ERC, Bildu, Mixto) para regular los alquileres temporales y de habitaciones, con el objetivo de que no escapen a la regulación de la Ley de vivienda (incluida la contención de rentas en zonas tensionadas). Relación indirecta con la limitación de precios: sí = agree. Aprobada 176-169.",
+    "relation": "related"
   },
   {
     "id": "v-okupacion-junts-2025-03-18",
@@ -33,7 +35,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
     "title": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL Orgánica de Junts de medidas urgentes contra la ocupación ilegal de inmuebles (desalojo acelerado). Sí = acelerar desalojos (agree). No se comprueba aquí el matiz de la afirmación sobre ocupantes vulnerables. Aprobada 300-44."
+    "note": "Toma en consideración de la PL Orgánica de Junts de medidas urgentes contra la ocupación ilegal de inmuebles (desalojo acelerado). Sí = acelerar desalojos (agree). No se comprueba aquí el matiz de la afirmación sobre ocupantes vulnerables. Aprobada 300-44.",
+    "relation": "related"
   },
   {
     "id": "v-okupacion-pp-2026-05-19",
@@ -45,7 +48,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
     "title": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL Orgánica del PP contra la ocupación ilegal de inmuebles. Sí = acelerar desalojos (agree). El matiz de la situación de vulnerabilidad no se evalúa por separado. Aprobada 171-164-11."
+    "note": "Toma en consideración de la PL Orgánica del PP contra la ocupación ilegal de inmuebles. Sí = acelerar desalojos (agree). El matiz de la situación de vulnerabilidad no se evalúa por separado. Aprobada 171-164-11.",
+    "relation": "related"
   },
   {
     "id": "v-irpf-deflactar-2024-04-09",
@@ -57,7 +61,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
     "yes_means": "agree",
-    "note": "PNL del PP para deflactar el IRPF (ajustar tarifa a la inflación), lo que reduce la carga efectiva y la recaudación. Medida relacionada, no una rebaja general de tipos: sí = agree (confianza media). Aprobada 169-160-14."
+    "note": "PNL del PP para deflactar el IRPF (ajustar tarifa a la inflación), lo que reduce la carga efectiva y la recaudación. Medida relacionada, no una rebaja general de tipos: sí = agree (confianza media). Aprobada 169-160-14.",
+    "relation": "related"
   },
   {
     "id": "v-irpf-deflactar-2025-06-12",
@@ -69,7 +74,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
     "yes_means": "agree",
-    "note": "PNL del PP para ajustar el IRPF a la inflación (deflactación = rebaja efectiva del impuesto). Relacionada, no idéntica a una bajada general: sí = agree (confianza media). Aprobada 179-164-5."
+    "note": "PNL del PP para ajustar el IRPF a la inflación (deflactación = rebaja efectiva del impuesto). Relacionada, no idéntica a una bajada general: sí = agree (confianza media). Aprobada 179-164-5.",
+    "relation": "related"
   },
   {
     "id": "v-gravamen-energetico-2025-01-22",
@@ -81,7 +87,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
     "title": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
     "yes_means": "agree",
-    "note": "Convalidación del RDL 10/2024, que prorrogaba el gravamen temporal energético en 2025. Votación directa: sí = mantener el impuesto especial a las energéticas (agree). Derogado 165-183-1."
+    "note": "Convalidación del RDL 10/2024, que prorrogaba el gravamen temporal energético en 2025. Votación directa: sí = mantener el impuesto especial a las energéticas (agree). Derogado 165-183-1.",
+    "relation": "direct"
   },
   {
     "id": "v-impuesto-banca-ley7-2024-11-21",
@@ -93,7 +100,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
     "title": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias (antes denominado Proyecto de Ley por la que se establece un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud).",
     "yes_means": "agree",
-    "note": "Votación del dictamen de la ley que crea el Impuesto sobre el margen de intereses y comisiones de entidades financieras (impuesto a la banca). La misma ley incluye además el impuesto mínimo global a multinacionales, el de líquidos de cigarrillos electrónicos y otras normas tributarias, así que el voto no responde solo a la banca. Sí = agree. Aprobada 178-171."
+    "note": "Votación del dictamen de la ley que crea el Impuesto sobre el margen de intereses y comisiones de entidades financieras (impuesto a la banca). La misma ley incluye además el impuesto mínimo global a multinacionales, el de líquidos de cigarrillos electrónicos y otras normas tributarias, así que el voto no responde solo a la banca. Sí = agree. Aprobada 178-171.",
+    "relation": "related"
   },
   {
     "id": "v-pnl-beneficios-energeticas-2026-09-30",
@@ -105,7 +113,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
     "yes_means": "agree",
-    "note": "PNL del PSOE para impulsar un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las energéticas. Sí = agree (ámbito UE, solo energéticas). Rechazada 166-176-5."
+    "note": "PNL del PSOE para impulsar un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las energéticas. Sí = agree (ámbito UE, solo energéticas). Rechazada 166-176-5.",
+    "relation": "related"
   },
   {
     "id": "v-jornada-totalidad-2025-09-10",
@@ -117,7 +126,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion130/20250910/Votacion010/VOT_20250910213544.json",
     "title": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo y la garantía del registro de jornada y el derecho a la desconexión, presentadas por los Grupos Parlamentarios Junts per Catalunya, VOX y Popular en el Congreso.",
     "yes_means": "disagree",
-    "note": "Enmiendas a la totalidad (Junts, Vox, PP) al Proyecto de Ley de reducción de la jornada máxima a 37,5 horas semanales sin reducción salarial. Sí = devolver el proyecto, por tanto en contra de la afirmación (disagree). Aprobadas 178-170: el proyecto decayó."
+    "note": "Enmiendas a la totalidad (Junts, Vox, PP) al Proyecto de Ley de reducción de la jornada máxima a 37,5 horas semanales sin reducción salarial. Sí = devolver el proyecto, por tanto en contra de la afirmación (disagree). Aprobadas 178-170: el proyecto decayó.",
+    "relation": "direct"
   },
   {
     "id": "v-jornada-pnl-2024-02-22",
@@ -129,7 +139,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion023/20240222/Votacion002/VOT_20240222110733.json",
     "title": "Proposición no de Ley del Grupo Parlamentario SUMAR, relativa a la reducción de la jornada máxima legal de trabajo ordinario.",
     "yes_means": "agree",
-    "note": "PNL de SUMAR sobre la reducción de la jornada máxima legal de trabajo (el acuerdo de Gobierno fijaba 37,5 h sin pérdida salarial; no se ha cotejado el texto literal de la PNL). Sí = agree. Aprobada 169-33-142 (PP se abstuvo)."
+    "note": "PNL de SUMAR sobre la reducción de la jornada máxima legal de trabajo (el acuerdo de Gobierno fijaba 37,5 h sin pérdida salarial; no se ha cotejado el texto literal de la PNL). Sí = agree. Aprobada 169-33-142 (PP se abstuvo).",
+    "relation": "related"
   },
   {
     "id": "v-aborto-constitucion-totalidad-2026-04-30",
@@ -141,7 +152,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion177/20260430/Votacion012/VOT_20260430125200.json",
     "title": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de reforma del artículo 43 de la Constitución Española, presentadas por los Grupos Parlamentarios Popular en el Congreso y VOX.",
     "yes_means": "disagree",
-    "note": "Enmiendas a la totalidad (PP y Vox) al Proyecto de reforma del artículo 43 de la Constitución para incluir el derecho al aborto. Sí = rechazar la reforma (disagree). Rechazadas 171-177. No consta en los datos abiertos una votación final de la reforma."
+    "note": "Enmiendas a la totalidad (PP y Vox) al Proyecto de reforma del artículo 43 de la Constitución para incluir el derecho al aborto. Sí = rechazar la reforma (disagree). Rechazadas 171-177. No consta en los datos abiertos una votación final de la reforma.",
+    "relation": "direct"
   },
   {
     "id": "v-regularizacion-ilp-2024-04-09",
@@ -153,7 +165,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
     "title": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España (corresponde al número de expediente 120/000026/0000 de la XIV Legislatura).",
     "yes_means": "agree",
-    "note": "Toma en consideración de la ILP para una regularización extraordinaria de personas extranjeras. Sí = agree. Aprobada 310-33 (solo Vox en contra)."
+    "note": "Toma en consideración de la ILP para una regularización extraordinaria de personas extranjeras. Sí = agree. Aprobada 310-33 (solo Vox en contra).",
+    "relation": "direct"
   },
   {
     "id": "v-regularizacion-pnl-2025-02-26",
@@ -165,7 +178,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion095/20250226/Votacion007/VOT_20250226151629.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Mixto (Sra. Belarra Urteaga), relativa a la regularización de personas migrantes. Se vota en los términos de la enmienda presentada por los Grupos Parlamentarios Mixto (Sra. Belarra Urteaga y Sr. Rego Candamil), Euskal Herria Bildu, Republicano y Plurinacional SUMAR.",
     "yes_means": "agree",
-    "note": "PNL de Podemos (Belarra) sobre la regularización de personas migrantes, votada con la enmienda de Mixto, Bildu, ERC y SUMAR. Sí = agree. Rechazada 46-183-119."
+    "note": "PNL de Podemos (Belarra) sobre la regularización de personas migrantes, votada con la enmienda de Mixto, Bildu, ERC y SUMAR. Sí = agree. Rechazada 46-183-119.",
+    "relation": "related"
   },
   {
     "id": "v-menores-rdl2-2025-04-10",
@@ -177,7 +191,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion106/20250410/Votacion015/VOT_20250410155154.json",
     "title": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
     "yes_means": "agree",
-    "note": "Convalidación del RDL 2/2025 (contingencias migratorias extraordinarias), que establece un reparto obligatorio de menores migrantes no acompañados entre comunidades autónomas. Sí = agree. Convalidado 179-170-1."
+    "note": "Convalidación del RDL 2/2025 (contingencias migratorias extraordinarias), que establece un reparto obligatorio de menores migrantes no acompañados entre comunidades autónomas. Sí = agree. Convalidado 179-170-1.",
+    "relation": "direct"
   },
   {
     "id": "v-menores-lo4-2000-2024-07-23",
@@ -189,7 +204,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion056/20240723/Votacion063/VOT_20240723221735.json",
     "title": "Proposición de Ley de los Grupos Parlamentarios Socialista, Plurinacional SUMAR y Mixto, de modificación de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL (PSOE, SUMAR y Mixto) que modificaba el art. 35 de la LO 4/2000 para que fuera obligatorio acoger a menores no acompañados en situaciones de contingencia migratoria. Sí = agree. Rechazada 171-177 (Junts votó en contra)."
+    "note": "Toma en consideración de la PL (PSOE, SUMAR y Mixto) que modificaba el art. 35 de la LO 4/2000 para que fuera obligatorio acoger a menores no acompañados en situaciones de contingencia migratoria. Sí = agree. Rechazada 171-177 (Junts votó en contra).",
+    "relation": "direct"
   },
   {
     "id": "v-nucleares-pnl-2025-02-12",
@@ -201,7 +217,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion091/20250212/Votacion001/VOT_20250212154036.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, sobre el cierre programado de la generación nuclear en España.",
     "yes_means": "agree",
-    "note": "PNL del PP sobre el cierre programado de la generación nuclear (pide revertir o aplazar el calendario de cierre). Sí = agree. Aprobada 171-164-14."
+    "note": "PNL del PP sobre el cierre programado de la generación nuclear (pide revertir o aplazar el calendario de cierre). Sí = agree. Aprobada 171-164-14.",
+    "relation": "direct"
   },
   {
     "id": "v-nucleares-pl-2025-06-17",
@@ -213,7 +230,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion119/20250617/Votacion001/VOT_20250617203251.json",
     "title": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, para garantizar la aportación de la energía nuclear en la descarbonización del sistema energético.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL del PP para garantizar la aportación de la energía nuclear a la descarbonización (alargar la vida de las centrales). Sí = agree. Aprobada 171-166-7."
+    "note": "Toma en consideración de la PL del PP para garantizar la aportación de la energía nuclear a la descarbonización (alargar la vida de las centrales). Sí = agree. Aprobada 171-166-7.",
+    "relation": "direct"
   },
   {
     "id": "v-amnistia-2024-03-14",
@@ -225,7 +243,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion030/20240314/Votacion001/VOT_20240314135323.json",
     "title": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña. — Votación del nuevo dictamen.",
     "yes_means": "agree",
-    "note": "Votación en el Pleno del nuevo dictamen de la Ley Orgánica de amnistía (aprobación en el Congreso). Sí = agree. 178-172. Las votaciones nominales por llamamiento (votación de conjunto del 14/03/2024 y levantamiento del veto del Senado el 30/05/2024, 177-172) solo están publicadas como PNG, sin JSON."
+    "note": "Votación en el Pleno del nuevo dictamen de la Ley Orgánica de amnistía (aprobación en el Congreso). Sí = agree. 178-172. Las votaciones nominales por llamamiento (votación de conjunto del 14/03/2024 y levantamiento del veto del Senado el 30/05/2024, 177-172) solo están publicadas como PNG, sin JSON.",
+    "relation": "direct"
   },
   {
     "id": "v-financiacion-singular-2024-04-23",
@@ -237,7 +256,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion036/20240423/Votacion024/VOT_20240423213534.json",
     "title": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Republicano, sobre la necesidad de acordar una financiación singular para Cataluña a fin de que la ciudadanía catalana disponga de servicios públicos a la altura de su esfuerzo fiscal.",
     "yes_means": "agree",
-    "note": "Moción de ERC sobre una financiación singular para Cataluña (modelo de ERC: la Generalitat recauda todos los impuestos, al estilo del concierto). Sí = agree (confianza media: el texto de la moción no se ha cotejado palabra por palabra). Rechazada 24-291-28."
+    "note": "Moción de ERC sobre una financiación singular para Cataluña (modelo de ERC: la Generalitat recauda todos los impuestos, al estilo del concierto). Sí = agree (confianza media: el texto de la moción no se ha cotejado palabra por palabra). Rechazada 24-291-28.",
+    "relation": "related"
   },
   {
     "id": "v-lenguas-reglamento-2023-09-21",
@@ -249,7 +269,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion003/20230921/Votacion004/VOT_20230921120100.json",
     "title": "Proposición de reforma del Reglamento del Congreso de los Diputados. — Votación de conjunto de la Proposición de reforma del Reglamento del Congreso de los Diputados.",
     "yes_means": "agree",
-    "note": "Votación de conjunto de la reforma del Reglamento del Congreso que permite usar las lenguas cooficiales en el Pleno. Sí = agree. Aprobada 180-170."
+    "note": "Votación de conjunto de la reforma del Reglamento del Congreso que permite usar las lenguas cooficiales en el Pleno. Sí = agree. Aprobada 180-170.",
+    "relation": "direct"
   },
   {
     "id": "v-cgpj-vox-2024-02-27",
@@ -261,7 +282,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion024/20240227/Votacion002/VOT_20240227205808.json",
     "title": "Proposición de Ley del Grupo Parlamentario VOX, Orgánica por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para la reforma del procedimiento de elección de los vocales del Consejo General del Poder Judicial.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL Orgánica de Vox para reformar la elección de los vocales del CGPJ, de modo que los jueces elijan a los vocales de procedencia judicial. Sí = agree. Rechazada 170-176."
+    "note": "Toma en consideración de la PL Orgánica de Vox para reformar la elección de los vocales del CGPJ, de modo que los jueces elijan a los vocales de procedencia judicial. Sí = agree. Rechazada 170-176.",
+    "relation": "direct"
   },
   {
     "id": "v-cgpj-pp-2026-09-10",
@@ -273,7 +295,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion196/20260910/Votacion015/VOT_20260910180649.json",
     "title": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica de modificación de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para el cambio del modelo de elección de los vocales del Consejo General del Poder Judicial.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL Orgánica del PP para cambiar el modelo de elección de los vocales del CGPJ (elección por los propios jueces). Sí = agree. Rechazada 170-175. Se excluye la reforma pactada PSOE-PP de la LOPJ de julio de 2024, que no cambió el sistema de elección."
+    "note": "Toma en consideración de la PL Orgánica del PP para cambiar el modelo de elección de los vocales del CGPJ (elección por los propios jueces). Sí = agree. Rechazada 170-175. Se excluye la reforma pactada PSOE-PP de la LOPJ de julio de 2024, que no cambió el sistema de elección.",
+    "relation": "direct"
   },
   {
     "id": "v-memoria-mocion-2024-02-06",
@@ -285,7 +308,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion019/20240206/Votacion005/VOT_20240206213127.json",
     "title": "Del Grupo Parlamentario Republicano, en relación con el despliegue y desarrollo de la Ley 20/2022, de 19 de octubre, de Memoria Democrática. Se vota en los términos de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Republicano.",
     "yes_means": "agree",
-    "note": "Moción de ERC (con enmienda del PSOE) sobre el despliegue y desarrollo de la Ley 20/2022 de Memoria Democrática. Sí = apoyar la ley (agree). Aprobada 174-170."
+    "note": "Moción de ERC (con enmienda del PSOE) sobre el despliegue y desarrollo de la Ley 20/2022 de Memoria Democrática. Sí = apoyar la ley (agree). Aprobada 174-170.",
+    "relation": "related"
   },
   {
     "id": "v-memoria-pnl-2024-05-23",
@@ -297,7 +321,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion040/20240523/Votacion004/VOT_20240523140934.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Socialista, sobre la garantía de la aplicación de las políticas de memoria democrática en España. Se vota en los términos resultantes de la incorporación de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Plurinacional SUMAR.",
     "yes_means": "agree",
-    "note": "PNL del PSOE sobre la garantía de la aplicación de las políticas de memoria democrática (frente a las leyes autonómicas de concordia). Sí = agree. Aprobada 175-167."
+    "note": "PNL del PSOE sobre la garantía de la aplicación de las políticas de memoria democrática (frente a las leyes autonómicas de concordia). Sí = agree. Aprobada 175-167.",
+    "relation": "direct"
   },
   {
     "id": "v-embargo-israel-rdl-2025-10-08",
@@ -309,7 +334,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/Votacion087/VOT_20251008195359.json",
     "title": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
     "yes_means": "agree",
-    "note": "Convalidación del RDL 10/2025 contra el genocidio en Gaza, que consagra el embargo de compraventa de armas a Israel. Sí = agree. Convalidado 178-169-1."
+    "note": "Convalidación del RDL 10/2025 contra el genocidio en Gaza, que consagra el embargo de compraventa de armas a Israel. Sí = agree. Convalidado 178-169-1.",
+    "relation": "direct"
   },
   {
     "id": "v-embargo-ley-2025-05-20",
@@ -321,6 +347,7 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion112/20250520/Votacion002/VOT_20250520203911.json",
     "title": "Proposición de Ley de los Grupos Parlamentarios Plurinacional SUMAR y Mixto, por la que se reforma la Ley 53/2007, de 28 de diciembre, sobre el control del comercio exterior de material de defensa y de doble uso, introduciendo la figura del embargo y su régimen jurídico.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL (SUMAR y Mixto) que introduce en la Ley 53/2007 la figura del embargo de armas, impulsada con Israel como motivo. Es un instrumento general y no menciona a Israel en el título: sí = agree (confianza media). Aprobada 176-171."
+    "note": "Toma en consideración de la PL (SUMAR y Mixto) que introduce en la Ley 53/2007 la figura del embargo de armas, impulsada con Israel como motivo. Es un instrumento general y no menciona a Israel en el título: sí = agree (confianza media). Aprobada 176-171.",
+    "relation": "related"
   }
 ]

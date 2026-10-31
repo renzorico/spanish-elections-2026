@@ -139,6 +139,7 @@ export function validate(data) {
   for (const v of curated) {
     if (!stmtIds.has(v.statement)) err(`vote ${v.id}: unknown statement ${v.statement}`);
     if (!['agree', 'disagree'].includes(v.yes_means)) err(`vote ${v.id}: yes_means must be agree|disagree`);
+    if (!['direct', 'related'].includes(v.relation)) err(`vote ${v.id}: relation must be direct|related`);
     if (!/^https:\/\/www\.congreso\.es\//.test(v.url_json || '')) err(`vote ${v.id}: url_json must be a congreso.es URL`);
     if (!ISO.test(v.date || '')) err(`vote ${v.id}: date not ISO`);
   }

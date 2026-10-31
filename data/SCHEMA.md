@@ -82,6 +82,7 @@ position (e.g. "only in some cases", abstention explicitly explained as such)
   "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion043/20240530/Votacion002/VOT_….json",
   "title": "Texto oficial de la votación (copiado del JSON)",
   "yes_means": "agree",
+  "relation": "direct | related  (only direct votes can support high confidence)",
   "note": "Why this vote maps to the statement"
 }]
 ```

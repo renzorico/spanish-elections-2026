@@ -281,7 +281,7 @@ function viewStatementDetail(sid, p) {
     .map((v) => {
       const tl = v.by_party?.[p.id];
       const tally = tl ? ` — ${tl.yes} ${t('voteYes')}, ${tl.no} ${t('voteNo')}, ${tl.abstain} ${t('voteAbs')}` : '';
-      return `<li><a href="${esc(v.url)}" rel="noopener noreferrer" target="_blank">${esc(v.title)}</a> (<time>${esc(v.date)}</time>)${esc(tally)}</li>`;
+      return `<li><a href="${esc(v.url)}" rel="noopener noreferrer" target="_blank">${esc(v.title)}</a> (<time>${esc(v.date)}</time>)${v.relation === 'related' ? ` · ${esc(t('relatedVote'))}` : ''}${esc(tally)}${v.note ? `<br><small>${esc(v.note)}</small>` : ''}</li>`;
     })
     .join('');
   return `

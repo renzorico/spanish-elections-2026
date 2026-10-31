@@ -49,6 +49,7 @@ for (const v of d.curated) {
     title: v.title,
     url: v.url_json,
     yes_means: v.yes_means,
+    relation: v.relation,
     note: v.note || null,
     by_party: der
       ? Object.fromEntries(Object.entries(der.by_party).map(([pid, t]) => [pid, { yes: t.yes, no: t.no, abstain: t.abstain, absent: t.absent, majority: t.majority }]))
