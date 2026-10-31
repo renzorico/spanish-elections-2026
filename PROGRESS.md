@@ -32,5 +32,5 @@ npm run check-sources                       # URL liveness
 ```
 
 ## UI/UX redesign (in progress, 31 Oct 2026)
-Done: new design system (paper/ink, Fraunces + Atkinson Hyperlegible, self-hosted), topic colours + icons, new home with countdown, dot-scale answers with Previous/Next always available, keyboard shortcuts, "Explícamelo fácil" plain-language line for every statement, topic picker (up to 3), results with province switcher (incl. all of Spain) and topic map, party detail with collapsible topics, shareable PNG + PDF card with QR, shorter election and methodology pages. Browser suite: 38 checks.
-Open: party logos (licence-checked from Wikimedia Commons; monograms until then); user to choose among the answer-input and topic-picker options (interactive mock-ups shared as an artifact).
+Done: new design system (paper/ink, Fraunces + Atkinson Hyperlegible, self-hosted), topic colours + icons, new home with countdown, dot-scale answers with Previous/Next always available, keyboard shortcuts, "Explícamelo fácil" plain-language line for every statement, topic weights per topic (Less ×0.5 / Same / More ×2, chosen by the owner: option B), results with province switcher (incl. all of Spain) and topic map, party detail with collapsible topics, shareable PNG + PDF card with QR, shorter election and methodology pages. Browser suite: 38 checks.
+Decided by the owner: answer input A (dot scale), topic weights B (Less/Same/More). Open: party logos (licence-checked from Wikimedia Commons; monograms until then).

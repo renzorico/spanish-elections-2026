@@ -107,14 +107,18 @@ const ok = (c, m) => {
   // finish the questionnaire
   p.on('dialog', (d) => d.accept());
   for (let i = 0; i < 40; i++) {
-    if (await p.locator('.wgrid').count()) break;
+    if (await p.locator('.wrows').count()) break;
     await p.click('.stop[data-v="2"]');
     await p.waitForTimeout(330);
   }
-  // topic picker: max 3
-  for (const tpc of ['vivienda', 'sanidad', 'clima', 'trabajo']) await p.click(`[data-weight-topic="${tpc}"]`);
-  ok((await p.locator('.wtile[aria-pressed="true"]').count()) === 3, 'topic picker allows at most 3 important topics');
-  ok(/3/.test(await p.locator('#wstatus').textContent()), 'topic picker explains the limit');
+  // topic weights: Less / Same / More per topic (option B)
+  ok((await p.locator('.wrow').count()) === 11, 'weights screen lists all 11 topics');
+  ok((await p.locator('.wseg button[aria-pressed="true"]').count()) === 11 && (await p.locator('.wseg button[data-weight="1"][aria-pressed="true"]').count()) === 11, 'all topics start at "Same"');
+  await p.click('[data-weight-topic="vivienda"][data-weight="2"]');
+  await p.click('[data-weight-topic="sanidad"][data-weight="2"]');
+  await p.click('[data-weight-topic="trabajo"][data-weight="0.5"]');
+  ok((await p.locator('[data-weight-topic="vivienda"][data-weight="2"]').getAttribute('aria-pressed')) === 'true', 'a topic can be set to "More"');
+  ok(/2 con más peso · 1 con menos peso/.test(await p.locator('#wstatus').textContent()), 'weights summary updates');
   await p.click('[data-act=results]');
   await p.waitForSelector('.pcard');
   const inBarcelona = await p.locator('.pcard').count();
@@ -189,7 +193,7 @@ const ok = (c, m) => {
   await p.click('[data-act=start]');
   await p.click('[data-act=province-next]');
   for (let i = 0; i < 40; i++) {
-    if (await p.locator('.wgrid').count()) break;
+    if (await p.locator('.wrows').count()) break;
     await p.click('[data-act=q-skip]');
   }
   await p.click('[data-act=results]');

@@ -8,8 +8,9 @@ import { TOPIC_STYLE, topicIcon, topicIconDataUrl, topicVars } from './topics.js
 import { drawCard, prepareCardData, downloadPdf, shareImage } from './share.js';
 
 const app = document.getElementById('app');
+// Topic weights (option B chosen by the owner): less ×0.5, same ×1, more ×2.
+const WEIGHT_LEVELS = [0.5, 1, 2];
 const IMPORTANT = 2;
-const MAX_IMPORTANT = 3;
 const MONO = { pp: 'PP', psoe: 'PSOE', vox: 'VOX', 'frente-amplio': 'FA', podemos: 'POD', erc: 'ERC', junts: 'JxC', 'eh-bildu': 'EHB', pnv: 'PNV', bng: 'BNG', cc: 'CC', compromis: 'COM', salf: 'SALF' };
 
 const state = {
@@ -25,7 +26,6 @@ const state = {
   answers: {},
   weights: {},
   open: null, // 'simple' | 'context' | null: which explainer is open on the current question
-  ignoreMode: false,
   excludeLow: false,
   sortByMatch: false,
   showAll: false,
@@ -287,22 +287,20 @@ function viewQuestion() {
 }
 
 function viewWeights() {
-  const important = Object.values(state.weights).filter((w) => w === IMPORTANT).length;
-  const tiles = state.topicOrder
+  const levels = t('weightLevels');
+  const more = Object.values(state.weights).filter((w) => w > 1).length;
+  const less = Object.values(state.weights).filter((w) => w < 1).length;
+  const rows = state.topicOrder
     .map((id) => {
       const tp = topicById(id);
       const w = state.weights[id];
       const n = state.data.statements.filter((s) => s.topic === id).length;
-      const pressed = w === IMPORTANT;
-      const ignored = w === 0;
-      return `<div class="wcell">
-        <button type="button" class="wtile ${ignored ? 'ignored' : ''}" style="${topicVars(id)}" data-weight-topic="${esc(id)}" aria-pressed="${pressed}" ${ignored ? 'aria-disabled="true"' : ''}>
-          ${topicIcon(id)}<span class="wname">${esc(loc(tp.label))}</span>
-          <span class="wcount">${ignored ? esc(t('ignored')) : pressed ? esc(t('important')) : esc(state.lang === 'es' ? `${n} afirmaciones` : `${n} statements`)}</span>
-          <span class="wstar">${pressed ? ICON.star : ''}</span>
-        </button>
-        ${state.ignoreMode ? `<button type="button" class="wignore" data-ignore-topic="${esc(id)}" aria-pressed="${ignored}" aria-label="${esc(t('ignored'))}: ${esc(loc(tp.label))}">⊘</button>` : ''}
-      </div>`;
+      return `<li class="wrow" style="${topicVars(id)}">
+        <span class="wname">${topicIcon(id)}<span>${esc(loc(tp.label))}<small>${esc(t('statementsCount')(n))}</small></span></span>
+        <span class="wseg" role="group" aria-label="${esc(loc(tp.label))}">${WEIGHT_LEVELS.map(
+          (v, i) => `<button type="button" data-weight-topic="${esc(id)}" data-weight="${v}" aria-pressed="${w === v}">${esc(levels[i])}</button>`,
+        ).join('')}</span>
+      </li>`;
     })
     .join('');
   return `
@@ -310,10 +308,8 @@ function viewWeights() {
     <section class="stack">
       <h1 class="h2" data-focus>${esc(t('weightsTitle'))}</h1>
       <p class="muted">${esc(t('weightsHelp'))}</p>
-      <div class="wgrid">${tiles}</div>
-      <p class="wstatus" id="wstatus" aria-live="polite">${esc(t('weightsPicked')(important))}</p>
-      <label class="check"><input type="checkbox" data-act-check="ignore-mode" ${state.ignoreMode ? 'checked' : ''}> ${esc(t('weightsIgnoreToggle'))}</label>
-      ${state.ignoreMode ? `<p class="tiny">${esc(t('weightsIgnoreHelp'))}</p>` : ''}
+      <ul class="wrows">${rows}</ul>
+      <p class="wstatus" id="wstatus" aria-live="polite">${esc(t('weightsSummary')(more, less))}</p>
       <div class="row between" style="margin-top:1.5rem">
         ${state.editing ? `<button class="btn btn-quiet" data-act="back-to-results">${ICON.arrowL} ${esc(t('backToResults'))}</button>` : `<button class="btn btn-quiet" data-act="w-back">${ICON.arrowL} ${esc(t('back'))}</button>`}
         <button class="btn btn-primary btn-big" data-act="results">${esc(t('seeResults'))} ${ICON.arrowR}</button>
@@ -482,7 +478,7 @@ function viewParty() {
         .filter((sid) => statementById(sid).topic === id)
         .map((sid) => statementRow(sid, p, r))
         .join('');
-      return `<li style="${topicVars(id)}"><details class="tdet"><summary><span class="tname">${topicIcon(id)} ${esc(loc(tp.label))}${tr?.weight === IMPORTANT ? ` <span aria-label="${esc(t('important'))}">★</span>` : ''}</span>${bar}<span class="chev" aria-hidden="true"></span></summary><div class="tdet-body">${rows}</div></details></li>`;
+      return `<li style="${topicVars(id)}"><details class="tdet"><summary><span class="tname">${topicIcon(id)} ${esc(loc(tp.label))}${tr?.weight > 1 ? ` <span class="wmark" aria-label="${esc(t('important'))}">★</span>` : tr?.weight < 1 ? ` <span class="wmark" aria-label="${esc(t('lessImportant'))}">·½</span>` : ''}</span>${bar}<span class="chev" aria-hidden="true"></span></summary><div class="tdet-body">${rows}</div></details></li>`;
     })
     .join('');
   const navBtns =
@@ -686,24 +682,11 @@ app.addEventListener('click', async (e) => {
   const wt = e.target.closest('[data-weight-topic]');
   if (wt) {
     const id = wt.dataset.weightTopic;
-    if (state.weights[id] === 0) return;
-    const important = Object.values(state.weights).filter((w) => w === IMPORTANT).length;
-    if (state.weights[id] === IMPORTANT) state.weights[id] = DEFAULT_WEIGHT;
-    else if (important < MAX_IMPORTANT) state.weights[id] = IMPORTANT;
-    else {
-      app.querySelector('#wstatus').textContent = t('weightsMax');
-      return;
-    }
-    render();
-    app.querySelector(`[data-weight-topic="${id}"]`)?.focus();
-    return;
-  }
-  const ig = e.target.closest('[data-ignore-topic]');
-  if (ig) {
-    const id = ig.dataset.ignoreTopic;
-    state.weights[id] = state.weights[id] === 0 ? DEFAULT_WEIGHT : 0;
-    render();
-    app.querySelector(`[data-ignore-topic="${id}"]`)?.focus();
+    state.weights[id] = Number(wt.dataset.weight);
+    for (const x of app.querySelectorAll(`[data-weight-topic="${id}"]`)) x.setAttribute('aria-pressed', String(x === wt));
+    const more = Object.values(state.weights).filter((w) => w > 1).length;
+    const less = Object.values(state.weights).filter((w) => w < 1).length;
+    app.querySelector('#wstatus').textContent = t('weightsSummary')(more, less);
     return;
   }
   const party = e.target.closest('[data-party]');
@@ -764,7 +747,7 @@ app.addEventListener('click', async (e) => {
     }
   } else if (act === 'restart') {
     if (hasAnswers() && !confirm(t('confirmRestart'))) return;
-    Object.assign(state, { answers: {}, idx: 0, province: '', editing: false, sortByMatch: false, excludeLow: false, showAll: false, ignoreMode: false, partyId: null });
+    Object.assign(state, { answers: {}, idx: 0, province: '', editing: false, sortByMatch: false, excludeLow: false, showAll: false, partyId: null });
     state.statementOrder = shuffle(state.statementOrder, cryptoRandom);
     state.partyOrder = shuffle(state.partyOrder, cryptoRandom);
     state.topicOrder = topicOrderFromStatements();
@@ -791,17 +774,13 @@ app.addEventListener('change', (e) => {
     state[el.dataset.control] = el.checked;
     render();
     app.querySelector(`[data-control="${el.dataset.control}"]`)?.focus();
-  } else if (el.dataset.actCheck === 'ignore-mode') {
-    state.ignoreMode = el.checked;
-    render();
-    app.querySelector('[data-act-check="ignore-mode"]')?.focus();
   }
 });
 
 async function buildCard() {
   const { results } = currentResults({ forCard: true });
   const palette = state.data.topics.map((tp) => TOPIC_STYLE[tp.id].accent);
-  const keyTopics = state.topicOrder.filter((id) => state.weights[id] === IMPORTANT);
+  const keyTopics = state.topicOrder.filter((id) => state.weights[id] > 1);
   const data = await prepareCardData({
     strings: {
       cardTitle: t('cardTitle'),

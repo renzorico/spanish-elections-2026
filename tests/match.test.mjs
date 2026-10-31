@@ -169,3 +169,13 @@ test('shuffle is approximately uniform over positions', () => {
   for (let i = 0; i < N; i++) counts[shuffle(['a', 'b', 'c', 'd'], cryptoRandom).indexOf('a')]++;
   for (const c of counts) assert.ok(Math.abs(c / N - 0.25) < 0.02, `position frequency ${c / N}`);
 });
+
+test('computeMatch: "less" weight (×0.5) halves a topic\'s influence on the overall', () => {
+  const answers = { s1: 2, s2: 2, s3: 2 };
+  // x: topic a = 1 (2 statements), topic b = 0 (1 statement)
+  const less = computeMatch({ statements, topics, parties, positions, answers, weights: { b: 0.5 } })[0];
+  close(less.overall, (1 * 2 + 0.5 * 0) / (1 * 2 + 0.5 * 1)); // 0.8
+  const more = computeMatch({ statements, topics, parties, positions, answers, weights: { b: 2 } })[0];
+  close(more.overall, (1 * 2 + 2 * 0) / (1 * 2 + 2 * 1)); // 0.5
+  assert.ok(less.overall > more.overall);
+});

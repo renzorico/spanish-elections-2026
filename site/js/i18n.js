@@ -24,7 +24,7 @@ export const STRINGS = {
     howTitle: 'Así funciona',
     how: [
       ['Responde', 'De acuerdo o en desacuerdo con 30 afirmaciones sobre 11 temas.'],
-      ['Elige tus temas', 'Marca los que más te importan.'],
+      ['Elige tus temas', 'Da más o menos peso a cada tema.'],
       ['Compara', 'Mira tu coincidencia con cada partido, tema por tema, con las fuentes.'],
     ],
     electionLink: '¿Qué se elige el 29N? Explicado en 1 minuto',
@@ -58,13 +58,12 @@ export const STRINGS = {
 
     // Weights
     weightsTitle: '¿Qué temas te importan más?',
-    weightsHelp: 'Elige hasta 3. Contarán el doble en tu resultado.',
-    weightsPicked: (n) => (n === 0 ? 'Ninguno elegido: todos cuentan igual.' : `${n} de 3 elegidos`),
-    weightsMax: 'Ya tienes 3. Quita uno para elegir otro.',
-    weightsIgnoreToggle: 'También puedo dejar fuera temas',
-    weightsIgnoreHelp: 'Toca ⊘ en un tema para que no cuente.',
-    important: 'Importante',
-    ignored: 'No cuenta',
+    weightsHelp: 'Si no tocas nada, todos cuentan igual. «Más» cuenta el doble; «Menos», la mitad.',
+    weightLevels: ['Menos', 'Igual', 'Más'],
+    statementsCount: (n) => `${n} afirmaciones`,
+    weightsSummary: (more, less) => (more + less === 0 ? 'Todos los temas cuentan igual.' : `${more} con más peso · ${less} con menos peso`),
+    important: 'Más peso',
+    lessImportant: 'Menos peso',
     seeResults: 'Ver resultados',
 
     // Results
@@ -180,7 +179,7 @@ export const STRINGS = {
     howTitle: 'How it works',
     how: [
       ['Answer', 'Agree or disagree with 30 statements on 11 topics.'],
-      ['Pick your topics', 'Mark the ones that matter most to you.'],
+      ['Weigh your topics', 'Give each topic more or less weight.'],
       ['Compare', 'See how much you agree with each party, topic by topic, with sources.'],
     ],
     electionLink: 'What is elected on 29 November? Explained in 1 minute',
@@ -211,13 +210,12 @@ export const STRINGS = {
     keysHint: 'Keyboard: 1–5 to answer, Enter to continue.',
 
     weightsTitle: 'Which topics matter most to you?',
-    weightsHelp: 'Pick up to 3. They will count double in your result.',
-    weightsPicked: (n) => (n === 0 ? 'None picked: all topics count the same.' : `${n} of 3 picked`),
-    weightsMax: 'You already have 3. Remove one to pick another.',
-    weightsIgnoreToggle: 'I also want to leave topics out',
-    weightsIgnoreHelp: 'Tap ⊘ on a topic so it does not count.',
-    important: 'Important',
-    ignored: 'Left out',
+    weightsHelp: 'If you change nothing, all topics count the same. "More" counts double; "Less", half.',
+    weightLevels: ['Less', 'Same', 'More'],
+    statementsCount: (n) => `${n} statements`,
+    weightsSummary: (more, less) => (more + less === 0 ? 'All topics count the same.' : `${more} with more weight · ${less} with less weight`),
+    important: 'More weight',
+    lessImportant: 'Less weight',
     seeResults: 'See results',
 
     resultsTitle: 'Your matches',
