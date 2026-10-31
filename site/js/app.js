@@ -1,5 +1,5 @@
-// UI controller. All state lives in memory only: nothing is written to
-// localStorage, cookies or any server. The only network request is bundle.json.
+// UI controller. All state lives in memory only: nothing is written to browser
+// storage, cookies or any server. The only network request is bundle.json.
 import { STRINGS } from './i18n.js';
 import { computeMatch, sortByAgreement, shuffle, cryptoRandom, DEFAULT_WEIGHT } from './match.js';
 
