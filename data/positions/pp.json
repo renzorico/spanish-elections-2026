@@ -421,10 +421,10 @@
       "note": "El Grupo Popular votó en contra de convalidar el decreto-ley que creó el reparto obligatorio de menores migrantes no acompañados."
     },
     {
-      "statement": "inm-reducir-llegadas",
-      "stance": "neutral",
-      "confidence": "medium",
-      "evidence_type": "official_statement",
+      "statement": "inm-devolver-irregulares",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
       "sources": [
         {
           "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
@@ -445,7 +445,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El PP quiere reducir las llegadas irregulares, pero dice expresamente que no cuestiona la migración regular y propone cuotas anuales por países y sectores. Toma una posición intermedia sobre el número total."
+      "note": "(pendiente de recodificar)"
     },
     {
       "statement": "cli-nucleares",
@@ -559,15 +559,7 @@
           "title": "El PP asegura que la «financiación singular de Cataluña» es una «financiación independentista a la carta y un concierto económico insolidario»",
           "publisher": "GPP Senado (PP)",
           "date": "2024-09-04",
-          "quote": "“Gestión, inspección, recaudación y liquidación de todos los tributos, soberanía fiscal, la llave de la caja, solidaridad limitada; ¿eso cómo se llama?",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.pp.es/sites/default/files/documentos/240904_camps_y_barreiro_-comparecencia_montero_financiacion_autonomica-_0.pdf",
-          "title": "El PP asegura que la «financiación singular de Cataluña» es una «financiación independentista a la carta y un concierto económico insolidario»",
-          "publisher": "GPP Senado (PP)",
-          "date": "2024-09-04",
-          "quote": "“la financiación acordada por PSOE para Cataluña es, en esencia, un concierto económico insolidario, una financiación independentista a la carta",
+          "quote": "la financiación acordada por PSOE para Cataluña es, en esencia, un concierto económico insolidario, una financiación independentista a la carta",
           "accessed": "2026-10-31"
         },
         {
@@ -576,14 +568,13 @@
           "publisher": "PP",
           "date": "2023-07-04",
           "quote": "ACORDAREMOS UNA REFORMA DEL SISTEMA DE FINANCIACIÓN",
-          "page": "p. 79 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "El PP rechaza que Cataluña recaude y gestione todos sus impuestos y defiende un sistema común negociado con todas las comunidades. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (PP votó no.)"
+      "note": "Comunicado oficial del grupo del PP en el Senado: rechaza que una comunidad que lo pide (Cataluña) obtenga un modelo tipo concierto y reclama igualdad y un sistema común. Es una posición sobre un caso concreto, no sobre una regla general; se mantiene medio por ser comunicado oficial. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (PP votó no.)"
     },
     {
       "statement": "ter-recentralizar",

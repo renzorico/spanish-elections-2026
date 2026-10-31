@@ -420,7 +420,7 @@
       "note": "Votó Sí (5) a convalidar el RDL 2/2025 (10-04-2025)."
     },
     {
-      "statement": "inm-reducir-llegadas",
+      "statement": "inm-devolver-irregulares",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
@@ -435,7 +435,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El programa 2023 pide una política europea de inmigración y asilo y el traspaso de competencias migratorias, sin pronunciarse sobre reducir llegadas."
+      "note": "(pendiente de recodificar)"
     },
     {
       "statement": "cli-nucleares",
@@ -532,18 +532,17 @@
       "sources": [
         {
           "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-          "title": "Con voz propia. Programa electoral 23-J",
-          "publisher": "EAJ-PNV",
+          "title": "Con voz propia. Programa electoral 23J",
+          "publisher": "PNV",
           "date": "2023-07-01",
           "quote": "compromete a defender con convicción y determinación nuestro Estatuto, el Concierto Económico y la nación vasca",
-          "page": "p. 6 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "El PNV defiende el Concierto vasco, pero no se encontró posición sobre extenderlo a otras comunidades. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (El PNV se abstuvo.)"
+      "note": "Defiende el Concierto vasco propio; no se encontró posición sobre que otras comunidades lo tengan. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (El PNV se abstuvo.)"
     },
     {
       "statement": "ter-recentralizar",

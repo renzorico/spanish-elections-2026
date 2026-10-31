@@ -2,6 +2,7 @@
 // storage, cookies or any server. The only network request is bundle.json.
 import { STRINGS } from './i18n.js';
 import { computeMatch, sortByAgreement, shuffle, cryptoRandom, DEFAULT_WEIGHT } from './match.js';
+import { REPO_URL, applyLang, fetchReference, renderCoverage } from './reference.js';
 
 const app = document.getElementById('app');
 const state = {
@@ -17,7 +18,13 @@ const state = {
   excludeLow: false,
   sortByMatch: false,
   showAll: false,
+  editing: false, // reviewing from the results: Continue and Back return there
+  autoAdvance: true, // pointer/touch choices move on by themselves (announced beside the answers); keyboard never does
+  ref: null, // 'eleccion' | 'metodologia' while a reference page is shown inside the app
+  refReturnFocus: null,
 };
+let lastPointer = -Infinity;
+let lastKey = -Infinity;
 
 function initialLang() {
   const q = new URLSearchParams(location.search).get('lang');
@@ -30,6 +37,10 @@ const esc = (s) =>
   String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 const loc = (obj) => (obj ? obj[state.lang] || obj.es || '' : '');
 const pct = (x) => `${Math.round(x * 100)} %`;
+const locNote = (n) => (!n ? '' : typeof n === 'string' ? n : n[state.lang] || n.es || '');
+const hasAnswers = () => Object.values(state.answers).some((v) => v !== null && v !== undefined);
+const reportUrl = (partyName, sid, statementText) =>
+  `${REPO_URL}/issues/new?title=${encodeURIComponent(`Corrección: ${partyName} · ${sid}`)}&body=${encodeURIComponent(`Partido: ${partyName}\nAfirmación: ${sid} — ${statementText}\n\n¿Qué es incorrecto o qué fuente mejor existe? (enlace, fecha y cita)\n`)}`;
 
 // ---------- data
 async function load() {
@@ -114,6 +125,7 @@ function viewQuestion() {
   const n = state.statementOrder.length;
   const s = statementById(state.statementOrder[state.idx]);
   const current = state.answers[s.id];
+  const answered = current !== null && current !== undefined;
   const labels = t('answers');
   const radios = [-2, -1, 0, 1, 2]
     .map(
@@ -134,9 +146,13 @@ function viewQuestion() {
       <legend class="visually-hidden">${esc(t('answerLegend'))}</legend>
       <div class="answers">${radios}</div>
     </fieldset>
+    <label class="auto"><input type="checkbox" data-toggle="autoAdvance" ${state.autoAdvance ? 'checked' : ''}> ${esc(t('autoAdvance'))}</label>
+    <p class="visually-hidden" role="status" id="saved">${answered ? esc(t('savedAnswer')(labels[current + 2])) : ''}</p>
     <div class="actions">
       <button data-act="q-back">${esc(t('back'))}</button>
+      ${state.editing ? `<button data-act="back-to-results">${esc(t('backToResults'))}</button>` : ''}
       <button class="link" data-act="q-skip">${esc(t('skipQuestion'))}</button>
+      <button class="primary" data-act="q-next" id="q-next" ${answered ? '' : 'disabled'}>${esc(t('continue'))}</button>
     </div>
   </section>`;
 }
@@ -165,7 +181,7 @@ function viewWeights() {
     <p class="help">${esc(t('weightsHelp'))}</p>
     ${rows}
     <div class="actions">
-      <button data-act="w-back">${esc(t('back'))}</button>
+      ${state.editing ? `<button data-act="back-to-results">${esc(t('backToResults'))}</button>` : `<button data-act="w-back">${esc(t('back'))}</button>`}
       <button class="primary" data-act="results">${esc(t('seeResults'))}</button>
     </div>
   </section>`;
@@ -246,7 +262,7 @@ function viewPartyResult(r, inProv) {
     .map((tp) => {
       const tr = r.topics.find((x) => x.topic === tp.id);
       if (!tr || tr.answered === 0) return '';
-      return `<tr><th scope="row">${esc(loc(tp.label))}${tr.weight !== 1 ? ` <small>(×${tr.weight})</small>` : ''}</th><td>${bar(tr.agreement, loc(tp.label))}</td><td class="cov">${tr.n}/${tr.answered}</td></tr>`;
+      return `<tr><th scope="row">${esc(loc(tp.label))}${tr.weight !== 1 ? ` <small>(×${tr.weight})</small>` : ''}<small class="cov">${esc(t('coverageShort')(tr.n, tr.answered))}</small></th><td>${bar(tr.agreement, loc(tp.label))}</td></tr>`;
     })
     .join('');
   const stmtRows = state.statementOrder
@@ -262,7 +278,8 @@ function viewPartyResult(r, inProv) {
     ${r.limitedData ? `<p class="notice small">${esc(t('limitedData'))}</p>` : ''}
     <details>
       <summary>${esc(t('details'))}</summary>
-      <table class="topics"><caption>${esc(t('byTopic'))}</caption><tbody>${topicRows}</tbody></table>
+      <table class="topics"><caption>${esc(t('byTopic'))}</caption><thead><tr><th scope="col">${esc(t('topicCol'))}</th><th scope="col">${esc(t('agreementCol'))}</th></tr></thead><tbody>${topicRows}</tbody></table>
+      <p class="meta">${esc(t('coverageExplain'))}</p>
       <ul class="stmts">${stmtRows}</ul>
       ${loc(p.notes) ? `<p class="meta">${esc(loc(p.notes))}</p>` : ''}
     </details>
@@ -279,7 +296,7 @@ function viewStatementDetail(sid, p) {
   const sources = (pos?.sources || [])
     .map(
       (src) =>
-        `<li><a href="${esc(src.url)}" rel="noopener noreferrer" target="_blank">${esc(src.title || src.url)}</a>${src.publisher ? ` — ${esc(src.publisher)}` : ''}${src.date ? `, <time>${esc(src.date)}</time>` : ''}${src.page ? `, ${esc(src.page)}` : ''}${src.quote ? `<blockquote>${esc(src.quote)}</blockquote>` : ''}</li>`,
+        `<li><a href="${esc(src.url)}" rel="noopener noreferrer" target="_blank">${esc(src.title || src.url)}</a>${src.publisher ? ` — ${esc(src.publisher)}` : ''}${src.date ? `, <time>${esc(src.date)}</time>` : ''}${src.page ? `, ${esc(src.page)}` : ''}${src.quote ? `<blockquote lang="${esc(src.lang || 'es')}">${esc(src.quote)}</blockquote>` : ''}</li>`,
     )
     .join('');
   const votes = (pos?.vote_refs || [])
@@ -288,7 +305,7 @@ function viewStatementDetail(sid, p) {
     .map((v) => {
       const tl = v.by_party?.[p.id];
       const tally = tl ? ` — ${tl.yes} ${t('voteYes')}, ${tl.no} ${t('voteNo')}, ${tl.abstain} ${t('voteAbs')}` : '';
-      return `<li><a href="${esc(v.url)}" rel="noopener noreferrer" target="_blank">${esc(v.title)}</a> (<time>${esc(v.date)}</time>)${v.relation === 'related' ? ` · ${esc(t('relatedVote'))}` : ''}${esc(tally)}${v.note ? `<br><small>${esc(v.note)}</small>` : ''}</li>`;
+      return `<li><a href="${esc(v.url)}" rel="noopener noreferrer" target="_blank" lang="es">${esc(v.title)}</a> (<time>${esc(v.date)}</time>)${v.relation === 'related' ? ` · ${esc(t('relatedVote'))}` : ''}${esc(tally)}${locNote(v.note) ? `<br><small>${esc(locNote(v.note))}</small>` : ''}</li>`;
     })
     .join('');
   return `
@@ -298,7 +315,7 @@ function viewStatementDetail(sid, p) {
       <div><dt>${esc(t('you'))}</dt><dd>${esc(userLabel)}</dd></div>
       <div><dt>${esc(p.name)}</dt><dd class="stance-${esc(pos?.stance || 'no_clear_position')}">${esc(stance)}${esc(conf)}</dd></div>
     </dl>
-    ${pos?.note ? `<p class="meta">${esc(pos.note)}</p>` : ''}
+    ${locNote(pos?.note) ? `<p class="meta">${esc(locNote(pos.note))}</p>` : ''}
     ${
       sources || votes
         ? `<details class="src"><summary>${esc(t('evidence')[pos?.evidence_type || 'none'])} · ${esc(t('sources'))}</summary>
@@ -306,6 +323,7 @@ function viewStatementDetail(sid, p) {
             <ul>${sources}</ul></details>`
         : ''
     }
+    <p class="meta"><a href="${esc(reportUrl(p.name, sid, loc(s.text)))}" rel="noopener noreferrer" target="_blank">${esc(t('reportError'))}</a></p>
   </li>`;
 }
 
@@ -323,22 +341,135 @@ function render() {
     el.href = el.dataset.hrefLang + (state.lang === 'en' ? '?lang=en' : '');
   }
   if (!state.data) return;
+  if (state.ref) {
+    renderReference();
+    return;
+  }
   const views = { intro: viewIntro, province: viewProvince, question: viewQuestion, weights: viewWeights, results: viewResults };
   app.innerHTML = views[state.step]();
 }
 
-function answerAndAdvance(value) {
-  const sid = state.statementOrder[state.idx];
-  state.answers[sid] = value;
+// ---------- reference pages shown inside the app (answers stay in memory: audit D-001)
+const refCache = {};
+async function renderReference() {
+  const name = state.ref;
+  app.innerHTML = `<section class="card prose" id="ref"><p><button type="button" data-act="close-ref">${esc(t('backToTool'))}</button></p><div id="ref-body"><p role="status">${esc(t('loading'))}</p></div></section>`;
+  try {
+    refCache[name] ||= await fetchReference(name);
+  } catch {
+    if (state.ref !== name) return;
+    app.querySelector('#ref-body').innerHTML = `<p role="alert">${esc(t('loadError'))} <a href="${name}.html${state.lang === 'en' ? '?lang=en' : ''}">${esc(t('openStandalone'))}</a></p>`;
+    return;
+  }
+  if (state.ref !== name) return;
+  const body = app.querySelector('#ref-body');
+  body.innerHTML = refCache[name].html;
+  applyLang(body, state.lang);
+  const cov = body.querySelector('#coverage');
+  if (cov) renderCoverage(cov, state.lang, () => applyLang(body, state.lang));
+  const h1 = body.querySelector('h1:not([hidden])') || body.querySelector('h1');
+  if (h1 && !state.refFocused) {
+    h1.setAttribute('tabindex', '-1');
+    h1.focus();
+  }
+  state.refFocused = true;
+}
+
+function openRef(name) {
+  state.refReturnFocus = document.activeElement;
+  state.ref = name;
+  state.refFocused = false;
+  history.pushState({ ref: name }, '', `#${name}`);
+  render();
+  window.scrollTo({ top: 0 });
+}
+
+function closeRef() {
+  if (history.state?.ref) history.back();
+  else showStep();
+}
+
+function showStep() {
+  state.ref = null;
+  render();
+  const el = app.querySelector('#q-text, h1, h2');
+  if (el) {
+    el.setAttribute('tabindex', '-1');
+    el.focus();
+  }
+  window.scrollTo({ top: 0 });
+}
+
+window.addEventListener('popstate', (e) => {
+  if (e.state?.ref) {
+    state.ref = e.state.ref;
+    state.refFocused = false;
+    render();
+  } else if (state.ref) showStep();
+});
+
+// Leaving the page would lose the answers; ask first while a questionnaire is in progress.
+window.addEventListener('beforeunload', (e) => {
+  if (hasAnswers() && state.step !== 'results') {
+    e.preventDefault();
+    e.returnValue = '';
+  }
+});
+
+// Header and in-page links to the reference pages open inside the app (modified clicks open normally).
+document.addEventListener('click', (e) => {
+  if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+  const a = e.target.closest('a[href]');
+  if (!a || !state.data) return;
+  const url = new URL(a.href, location.href);
+  if (url.origin !== location.origin) return;
+  const m = url.pathname.match(/\/(eleccion|metodologia)\.html$/);
+  if (m) {
+    e.preventDefault();
+    if (state.ref === m[1]) return;
+    openRef(m[1]);
+  } else if (state.ref && a.matches('[data-href-lang="./"]')) {
+    e.preventDefault();
+    closeRef();
+  }
+});
+
+function saveAnswer(value) {
+  state.answers[state.statementOrder[state.idx]] = value;
+}
+
+function advance() {
   if (state.idx < state.statementOrder.length - 1) {
     state.idx += 1;
     go('question', '#q-text');
-  } else {
-    go('weights');
-  }
+  } else if (state.editing) {
+    state.editing = false;
+    go('results');
+  } else go('weights');
 }
 
+app.addEventListener('pointerdown', () => {
+  lastPointer = performance.now();
+});
+document.addEventListener('keydown', () => {
+  lastKey = performance.now();
+});
+
 app.addEventListener('click', (e) => {
+  const radio = e.target.closest('input[name="answer"]');
+  if (radio) {
+    // A mouse or touch choice moves on by itself (announced next to the answers). Keyboard
+    // changes (arrow keys, Space) only save the answer; the user moves on with Continue.
+    const byPointer = lastPointer > lastKey && performance.now() - lastPointer < 800;
+    if (state.autoAdvance && byPointer) {
+      const at = state.idx;
+      saveAnswer(Number(radio.value));
+      setTimeout(() => {
+        if (state.step === 'question' && !state.ref && state.idx === at) advance();
+      }, 180);
+    }
+    return;
+  }
   const btn = e.target.closest('[data-act]');
   if (!btn) return;
   const act = btn.dataset.act;
@@ -349,24 +480,42 @@ app.addEventListener('click', (e) => {
     state.idx = 0;
     go('question', '#q-text');
   } else if (act === 'q-back') {
-    if (state.idx === 0) go('province');
+    if (state.idx === 0) go(state.editing ? 'results' : 'province');
     else {
       state.idx -= 1;
       go('question', '#q-text');
     }
-  } else if (act === 'q-skip') answerAndAdvance(null);
-  else if (act === 'w-back') {
+    if (state.step === 'results') state.editing = false;
+  } else if (act === 'q-next') advance();
+  else if (act === 'q-skip') {
+    saveAnswer(null);
+    advance();
+  } else if (act === 'w-back') {
     state.idx = state.statementOrder.length - 1;
     go('question', '#q-text');
-  } else if (act === 'results' || act === 'edit-weights-done') go('results');
-  else if (act === 'edit-answers') {
+  } else if (act === 'back-to-results') {
+    state.editing = false;
+    go('results');
+  } else if (act === 'results') {
+    state.editing = false;
+    go('results');
+  } else if (act === 'edit-answers') {
+    state.editing = true;
     state.idx = 0;
     go('question', '#q-text');
-  } else if (act === 'edit-weights') go('weights');
+  } else if (act === 'edit-weights') {
+    state.editing = true;
+    go('weights');
+  } else if (act === 'close-ref') closeRef();
   else if (act === 'restart') {
+    if (hasAnswers() && !confirm(t('confirmRestart'))) return;
     state.answers = {};
     state.idx = 0;
     state.province = '';
+    state.editing = false;
+    state.sortByMatch = false;
+    state.excludeLow = false;
+    state.showAll = false;
     state.statementOrder = shuffle(state.statementOrder, cryptoRandom);
     state.partyOrder = shuffle(state.partyOrder, cryptoRandom);
     for (const k of Object.keys(state.weights)) state.weights[k] = DEFAULT_WEIGHT;
@@ -376,7 +525,14 @@ app.addEventListener('click', (e) => {
 
 app.addEventListener('change', (e) => {
   const el = e.target;
-  if (el.name === 'answer') answerAndAdvance(Number(el.value));
+  if (el.name === 'answer') {
+    // Selecting an answer only saves it; moving on is explicit (WCAG 3.2.2) unless chosen with a pointer.
+    saveAnswer(Number(el.value));
+    const next = app.querySelector('#q-next');
+    if (next) next.disabled = false;
+    const saved = app.querySelector('#saved');
+    if (saved) saved.textContent = t('savedAnswer')(t('answers')[Number(el.value) + 2]);
+  } else if (el.dataset.toggle === 'autoAdvance') state.autoAdvance = el.checked;
   else if (el.dataset.topic) state.weights[el.dataset.topic] = Number(el.value);
   else if (el.dataset.toggle) {
     state[el.dataset.toggle] = el.checked;
@@ -391,7 +547,7 @@ document.getElementById('lang')?.addEventListener('click', () => {
   const url = new URL(location.href);
   if (state.lang === 'en') url.searchParams.set('lang', 'en');
   else url.searchParams.delete('lang');
-  history.replaceState(null, '', url);
+  history.replaceState(history.state, '', url);
   render();
 });
 

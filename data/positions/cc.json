@@ -383,7 +383,7 @@
       "note": "Cristina Valido (CC, Grupo Mixto) votó Sí a convalidar el RDL 2/2025 (10-04-2025)."
     },
     {
-      "statement": "inm-reducir-llegadas",
+      "statement": "inm-devolver-irregulares",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
@@ -398,7 +398,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El manifiesto 2023 pide cooperar con los países de origen contra la inmigración irregular, sin pronunciarse sobre el número total de inmigrantes."
+      "note": "(pendiente de recodificar)"
     },
     {
       "statement": "cli-nucleares",
@@ -485,8 +485,8 @@
       "sources": [
         {
           "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
-          "title": "Manifiesto electoral Coalición por Canarias 2023",
-          "publisher": "Coalición Canaria",
+          "title": "Programa electoral 2023",
+          "publisher": "CC",
           "date": "2023-07-01",
           "quote": "",
           "accessed": "2026-10-31"

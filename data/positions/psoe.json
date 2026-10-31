@@ -443,10 +443,10 @@
       "note": "El Grupo Socialista votó a favor de convalidar el decreto-ley que creó el reparto obligatorio de menores migrantes no acompañados."
     },
     {
-      "statement": "inm-reducir-llegadas",
-      "stance": "disagree",
-      "confidence": "low",
-      "evidence_type": "official_statement",
+      "statement": "inm-devolver-irregulares",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
       "sources": [
         {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-68.PDF",
@@ -475,7 +475,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Pedro Sánchez (secretario general del PSOE) habló como presidente del Gobierno, no como portavoz del partido: defendió la inmigración frente al reto demográfico y quiere reducir solo la irregular. El programa de 2023 no fija posición sobre el número de llegadas."
+      "note": "(pendiente de recodificar)"
     },
     {
       "statement": "cli-nucleares",
@@ -582,32 +582,39 @@
     },
     {
       "statement": "ter-concierto-ccaa",
-      "stance": "disagree",
-      "confidence": "low",
-      "evidence_type": "official_statement",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
       "sources": [
+        {
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/politica-territorial-memoria-democratica/paginas/2025/140725-acuerdo-financiacion-singular-cataluna.aspx",
+          "title": "El Gobierno y la Generalitat acuerdan los cimientos de la nueva financiación singular para Cataluña",
+          "publisher": "La Moncloa (Gobierno de España)",
+          "date": "2025-07-14",
+          "quote": "se establecerán porcentajes de participación en la recaudación de los tributos que se acuerden (cesta de impuestos).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/hacienda/paginas/2026/090126-modelo-financiacion-comunidades.aspx",
+          "title": "Hacienda propone un nuevo modelo de financiación que otorgará 20.975 millones más en 2027 a las comunidades",
+          "publisher": "La Moncloa (Ministerio de Hacienda)",
+          "date": "2026-01-09",
+          "quote": "las comunidades que así lo deseen podrán acogerse a un sistema de caja común o compartida en el que los ingresos del IRPF y otros impuestos llegarán de manera simultánea a la administración estatal y autonómica",
+          "accessed": "2026-10-31"
+        },
         {
           "url": "https://www.moncloa.com/2024/06/17/psoe-enfoque-cataluna-financiacion-2670056/",
           "title": "PSOE se opone a concierto fiscal para Cataluña, pero promueve incremento de la financiación",
           "publisher": "Moncloa.com",
           "date": "2024-06-17",
-          "quote": "La portavoz del PSOE, Esther Peña , ha sido enfática en su rechazo a un sistema de concierto para Cataluña, similar al que disfrutan Euskadi y Navarra",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
-          "title": "Programa electoral elecciones generales 2023",
-          "publisher": "PSOE",
-          "date": "2023-07-07",
-          "quote": "Un modelo basado en los principios de equidad, solidaridad, autonomía financiera, corresponsabilidad fiscal, suficiencia financiera y lealtad institucional",
-          "page": "p. 234 del PDF",
+          "quote": "La portavoz del PSOE, Esther Peña , ha sido enfática en su rechazo a un sistema de concierto para Cataluña",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "Basado en un informe de prensa sobre la portavoz del PSOE (junio de 2024). Señal mixta: en agosto de 2024 el PSC pactó con ERC una «financiación singular» en la que la Agencia Tributaria de Cataluña recaudaría todos los impuestos, pero el PSOE sostiene que no es un concierto. El programa de 2023 defiende un sistema común multilateral. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (PSOE votó no.)"
+      "note": "Auditoría C-S01. Pruebas abiertas: (1) junio de 2024, prensa: la portavoz rechaza un 'concierto' (etiqueta) para Cataluña; (2) acuerdo PSC-ERC (2024, vía prensa): la Generalitat gestionaría, recaudaría, liquidaría e inspeccionaría todos los impuestos; (3) Gobierno-Generalitat, 14/7/2025 (Moncloa, fuente primaria): 'cesta de impuestos' con porcentajes de participación, ATC asumiría 'progresivamente' la gestión del IRPF y 'en el futuro' otros tributos, en red con la AEAT, compatible con la reforma general; (4) Hacienda, enero de 2026: modelo del régimen común con caja compartida voluntaria. Ninguna fuente primaria del PSOE o del Gobierno dice si una comunidad que lo pida debe poder recaudar y gestionar todos sus impuestos: el Gobierno acepta la gestión progresiva del IRPF pero no se pronuncia sobre 'todos'. No se encontró intervención parlamentaria 2025-2026 que lo aclare. Sin posición clara (antes disagree/baja). La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (PSOE votó no.)"
     },
     {
       "statement": "ter-recentralizar",

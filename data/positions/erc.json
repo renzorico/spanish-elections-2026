@@ -443,7 +443,7 @@
       "confidence": "high"
     },
     {
-      "statement": "inm-reducir-llegadas",
+      "statement": "inm-devolver-irregulares",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
@@ -459,7 +459,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El programa defiende vías legales y seguras y la «regulació dels fluxos», sin pronunciarse sobre reducir o aumentar las llegadas."
+      "note": "(pendiente de recodificar)"
     },
     {
       "statement": "cli-nucleares",
@@ -551,23 +551,22 @@
     {
       "statement": "ter-concierto-ccaa",
       "stance": "agree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Programa electoral eleccions generals 2023",
+          "title": "Programa electoral 2023",
           "publisher": "ERC",
           "date": "2023-07-01",
-          "quote": "Continuar avançant cap a la plena sobirania fiscal. Ampliar les funcions de l’Agència Tributària de Catalunya (ATC) i fer possible els convenis amb les entitats que conformen el sector públic per recaptar i gestionar tots els tributs",
-          "page": "p. 71 del PDF",
+          "quote": "Ampliar les funcions de l’Agència Tributària de Catalunya (ATC) i fer possible els convenis amb les entitats que conformen el sector públic per recaptar i gestionar tots els tributs que es paguen a Catalunya.",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "ERC pide que Cataluña recaude y gestione todos sus tributos. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (ERC votó sí.)"
+      "note": "Prueba de ámbito: ERC lo reclama para Cataluña, una comunidad que lo pide; no se pronuncia sobre otras comunidades. Se baja de alta a media por coherencia con BNG y Junts. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (ERC votó sí.)"
     },
     {
       "statement": "ter-recentralizar",

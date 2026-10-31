@@ -427,7 +427,7 @@
       "note": "Micó and Ibáñez voted yes to validate RDL 2/2025 (2025-04-10). In 2026 Compromís described accepting relocated minors as a legal obligation of each region."
     },
     {
-      "statement": "inm-reducir-llegadas",
+      "statement": "inm-devolver-irregulares",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
@@ -442,7 +442,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El programa pide una política migratoria basada en derechos, sin objetivo sobre el número de llegadas."
+      "note": "(pendiente de recodificar)"
     },
     {
       "statement": "cli-nucleares",
@@ -527,7 +527,7 @@
       "sources": [
         {
           "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
-          "title": "Programa de Compromís para Compromís-Sumar 2023",
+          "title": "Programa electoral Compromís-Sumar 2023",
           "publisher": "Compromís",
           "date": "2023-07-01",
           "quote": "",
@@ -537,7 +537,7 @@
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "El programa 2023 no trata el concierto económico ni la recaudación autonómica de todos los impuestos. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Compromís se abstuvo.)"
+      "note": "El programa 2023 no trata el concierto ni la recaudación autonómica de todos los impuestos. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Compromís se abstuvo.)"
     },
     {
       "statement": "ter-recentralizar",

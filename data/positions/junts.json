@@ -453,7 +453,7 @@
       "note": "Junts va pactar i donar suport al mecanisme de repartiment de 2025, amb una clàusula que compensa l'acollida prèvia de Catalunya. El juliol de 2024 s'havia oposat a una proposta semblant."
     },
     {
-      "statement": "inm-reducir-llegadas",
+      "statement": "inm-devolver-irregulares",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
@@ -468,7 +468,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Junts pide que Cataluña controle la inmigración y dice que su capacidad de acogida no es infinita, pero no se pronuncia sobre reducir las llegadas al conjunto de España."
+      "note": "(pendiente de recodificar)"
     },
     {
       "statement": "cli-nucleares",
@@ -559,23 +559,22 @@
     {
       "statement": "ter-concierto-ccaa",
       "stance": "agree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
-          "title": "Programa electoral per Catalunya (eleccions generals 2023)",
+          "title": "Programa electoral Junts per Catalunya 23J",
           "publisher": "Junts",
           "date": "2023-07-19",
           "quote": "L’Agència Tributària de Catalunya ha de poder recaptar, gestionar, liquidar i inspeccionar tots els tributs generats a Catalunya.",
-          "page": "p. 60 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "Junts pide que Cataluña recaude y gestione todos sus tributos. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Junts votó sí.)"
+      "note": "Prueba de ámbito: lo reclama solo para Cataluña; no se pronuncia sobre otras comunidades. Media por coherencia. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Junts votó sí.)"
     },
     {
       "statement": "ter-recentralizar",

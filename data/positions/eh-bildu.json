@@ -380,7 +380,7 @@
       "note": "Votó a favor (6 Sí) de convalidar el RDL 2/2025 de reparto de menores migrantes (10-04-2025)."
     },
     {
-      "statement": "inm-reducir-llegadas",
+      "statement": "inm-devolver-irregulares",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
@@ -395,7 +395,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El programa 2023 pide vías seguras y derogar la Ley de Extranjería, pero no se pronuncia sobre el número de llegadas."
+      "note": "(pendiente de recodificar)"
     },
     {
       "statement": "cli-nucleares",
@@ -483,18 +483,17 @@
       "sources": [
         {
           "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
-          "title": "Programa electoral 23J 2023",
+          "title": "Programa electoral 2023",
           "publisher": "EH Bildu",
           "date": "2023-07-01",
           "quote": "Concierto Económico Vasco y Convenio",
-          "page": "p. 16 del PDF",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "El programa defiende el Concierto vasco y el Convenio navarro propios, pero no se pronuncia sobre extender ese modelo a otras comunidades. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (EH Bildu votó sí.)"
+      "note": "El programa defiende el Concierto vasco y el Convenio navarro propios (que ya existen), no que otras comunidades lo pidan. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (EH Bildu votó sí.)"
     },
     {
       "statement": "ter-recentralizar",

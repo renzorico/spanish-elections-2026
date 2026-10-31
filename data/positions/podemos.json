@@ -390,7 +390,7 @@
       "note": "All 4 Podemos deputies voted yes to validate RDL 2/2025, which made the distribution of unaccompanied migrant minors among regions mandatory (2025-04-10)."
     },
     {
-      "statement": "inm-reducir-llegadas",
+      "statement": "inm-devolver-irregulares",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
@@ -405,7 +405,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición explícita en el programa conjunto de Sumar 2023 ni en declaraciones oficiales; podemos.info bloquea el acceso automatizado."
+      "note": "(pendiente de recodificar)"
     },
     {
       "statement": "cli-nucleares",
@@ -504,7 +504,7 @@
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "No se encontró posición oficial de Podemos sobre extender el modelo de concierto. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Sus diputados votaron mayoritariamente sí.)"
+      "note": "No se encontró posición oficial de Podemos sobre este asunto. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Sus diputados votaron mayoritariamente sí.)"
     },
     {
       "statement": "ter-recentralizar",

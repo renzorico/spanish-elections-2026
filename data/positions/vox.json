@@ -408,10 +408,10 @@
       "note": "All 33 Vox deputies voted against validating RDL 2/2025, which set up mandatory distribution of unaccompanied migrant minors among regions."
     },
     {
-      "statement": "inm-reducir-llegadas",
-      "stance": "agree",
-      "confidence": "medium",
-      "evidence_type": "program_2023",
+      "statement": "inm-devolver-irregulares",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
       "sources": [
         {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
@@ -441,7 +441,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El programa de 2023 se centra en la inmigración irregular, pero rechaza las «políticas de puertas abiertas» y la llegada «masiva»; en la precampaña de 2026 Vox habla de «remigración». No fija una cifra global, de ahí la confianza media."
+      "note": "(pendiente de recodificar)"
     },
     {
       "statement": "cli-nucleares",
@@ -541,15 +541,15 @@
           "title": "Programa electoral elecciones generales 2023",
           "publisher": "Vox",
           "date": "2023-07-01",
-          "quote": "Igualmente, la gestión y recaudación de todos los tributos estatales, cedidos o no, se realizará por la AEAT, poniendo fin a la proliferación de Agencias tributarias regionales",
-          "page": "p. 78 del PDF",
-          "accessed": "2026-10-31"
+          "quote": "la gestión y recaudación de todos los tributos estatales, cedidos o no, se realizará por la AEAT, poniendo fin a la proliferación de Agencias tributarias regionales",
+          "accessed": "2026-10-31",
+          "page": "medida 152.2"
         }
       ],
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "El programa quiere que toda la recaudación la haga la Agencia Tributaria estatal. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Vox votó no.)"
+      "note": "Texto explícito y general: toda la gestión y recaudación por la AEAT, sin agencias regionales. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Vox votó no.)"
     },
     {
       "statement": "ter-recentralizar",

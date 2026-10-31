@@ -180,15 +180,15 @@
     }
   },
   {
-    "id": "inm-reducir-llegadas",
+    "id": "inm-devolver-irregulares",
     "topic": "inmigracion",
     "text": {
-      "es": "España debería reducir el número de personas inmigrantes que llegan cada año.",
-      "en": "Spain should reduce the number of immigrants arriving each year."
+      "es": "España debería acelerar la devolución a sus países de las personas que han entrado de forma irregular y no tienen derecho a asilo.",
+      "en": "Spain should speed up the return to their home countries of people who entered irregularly and are not entitled to asylum."
     },
     "context": {
-      "es": "Se refiere al número total de llegadas, por vías legales o irregulares. La política migratoria (visados, permisos, fronteras) es competencia del Estado, dentro del marco de la Unión Europea.",
-      "en": "This refers to total arrivals, through legal or irregular routes. Migration policy (visas, permits, borders) is a State competence, within the EU framework."
+      "es": "Las devoluciones requieren un procedimiento administrativo o judicial y, en muchos casos, acuerdos con los países de origen. Quien pide asilo tiene derecho a que se estudie su solicitud.",
+      "en": "Returns require an administrative or judicial procedure and, in many cases, agreements with the countries of origin. Anyone who applies for asylum has the right to have the application examined."
     }
   },
   {

@@ -423,7 +423,7 @@
       "note": "All 27 SUMAR deputies voted yes to validate RDL 2/2025, which made the distribution of unaccompanied migrant minors among regions mandatory."
     },
     {
-      "statement": "inm-reducir-llegadas",
+      "statement": "inm-devolver-irregulares",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
@@ -438,7 +438,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "El capítulo de migraciones del programa de Sumar 2023 no fija posición sobre el número de llegadas; no se encontró declaración oficial."
+      "note": "(pendiente de recodificar)"
     },
     {
       "statement": "cli-nucleares",
@@ -545,7 +545,7 @@
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "El programa de Sumar 2023 no trata el concierto ni la recaudación autonómica de todos los impuestos (buscado: concierto, financiación autonómica, Agencia Tributaria). La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (El Grupo SUMAR se abstuvo mayoritariamente.)"
+      "note": "El programa de Sumar 2023 no trata el concierto ni la recaudación autonómica de todos los impuestos (búsqueda de 'concierto' sin resultados pertinentes). La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (El Grupo SUMAR se abstuvo mayoritariamente.)"
     },
     {
       "statement": "ter-recentralizar",
