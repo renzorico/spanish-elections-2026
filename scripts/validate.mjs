@@ -124,7 +124,10 @@ export function validate(data) {
         const hasQuote = (pos.sources || []).some((s) => s.quote && !/congreso\.es/.test(s.url));
         if (!direct && !hasQuote) err(`${where}: vote_xv coding needs a direct curated vote (related votes alone never justify a coding)`);
       }
-      for (const term of findLoadedTerms(noteText(pos.note))) warn(`${where}: loaded term "${term}" in note`);
+      if (pos.note !== undefined && !(typeof pos.note === 'object' && pos.note.es && pos.note.en)) err(`${where}: note must be {es, en} with both languages`);
+      if (/calibraci|redact[óo] en sentido inverso|codificado contra|pendiente de recodificar|subagent/i.test(noteText(pos.note))) err(`${where}: note contains internal process language`);
+      for (const src of pos.sources || []) if (!['es', 'ca', 'gl', 'eu', 'en'].includes(src.lang)) err(`${where}: source needs lang (es|ca|gl|eu|en): ${src.url}`);
+      for (const term of findLoadedTerms(noteText(pos.note))) err(`${where}: loaded term "${term}" in note (quote official titles in «…»)`);
 
       // Confidence ladder (same rule for every party; see data/SCHEMA.md)
       if (!ncp && pos.confidence === 'high') {
@@ -174,6 +177,7 @@ export function validate(data) {
     if (!['direct', 'related'].includes(v.relation)) err(`vote ${v.id}: relation must be direct|related`);
     if (!/^https:\/\/www\.congreso\.es\//.test(v.url_json || '')) err(`vote ${v.id}: url_json must be a congreso.es URL`);
     if (!ISO.test(v.date || '')) err(`vote ${v.id}: date not ISO`);
+    if (v.note !== undefined && !(typeof v.note === 'object' && v.note.es && v.note.en)) err(`vote ${v.id}: note must be {es, en} with both languages`);
     for (const term of findLoadedTerms(noteText(v.note))) err(`vote ${v.id}: loaded term "${term}" in note (quote official titles in «…»)`);
 
     // derived.json must exist for every curated vote, match its metadata and recompute from the raw Congreso file

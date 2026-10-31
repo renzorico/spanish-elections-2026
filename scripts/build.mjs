@@ -32,7 +32,7 @@ for (const p of d.parties) {
       stance: pos.stance,
       confidence: pos.confidence || null,
       evidence_type: pos.evidence_type,
-      sources: (pos.sources || []).map(({ url, title, publisher, date, quote, page }) => ({ url, title, publisher, date, quote, page })),
+      sources: (pos.sources || []).map(({ url, title, publisher, date, date_unknown, quote, page, lang }) => ({ url, title, publisher, date, date_unknown, quote, page, lang })),
       vote_refs: pos.vote_refs || [],
       note: pos.note || null,
     };
