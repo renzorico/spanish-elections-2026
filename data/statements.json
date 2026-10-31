@@ -1,0 +1,362 @@
+[
+  {
+    "id": "viv-limite-alquiler",
+    "topic": "vivienda",
+    "text": {
+      "es": "Las administraciones deberían poder limitar el precio del alquiler en las zonas donde es especialmente alto.",
+      "en": "Public authorities should be able to cap rents in areas where they are especially high."
+    },
+    "context": {
+      "es": "La Ley 12/2023 por el derecho a la vivienda permite a las comunidades autónomas declarar «zonas tensionadas» y limitar allí las subidas de alquiler. Cada comunidad decide si la aplica.",
+      "en": "Housing Law 12/2023 lets regional governments declare 'stressed areas' and cap rent increases there. Each region decides whether to apply it."
+    }
+  },
+  {
+    "id": "viv-compra-no-residentes",
+    "topic": "vivienda",
+    "text": {
+      "es": "La compra de vivienda por personas que no residen en la Unión Europea debería tener impuestos mucho más altos.",
+      "en": "Home purchases by people who do not live in the European Union should be taxed much more heavily."
+    },
+    "context": {
+      "es": "En enero de 2025 el Gobierno anunció una propuesta de gravamen de hasta el 100 % sobre estas compras.",
+      "en": "In January 2025 the Government announced a proposal for a levy of up to 100% on such purchases."
+    }
+  },
+  {
+    "id": "viv-desalojo-rapido",
+    "topic": "vivienda",
+    "text": {
+      "es": "Debería acelerarse por ley el desalojo de viviendas ocupadas sin permiso del propietario, también cuando los ocupantes estén en situación vulnerable.",
+      "en": "The law should speed up the eviction of people occupying a home without the owner's permission, including when the occupants are in a vulnerable situation."
+    },
+    "context": {
+      "es": "Ocupar una vivienda sin título es delito; el tiempo que tarda el desalojo depende del procedimiento judicial y de si hay personas vulnerables.",
+      "en": "Occupying a home without legal title is an offence; how long eviction takes depends on the court procedure and on whether vulnerable people are involved."
+    }
+  },
+  {
+    "id": "eco-impuesto-grandes-fortunas",
+    "topic": "economia",
+    "text": {
+      "es": "Debería mantenerse un impuesto específico sobre los patrimonios más altos.",
+      "en": "There should continue to be a specific tax on the largest personal fortunes."
+    },
+    "context": {
+      "es": "Existen el Impuesto sobre el Patrimonio (gestionado por las comunidades, que pueden bonificarlo) y el Impuesto Temporal de Solidaridad de las Grandes Fortunas, creado en 2022.",
+      "en": "There is a Wealth Tax (managed by the regions, which can reduce it) and a Temporary Solidarity Tax on Large Fortunes created in 2022."
+    }
+  },
+  {
+    "id": "eco-bajar-irpf",
+    "topic": "economia",
+    "text": {
+      "es": "Deberían bajarse los impuestos sobre la renta (IRPF), aunque el Estado ingrese menos.",
+      "en": "Income tax (IRPF) should be lowered, even if the State collects less revenue."
+    },
+    "context": {
+      "es": "El IRPF es el impuesto que pagan las personas por sus ingresos; su recaudación se reparte entre el Estado y las comunidades autónomas.",
+      "en": "IRPF is the personal income tax; its revenue is shared between the State and the regions."
+    }
+  },
+  {
+    "id": "eco-impuesto-energeticas-banca",
+    "topic": "economia",
+    "text": {
+      "es": "Las grandes empresas energéticas y los bancos deberían pagar un impuesto especial sobre sus beneficios.",
+      "en": "Large energy companies and banks should pay a special tax on their profits."
+    },
+    "context": {
+      "es": "En 2023 y 2024 se aplicaron gravámenes temporales a grandes energéticas y entidades financieras. Su continuidad ha sido objeto de votaciones en el Congreso.",
+      "en": "Temporary levies on large energy companies and banks applied in 2023 and 2024. Whether to continue them has been voted on in the Congreso."
+    }
+  },
+  {
+    "id": "tra-jornada-37h",
+    "topic": "trabajo",
+    "text": {
+      "es": "La jornada laboral máxima debería reducirse por ley a 37,5 horas semanales sin bajar el salario.",
+      "en": "The legal maximum working week should be cut to 37.5 hours without a pay cut."
+    },
+    "context": {
+      "es": "La jornada máxima legal es de 40 horas semanales. Un proyecto de ley para reducirla a 37,5 horas se votó en el Congreso en septiembre de 2025.",
+      "en": "The legal maximum is 40 hours a week. A bill to cut it to 37.5 hours was voted on in the Congreso in September 2025."
+    }
+  },
+  {
+    "id": "tra-salario-minimo",
+    "topic": "trabajo",
+    "text": {
+      "es": "El salario mínimo debería seguir subiendo hasta llegar al 60 % del salario medio.",
+      "en": "The minimum wage should keep rising until it reaches 60% of the average wage."
+    },
+    "context": {
+      "es": "El Gobierno fija el salario mínimo interprofesional cada año, tras consultar a sindicatos y patronal.",
+      "en": "The Government sets the national minimum wage every year after consulting unions and employers."
+    }
+  },
+  {
+    "id": "san-gestion-privada",
+    "topic": "sanidad",
+    "text": {
+      "es": "Debería limitarse por ley que la sanidad pública encargue la gestión de hospitales o servicios a empresas privadas.",
+      "en": "The law should restrict public health services from contracting private companies to run hospitals or services."
+    },
+    "context": {
+      "es": "Las comunidades autónomas gestionan la sanidad y algunas encargan centros o servicios a empresas privadas. El Gobierno presentó en 2025 una propuesta de ley sobre gestión pública del Sistema Nacional de Salud.",
+      "en": "Regions run health care and some contract hospitals or services out to private companies. In 2025 the Government put forward a bill on public management of the National Health System."
+    }
+  },
+  {
+    "id": "san-dental-publica",
+    "topic": "sanidad",
+    "text": {
+      "es": "La sanidad pública debería cubrir la atención dental general (empastes, endodoncias, prótesis) para toda la población.",
+      "en": "Public health care should cover general dental care (fillings, root canals, dentures) for everyone."
+    },
+    "context": {
+      "es": "Hoy la sanidad pública cubre solo una parte de la atención bucodental, con diferencias entre comunidades.",
+      "en": "Today public health care only covers part of dental care, with differences between regions."
+    }
+  },
+  {
+    "id": "der-aborto-constitucion",
+    "topic": "derechos",
+    "text": {
+      "es": "El derecho al aborto debería incluirse en la Constitución.",
+      "en": "The right to abortion should be written into the Constitution."
+    },
+    "context": {
+      "es": "El aborto está regulado por la Ley Orgánica 2/2010. Reformar la Constitución requiere mayorías de tres quintos en ambas cámaras.",
+      "en": "Abortion is regulated by Organic Law 2/2010. Amending the Constitution requires three-fifths majorities in both chambers."
+    }
+  },
+  {
+    "id": "der-eutanasia",
+    "topic": "derechos",
+    "text": {
+      "es": "Debería mantenerse la ley que regula la eutanasia.",
+      "en": "The law regulating euthanasia should be kept."
+    },
+    "context": {
+      "es": "La Ley Orgánica 3/2021 permite pedir ayuda médica para morir en casos de enfermedad grave e incurable, con varios controles.",
+      "en": "Organic Law 3/2021 allows people with serious, incurable conditions to request medical assistance in dying, subject to several checks."
+    }
+  },
+  {
+    "id": "der-ley-trans",
+    "topic": "derechos",
+    "text": {
+      "es": "Debería mantenerse que una persona mayor de 16 años pueda cambiar el sexo en el registro civil con su propia declaración, sin informes médicos.",
+      "en": "People over 16 should continue to be able to change their legal sex at the civil registry by their own declaration, without medical reports."
+    },
+    "context": {
+      "es": "Es lo que establece la Ley 4/2023 (conocida como «ley trans»).",
+      "en": "This is what Law 4/2023 (known as the 'trans law') provides."
+    }
+  },
+  {
+    "id": "inm-regularizacion",
+    "topic": "inmigracion",
+    "text": {
+      "es": "Debería hacerse una regularización extraordinaria de las personas extranjeras que ya viven en España sin permiso de residencia.",
+      "en": "There should be a one-off regularisation of foreign nationals already living in Spain without a residence permit."
+    },
+    "context": {
+      "es": "En abril de 2024 el Congreso admitió a trámite una iniciativa legislativa popular (ILP), apoyada por más de 600.000 firmas, para una regularización extraordinaria.",
+      "en": "In April 2024 the Congreso agreed to consider a citizens' legislative initiative, backed by over 600,000 signatures, for a one-off regularisation."
+    }
+  },
+  {
+    "id": "inm-reparto-menores",
+    "topic": "inmigracion",
+    "text": {
+      "es": "Todas las comunidades autónomas deberían estar obligadas a acoger a menores migrantes no acompañados según un reparto fijado por el Estado.",
+      "en": "All regions should be required to take in unaccompanied migrant minors according to a distribution set by the State."
+    },
+    "context": {
+      "es": "En 2025 se aprobó por real decreto-ley un mecanismo de reparto obligatorio cuando una comunidad supera su capacidad de acogida.",
+      "en": "In 2025 a royal decree-law created a mandatory distribution mechanism for when a region exceeds its reception capacity."
+    }
+  },
+  {
+    "id": "inm-reducir-llegadas",
+    "topic": "inmigracion",
+    "text": {
+      "es": "España debería reducir el número de personas inmigrantes que llegan cada año.",
+      "en": "Spain should reduce the number of immigrants arriving each year."
+    },
+    "context": {
+      "es": "La política migratoria (visados, permisos, fronteras) es competencia del Estado, dentro del marco de la Unión Europea.",
+      "en": "Migration policy (visas, permits, borders) is a State competence, within the EU framework."
+    }
+  },
+  {
+    "id": "cli-nucleares",
+    "topic": "clima",
+    "text": {
+      "es": "Las centrales nucleares deberían seguir funcionando más allá del calendario de cierre previsto.",
+      "en": "Nuclear power plants should keep operating beyond the planned closure timetable."
+    },
+    "context": {
+      "es": "El calendario acordado en 2019 entre el Gobierno y las eléctricas prevé cerrar las centrales entre 2027 y 2035.",
+      "en": "The timetable agreed in 2019 between the Government and the power companies foresees closing the plants between 2027 and 2035."
+    }
+  },
+  {
+    "id": "cli-coches-2035",
+    "topic": "clima",
+    "text": {
+      "es": "Debería mantenerse que, a partir de 2035, no se puedan vender coches nuevos de gasolina o diésel.",
+      "en": "The rule that new petrol or diesel cars can no longer be sold from 2035 should be kept."
+    },
+    "context": {
+      "es": "Lo establece una norma de la Unión Europea aprobada en 2023; su posible flexibilización se debate en la UE.",
+      "en": "This comes from an EU rule adopted in 2023; possible changes to it are being debated in the EU."
+    }
+  },
+  {
+    "id": "ter-amnistia",
+    "topic": "territorial",
+    "text": {
+      "es": "Debería mantenerse la ley de amnistía para las personas implicadas en el proceso independentista de Cataluña.",
+      "en": "The amnesty law for people involved in the Catalan independence process should be kept."
+    },
+    "context": {
+      "es": "La Ley Orgánica 1/2024 de amnistía cubre hechos vinculados al proceso independentista entre 2011 y 2023.",
+      "en": "Organic Law 1/2024 on amnesty covers acts linked to the independence process between 2011 and 2023."
+    }
+  },
+  {
+    "id": "ter-referendum",
+    "topic": "territorial",
+    "text": {
+      "es": "Una comunidad autónoma debería poder votar en referéndum si quiere independizarse, si lo acuerda con el Estado.",
+      "en": "A region should be able to hold a referendum on independence if it is agreed with the State."
+    },
+    "context": {
+      "es": "Actualmente no existe un procedimiento legal para que una comunidad autónoma celebre un referéndum de independencia.",
+      "en": "There is currently no legal procedure for a region to hold an independence referendum."
+    }
+  },
+  {
+    "id": "ter-financiacion-cataluna",
+    "topic": "territorial",
+    "text": {
+      "es": "Cataluña debería recaudar y gestionar todos sus impuestos, con un modelo parecido al del País Vasco y Navarra.",
+      "en": "Catalonia should collect and manage all of its taxes, under a model similar to that of the Basque Country and Navarre."
+    },
+    "context": {
+      "es": "El País Vasco y Navarra recaudan casi todos sus impuestos (concierto y convenio). El resto de comunidades se financian con el sistema común.",
+      "en": "The Basque Country and Navarre collect almost all their own taxes. The other regions are funded through the common system."
+    }
+  },
+  {
+    "id": "ter-recentralizar",
+    "topic": "territorial",
+    "text": {
+      "es": "La educación y la sanidad deberían volver a ser gestionadas por el Estado central en lugar de por las comunidades autónomas.",
+      "en": "Education and health care should go back to being managed by the central State instead of the regions."
+    },
+    "context": {
+      "es": "Desde los años 80 y 90 las comunidades autónomas gestionan la educación y la sanidad.",
+      "en": "Since the 1980s and 1990s, the regions have managed education and health care."
+    }
+  },
+  {
+    "id": "ter-lenguas-congreso",
+    "topic": "territorial",
+    "text": {
+      "es": "Debería seguir permitiéndose usar el catalán, el euskera y el gallego en los debates del Congreso.",
+      "en": "Catalan, Basque and Galician should continue to be allowed in Congreso debates."
+    },
+    "context": {
+      "es": "El Congreso reformó su Reglamento en 2023 para permitirlo, con interpretación simultánea.",
+      "en": "The Congreso changed its rules in 2023 to allow this, with simultaneous interpretation."
+    }
+  },
+  {
+    "id": "edu-concertada",
+    "topic": "educacion",
+    "text": {
+      "es": "Debería reducirse la financiación pública de los colegios concertados para destinarla a la escuela pública.",
+      "en": "Public funding for state-subsidised private schools ('concertados') should be reduced and moved to public schools."
+    },
+    "context": {
+      "es": "Los colegios concertados son de titularidad privada pero se financian en gran parte con dinero público.",
+      "en": "'Concertado' schools are privately owned but largely publicly funded."
+    }
+  },
+  {
+    "id": "edu-lengua-castellano",
+    "topic": "educacion",
+    "text": {
+      "es": "Las familias deberían poder elegir que sus hijos estudien principalmente en castellano en cualquier comunidad autónoma.",
+      "en": "Families should be able to choose for their children to be taught mainly in Spanish in every region."
+    },
+    "context": {
+      "es": "En las comunidades con lengua cooficial, cada una aplica su propio modelo lingüístico en la escuela.",
+      "en": "Regions with a co-official language each apply their own language model in schools."
+    }
+  },
+  {
+    "id": "ins-cgpj",
+    "topic": "instituciones",
+    "text": {
+      "es": "Los jueces deberían elegir directamente a la mayoría de los miembros del Consejo General del Poder Judicial, en lugar del Congreso y el Senado.",
+      "en": "Judges themselves should directly elect most members of the General Council of the Judiciary, instead of the Congreso and Senate."
+    },
+    "context": {
+      "es": "El Consejo General del Poder Judicial gobierna a los jueces. Sus vocales los eligen el Congreso y el Senado por mayoría de tres quintos.",
+      "en": "The General Council of the Judiciary governs the judiciary. Its members are chosen by the Congreso and the Senate by a three-fifths majority."
+    }
+  },
+  {
+    "id": "ins-referendum-monarquia",
+    "topic": "instituciones",
+    "text": {
+      "es": "Debería celebrarse un referéndum para que la ciudadanía elija entre monarquía y república.",
+      "en": "There should be a referendum for citizens to choose between monarchy and republic."
+    },
+    "context": {
+      "es": "La Constitución de 1978 establece la monarquía parlamentaria. Cambiarlo exige el procedimiento reforzado de reforma constitucional.",
+      "en": "The 1978 Constitution establishes a parliamentary monarchy. Changing this requires the special constitutional amendment procedure."
+    }
+  },
+  {
+    "id": "ins-memoria-democratica",
+    "topic": "instituciones",
+    "text": {
+      "es": "Debería mantenerse la Ley de Memoria Democrática de 2022.",
+      "en": "The 2022 Democratic Memory Law should be kept."
+    },
+    "context": {
+      "es": "La Ley 20/2022 regula, entre otras cosas, la búsqueda de víctimas de la Guerra Civil y la dictadura y la retirada de símbolos franquistas.",
+      "en": "Law 20/2022 covers, among other things, the search for victims of the Civil War and the dictatorship and the removal of Francoist symbols."
+    }
+  },
+  {
+    "id": "ext-gasto-defensa",
+    "topic": "exterior",
+    "text": {
+      "es": "España debería aumentar su gasto en defensa hasta alcanzar los objetivos fijados por la OTAN.",
+      "en": "Spain should increase defence spending to meet the targets set by NATO."
+    },
+    "context": {
+      "es": "En la cumbre de la OTAN de 2025 los aliados fijaron un objetivo de hasta el 5 % del PIB; España defendió que le basta con alrededor del 2,1 %.",
+      "en": "At the 2025 NATO summit allies set a target of up to 5% of GDP; Spain argued that around 2.1% is enough for it."
+    }
+  },
+  {
+    "id": "ext-embargo-israel",
+    "topic": "exterior",
+    "text": {
+      "es": "España debería mantener la prohibición de comprar y vender armas a Israel.",
+      "en": "Spain should keep its ban on buying and selling arms to Israel."
+    },
+    "context": {
+      "es": "En 2025 el Gobierno aprobó un real decreto-ley de embargo de armas a Israel, que se votó en el Congreso.",
+      "en": "In 2025 the Government approved a royal decree-law imposing an arms embargo on Israel, which was voted on in the Congreso."
+    }
+  }
+]
