@@ -9,7 +9,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion175/20260428/Votacion003/VOT_20260428200330.json",
     "title": "Real Decreto-ley 8/2026, de 20 de marzo, de medidas en el alquiler en respuesta a las consecuencias económicas y sociales de la Guerra de Irán.",
     "yes_means": "agree",
-    "note": "Convalidación del RDL 8/2026: prórroga extraordinaria de dos años de los contratos de alquiler y tope estatal del 2 % a la actualización anual de la renta. Sí = de acuerdo con limitar el alquiler; relación indirecta porque el tope es estatal y no por zonas. No convalidado (166-177-5).",
+    "note": {
+      "es": "Convalidación del RDL 8/2026: prórroga extraordinaria de dos años de los contratos de alquiler y tope estatal del 2 % a la actualización anual de la renta. Sí = de acuerdo con limitar el alquiler. Relación indirecta: el tope es estatal, no por zonas. No convalidado: 166 a favor, 177 en contra, 5 abstenciones.",
+      "en": "Validation of Royal Decree-law 8/2026: extraordinary two-year extension of rental contracts and a state-wide 2% cap on annual rent updates. Yes = agrees with limiting rents. Only indirectly related: the cap is state-wide, not by area. Not validated: 166 for, 177 against, 5 abstentions."
+    },
     "relation": "related"
   },
   {
@@ -22,7 +25,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion086/20241217/Votacion001/VOT_20241217205720.json",
     "title": "Proposición de Ley de los Grupos Parlamentarios Plurinacional SUMAR, Republicano, Euskal Herria Bildu y Mixto, para la regulación de los contratos de alquiler temporales y alquiler de habitaciones.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL (SUMAR, ERC, Bildu, Mixto) para regular los alquileres temporales y de habitaciones, con el objetivo de que no escapen a la regulación de la Ley de vivienda (incluida la contención de rentas en zonas tensionadas). Relación indirecta con la limitación de precios: sí = agree. Aprobada 176-169.",
+    "note": {
+      "es": "Toma en consideración de la proposición de ley (SUMAR, ERC, Bildu, Mixto) para regular los alquileres temporales y de habitaciones, de modo que no escapen a la Ley de vivienda (incluida la contención de rentas en zonas tensionadas). Sí = de acuerdo. Relación indirecta con la limitación de precios. Aprobada: 176 a favor, 169 en contra.",
+      "en": "Bill (SUMAR, ERC, Bildu, Mixto) taken into consideration to regulate temporary and room rentals so they do not escape the Housing Law (including rent containment in tense-market areas). Yes = agrees. Only indirectly related to limiting prices. Approved: 176 for, 169 against."
+    },
     "relation": "related"
   },
   {
@@ -35,7 +41,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
     "title": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
     "yes_means": "agree",
-    "note": "Toma en consideración de la proposición de ley orgánica de Junts (título oficial: «de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles»), que acelera los desalojos. Sí = de acuerdo. Aprobada 300-44.",
+    "note": {
+      "es": "Toma en consideración de la proposición de ley orgánica de Junts (título oficial: «de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles»), que acelera los desalojos. Sí = de acuerdo. Aprobada: 300 a favor, 44 en contra.",
+      "en": "Organic bill by Junts taken into consideration (official title: \"urgent measures to tackle the illegal occupation of properties\"), which speeds up evictions. Yes = agrees. Approved: 300 for, 44 against."
+    },
     "relation": "direct"
   },
   {
@@ -48,7 +57,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
     "title": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la proposición de ley orgánica del PP (título oficial: «contra la ocupación ilegal de inmuebles…»), que acelera los desalojos. Sí = de acuerdo. Aprobada 171-164-11.",
+    "note": {
+      "es": "Toma en consideración de la proposición de ley orgánica del PP (título oficial: «contra la ocupación ilegal de inmuebles…»), que acelera los desalojos. Sí = de acuerdo. Aprobada: 171 a favor, 164 en contra, 11 abstenciones.",
+      "en": "Organic bill by the PP taken into consideration (official title: \"against the illegal occupation of properties…\"), which speeds up evictions. Yes = agrees. Approved: 171 for, 164 against, 11 abstentions."
+    },
     "relation": "direct"
   },
   {
@@ -61,7 +73,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
     "yes_means": "agree",
-    "note": "PNL del PP para deflactar el IRPF (ajustar tarifa a la inflación), lo que reduce la carga efectiva y la recaudación. Medida relacionada, no una rebaja general de tipos: sí = agree (confianza media). Aprobada 169-160-14.",
+    "note": {
+      "es": "Proposición no de ley del PP para deflactar el IRPF (ajustar la tarifa a la inflación), lo que reduce la carga efectiva y la recaudación. Sí = de acuerdo. Medida relacionada, no una rebaja general de tipos. Aprobada: 169 a favor, 160 en contra, 14 abstenciones.",
+      "en": "Non-binding motion by the PP to index income tax (IRPF) to inflation, which lowers the effective burden and revenue. Yes = agrees. Related measure, not a general cut in rates. Approved: 169 for, 160 against, 14 abstentions."
+    },
     "relation": "related"
   },
   {
@@ -74,7 +89,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
     "yes_means": "agree",
-    "note": "PNL del PP para ajustar el IRPF a la inflación (deflactación = rebaja efectiva del impuesto). Relacionada, no idéntica a una bajada general: sí = agree (confianza media). Aprobada 179-164-5.",
+    "note": {
+      "es": "Proposición no de ley del PP para ajustar el IRPF a la inflación (la deflactación supone una rebaja efectiva del impuesto). Sí = de acuerdo. Relacionada, no idéntica a una bajada general de tipos. Aprobada: 179 a favor, 164 en contra, 5 abstenciones.",
+      "en": "Non-binding motion by the PP to adjust income tax (IRPF) to inflation (indexation amounts to an effective tax cut). Yes = agrees. Related, but not the same as a general rate cut. Approved: 179 for, 164 against, 5 abstentions."
+    },
     "relation": "related"
   },
   {
@@ -87,7 +105,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
     "title": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
     "yes_means": "agree",
-    "note": "Convalidación del RDL 10/2024, que prorrogaba el gravamen temporal energético en 2025. Sí = mantener un impuesto especial a las energéticas (de acuerdo). No convalidado 165-183-1.",
+    "note": {
+      "es": "Convalidación del RDL 10/2024, que prorrogaba el gravamen temporal energético en 2025. Sí = mantener un impuesto especial a las energéticas (de acuerdo). No convalidado: 165 a favor, 183 en contra, 1 abstención.",
+      "en": "Validation of Royal Decree-law 10/2024, which extended the temporary energy levy into 2025. Yes = keeping a special tax on energy companies (agrees). Not validated: 165 for, 183 against, 1 abstention."
+    },
     "relation": "direct"
   },
   {
@@ -100,7 +121,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
     "title": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias (antes denominado Proyecto de Ley por la que se establece un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud).",
     "yes_means": "disagree",
-    "note": "Votación del dictamen de la Ley 7/2024, que crea el impuesto sobre el margen de intereses y comisiones de las entidades financieras junto con otros impuestos (mínimo global, cigarrillos electrónicos…). Sí = crear el impuesto a la banca, es decir, en desacuerdo con eliminarlo. Relación indirecta por ir en un paquete con otras medidas.",
+    "note": {
+      "es": "Votación del dictamen de la Ley 7/2024, que crea el impuesto sobre el margen de intereses y comisiones de las entidades financieras junto con otros impuestos (mínimo global, cigarrillos electrónicos…). Sí = crear el impuesto a la banca, es decir, en desacuerdo con eliminarlo. Relación indirecta: va en un paquete con otras medidas.",
+      "en": "Vote on the committee report of Law 7/2024, which creates a tax on financial institutions' interest and fee margin along with other taxes (global minimum, e-cigarettes…). Yes = creating the bank tax, i.e. disagrees with abolishing it. Only indirectly related: it is part of a package with other measures."
+    },
     "relation": "related"
   },
   {
@@ -113,7 +137,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
     "yes_means": "agree",
-    "note": "PNL del PSOE para impulsar un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las energéticas. Sí = agree (ámbito UE, solo energéticas). Rechazada 166-176-5.",
+    "note": {
+      "es": "Proposición no de ley del PSOE para impulsar un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las energéticas. Sí = de acuerdo. Relación indirecta: es de ámbito UE y solo afecta a las energéticas. Rechazada: 166 a favor, 176 en contra, 5 abstenciones.",
+      "en": "Non-binding motion by the PSOE to promote an exceptional EU-level levy on the windfall profits of energy companies. Yes = agrees. Only indirectly related: it is EU-wide and covers energy companies only. Rejected: 166 for, 176 against, 5 abstentions."
+    },
     "relation": "related"
   },
   {
@@ -126,7 +153,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion130/20250910/Votacion010/VOT_20250910213544.json",
     "title": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo y la garantía del registro de jornada y el derecho a la desconexión, presentadas por los Grupos Parlamentarios Junts per Catalunya, VOX y Popular en el Congreso.",
     "yes_means": "disagree",
-    "note": "Enmiendas a la totalidad (Junts, Vox, PP) al Proyecto de Ley de reducción de la jornada máxima a 37,5 horas semanales sin reducción salarial. Sí = devolver el proyecto, por tanto en contra de la afirmación (disagree). Aprobadas 178-170: el proyecto decayó.",
+    "note": {
+      "es": "Enmiendas a la totalidad (Junts, Vox, PP) al proyecto de ley de reducción de la jornada máxima a 37,5 horas semanales sin reducción salarial. Sí = devolver el proyecto, es decir, en desacuerdo. Aprobadas: 178 a favor, 170 en contra; el proyecto decayó.",
+      "en": "Amendments to the whole (Junts, Vox, PP) against the bill reducing the maximum working week to 37.5 hours with no pay cut. Yes = sending the bill back, i.e. disagrees. Approved: 178 for, 170 against; the bill lapsed."
+    },
     "relation": "direct"
   },
   {
@@ -139,7 +169,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion023/20240222/Votacion002/VOT_20240222110733.json",
     "title": "Proposición no de Ley del Grupo Parlamentario SUMAR, relativa a la reducción de la jornada máxima legal de trabajo ordinario.",
     "yes_means": "agree",
-    "note": "PNL de SUMAR sobre la reducción de la jornada máxima legal de trabajo (el acuerdo de Gobierno fijaba 37,5 h sin pérdida salarial; no se ha cotejado el texto literal de la PNL). Sí = agree. Aprobada 169-33-142 (PP se abstuvo).",
+    "note": {
+      "es": "Proposición no de ley de SUMAR sobre la reducción de la jornada máxima legal (el acuerdo de Gobierno fijaba 37,5 h sin pérdida salarial; no se ha cotejado el texto literal). Sí = de acuerdo. Aprobada: 169 a favor, 33 en contra, 142 abstenciones (el PP se abstuvo).",
+      "en": "Non-binding motion by SUMAR on reducing the legal maximum working week (the government agreement set 37.5 hours with no pay cut; the motion's exact text has not been checked). Yes = agrees. Approved: 169 for, 33 against, 142 abstentions (the PP abstained)."
+    },
     "relation": "related"
   },
   {
@@ -152,7 +185,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion177/20260430/Votacion012/VOT_20260430125200.json",
     "title": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de reforma del artículo 43 de la Constitución Española, presentadas por los Grupos Parlamentarios Popular en el Congreso y VOX.",
     "yes_means": "disagree",
-    "note": "Enmiendas a la totalidad (PP y Vox) al Proyecto de reforma del artículo 43 de la Constitución para incluir el derecho al aborto. Sí = rechazar la reforma (disagree). Rechazadas 171-177. No consta en los datos abiertos una votación final de la reforma.",
+    "note": {
+      "es": "Enmiendas a la totalidad (PP y Vox) al proyecto de reforma del artículo 43 de la Constitución para incluir el derecho al aborto. Sí = rechazar la reforma, es decir, en desacuerdo. Rechazadas: 171 a favor, 177 en contra. Los datos abiertos no recogen una votación final de la reforma.",
+      "en": "Amendments to the whole (PP and Vox) against the bill amending Article 43 of the Constitution to include the right to abortion. Yes = rejecting the reform, i.e. disagrees. Rejected: 171 for, 177 against. The open data show no final vote on the reform."
+    },
     "relation": "direct"
   },
   {
@@ -165,7 +201,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
     "title": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España (corresponde al número de expediente 120/000026/0000 de la XIV Legislatura).",
     "yes_means": "agree",
-    "note": "Toma en consideración de la ILP para una regularización extraordinaria de personas extranjeras. Sí = agree. Aprobada 310-33 (solo Vox en contra).",
+    "note": {
+      "es": "Toma en consideración de la iniciativa legislativa popular para una regularización extraordinaria de personas extranjeras. Sí = de acuerdo. Aprobada: 310 a favor, 33 en contra (solo Vox en contra).",
+      "en": "Popular legislative initiative for an extraordinary regularisation of foreign nationals taken into consideration. Yes = agrees. Approved: 310 for, 33 against (only Vox against)."
+    },
     "relation": "direct"
   },
   {
@@ -178,7 +217,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion095/20250226/Votacion007/VOT_20250226151629.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Mixto (Sra. Belarra Urteaga), relativa a la regularización de personas migrantes. Se vota en los términos de la enmienda presentada por los Grupos Parlamentarios Mixto (Sra. Belarra Urteaga y Sr. Rego Candamil), Euskal Herria Bildu, Republicano y Plurinacional SUMAR.",
     "yes_means": "agree",
-    "note": "PNL de Podemos (Belarra) sobre la regularización de personas migrantes, votada con la enmienda de Mixto, Bildu, ERC y SUMAR. Sí = agree. Rechazada 46-183-119.",
+    "note": {
+      "es": "Proposición no de ley de Podemos (Belarra) sobre la regularización de personas migrantes, votada con la enmienda de Mixto, Bildu, ERC y SUMAR. Sí = de acuerdo. Relación indirecta: es una proposición no de ley, no una ley. Rechazada: 46 a favor, 183 en contra, 119 abstenciones.",
+      "en": "Non-binding motion by Podemos (Belarra) on regularising migrants, voted with the amendment from Mixto, Bildu, ERC and SUMAR. Yes = agrees. Related: it is a non-binding motion, not a law. Rejected: 46 for, 183 against, 119 abstentions."
+    },
     "relation": "related"
   },
   {
@@ -191,7 +233,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion106/20250410/Votacion015/VOT_20250410155154.json",
     "title": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
     "yes_means": "agree",
-    "note": "Convalidación del RDL 2/2025 (contingencias migratorias extraordinarias), que establece un reparto obligatorio de menores migrantes no acompañados entre comunidades autónomas. Sí = agree. Convalidado 179-170-1.",
+    "note": {
+      "es": "Convalidación del RDL 2/2025 (contingencias migratorias extraordinarias), que establece un reparto obligatorio de menores migrantes no acompañados entre comunidades autónomas. Sí = de acuerdo. Convalidado: 179 a favor, 170 en contra, 1 abstención.",
+      "en": "Validation of Royal Decree-law 2/2025 (extraordinary migratory contingencies), which sets a mandatory distribution of unaccompanied migrant minors among the autonomous communities. Yes = agrees. Validated: 179 for, 170 against, 1 abstention."
+    },
     "relation": "direct"
   },
   {
@@ -204,7 +249,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion056/20240723/Votacion063/VOT_20240723221735.json",
     "title": "Proposición de Ley de los Grupos Parlamentarios Socialista, Plurinacional SUMAR y Mixto, de modificación de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL (PSOE, SUMAR y Mixto) que modificaba el art. 35 de la LO 4/2000 para que fuera obligatorio acoger a menores no acompañados en situaciones de contingencia migratoria. Sí = agree. Rechazada 171-177 (Junts votó en contra).",
+    "note": {
+      "es": "Toma en consideración de la proposición de ley (PSOE, SUMAR y Mixto) que modificaba el art. 35 de la LO 4/2000 para hacer obligatorio acoger a menores no acompañados en situaciones de contingencia migratoria. Sí = de acuerdo. Rechazada: 171 a favor, 177 en contra (Junts votó en contra).",
+      "en": "Bill (PSOE, SUMAR and Mixto) taken into consideration that would amend Article 35 of Organic Law 4/2000 to make taking in unaccompanied minors mandatory in migratory contingencies. Yes = agrees. Rejected: 171 for, 177 against (Junts voted against)."
+    },
     "relation": "direct"
   },
   {
@@ -217,7 +265,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion091/20250212/Votacion001/VOT_20250212154036.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, sobre el cierre programado de la generación nuclear en España.",
     "yes_means": "agree",
-    "note": "PNL del PP sobre el cierre programado de la generación nuclear (pide revertir o aplazar el calendario de cierre). Sí = agree. Aprobada 171-164-14.",
+    "note": {
+      "es": "Proposición no de ley del PP sobre el cierre programado de la generación nuclear (pide revertir o aplazar el calendario de cierre). Sí = de acuerdo. Aprobada: 171 a favor, 164 en contra, 14 abstenciones.",
+      "en": "Non-binding motion by the PP on the scheduled closure of nuclear power (asks to reverse or postpone the closure timetable). Yes = agrees. Approved: 171 for, 164 against, 14 abstentions."
+    },
     "relation": "direct"
   },
   {
@@ -230,7 +281,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion119/20250617/Votacion001/VOT_20250617203251.json",
     "title": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, para garantizar la aportación de la energía nuclear en la descarbonización del sistema energético.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL del PP para garantizar la aportación de la energía nuclear a la descarbonización (alargar la vida de las centrales). Sí = agree. Aprobada 171-166-7.",
+    "note": {
+      "es": "Toma en consideración de la proposición de ley del PP para garantizar la aportación de la energía nuclear a la descarbonización (alargar la vida de las centrales). Sí = de acuerdo. Aprobada: 171 a favor, 166 en contra, 7 abstenciones.",
+      "en": "PP bill taken into consideration to guarantee nuclear energy's contribution to decarbonisation (extending the life of the plants). Yes = agrees. Approved: 171 for, 166 against, 7 abstentions."
+    },
     "relation": "direct"
   },
   {
@@ -243,7 +297,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion030/20240314/Votacion001/VOT_20240314135323.json",
     "title": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña. — Votación del nuevo dictamen.",
     "yes_means": "agree",
-    "note": "Votación en el Pleno del nuevo dictamen de la Ley Orgánica de amnistía (aprobación en el Congreso). Sí = agree. 178-172. Las votaciones nominales por llamamiento (votación de conjunto del 14/03/2024 y levantamiento del veto del Senado el 30/05/2024, 177-172) solo están publicadas como PNG, sin JSON.",
+    "note": {
+      "es": "Votación en el Pleno del nuevo dictamen de la Ley Orgánica de amnistía (aprobación en el Congreso). Sí = de acuerdo. Resultado: 178 a favor, 172 en contra. Las votaciones nominales por llamamiento del 14/03/2024 (votación de conjunto) y del 30/05/2024 (levantamiento del veto del Senado, 177-172) solo se publicaron como imagen, sin datos JSON.",
+      "en": "Plenary vote on the new committee report of the Organic Amnesty Law (approval in Congress). Yes = agrees. Result: 178 for, 172 against. The roll-call votes of 14/03/2024 (overall vote) and 30/05/2024 (lifting the Senate veto, 177-172) were published only as images, with no JSON data."
+    },
     "relation": "direct"
   },
   {
@@ -256,7 +313,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion036/20240423/Votacion024/VOT_20240423213534.json",
     "title": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Republicano, sobre la necesidad de acordar una financiación singular para Cataluña a fin de que la ciudadanía catalana disponga de servicios públicos a la altura de su esfuerzo fiscal.",
     "yes_means": "agree",
-    "note": "Moción de ERC sobre una financiación singular para Cataluña (modelo de ERC: la Generalitat recauda todos los impuestos, al estilo del concierto). Sí = agree (confianza media: el texto de la moción no se ha cotejado palabra por palabra). Rechazada 24-291-28.",
+    "note": {
+      "es": "Moción de ERC sobre una financiación singular para Cataluña (modelo de ERC: la Generalitat recauda todos los impuestos, al estilo del concierto). Sí = de acuerdo. Relación indirecta: no se ha cotejado el texto de la moción palabra por palabra. Rechazada: 24 a favor, 291 en contra, 28 abstenciones.",
+      "en": "Motion by ERC on a singular financing arrangement for Catalonia (ERC's model: the Generalitat collects all taxes, along the lines of the concierto). Yes = agrees. Only indirectly related: the motion's text has not been checked word for word. Rejected: 24 for, 291 against, 28 abstentions."
+    },
     "relation": "related"
   },
   {
@@ -269,7 +329,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion003/20230921/Votacion004/VOT_20230921120100.json",
     "title": "Proposición de reforma del Reglamento del Congreso de los Diputados. — Votación de conjunto de la Proposición de reforma del Reglamento del Congreso de los Diputados.",
     "yes_means": "disagree",
-    "note": "Votación de conjunto de la reforma del Reglamento que permite usar las lenguas cooficiales en el Pleno. Sí = permitirlas, es decir, en desacuerdo con que solo se use el castellano. Aprobada 180-170.",
+    "note": {
+      "es": "Votación de conjunto de la reforma del Reglamento que permite usar las lenguas cooficiales en el Pleno. Sí = permitirlas, es decir, en desacuerdo con que solo se use el castellano. Aprobada: 180 a favor, 170 en contra.",
+      "en": "Overall vote on the reform of the Rules of Procedure allowing co-official languages in the Plenary. Yes = allowing them, i.e. disagrees with using only Castilian Spanish. Approved: 180 for, 170 against."
+    },
     "relation": "direct"
   },
   {
@@ -282,7 +345,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion024/20240227/Votacion002/VOT_20240227205808.json",
     "title": "Proposición de Ley del Grupo Parlamentario VOX, Orgánica por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para la reforma del procedimiento de elección de los vocales del Consejo General del Poder Judicial.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL Orgánica de Vox para reformar la elección de los vocales del CGPJ, de modo que los jueces elijan a los vocales de procedencia judicial. Sí = agree. Rechazada 170-176.",
+    "note": {
+      "es": "Toma en consideración de la proposición de ley orgánica de Vox para reformar la elección de los vocales del CGPJ, de modo que los jueces elijan a los vocales de procedencia judicial. Sí = de acuerdo. Rechazada: 170 a favor, 176 en contra.",
+      "en": "Organic bill by Vox taken into consideration to reform the election of CGPJ members so that judges elect the members of judicial origin. Yes = agrees. Rejected: 170 for, 176 against."
+    },
     "relation": "direct"
   },
   {
@@ -295,7 +361,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion196/20260910/Votacion015/VOT_20260910180649.json",
     "title": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica de modificación de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para el cambio del modelo de elección de los vocales del Consejo General del Poder Judicial.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL Orgánica del PP para cambiar el modelo de elección de los vocales del CGPJ (elección por los propios jueces). Sí = agree. Rechazada 170-175. Se excluye la reforma pactada PSOE-PP de la LOPJ de julio de 2024, que no cambió el sistema de elección.",
+    "note": {
+      "es": "Toma en consideración de la proposición de ley orgánica del PP para cambiar el modelo de elección de los vocales del CGPJ (elección por los propios jueces). Sí = de acuerdo. Rechazada: 170 a favor, 175 en contra. No se refiere a la reforma pactada PSOE-PP de julio de 2024, que no cambió el sistema de elección.",
+      "en": "Organic bill by the PP taken into consideration to change how CGPJ members are elected (election by judges themselves). Yes = agrees. Rejected: 170 for, 175 against. It does not concern the July 2024 PSOE-PP agreed reform, which did not change the election system."
+    },
     "relation": "direct"
   },
   {
@@ -308,7 +377,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion019/20240206/Votacion005/VOT_20240206213127.json",
     "title": "Del Grupo Parlamentario Republicano, en relación con el despliegue y desarrollo de la Ley 20/2022, de 19 de octubre, de Memoria Democrática. Se vota en los términos de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Republicano.",
     "yes_means": "disagree",
-    "note": "Moción de ERC (con enmienda del PSOE) sobre el despliegue y desarrollo de la Ley 20/2022 de Memoria Democrática. Votar sí = apoyar su desarrollo, lo que se relaciona con estar en desacuerdo con derogarla. Aprobada 174-170.",
+    "note": {
+      "es": "Moción de ERC (con enmienda del PSOE) sobre el despliegue y desarrollo de la Ley 20/2022 de Memoria Democrática. Sí = apoyar su desarrollo, lo que se relaciona con estar en desacuerdo con derogarla. Relación indirecta. Aprobada: 174 a favor, 170 en contra.",
+      "en": "Motion by ERC (with a PSOE amendment) on the rollout and development of Law 20/2022 on Democratic Memory. Yes = supporting its development, which relates to disagreeing with repealing it. Only indirectly related. Approved: 174 for, 170 against."
+    },
     "relation": "related"
   },
   {
@@ -321,7 +393,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion040/20240523/Votacion004/VOT_20240523140934.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Socialista, sobre la garantía de la aplicación de las políticas de memoria democrática en España. Se vota en los términos resultantes de la incorporación de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Plurinacional SUMAR.",
     "yes_means": "disagree",
-    "note": "PNL del PSOE sobre la garantía de la aplicación de las políticas de memoria democrática (frente a las leyes autonómicas «de concordia»). Votar sí = apoyar la aplicación de la ley, lo que se relaciona con estar en desacuerdo con derogarla; no es una votación sobre su derogación. Aprobada 175-167.",
+    "note": {
+      "es": "Proposición no de ley del PSOE sobre la garantía de aplicación de las políticas de memoria democrática (frente a las leyes autonómicas «de concordia»). Sí = apoyar la aplicación de la ley, lo que se relaciona con estar en desacuerdo con derogarla; no es una votación sobre su derogación. Aprobada: 175 a favor, 167 en contra.",
+      "en": "Non-binding motion by the PSOE on guaranteeing the application of democratic memory policies (against regional \"concord\" laws). Yes = supporting application of the law, which relates to disagreeing with repealing it; it is not a vote on repeal. Approved: 175 for, 167 against."
+    },
     "relation": "related"
   },
   {
@@ -334,7 +409,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/Votacion087/VOT_20251008195359.json",
     "title": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
     "yes_means": "agree",
-    "note": "Convalidación del Real Decreto-ley 10/2025 (título oficial: «por el que se adoptan medidas urgentes contra el genocidio en Gaza…»), que establece el embargo de compraventa de armas con Israel. Sí = de acuerdo. Convalidado 178-169-1.",
+    "note": {
+      "es": "Convalidación del Real Decreto-ley 10/2025 (título oficial: «por el que se adoptan medidas urgentes contra el genocidio en Gaza…»), que establece el embargo de compraventa de armas con Israel. Sí = de acuerdo. Convalidado: 178 a favor, 169 en contra, 1 abstención.",
+      "en": "Validation of Royal Decree-law 10/2025 (official title: \"urgent measures against the genocide in Gaza…\"), which establishes an arms trade embargo with Israel. Yes = agrees. Validated: 178 for, 169 against, 1 abstention."
+    },
     "relation": "direct"
   },
   {
@@ -347,7 +425,10 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion112/20250520/Votacion002/VOT_20250520203911.json",
     "title": "Proposición de Ley de los Grupos Parlamentarios Plurinacional SUMAR y Mixto, por la que se reforma la Ley 53/2007, de 28 de diciembre, sobre el control del comercio exterior de material de defensa y de doble uso, introduciendo la figura del embargo y su régimen jurídico.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL (SUMAR y Mixto) que introduce en la Ley 53/2007 la figura del embargo de armas, impulsada con Israel como motivo. Es un instrumento general y no menciona a Israel en el título: sí = agree (confianza media). Aprobada 176-171.",
+    "note": {
+      "es": "Toma en consideración de la proposición de ley (SUMAR y Mixto) que introduce en la Ley 53/2007 la figura del embargo de armas, impulsada por el caso de Israel. Es un instrumento general y su título no menciona a Israel. Sí = de acuerdo. Relación indirecta. Aprobada: 176 a favor, 171 en contra.",
+      "en": "Bill (SUMAR and Mixto) taken into consideration that introduces an arms embargo mechanism into Law 53/2007, prompted by the case of Israel. It is a general instrument and its title does not mention Israel. Yes = agrees. Only indirectly related. Approved: 176 for, 171 against."
+    },
     "relation": "related"
   },
   {
@@ -362,7 +443,10 @@
     "subgroup": "Punto 1.",
     "yes_means": "agree",
     "relation": "related",
-    "note": "Punto 1 de la moción del PP, que pide deflactar de forma generalizada el IRPF. Relacionada: deflactar no es una bajada de tipos. Sí = de acuerdo. Aprobada 177-163-5 (Sí: GP, GVOX, GJxCAT, Valido, Catalán; abstención: GV (EAJ-PNV); No: el resto)."
+    "note": {
+      "es": "Punto 1 de la moción del PP, que pide deflactar de forma generalizada el IRPF. Sí = de acuerdo. Relacionada: deflactar no es una bajada de tipos. Aprobada: 177 a favor, 163 en contra, 5 abstenciones (a favor: GP, GVOX, GJxCAT, Valido, Catalán; abstención: PNV; en contra: el resto).",
+      "en": "Point 1 of a PP motion calling for across-the-board indexation of income tax (IRPF) to inflation. Yes = agrees. Related: indexation is not a cut in rates. Approved: 177 for, 163 against, 5 abstentions (for: PP, Vox, Junts, Valido, Catalán; abstaining: PNV; against: all others)."
+    }
   },
   {
     "id": "v-regularizacion-mocion-pp-2026-03-18",
@@ -375,6 +459,9 @@
     "title": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
     "yes_means": "disagree",
     "relation": "direct",
-    "note": "Moción del PP que insta al Gobierno a renunciar de inmediato a la regularización extraordinaria (DS PL-171, 17/3/2026, intervención de Acedo Reyes). Sí = disagree. Aprobada 176-172: sí PP, Vox, Junts y UPN; no PSOE, SUMAR, ERC, EH Bildu, PNV, Podemos, BNG, CC y Compromís."
+    "note": {
+      "es": "Moción del PP que insta al Gobierno a renunciar de inmediato a la regularización extraordinaria. Sí = en desacuerdo. Aprobada: 176 a favor, 172 en contra (a favor: PP, Vox, Junts y UPN; en contra: PSOE, SUMAR, ERC, EH Bildu, PNV, Podemos, BNG, CC y Compromís).",
+      "en": "PP motion urging the Government to immediately drop the extraordinary regularisation. Yes = disagrees. Approved: 176 for, 172 against (for: PP, Vox, Junts and UPN; against: PSOE, SUMAR, ERC, EH Bildu, PNV, Podemos, BNG, CC and Compromís)."
+    }
   }
 ]

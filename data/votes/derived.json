@@ -34,14 +34,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "disagree"
         },
         "frente-amplio": {
-          "yes": 25,
+          "yes": 24,
           "no": 0,
           "abstain": 0,
           "absent": 1,
@@ -105,7 +105,7 @@
           "implied_stance": "agree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -155,14 +155,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "disagree"
         },
         "frente-amplio": {
-          "yes": 26,
+          "yes": 25,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -226,7 +226,7 @@
           "implied_stance": "agree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -275,7 +275,7 @@
           "implied_stance": "agree"
         },
         "vox": {
-          "yes": 31,
+          "yes": 32,
           "no": 0,
           "abstain": 0,
           "absent": 1,
@@ -284,7 +284,7 @@
         },
         "frente-amplio": {
           "yes": 0,
-          "no": 25,
+          "no": 24,
           "abstain": 0,
           "absent": 1,
           "majority": "no",
@@ -348,7 +348,7 @@
         },
         "compromis": {
           "yes": 0,
-          "no": 1,
+          "no": 2,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -396,7 +396,7 @@
           "implied_stance": "disagree"
         },
         "vox": {
-          "yes": 32,
+          "yes": 33,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -405,7 +405,7 @@
         },
         "frente-amplio": {
           "yes": 0,
-          "no": 26,
+          "no": 25,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -469,7 +469,7 @@
         },
         "compromis": {
           "yes": 0,
-          "no": 1,
+          "no": 2,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -517,7 +517,7 @@
           "implied_stance": "disagree"
         },
         "vox": {
-          "yes": 32,
+          "yes": 33,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -526,7 +526,7 @@
         },
         "frente-amplio": {
           "yes": 0,
-          "no": 24,
+          "no": 23,
           "abstain": 0,
           "absent": 2,
           "majority": "no",
@@ -590,7 +590,7 @@
         },
         "compromis": {
           "yes": 0,
-          "no": 1,
+          "no": 2,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -638,7 +638,7 @@
           "implied_stance": "disagree"
         },
         "vox": {
-          "yes": 32,
+          "yes": 33,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -647,7 +647,7 @@
         },
         "frente-amplio": {
           "yes": 0,
-          "no": 26,
+          "no": 25,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -711,7 +711,7 @@
         },
         "compromis": {
           "yes": 0,
-          "no": 1,
+          "no": 2,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -760,14 +760,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "disagree"
         },
         "frente-amplio": {
-          "yes": 26,
+          "yes": 25,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -831,7 +831,7 @@
           "implied_stance": "neutral"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -881,14 +881,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "agree"
         },
         "frente-amplio": {
-          "yes": 26,
+          "yes": 25,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -952,7 +952,7 @@
           "implied_stance": "disagree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1009,7 +1009,7 @@
           "implied_stance": "disagree"
         },
         "frente-amplio": {
-          "yes": 25,
+          "yes": 24,
           "no": 0,
           "abstain": 0,
           "absent": 1,
@@ -1073,7 +1073,7 @@
           "implied_stance": "agree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1122,7 +1122,7 @@
           "implied_stance": "agree"
         },
         "vox": {
-          "yes": 32,
+          "yes": 33,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1131,7 +1131,7 @@
         },
         "frente-amplio": {
           "yes": 0,
-          "no": 26,
+          "no": 25,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -1195,7 +1195,7 @@
         },
         "compromis": {
           "yes": 0,
-          "no": 1,
+          "no": 2,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -1235,7 +1235,7 @@
           "implied_stance": "neutral"
         },
         "psoe": {
-          "yes": 118,
+          "yes": 119,
           "no": 0,
           "abstain": 0,
           "absent": 2,
@@ -1244,14 +1244,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 31,
+          "no": 32,
           "abstain": 0,
           "absent": 1,
           "majority": "no",
           "implied_stance": "disagree"
         },
         "frente-amplio": {
-          "yes": 26,
+          "yes": 25,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1315,7 +1315,7 @@
           "implied_stance": "agree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1364,7 +1364,7 @@
           "implied_stance": "agree"
         },
         "vox": {
-          "yes": 32,
+          "yes": 33,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1373,7 +1373,7 @@
         },
         "frente-amplio": {
           "yes": 0,
-          "no": 26,
+          "no": 25,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -1437,7 +1437,7 @@
         },
         "compromis": {
           "yes": 0,
-          "no": 1,
+          "no": 2,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -1486,14 +1486,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "disagree"
         },
         "frente-amplio": {
-          "yes": 24,
+          "yes": 23,
           "no": 0,
           "abstain": 0,
           "absent": 2,
@@ -1557,7 +1557,7 @@
           "implied_stance": "agree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1607,14 +1607,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "disagree"
         },
         "frente-amplio": {
-          "yes": 25,
+          "yes": 24,
           "no": 0,
           "abstain": 0,
           "absent": 1,
@@ -1678,7 +1678,7 @@
           "implied_stance": "disagree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1728,14 +1728,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "disagree"
         },
         "frente-amplio": {
-          "yes": 26,
+          "yes": 25,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1799,7 +1799,7 @@
           "implied_stance": "agree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1849,14 +1849,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "disagree"
         },
         "frente-amplio": {
-          "yes": 26,
+          "yes": 25,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1920,7 +1920,7 @@
           "implied_stance": "agree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1969,7 +1969,7 @@
           "implied_stance": "disagree"
         },
         "vox": {
-          "yes": 32,
+          "yes": 33,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -1978,7 +1978,7 @@
         },
         "frente-amplio": {
           "yes": 0,
-          "no": 26,
+          "no": 25,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -2042,7 +2042,7 @@
         },
         "compromis": {
           "yes": 0,
-          "no": 1,
+          "no": 2,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -2090,7 +2090,7 @@
           "implied_stance": "disagree"
         },
         "vox": {
-          "yes": 32,
+          "yes": 33,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -2099,7 +2099,7 @@
         },
         "frente-amplio": {
           "yes": 0,
-          "no": 25,
+          "no": 24,
           "abstain": 0,
           "absent": 1,
           "majority": "no",
@@ -2163,7 +2163,7 @@
         },
         "compromis": {
           "yes": 0,
-          "no": 1,
+          "no": 2,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -2212,14 +2212,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "disagree"
         },
         "frente-amplio": {
-          "yes": 26,
+          "yes": 25,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -2283,7 +2283,7 @@
           "implied_stance": "disagree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -2333,7 +2333,7 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -2342,7 +2342,7 @@
         "frente-amplio": {
           "yes": 1,
           "no": 1,
-          "abstain": 21,
+          "abstain": 20,
           "absent": 3,
           "majority": "abstain",
           "implied_stance": "neutral"
@@ -2406,7 +2406,7 @@
         "compromis": {
           "yes": 0,
           "no": 0,
-          "abstain": 1,
+          "abstain": 2,
           "absent": 0,
           "majority": "abstain",
           "implied_stance": "neutral"
@@ -2445,7 +2445,7 @@
           "implied_stance": "agree"
         },
         "psoe": {
-          "yes": 120,
+          "yes": 121,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -2454,14 +2454,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "agree"
         },
         "frente-amplio": {
-          "yes": 25,
+          "yes": 24,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -2525,7 +2525,7 @@
           "implied_stance": "disagree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -2574,7 +2574,7 @@
           "implied_stance": "disagree"
         },
         "vox": {
-          "yes": 32,
+          "yes": 33,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -2583,7 +2583,7 @@
         },
         "frente-amplio": {
           "yes": 0,
-          "no": 26,
+          "no": 25,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -2647,7 +2647,7 @@
         },
         "compromis": {
           "yes": 0,
-          "no": 1,
+          "no": 2,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -2704,7 +2704,7 @@
         },
         "frente-amplio": {
           "yes": 0,
-          "no": 26,
+          "no": 25,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -2768,7 +2768,7 @@
         },
         "compromis": {
           "yes": 0,
-          "no": 1,
+          "no": 2,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -2808,7 +2808,7 @@
           "implied_stance": "agree"
         },
         "psoe": {
-          "yes": 118,
+          "yes": 119,
           "no": 0,
           "abstain": 0,
           "absent": 2,
@@ -2817,14 +2817,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "agree"
         },
         "frente-amplio": {
-          "yes": 24,
+          "yes": 23,
           "no": 0,
           "abstain": 0,
           "absent": 2,
@@ -2888,7 +2888,7 @@
           "implied_stance": "disagree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -2938,14 +2938,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 31,
+          "no": 32,
           "abstain": 0,
           "absent": 1,
           "majority": "no",
           "implied_stance": "agree"
         },
         "frente-amplio": {
-          "yes": 25,
+          "yes": 24,
           "no": 0,
           "abstain": 0,
           "absent": 1,
@@ -3009,7 +3009,7 @@
           "implied_stance": "disagree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -3059,14 +3059,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "disagree"
         },
         "frente-amplio": {
-          "yes": 26,
+          "yes": 25,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -3130,7 +3130,7 @@
           "implied_stance": "agree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -3180,14 +3180,14 @@
         },
         "vox": {
           "yes": 0,
-          "no": 32,
+          "no": 33,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
           "implied_stance": "disagree"
         },
         "frente-amplio": {
-          "yes": 25,
+          "yes": 24,
           "no": 0,
           "abstain": 0,
           "absent": 1,
@@ -3251,7 +3251,7 @@
           "implied_stance": "agree"
         },
         "compromis": {
-          "yes": 1,
+          "yes": 2,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -3300,7 +3300,7 @@
           "implied_stance": "disagree"
         },
         "vox": {
-          "yes": 32,
+          "yes": 33,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -3309,7 +3309,7 @@
         },
         "frente-amplio": {
           "yes": 0,
-          "no": 25,
+          "no": 24,
           "abstain": 0,
           "absent": 1,
           "majority": "no",
@@ -3373,7 +3373,7 @@
         },
         "compromis": {
           "yes": 0,
-          "no": 1,
+          "no": 2,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -3421,7 +3421,7 @@
           "implied_stance": "agree"
         },
         "vox": {
-          "yes": 32,
+          "yes": 33,
           "no": 0,
           "abstain": 0,
           "absent": 0,
@@ -3430,7 +3430,7 @@
         },
         "frente-amplio": {
           "yes": 0,
-          "no": 26,
+          "no": 25,
           "abstain": 0,
           "absent": 0,
           "majority": "no",
@@ -3494,7 +3494,7 @@
         },
         "compromis": {
           "yes": 0,
-          "no": 1,
+          "no": 2,
           "abstain": 0,
           "absent": 0,
           "majority": "no",

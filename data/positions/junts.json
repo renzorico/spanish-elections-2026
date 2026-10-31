@@ -15,21 +15,26 @@
           "date": "2023-07-19",
           "quote": "",
           "page": "p. 98 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://junts.cat/propostes/habitatge-temes/",
           "title": "Propostes: Habitatge",
           "publisher": "Junts per Catalunya",
           "quote": "Oposició a mesures que limitin l’oferta d’habitatge sense resoldre la demanda real.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-alquiler-rdl8-2026-04-28",
         "v-alquiler-temporada-2024-12-17"
       ],
-      "note": "Sin posición explícita en los documentos consultados. Su voto en contra del RDL 8/2026 (tope estatal del 2 %) es una votación relacionada y por sí sola no basta para codificar. [Calibración 31/10/2026 tras auditoría de neutralidad.]",
+      "note": {
+        "es": "Sin posición explícita en sus documentos. Su voto en contra del RDL 8/2026 (tope estatal del 2 %) es una votación relacionada y por sí solo no basta.",
+        "en": "No explicit position in its documents. Its vote against Royal Decree-law 8/2026 (state cap of 2%) is a related vote and is not enough on its own."
+      },
       "confidence": null
     },
     {
@@ -44,7 +49,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-03-18",
           "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
@@ -52,7 +58,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-05-19",
           "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/docu/tramit/LegXV/AT/ATCD_15_PL_20260519.pdf",
@@ -61,7 +68,8 @@
           "date": "2026-05-19",
           "quote": "Una propuesta solvente técnicamente, moderada, respetuosa con los derechos fundamentales y centrada en lo que funciona de verdad: el desalojo rápido.",
           "accessed": "2026-10-31",
-          "page": "p. 14 (Madrenas i Mir, GJxCAT)"
+          "page": "p. 14 (Madrenas i Mir, GJxCAT)",
+          "lang": "es"
         },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
@@ -70,14 +78,18 @@
           "date": "2023-07-19",
           "quote": "es proposen mesures de tipus processal com el desallotjament cautelar en 48 hores en els supòsits d’ocupacions que pertorbin la convivència o que tinguin caràcter delinqüencial",
           "accessed": "2026-10-31",
-          "page": "p. 129 del PDF"
+          "page": "p. 129 del PDF",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-okupacion-junts-2025-03-18",
         "v-okupacion-pp-2026-05-19"
       ],
-      "note": "Junts es autor de la proposición de 2025 (votó Sí). En 2026 se abstuvo en la del PP por el endurecimiento penal, pero su portavoz reiteró que defiende el desalojo rápido."
+      "note": {
+        "es": "Junts es autor de la proposición de 2025 (votó Sí). En 2026 se abstuvo en la del PP por el endurecimiento penal, pero su portavoz reiteró que defiende el desalojo rápido.",
+        "en": "Junts authored the 2025 bill (voted Yes). In 2026 it abstained on the PP bill because of its tougher criminal penalties, but its spokesperson reiterated that it supports quick evictions."
+      }
     },
     {
       "statement": "eco-suprimir-impuesto-fortunas",
@@ -91,11 +103,15 @@
           "publisher": "Junts per Catalunya",
           "date": "2023-07-19",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. El programa 2023 no se pronuncia sobre el ITSGF ni sobre el Impuesto sobre el Patrimonio (buscado: patrimoni, grans fortunes, riquesa)."
+      "note": {
+        "es": "El programa de 2023 no se pronuncia sobre el Impuesto Temporal de Solidaridad de las Grandes Fortunas ni sobre el Impuesto sobre el Patrimonio. El enunciado dice «el impuesto específico sobre los patrimonios más altos», ambiguo porque existen dos impuestos; se ha valorado el Impuesto Temporal de Solidaridad de las Grandes Fortunas.",
+        "en": "The 2023 program says nothing about the Temporary Solidarity Tax on Large Fortunes or the Wealth Tax. The statement refers to “the specific tax on the largest estates”, which is ambiguous because there are two taxes; the Temporary Solidarity Tax on Large Fortunes was assessed."
+      }
     },
     {
       "statement": "eco-bajar-irpf",
@@ -109,7 +125,8 @@
           "publisher": "Junts per Catalunya",
           "date": "2026-07-16",
           "quote": "Per això proposem una rebaixa real de l’IRPF per a les rendes mitjanes i treballadores",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
@@ -118,7 +135,8 @@
           "date": "2023-07-19",
           "quote": "revisar i reequilibrar la fiscalitat que grava les rendes del treball a l’impost sobre la renda, ja que són les que suporten el gruix de la pressió fiscal, amb uns tipus impositius que arriben a ser excessius.",
           "accessed": "2026-10-31",
-          "page": "p. 60 del PDF"
+          "page": "p. 60 del PDF",
+          "lang": "ca"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
@@ -126,7 +144,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
@@ -134,7 +153,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-06-12",
           "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
@@ -142,7 +162,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-04-22",
           "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
@@ -150,7 +171,10 @@
         "v-irpf-deflactar-2025-06-12",
         "v-irpf-deflactar-mocion-2026-04-22"
       ],
-      "note": "Junts propone en su web una rebaja del IRPF para las rentas medias y del trabajo, y su programa 2023 considera excesivos los tipos. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: abstención; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: Sí."
+      "note": {
+        "es": "Junts propone en su web una rebaja del IRPF para las rentas medias y del trabajo, y su programa de 2023 considera excesivos los tipos. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: abstención; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: Sí.",
+        "en": "Junts proposes on its website an income tax cut for middle and working incomes, and its 2023 program considers the rates excessive. In related votes on indexing income tax brackets (context only) it voted: PP motion of 09/04/2024: abstained; PP motion of 12/06/2025: Yes; point 1 of the PP motion of 22/04/2026: Yes."
+      }
     },
     {
       "statement": "eco-impuesto-energeticas",
@@ -164,30 +188,26 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-01-22",
           "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://junts.cat/actualitat/nogueras-quan-junts-te-forca-catalunya-hi-guanya/",
-          "title": "Nogueras: «Quan Junts té força, Catalunya hi guanya»",
+          "title": "Nogueras: quan Junts té força, Catalunya hi guanya",
           "publisher": "Junts per Catalunya",
-          "date": "2026-10-27",
+          "date": "2026-10",
           "quote": "Ha destacat les rebaixes de l’impost de societats per a petites empreses i cooperatives, els incentius fiscals a la creació d’ocupació i el fre al gravamen energètic.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). En octubre de 2026 Junts presenta como un logro haber frenado el gravamen energético. También votó en contra de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+      "note": {
+        "es": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal energético sobre la cifra de negocios (votación directa, 22/01/2025; no convalidado 165-183-1). La PNL de 30/09/2026 (beneficios extraordinarios, ámbito UE) es solo contexto: otra base imponible y otro ámbito.",
+        "en": "Voted against validating Royal Decree-law 10/2024, which extended the temporary levy on energy companies' turnover into 2025 (direct vote, 22/01/2025; not validated, 165-183-1). The 30/09/2026 non-binding motion (windfall profits, EU level) is context only: different tax base and scope."
+      }
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -202,7 +222,8 @@
           "date": "2024-11-21",
           "quote": "Y, sí, también hemos hecho posible un impuesto a la banca, que la recaudación que salga de ahí se transfiera, en función del PIB, a Cataluña.",
           "accessed": "2026-10-31",
-          "page": "p. 63 del PDF (Cruset Domènech, GJxCAT)"
+          "page": "p. 63 del PDF (Cruset Domènech, GJxCAT)",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
@@ -210,13 +231,17 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-11-21",
           "quote": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el […]",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-impuesto-banca-ley7-2024-11-21"
       ],
-      "note": "El portavoz de Junts presentó como un logro propio el impuesto a la banca de la Ley 7/2024 y el reparto de lo recaudado. El programa 2023 no lo trata. Votó Sí al dictamen de la Ley 7/2024 (21/11/2024), que creó el impuesto junto con otros tributos (votación relacionada, solo contexto)."
+      "note": {
+        "es": "El portavoz de Junts presentó como un logro propio el impuesto a la banca de la Ley 7/2024 y el reparto de lo recaudado. El programa de 2023 no lo trata. Votó Sí al dictamen de la Ley 7/2024 (21/11/2024), que creó el impuesto junto con otros tributos (votación relacionada, solo contexto).",
+        "en": "Junts' spokesperson presented the bank tax in Law 7/2024 and the sharing of its revenue as an achievement of its own. The 2023 program does not cover it. Voted Yes on the report for Law 7/2024 (21/11/2024), which created the tax together with other levies (related vote, context only)."
+      }
     },
     {
       "statement": "tra-jornada-37h",
@@ -230,7 +255,8 @@
           "publisher": "Periódico de Ibiza (Europa Press)",
           "date": "2025-09-11",
           "quote": "El Congreso ha aprobado este miércoles las enmiendas de totalidad que el PP, Vox y Junts han presentado para devolver al Gobierno el proyecto para reducir la jornada laboral a 37,5 horas semanales",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.ondavasca.com/junts-confirma-su-rechazo-a-la-rebaja-de-la-jornada-laboral-y-mantiene-la-enmienda-a-la-totalidad/",
@@ -238,14 +264,18 @@
           "publisher": "Onda Vasca (Noticias Taldea / EP)",
           "date": "2025-09-09",
           "quote": "Miriam Nogueras, ha trasladado al secretario de Estado de Trabajo, Joaquín Pérez Rey, en una reunión este lunes por la tarde su negativa al proyecto de 37,5 horas laborales.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-jornada-totalidad-2025-09-10",
         "v-jornada-pnl-2024-02-22"
       ],
-      "note": "Junts presentó y votó a favor de la enmienda a la totalidad que devolvió al Gobierno el proyecto de reducción de jornada (v-jornada-totalidad-2025-09-10). [Calibración 31/10/2026 tras auditoría de neutralidad.]"
+      "note": {
+        "es": "Junts presentó y votó a favor de la enmienda a la totalidad que devolvió al Gobierno el proyecto de reducción de jornada (10/09/2025).",
+        "en": "Junts tabled and voted for the full-text amendment that sent the working-hours reduction bill back to the Government (10/09/2025)."
+      }
     },
     {
       "statement": "tra-salario-minimo",
@@ -260,7 +290,8 @@
           "date": "2023-07-19",
           "quote": "per a Junts per Catalunya, l’actual SMI de 1.080 euros és insuficient per dignificar l’SMI",
           "accessed": "2026-10-31",
-          "page": "p. 65 del PDF"
+          "page": "p. 65 del PDF",
+          "lang": "ca"
         },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
@@ -269,11 +300,15 @@
           "date": "2023-07-19",
           "quote": "Aquest SMI català podria partir dels 1.319 €/mes, de l’actual salari mitjà europeu, per apropar-se progressivament fins als 1.400, 1500 euros al mes.",
           "accessed": "2026-10-31",
-          "page": "p. 65 del PDF"
+          "page": "p. 65 del PDF",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. Junts considera insuficiente el SMI de 1.080 euros (el nivel que el Gobierno equiparó al 60 %) y propone un SMI catalán más alto. No cita el 60 %, por eso la confianza es media."
+      "note": {
+        "es": "El enunciado dice «hasta llegar al 60 %», pero el Gobierno dio por alcanzado ese 60 % en febrero de 2023; se ha valorado si el salario mínimo debe seguir subiendo y mantenerse al menos en el 60 % del salario medio. Junts considera insuficiente el SMI de 1.080 euros (el nivel que el Gobierno equiparó al 60 %) y propone un SMI catalán más alto. No cita el 60 %, por eso la confianza es media.",
+        "en": "The statement says “until reaching 60%”, but the Government considered that 60% reached in February 2023; what was assessed is whether the minimum wage should keep rising and stay at least at 60% of the average wage. Junts considers the 1,080-euro minimum wage (the level the Government equated with 60%) insufficient and proposes a higher Catalan minimum wage. It does not cite the 60% figure, so confidence is medium."
+      }
     },
     {
       "statement": "san-gestion-privada",
@@ -288,11 +323,15 @@
           "date": "2023-07-19",
           "quote": "La varietat de proveïdors i la competitivitat milloren els serveis.",
           "page": "p. 112 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Defensa el model sanitari català, que combina proveïdors públics i privats."
+      "note": {
+        "es": "Defiende el modelo sanitario catalán, que combina proveedores públicos y privados.",
+        "en": "It defends the Catalan health model, which combines public and private providers."
+      }
     },
     {
       "statement": "san-dental-publica",
@@ -301,15 +340,20 @@
       "sources": [
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
-          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "title": "Programa electoral de Junts per Catalunya (julio de 2023)",
           "publisher": "Junts per Catalunya",
           "date": "2023-07-19",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Cap menció a la cobertura dental al programa 2023 ni a la pàgina de propostes de sanitat."
+      "note": {
+        "es": "El programa revisado no menciona la cobertura dental.",
+        "en": "The program reviewed does not mention dental coverage."
+      },
+      "confidence": null
     },
     {
       "statement": "der-aborto-constitucion",
@@ -322,7 +366,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-04-30",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
@@ -330,13 +375,17 @@
           "publisher": "Junts per Catalunya",
           "date": "2023-07-19",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-aborto-constitucion-totalidad-2026-04-30"
       ],
-      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-aborto-constitucion-totalidad-2026-04-30).",
+      "note": {
+        "es": "Sin posición explícita en los documentos del partido; la postura se basa en su voto en el Congreso (30/04/2026).",
+        "en": "No explicit position in the party's documents; the stance is based on its vote in Congress (30/04/2026)."
+      },
       "confidence": "high"
     },
     {
@@ -350,11 +399,15 @@
           "publisher": "Junts per Catalunya",
           "date": "2023-07-19",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "El programa 2023 no parla d'eutanàsia. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "El programa de 2023 no habla de eutanasia.",
+        "en": "The 2023 program does not mention euthanasia."
+      }
     },
     {
       "statement": "der-cambio-sexo-informe",
@@ -369,11 +422,15 @@
           "date": "2023-07-19",
           "quote": "de la diversitat d’orientació sexual i identitat de gènere.",
           "page": "p. 116 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Solo apoyo genérico a los derechos LGTBI; nada sobre la autodeterminación registral ni sobre la Ley 4/2023."
+      "note": {
+        "es": "Solo apoyo genérico a los derechos LGTBI; nada sobre la autodeterminación registral ni sobre la Ley 4/2023.",
+        "en": "Only generic support for LGBT rights; nothing on self-determination in the civil registry or on Law 4/2023."
+      }
     },
     {
       "statement": "inm-regularizacion",
@@ -387,7 +444,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-03-18",
           "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
@@ -396,7 +454,8 @@
           "date": "2026-03-17",
           "quote": "La primera comparteix l’objectiu dels populars per aturar aquesta regularització extraordinària, aquesta que el Govern ens vol imposar per la porta del darrere mitjançant un Reial decret del Consell de Ministres",
           "page": "p. 56 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
@@ -405,7 +464,8 @@
           "date": "2026-03-17",
           "quote": "Nosaltres, ja ho saben, condicionem qualsevol regularització extraordinària a una avaluació exhaustiva de la seva magnitud i de les conseqüències per al nostre país, Catalunya.",
           "page": "p. 56 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://junts.cat/actualitat/nogueras-catalunya-ha-de-tenir-el-control-de-la-immigracio/",
@@ -413,7 +473,8 @@
           "publisher": "Junts",
           "date": "2026-08-26",
           "quote": "ha denunciat especialment la regularització massiva impulsada pel govern del PSOE i Sumar.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
@@ -421,7 +482,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
@@ -429,7 +491,10 @@
         "v-regularizacion-pnl-2025-02-26",
         "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "Evidencia contradictoria: Junts votó sí a tramitar la ILP (2024), pero el 18/3/2026 votó a favor (6) de la moción del PP para que el Gobierno renuncie a la regularización extraordinaria y en agosto de 2026 la criticó. Condiciona cualquier regularización a una evaluación previa. Se codifica la postura más reciente con confianza rebajada."
+      "note": {
+        "es": "Evidencia contradictoria: Junts votó sí a tramitar la ILP (2024), pero el 18/03/2026 votó a favor (6) de la moción del PP para que el Gobierno renuncie a la regularización extraordinaria y en agosto de 2026 la criticó. Condiciona cualquier regularización a una evaluación previa. Se toma la postura más reciente con confianza reducida.",
+        "en": "Conflicting evidence: Junts voted Yes to take up the popular legislative initiative (2024), but on 18/03/2026 it voted in favour (6) of the PP motion urging the Government to drop the extraordinary regularisation, and criticised it in August 2026. It makes any regularisation conditional on a prior assessment. The most recent stance is used, with reduced confidence."
+      }
     },
     {
       "statement": "inm-reparto-menores",
@@ -442,7 +507,9 @@
           "title": "Propostes: Immigració",
           "publisher": "Junts per Catalunya",
           "quote": "Acord pel repartiment de menors migrants, amb la reforma de la llei d’estrangeria, que compensa l’esforç previ de Catalunya",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "date_unknown": true,
+          "lang": "ca"
         },
         {
           "url": "https://rtvc.es/debate-congreso-ley-extranjeria-10-abril-2025/",
@@ -450,32 +517,40 @@
           "publisher": "RTVC (Radio Televisión Canaria)",
           "date": "2025-04-10",
           "quote": "El Gobierno ya lo aprobó el 18 de marzo tras un acuerdo con Junts para que la formación independentista catalana apoyara con sus votos la medida",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-menores-rdl2-2025-04-10",
         "v-menores-lo4-2000-2024-07-23"
       ],
-      "note": "Junts va pactar i donar suport al mecanisme de repartiment de 2025, amb una clàusula que compensa l'acollida prèvia de Catalunya. El juliol de 2024 s'havia oposat a una proposta semblant."
+      "note": {
+        "es": "Junts pactó y apoyó el mecanismo de reparto de 2025, con una cláusula que compensa la acogida previa de Cataluña. En julio de 2024 se había opuesto a una propuesta parecida.",
+        "en": "Junts negotiated and backed the 2025 distribution mechanism, with a clause compensating Catalonia's earlier reception of minors. In July 2024 it had opposed a similar proposal."
+      }
     },
     {
-      "statement": "inm-reducir-llegadas",
+      "statement": "inm-devolver-irregulares",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
-          "url": "https://junts.cat/actualitat/nogueras-catalunya-ha-de-tenir-el-control-de-la-immigracio/",
-          "title": "Nogueras: «Catalunya ha de tenir el control de la immigració»",
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral Junts per Catalunya",
           "publisher": "Junts",
-          "date": "2026-08-26",
-          "quote": "Catalunya no té capacitat d’acollida infinita, i cal dir-ho",
-          "accessed": "2026-10-31"
+          "date": "2023-07-01",
+          "quote": "L’eliminació de les devolucions en calent derogant la disposició addicional desena de la Llei orgànica 4/2000",
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Junts pide que Cataluña controle la inmigración y dice que su capacidad de acogida no es infinita, pero no se pronuncia sobre reducir las llegadas al conjunto de España."
+      "note": {
+        "es": "El programa solo pide eliminar las devoluciones en caliente y vías de migración regular; no aborda la devolución de personas en situación irregular sin derecho a asilo. Sus iniciativas sobre expulsar a multirreincidentes (prensa) son de otro alcance (delincuentes), por lo que no cuentan.",
+        "en": "The program only calls for ending summary push-backs at the border and for regular migration routes; it does not address returning irregular migrants with no right to asylum. Its initiatives on expelling repeat offenders (press) have a different scope (offenders), so they do not count."
+      }
     },
     {
       "statement": "cli-nucleares",
@@ -489,14 +564,18 @@
           "date": "2023-07-19",
           "quote": "",
           "page": "p. 90 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-nucleares-pnl-2025-02-12",
         "v-nucleares-pl-2025-06-17"
       ],
-      "note": "El programa 2023 té un apartat sobre el mix elèctric i el tancament de les nuclears sense posició explícita. Segons la premsa, Junts s'ha abstingut o ha votat de manera canviant en iniciatives del PP per allargar-ne la vida (2025); pendent del mapatge de votacions."
+      "note": {
+        "es": "El programa de 2023 tiene un apartado sobre el mix eléctrico y el cierre de las nucleares, sin posición explícita. Según la prensa, Junts se abstuvo o votó de manera cambiante en iniciativas del PP para alargar su vida (2025).",
+        "en": "The 2023 program has a section on the electricity mix and nuclear closures, with no explicit position. According to the press, Junts abstained or voted inconsistently on PP initiatives to extend their life (2025)."
+      }
     },
     {
       "statement": "cli-coches-combustion-despues-2035",
@@ -510,11 +589,15 @@
           "date": "2023-07-19",
           "quote": "Facilitar, legislativament, la conversió de vehicles de combustió en elèctrics.",
           "page": "p. 89 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Promou l'electrificació, però no es pronuncia sobre la prohibició de vendes de 2035. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "Promueve la electrificación, pero no se pronuncia sobre la prohibición de ventas de 2035.",
+        "en": "It promotes electrification but takes no position on the 2035 sales ban."
+      }
     },
     {
       "statement": "ter-amnistia",
@@ -529,14 +612,17 @@
           "date": "2023-07-19",
           "quote": "la resolució del conflicte amb Espanya implica aconseguir l’amnistia per a tots els represaliats i represaliades.",
           "page": "p. 25 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://junts.cat/propostes/nacio/",
           "title": "Propostes: Nació",
           "publisher": "Junts per Catalunya",
           "quote": "La llei d’amnistia és una victòria política de l’independentisme",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "date_unknown": true,
+          "lang": "ca"
         }
       ],
       "vote_refs": [
@@ -556,32 +642,39 @@
           "date": "2023-07-19",
           "quote": "un pas necessari en el camí del reconeixement polític i jurídic internacional de la nació catalana com a subjecte polític amb dret a exercir l’autodeterminació.",
           "page": "p. 12 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Junts defensa el dret a l'autodeterminació de Catalunya sense condicionar-lo a un acord amb l'Estat; el programa no parla explícitament d'un referèndum pactat."
+      "note": {
+        "es": "Defiende el derecho de autodeterminación de Cataluña sin condicionarlo a un acuerdo con el Estado; el programa no habla explícitamente de un referéndum pactado.",
+        "en": "It defends Catalonia's right to self-determination without making it conditional on an agreement with the State; the program does not explicitly mention an agreed referendum."
+      }
     },
     {
       "statement": "ter-concierto-ccaa",
       "stance": "agree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
-          "title": "Programa electoral per Catalunya (eleccions generals 2023)",
+          "title": "Programa electoral Junts per Catalunya 23J",
           "publisher": "Junts",
           "date": "2023-07-19",
           "quote": "L’Agència Tributària de Catalunya ha de poder recaptar, gestionar, liquidar i inspeccionar tots els tributs generats a Catalunya.",
-          "page": "p. 60 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "Junts pide que Cataluña recaude y gestione todos sus tributos. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Junts votó sí.)"
+      "note": {
+        "es": "Lo reclama solo para Cataluña; no se pronuncia sobre otras comunidades, por eso la confianza es media. La moción de ERC sobre financiación singular para Cataluña (23/04/2024) es una votación relacionada y solo se cita como contexto (Junts votó sí).",
+        "en": "It demands this only for Catalonia and does not say anything about other regions, so confidence is medium. ERC's motion on singular financing for Catalonia (23/04/2024) is a related vote, cited as context only (Junts voted Yes)."
+      }
     },
     {
       "statement": "ter-recentralizar",
@@ -594,7 +687,9 @@
           "title": "Propostes: Nació",
           "publisher": "Junts per Catalunya",
           "quote": "Catalunya és una nació amb identitat, llengua, institucions i drets propis que cal defensar davant de qualsevol intent de subordinació o recentralització.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "date_unknown": true,
+          "lang": "ca"
         },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
@@ -603,11 +698,15 @@
           "date": "2023-07-19",
           "quote": "En aquest afany de laminar l’autogovern català i recentralitzar competències, el Govern de l’Estat ha comptat amb la col·laboració inestimable del Tribunal Constitucional.",
           "page": "p. 19 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": " Declaración oficial: confianza media. [Calibración 31/10/2026 tras auditoría de neutralidad.]"
+      "note": {
+        "es": "Se basa en una declaración oficial; confianza media.",
+        "en": "Based on an official statement; medium confidence."
+      }
     },
     {
       "statement": "ter-solo-castellano-congreso",
@@ -622,20 +721,22 @@
           "date": "2023-07-19",
           "quote": "Modificar el reglament intern del Congrés per permetre l'ús de les llengües oficials diferents del castellà en les sessions plenàries i a les comissions.",
           "page": "p. 141 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://junts.cat/propostes/llengua/",
           "title": "Propostes: Llengua",
           "publisher": "Junts per Catalunya",
           "quote": "Després de molts anys, hem aconseguit poder parlar en català al Congrés dels Diputats",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "date_unknown": true,
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
-      ],
-      "note": "[La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      ]
     },
     {
       "statement": "edu-concertada",
@@ -650,11 +751,15 @@
           "date": "2023-07-19",
           "quote": "El servei d’educació de Catalunya està format per centres de titularitat pública i concertats amb finalitat social. Les dues xarxes necessiten els mateixos recursos humans i materials",
           "page": "p. 117 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Demana més recursos per a l'escola pública, però defensa els mateixos recursos per a la concertada."
+      "note": {
+        "es": "Pide más recursos para la escuela pública, pero defiende los mismos recursos para la concertada.",
+        "en": "It asks for more resources for public schools but defends the same resources for state-subsidised private schools."
+      }
     },
     {
       "statement": "edu-lengua-castellano",
@@ -669,7 +774,8 @@
           "date": "2023-07-19",
           "quote": "Ens comprometem a defensar la immersió lingüística com a eina de cohesió social.",
           "page": "p. 116 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
@@ -678,7 +784,8 @@
           "date": "2023-07-19",
           "quote": "Protegir, jurídicament, el model d'escola en català per evitar la ingerència dels tribunals",
           "page": "p. 141 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": []
@@ -694,7 +801,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-02-27",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion196/20260910/Votacion015/VOT_20260910180649.json",
@@ -702,7 +810,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-09-10",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
@@ -711,14 +820,18 @@
           "date": "2023-07-19",
           "quote": "Junts ja ha presentat una iniciativa per modificar la LOPJ que forci la renovació del CGPJ i destitueixi els seus membres quan finalitzin el mandat.",
           "page": "p. 25 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-cgpj-vox-2024-02-27",
         "v-cgpj-pp-2026-09-10"
       ],
-      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-cgpj-vox-2024-02-27, v-cgpj-pp-2026-09-10).",
+      "note": {
+        "es": "Sin posición explícita en los documentos del partido; la postura se basa en su voto en el Congreso (27/02/2024 y 10/09/2026).",
+        "en": "No explicit position in the party's documents; the stance is based on its vote in Congress (27/02/2024 and 10/09/2026)."
+      },
       "confidence": "high"
     },
     {
@@ -733,11 +846,15 @@
           "publisher": "Junts",
           "date": "2023-07-19",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "El programa menciona la monarquía solo como debate bloqueado en la Mesa del Congreso; no propone un referéndum entre monarquía y república."
+      "note": {
+        "es": "El programa menciona la monarquía solo como debate bloqueado en la Mesa del Congreso; no propone un referéndum entre monarquía y república.",
+        "en": "The program mentions the monarchy only as a debate blocked in the Congress Bureau; it does not propose a referendum between monarchy and republic."
+      }
     },
     {
       "statement": "ins-derogar-memoria",
@@ -751,14 +868,18 @@
           "date": "2023-07-19",
           "quote": "El Regne d’Espanya ha aprovat una llei de memòria per legitimar el règim del 78 que manté la impunitat dels crims franquistes.",
           "page": "p. 24 (PDF)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-memoria-mocion-2024-02-06",
         "v-memoria-pnl-2024-05-23"
       ],
-      "note": "Sin posición explícita sobre la derogación: Junts critica la ley por insuficiente y votó a favor de iniciativas sobre su aplicación (votaciones relacionadas, que por sí solas no bastan para codificar). [Calibración 31/10/2026 tras auditoría de neutralidad.]",
+      "note": {
+        "es": "Sin posición explícita sobre la derogación: Junts critica la ley por insuficiente y votó a favor de iniciativas sobre su aplicación (votaciones relacionadas, que por sí solas no bastan).",
+        "en": "No explicit position on repeal: Junts criticises the law as insufficient and voted in favour of initiatives on its implementation (related votes, which are not enough on their own)."
+      },
       "confidence": null
     },
     {
@@ -774,7 +895,8 @@
           "date": "2025-07-09",
           "quote": "Un sistema de seguretat i defensa que ha de ser un sistema de seguretat i defensa netament europeu propi d’Europa, que ha de ser completament comú.",
           "page": "p. 17 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
@@ -782,11 +904,15 @@
           "publisher": "Junts",
           "date": "2023-07-19",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Junts defiende la disuasión y una defensa europea común, pero no se pronuncia sobre el objetivo del 3,5 %."
+      "note": {
+        "es": "Junts defiende la disuasión y una defensa europea común, pero no se pronuncia sobre el objetivo del 3,5 %.",
+        "en": "Junts supports deterrence and a common European defence but takes no position on the 3.5% target."
+      }
     },
     {
       "statement": "ext-embargo-israel",
@@ -800,7 +926,8 @@
           "publisher": "RTVC (Radio Televisión Canaria)",
           "date": "2025-10-08",
           "quote": "El resto de socios de investidura de Pedro Sánchez, como ERC, Junts, EH Bildu, PNV y BNG , también se quejaron el martes durante el debate de esta iniciativa de que el decreto ley es incompleto",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.elsaltodiario.com/congreso-de-los-diputados/congreso-convalida-decreto-embargo-armas-votos-podemos-junts",
@@ -808,14 +935,18 @@
           "publisher": "El Salto",
           "date": "2025-10-08",
           "quote": "El Congreso convalida el decreto de embargo de armas con los votos de la mayoría de investidura",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-embargo-israel-rdl-2025-10-08",
         "v-embargo-ley-2025-05-20"
       ],
-      "note": "Segons la premsa, Junts va votar a favor de convalidar el decret d'embargo (8/10/2025) tot i considerar-lo incomplet. El programa 2023 no en parla."
+      "note": {
+        "es": "Según la prensa, Junts votó a favor de convalidar el decreto de embargo (08/10/2025) aunque lo considera incompleto. El programa de 2023 no lo trata.",
+        "en": "According to the press, Junts voted in favour of validating the embargo decree (08/10/2025) while considering it incomplete. The 2023 program does not cover it."
+      }
     }
   ]
 }

@@ -15,14 +15,18 @@
           "publisher": "BNG",
           "date": "2025-02-24",
           "quote": "Demandamos que a Xunta dunha vez por todas poña en marcha topes ao alugueiro naquelas zonas que están máis tensionadas porque é a única forma de frear a escalada de prezos",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "gl"
         }
       ],
       "vote_refs": [
         "v-alquiler-rdl8-2026-04-28",
         "v-alquiler-temporada-2024-12-17"
       ],
-      "note": "Declaración de la portavoz nacional del BNG; el programa de 2023 no menciona topes de alquiler. Declaración oficial (no programa ni votación directa): confianza media. [Calibración 31/10/2026 tras auditoría de neutralidad.]"
+      "note": {
+        "es": "Declaración de la portavoz nacional del BNG a favor de topes al alquiler; el programa de 2023 no los menciona. Es una declaración oficial, no un programa ni una votación directa, por lo que la confianza es media.",
+        "en": "A statement by the BNG's national spokesperson in favour of rent caps; the 2023 program does not mention them. It is an official statement, not a program or a direct vote, so confidence is medium."
+      }
     },
     {
       "statement": "viv-desalojo-rapido",
@@ -36,7 +40,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-03-18",
           "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
@@ -44,14 +49,18 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-05-19",
           "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-okupacion-junts-2025-03-18",
         "v-okupacion-pp-2026-05-19"
       ],
-      "note": "Votó en contra de tomar en consideración las dos proposiciones de ley que aceleran el desalojo de viviendas ocupadas (Junts, 18/03/2025, y PP, 19/05/2026), ambas votaciones directas. Votó Néstor Rego (Grupo Mixto)."
+      "note": {
+        "es": "Votó en contra de tomar en consideración las dos proposiciones de ley que aceleran el desalojo de viviendas ocupadas (Junts, 18/03/2025, y PP, 19/05/2026), ambas votaciones directas. Votó Néstor Rego (Grupo Mixto).",
+        "en": "It voted against taking into consideration both bills that speed up evictions from occupied homes (Junts, 18 Mar 2025, and PP, 19 May 2026), both direct votes. The vote was cast by Néstor Rego (Mixed Group)."
+      }
     },
     {
       "statement": "eco-suprimir-impuesto-fortunas",
@@ -66,11 +75,11 @@
           "date": "2023-07-05",
           "quote": "Estabelecer a permanencia dos impostos específicos aos beneficios da banca, das grandes enerxéticas e ás grandes fortunas",
           "accessed": "2026-10-31",
-          "page": "p. 40 del PDF"
+          "page": "p. 40 del PDF",
+          "lang": "gl"
         }
       ],
-      "vote_refs": [],
-      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. "
+      "vote_refs": []
     },
     {
       "statement": "eco-bajar-irpf",
@@ -85,7 +94,8 @@
           "date": "2023-07-05",
           "quote": "Estabelecer distintos tipos de gravame en función da natureza dos rendementos, minorando a tributación polos ingresos do traballo e aumentando a correspondente aos derivados do capital.",
           "accessed": "2026-10-31",
-          "page": "p. 39 del PDF"
+          "page": "p. 39 del PDF",
+          "lang": "gl"
         },
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
@@ -94,7 +104,8 @@
           "date": "2023-07-05",
           "quote": "Deflactar as tarifas do IRPF en función da taxa de inflación na Galiza.",
           "accessed": "2026-10-31",
-          "page": "p. 39 del PDF"
+          "page": "p. 39 del PDF",
+          "lang": "gl"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
@@ -102,7 +113,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
@@ -110,7 +122,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-06-12",
           "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
@@ -118,7 +131,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-04-22",
           "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
@@ -126,7 +140,10 @@
         "v-irpf-deflactar-2025-06-12",
         "v-irpf-deflactar-mocion-2026-04-22"
       ],
-      "note": "Postura intermedia explícita: el programa pide más progresividad, bajar el IRPF de las rentas del trabajo y deflactar la tarifa, pero subir el de las rentas del capital. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: abstención; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: No."
+      "note": {
+        "es": "Postura intermedia explícita: el programa pide más progresividad, bajar el IRPF de las rentas del trabajo y deflactar la tarifa, pero subir el de las rentas del capital. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) se abstuvo en 2024, votó Sí en 2025 y No en la moción de 2026.",
+        "en": "An explicit middle position: the program asks for more progressivity, lower income tax on earnings from work and inflation adjustment of the tax scale, but higher tax on capital income. In related votes on inflation adjustment (context only) it abstained in 2024, voted Yes in 2025 and No on the 2026 motion."
+      }
     },
     {
       "statement": "eco-impuesto-energeticas",
@@ -140,31 +157,17 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-01-22",
           "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
-          "publisher": "BNG",
-          "date": "2023-07-05",
-          "quote": "Estabelecer a permanencia dos impostos específicos aos beneficios da banca, das grandes enerxéticas e ás grandes fortunas",
           "accessed": "2026-10-31",
-          "page": "p. 40 del PDF"
+          "lang": "es"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+      "note": {
+        "es": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal energético sobre la cifra de negocios (votación directa, 22/01/2025; no fue convalidado, 165 a favor y 183 en contra). La PNL de 30/09/2026 y el programa de 2023 hablan de impuestos a beneficios extraordinarios, otra base imponible: solo contexto.",
+        "en": "It voted in favour of validating Royal Decree-law 10/2024, which extended into 2025 the temporary energy levy on turnover (direct vote, 22 Jan 2025; it was not validated, 165 for and 183 against). The motion of 30 Sep 2026 and the 2023 program refer to taxes on extraordinary profits, a different tax base: context only."
+      }
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -179,7 +182,8 @@
           "date": "2023-07-05",
           "quote": "Estabelecer a permanencia dos impostos específicos aos beneficios da banca, das grandes enerxéticas e ás grandes fortunas",
           "accessed": "2026-10-31",
-          "page": "p. 40 del PDF"
+          "page": "p. 40 del PDF",
+          "lang": "gl"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
@@ -187,13 +191,17 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-11-21",
           "quote": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el […]",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-impuesto-banca-ley7-2024-11-21"
       ],
-      "note": "Pide hacer permanente el impuesto a la banca. Votó Sí al dictamen de la Ley 7/2024 (21/11/2024), que creó el impuesto junto con otros tributos (votación relacionada, solo contexto)."
+      "note": {
+        "es": "Pide hacer permanente el impuesto a la banca. Votó Sí al dictamen de la Ley 7/2024 (21/11/2024), que lo creó junto con otros tributos (votación relacionada, solo contexto).",
+        "en": "It asks to make the bank tax permanent. It voted Yes on the report for Law 7/2024 (21 Nov 2024), which created it together with other taxes (related vote, context only)."
+      }
     },
     {
       "statement": "tra-jornada-37h",
@@ -207,7 +215,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-09-10",
           "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
@@ -216,14 +225,18 @@
           "date": "2023-07-05",
           "quote": "Promover a implantación da xornada laboral de 35 horas semanais sen redución salarial.",
           "accessed": "2026-10-31",
-          "page": "p. 16"
+          "page": "p. 16",
+          "lang": "gl"
         }
       ],
       "vote_refs": [
         "v-jornada-totalidad-2025-09-10",
         "v-jornada-pnl-2024-02-22"
       ],
-      "note": "Rego votó No a las enmiendas de devolución al proyecto de 37,5 horas (10-09-2025). El programa 2023 pide 35 horas."
+      "note": {
+        "es": "Rego votó No a las enmiendas de devolución al proyecto de ley de 37,5 horas (10/09/2025). El programa de 2023 pide 35 horas.",
+        "en": "Rego voted No on the amendments seeking to reject the 37.5-hour bill (10 Sep 2025). The 2023 program asks for 35 hours."
+      }
     },
     {
       "statement": "tra-salario-minimo",
@@ -238,11 +251,11 @@
           "date": "2023-07-05",
           "quote": "Incremento do Salario Mínimo Interprofesional até o situar no 60 % do salario medio, tal e como fixa a Carta Social Europea.",
           "accessed": "2026-10-31",
-          "page": "p. 16 del PDF"
+          "page": "p. 16 del PDF",
+          "lang": "gl"
         }
       ],
-      "vote_refs": [],
-      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. "
+      "vote_refs": []
     },
     {
       "statement": "san-gestion-privada",
@@ -257,7 +270,8 @@
           "date": "2023-07-05",
           "quote": "mediante unha modificación da Lei 15/97, sobre habilitación de novas formas de xestión do Sistema de Saúde, que asegure que a titularidade, o financiamento, a xestión e a provisión de servizos sanitarios se fará con entidades exclusivamente públicas.",
           "accessed": "2026-10-31",
-          "page": "p. 35"
+          "page": "p. 35",
+          "lang": "gl"
         }
       ],
       "vote_refs": []
@@ -265,21 +279,25 @@
     {
       "statement": "san-dental-publica",
       "stance": "agree",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "title": "Programa electoral BNG, xerais 2023",
           "publisher": "BNG",
-          "date": "2023-07-05",
-          "quote": "Ampliar a Carteira de Servizos comúns do sistema público de saúde [...] así como as prestacións sanitarias actualmente fora da atención primaria, ou só parcialmente financiadas como asistencia odontolóxica",
+          "date": "2023-07",
+          "quote": "as prestacións sanitarias actualmente fora da atención primaria, ou só parcialmente financiadas como asistencia odontolóxica, podoloxía, óptico-optometrista",
           "accessed": "2026-10-31",
-          "page": "p. 36"
+          "page": "p. 36",
+          "lang": "gl"
         }
       ],
       "vote_refs": [],
-      "note": "Pide incluir la asistencia odontológica en la cartera común, sin detallar tratamientos."
+      "note": {
+        "es": "Pide ampliar la cartera común y financiar al 100 % prestaciones hoy no cubiertas o solo en parte, citando la asistencia odontológica.",
+        "en": "It asks to widen the common services portfolio and fully fund benefits not covered today or only partly covered, citing dental care."
+      }
     },
     {
       "statement": "der-aborto-constitucion",
@@ -293,13 +311,17 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-04-30",
           "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de reforma del artículo 43 de la Constitución Española, presentadas por los Grupos Parlamentarios Popular en el Congreso y VOX.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-aborto-constitucion-totalidad-2026-04-30"
       ],
-      "note": "Rego votó No a las enmiendas de devolución de PP y Vox contra la reforma del art. 43 (30-04-2026)."
+      "note": {
+        "es": "Rego votó No a las enmiendas de devolución de PP y Vox contra la reforma del artículo 43 (30/04/2026).",
+        "en": "Rego voted No on the PP and Vox amendments seeking to reject the reform of Article 43 (30 Apr 2026)."
+      }
     },
     {
       "statement": "der-derogar-eutanasia",
@@ -313,11 +335,15 @@
           "publisher": "BNG",
           "date": "2023-07-05",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "gl"
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni votación XV específica. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "No se encontró posición en el programa de 2023 ni votación específica en esta legislatura.",
+        "en": "No position was found in the 2023 program, and there is no specific vote in this legislature."
+      }
     },
     {
       "statement": "der-cambio-sexo-informe",
@@ -332,11 +358,15 @@
           "date": "2023-07-05",
           "quote": "a despatoloxización legal precisa de ser acompañada dunha “despatoloxización social”",
           "page": "p. 25 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "gl"
         }
       ],
       "vote_refs": [],
-      "note": "El BNG respalda la «despatoloxización legal» de las personas trans y pide ampliarla a menores y personas no binarias."
+      "note": {
+        "es": "El BNG respalda la «despatoloxización legal» de las personas trans y pide ampliarla a menores y personas no binarias.",
+        "en": "The BNG supports the legal «depathologisation» («despatoloxización legal») of trans people and asks to extend it to minors and non-binary people."
+      }
     },
     {
       "statement": "inm-regularizacion",
@@ -350,7 +380,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
@@ -358,7 +389,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-03-18",
           "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
@@ -367,7 +399,8 @@
           "date": "2023-07-05",
           "quote": "así como favorecer e facilitar os procesos de",
           "page": "p. 19 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "gl"
         }
       ],
       "vote_refs": [
@@ -375,7 +408,10 @@
         "v-regularizacion-pnl-2025-02-26",
         "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "Néstor Rego votó sí a la ILP (2024) y no a la moción del PP contra la regularización (18/3/2026). El programa 2023 se compromete a «favorecer e facilitar os procesos de regularización administrativa»."
+      "note": {
+        "es": "Néstor Rego votó sí a la ILP (2024) y no a la moción del PP contra la regularización (18/03/2026). El programa de 2023 se compromete a «favorecer e facilitar os procesos de regularización administrativa».",
+        "en": "Néstor Rego voted yes on the citizens' bill (2024) and no on the PP motion against regularisation (18 Mar 2026). The 2023 program commits to «favorecer e facilitar os procesos de regularización administrativa» (favouring and facilitating administrative regularisation)."
+      }
     },
     {
       "statement": "inm-reparto-menores",
@@ -389,32 +425,41 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-04-10",
           "quote": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-menores-rdl2-2025-04-10",
         "v-menores-lo4-2000-2024-07-23"
       ],
-      "note": "Rego votó Sí a convalidar el RDL 2/2025 (10-04-2025)."
+      "note": {
+        "es": "Rego votó Sí a convalidar el RDL 2/2025 (10/04/2025).",
+        "en": "Rego voted Yes on validating Royal Decree-law 2/2025 (10 Apr 2025)."
+      }
     },
     {
-      "statement": "inm-reducir-llegadas",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
+      "statement": "inm-devolver-irregulares",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Programa eleccións xerais 2023",
+          "title": "Programa electoral BNG, elecciones generales 2023",
           "publisher": "BNG",
           "date": "2023-07-05",
-          "quote": "",
-          "accessed": "2026-10-31"
+          "quote": "Peche dos Centros de Internamento para Estranxeiros (CIEs) no Estado español e fin das deportacións",
+          "accessed": "2026-10-31",
+          "page": "p. 20 del PDF",
+          "lang": "gl"
         }
       ],
       "vote_refs": [],
-      "note": "El programa 2023 defiende los derechos de las personas migrantes y combatir las causas de la emigración, sin pronunciarse sobre el número de llegadas."
+      "note": {
+        "es": "Programa explícito: cierre de los CIE y fin de las deportaciones.",
+        "en": "Explicit program: closure of the immigration detention centres (CIE) and an end to deportations."
+      }
     },
     {
       "statement": "cli-nucleares",
@@ -428,14 +473,18 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-02-12",
           "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, sobre el cierre programado de la generación nuclear en España.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-nucleares-pnl-2025-02-12",
         "v-nucleares-pl-2025-06-17"
       ],
-      "note": "Rego votó No a la PNL del PP sobre el cierre programado de las nucleares (12-02-2025)."
+      "note": {
+        "es": "Rego votó No a la PNL del PP sobre el cierre programado de las nucleares (12/02/2025).",
+        "en": "Rego voted No on the PP motion on the scheduled closure of nuclear plants (12 Feb 2025)."
+      }
     },
     {
       "statement": "cli-coches-combustion-despues-2035",
@@ -449,11 +498,15 @@
           "publisher": "BNG",
           "date": "2023-07-05",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "gl"
         }
       ],
       "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "No se encontró posición en el programa de 2023 ni en las declaraciones revisadas.",
+        "en": "No position was found in the 2023 program or in the statements reviewed."
+      }
     },
     {
       "statement": "ter-amnistia",
@@ -467,13 +520,17 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-03-14",
           "quote": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-amnistia-2024-03-14"
       ],
-      "note": "Rego votó Sí a la ley de amnistía (14-03-2024)."
+      "note": {
+        "es": "Rego votó Sí a la ley de amnistía (14/03/2024).",
+        "en": "Rego voted Yes on the amnesty law (14 Mar 2024)."
+      }
     },
     {
       "statement": "ter-referendum",
@@ -488,7 +545,8 @@
           "date": "2023-07-05",
           "quote": "promoveremos e apoiaremos as mudanzas legais precisas que posibilitaren a convocatoria de referendos vinculantes en asuntos de interese, incluído o dereito de autodeterminación",
           "accessed": "2026-10-31",
-          "page": "p. 28"
+          "page": "p. 28",
+          "lang": "gl"
         }
       ],
       "vote_refs": []
@@ -496,23 +554,26 @@
     {
       "statement": "ter-concierto-ccaa",
       "stance": "agree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Programa eleccións xerais 2023",
+          "title": "Programa electoral xerais 2023",
           "publisher": "BNG",
           "date": "2023-07-05",
-          "quote": "Un novo modelo de financiamento baseado no concerto económico e na bilateralidade co Estado. Trátase de que a Galiza recade todos os impostos e teña capacidade para decidir como os inviste",
-          "page": "p. 11 del PDF",
-          "accessed": "2026-10-31"
+          "quote": "Un novo modelo de financiamento baseado no concerto económico e na bilateralidade co Estado. Trátase de que a Galiza recade todos os impostos",
+          "accessed": "2026-10-31",
+          "lang": "gl"
         }
       ],
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "El BNG pide un concierto económico para Galicia en el que la comunidad recaude todos los impuestos. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (Rego votó sí.)"
+      "note": {
+        "es": "Lo reclama para Galicia (comunidad que lo pide), no para otras; por ese alcance limitado la confianza es media. Rego votó Sí a la moción de ERC sobre financiación singular para Cataluña (23/04/2024), votación relacionada que solo sirve de contexto.",
+        "en": "It demands it for Galicia, not for other regions; because of this limited scope, confidence is medium. Rego voted Yes on ERC's motion on singular financing for Catalonia (23 Apr 2024), a related vote that is context only."
+      }
     },
     {
       "statement": "ter-recentralizar",
@@ -527,7 +588,8 @@
           "date": "2023-07-05",
           "quote": "Transferir ao goberno galego todas as competencias pendentes, garantindo a plena capacidade para deseñar e desenvolver un modelo educativo propio.",
           "accessed": "2026-10-31",
-          "page": "p. 32"
+          "page": "p. 32",
+          "lang": "gl"
         },
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
@@ -536,7 +598,8 @@
           "date": "2023-07-05",
           "quote": "O BNG aspira a que a Galiza asuma a plena capacidade para rexer o seu sistema sanitario, sen interferencias de ningún tipo.",
           "accessed": "2026-10-31",
-          "page": "p. 35"
+          "page": "p. 35",
+          "lang": "gl"
         }
       ],
       "vote_refs": []
@@ -553,13 +616,17 @@
           "publisher": "Congreso de los Diputados",
           "date": "2023-09-21",
           "quote": "Proposición de reforma del Reglamento del Congreso de los Diputados.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
       ],
-      "note": "Rego votó Sí a la reforma del Reglamento que permite las lenguas cooficiales (21-09-2023). [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "Rego votó Sí a la reforma del Reglamento que permite las lenguas cooficiales (21/09/2023).",
+        "en": "Rego voted Yes on the reform of the rules that allows co-official languages (21 Sep 2023)."
+      }
     },
     {
       "statement": "edu-concertada",
@@ -574,7 +641,8 @@
           "date": "2023-07-05",
           "quote": "No camiño da supresión dos concertos en todos os niveis educativos, eliminación destes no ensino non-obrigatorio e control do financiamento alleo aos concertos nos centros sostidos con fondos públicos.",
           "accessed": "2026-10-31",
-          "page": "p. 33"
+          "page": "p. 33",
+          "lang": "gl"
         }
       ],
       "vote_refs": []
@@ -591,11 +659,15 @@
           "publisher": "BNG",
           "date": "2023-07-05",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "gl"
         }
       ],
       "vote_refs": [],
-      "note": "El programa reclama competencias plenas en educación y la normalización del gallego, pero no se pronuncia expresamente sobre la elección de lengua vehicular por las familias."
+      "note": {
+        "es": "El programa reclama competencias plenas en educación y la normalización del gallego, pero no se pronuncia expresamente sobre la elección de lengua vehicular por las familias.",
+        "en": "The program demands full powers over education and the normalisation of Galician, but does not expressly take a stance on families choosing the language of instruction."
+      }
     },
     {
       "statement": "ins-cgpj",
@@ -609,7 +681,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-02-27",
           "quote": "Orgánica por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para la reforma del procedimiento de elección de los vocales del Consejo General del Poder Judicial.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.elobservador.com.uy/espana/el-congreso-rechaza-que-los-jueces-puedan-elegir-la-mayoria-de-los-vocales-del-poder-judicial-2024227194732",
@@ -617,14 +690,18 @@
           "publisher": "El Observador (EFE)",
           "date": "2024-02-27",
           "quote": "Vox planteaba que los jueces eligieran de forma directa a los doce vocales de extracción judicial del CGPJ",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-cgpj-vox-2024-02-27",
         "v-cgpj-pp-2026-09-10"
       ],
-      "note": "Rego votó No a la proposición de Vox (27-02-2024)."
+      "note": {
+        "es": "Rego votó No a la proposición de Vox (27/02/2024).",
+        "en": "Rego voted No on Vox's bill (27 Feb 2024)."
+      }
     },
     {
       "statement": "ins-referendum-monarquia",
@@ -639,11 +716,15 @@
           "date": "2023-07-05",
           "quote": "convocatoria de referendos vinculantes en asuntos de",
           "page": "p. 28 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "gl"
         }
       ],
       "vote_refs": [],
-      "note": "El BNG defiende una República gallega y referendos vinculantes en general, pero no se encontró una propuesta de referéndum estatal entre monarquía y república."
+      "note": {
+        "es": "El BNG defiende una república gallega y referendos vinculantes en general, pero no se encontró una propuesta de referéndum estatal entre monarquía y república.",
+        "en": "The BNG defends a Galician republic and binding referendums in general, but no proposal for a state-wide referendum between monarchy and republic was found."
+      }
     },
     {
       "statement": "ins-derogar-memoria",
@@ -658,14 +739,18 @@
           "date": "2023-07-05",
           "quote": "a Lei de Memoria Democrática, que mantén na impunidade os crimes do franquismo",
           "accessed": "2026-10-31",
-          "page": "p. 6"
+          "page": "p. 6",
+          "lang": "gl"
         }
       ],
       "vote_refs": [
         "v-memoria-mocion-2024-02-06",
         "v-memoria-pnl-2024-05-23"
       ],
-      "note": "Sin posición explícita sobre la derogación: el BNG critica la ley por insuficiente y votó a favor de iniciativas sobre su aplicación (votaciones relacionadas, que por sí solas no bastan para codificar). [Calibración 31/10/2026 tras auditoría de neutralidad.]"
+      "note": {
+        "es": "Sin posición explícita sobre la derogación: el BNG critica la ley por insuficiente y votó a favor de iniciativas sobre su aplicación (votaciones relacionadas, que por sí solas no bastan para determinar su posición).",
+        "en": "No explicit position on repeal: the BNG criticises the law as insufficient and voted in favour of initiatives on its application (related votes, which are not enough on their own to determine its position)."
+      }
     },
     {
       "statement": "ext-gasto-defensa",
@@ -680,7 +765,8 @@
           "date": "2023-07-05",
           "quote": "Anular o compromiso do goberno español de aumentar o gasto militar até chegar a 2 % do PIB estatal",
           "page": "p. 66 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "gl"
         },
         {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
@@ -689,11 +775,15 @@
           "date": "2025-07-09",
           "quote": "Vostede asinou o acordo da OTAN para chegar até 5 % do Produto Interior Bruto en gasto militar",
           "page": "p. 25 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "gl"
         }
       ],
       "vote_refs": [],
-      "note": "El programa de 2023 rechaza incluso llegar al 2 % y pide salir de la OTAN; en 2025 Rego criticó que el Gobierno firmara el objetivo del 5 %."
+      "note": {
+        "es": "El programa de 2023 rechaza incluso llegar al 2 % y pide salir de la OTAN; en 2025 Rego criticó que el Gobierno firmara el objetivo del 5 %.",
+        "en": "The 2023 program rejects even reaching 2 % and calls for leaving NATO; in 2025 Rego criticised the Government for signing up to the 5 % target."
+      }
     },
     {
       "statement": "ext-embargo-israel",
@@ -707,14 +797,18 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-10-08",
           "quote": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-embargo-israel-rdl-2025-10-08",
         "v-embargo-ley-2025-05-20"
       ],
-      "note": "Rego votó Sí a convalidar el RDL 10/2025, que incluye el embargo de armas a Israel (08-10-2025)."
+      "note": {
+        "es": "Rego votó Sí a convalidar el RDL 10/2025, que incluye el embargo de armas a Israel (08/10/2025).",
+        "en": "Rego voted Yes on validating Royal Decree-law 10/2025, which includes the arms embargo on Israel (8 Oct 2025)."
+      }
     }
   ]
 }

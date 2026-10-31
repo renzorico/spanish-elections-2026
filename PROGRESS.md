@@ -11,7 +11,13 @@ _Last updated: 2026-10-31_
 - Independent neutrality audit → AUDIT.md (7 HIGH / 13 MEDIUM / 11 LOW; all HIGH fixed); calibrated recode of 12 statements
 - `npm test` 29/29; `npm run validate` 0 errors; source check 115/116 reachable (1 bot-blocked, second source supports)
 
+## Done since (Codex audit follow-up, 31 Oct 2026)
+- All 21 verified Codex findings fixed (see AUDIT.md follow-up); statement set still 30, polarity 15/15
+- Notes are bilingual and clean; validator + build run `--strict`; browser regression suite added
+
 ## Next (in priority order)
+0. **UI/UX redesign** (friendlier, catchier, shorter-feeling quiz) — see "UI/UX direction" below
+
 1. **3 Nov 2026**: re-parse proclaimed candidacies (BOE 3 Nov), set `candidacies.json` status to `proclaimed`; check Asturias "PODEMOS (PAZ, CASA Y TRABAJO)" (AUDIT L10)
 2. As parties publish 2026 programs: set `program_2026.status = published` and recode against them (start with statements coded from 2023 programs)
 3. Confirm the official psoe.es 2023 program URL in a browser (DATA_GAPS)
@@ -24,3 +30,6 @@ npm test && npm run build && npm run serve   # http://localhost:8000
 node scripts/reconcile_votes.mjs --dry      # vote vs. coding conflicts
 npm run check-sources                       # URL liveness
 ```
+
+## UI/UX direction (next step, not started)
+Goal: people drop out of a 30-question quiz. Ideas to decide together: quick-start / short mode (e.g. 10 key statements, with "keep going" for more), a live "your picture so far" after each topic, one-statement-per-screen with larger cards and keyboard/swipe shortcuts, friendlier copy, a distinctive visual identity that stays party-neutral (no party colours), progress that feels short (by topic), shareable result card (stays client-side), soft-skip "no opinion". Constraints: no storage, no ranking by default, neutral wording, accessibility (WCAG AA), works at 320 px.

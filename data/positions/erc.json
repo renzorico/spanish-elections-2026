@@ -16,7 +16,8 @@
           "date": "2023-07-11",
           "quote": "Defensar la limitació i impulsar la reducció dels preus del lloguer.",
           "page": "p. 52 (PDF), p. 51 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
@@ -25,14 +26,18 @@
           "date": "2023-07-11",
           "quote": "puguin regular íntegrament els contractes d’arrendaments urbans, incloent la regulació dels preus de lloguer",
           "page": "p. 114 (PDF), p. 113 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-alquiler-rdl8-2026-04-28",
         "v-alquiler-temporada-2024-12-17"
       ],
-      "note": "ERC defensa limitar els preus del lloguer i que les comunitats autònomes amb competències puguin regular-los íntegrament."
+      "note": {
+        "es": "ERC defiende limitar los precios del alquiler y que las comunidades autónomas con competencias puedan regularlos íntegramente.",
+        "en": "ERC supports capping rents and letting regions with the relevant powers regulate them fully."
+      }
     },
     {
       "statement": "viv-desalojo-rapido",
@@ -46,7 +51,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-03-18",
           "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
@@ -54,7 +60,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-05-19",
           "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
@@ -63,14 +70,18 @@
           "date": "2023-07-01",
           "quote": "Cal evitar els desnonaments sense garantia habitacional",
           "accessed": "2026-10-31",
-          "page": "p. 54 del PDF"
+          "page": "p. 54 del PDF",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-okupacion-junts-2025-03-18",
         "v-okupacion-pp-2026-05-19"
       ],
-      "note": "Votó en contra de tomar en consideración las dos proposiciones de ley que aceleran el desalojo de viviendas ocupadas (Junts, 18/03/2025, y PP, 19/05/2026), ambas votaciones directas."
+      "note": {
+        "es": "Votó en contra de tomar en consideración las dos proposiciones de ley que aceleran el desalojo de viviendas ocupadas (Junts, 18/03/2025, y PP, 19/05/2026), ambas votaciones directas.",
+        "en": "Voted against taking into consideration the two bills that speed up evictions from occupied homes (Junts, 18/03/2025, and PP, 19/05/2026), both direct votes."
+      }
     },
     {
       "statement": "eco-suprimir-impuesto-fortunas",
@@ -85,7 +96,8 @@
           "date": "2023-07-01",
           "quote": "Millorar el funcionament de l’impost a les grans fortunes",
           "accessed": "2026-10-31",
-          "page": "p. 70 del PDF"
+          "page": "p. 70 del PDF",
+          "lang": "ca"
         },
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
@@ -94,11 +106,15 @@
           "date": "2023-07-01",
           "quote": "Cal crear impostos sobre les grans fortunes, les transaccions financeres o les emissions de CO2.",
           "accessed": "2026-10-31",
-          "page": "p. 54 del PDF"
+          "page": "p. 54 del PDF",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. "
+      "note": {
+        "es": "El enunciado dice «el impuesto específico sobre los patrimonios más altos», ambiguo porque existen dos impuestos; se ha valorado el Impuesto Temporal de Solidaridad de las Grandes Fortunas.",
+        "en": "The statement refers to “the specific tax on the largest estates”, which is ambiguous because there are two taxes; the Temporary Solidarity Tax on Large Fortunes was assessed."
+      }
     },
     {
       "statement": "eco-bajar-irpf",
@@ -113,7 +129,8 @@
           "date": "2023-07-01",
           "quote": "es proposa incrementar els tipus aplicats a les rendes del capital així com crear nous trams addicionals per a les rendes més altes.",
           "accessed": "2026-10-31",
-          "page": "p. 70 del PDF"
+          "page": "p. 70 del PDF",
+          "lang": "ca"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
@@ -121,7 +138,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
@@ -129,7 +147,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-06-12",
           "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
@@ -137,7 +156,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-04-22",
           "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
@@ -145,7 +165,10 @@
         "v-irpf-deflactar-2025-06-12",
         "v-irpf-deflactar-mocion-2026-04-22"
       ],
-      "note": "ERC propone subir el IRPF a las rentas del capital y a las más altas, no una bajada general. Sí propone deducciones concretas, como la del alquiler. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
+      "note": {
+        "es": "ERC propone subir el IRPF a las rentas del capital y a las más altas, no una bajada general. Sí propone deducciones concretas, como la del alquiler. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No.",
+        "en": "ERC proposes raising income tax on capital income and on the highest incomes, not a general cut. It does propose specific deductions, such as for rent. In related votes on indexing income tax brackets (context only) it voted: PP motion of 09/04/2024: No; PP motion of 12/06/2025: No; point 1 of the PP motion of 22/04/2026: No."
+      }
     },
     {
       "statement": "eco-impuesto-energeticas",
@@ -159,31 +182,17 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-01-22",
           "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-01",
-          "quote": "Esquerra aposta per convertir els impostos extraordinaris a la banca i les empreses energètiques en figures permanents",
           "accessed": "2026-10-31",
-          "page": "p. 70 del PDF"
+          "lang": "es"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+      "note": {
+        "es": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal energético sobre la cifra de negocios (votación directa, 22/01/2025; no convalidado 165-183-1). La PNL de 30/09/2026 (beneficios extraordinarios, ámbito UE) es solo contexto: otra base imponible y otro ámbito. El programa 2023 (hacer permanentes los impuestos extraordinarios) es contexto.",
+        "en": "Voted to validate Royal Decree-law 10/2024, which extended the temporary levy on energy companies' turnover into 2025 (direct vote, 22/01/2025; not validated, 165-183-1). The 30/09/2026 non-binding motion (windfall profits, EU level) is context only: different tax base and scope. The 2023 program (making the extraordinary taxes permanent) is context."
+      }
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -198,7 +207,8 @@
           "date": "2023-07-01",
           "quote": "Esquerra aposta per convertir els impostos extraordinaris a la banca i les empreses energètiques en figures permanents",
           "accessed": "2026-10-31",
-          "page": "p. 70 del PDF"
+          "page": "p. 70 del PDF",
+          "lang": "ca"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
@@ -206,13 +216,17 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-11-21",
           "quote": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el […]",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-impuesto-banca-ley7-2024-11-21"
       ],
-      "note": "Pide hacer permanente el impuesto a la banca. Votó Sí al dictamen de la Ley 7/2024 (21/11/2024), que creó el impuesto junto con otros tributos (votación relacionada, solo contexto)."
+      "note": {
+        "es": "Pide hacer permanente el impuesto a la banca. Votó Sí al dictamen de la Ley 7/2024 (21/11/2024), que creó el impuesto junto con otros tributos (votación relacionada, solo contexto).",
+        "en": "It calls for making the bank tax permanent. Voted Yes on the report for Law 7/2024 (21/11/2024), which created the tax together with other levies (related vote, context only)."
+      }
     },
     {
       "statement": "tra-jornada-37h",
@@ -227,7 +241,8 @@
           "date": "2023-07-11",
           "quote": "implementi mesures com la jornada laboral de quatre dies",
           "page": "p. 53 (PDF), p. 52 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.periodicodeibiza.es/noticias/nacional/2025/09/11/2467647/congreso-tumba-reduccion-jornada-laboral-prosperar-veto-vox-junts.html",
@@ -235,14 +250,18 @@
           "publisher": "Periódico de Ibiza (Europa Press)",
           "date": "2025-09-11",
           "quote": "No ha habido abstenciones y PSOE, Sumar, ERC, PNV, Bildu, Podemos, BNG, Coalición Canaria",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-jornada-totalidad-2025-09-10",
         "v-jornada-pnl-2024-02-22"
       ],
-      "note": "El programa 2023 defensa reduir la jornada (setmana de quatre dies). El 10/09/2025 ERC va votar contra les esmenes a la totalitat que van tombar el projecte de 37,5 hores (segons Europa Press); el mapatge sistemàtic de votacions ho pot confirmar."
+      "note": {
+        "es": "El programa de 2023 defiende reducir la jornada (semana de cuatro días). Según Europa Press, el 10/09/2025 ERC votó contra las enmiendas a la totalidad que tumbaron el proyecto de 37,5 horas.",
+        "en": "The 2023 program supports shorter working hours (four-day week). According to Europa Press, on 10/09/2025 ERC voted against the full-text amendments that brought down the 37.5-hour bill."
+      }
     },
     {
       "statement": "tra-salario-minimo",
@@ -257,11 +276,15 @@
           "date": "2023-07-01",
           "quote": "amb l’increment del salari mínim interprofessional a 1.250 euros",
           "accessed": "2026-10-31",
-          "page": "p. 90 del PDF"
+          "page": "p. 90 del PDF",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. ERC pide subir el SMI a 1.250 euros (en 2023 era de 1.080, la cifra que el Gobierno equiparó al 60 % del salario medio) y permitir SMI autonómicos más altos. No cita el 60 %, por eso la confianza es media."
+      "note": {
+        "es": "El enunciado dice «hasta llegar al 60 %», pero el Gobierno dio por alcanzado ese 60 % en febrero de 2023; se ha valorado si el salario mínimo debe seguir subiendo y mantenerse al menos en el 60 % del salario medio. ERC pide subir el SMI a 1.250 euros (en 2023 era de 1.080, la cifra que el Gobierno equiparó al 60 % del salario medio) y permitir SMI autonómicos más altos. No cita el 60 %, por eso la confianza es media.",
+        "en": "The statement says “until reaching 60%”, but the Government considered that 60% reached in February 2023; what was assessed is whether the minimum wage should keep rising and stay at least at 60% of the average wage. ERC calls for raising the minimum wage to 1,250 euros (in 2023 it was 1,080, the figure the Government equated with 60% of the average wage) and allowing higher regional minimum wages. It does not cite the 60% figure, so confidence is medium."
+      }
     },
     {
       "statement": "san-gestion-privada",
@@ -275,11 +298,15 @@
           "date": "2023-07-11",
           "quote": "Al Congrés i al Senat hem d’anar a defensar el nostre sistema públic de salut",
           "page": "p. 61 (PDF), p. 60 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "El programa defensa un sistema de salut públic però no conté cap proposta sobre limitar per llei la gestió privada de serveis sanitaris."
+      "note": {
+        "es": "El programa defiende un sistema de salud público, pero no contiene ninguna propuesta para limitar por ley la gestión privada de servicios sanitarios.",
+        "en": "The program defends a public health system but contains no proposal to limit by law the private management of health services."
+      }
     },
     {
       "statement": "san-dental-publica",
@@ -288,16 +315,21 @@
       "sources": [
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-11",
+          "title": "Programa electoral ERC 2023",
+          "publisher": "ERC",
+          "date": "2023-09",
           "quote": "Transferència financera per a l’aplicació efectiva dels plans de salut bucodental inclosos a la cartera de serveis.",
-          "page": "p. 62 (PDF), p. 61 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "page": "PDF p. 62",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Només demana finançament per als plans bucodentals ja inclosos a la cartera; no proposa cobertura dental general universal."
+      "note": {
+        "es": "Solo pide financiar los planes bucodentales ya incluidos en la cartera de servicios; no propone ampliar los tratamientos cubiertos.",
+        "en": "It only calls for funding the oral-health plans already in the public service portfolio; it does not propose extending the treatments covered."
+      },
+      "confidence": null
     },
     {
       "statement": "der-aborto-constitucion",
@@ -310,7 +342,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-04-30",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
@@ -319,7 +352,8 @@
           "date": "2023-07-11",
           "quote": "Garantia dels drets sexuals i reproductius, a partir de l’aprofundiment en els drets ja reconeguts, com el dret a l’accés a la interrupció voluntària de l’embaràs amb equitat territorial",
           "page": "p. 47 (PDF), p. 46 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://www.elsaltodiario.com/derechos-reproductivos/congreso-rechaza-enmiendas-totalidad-pp-vox-incluir-aborto-constitucion",
@@ -327,13 +361,17 @@
           "publisher": "El Salto",
           "date": "2026-04-30",
           "quote": "Pilar Vallugera , de ERC, ha trasladado su “apoyo absoluto” al derecho de las mujeres a su propio cuerpo aunque ha cree que el Gobierno “este debate lo ha encarado mal”.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-aborto-constitucion-totalidad-2026-04-30"
       ],
-      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-aborto-constitucion-totalidad-2026-04-30).",
+      "note": {
+        "es": "Sin posición explícita en los documentos del partido; la postura se basa en su voto en el Congreso (30/04/2026).",
+        "en": "No explicit position in the party's documents; the stance is based on its vote in Congress (30/04/2026)."
+      },
       "confidence": "high"
     },
     {
@@ -349,7 +387,8 @@
           "date": "2023-07-11",
           "quote": "N’és un exemple la llei per garantir una mort digna que s’ha aprovat aquesta darrera legislatura, després de molts anys d’impuls de les entitats i el Parlament de Catalunya.",
           "page": "p. 61 (PDF), p. 60 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": []
@@ -367,11 +406,15 @@
           "date": "2023-07-01",
           "quote": "pel reconeixement del dret a l’autodeterminació de gènere, fet que implica despatologitzar el fet trans.",
           "page": "p. 50 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "ERC apoyó la Ley 4/2023 y quiere ampliarla a menores y personas no binarias."
+      "note": {
+        "es": "ERC apoyó la Ley 4/2023 y quiere ampliarla a menores y personas no binarias.",
+        "en": "ERC supported Law 4/2023 and wants to extend it to minors and non-binary people."
+      }
     },
     {
       "statement": "inm-regularizacion",
@@ -386,7 +429,8 @@
           "date": "2023-07-01",
           "quote": "Regularitzar a les persones en situació administrativa irregular, incloses les persones inexpulsables, en base a la Iniciativa Legislativa Popular portada a terme pel moviment Regularització Ja!",
           "page": "p. 41 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
@@ -394,7 +438,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion166/20260318/Votacion003/VOT_20260318175327.json",
@@ -402,7 +447,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-03-18",
           "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
@@ -411,7 +457,8 @@
           "date": "2026-03-17",
           "quote": "I per això votarem que no a aquesta moció.",
           "page": "p. 63 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
@@ -419,7 +466,10 @@
         "v-regularizacion-pnl-2025-02-26",
         "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "Programa 2023 explícito; votó sí a la ILP (2024) y no a la moción del PP contra la regularización (18/3/2026)."
+      "note": {
+        "es": "El programa de 2023 lo recoge de forma explícita; votó sí a la ILP (2024) y no a la moción del PP contra la regularización (18/03/2026).",
+        "en": "The 2023 program states it explicitly; it voted Yes on the popular legislative initiative (2024) and No on the PP motion against regularisation (18/03/2026)."
+      }
     },
     {
       "statement": "inm-reparto-menores",
@@ -432,7 +482,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-04-10",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion056/20240723/Votacion063/VOT_20240723221735.json",
@@ -440,7 +491,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-07-23",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
@@ -449,34 +501,52 @@
           "date": "2023-07-11",
           "quote": "Reformar l'article 35 de la LO 4/2000 perquè prevalgui la protecció de les i els menors que arriben a l’Estat espanyol sense la companyia d'una persona adulta",
           "page": "p. 38 (PDF), p. 37 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-menores-rdl2-2025-04-10",
         "v-menores-lo4-2000-2024-07-23"
       ],
-      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-menores-rdl2-2025-04-10, v-menores-lo4-2000-2024-07-23).",
+      "note": {
+        "es": "Sin posición explícita en los documentos del partido; la postura se basa en su voto en el Congreso (10/04/2025 y 23/07/2024).",
+        "en": "No explicit position in the party's documents; the stance is based on its vote in Congress (10/04/2025 and 23/07/2024)."
+      },
       "confidence": "high"
     },
     {
-      "statement": "inm-reducir-llegadas",
+      "statement": "inm-devolver-irregulares",
       "stance": "no_clear_position",
       "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Programa electoral eleccions generals 2023",
+          "title": "Programa electoral ERC, elecciones generales 2023",
           "publisher": "ERC",
           "date": "2023-07-01",
-          "quote": "Regulació dels fluxos migratoris des d’una perspectiva real i objectiva de les causes de les migracions per a la bona gestió de les entrades i sortides.",
-          "page": "p. 37 del PDF",
-          "accessed": "2026-10-31"
+          "quote": "Tancament dels Centres d’Internament d’Estrangers (CIE).",
+          "accessed": "2026-10-31",
+          "page": "p. 40 del PDF",
+          "lang": "ca"
+        },
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Programa electoral ERC 2023",
+          "publisher": "ERC",
+          "date": "2023-07-01",
+          "quote": "Directiva de retorn (115/2008), més coneguda en el context dels Drets Humans com a “directiva de la vergonya”.",
+          "accessed": "2026-10-31",
+          "page": "p. 36 del PDF",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "El programa defiende vías legales y seguras y la «regulació dels fluxos», sin pronunciarse sobre reducir o aumentar las llegadas."
+      "note": {
+        "es": "El programa pide cerrar los centros de internamiento de extranjeros (CIE), instrumento para ejecutar expulsiones, pero no se pronuncia sobre acelerar o no las devoluciones, por lo que no se asigna posición. Su crítica a la Directiva de retorno de la UE tampoco se refiere a la rapidez de las devoluciones.",
+        "en": "The program calls for closing the immigration detention centres (CIE), a tool for carrying out expulsions, but does not say whether returns should be sped up, so no position is assigned. Its criticism of the EU Return Directive is not about the speed of returns either."
+      }
     },
     {
       "statement": "cli-nucleares",
@@ -490,14 +560,18 @@
           "date": "2023-07-11",
           "quote": "Exigir la contribució de l’Estat al Fons de Transició Nuclear de la Generalitat de Catalunya",
           "page": "p. 103 (PDF), p. 102 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-nucleares-pnl-2025-02-12",
         "v-nucleares-pl-2025-06-17"
       ],
-      "note": "El programa aposta per un sistema 100 % renovable i un fons de transició nuclear, però no es pronuncia explícitament sobre allargar o mantenir el calendari de tancament."
+      "note": {
+        "es": "El programa apuesta por un sistema 100 % renovable y un fondo de transición nuclear, pero no se pronuncia explícitamente sobre alargar o mantener el calendario de cierre.",
+        "en": "The program backs a 100% renewable system and a nuclear transition fund, but does not explicitly say whether to extend or keep the closure schedule."
+      }
     },
     {
       "statement": "cli-coches-combustion-despues-2035",
@@ -512,11 +586,15 @@
           "date": "2023-07-11",
           "quote": "La prohibició de venta de motors de combustió necessita, com a resposta, el desenvolupament d’una xarxa de punts de recàrrega de vehicles elèctrics",
           "page": "p. 76 (PDF), p. 75 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Assumeix la prohibició i demana infraestructura per fer-la efectiva. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "Asume la prohibición y pide infraestructura para hacerla efectiva.",
+        "en": "It accepts the ban and calls for the infrastructure needed to make it effective."
+      }
     },
     {
       "statement": "ter-amnistia",
@@ -531,7 +609,8 @@
           "date": "2023-07-11",
           "quote": "Impuls d’una llei d’Amnistia, per acabar amb tota la repressió política contra l’independentisme",
           "page": "p. 16 (PDF), p. 15 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
@@ -551,7 +630,8 @@
           "date": "2023-07-11",
           "quote": "negociant la celebració d’un referèndum per a la consecució d’una República Catalana de drets i llibertats",
           "page": "p. 8 (PDF), p. 7 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
@@ -560,7 +640,8 @@
           "date": "2023-07-11",
           "quote": "Negociar la convocatòria d’un referèndum d’autodeterminació a Catalunya amb acompanyament internacional.",
           "page": "p. 12 (PDF), p. 11 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": []
@@ -568,23 +649,26 @@
     {
       "statement": "ter-concierto-ccaa",
       "stance": "agree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Programa electoral eleccions generals 2023",
+          "title": "Programa electoral 2023",
           "publisher": "ERC",
           "date": "2023-07-01",
-          "quote": "Continuar avançant cap a la plena sobirania fiscal. Ampliar les funcions de l’Agència Tributària de Catalunya (ATC) i fer possible els convenis amb les entitats que conformen el sector públic per recaptar i gestionar tots els tributs",
-          "page": "p. 71 del PDF",
-          "accessed": "2026-10-31"
+          "quote": "Ampliar les funcions de l’Agència Tributària de Catalunya (ATC) i fer possible els convenis amb les entitats que conformen el sector públic per recaptar i gestionar tots els tributs que es paguen a Catalunya.",
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "ERC pide que Cataluña recaude y gestione todos sus tributos. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (ERC votó sí.)"
+      "note": {
+        "es": "Lo reclama para Cataluña, una comunidad que lo pide; no se pronuncia sobre otras comunidades, por eso la confianza es media. La moción de ERC sobre financiación singular para Cataluña (23/04/2024) es una votación relacionada y solo se cita como contexto (ERC votó sí).",
+        "en": "It demands this for Catalonia, a region that asks for it; it does not say anything about other regions, so confidence is medium. ERC's motion on singular financing for Catalonia (23/04/2024) is a related vote, cited as context only (ERC voted Yes)."
+      }
     },
     {
       "statement": "ter-recentralizar",
@@ -599,7 +683,8 @@
           "date": "2023-07-11",
           "quote": "comencen a prendre força les propostes recentralitzadores, un discurs compartit per la dreta unitarista i l’esquerra jacobina estatals.",
           "page": "p. 22 (PDF), p. 21 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
@@ -608,7 +693,8 @@
           "date": "2023-07-11",
           "quote": "Demanar les competències exclusives en l’elaboració dels currículums de les etapes obligatòries i postobligatòries per a la Generalitat de Catalunya",
           "page": "p. 127 (PDF), p. 126 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": []
@@ -626,13 +712,13 @@
           "date": "2023-07-11",
           "quote": "Modificar el Reglament del Congrés dels Diputats per tal que el català, el basc, el gallec, l’aragonès, l’asturlleonès, l’occità i les llengües de signes siguin llengües d’ús i de treball de la seva activitat.",
           "page": "p. 121 (PDF), p. 120 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
-      ],
-      "note": "[La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      ]
     },
     {
       "statement": "edu-concertada",
@@ -646,11 +732,15 @@
           "date": "2023-07-11",
           "quote": "permetrà avançar cap a la integració del conjunt del sistema educatiu en un model educatiu públic, laic, universal i en català.",
           "page": "p. 127 (PDF), p. 126 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [],
-      "note": "Planteja integrar progressivament tots els centres en un model públic (per a la futura República), però no proposa reduir el finançament de la concertada per traslladar-lo a la pública."
+      "note": {
+        "es": "Plantea integrar progresivamente todos los centros en un modelo público (para la futura república), pero no propone reducir la financiación de la concertada para trasladarla a la pública.",
+        "en": "It proposes gradually integrating all schools into a public model (for a future republic) but does not propose cutting funding for state-subsidised private schools to move it to public ones."
+      }
     },
     {
       "statement": "edu-lengua-castellano",
@@ -665,7 +755,8 @@
           "date": "2023-07-11",
           "quote": "Defensar el model d'immersió lingüística i el respecte al marc competencial al conjunt dels Països Catalans",
           "page": "p. 128 (PDF), p. 127 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
@@ -674,7 +765,8 @@
           "date": "2023-07-11",
           "quote": "Aquestes forces reaccionàries volen construir un model educatiu que separi els alumnes per raó de llengua i divideixi els estudiants.",
           "page": "p. 126 (PDF), p. 125 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": []
@@ -690,7 +782,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-02-27",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion196/20260910/Votacion015/VOT_20260910180649.json",
@@ -698,7 +791,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-09-10",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
@@ -707,14 +801,18 @@
           "date": "2023-07-11",
           "quote": "amb l’establiment d’un òrgan de govern dels jutges, que han de ser elegits democràticament, de manera paritària i amb criteris de mèrit i capacitat",
           "page": "p. 20 (PDF), p. 19 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-cgpj-vox-2024-02-27",
         "v-cgpj-pp-2026-09-10"
       ],
-      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-cgpj-vox-2024-02-27, v-cgpj-pp-2026-09-10).",
+      "note": {
+        "es": "Sin posición explícita en los documentos del partido; la postura se basa en su voto en el Congreso (27/02/2024 y 10/09/2026).",
+        "en": "No explicit position in the party's documents; the stance is based on its vote in Congress (27/02/2024 and 10/09/2026)."
+      },
       "confidence": "high"
     },
     {
@@ -730,7 +828,8 @@
           "date": "2023-07-01",
           "quote": "Donar suport a la convocatòria d’un referèndum sobre monarquia o república.",
           "page": "p. 12 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": []
@@ -748,14 +847,18 @@
           "date": "2023-07-11",
           "quote": "Garantir el compliment de la Llei de Memòria Democràtica encara que no sigui la que nosaltres hauríem volgut.",
           "page": "p. 34 (PDF), p. 33 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         }
       ],
       "vote_refs": [
         "v-memoria-mocion-2024-02-06",
         "v-memoria-pnl-2024-05-23"
       ],
-      "note": "Hi dona suport tot i considerar-la insuficient. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "Da apoyo a la ley, aunque la considera insuficiente.",
+        "en": "It supports the law, although it considers it insufficient."
+      }
     },
     {
       "statement": "ext-gasto-defensa",
@@ -770,7 +873,8 @@
           "date": "2023-07-01",
           "quote": "Reduir la despesa militar espanyola, tant en efectius com en capacitat armamentística, per tal de revertir l’increment de l’última dècada.",
           "page": "p. 30 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
@@ -779,11 +883,15 @@
           "date": "2025-07-09",
           "quote": "Lo que me extraña es que ustedes lo critiquen por no firmar un aumento en defensa que se cargaría partidas sociales en este país que provocarían un dolor inmenso.",
           "page": "p. 15 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El programa de 2023 (anterior al objetivo del 3,5 %) pide reducir el gasto militar, lo que implica claramente rechazar subirlo; en 2025 su portavoz se opuso al aumento."
+      "note": {
+        "es": "El programa de 2023 (anterior al objetivo del 3,5 %) pide reducir el gasto militar, lo que implica rechazar subirlo; en 2025 su portavoz se opuso al aumento.",
+        "en": "The 2023 program (before the 3.5% target) calls for cutting military spending, which implies rejecting an increase; in 2025 its spokesperson opposed the rise."
+      }
     },
     {
       "statement": "ext-embargo-israel",
@@ -798,7 +906,8 @@
           "date": "2023-07-11",
           "quote": "Detenir les transaccions comercials armamentístiques a països que vulneren els Drets Humans (Aràbia Saudita, Egipte, Unió dels Emirats Àrabs, Israel, l'Iraq, Turquia).",
           "page": "p. 30 (PDF), p. 29 (imprès)",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "ca"
         },
         {
           "url": "https://rtvc.es/congreso-aprueba-embargo-armas-israel-8-octubre-2025/",
@@ -806,14 +915,18 @@
           "publisher": "RTVC (Radio Televisión Canaria)",
           "date": "2025-10-08",
           "quote": "El resto de socios de investidura de Pedro Sánchez, como ERC, Junts, EH Bildu, PNV y BNG , también se quejaron el martes durante el debate de esta iniciativa de que el decreto ley es incompleto",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-embargo-israel-rdl-2025-10-08",
         "v-embargo-ley-2025-05-20"
       ],
-      "note": "Segons la premsa, ERC va votar a favor de convalidar el decret d'embargo (8/10/2025) tot i considerar-lo incomplet."
+      "note": {
+        "es": "Según la prensa, ERC votó a favor de convalidar el decreto de embargo (08/10/2025) aunque lo considera incompleto.",
+        "en": "According to the press, ERC voted in favour of validating the embargo decree (08/10/2025) while considering it incomplete."
+      }
     }
   ]
 }

@@ -1,0 +1,239 @@
+{
+  "statement": "san-dental-publica",
+  "coded_on": "2026-10-31",
+  "coded_by": "subagent:recode2-a",
+  "positions": {
+    "pp": {
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
+          "title": "Programa electoral PP 2023 (365 medidas)",
+          "publisher": "PP",
+          "date": "2023-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa 2023 no menciona la cobertura bucodental pública."
+    },
+    "psoe": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Salud Bucodental: promoveremos la incorporación progresiva de servicios como las obturaciones (empastes) o los implantes dentales a más colectivos, comenzando por personas mayores de 75 años.",
+          "accessed": "2026-10-31",
+          "page": "Alojado por El Independiente"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Propone ampliar los tratamientos dentales cubiertos (empastes, implantes), de forma progresiva y por colectivos. Cumple la afirmación (más tratamientos que hoy); no plantea cobertura universal, pero la frase no la exige. Recodificado de neutral: ampliar gradualmente es una ampliación, no una posición intermedia."
+    },
+    "vox": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa VOX 2023",
+          "publisher": "VOX",
+          "date": "2023-07",
+          "quote": "Incluiremos en la cartera de servicios las prestaciones relacionadas con la salud bucodental y oftalmológica.",
+          "accessed": "2026-10-31",
+          "page": "medida 114"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Compromiso de incluir prestaciones bucodentales en la cartera pública (ampliación concreta de cobertura), sin detallar tratamientos ni colectivos."
+    },
+    "frente-amplio": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti (Sumar, elecciones generales 2023)",
+          "publisher": "Sumar",
+          "date": "2023-07",
+          "quote": "Proponemos incorporar a los servicios sanitarios públicos nuevas prestaciones, como la salud bucodental, la nutrición, la salud óptica, la audioprótesis, la psicoterapia",
+          "accessed": "2026-10-31",
+          "page": "PDF p. 89"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Propone incorporar la salud bucodental como nueva prestación de la sanidad pública (hoy fuera de la cartera básica, según el propio programa), sin detallar tratamientos. Ampliación de cobertura, no mera mejora genérica."
+    },
+    "podemos": {
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti (Sumar, elecciones generales 2023)",
+          "publisher": "Sumar",
+          "date": "2023-07",
+          "quote": "Proponemos incorporar a los servicios sanitarios públicos nuevas prestaciones, como la salud bucodental, la nutrición, la salud óptica, la audioprótesis, la psicoterapia",
+          "accessed": "2026-10-31",
+          "page": "PDF p. 89"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Única evidencia: programa conjunto Sumar 2023, por lo que la confianza se limita a media. Propone incorporar la salud bucodental como nueva prestación pública."
+    },
+    "erc": {
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Programa electoral ERC 2023",
+          "publisher": "ERC",
+          "date": "2023-09",
+          "quote": "Transferència financera per a l’aplicació efectiva dels plans de salut bucodental inclosos a la cartera de serveis.",
+          "accessed": "2026-10-31",
+          "page": "PDF p. 62"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Solo pide financiar los planes bucodentales ya incluidos en la cartera; no propone ampliar los tratamientos cubiertos."
+    },
+    "junts": {
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral Junts 2026",
+          "publisher": "Junts per Catalunya",
+          "date": "2026-10",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se menciona la cobertura dental en el programa revisado."
+    },
+    "eh-bildu": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Programa electoral EH Bildu 23-J (copia alojada por Newtral)",
+          "publisher": "EH Bildu",
+          "date": "2023-07",
+          "quote": "Incluir servicios oftalmológicos y dentales básicos en la cartera de servicios públicos sanitarios.",
+          "accessed": "2026-10-31",
+          "page": "p. 6"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Propone incluir servicios dentales básicos en la cartera pública: ampliación concreta de cobertura, limitada a servicios 'básicos' (no se detallan endodoncias ni prótesis). La afirmación solo exige más tratamientos que hoy."
+    },
+    "pnv": {
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+          "title": "Con voz propia. Programa electoral 23-J",
+          "publisher": "EAJ-PNV",
+          "date": "2023-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa 2023 no trata la cobertura dental."
+    },
+    "bng": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Programa electoral BNG, xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07",
+          "quote": "as prestacións sanitarias actualmente fora da atención primaria, ou só parcialmente financiadas como asistencia odontolóxica, podoloxía, óptico-optometrista",
+          "accessed": "2026-10-31",
+          "page": "p. 36"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Pide ampliar la cartera común y financiar al 100% prestaciones hoy no cubiertas o solo parcialmente, citando la asistencia odontológica."
+    },
+    "cc": {
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Programa electoral CC 2023",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa 2023 no trata la cobertura dental."
+    },
+    "compromis": {
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti (Sumar, elecciones generales 2023)",
+          "publisher": "Sumar",
+          "date": "2023-07",
+          "quote": "Proponemos incorporar a los servicios sanitarios públicos nuevas prestaciones, como la salud bucodental, la nutrición, la salud óptica, la audioprótesis, la psicoterapia",
+          "accessed": "2026-10-31",
+          "page": "PDF p. 89"
+        },
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Sumar-Compromís 2023",
+          "publisher": "Compromís",
+          "date": "2023-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Única evidencia: el programa conjunto Sumar 2023 en el que concurrió Compromís (el documento propio de Compromís no menciona lo dental), por lo que se limita a media. Antes figuraba sin posición."
+    },
+    "salf": {
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+          "title": "Programa electoral Castilla y León 2026",
+          "publisher": "SALF",
+          "date": "2026-03",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Sin programa estatal ni votos en el Congreso; el programa autonómico no trata el tema."
+    }
+  },
+  "proposed_votes": []
+}

@@ -37,7 +37,7 @@ for (const v of curated) {
     failures.push(`${v.id}: invalid JSON in ${rawPath}`);
     continue;
   }
-  const byParty = tallyVote(json, parties, deputyMap);
+  const byParty = tallyVote(json, parties, deputyMap, v.date);
   for (const t of Object.values(byParty)) t.implied_stance = stanceFromMajority(t.majority, v.yes_means);
   derived.votes[v.id] = {
     statement: v.statement,

@@ -16,14 +16,18 @@
           "date": "2023-07-04",
           "quote": "Derogaremos la ley de vivienda, que ha generado inseguridad jurídica y no resuelve ninguno de los problemas de fondo del mercado de la vivienda.",
           "page": "p. 34 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-alquiler-rdl8-2026-04-28",
         "v-alquiler-temporada-2024-12-17"
       ],
-      "note": "En 2026 el PP propone, en lugar de topes, deducciones fiscales a propietarios que prorroguen contratos con subidas por debajo del IPC."
+      "note": {
+        "es": "En 2026 el PP propone, en lugar de topes de precio, deducciones fiscales para propietarios que prorroguen contratos con subidas inferiores al IPC.",
+        "en": "In 2026 the PP proposes tax deductions for landlords who extend contracts with rent rises below inflation (CPI), instead of rent caps."
+      }
     },
     {
       "statement": "viv-desalojo-rapido",
@@ -38,7 +42,8 @@
           "date": "2023-07-04",
           "quote": "APROBAREMOS UN PAQUETE DE MEDIDAS “ANTI-OKUPACIÓN” para permitir que los desalojos se produzcan en un plazo máximo de 24 horas",
           "accessed": "2026-10-31",
-          "page": "p. 82 del PDF"
+          "page": "p. 82 del PDF",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
@@ -46,7 +51,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-03-18",
           "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
@@ -54,14 +60,18 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-05-19",
           "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-okupacion-junts-2025-03-18",
         "v-okupacion-pp-2026-05-19"
       ],
-      "note": "Votó a favor en las dos votaciones directas (proposición de Junts de 2025 y la suya propia de 2026), y su programa 2023 propone desalojos en 24 horas."
+      "note": {
+        "es": "Votó a favor en las dos votaciones directas (proposición de Junts de 2025 y la suya propia de 2026), y su programa de 2023 propone desalojos en 24 horas.",
+        "en": "It voted in favour in both direct votes (Junts' bill in 2025 and its own in 2026), and its 2023 programme proposes evictions within 24 hours."
+      }
     },
     {
       "statement": "eco-suprimir-impuesto-fortunas",
@@ -76,11 +86,15 @@
           "date": "2023-07-04",
           "quote": "Eliminaremos el impuesto a las grandes fortunas",
           "accessed": "2026-10-31",
-          "page": "p. 23 del PDF"
+          "page": "p. 23 del PDF",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. El programa 2023 promete eliminar el impuesto a las grandes fortunas, es decir, el ITSGF."
+      "note": {
+        "es": "Su programa de 2023 promete eliminar «el impuesto a las grandes fortunas», que corresponde al Impuesto Temporal de Solidaridad de las Grandes Fortunas.",
+        "en": "Its 2023 programme promises to abolish the large-fortunes tax, which corresponds to the Temporary Solidarity Tax on Large Fortunes."
+      }
     },
     {
       "statement": "eco-bajar-irpf",
@@ -95,7 +109,8 @@
           "date": "2023-07-04",
           "quote": "APROBAREMOS UN ALIVIO FISCAL INMEDIATO A LAS FAMILIAS. Corregiremos los efectos de la inflación en la tarifa del IRPF que supone una subida real de impuestos sobre la clase media.",
           "accessed": "2026-10-31",
-          "page": "p. 23 del PDF"
+          "page": "p. 23 del PDF",
+          "lang": "es"
         },
         {
           "url": "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/",
@@ -103,7 +118,8 @@
           "publisher": "Partido Popular",
           "date": "2026-10-23",
           "quote": "Y en 2027, lo haremos realidad. En 2027, habrá una rebaja del IRPF para que la inflación y los impuestos no se coman el salario de los españoles",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
@@ -111,7 +127,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
@@ -119,7 +136,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-06-12",
           "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
@@ -127,7 +145,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-04-22",
           "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
@@ -135,7 +154,10 @@
         "v-irpf-deflactar-2025-06-12",
         "v-irpf-deflactar-mocion-2026-04-22"
       ],
-      "note": "El programa 2023 y la web del partido (octubre de 2026) prometen bajar el IRPF. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: Sí; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: Sí."
+      "note": {
+        "es": "Su programa de 2023 y su web (octubre de 2026) prometen bajar el IRPF. En votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó Sí en las tres: PNL del PP de 09/04/2024, PNL del PP de 12/06/2025 y punto 1 de la moción del PP de 22/04/2026.",
+        "en": "Its 2023 programme and its website (October 2026) promise to cut income tax (IRPF). In related votes on adjusting IRPF for inflation (context only) it voted Yes on all three: PP motions of 09/04/2024 and 12/06/2025, and point 1 of the PP motion of 22/04/2026."
+      }
     },
     {
       "statement": "eco-impuesto-energeticas",
@@ -149,31 +171,27 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-01-22",
           "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
-          "title": "Congreso de los Diputados – votación de 30/09/2026",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-09-30",
-          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-82.PDF",
-          "title": "Diario de Sesiones del Congreso de los Diputados, Pleno, núm. 82 (21/11/2024)",
+          "title": "Diario de Sesiones del Congreso, Pleno, núm. 82",
           "publisher": "Congreso de los Diputados",
           "date": "2024-11-21",
-          "quote": "con nuestro voto evitamos los nuevos impuestos que ahora ustedes van a someter a votación: impuestos a la banca, […] impuesto sobre las energéticas, que ya se está viendo que promueven la deslocalización, la desinversión",
+          "quote": "con nuestro voto evitamos los nuevos impuestos que ahora ustedes van a someter a votación: impuestos a la banca, […] impuesto sobre las energéticas",
           "accessed": "2026-10-31",
-          "page": "p. 65 del PDF (Puy Fraga, GP)"
+          "page": "DS Pleno 82, intervención de Puy Fraga (GP)",
+          "lang": "es"
         }
       ],
       "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-pnl-beneficios-energeticas-2026-09-30"
+        "v-gravamen-energetico-2025-01-22"
       ],
-      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó en contra de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+      "note": {
+        "es": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal energético sobre la cifra de negocios (votación directa, 22/01/2025; no convalidado, 165-183-1). La PNL de 30/09/2026 sobre beneficios extraordinarios en el ámbito de la UE es solo contexto: otra base imponible y otro ámbito.",
+        "en": "It voted against validating Royal Decree-Law 10/2024, which extended the temporary energy levy on turnover into 2025 (direct vote, 22/01/2025; not validated, 165-183-1). The 30/09/2026 motion on windfall profits at EU level is context only: a different tax base and scope."
+      }
     },
     {
       "statement": "eco-suprimir-impuesto-banca",
@@ -188,7 +206,8 @@
           "date": "2024-11-21",
           "quote": "con nuestro voto evitamos los nuevos impuestos que ahora ustedes van a someter a votación: impuestos a la banca, que al final van a gravar a todos los depositantes",
           "accessed": "2026-10-31",
-          "page": "p. 65 del PDF (Puy Fraga, GP)"
+          "page": "p. 65 del PDF (Puy Fraga, GP)",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
@@ -196,7 +215,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-11-21",
           "quote": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el […]",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
@@ -204,13 +224,17 @@
           "publisher": "Partido Popular",
           "date": "2023-07-04",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-impuesto-banca-ley7-2024-11-21"
       ],
-      "note": "El portavoz del PP en el debate de la Ley 7/2024 se opuso expresamente al impuesto a la banca. El programa 2023 no lo menciona. Votó No al dictamen de la Ley 7/2024 (21/11/2024), que creó el impuesto junto con otros tributos (votación relacionada, solo contexto)."
+      "note": {
+        "es": "Su portavoz se opuso expresamente al impuesto a la banca en el debate de la Ley 7/2024, y el programa de 2023 no lo menciona. Votó No al dictamen de esa ley (21/11/2024), que creó el impuesto junto con otros tributos (votación relacionada, solo contexto).",
+        "en": "Its spokesperson expressly opposed the bank tax in the debate on Law 7/2024, and the 2023 programme does not mention it. It voted No on that law's committee report (21/11/2024), which created the tax together with other levies (related vote, context only)."
+      }
     },
     {
       "statement": "tra-jornada-37h",
@@ -224,14 +248,18 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-09-10",
           "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-jornada-totalidad-2025-09-10",
         "v-jornada-pnl-2024-02-22"
       ],
-      "note": "El Grupo Popular presentó y votó una enmienda de devolución al proyecto de ley de reducción de la jornada a 37,5 horas, que prosperó."
+      "note": {
+        "es": "El Grupo Popular presentó y votó una enmienda de devolución al proyecto de ley de reducción de la jornada a 37,5 horas, que prosperó.",
+        "en": "The PP group tabled and voted for an amendment sending the 37.5-hour working-week bill back to the government, and it passed."
+      }
     },
     {
       "statement": "tra-salario-minimo",
@@ -246,7 +274,8 @@
           "date": "2023-07-04",
           "quote": "ACTUALIZAREMOS EL SALARIO MÍNIMO INTERPROFESIONAL EN EL MARCO DEL DIÁLOGO SOCIAL.",
           "accessed": "2026-10-31",
-          "page": "p. 19 del PDF"
+          "page": "p. 19 del PDF",
+          "lang": "es"
         },
         {
           "url": "https://www.pp.es/actualidad/articulos/feijoo-mi-objetivo-no-solo-es-que-suba-el-salario-minimo-sino-tambien-el-salario-medio-para-hacer-crecer-la-economia/",
@@ -254,11 +283,15 @@
           "publisher": "Partido Popular",
           "date": "2026-10-23",
           "quote": "su objetivo no solo será subir el salario mínimo de los trabajadores, sino también el salario medio",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. El PP quiere que el SMI siga subiendo mediante el diálogo social, pero no se pronuncia sobre la referencia del 60 % del salario medio, que es el núcleo de la afirmación. Con la redacción actual la codificación sería la misma."
+      "note": {
+        "es": "El PP quiere que el salario mínimo siga subiendo mediante el diálogo social, pero no se pronuncia sobre la referencia del 60 % del salario medio, que es el núcleo de la afirmación.",
+        "en": "The PP wants the minimum wage to keep rising through social dialogue, but takes no position on the 60% of average wage benchmark, which is the core of the statement."
+      }
     },
     {
       "statement": "san-gestion-privada",
@@ -271,11 +304,15 @@
           "publisher": "Partido Popular",
           "date": "2023-07-04",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "No se ha encontrado en el programa de 2023 ni en pp.es una posición sobre limitar por ley la gestión privada en la sanidad pública."
+      "note": {
+        "es": "No se ha encontrado en el programa de 2023 ni en la web del partido una posición sobre limitar por ley la gestión privada en la sanidad pública.",
+        "en": "No position on legally limiting private management in public health care was found in the 2023 programme or on the party's website."
+      }
     },
     {
       "statement": "san-dental-publica",
@@ -284,15 +321,20 @@
       "sources": [
         {
           "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
-          "title": "Programa electoral. Un proyecto al servicio de un gran país. 365 medidas (elecciones generales 2023)",
-          "publisher": "Partido Popular",
-          "date": "2023-07-04",
+          "title": "Programa electoral PP 2023 (365 medidas)",
+          "publisher": "PP",
+          "date": "2023-07",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El programa de 2023 no menciona la atención bucodental."
+      "note": {
+        "es": "El programa de 2023 no menciona la cobertura bucodental pública.",
+        "en": "The 2023 programme does not mention public dental coverage."
+      },
+      "confidence": null
     },
     {
       "statement": "der-aborto-constitucion",
@@ -306,13 +348,17 @@
           "publisher": "Partido Popular",
           "date": "2026-04-30",
           "quote": "Denuncia que el proceso es “profundamente desacertado” y lo califica como “un auténtico fraude a la Constitución”",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-aborto-constitucion-totalidad-2026-04-30"
       ],
-      "note": "Postura del Grupo Popular ante la reforma constitucional del Gobierno para incluir el aborto (2026)."
+      "note": {
+        "es": "Posición del Grupo Popular ante la reforma constitucional impulsada por el Gobierno en 2026 para incluir el aborto.",
+        "en": "Position of the PP group on the constitutional reform promoted by the government in 2026 to include abortion."
+      }
     },
     {
       "statement": "der-derogar-eutanasia",
@@ -327,11 +373,15 @@
           "date": "2023-07-04",
           "quote": "revisaremos la Ley de Eutanasia tomando en consideración la opinión del Comité de Bioética",
           "page": "p. 48 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El PP propone revisar la ley, no derogarla ni mantenerla sin cambios. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "El PP propone revisar la ley, no derogarla ni mantenerla sin cambios.",
+        "en": "The PP proposes reviewing the law, neither repealing it nor keeping it unchanged."
+      }
     },
     {
       "statement": "der-cambio-sexo-informe",
@@ -345,7 +395,8 @@
           "publisher": "PP",
           "date": "2025-01-21",
           "quote": "popularmente conocida como ‘Ley Trans’, y que el PP derogará en cuanto Alberto Núñez Feijóo alcance la Presidencia del Gobierno.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
@@ -354,11 +405,15 @@
           "date": "2023-07-04",
           "quote": "rechazamos también la asunción de las posiciones más extremas ante la transexualidad",
           "page": "p. 42 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El PP anuncia que derogará la Ley 4/2023, que es la que suprimió los informes médicos; no detalla los requisitos de la ley que la sustituiría."
+      "note": {
+        "es": "El PP anuncia que derogará la Ley 4/2023, que es la que suprimió los informes médicos; no detalla los requisitos de la ley que la sustituiría.",
+        "en": "The PP announces it will repeal Law 4/2023, which removed the medical reports; it does not detail the requirements of the law that would replace it."
+      }
     },
     {
       "statement": "inm-regularizacion",
@@ -372,7 +427,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2026-03-18",
           "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre la política en materia de migración del Gobierno.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-171.PDF",
@@ -381,7 +437,8 @@
           "date": "2026-03-17",
           "quote": "hoy venimos aquí a exigirle al Gobierno de España que renuncie, de manera inmediata, al proyecto de regularización masiva que pretenden imponer sin garantías, sin planificación y sin respeto a los compromisos europeos en materia migratoria",
           "page": "p. 55 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
@@ -389,7 +446,8 @@
           "publisher": "PP",
           "date": "2025-10-14",
           "quote": "Fin de regularizaciones generalizadas y sin control",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
@@ -397,7 +455,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-04-09",
           "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
@@ -405,7 +464,10 @@
         "v-regularizacion-pnl-2025-02-26",
         "v-regularizacion-mocion-pp-2026-03-18"
       ],
-      "note": "Evidencia contradictoria entre votaciones directas: en abril de 2024 el Grupo Popular votó a favor de tramitar la ILP de regularización; el 18/3/2026 sacó adelante (176-172) una moción que exige al Gobierno renunciar a la regularización extraordinaria, y su plan de inmigración (oct. 2025) pone fin a las «regularizaciones generalizadas» y propone solo un régimen transitorio individualizado por puntos. Se codifica la postura más reciente y se rebaja un nivel la confianza. El PP no se ha pronunciado sobre el RD 316/2026 en el Congreso más allá de esa moción previa."
+      "note": {
+        "es": "Hay pruebas contradictorias: en abril de 2024 votó a favor de tramitar la ILP de regularización, pero el 18/3/2026 sacó adelante (176-172) una moción contra la regularización extraordinaria, y su plan de inmigración (octubre de 2025) rechaza las «regularizaciones generalizadas» y propone solo un régimen transitorio individualizado por puntos. Se tiene en cuenta la postura más reciente, con confianza reducida. No consta un pronunciamiento posterior sobre el RD 316/2026 en el Congreso.",
+        "en": "The evidence conflicts: in April 2024 the PP voted to take up the regularisation citizens' bill (ILP), but on 18/3/2026 it passed (176-172) a motion against extraordinary regularisation, and its immigration plan (October 2025) rejects \"generalised regularisations\" and proposes only an individual points-based transitional scheme. The most recent position is preferred, with reduced confidence. No later statement on Royal Decree 316/2026 in Congress was found."
+      }
     },
     {
       "statement": "inm-reparto-menores",
@@ -419,18 +481,22 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-04-10",
           "quote": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-menores-rdl2-2025-04-10",
         "v-menores-lo4-2000-2024-07-23"
       ],
-      "note": "El Grupo Popular votó en contra de convalidar el decreto-ley que creó el reparto obligatorio de menores migrantes no acompañados."
+      "note": {
+        "es": "El Grupo Popular votó en contra de convalidar el decreto-ley que creó el reparto obligatorio de menores migrantes no acompañados.",
+        "en": "The PP group voted against validating the decree-law that created the mandatory distribution of unaccompanied migrant minors."
+      }
     },
     {
-      "statement": "inm-reducir-llegadas",
-      "stance": "neutral",
+      "statement": "inm-devolver-irregulares",
+      "stance": "agree",
       "confidence": "medium",
       "evidence_type": "official_statement",
       "sources": [
@@ -439,21 +505,26 @@
           "title": "Plan Nacional para una inmigración legal, ordenada y mutuamente beneficiosa",
           "publisher": "PP",
           "date": "2025-10-14",
-          "quote": "Ni el inmovilismo del “que entre quien quiera” ni el simplismo del “hay que echarlos a todos” ofrecen respuestas a la altura de un gran país.",
-          "accessed": "2026-10-31"
+          "quote": "Mecanismos rápidos para la tramitación de los expedientes de devolución de extranjeros en situación irregular o implicados en actividades criminales",
+          "accessed": "2026-10-31",
+          "page": "p. 7 del PDF",
+          "lang": "es"
         },
         {
-          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-68.PDF",
-          "title": "Diario de Sesiones del Congreso, Pleno núm. 68 (intervención de Núñez Feijóo, GP Popular)",
-          "publisher": "Congreso de los Diputados",
-          "date": "2024-10-09",
-          "quote": "hay otras naciones de nuestro entorno que sí han logrado reducir el flujo. Oiga, no haga demagogia: mi grupo no ha cuestionado la migración regular.",
-          "page": "p. 15 del PDF",
-          "accessed": "2026-10-31"
+          "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+          "title": "Plan Nacional de Inmigración del PP",
+          "publisher": "PP",
+          "date": "2025-10-14",
+          "quote": "Urge revisar los acuerdos que España mantiene con determinados países, en aras de agilizar los procedimientos de devolución y retorno.",
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El PP quiere reducir las llegadas irregulares, pero dice expresamente que no cuestiona la migración regular y propone cuotas anuales por países y sectores. Toma una posición intermedia sobre el número total."
+      "note": {
+        "es": "Plan oficial del PP (octubre de 2025, no su programa electoral): devoluciones con plazos más rápidos, revisión de acuerdos con países de origen y ampliación del máximo de estancia en CIE para ejecutar expulsiones. Es una declaración oficial, por eso la confianza es media.",
+        "en": "Official PP plan (October 2025, not its election programme): faster return procedures, review of agreements with countries of origin, and a longer maximum stay in detention centres (CIE) to carry out removals. It is an official statement, hence medium confidence."
+      }
     },
     {
       "statement": "cli-nucleares",
@@ -468,7 +539,8 @@
           "date": "2023-07-04",
           "quote": "PROPONDREMOS, CON EL VISTO BUENO DEL CONSEJO DE SEGURIDAD NUCLEAR, LA EXTENSIÓN DE LA VIDA ÚTIL DE LAS CENTRALES NUCLEARES EXISTENTES en nuestro país",
           "page": "p. 38 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.pp.es/actualidad/articulos/el-pp-plantea-un-decalogo-de-reformas-economicas-para-recuperar-el-poder-adquisitivo-y-modernizar-la-economia/",
@@ -476,7 +548,8 @@
           "publisher": "Partido Popular",
           "date": "2026-09-27",
           "quote": "Extensión de la vida útil de las centrales nucleares mediante la derogación del calendario de cierre nuclear y garantizando la rentabilidad de las centrales.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
@@ -496,11 +569,15 @@
           "publisher": "Partido Popular",
           "date": "2025-12-17",
           "quote": "confirma la necesidad de abandonar políticas radicales e intervencionistas basadas en prohibiciones, burocracia y planteamientos de decrecimiento",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El PP celebra la flexibilización de la Comisión Europea y critica que el Gobierno defienda mantener el veto de 2035. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "El PP celebra la flexibilización de la Comisión Europea y critica que el Gobierno defienda mantener el veto de 2035.",
+        "en": "The PP welcomes the European Commission's relaxation and criticises the government for defending the 2035 ban."
+      }
     },
     {
       "statement": "ter-amnistia",
@@ -514,7 +591,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2024-03-14",
           "quote": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.pp.es/actualidad/articulos/feijoo-se-revuelve-contra-el-cupo-separatista-y-advierte-de-que-derogara-todo-lo-que-atente-contra-la-igualdad-de-los-espanoles/",
@@ -522,13 +600,17 @@
           "publisher": "Partido Popular",
           "date": "2025-07-16",
           "quote": "señala que la amnistía es “inconstitucional” para su partido",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-amnistia-2024-03-14"
       ],
-      "note": "El Grupo Popular votó en contra de la ley de amnistía."
+      "note": {
+        "es": "El Grupo Popular votó en contra de la ley de amnistía.",
+        "en": "The PP group voted against the amnesty law."
+      }
     },
     {
       "statement": "ter-referendum",
@@ -542,7 +624,8 @@
           "publisher": "Partido Popular",
           "date": "2025-07-16",
           "quote": "Vamos a reponer el delito de sedición y de referéndum ilegal",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
@@ -550,11 +633,15 @@
           "publisher": "Partido Popular",
           "date": "2023-07-04",
           "quote": "Reformaremos el Código Penal para homologar nuestra legislación con Europa en materia de sedición, malversación y referéndum ilegal.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El PP propone volver a tipificar como delito la convocatoria de referendos no autorizados; no se pronuncia expresamente sobre un referéndum pactado con el Estado."
+      "note": {
+        "es": "El PP propone volver a tipificar como delito la convocatoria de referendos no autorizados; no se pronuncia expresamente sobre un referéndum pactado con el Estado.",
+        "en": "The PP proposes making it a crime again to call unauthorised referendums; it takes no express position on a referendum agreed with the State."
+      }
     },
     {
       "statement": "ter-concierto-ccaa",
@@ -567,16 +654,9 @@
           "title": "El PP asegura que la «financiación singular de Cataluña» es una «financiación independentista a la carta y un concierto económico insolidario»",
           "publisher": "GPP Senado (PP)",
           "date": "2024-09-04",
-          "quote": "“Gestión, inspección, recaudación y liquidación de todos los tributos, soberanía fiscal, la llave de la caja, solidaridad limitada; ¿eso cómo se llama?",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.pp.es/sites/default/files/documentos/240904_camps_y_barreiro_-comparecencia_montero_financiacion_autonomica-_0.pdf",
-          "title": "El PP asegura que la «financiación singular de Cataluña» es una «financiación independentista a la carta y un concierto económico insolidario»",
-          "publisher": "GPP Senado (PP)",
-          "date": "2024-09-04",
-          "quote": "“la financiación acordada por PSOE para Cataluña es, en esencia, un concierto económico insolidario, una financiación independentista a la carta",
-          "accessed": "2026-10-31"
+          "quote": "la financiación acordada por PSOE para Cataluña es, en esencia, un concierto económico insolidario, una financiación independentista a la carta",
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
@@ -584,14 +664,17 @@
           "publisher": "PP",
           "date": "2023-07-04",
           "quote": "ACORDAREMOS UNA REFORMA DEL SISTEMA DE FINANCIACIÓN",
-          "page": "p. 79 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-financiacion-singular-2024-04-23"
       ],
-      "note": "El PP rechaza que Cataluña recaude y gestione todos sus impuestos y defiende un sistema común negociado con todas las comunidades. La moción de ERC sobre financiación singular para Cataluña (23/4/2024) es una votación relacionada y solo se cita como contexto. (PP votó no.)"
+      "note": {
+        "es": "Comunicado oficial del grupo del PP en el Senado: rechaza que una comunidad (Cataluña) obtenga un modelo tipo concierto y reclama igualdad y un sistema común. Es una posición sobre un caso concreto, no una regla general, y la confianza es media. La moción de ERC sobre financiación singular para Cataluña (23/4/2024), en la que el PP votó No, es una votación relacionada y solo se cita como contexto.",
+        "en": "Official statement by the PP Senate group: it rejects a region (Catalonia) obtaining a concierto-style model and calls for equality and a common system. This is a position on a specific case, not a general rule, hence medium confidence. The ERC motion on singular financing for Catalonia (23/4/2024), on which the PP voted No, is a related vote cited as context only."
+      }
     },
     {
       "statement": "ter-recentralizar",
@@ -604,7 +687,8 @@
           "publisher": "Partido Popular",
           "date": "2023-07-04",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.pp.es/actualidad/articulos/feijoo-firma-el-contrato-para-gobernar-el-cambio-mi-mayor-ambicion-es-lograr-que-la-palabra-de-un-presidente-vuelva-a-tener-valor/",
@@ -612,11 +696,15 @@
           "publisher": "Partido Popular",
           "date": "2026-10-19",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El PP pide que «un español debe tener los mismos derechos y los mismos servicios viva donde viva», pero no se ha encontrado una propuesta de devolver la educación y la sanidad al Estado."
+      "note": {
+        "es": "El PP pide que «un español debe tener los mismos derechos y los mismos servicios viva donde viva», pero no se ha encontrado una propuesta de devolver la educación y la sanidad al Estado.",
+        "en": "The PP says that \"a Spaniard must have the same rights and the same services wherever they live\", but no proposal to return education and health care to the State was found."
+      }
     },
     {
       "statement": "ter-solo-castellano-congreso",
@@ -630,7 +718,8 @@
           "publisher": "Congreso de los Diputados",
           "date": "2023-09-21",
           "quote": "Proposición de reforma del Reglamento del Congreso de los Diputados.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.pp.es/actualidad/articulos/marta-gonzalez-afirma-que-esta-reforma-del-reglamento-no-beneficia-a-nadie-ni-hara-el-congreso-mas-democratico-igualitario-o-eficiente/",
@@ -638,13 +727,17 @@
           "publisher": "Partido Popular",
           "date": "2025-07-22",
           "quote": "la primera iniciativa de esta XV Legislatura fue una reforma del Reglamento para permitir las lenguas cooficiales, la cuál se aprobó antes de ser votada, “en un alarde de intolerancia e imprudencia y de parcialidad",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
       ],
-      "note": "El Grupo Popular votó en contra de la reforma del Reglamento que permite las lenguas cooficiales en el Congreso. [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": {
+        "es": "El Grupo Popular votó en contra de la reforma del Reglamento que permite las lenguas cooficiales en el Congreso.",
+        "en": "The PP group voted against the reform of the Rules of Procedure that allows co-official languages in Congress."
+      }
     },
     {
       "statement": "edu-concertada",
@@ -659,11 +752,15 @@
           "date": "2023-07-04",
           "quote": "DEFENDEREMOS LA LIBERTAD DE LOS PADRES PARA ELEGIR EL CENTRO Y EL TIPO DE EDUCACIÓN que quieren para sus hijos: ya sean éstos centros públicos, privados o concertados",
           "page": "p. 51 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El programa defiende la concertada dentro de la libertad de elección; no menciona expresamente su financiación."
+      "note": {
+        "es": "El programa defiende la concertada dentro de la libertad de elección; no menciona expresamente su financiación.",
+        "en": "The programme defends state-subsidised private schools (concertada) as part of freedom of choice; it does not expressly mention their funding."
+      }
     },
     {
       "statement": "edu-lengua-castellano",
@@ -678,7 +775,8 @@
           "date": "2023-07-04",
           "quote": "GARANTIZAREMOS QUE, EN LAS COMUNIDADES AUTÓNOMAS CON MÁS DE UNA LENGUA OFICIAL, ambas tendrán la consideración de vehiculares de acuerdo con el patrón de equilibrio lingüístico",
           "page": "p. 51 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.pp.es/actualidad/articulos/feijoo-firma-el-contrato-para-gobernar-el-cambio-mi-mayor-ambicion-es-lograr-que-la-palabra-de-un-presidente-vuelva-a-tener-valor/",
@@ -686,11 +784,15 @@
           "publisher": "Partido Popular",
           "date": "2026-10-19",
           "quote": "garantizando el castellano en toda España y las lenguas cooficiales en sus respectivos territorios",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El PP defiende que castellano y lengua cooficial sean ambas vehiculares (equilibrio), no que cada familia elija estudiar principalmente en castellano."
+      "note": {
+        "es": "El PP defiende que castellano y lengua cooficial sean ambas vehiculares (equilibrio), no que cada familia elija estudiar principalmente en castellano.",
+        "en": "The PP argues that Spanish and the co-official language should both be languages of instruction (a balance), not that each family chooses to study mainly in Spanish."
+      }
     },
     {
       "statement": "ins-cgpj",
@@ -705,7 +807,8 @@
           "date": "2023-07-04",
           "quote": "incluyendo la modificación del sistema de elección de los miembros del Consejo de manera que sean los jueces y magistrados los que elijan a los 12 vocales de procedencia judicial.",
           "page": "p. 75 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.pp.es/actualidad/articulos/feijoo-firma-el-contrato-para-gobernar-el-cambio-mi-mayor-ambicion-es-lograr-que-la-palabra-de-un-presidente-vuelva-a-tener-valor/",
@@ -713,7 +816,8 @@
           "publisher": "Partido Popular",
           "date": "2026-10-19",
           "quote": "defiende que los jueces elijan a los jueces",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
@@ -733,7 +837,8 @@
           "publisher": "PP",
           "date": "2023-07-04",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.pp.es/actualidad/articulos/alicia-garcia-recalca-firme-compromiso-rey-democracia-libertad-constitucion/",
@@ -741,11 +846,15 @@
           "publisher": "PP",
           "date": "2024-07-17",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El PP expresa lealtad al Rey, pero no se encontró pronunciamiento explícito sobre un referéndum entre monarquía y república. No se infiere."
+      "note": {
+        "es": "El PP expresa lealtad al Rey, pero no se encontró un pronunciamiento explícito sobre un referéndum entre monarquía y república, y no se infiere.",
+        "en": "The PP expresses loyalty to the King, but no explicit position on a referendum between monarchy and republic was found, and none is inferred."
+      }
     },
     {
       "statement": "ins-derogar-memoria",
@@ -760,7 +869,8 @@
           "date": "2023-07-04",
           "quote": "IMPULSAREMOS, DEROGANDO LA MAL LLAMADA LEY DE MEMORIA DEMOCRÁTICA, una nueva norma consensuada que refuerce los principios democráticos y la reconciliación nacional",
           "page": "p. 72 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
@@ -768,7 +878,8 @@
           "publisher": "Partido Popular",
           "date": "2023-07-04",
           "quote": "Impulsaremos, derogando la mal llamada Ley de Memoria Democrática, una nueva norma que refuerce los principios democráticos y de reconciliación nacional.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
@@ -788,7 +899,8 @@
           "publisher": "PP",
           "date": "2026-07-05",
           "quote": "Sánchez firmase su compromiso de gastar el 5% del PIB en Seguridad y Defensa para, acto seguido, decir públicamente que no lo iba a cumplir.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-131.PDF",
@@ -797,7 +909,8 @@
           "date": "2025-07-09",
           "quote": "la mía es traer cualquier propuesta en defensa al Congreso de los Diputados.",
           "page": "p. 40 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
@@ -806,7 +919,8 @@
           "date": "2023-07-04",
           "quote": "adquirido por los aliados de destinar un 2% del PIB nacional en seguridad y defensa.",
           "page": "p. 103 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         },
         {
           "url": "https://www.publico.es/politica/pp-compromete-llegar-5-pib-defensa-pide-trump.html",
@@ -814,11 +928,15 @@
           "publisher": "Público",
           "date": "2025-10-15",
           "quote": "",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [],
-      "note": "El PP critica que el Gobierno no cumpla lo firmado en la OTAN y reclama unidad con los aliados, pero no se compromete con una cifra (Público, oct. 2025: «Tendríamos que ver el acuerdo»). En 2023 solo asumía el 2 %. No basta para codificar el 3,5 %."
+      "note": {
+        "es": "El PP critica que el Gobierno no cumpla lo firmado en la OTAN y reclama unidad con los aliados, pero no se compromete con una cifra (Público, octubre de 2025: «Tendríamos que ver el acuerdo»). En 2023 solo asumía el 2 %. No basta para la meta del 3,5 %.",
+        "en": "The PP criticises the government for not honouring what was signed in NATO and calls for unity with allies, but commits to no figure (Público, October 2025: \"We would have to see the agreement\"). In 2023 it only committed to 2%. This is not enough for the 3.5% target."
+      }
     },
     {
       "statement": "ext-embargo-israel",
@@ -832,14 +950,18 @@
           "publisher": "Congreso de los Diputados",
           "date": "2025-10-08",
           "quote": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "lang": "es"
         }
       ],
       "vote_refs": [
         "v-embargo-israel-rdl-2025-10-08",
         "v-embargo-ley-2025-05-20"
       ],
-      "note": "El Grupo Popular votó en contra de convalidar el decreto-ley de embargo de armas a Israel (que incluía otras medidas sobre Gaza)."
+      "note": {
+        "es": "El Grupo Popular votó en contra de convalidar el decreto-ley de embargo de armas a Israel (que incluía otras medidas sobre Gaza).",
+        "en": "The PP group voted against validating the decree-law on the arms embargo on Israel (which also included other measures on Gaza)."
+      }
     }
   ]
 }

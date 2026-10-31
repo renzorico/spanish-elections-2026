@@ -103,14 +103,18 @@ fieldset { border: 0; padding: 0; margin: 0; }
 .badges { margin: .4rem 0; display: flex; gap: .4rem; flex-wrap: wrap; }
 .badge { font-size: .8rem; border: 1px solid var(--line); border-radius: 999px; padding: .1rem .6rem; color: var(--muted); }
 .overall { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; margin: .5rem 0 0; font-weight: 600; }
-.bar { display: inline-block; width: 9rem; max-width: 45vw; height: .8rem; background: var(--bar-bg); border-radius: 4px; overflow: hidden; vertical-align: middle; }
+.bar { display: inline-block; width: 9rem; max-width: 100%; height: .8rem; background: var(--bar-bg); border-radius: 4px; overflow: hidden; vertical-align: middle; }
 .bar > span { display: block; height: 100%; background: var(--bar); }
 .num { font-variant-numeric: tabular-nums; margin-left: .4rem; }
-table.topics { width: 100%; border-collapse: collapse; margin: .75rem 0; }
+table.topics { width: 100%; border-collapse: collapse; margin: .75rem 0; table-layout: fixed; }
 table.topics caption { text-align: left; font-weight: 600; padding-bottom: .3rem; }
-table.topics th { text-align: left; font-weight: 400; padding: .3rem .5rem .3rem 0; }
-table.topics td { padding: .3rem 0; white-space: nowrap; }
-table.topics td.cov { color: var(--muted); font-size: .85rem; padding-left: .5rem; }
+table.topics thead th { text-align: left; font-size: .8rem; color: var(--muted); font-weight: 400; padding-bottom: .2rem; }
+table.topics thead th:first-child { width: 52%; }
+table.topics tbody th { text-align: left; font-weight: 400; padding: .35rem .5rem .35rem 0; overflow-wrap: anywhere; vertical-align: top; }
+table.topics td { padding: .35rem 0; vertical-align: top; }
+table.topics td .bar { width: 100%; max-width: 6.5rem; }
+table.topics td .num { display: inline-block; margin-left: .3rem; }
+table.topics small.cov { display: block; color: var(--muted); font-size: .8rem; line-height: 1.3; }
 .na { color: var(--muted); }
 ul.stmts { list-style: none; padding: 0; }
 ul.stmts > li { border-top: 1px solid var(--line); padding: .75rem 0; }
@@ -130,3 +134,9 @@ blockquote { margin: .3rem 0 .5rem; padding-left: .7rem; border-left: 3px solid 
 [hidden] { display: none !important; }
 
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+
+label.auto { display: flex; gap: .5rem; align-items: flex-start; margin-top: .9rem; font-size: .9rem; color: var(--muted); }
+label.auto input { width: 1.1rem; height: 1.1rem; margin-top: .15rem; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+.actions { align-items: center; }
+.prose a, .meta a { overflow-wrap: anywhere; }

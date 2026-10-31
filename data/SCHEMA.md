@@ -1,7 +1,7 @@
 # Data schema
 
 All files are UTF-8 JSON. `scripts/validate.mjs` enforces everything below
-(`npm run validate`). Dates are ISO `YYYY-MM-DD`.
+(`npm run validate`). Dates are ISO `YYYY-MM-DD`; source dates may be `YYYY-MM` when only the month is known, and `date_unknown: true` marks a genuinely undated page.
 
 ## parties.json
 Array of objects — see PLAN.md §2. `vote_match` tells the vote pipeline how to
@@ -56,6 +56,9 @@ Field rules:
 | `stance` | `agree` · `neutral` · `disagree` · `no_clear_position` |
 | `confidence` | `high` · `medium` · `low` (omit / null for `no_clear_position`) |
 | `evidence_type` | `vote_xv` (vote in current legislature) · `program_2026` · `program_2023` · `official_statement` (party website, press release, official spokesperson in parliament) · `none` (only with `no_clear_position`) |
+| `note` | `{ "es": "...", "en": "..." }` — a short, public, plain-language explanation shown to users in the language they chose. Required whenever the evidence is mixed, capped or indirect. No process language (no "recoded", "audit", "calibration"): the audit trail lives in git history. |
+| `sources[].lang` | language of the quote and title: `es`, `ca`, `gl`, `eu`, `en` (used for `lang` markup) |
+| `sources[].date_unknown` | `true` only for a genuinely undated page (otherwise a date is required) |
 | `sources` | ≥ 1. For `no_clear_position`, list the documents searched (quote may be empty). |
 | `vote_refs` | ids from `votes/curated.json` |
 
@@ -82,8 +85,8 @@ position (e.g. "only in some cases", abstention explicitly explained as such)
   "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion043/20240530/Votacion002/VOT_….json",
   "title": "Texto oficial de la votación (copiado del JSON)",
   "yes_means": "agree",
-  "relation": "direct | related  (only direct votes can support high confidence)",
-  "note": "Why this vote maps to the statement"
+  "relation": "direct | related  (a related vote is shown as context and never creates a coding)",
+  "note": { "es": "Why this vote maps to the statement", "en": "…" }
 }]
 ```
 
@@ -103,3 +106,17 @@ majority ∈ `yes|no|abstain|split|absent`.
   "notes": {"<province>": {"es": "…", "en": "…"}}
 }
 ```
+
+
+## Rules enforced by `npm run validate` (and therefore by CI and deployment)
+
+* Every `vote_ref` must belong to the same statement as the position that cites it.
+* Every curated vote needs a raw Congreso file and a derived tally that **recomputes exactly** from it
+  (attribution policy: `data/votes/deputies.json` → `policy`).
+* `confidence: high` needs an agreeing **direct** vote or explicit program text; Podemos and Compromís
+  cannot exceed `medium` on the joint Sumar 2023 program alone.
+* A `vote_xv` coding needs a direct vote (related votes and abstentions never create a position).
+* A coded stance that contradicts a linked vote needs an explanatory note.
+* Notes (position and vote) need both `es` and `en`; loaded terms are rejected (official titles quoted in «…» are exempt).
+* `npm run check-sources` fails on dead links; bot-blocked pages must be listed with a reason and review date in
+  `data/source_allow.json`.
