@@ -6,7 +6,7 @@
     {
       "statement": "viv-limite-alquiler",
       "stance": "agree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
         {
@@ -31,7 +31,7 @@
         "v-alquiler-rdl8-2026-04-28",
         "v-alquiler-temporada-2024-12-17"
       ],
-      "note": "Evidence: the joint Sumar 2023 program (Podemos ran inside Sumar), and Podemos' 4 deputies voting yes on RDL 8/2026 on rent measures (closely related). Podemos' own site (podemos.info) returned HTTP 403 and could not be checked."
+      "note": "Evidence: the joint Sumar 2023 program (Podemos ran inside Sumar), and Podemos' 4 deputies voting yes on RDL 8/2026 on rent measures (closely related). Podemos' own site (podemos.info) returned HTTP 403 and could not be checked. Confianza media: la única evidencia propia es el programa conjunto de Sumar 2023; las votaciones citadas son sobre medidas relacionadas y no bastan por sí solas."
     },
     {
       "statement": "viv-desalojo-rapido",

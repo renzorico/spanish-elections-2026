@@ -442,7 +442,8 @@
           "title": "Propostes: Immigració",
           "publisher": "Junts per Catalunya",
           "quote": "Acord pel repartiment de menors migrants, amb la reforma de la llei d’estrangeria, que compensa l’esforç previ de Catalunya",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "date_unknown": true
         },
         {
           "url": "https://rtvc.es/debate-congreso-ley-extranjeria-10-abril-2025/",
@@ -536,7 +537,8 @@
           "title": "Propostes: Nació",
           "publisher": "Junts per Catalunya",
           "quote": "La llei d’amnistia és una victòria política de l’independentisme",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "date_unknown": true
         }
       ],
       "vote_refs": [
@@ -594,7 +596,8 @@
           "title": "Propostes: Nació",
           "publisher": "Junts per Catalunya",
           "quote": "Catalunya és una nació amb identitat, llengua, institucions i drets propis que cal defensar davant de qualsevol intent de subordinació o recentralització.",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "date_unknown": true
         },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
@@ -629,7 +632,8 @@
           "title": "Propostes: Llengua",
           "publisher": "Junts per Catalunya",
           "quote": "Després de molts anys, hem aconseguit poder parlar en català al Congrés dels Diputats",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "date_unknown": true
         }
       ],
       "vote_refs": [

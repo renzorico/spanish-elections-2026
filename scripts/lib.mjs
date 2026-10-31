@@ -31,13 +31,29 @@ export function loadAll() {
   const deputies = readJSON(join(DATA, 'votes', 'deputies.json'), { deputies: {} });
   const provincesDoc = readJSON(join(DATA, 'provinces.json'), { provinces: [] });
   const candidacies = readJSON(join(DATA, 'candidacies.json'), null);
-  return { parties, topics, statements, positions, curated, derived, deputies, provincesDoc, candidacies };
+  const raw = {};
+  for (const v of curated) {
+    const f = join(DATA, 'votes', 'raw', `${v.id}.json`);
+    if (existsSync(f)) raw[v.id] = readJSON(f);
+  }
+  return { parties, topics, statements, positions, curated, derived, deputies, provincesDoc, candidacies, raw };
 }
 
-/** Which party does a single deputy vote belong to? Returns party id or null. */
-export function partyForVote(record, parties, deputyMap) {
+/** True when `date` (ISO) falls inside the optional [from, to] window of an override. */
+function overrideActive(o, date) {
+  if (!o.from && !o.to) return true;
+  if (!date) throw new Error(`Dated deputy override for ${JSON.stringify(o)} needs the vote date`);
+  return (!o.from || date >= o.from) && (!o.to || date <= o.to);
+}
+
+/**
+ * Which party does a single deputy vote belong to? Returns party id or null.
+ * Policy (see data/votes/deputies.json): attribution by party of membership.
+ * Overrides may be dated; outside their window the parliamentary group applies.
+ */
+export function partyForVote(record, parties, deputyMap, date) {
   const override = deputyMap[record.diputado];
-  if (override) {
+  if (override && overrideActive(override, date)) {
     const p = parties.find((x) => x.id === override.party);
     return p ? p.id : null; // e.g. 'upn' or 'independent' are not included parties
   }
@@ -50,11 +66,11 @@ export function partyForVote(record, parties, deputyMap) {
   return null;
 }
 
-export function tallyVote(voteJson, parties, deputyMap) {
+export function tallyVote(voteJson, parties, deputyMap, date) {
   const out = {};
   for (const p of parties) out[p.id] = { yes: 0, no: 0, abstain: 0, absent: 0 };
   for (const r of voteJson.votaciones || []) {
-    const pid = partyForVote(r, parties, deputyMap);
+    const pid = partyForVote(r, parties, deputyMap, date);
     if (!pid) continue;
     const t = out[pid];
     if (r.voto === 'Sí') t.yes++;

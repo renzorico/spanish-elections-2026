@@ -4,6 +4,11 @@ import { join } from 'node:path';
 import { ROOT, loadAll } from './lib.mjs';
 
 const d = loadAll();
+const missing = d.curated.filter((v) => !d.derived.votes?.[v.id]);
+if (missing.length) {
+  console.error(`Refusing to build: ${missing.length} curated vote(s) have no derived tally: ${missing.map((v) => v.id).join(', ')}`);
+  process.exit(1);
+}
 
 const election = {
   date: '2026-11-29',

@@ -3,7 +3,7 @@
 // loaded terms. Exit code 1 on any error.
 //
 //   node scripts/validate.mjs [--strict]   (--strict: warnings also fail)
-import { loadAll, stanceFromMajority } from './lib.mjs';
+import { loadAll, stanceFromMajority, tallyVote } from './lib.mjs';
 
 export const STANCES = ['agree', 'neutral', 'disagree', 'no_clear_position'];
 export const CONFIDENCES = ['high', 'medium', 'low'];
@@ -34,10 +34,16 @@ export function findLoadedTerms(text) {
 
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
 
+/** Notes may be a plain Spanish string or {es, en}. */
+export function noteText(note) {
+  if (!note) return '';
+  return typeof note === 'string' ? note : Object.values(note).join(' ');
+}
+
 export function validate(data) {
   const errors = [];
   const warnings = [];
-  const { parties, topics, statements, positions, curated, derived, provincesDoc, candidacies } = data;
+  const { parties, topics, statements, positions, curated, derived, deputies, provincesDoc, candidacies, raw = {} } = data;
   const err = (m) => errors.push(m);
   const warn = (m) => warnings.push(m);
 
@@ -106,7 +112,7 @@ export function validate(data) {
       for (const src of pos.sources || []) {
         if (!/^https?:\/\//.test(src.url || '')) err(`${where}: source url missing/invalid`);
         if (src.date && !ISO.test(src.date)) err(`${where}: source date not ISO (${src.date})`);
-        if (!src.date && !ncp) warn(`${where}: source without date`);
+        if (!src.date && !src.date_unknown && !ncp) warn(`${where}: source without date (set date_unknown: true if the page is genuinely undated)`);
         if (src.quote && src.quote.split(/\s+/).length > 60) warn(`${where}: quote longer than 60 words`);
       }
       if (!ncp && pos.evidence_type !== 'vote_xv' && !(pos.sources || []).some((src) => src.quote)) err(`${where}: at least one source needs a verbatim quote`);
@@ -118,7 +124,22 @@ export function validate(data) {
         const hasQuote = (pos.sources || []).some((s) => s.quote && !/congreso\.es/.test(s.url));
         if (!direct && !hasQuote) err(`${where}: vote_xv coding needs a direct curated vote (related votes alone never justify a coding)`);
       }
-      for (const term of findLoadedTerms(pos.note)) warn(`${where}: loaded term "${term}" in note`);
+      for (const term of findLoadedTerms(noteText(pos.note))) warn(`${where}: loaded term "${term}" in note`);
+
+      // Confidence ladder (same rule for every party; see data/SCHEMA.md)
+      if (!ncp && pos.confidence === 'high') {
+        const agreeingDirect = (pos.vote_refs || []).some((r) => {
+          const cv = curated.find((v) => v.id === r);
+          const t = derived.votes?.[r]?.by_party?.[pid];
+          return cv?.relation === 'direct' && cv.statement === pos.statement && t && stanceFromMajority(t.majority, cv.yes_means) === pos.stance;
+        });
+        const programText = ['program_2023', 'program_2026'].includes(pos.evidence_type);
+        if (!agreeingDirect && !programText) err(`${where}: high confidence needs an agreeing direct vote or explicit program text (evidence_type ${pos.evidence_type})`);
+        // Related votes never count as independent evidence, so only non-Congreso sources are considered here.
+        const nonVote = (pos.sources || []).filter((s) => !/congreso\.es/.test(s.url));
+        const sumarOnly = nonVote.length > 0 && nonVote.every((s) => /movimientosumar\.es/.test(s.url));
+        if (['podemos', 'compromis'].includes(pid) && sumarOnly && !agreeingDirect) err(`${where}: ${pid} cannot exceed medium when the only evidence is the joint Sumar 2023 program`);
+      }
 
       // Cross-check with Congreso votes
       for (const ref of pos.vote_refs || []) {
@@ -126,9 +147,14 @@ export function validate(data) {
           err(`${where}: unknown vote_ref ${ref}`);
           continue;
         }
+        const cv = curated.find((v) => v.id === ref);
+        if (cv.statement !== pos.statement) {
+          err(`${where}: vote_ref ${ref} belongs to statement ${cv.statement}, not ${pos.statement}`);
+          continue;
+        }
         const d = derived.votes?.[ref];
         if (!d) {
-          warn(`${where}: vote ${ref} not yet derived (run npm run votes)`);
+          err(`${where}: vote ${ref} has no derived tally (run npm run votes)`);
           continue;
         }
         const tally = d.by_party?.[pid];
@@ -148,8 +174,29 @@ export function validate(data) {
     if (!['direct', 'related'].includes(v.relation)) err(`vote ${v.id}: relation must be direct|related`);
     if (!/^https:\/\/www\.congreso\.es\//.test(v.url_json || '')) err(`vote ${v.id}: url_json must be a congreso.es URL`);
     if (!ISO.test(v.date || '')) err(`vote ${v.id}: date not ISO`);
-    for (const term of findLoadedTerms(v.note)) err(`vote ${v.id}: loaded term "${term}" in note (quote official titles in «…»)`);
+    for (const term of findLoadedTerms(noteText(v.note))) err(`vote ${v.id}: loaded term "${term}" in note (quote official titles in «…»)`);
+
+    // derived.json must exist for every curated vote, match its metadata and recompute from the raw Congreso file
+    const d = derived.votes?.[v.id];
+    if (!d) {
+      err(`vote ${v.id}: missing in derived.json (run npm run votes)`);
+      continue;
+    }
+    if (d.statement !== v.statement || d.date !== v.date || d.yes_means !== v.yes_means) err(`vote ${v.id}: derived.json metadata differs from curated.json (run npm run votes)`);
+    if (!raw[v.id]) {
+      err(`vote ${v.id}: raw file data/votes/raw/${v.id}.json missing`);
+      continue;
+    }
+    const fresh = tallyVote(raw[v.id], parties, deputies?.deputies || {}, v.date);
+    for (const p of parties) {
+      const a = fresh[p.id];
+      const b = d.by_party?.[p.id];
+      if (!b || a.yes !== b.yes || a.no !== b.no || a.abstain !== b.abstain || a.absent !== b.absent || a.majority !== b.majority) {
+        err(`vote ${v.id}: derived tally for ${p.id} does not recompute from the raw Congreso file (run npm run votes)`);
+      }
+    }
   }
+  for (const id of Object.keys(derived.votes || {})) if (!voteIds.has(id)) err(`derived.json: vote ${id} is not in curated.json`);
 
   // --- provinces & candidacies
   const provinces = provincesDoc.provinces || [];
