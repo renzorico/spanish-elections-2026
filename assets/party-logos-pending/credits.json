@@ -1,0 +1,98 @@
+{
+  "pp": {
+    "file": "pp.svg",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Logo_del_PP_(2022).svg",
+    "license": "Public domain (PD-textlogo/ineligible per Commons)",
+    "attribution": "Partido Popular (source: pp.es); Commons upload",
+    "retrieved": "2026-10-31",
+    "notes": "Logo in use since Sept 2022 (Wikidata preferred P154)."
+  },
+  "psoe": {
+    "file": "psoe.svg",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Logo_PSOE_41_Congreso.svg",
+    "license": "Public domain (PD per Commons)",
+    "attribution": "Partido Socialista Obrero Español (source: PSOE federal statutes, 41st Congress, Dec 2024)",
+    "retrieved": "2026-10-31",
+    "notes": "Current statutory logo since 41st Federal Congress (Dec 2024); older 2023 variant with heart is File:Logo_PSOE_2023.svg."
+  },
+  "vox": {
+    "file": "vox.svg",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:VOX_logo.svg",
+    "license": "Public domain (PD per Commons)",
+    "attribution": "VOX (source: voxespana.es)",
+    "retrieved": "2026-10-31",
+    "notes": "Green VOX wordmark; current."
+  },
+  "frente-amplio": {
+    "file": "frente-amplio.svg",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Frente_AMPLIO.svg",
+    "license": "Public domain (PD per Commons)",
+    "attribution": "Frente Amplio (source: https://frenteamplio.info/img/logo.svg)",
+    "retrieved": "2026-10-31",
+    "notes": "Uploaded 2026-10-14 from the coalition's official site; a CC0-tagged alternative exists (File:Logo_Frente_Amplio_España.svg). Not Sumar's logo."
+  },
+  "podemos": {
+    "file": "podemos.svg",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Logo_de_Podemos_(2022).svg",
+    "license": "Public domain (PD per Commons)",
+    "attribution": "Podemos (source: facebook.com/ahorapodemos)",
+    "retrieved": "2026-10-31",
+    "notes": "Logo since 2022 (Wikidata preferred P154)."
+  },
+  "erc": {
+    "missing": true,
+    "reason": "Not downloaded: upload.wikimedia.org returned HTTP 429 (Retry-After 600 s) repeatedly for this shared egress IP during the session. Free Commons file identified; fetch later.",
+    "candidate_commons_page": "https://commons.wikimedia.org/wiki/File:ERC_logo_2025.svg",
+    "candidate_license": "Public domain",
+    "notes": "Esquerra Republicana de Catalunya; logo since Sept 2025"
+  },
+  "junts": {
+    "missing": true,
+    "reason": "Not downloaded: upload.wikimedia.org returned HTTP 429 (Retry-After 600 s) repeatedly for this shared egress IP during the session. Free Commons file identified; fetch later.",
+    "candidate_commons_page": "https://commons.wikimedia.org/wiki/File:Junts_per_Catalunya_(2020).svg",
+    "candidate_license": "Public domain",
+    "notes": "Junts per Catalunya; logo since July 2020"
+  },
+  "eh-bildu": {
+    "missing": true,
+    "reason": "Not downloaded: upload.wikimedia.org returned HTTP 429 (Retry-After 600 s) repeatedly for this shared egress IP during the session. Free Commons file identified; fetch later.",
+    "candidate_commons_page": "https://commons.wikimedia.org/wiki/File:Logo_de_EH_Bildu_(2023).svg",
+    "candidate_license": "Public domain",
+    "notes": "EH Bildu; logo since 2023"
+  },
+  "pnv": {
+    "missing": true,
+    "reason": "Not downloaded: upload.wikimedia.org returned HTTP 429 (Retry-After 600 s) repeatedly for this shared egress IP during the session. Free Commons file identified; fetch later.",
+    "candidate_commons_page": "https://commons.wikimedia.org/wiki/File:Logo_PNV_2025.svg",
+    "candidate_license": "Public domain",
+    "notes": "EAJ-PNV; 2025 version (icon-only alt: File:Icono_EAJ-PNV_2025.svg)"
+  },
+  "bng": {
+    "missing": true,
+    "reason": "Not downloaded: upload.wikimedia.org returned HTTP 429 (Retry-After 600 s) repeatedly for this shared egress IP during the session. Free Commons file identified; fetch later.",
+    "candidate_commons_page": "https://commons.wikimedia.org/wiki/File:Bloque_Nacionalista_Galego.svg",
+    "candidate_license": "Public domain",
+    "notes": "BNG; 2017 identity. Original is 2.3 MB, needs heavy minification"
+  },
+  "cc": {
+    "missing": true,
+    "reason": "Not downloaded: upload.wikimedia.org returned HTTP 429 (Retry-After 600 s) repeatedly for this shared egress IP during the session. Free Commons file identified; fetch later.",
+    "candidate_commons_page": "https://commons.wikimedia.org/wiki/File:Coalición_Canaria.svg",
+    "candidate_license": "Public domain",
+    "notes": "Coalición Canaria; 2017 identity"
+  },
+  "compromis": {
+    "missing": true,
+    "reason": "Not downloaded: upload.wikimedia.org returned HTTP 429 (Retry-After 600 s) repeatedly for this shared egress IP during the session. Free Commons file identified; fetch later.",
+    "candidate_commons_page": "https://commons.wikimedia.org/wiki/File:Compromís_logo_completo.svg",
+    "candidate_license": "Public domain",
+    "notes": "Compromís (disseny.compromis.net). Note: a 2026 general-election coalition logo \"Compromís-Front Valencià\" also exists (File:Logo_coalición_Compromís_Front_Valencià.svg, PD, from Junta Electoral Central)"
+  },
+  "salf": {
+    "missing": true,
+    "reason": "Not downloaded: upload.wikimedia.org returned HTTP 429 (Retry-After 600 s) repeatedly for this shared egress IP during the session. Free Commons file identified; fetch later.",
+    "candidate_commons_page": "https://commons.wikimedia.org/wiki/File:Se_acabo_la_fiesta_wordmark.png",
+    "candidate_license": "Public domain",
+    "notes": "Se Acabó La Fiesta wordmark, PNG only (1184x400; resize to 512 wide)"
+  }
+}
