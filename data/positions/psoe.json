@@ -1,0 +1,644 @@
+{
+  "party": "psoe",
+  "coded_by": "subagent:group-a",
+  "coded_on": "2026-10-31",
+  "positions": [
+    {
+      "statement": "viv-limite-alquiler",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "La ley nos dota de los instrumentos necesarios para atender las prioridades de la mayoría social de este país: controlar subidas de precios abusivas",
+          "page": "p. 221 del PDF (p. 215 impresa)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Desarrollaremos las medidas contempladas para la contención de los precios de la vivienda.",
+          "page": "p. 221 del PDF (p. 215 impresa)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "viv-compra-no-residentes",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-229-1.PDF",
+          "title": "Proposición de Ley para impulsar el alquiler de viviendas a precios asequibles (BOCG Serie B, núm. 229-1), presentada por el Grupo Parlamentario Socialista",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-05-30",
+          "quote": "La cuota íntegra del impuesto se obtendrá aplicando a la base imponible el tipo de gravamen del cien por ciento.",
+          "page": "p. 16",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Proposición de ley registrada por el Grupo Socialista en mayo de 2025 que crea un «Impuesto Complementario Estatal sobre la Transmisión de Bienes Inmuebles a no Residentes en la Unión Europea» con un tipo del 100 %. El programa de 2023 no trataba esta medida."
+    },
+    {
+      "statement": "viv-desalojo-rapido",
+      "stance": "neutral",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "se impulsará la reforma Legislativa normativa para garantizar el desalojo de los ocupas ilegales en un plazo máximo de 48 horas.",
+          "page": "p. 251 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Abordaremos la cuestión desde la garantía del derecho a la vivienda y la atención social a la vulnerabilidad.",
+          "page": "p. 251 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa apoya acelerar los desalojos (48 horas) pero vincula la medida a la atención social a la vulnerabilidad, por lo que no respalda la parte del enunciado que incluye a ocupantes vulnerables."
+    },
+    {
+      "statement": "eco-impuesto-grandes-fortunas",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Evaluaremos los resultados del Impuesto Temporal de Solidaridad de las Grandes Fortunas y, en su caso, avanzaremos en el debate sobre la tributación de la riqueza en el marco del modelo de financiación autonómica",
+          "page": "p. 39 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El PSOE creó el impuesto en 2022; el programa no promete suprimirlo y plantea avanzar en la tributación de la riqueza, pero condiciona su futuro a una evaluación. Confianza media."
+    },
+    {
+      "statement": "eco-bajar-irpf",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa de 2023 solo propone mejoras de mínimos y deducciones familiares en el IRPF (p. 33 y 38 del PDF), no una bajada general aunque reduzca la recaudación. No se ha encontrado una posición oficial posterior."
+    },
+    {
+      "statement": "eco-impuesto-energeticas-banca",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Evaluaremos la prórroga y ajustes de los gravámenes temporales sobre la banca y energéticas, para que ambos sectores sigan contribuyendo a la justicia fiscal y al sostenimiento del Estado de bienestar",
+          "page": "p. 39 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
+          "title": "Votación del dictamen del Proyecto de Ley del Impuesto Complementario y del Impuesto sobre el margen de intereses y comisiones de entidades financieras (21/11/2024)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-11-21",
+          "quote": "Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "En noviembre de 2024 el Grupo Socialista votó a favor de la ley que convierte el gravamen a la banca en un impuesto sobre el margen de intereses y comisiones."
+    },
+    {
+      "statement": "tra-jornada-37h",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion130/20250910/Votacion010/VOT_20250910213544.json",
+          "title": "Enmiendas a la totalidad de devolución al Proyecto de Ley de reducción de la jornada (10/09/2025)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-09-10",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Continuaremos impulsando el proyecto piloto de reducción de jornada laboral para empresas industriales con medidas destinadas a la reducción de las jornadas laborales sin merma salarial.",
+          "page": "p. 50 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El 10/09/2025 el Grupo Socialista votó en contra de las enmiendas de devolución (PP, Vox, Junts) al proyecto de ley de reducción de la jornada a 37,5 horas; las enmiendas prosperaron."
+    },
+    {
+      "statement": "tra-salario-minimo",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Garantizaremos en el Estatuto de los trabajadores que el SMI se acompase al 60% del salario medio",
+          "page": "p. 26 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "san-gestion-privada",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa de 2023 critica la «voluntad de privatización» del PP (p. 197 del PDF), pero no propone limitar por ley la gestión privada de servicios sanitarios. No se ha encontrado una posición oficial del PSOE (no del Gobierno) sobre la ley de gestión pública de 2025."
+    },
+    {
+      "statement": "san-dental-publica",
+      "stance": "neutral",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Salud Bucodental: promoveremos la incorporación progresiva de servicios como las obturaciones (empastes) o los implantes dentales a más colectivos, comenzando por personas mayores de 75 años.",
+          "page": "p. 204 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Propone ampliar la cobertura dental de forma progresiva y por colectivos, no una cobertura general para toda la población."
+    },
+    {
+      "statement": "der-aborto-constitucion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Blindaremos el matrimonio igualitario, el derecho a la interrupción voluntaria del embarazo, el derecho a la muerte digna, […] como derechos fundamentales de las personas, de modo que no puedan ser derogados o anulados por una coyuntural mayoría parlamentaria.",
+          "page": "p. 235 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "En 2026 el Gobierno impulsó una reforma del artículo 43 de la Constitución para recoger el aborto."
+    },
+    {
+      "statement": "der-eutanasia",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Blindaremos el matrimonio igualitario, el derecho a la interrupción voluntaria del embarazo, el derecho a la muerte digna",
+          "page": "p. 235 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Hemos aprobado la Ley de la Eutanasia, despenalizando y regulando por primera una prestación de ayuda para morir en nuestro país.",
+          "page": "p. 197 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "der-ley-trans",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "estamos en disposición de implementar todas las medidas incluidas en la Ley LGTBI",
+          "page": "p. 214 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "especialmente en el acceso de las personas trans, impulsando y evaluando el impacto de las medidas dispuestas en la ley a tal efecto.",
+          "page": "p. 214 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa se compromete a aplicar la Ley 4/2023 («ley trans y LGTBI») pero no menciona expresamente la autodeterminación registral."
+    },
+    {
+      "statement": "inm-regularizacion",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+          "title": "Toma en consideración de la ILP para una regularización extraordinaria (09/04/2024)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El Grupo Socialista votó a favor de tomar en consideración la ILP de regularización extraordinaria (abril de 2024). Es un voto de toma en consideración, no de aprobación final; el programa de 2023 no trata la medida."
+    },
+    {
+      "statement": "inm-reparto-menores",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion106/20250410/Votacion015/VOT_20250410155154.json",
+          "title": "Convalidación del Real Decreto-ley 2/2025 (10/04/2025)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-04-10",
+          "quote": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El Grupo Socialista votó a favor de convalidar el decreto-ley que creó el reparto obligatorio de menores migrantes no acompañados."
+    },
+    {
+      "statement": "inm-reducir-llegadas",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa de 2023 habla de una política migratoria «sustentada en el control de las fronteras y el respeto a los derechos humanos» (p. 229 del PDF), sin fijar si debe reducirse el número de llegadas."
+    },
+    {
+      "statement": "cli-nucleares",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Este nuevo plan integrará las necesidades para la gestión de residuos radioactivos y las futuras necesidades en el desmantelamiento ordenado y progresivo de las centrales nucleares.",
+          "page": "p. 74-75 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa da por hecho el desmantelamiento ordenado de las centrales; no menciona prórrogas."
+    },
+    {
+      "statement": "cli-coches-2035",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://www.deia.eus/economia/2025/12/12/sanchez-von-der-leyen-motor-combustion-10464731.html",
+          "title": "Sánchez pide a Von der Leyen que mantenga la prohibición de vender coches de combustión en 2035",
+          "publisher": "Deia (EFE)",
+          "date": "2025-12-12",
+          "quote": "Rechazamos que los vehículos con motor de combustión u otras tecnologías sin viabilidad probada puedan seguir comercializándose más allá de 2035",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://es.ara.cat/economia/sanchez-tilda-error-historico-flexibilizacion-bruselas-coches-combustion_1_5595291.html",
+          "title": "Sánchez tilda de «error histórico» la flexibilización de Bruselas con los coches de combustión",
+          "publisher": "Ara",
+          "date": "2025-12-16",
+          "quote": "Sánchez tilda de \"error histórico\" la flexibilización de Bruselas con los coches de combustión",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Posición expresada por Pedro Sánchez, secretario general del PSOE, como presidente del Gobierno (carta a la Comisión Europea), según la prensa."
+    },
+    {
+      "statement": "ter-amnistia",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion030/20240314/Votacion001/VOT_20240314135323.json",
+          "title": "Votación del nuevo dictamen: Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña (14/03/2024)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-03-14",
+          "quote": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El Grupo Socialista votó a favor de la ley de amnistía en el Congreso."
+    },
+    {
+      "statement": "ter-referendum",
+      "stance": "disagree",
+      "confidence": "low",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://rtvc.es/el-psoe-insiste-en-que-no-apoyara-un-referendum-de-autodeterminacion/",
+          "title": "Sánchez: el PSOE «nunca jamás» aceptará un referéndum de autodeterminación",
+          "publisher": "RTVC (EFE)",
+          "date": "2021-06-30",
+          "quote": "No habrá referéndum de autodeterminación salvo que quienes lo defienden consigan convencer a las tres quintas partes de esta Cámara para que se modifique el artículo 2 de la Constitución",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://es.ara.cat/politica/sanchez-no-habra-referendum-autodeterminacion-psoe-no-aceptara_1_4038076.html",
+          "title": "Sánchez: \"No habrá referéndum de autodeterminación. El PSOE no lo aceptará nunca\"",
+          "publisher": "Ara",
+          "date": "2021-06-30",
+          "quote": "Sánchez: \"No habrá referéndum de autodeterminación. El PSOE no lo aceptará nunca\"",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Declaración de 2021 (anterior a la legislatura actual) en el Pleno del Congreso; el programa de 2023 no trata la cuestión. Confianza baja por antigüedad."
+    },
+    {
+      "statement": "ter-financiacion-cataluna",
+      "stance": "neutral",
+      "confidence": "low",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://www.ultimahora.es/noticias/comunidades/2024/08/21/2226929/montero-defiende-cataluna-tenga-financiacion-singular-sostiene-acuerdo-psc-erc-concierto-1.html",
+          "title": "Montero defiende que Cataluña tenga «financiación singular» y sostiene que el acuerdo PSC-ERC «no es un concierto»",
+          "publisher": "Última Hora (Europa Press)",
+          "date": "2024-08-21",
+          "quote": "ha defendido este miércoles que Catalunya tenga una «financiación singular», pero ha querido dejar claro que el acuerdo suscrito entre el PSC y Esquerra […] no supone «ni es un concierto económico»",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.ondavasca.com/erc-avanza-que-sin-soberania-fiscal-no-habra-investidura-pero-el-psoe-rechaza-un-concierto-para-catalunya/",
+          "title": "ERC avanza que sin «soberanía fiscal» no habrá investidura pero el PSOE rechaza un concierto para Catalunya",
+          "publisher": "Onda Vasca",
+          "date": "2024-06-26",
+          "quote": "el PSOE \"no comparte el modelo de concierto económico o similar\"",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Postura mixta: la dirección del PSOE (María Jesús Montero, vicesecretaria general) rechaza un concierto como el vasco, pero defiende la «financiación singular» pactada por el PSC con ERC, que prevé que la Generalitat recaude progresivamente los impuestos. Basado en prensa."
+    },
+    {
+      "statement": "ter-recentralizar",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "El objetivo último debe ser constitucionalizar los avances realizados hasta el momento, que vienen a reflejar la progresiva descentralización del sistema",
+          "page": "p. 231 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa defiende reforzar el Estado autonómico; no menciona explícitamente devolver educación y sanidad al Estado."
+    },
+    {
+      "statement": "ter-lenguas-congreso",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion003/20230921/Votacion004/VOT_20230921120100.json",
+          "title": "Proposición de reforma del Reglamento del Congreso de los Diputados. Votación de conjunto (21/09/2023)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2023-09-21",
+          "quote": "Proposición de reforma del Reglamento del Congreso de los Diputados.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El Grupo Socialista votó a favor de la reforma del Reglamento que permite usar las lenguas cooficiales en el Congreso."
+    },
+    {
+      "statement": "edu-concertada",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa de 2023 solo propone actualizar los módulos de los conciertos para combatir la segregación (p. 107 del PDF), sin plantear reducir su financiación."
+    },
+    {
+      "statement": "edu-lengua-castellano",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No se ha encontrado en el programa de 2023 ninguna propuesta sobre la elección de lengua vehicular en la escuela."
+    },
+    {
+      "statement": "ins-cgpj",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "seguiremos exigiendo la inmediata renovación del Consejo General del Poder Judicial con el sistema actual de doble legitimación en su elección",
+          "page": "p. 248 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ins-referendum-monarquia",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa de 2023 no trata la forma de Estado. No se ha encontrado una posición oficial reciente."
+    },
+    {
+      "statement": "ins-memoria-democratica",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Para el PSOE la memoria es una cuestión de Estado y por ello hemos impulsado la aprobación de la Ley de Memoria Democrática.",
+          "page": "p. 252 del PDF",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Desarrollaremos en su integridad la Ley de Memoria Democrática",
+          "page": "p. 252 del PDF",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ext-gasto-defensa",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://rtvc.es/reunion-lideres-otan-gasto-en-defensa-del-5-del-pib-25-junio-2025/",
+          "title": "Sánchez ratifica que España no gastará más del 2,1 % de su PIB en defensa",
+          "publisher": "RTVC (EFE)",
+          "date": "2025-06-25",
+          "quote": "España no gastará más del 2,1 % de su PIB en defensa y eso permitirá cumplir sus compromisos con las capacidades de la OTAN.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://es.ara.cat/internacional/sanchez-anuncia-acuerdo-otan-espana-no-incremente-gasto-defensa-5-pib_1_5420053.html",
+          "title": "Sánchez anuncia un acuerdo con la OTAN para que España no incremente el gasto en defensa al 5 % del PIB",
+          "publisher": "Ara",
+          "date": "2025-06-22",
+          "quote": "España sólo tendrá que destinar el 2,1% del PIB a gasto militar.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Pedro Sánchez (secretario general del PSOE), como presidente del Gobierno, rechaza alcanzar el objetivo del 5 % fijado en la cumbre de 2025 y defiende que con un 2,1 % se cumplen las capacidades. Basado en prensa."
+    },
+    {
+      "statement": "ext-embargo-israel",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/Votacion087/VOT_20251008195359.json",
+          "title": "Convalidación del Real Decreto-ley 10/2025 (08/10/2025)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-10-08",
+          "quote": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El Grupo Socialista votó a favor de convalidar el decreto-ley de embargo de armas a Israel."
+    }
+  ]
+}

@@ -1,0 +1,618 @@
+{
+  "party": "compromis",
+  "coded_by": "subagent:group-c",
+  "coded_on": "2026-10-31",
+  "positions": [
+    {
+      "statement": "viv-limite-alquiler",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://vivenda.compromis.net/",
+          "title": "La vivenda no és un negoci, és un dret – propostes de Compromís",
+          "publisher": "Compromís",
+          "date": "2026-02-04",
+          "quote": "Limitar el preu legal del lloguer per a que cap persona haja de destinar més del 30% dels seus ingressos al lloguer",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://compromis.net/36136/compromis-llanca-una-campanya-de-carrer-per-defensar-que-la-vivenda-es-un-dret-no-un-negoci/",
+          "title": "Compromís llança una campanya de carrer per defensar que “la vivenda és un dret, no un negoci”",
+          "publisher": "Compromís",
+          "date": "2026-02-04",
+          "quote": "la coalició valencianista defensa una agenda clara basada en la limitació del preu del lloguer en zones tensionades perquè ningú destine més del 30% dels seus ingressos a viure",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion175/20260428/Votacion003/VOT_20260428200330.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-28",
+          "quote": "Real Decreto-ley 8/2026, de 20 de marzo, de medidas en el alquiler en respuesta a las consecuencias económicas y sociales de la Guerra de Irán.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Compromís' 2026 housing campaign calls for legal rent caps in stressed areas. Micó (Mixed Group) and Ibáñez (SUMAR group) voted yes on RDL 8/2026 on rent measures."
+    },
+    {
+      "statement": "viv-compra-no-residentes",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://vivenda.compromis.net/",
+          "title": "La vivenda no és un negoci, és un dret – propostes de Compromís",
+          "publisher": "Compromís",
+          "date": "2026-02-04",
+          "quote": "Limitar el preu legal del lloguer per a que cap persona haja de destinar més del 30% dels seus ingressos al lloguer",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Compromís proposes barring purchases by speculative funds and companies, but says nothing about buyers who live outside the EU."
+    },
+    {
+      "statement": "viv-desalojo-rapido",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No explicit position found in the 2023 program or on compromis.net."
+    },
+    {
+      "statement": "eco-impuesto-grandes-fortunas",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Impuesto permanente a las grandes fortunas para profundizar en la redistribución de la riqueza, haciendo que quien más tenga más pueda aportar.",
+          "page": "PDF p. 10",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "eco-bajar-irpf",
+      "stance": "neutral",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Pla de progresividad fiscal para bajar los impuestos a las personas corrientes y establecer una fiscalidad justa y solidaria donde todos colaboremos en función de nuestros ingresos.",
+          "page": "PDF p. 10",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Mixed: the program wants lower taxes for 'ordinary people' within a more progressive system and higher taxes for large fortunes. It does not back a general income-tax cut."
+    },
+    {
+      "statement": "eco-impuesto-energeticas-banca",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Hacer permanente el impuesto a los beneficios extraordinarios de la banca y las empresas energéticas.",
+          "page": "PDF p. 10",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "tra-jornada-37h",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion130/20250910/Votacion010/VOT_20250910213544.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-09-10",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo y la garantía del registro de jornada",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Avance en la reducción de la jornada laboral a 32 horas semanales con el mismo salario.",
+          "page": "PDF p. 7",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "On 2025-09-10 Micó and Ibáñez voted NO on the amendments to reject the 37.5-hour bill, which means they supported the bill."
+    },
+    {
+      "statement": "tra-salario-minimo",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Continuar incrementando el Salario Mínimo Interprofesional (SMI) como mínimo hasta llegar al 60% del salario medio español.",
+          "page": "PDF p. 7",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "san-gestion-privada",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Blindaje de la gestión pública de la sanidad y eliminación por ley de las posibilidades de mercantilizar la salud y privatizar la gestión.",
+          "page": "PDF p. 8",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "san-dental-publica",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Not mentioned in the 2023 program (health chapter, p. 8). No compromis.net statement found."
+    },
+    {
+      "statement": "der-aborto-constitucion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion177/20260430/Votacion012/VOT_20260430125200.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-30",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de reforma del artículo 43 de la Constitución Española, presentadas por los Grupos Parlamentarios Popular en el Congreso y VOX.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elsaltodiario.com/derechos-reproductivos/congreso-rechaza-enmiendas-totalidad-pp-vox-incluir-aborto-constitucion",
+          "title": "El Congreso rechaza la enmienda total del PP y Vox a integrar el aborto en la Constitución",
+          "publisher": "El Salto",
+          "date": "2026-04-30",
+          "quote": "En Compromís, Àgueda Micó ha advertido de que cuando los derechos no están blindados se “cuestionan”, se “debilitan” y, si no hay una respuesta social y política, “se arrancan”.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://compromis.net/36319/la-senadora-francesa-melanie-vogel-i-compromis-suneixen-a-valencia-per-a-reclamar-el-blindatge-del-dret-a-lavortament/",
+          "title": "La senadora francesa Mélanie Vogel i Compromís s’uneixen a València per a reclamar el blindatge del dret a l’avortament",
+          "publisher": "Compromís",
+          "date": "2026-05-18",
+          "quote": "Vogel ha destacat que blindar el dret legalment i constitucionalment és l’única garantia perquè cap govern puga fer ni un pas enrere en l’autonomia de les dones sobre el seu propi cos.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "On 2026-04-30 Micó and Ibáñez voted NO on the PP and Vox amendments, letting the reform go ahead. Compromís also held an event calling for abortion rights to be protected in the Constitution."
+    },
+    {
+      "statement": "der-eutanasia",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No explicit position found in the 2023 program or on compromis.net."
+    },
+    {
+      "statement": "der-ley-trans",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Blindaje de los avances, leyes y normas que garantizan los derechos LGTBI.",
+          "page": "PDF p. 12",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program asks to protect existing LGTBI laws; Law 4/2023 is the LGTBI and trans law. The self-ID rule is not named."
+    },
+    {
+      "statement": "inm-regularizacion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://compromis.net/36442/compromis-exigeix-ampliar-el-termini-de-regularitzacio-i-adverteix-dun-colp-en-el-suprem-per-a-carregar-se-els-drets-dels-nostres-veins/",
+          "title": "Compromís exigeix ampliar el termini de regularització",
+          "publisher": "Compromís",
+          "date": "2026-06-30",
+          "quote": "Compromís ha exigit al Govern d’Espanya ampliar el termini de regularització de persones migrants",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Micó and Ibáñez (then in the SUMAR group) voted yes to take the ILP into consideration (2024-04-09). In 2026 Compromís asked for the regularisation deadline to be extended."
+    },
+    {
+      "statement": "inm-reparto-menores",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion106/20250410/Votacion015/VOT_20250410155154.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-04-10",
+          "quote": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://compromis.net/36589/compromis-reclama-la-compareixenca-de-perez-llorca-i-elena-albalat-en-la-diputacio-permanent-per-lacolliment-de-menors-despres-de-la-crisi-de-ceuta/",
+          "title": "Compromís reclama la compareixença de Pérez Llorca i Elena Albalat per l’acolliment de menors després de la crisi de Ceuta",
+          "publisher": "Compromís",
+          "date": "2026-08-07",
+          "quote": "Más ha insistit que l’acolliment no és una opció voluntària sinó una obligació legal. La normativa estableix el repartiment i la reubicació de menors migrants no acompanyats entre les comunitats autònomes",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Micó and Ibáñez voted yes to validate RDL 2/2025 (2025-04-10). In 2026 Compromís described accepting relocated minors as a legal obligation of each region."
+    },
+    {
+      "statement": "inm-reducir-llegadas",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program calls for a rights-based migration policy but sets no target on the number of arrivals. Not inferred."
+    },
+    {
+      "statement": "cli-nucleares",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://compromis.net/36200/compromis-insta-a-complir-amb-el-tancament-de-la-central-de-cofrents-i-fa-una-crida-al-foment-de-les-renovables-davant-la-guerra-de-liran/",
+          "title": "Compromís insta a complir amb el tancament de la central de Cofrents i fa una crida al foment de les renovables",
+          "publisher": "Compromís",
+          "date": "2026-03-11",
+          "quote": "Compromís ha instat a complir amb el tancament en 2030 de la central nuclear de Cofrents “sense allargar la seua vida un dia més”",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Compromís wants the Cofrents plant to close in 2030 as planned, with no extension."
+    },
+    {
+      "statement": "cli-coches-2035",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No explicit position found."
+    },
+    {
+      "statement": "ter-amnistia",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion030/20240314/Votacion001/VOT_20240314135323.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-03-14",
+          "quote": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña. Votación del nuevo dictamen.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Micó and Ibáñez (SUMAR group) voted yes on the amnesty law (2024-03-14)."
+    },
+    {
+      "statement": "ter-referendum",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No explicit position found in the 2023 program or on compromis.net."
+    },
+    {
+      "statement": "ter-financiacion-cataluna",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program asks for reform of the regional financing system to end Valencian underfunding. It takes no position on a concierto-style model for Catalonia."
+    },
+    {
+      "statement": "ter-recentralizar",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Aumento de la inversión educativa y transferencias a las comunidades autónomas para el sistema educativo con el objetivo de llegar al 7% del PIB estatal al finalizar la legislatura.",
+          "page": "PDF p. 2",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program would channel education and health funding to the regions and asks for more powers to be transferred to the Generalitat. This clearly implies opposing recentralisation."
+    },
+    {
+      "statement": "ter-lenguas-congreso",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion003/20230921/Votacion004/VOT_20230921120100.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2023-09-21",
+          "quote": "Proposición de reforma del Reglamento del Congreso de los Diputados. Votación de conjunto.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Ley de Igualdad Lingüística que garantice a toda la ciudadanía el uso de las lenguas oficiales del Estado ante sus administraciones, en su vida pública y privada.",
+          "page": "PDF p. 5",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Micó and Ibáñez voted with the SUMAR group (31 yes) on the 2023 reform of the Congreso rules."
+    },
+    {
+      "statement": "edu-concertada",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Modificación de la normativa de conciertos educativos para que la red concertada sea realmente subsidiaria de la pública.",
+          "page": "PDF p. 2",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program wants concertada schools to only supplement the public network. This implies cutting their funding, though the text does not say so explicitly."
+    },
+    {
+      "statement": "edu-lengua-castellano",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Impulso de una Ley Estatal de uso y enseñanza de lenguas oficiales y minorizadas de Galicia, Euskadi, Navarra, Cataluña, Islas Baleares y País Valencià basada en la protección de los sistemas de inmersión lingüística",
+          "page": "PDF p. 2",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Protecting language immersion conflicts with letting families choose Spanish-medium schooling."
+    },
+    {
+      "statement": "ins-cgpj",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Modificación del sistema de elección y funcionamiento del Consejo General del Poder Judicial para que sea elegido con criterios de representación popular y funcione con independencia",
+          "page": "PDF p. 11",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ins-referendum-monarquia",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No explicit position found in the 2023 program or on compromis.net."
+    },
+    {
+      "statement": "ins-memoria-democratica",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Confección de un censo de víctimas en el territorio español; así como la elaboración de mapas de las zonas del territorio, para localizar los restos de víctimas desaparecidas durante la Guerra Civil y la dictadura.",
+          "page": "PDF p. 11",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program supports memory policies that the 2022 law includes, but does not name the law."
+    },
+    {
+      "statement": "ext-gasto-defensa",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-11",
+          "quote": "Potenciación de la tarea social del ejército en emergencias y misiones humanitarias. Reducción de la inversión en armamento.",
+          "page": "PDF p. 11",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ext-embargo-israel",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/Votacion087/VOT_20251008195359.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-10-08",
+          "quote": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://compromis.net/35763/compromis-exigeix-la-suspensio-immediata-de-lacord-dassociacio-amb-israel-un-embargament-total-darmes-i-sancions-contra-el-seu-govern/",
+          "title": "Compromís exigeix la suspensió immediata de l’acord d’associació amb Israel, un embargament total d’armes i sancions",
+          "publisher": "Compromís",
+          "date": "2025-05-21",
+          "quote": "ha exigit hui la suspensió immediata de l’Acord d’Associació entre la Unió Europea i Israel, així com la imposició d’un embargament total d’armes i sancions fermes contra el seu govern",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Micó (Mixed Group) and Ibáñez (SUMAR group) voted yes to validate RDL 10/2025 on 2025-10-08."
+    }
+  ]
+}

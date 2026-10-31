@@ -1,0 +1,627 @@
+{
+  "party": "podemos",
+  "coded_by": "subagent:group-c",
+  "coded_on": "2026-10-31",
+  "positions": [
+    {
+      "statement": "viv-limite-alquiler",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "haremos obligatoria la declaración de zona de mercado tensionado en las áreas geográficas en las que se cumplan objetivamente los requisitos que la Ley de Vivienda establece, aplicando así la regulación de alquileres a todas las zonas de mercado tensionado",
+          "page": "PDF p. 78",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion175/20260428/Votacion003/VOT_20260428200330.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-28",
+          "quote": "Real Decreto-ley 8/2026, de 20 de marzo, de medidas en el alquiler en respuesta a las consecuencias económicas y sociales de la Guerra de Irán.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Evidence: the joint Sumar 2023 program (Podemos ran inside Sumar), and Podemos' 4 deputies voting yes on RDL 8/2026 on rent measures (closely related). Podemos' own site (podemos.info) returned HTTP 403 and could not be checked."
+    },
+    {
+      "statement": "viv-compra-no-residentes",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Nothing explicit found. The Sumar 2023 joint program only says it would study residence conditions for purchases. podemos.info could not be reached (HTTP 403)."
+    },
+    {
+      "statement": "viv-desalojo-rapido",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Nothing explicit found in the Sumar 2023 joint program. podemos.info could not be reached (HTTP 403)."
+    },
+    {
+      "statement": "eco-impuesto-grandes-fortunas",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Implementaremos un impuesto a las grandes fortunas de forma permanente, reforzando además su progresividad, hasta llegar a tipos impositivos de al menos el 4% para los patrimonios más elevados.",
+          "page": "PDF p. 16",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+    },
+    {
+      "statement": "eco-bajar-irpf",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Aumento de la progresividad del impuesto sobre la renta de las personas físicas (IRPF). En primer lugar, ampliando el número de tramos a partir de 120.000€ y aplicando tipos marginales crecientes",
+          "page": "PDF p. 17",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. The joint program raises top IRPF rates; it does not propose a general cut."
+    },
+    {
+      "statement": "eco-impuesto-energeticas-banca",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Mantendremos los impuestos extraordinarios sobre las empresas energéticas y financieras mientras se aprueba e implementa completamente la reforma integral del impuesto de sociedades.",
+          "page": "PDF p. 16",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+    },
+    {
+      "statement": "tra-jornada-37h",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion130/20250910/Votacion010/VOT_20250910213544.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-09-10",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo y la garantía del registro de jornada",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "On 2025-09-10 Podemos deputies Belarra, Sánchez Serna, Velarde and Santana (Mixed Group) voted NO on the amendments to reject the 37.5-hour bill, which means they supported the bill."
+    },
+    {
+      "statement": "tra-salario-minimo",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Haber alcanzado, con los 1.080 €, el 60% del salario medio, si bien es un gran avance, no es suficiente en un país que tiene salarios un 25% por debajo de la media de los países de la Eurozona.",
+          "page": "PDF p. 26",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+    },
+    {
+      "statement": "san-gestion-privada",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Se blindará el carácter público del Sistema Nacional de Salud, impidiendo las formas de gestión privatizadas. Promoveremos un plan de desprivatización",
+          "page": "PDF p. 89",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+    },
+    {
+      "statement": "san-dental-publica",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Proponemos incorporar a los servicios sanitarios públicos nuevas prestaciones, como la salud bucodental, la nutrición, la salud óptica, la audioprótesis, la psicoterapia, la terapia ocupacional y la fisioterapia.",
+          "page": "PDF p. 89",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+    },
+    {
+      "statement": "der-aborto-constitucion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion177/20260430/Votacion012/VOT_20260430125200.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-30",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de reforma del artículo 43 de la Constitución Española, presentadas por los Grupos Parlamentarios Popular en el Congreso y VOX.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elespanol.com/espana/politica/20251017/carmen-calvo-suma-irene-montero-cuestiona-reforma-constitucion-propone-gobierno-aborto/1003743974273_0.html",
+          "title": "Carmen Calvo se suma a Irene Montero y cuestiona la reforma de la Constitución que propone el Gobierno sobre el aborto",
+          "publisher": "El Español",
+          "date": "2025-10-17",
+          "quote": "Carmen Calvo e Irene Montero critican la propuesta del Gobierno de reformar la Constitución sobre el aborto, pidiendo incluirlo como \"derecho fundamental\".",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elsaltodiario.com/derechos-reproductivos/congreso-rechaza-enmiendas-totalidad-pp-vox-incluir-aborto-constitucion",
+          "title": "El Congreso rechaza la enmienda total del PP y Vox a integrar el aborto en la Constitución",
+          "publisher": "El Salto",
+          "date": "2026-04-30",
+          "quote": "La portavoz de Podemos, Ione Belarra, ha apuntado el sentido de estas críticas, al decir que el aborto “ya goza de una protección reforzada” y que esta reforma rebajaría “su nivel político y protección jurídica”.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Mixed evidence. On 2026-04-30 Podemos' deputies voted NO on the PP and Vox amendments, letting the abortion constitutional reform go ahead. Podemos criticises the Government's version (art. 43) and wants abortion listed as a fundamental right instead."
+    },
+    {
+      "statement": "der-eutanasia",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "reconociendo la necesidad de tener una muerte digna, en coherencia con lo establecido en la Ley de Regulación de la Eutanasia.",
+          "page": "PDF p. 99",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. The joint program implies keeping the law."
+    },
+    {
+      "statement": "der-ley-trans",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Para Sumar, es una prioridad dar cumplimiento efectivo a las disposiciones contenidas en la Ley 4/2023 para la Igualdad Real y Efectiva de las Personas Trans y para la Garantía de los Derechos de las Personas LGTBI+",
+          "page": "PDF p. 114",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+    },
+    {
+      "statement": "inm-regularizacion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://es.ara.cat/politica/anuncia-pacto-psoe-regularizar-migrantes-irregulares-espana_1_5629388.html",
+          "title": "El gobierno español realizará una regularización extraordinaria de medio millón de migrantes",
+          "publisher": "Ara",
+          "date": "2026-01-26",
+          "quote": "\"Es una medida urgente y de justicia social que reconoce los derechos de cientos de miles de personas que viven y trabajan\" en España, defienden fuentes de Podemos.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.ultimahora.es/noticias/local/2026/06/16/2651303/podemos-gobierno-esta-altura-importancia-regularizacion-debe-ampliar-plazo.html",
+          "title": "Podemos: El Gobierno «no está a la altura de la importancia» de la regularización y debe ampliar el plazo",
+          "publisher": "Última Hora (Europa Press)",
+          "date": "2026-06-16",
+          "quote": "La secretaria general de Podemos, Ione Belarra, cree que «el Gobierno no está a la altura de la importancia de la absoluta medida crucial que es la regularización»",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Belarra, Sánchez Serna and Santana voted yes to take the ILP into consideration (2024-04-09). Podemos negotiated the January 2026 extraordinary regularisation decree with the Government (press, two outlets)."
+    },
+    {
+      "statement": "inm-reparto-menores",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion106/20250410/Votacion015/VOT_20250410155154.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-04-10",
+          "quote": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "All 4 Podemos deputies voted yes to validate RDL 2/2025, which made the distribution of unaccompanied migrant minors among regions mandatory (2025-04-10)."
+    },
+    {
+      "statement": "inm-reducir-llegadas",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No explicit position found in the Sumar 2023 joint program or in press. podemos.info could not be reached (HTTP 403)."
+    },
+    {
+      "statement": "cli-nucleares",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Sumar se compromete a mantener el calendario de cierre del parque nuclear español, aplicando una moratoria a cualquier nueva iniciativa nuclear",
+          "page": "PDF p. 48",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. No Podemos statement on the 2026 Almaraz extension was found."
+    },
+    {
+      "statement": "cli-coches-2035",
+      "stance": "agree",
+      "confidence": "low",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "siga desarrollando la electrificación del parque móvil, con el objetivo de que en 2040 no circulen en España vehículos con motores de combustión interna.",
+          "page": "PDF p. 11",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. This is only indirect evidence: the joint program's 2040 goal implies the 2035 sales ban, which it does not name."
+    },
+    {
+      "statement": "ter-amnistia",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion030/20240314/Votacion001/VOT_20240314135323.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-03-14",
+          "quote": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña. Votación del nuevo dictamen.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Belarra, Sánchez Serna, Velarde and Santana voted yes on the amnesty law (2024-03-14)."
+    },
+    {
+      "statement": "ter-referendum",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "El acuerdo surgido de la negociación entre la Generalitat de Catalunya y el Gobierno del Estado tiene que ser votado por la ciudadanía de Catalunya.",
+          "page": "PDF p. 122",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The joint 2023 program supports a vote on a negotiated agreement, not an independence referendum. No current Podemos document found; podemos.info could not be reached (HTTP 403)."
+    },
+    {
+      "statement": "ter-financiacion-cataluna",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No explicit position found. podemos.info could not be reached (HTTP 403)."
+    },
+    {
+      "statement": "ter-recentralizar",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No explicit position found in the joint program. Not inferred."
+    },
+    {
+      "statement": "ter-lenguas-congreso",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion003/20230921/Votacion004/VOT_20230921120100.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2023-09-21",
+          "quote": "Proposición de reforma del Reglamento del Congreso de los Diputados. Votación de conjunto.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "In September 2023 Podemos' deputies still sat in the SUMAR group, which voted 31 yes on the reform of the Congreso rules allowing co-official languages. Per-deputy records for the related amendment votes show Belarra, Sánchez Serna, Velarde and Santana voting with the group."
+    },
+    {
+      "statement": "edu-concertada",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "se establecerá también por ley el incremento progresivo del porcentaje de los fondos públicos destinados a la red pública.",
+          "page": "PDF p. 155",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+    },
+    {
+      "statement": "edu-lengua-castellano",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "No explicit position found."
+    },
+    {
+      "statement": "ins-cgpj",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "En cuanto a los vocales del CGPJ de procedencia judicial, mantenemos el modelo de elección parlamentaria.",
+          "page": "PDF p. 129",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+    },
+    {
+      "statement": "ins-referendum-monarquia",
+      "stance": "agree",
+      "confidence": "low",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://www.eldebate.com/espana/20220517/irene-montero-aboga-referendum-sobre-monarquia.html",
+          "title": "Irene Montero aboga por un referéndum sobre la monarquía",
+          "publisher": "El Debate (Europa Press)",
+          "date": "2022-05-17",
+          "quote": "Montero ha sugerido veladamente la realización de un referéndum ciudadano sobre la monarquía, puesto que considera que «todas las instituciones del Estado deberían de poder decidirse democráticamente»",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://theobjective.com/sociedad/2024-06-16/manifestacion-republica-podemos-madrid/",
+          "title": "Pincha la «marcha republicana» en Madrid: 4.000 personas piden abolir la monarquía",
+          "publisher": "The Objective (EFE)",
+          "date": "2024-06-16",
+          "quote": "su secretaria general, Ione Belarra, ha asegurado que España no tendrá una “democracia plena hasta que no seamos una república”.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.eldebate.com/espana/20250222/belarra-pide-fin-monarquia-sectores-reaccionarios-idea-psoe-trajo-democracia_272866.html",
+          "title": "Belarra pide el fin de la Monarquía, los sectores reaccionarios y la idea de que el PSOE «trajo la democracia»",
+          "publisher": "El Debate (EFE)",
+          "date": "2025-02-22",
+          "quote": "Belarra ha afirmado que está «absolutamente convencida» de que hasta que no se logre «acabar con la Monarquía y avanzar hacia una República»",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Only indirect or older evidence: a 2022 interview in which Irene Montero suggested a referendum on the monarchy, plus Belarra's 2024-2025 calls for a republic as reported in the press. No recent official text explicitly proposing a referendum was found; podemos.info could not be reached (HTTP 403)."
+    },
+    {
+      "statement": "ins-memoria-democratica",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-10",
+          "quote": "Abordaremos de forma urgente el desarrollo reglamentario de la Ley de Memoria Democrática de 2022 y desplegar todas las medidas contenidas en la misma.",
+          "page": "PDF p. 134",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+    },
+    {
+      "statement": "ext-gasto-defensa",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://www.eldiario.es/politica/pp-acusan-sanchez-pactar-gasto-militar-llegue-5-pib_1_12414646.html",
+          "title": "PP y Podemos acusan a Sánchez de pactar que el gasto militar llegue al 5% del PIB",
+          "publisher": "elDiario.es",
+          "date": "2025-06-25",
+          "quote": "“No solo es que el presidente ha comprometido inmensos aumentos del gasto militar para las próximas décadas, es también que nos ha comprometido con los objetivos políticos y militares de una organización criminal",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elindependiente.com/espana/2025/04/22/sumar-podemos-rechazo-gasto-extra-defensas-2025-compra-armamento/",
+          "title": "Sumar y Podemos, frente a Sánchez: rechazan el gasto en defensa",
+          "publisher": "El Independiente",
+          "date": "2025-04-22",
+          "quote": "“No formaría parte de un Gobierno que hace el mayor incremento militar de la historia del país”, adelantó la secretaria general de Podemos, Ione Belarra.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Belarra and Montero rejected the increase in military spending and the NATO 5% commitment, as reported by two outlets."
+    },
+    {
+      "statement": "ext-embargo-israel",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/Votacion087/VOT_20251008195359.json",
+          "title": "Congreso de los Diputados, votación XV legislatura (datos abiertos)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-10-08",
+          "quote": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elsaltodiario.com/congreso-de-los-diputados/podemos-aprobacion-embargo-armas-israel",
+          "title": "Podemos votará a favor del decreto de embargo y destraba la convalidación en el Congreso",
+          "publisher": "El Salto",
+          "date": "2025-10-08",
+          "quote": "Las críticas de Podemos al decreto —al que califican de “coladero” ya que “no acaba con las dos principales contribuciones de España al genocidio“, en referencia a la compraventa de armas y el tránsito por territorio español",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "All 4 Podemos deputies voted yes to validate RDL 10/2025 (2025-10-08). They called the embargo insufficient and want it to go further."
+    }
+  ]
+}
