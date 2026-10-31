@@ -22,18 +22,30 @@ test('ES and EN UI dictionaries have the same keys', () => {
 
 test('UI never labels a party as recommended or best', () => {
   const banned = /recomend|recommend|mejor opci|best match|ganador|winner|top match/i;
-  for (const lang of ['es', 'en']) for (const s of flatten(STRINGS[lang])) assert.ok(!banned.test(s), s);
-  for (const f of ['site/index.html', 'site/js/app.js']) assert.ok(!banned.test(readFileSync(f, 'utf8')), f);
+  // Disclaimers that say there are NO recommendations are the opposite of a label.
+  const negations = /sin recomendaciones|no hay recomendaciones|no recommendations|without recommendations/gi;
+  const clean = (str) => str.replace(negations, '');
+  for (const lang of ['es', 'en']) for (const s of flatten(STRINGS[lang])) assert.ok(!banned.test(clean(s)), s);
+  for (const f of ['site/index.html', 'site/js/app.js']) assert.ok(!banned.test(clean(readFileSync(f, 'utf8'))), f);
 });
 
 test('frontend makes no third-party requests and uses no storage', () => {
-  const src = ['site/index.html', 'site/js/app.js', 'site/js/page.js', 'site/js/match.js', 'site/css/style.css']
+  const src = ['site/index.html', 'site/eleccion.html', 'site/metodologia.html', 'site/js/app.js', 'site/js/page.js', 'site/js/reference.js', 'site/js/match.js', 'site/css/style.css']
     .map((f) => readFileSync(f, 'utf8'))
     .join('\n');
   assert.ok(!/localStorage|sessionStorage|indexedDB|document\.cookie/.test(src), 'storage API used');
-  const urls = src.match(/(?:src|href)=["']https?:\/\/[^"']+/g) || [];
-  assert.deepEqual(urls, []);
-  assert.ok(!/fetch\(\s*['"]https?:/.test(src), 'external fetch');
+  // Resources the page LOADS (not links the user may click, nor canonical/share metadata).
+  const loaded = [
+    ...(src.match(/<script[^>]+src=["']https?:\/\/[^"']+/g) || []),
+    ...(src.match(/<img[^>]+src=["']https?:\/\/[^"']+/g) || []),
+    ...(src.match(/<link[^>]+rel=["'](?:stylesheet|icon|preload|modulepreload)["'][^>]+href=["']https?:\/\/[^"']+/g) || []),
+    ...(src.match(/url\(\s*["']?https?:\/\/[^)]+/g) || []),
+    ...(src.match(/@import\s+["']https?:/g) || []),
+    ...(src.match(/import\s*\(?\s*["']https?:/g) || []),
+  ];
+  assert.deepEqual(loaded, []);
+  assert.ok(!/fetch\(\s*['"`]https?:/.test(src), 'external fetch');
+  assert.match(src, /connect-src 'self'/, 'CSP must restrict connections to the site itself');
 });
 
 test('results default to random order (sorting is opt-in)', () => {
