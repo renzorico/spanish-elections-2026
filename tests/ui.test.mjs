@@ -30,7 +30,7 @@ test('UI never labels a party as recommended or best', () => {
 });
 
 test('frontend makes no third-party requests and uses no storage', () => {
-  const src = ['site/index.html', 'site/eleccion.html', 'site/metodologia.html', 'site/js/app.js', 'site/js/page.js', 'site/js/reference.js', 'site/js/match.js', 'site/js/share.js', 'site/js/topics.js', 'site/css/style.css']
+  const src = ['site/index.html', 'site/eleccion.html', 'site/metodologia.html', 'site/js/app.js', 'site/js/page.js', 'site/js/reference.js', 'site/js/match.js', 'site/js/report.js', 'site/js/pdf.js', 'site/js/brand.js', 'site/js/restore.js', 'site/js/topics.js', 'site/css/style.css']
     .map((f) => readFileSync(f, 'utf8'))
     .join('\n');
   assert.ok(!/localStorage|sessionStorage|indexedDB|document\.cookie/.test(src), 'storage API used');
@@ -48,9 +48,18 @@ test('frontend makes no third-party requests and uses no storage', () => {
   assert.match(src, /connect-src 'self'/, 'CSP must restrict connections to the site itself');
 });
 
-test('results default to random order (sorting is opt-in)', () => {
+test('results are sorted by agreement; party ties and question order stay random', () => {
+  // Owner's decision (round 2): results always sorted by agreement, limited-data parties last.
   const app = readFileSync('site/js/app.js', 'utf8');
-  assert.match(app, /sortByMatch: false/);
+  assert.match(app, /results = sortByAgreement\(results\)/);
+  assert.doesNotMatch(app, /data-order=|sortByMatch/);
   assert.match(app, /partyOrder = shuffle\(/);
   assert.match(app, /statementOrder = shuffle\(/);
+});
+
+test('the shared summary never includes the answers or the restore link', () => {
+  const rep = readFileSync('site/js/report.js', 'utf8');
+  const share = rep.slice(rep.indexOf('export function layoutShare'), rep.indexOf('export async function sharePdf'));
+  assert.ok(share.length > 200);
+  assert.doesNotMatch(share, /restoreUrl|\.answers\b/);
 });

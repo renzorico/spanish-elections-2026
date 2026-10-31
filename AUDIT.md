@@ -133,3 +133,13 @@ The rebuilt interface adds visual elements that could carry bias. Each was decid
 | Shareable card / PDF | Sorted by agreement, because it is the user's own summary; limited-data parties marked and listed last; "not a voting recommendation" printed on it | Explicit user action, with the same caveats as the screen |
 | Plain-language explanations | Each says what the measure is and what "agree" means; no arguments for or against; linted for loaded terms | Helps people not into politics without steering them |
 | Answer scale | Dots grow towards the extremes on both sides symmetrically; neither side is coloured | No side looks like the "right" answer |
+
+## Design round 2 (owner decisions, 31 Oct 2026)
+
+| Change | Neutrality / privacy reasoning |
+| --- | --- |
+| Results are always sorted by agreement; the "random order" switch is removed (owner's decision). | Order reflects only the user's own answers. Limited-data parties (coverage ≤ 50 %) are listed last and marked, so a score built on a few statements is never shown above better-documented parties. Ties keep the per-visit random party order, so no party gains from alphabetical or fixed position. Question order stays random per visit. Documented in the methodology page; tested in `tests/ui.test.mjs` and the browser suite. |
+| Topic map redrawn as diverging bars (centre = half and half; right = agreement, left = disagreement), equal columns, angled short headers. | Neutral ink tones only; no party or stance colours. Explicit markers for "no documented position" and "topic not answered"; no imputed values. |
+| Two downloads: full report (to keep) and one-page summary (to share, PDF + PNG). | Both are created in the browser; nothing is uploaded. The summary shows the three closest parties **among those with enough data** and no answers. Automatic observations are descriptive (spread between parties, topics where parties differ most/least) and never name a "best" party. |
+| "Return to my results" link in the full report. | Answers, weights and constituency are encoded in the URL fragment (`#r=…`), which browsers do not send to servers; nothing is stored. The report and methodology warn that anyone with the link can see the answers. The summary to share never contains it (tested). |
+| New logo (Congress hemicycle, single tone). | No party colours; the mark is the chamber, not any group within it. |

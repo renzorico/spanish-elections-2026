@@ -113,3 +113,18 @@ export function topicVars(id) {
   if (!t) return '';
   return `--t-accent:${t.accent};--t-mid:${t.mid};--t-tint:${t.tint};--t-dark-accent:${t.darkAccent};--t-dark-tint:${t.darkTint}`;
 }
+
+/** Short topic names for narrow column headers (topic map, PDF). */
+export const TOPIC_SHORT = {
+  vivienda: { es: 'Vivienda', en: 'Housing' },
+  economia: { es: 'Economía', en: 'Economy' },
+  trabajo: { es: 'Trabajo', en: 'Work' },
+  sanidad: { es: 'Sanidad', en: 'Health' },
+  derechos: { es: 'Derechos', en: 'Rights' },
+  inmigracion: { es: 'Inmigración', en: 'Immigration' },
+  clima: { es: 'Clima', en: 'Climate' },
+  territorial: { es: 'Territorio', en: 'Territory' },
+  educacion: { es: 'Educación', en: 'Education' },
+  instituciones: { es: 'Instituciones', en: 'Institutions' },
+  exterior: { es: 'Exterior', en: 'Foreign' },
+};

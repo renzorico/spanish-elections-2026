@@ -4,8 +4,9 @@
 import { STRINGS } from './i18n.js';
 import { computeMatch, sortByAgreement, shuffle, cryptoRandom, DEFAULT_WEIGHT } from './match.js';
 import { REPO_URL, applyLang, fetchReference, renderCoverage } from './reference.js';
-import { TOPIC_STYLE, topicIcon, topicIconDataUrl, topicVars } from './topics.js';
-import { drawCard, prepareCardData, downloadPdf, shareImage } from './share.js';
+import { TOPIC_STYLE, TOPIC_SHORT, topicIcon, topicVars } from './topics.js';
+import { SITE_URL, reportPdf, sharePdf, sharePng, parseQr } from './report.js';
+import { encodeRestore, decodeRestore } from './restore.js';
 
 const app = document.getElementById('app');
 // Topic weights (option B chosen by the owner): less ×0.5, same ×1, more ×2.
@@ -27,8 +28,9 @@ const state = {
   weights: {},
   open: null, // 'simple' | 'context' | null: which explainer is open on the current question
   excludeLow: false,
-  sortByMatch: false,
   showAll: false,
+  openWeights: new Set(), // topics whose statements are listed on the weights screen
+  notice: null, // one-off message on the results screen (restored link)
   editing: false,
   autoAdvance: true,
   partyId: null,
@@ -114,9 +116,28 @@ async function load() {
   state.partyOrder = shuffle(state.data.parties.map((p) => p.id), cryptoRandom);
   state.topicOrder = topicOrderFromStatements();
   for (const tp of state.data.topics) state.weights[tp.id] = DEFAULT_WEIGHT;
+  const hash = location.hash;
   history.replaceState({ step: 'home' }, '', location.href.split('#')[0]);
-  render();
+  if (!applyRestore(hash)) render();
 }
+
+// "Return to my results" link from the full report: the data lives only in the URL
+// fragment (#r=…), which browsers never send to the server.
+function applyRestore(hash) {
+  if (!hash.startsWith('#r=')) return false;
+  const r = decodeRestore(hash.slice(3), state.data);
+  if (r) {
+    Object.assign(state, { answers: r.answers, weights: r.weights, province: r.province, ref: null, editing: false });
+    go('results', { notice: 'restored' });
+  } else {
+    state.ref = null;
+    go('home', { notice: 'restoreInvalid' });
+  }
+  return true;
+}
+window.addEventListener('hashchange', () => {
+  if (state.data && location.hash.startsWith('#r=')) applyRestore(location.hash);
+});
 
 function topicOrderFromStatements() {
   const seen = [];
@@ -130,6 +151,7 @@ function topicOrderFromStatements() {
 // ---------- navigation (history-aware: the browser Back button steps back through screens)
 function go(step, opts = {}) {
   const { fromHistory, ...rest } = opts;
+  if (!('notice' in rest)) state.notice = null;
   Object.assign(state, rest);
   state.step = step;
   state.open = null;
@@ -165,28 +187,45 @@ function viewHome() {
   const e = state.data.election;
   const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid' }).format(new Date());
   const days = Math.round((Date.parse(e.date) - Date.parse(today)) / 86400000);
-  const count = days > 0 ? `<b>${days}</b>${esc(t('daysLeft')(days))}` : days === 0 ? `<b>!</b>${esc(t('electionToday'))}` : esc(t('electionPast'));
+  const count = days > 0 ? `<b>${days}</b><span>${esc(t('daysTo')(days))}</span>` : days === 0 ? `<span>${esc(t('electionToday'))}</span>` : `<span>${esc(t('electionPast'))}</span>`;
+  const nStatements = state.data.statements.length;
   const tiles = state.data.topics
-    .map((tp) => `<div class="tile" style="${topicVars(tp.id)}" title="${esc(loc(tp.label))}">${topicIcon(tp.id)}<span>${esc(loc(tp.label))}</span></div>`)
+    .map((tp) => {
+      const n = state.data.statements.filter((s) => s.topic === tp.id).length;
+      return `<div class="tile" style="${topicVars(tp.id)}">${topicIcon(tp.id)}<span class="tl"><span class="tl-long">${esc(loc(tp.label))}</span><span class="tl-short">${esc(loc(TOPIC_SHORT[tp.id]))}</span><small>${n}</small></span></div>`;
+    })
     .join('');
-  const trustIcons = [ICON.shield, ICON.lock, ICON.doc];
+  const sample = statementById('viv-limite-alquiler') || state.data.statements[0];
+  const labels = t('answers');
+  const notice = state.notice === 'restoreInvalid' ? `<p class="note" role="status">${esc(t('restoreInvalid'))}</p>` : '';
   return `
   <div class="wrap-wide">
+    ${notice}
     <section class="hero">
-      <div>
+      <div class="hero-copy">
         <p class="countdown">${count}</p>
         <h1 class="display" data-focus>${esc(t('heroTitle'))}</h1>
         <p class="lead">${esc(t('heroLead'))}</p>
         <div class="hero-cta">
           <button class="btn btn-primary btn-big" data-act="start">${esc(t('start'))} ${ICON.arrowR}</button>
-          <span class="hero-meta">${esc(t('heroMeta'))}</span>
+          <span class="hero-meta">${esc(t('heroMinutes'))}</span>
         </div>
-        <ul class="trust">${t('trust').map((x, i) => `<li>${trustIcons[i]}${esc(x)}</li>`).join('')}</ul>
+        <dl class="facts">${t('heroFacts').map(([n, l]) => `<div><dt>${esc(l)}</dt><dd>${esc(n)}</dd></div>`).join('')}</dl>
+        <p class="hero-note">${esc(t('heroNote'))}</p>
       </div>
-      <div class="mosaic" aria-hidden="true">
-        <div class="tile big ink"><strong>30</strong><span>${state.lang === 'es' ? 'afirmaciones' : 'statements'}</span></div>
-        ${tiles}
-        <div class="tile ink"><strong>13</strong><span>${state.lang === 'es' ? 'partidos' : 'parties'}</span></div>
+      <div class="hero-art">
+        <div class="mosaic" aria-hidden="true">
+          <div class="tile big ink"><strong>${nStatements}</strong><span>${esc(t('tileStatements'))}</span></div>
+          ${tiles}
+          <div class="tile ink"><strong>${state.data.parties.length}</strong><span>${esc(t('tileParties'))}</span></div>
+        </div>
+        <div class="sample" style="${topicVars(sample.topic)}">
+          <span class="sample-label">${topicIcon(sample.topic)} ${esc(loc(topicById(sample.topic).label))} · ${esc(t('sampleLabel'))}</span>
+          <p class="sample-q">${esc(loc(sample.text))}</p>
+          <div class="sample-scale" role="group" aria-label="${esc(t('sampleNote'))}">${[-2, -1, 0, 1, 2].map((v, i) => `<button type="button" data-sample="${v}" aria-pressed="false" aria-label="${esc(labels[i])}"></button>`).join('')}</div>
+          <div class="sample-ends" aria-hidden="true"><span>${esc(labels[0])}</span><span>${esc(labels[4])}</span></div>
+          <p class="sample-note" aria-live="polite">${esc(t('sampleNote'))}</p>
+        </div>
       </div>
     </section>
     <section aria-labelledby="how-h">
@@ -234,6 +273,41 @@ function progressBar() {
     .join('')}</div>`;
 }
 
+// ---------- fixed statement height
+const stBox = { key: '', h: 0 };
+function stBoxStyle() {
+  return stBox.h ? `min-height:${stBox.h}px` : '';
+}
+/** Measure the tallest statement at the current width and language; returns true if it changed. */
+function measureStatements() {
+  const box = app.querySelector('.st-box');
+  if (!box) return false;
+  const key = `${box.clientWidth}|${state.lang}|${document.fonts?.status || ''}`;
+  if (key === stBox.key) return false;
+  const probe = document.createElement('h1');
+  probe.className = 'statement';
+  probe.setAttribute('aria-hidden', 'true');
+  probe.style.cssText = `position:absolute;visibility:hidden;pointer-events:none;left:0;top:0;width:${box.clientWidth}px;margin:0`;
+  box.appendChild(probe);
+  let max = 0;
+  for (const st of state.data.statements) {
+    probe.textContent = loc(st.text);
+    max = Math.max(max, probe.getBoundingClientRect().height);
+  }
+  probe.remove();
+  stBox.key = key;
+  const changed = Math.ceil(max) !== stBox.h;
+  stBox.h = Math.ceil(max);
+  box.style.minHeight = `${stBox.h}px`;
+  return changed;
+}
+let resizeTimer = null;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => state.step === 'question' && !state.ref && measureStatements(), 120);
+});
+document.fonts?.ready.then(() => state.step === 'question' && measureStatements());
+
 function viewQuestion() {
   const n = state.statementOrder.length;
   const s = statementById(state.statementOrder[state.idx]);
@@ -259,20 +333,24 @@ function viewQuestion() {
     ${progressBar()}
     <article class="tcard">
       <span class="tlabel">${topicIcon(tp.id)} ${esc(loc(tp.label))}</span>
-      <h1 class="statement" id="q-text" data-focus>${esc(loc(s.text))}</h1>
-      <div class="explain">
-        <button type="button" data-act="toggle-simple" aria-expanded="${simpleOpen}" aria-controls="exp-simple">${ICON.bulb} ${esc(t('simpleBtn'))}</button>
-        <button type="button" data-act="toggle-context" aria-expanded="${contextOpen}" aria-controls="exp-context">${ICON.info} ${esc(t('contextBtn'))}</button>
-      </div>
-      <div class="explain-box" id="exp-simple" ${simpleOpen ? '' : 'hidden'}><p>${esc(simpleBody)}<span class="eq">${esc(simpleEq || '')}</span></p></div>
-      <div class="explain-box" id="exp-context" ${contextOpen ? '' : 'hidden'}><p>${esc(loc(s.context))}</p></div>
+      <!-- The statement box is as tall as the longest statement (measured on this screen),
+           so the answer scale stays in the same place on every question. -->
+      <div class="st-box" style="${stBoxStyle()}"><h1 class="statement" id="q-text" data-focus>${esc(loc(s.text))}</h1></div>
       <fieldset class="scale" aria-describedby="scale-ends">
         <legend class="vh">${esc(t('answerLegend'))}</legend>
         <div class="scale-track">${stops}</div>
         <div class="scale-ends" id="scale-ends" aria-hidden="true"><span>${esc(labels[0])}</span><span>${esc(labels[2])}</span><span>${esc(labels[4])}</span></div>
         <p class="scale-value" id="scale-value" aria-live="polite">${answered ? esc(labels[cur + 2]) : ''}</p>
       </fieldset>
-      <p class="noop"><button type="button" class="btn btn-text" data-act="q-skip">${esc(t('noOpinion'))}</button></p>
+      <div class="q-tools">
+        <div class="explain">
+          <button type="button" data-act="toggle-simple" aria-expanded="${simpleOpen}" aria-controls="exp-simple">${ICON.bulb} ${esc(t('simpleBtn'))}</button>
+          <button type="button" data-act="toggle-context" aria-expanded="${contextOpen}" aria-controls="exp-context">${ICON.info} ${esc(t('contextBtn'))}</button>
+        </div>
+        <button type="button" class="btn btn-text noop" data-act="q-skip">${esc(t('noOpinion'))}</button>
+      </div>
+      <div class="explain-box" id="exp-simple" ${simpleOpen ? '' : 'hidden'}><p>${esc(simpleBody)}<span class="eq">${esc(simpleEq || '')}</span></p></div>
+      <div class="explain-box" id="exp-context" ${contextOpen ? '' : 'hidden'}><p>${esc(loc(s.context))}</p></div>
     </article>
     <div class="q-nav">
       <button class="btn btn-quiet" data-act="q-prev">${ICON.arrowL} ${esc(t('prev'))}</button>
@@ -294,12 +372,24 @@ function viewWeights() {
     .map((id) => {
       const tp = topicById(id);
       const w = state.weights[id];
-      const n = state.data.statements.filter((s) => s.topic === id).length;
+      const list = state.statementOrder.filter((sid) => statementById(sid).topic === id);
+      const open = state.openWeights.has(id);
+      const items = list
+        .map((sid) => {
+          const u = state.answers[sid];
+          const lab = u === null || u === undefined ? t('skipped') : t('answers')[u + 2];
+          return `<li><span>${esc(loc(statementById(sid).text))}</span><b>${esc(lab)}</b></li>`;
+        })
+        .join('');
       return `<li class="wrow" style="${topicVars(id)}">
-        <span class="wname">${topicIcon(id)}<span>${esc(loc(tp.label))}<small>${esc(t('statementsCount')(n))}</small></span></span>
-        <span class="wseg" role="group" aria-label="${esc(loc(tp.label))}">${WEIGHT_LEVELS.map(
-          (v, i) => `<button type="button" data-weight-topic="${esc(id)}" data-weight="${v}" aria-pressed="${w === v}">${esc(levels[i])}</button>`,
-        ).join('')}</span>
+        <div class="whead">
+          <span class="wname">${topicIcon(id)}<span>${esc(loc(tp.label))}
+            <button type="button" class="wtoggle" data-wtoggle="${esc(id)}" aria-expanded="${open}" aria-controls="wl-${esc(id)}">${esc(open ? t('weightsHide') : t('weightsShow')(list.length))}</button></span></span>
+          <span class="wseg" role="group" aria-label="${esc(loc(tp.label))}">${WEIGHT_LEVELS.map(
+            (v, i) => `<button type="button" data-weight-topic="${esc(id)}" data-weight="${v}" aria-pressed="${w === v}">${esc(levels[i])}</button>`,
+          ).join('')}</span>
+        </div>
+        <ul class="wlist" id="wl-${esc(id)}" ${open ? '' : 'hidden'}>${items}</ul>
       </li>`;
     })
     .join('');
@@ -318,10 +408,12 @@ function viewWeights() {
   </div>`;
 }
 
-function currentResults({ forCard = false } = {}) {
+// Results are always sorted by agreement (owner's decision, round 2). Parties with limited
+// data go last; ties keep the per-visit random order, so no party is favoured by position.
+function currentResults({ forExport = false } = {}) {
   const d = state.data;
   const inProv = partiesInProvince();
-  const visible = state.partyOrder.filter((id) => (forCard ? !inProv || inProv.has(id) : state.showAll || !inProv || inProv.has(id))).map(partyById);
+  const visible = state.partyOrder.filter((id) => (forExport ? !inProv || inProv.has(id) : state.showAll || !inProv || inProv.has(id))).map(partyById);
   let results = computeMatch({
     statements: d.statements,
     topics: d.topics,
@@ -331,14 +423,8 @@ function currentResults({ forCard = false } = {}) {
     weights: state.weights,
     options: { excludeLowConfidence: state.excludeLow },
   });
-  if (state.sortByMatch || forCard) results = sortByAgreement(results);
+  results = sortByAgreement(results);
   return { results, inProv };
-}
-
-function heatColor(v) {
-  // neutral ink ramp (never a party or stance colour)
-  const a = 0.08 + v * 0.8;
-  return `background:color-mix(in srgb, var(--ink) ${Math.round(a * 100)}%, transparent);color:${v > 0.55 ? 'var(--on-ink)' : 'var(--ink)'}`;
 }
 
 function viewResults() {
@@ -373,8 +459,10 @@ function viewResults() {
   const note = inProv
     ? `<p class="note">${esc(t('candidacyNote')(candidacies().status))}${loc(candidacies().notes?.[state.province]) ? ` ${esc(loc(candidacies().notes[state.province]))}` : ''}</p>`
     : '';
+  const notice = state.notice === 'restored' ? `<p class="note" role="status">${esc(t('restored'))}</p>` : '';
   return `
   <div class="wrap-wide">
+    ${notice}
     <section class="res-head">
       <h1 class="h2" data-focus>${esc(t('resultsTitle'))}</h1>
       <p class="muted" style="margin:0">${esc(t('resultsLead'))}</p>
@@ -383,12 +471,6 @@ function viewResults() {
           <select class="select inline" data-control="province" aria-label="${esc(t('viewIn'))}">
             <option value="">${esc(t('allParties'))}</option>${provOpts}
           </select></label>
-        <span class="ctl" role="group" aria-label="${esc(t('orderLabel'))}">
-          <span class="seg">
-            <button type="button" data-order="random" aria-pressed="${!state.sortByMatch}">${esc(t('orderRandom'))}</button>
-            <button type="button" data-order="match" aria-pressed="${state.sortByMatch}">${esc(t('orderMatch'))}</button>
-          </span>
-        </span>
         <label class="check"><input type="checkbox" data-control="excludeLow" ${state.excludeLow ? 'checked' : ''}> ${esc(t('lowToggle'))}</label>
       </div>
       ${note}
@@ -396,48 +478,78 @@ function viewResults() {
     <ul class="pgrid">${cards}</ul>
     ${inProv && hiddenCount ? `<p><label class="check"><input type="checkbox" data-control="showAll" ${state.showAll ? 'checked' : ''}> ${state.lang === 'es' ? `Ver también los ${hiddenCount} partidos que no se presentan en ${esc(provinceName(state.province))}` : `Also show the ${hiddenCount} parties not running in ${esc(provinceName(state.province))}`}</label></p>` : ''}
     ${viewHeatmap(results)}
-    <section class="actions-panel" aria-label="${esc(t('actionsTitle'))}">
-      <div class="share-box">
-        <h2>${esc(t('cardTitle'))}</h2>
-        <p>${esc(t('cardFoot'))}</p>
-        <div class="row">
-          <button class="btn btn-primary" data-act="pdf">${ICON.download} ${esc(t('downloadPdf'))}</button>
-          <button class="btn" data-act="share">${ICON.share} ${esc(t('shareImage'))}</button>
+    <section class="exports" aria-labelledby="exp-h">
+      <h2 class="h3" id="exp-h">${esc(t('exportTitle'))}</h2>
+      <div class="exp-grid">
+        <div class="exp-card">
+          <h3>${esc(t('exportSaveTitle'))}</h3>
+          <p>${esc(t('exportSaveText'))}</p>
+          <button class="btn btn-primary" data-act="pdf-report">${ICON.download} ${esc(t('exportSaveBtn'))}</button>
         </div>
-        <p class="tiny" id="share-status" aria-live="polite" style="color:inherit"></p>
+        <div class="exp-card">
+          <h3>${esc(t('exportShareTitle'))}</h3>
+          <p>${esc(t('exportShareText'))}</p>
+          <div class="row">
+            <button class="btn btn-primary" data-act="pdf-share">${ICON.download} ${esc(t('exportShareBtn'))}</button>
+            <button class="btn btn-quiet" data-act="png-share">${ICON.share} ${esc(t('exportImageBtn'))}</button>
+          </div>
+        </div>
       </div>
-      <div class="stack">
-        <button class="btn btn-quiet" data-act="edit-answers" style="width:100%">${esc(t('editAnswers'))}</button>
-        <button class="btn btn-quiet" data-act="edit-weights" style="width:100%">${esc(t('editWeights'))}</button>
-        <button class="btn btn-text" data-act="restart" style="width:100%">${esc(t('restart'))}</button>
-      </div>
+      <p class="tiny" id="share-status" aria-live="polite"></p>
+    </section>
+    <section class="actions-panel" aria-label="${esc(t('actionsTitle'))}">
+      <button class="btn btn-quiet" data-act="edit-answers">${esc(t('editAnswers'))}</button>
+      <button class="btn btn-quiet" data-act="edit-weights">${esc(t('editWeights'))}</button>
+      <button class="btn btn-text" data-act="restart">${esc(t('restart'))}</button>
     </section>
   </div>`;
 }
 
+// Topic map: one diverging bar per party and topic. Centre = half and half; the bar grows
+// right with agreement and left with disagreement. Equal columns; angled short headers.
+function divCell(v, label) {
+  const d = v - 0.5;
+  const w = Math.round(Math.abs(d) * 200) / 2; // % of the cell width (max 50)
+  const bar = Math.abs(d) < 0.005 ? '<i class="mid"></i>' : d > 0 ? `<i class="ag" style="width:${w}%"></i>` : `<i class="ds" style="width:${w}%"></i>`;
+  return `<span class="dv" role="img" aria-label="${esc(label)}" title="${esc(label)}">${bar}</span>`;
+}
+
 function viewHeatmap(results) {
-  const topics = state.topicOrder.map(topicById);
-  const head = topics.map((tp) => `<th scope="col" style="${topicVars(tp.id)}"><span class="hti">${topicIcon(tp.id)}</span><span class="hlab">${esc(loc(tp.label))}</span></th>`).join('');
-  const rows = results
-    .map((r) => {
-      const p = partyById(r.party);
-      const cells = topics
-        .map((tp) => {
-          const tr = r.topics.find((x) => x.topic === tp.id);
-          if (!tr || tr.answered === 0) return '<td><span class="cell na" aria-label="—">·</span></td>';
-          if (tr.agreement === null) return `<td><span class="cell na" title="${esc(t('mapEmpty'))}">—<span class="vh">${esc(t('mapEmpty'))}</span></span></td>`;
-          return `<td><span class="cell" style="${heatColor(tr.agreement)}">${Math.round(tr.agreement * 100)}</span></td>`;
-        })
-        .join('');
-      return `<tr><th scope="row">${esc(p.name)}</th>${cells}</tr>`;
-    })
+  const topics = state.data.topics;
+  const cols = topics.map(() => '<col class="c-t">').join('');
+  const head = topics
+    .map((tp) => `<th scope="col" class="th-t" style="${topicVars(tp.id)}"><span class="th-in"><i class="th-dot"></i>${esc(loc(TOPIC_SHORT[tp.id]) || loc(tp.label))}</span></th>`)
     .join('');
-  const ramp = [0.1, 0.3, 0.5, 0.7, 0.9].map((v) => `<i style="${heatColor(v)}"></i>`).join('');
+  const row = (r) => {
+    const p = partyById(r.party);
+    const cells = topics
+      .map((tp) => {
+        const tr = r.topics.find((x) => x.topic === tp.id);
+        const name = loc(tp.label);
+        if (!tr || tr.answered === 0) return `<td><span class="dv skip" role="img" aria-label="${esc(`${p.name}, ${name}: ${t('legSkip')}`)}" title="${esc(t('legSkip'))}"></span></td>`;
+        if (tr.agreement === null) return `<td><span class="dv na" role="img" aria-label="${esc(`${p.name}, ${name}: ${t('legNone')}`)}" title="${esc(t('legNone'))}"></span></td>`;
+        return `<td>${divCell(tr.agreement, t('cellLabel')(p.name, name, Math.round(tr.agreement * 100)))}</td>`;
+      })
+      .join('');
+    return `<tr><th scope="row">${esc(p.name)}</th>${cells}<td class="tm-g">${r.overall === null ? '—' : pct(r.overall)}</td></tr>`;
+  };
+  const full = results.filter((r) => !r.limitedData);
+  const lim = results.filter((r) => r.limitedData);
+  const rows = full.map(row).join('') + (lim.length ? `<tr class="tm-sep"><th scope="rowgroup" colspan="${topics.length + 2}">${esc(t('limitedData'))}</th></tr>${lim.map(row).join('')}` : '');
+  const legend = [
+    ['<span class="dv"><i class="ds" style="width:36%"></i></span>', t('legDis')],
+    ['<span class="dv"><i class="mid"></i></span>', t('legMid')],
+    ['<span class="dv"><i class="ag" style="width:36%"></i></span>', t('legAgree')],
+    ['<span class="dv na"></span>', t('legNone')],
+    ['<span class="dv skip"></span>', t('legSkip')],
+  ];
   return `
-  <section aria-labelledby="map-h">
-    <div class="section-title"><h2 class="h3" id="map-h">${esc(t('mapTitle'))}</h2><span class="small muted">${esc(t('mapLead'))}</span></div>
-    <div class="heat-wrap"><table class="heat"><thead><tr><th scope="col"><span class="vh">Partido</span></th>${head}</tr></thead><tbody>${rows}</tbody></table></div>
-    <p class="heat-legend"><span>0%</span><span class="ramp">${ramp}</span><span>100%</span><span>${esc(t('mapLegendDash'))}</span></p>
+  <section aria-labelledby="map-h" class="tmap-sec">
+    <h2 class="h3" id="map-h">${esc(t('mapTitle'))}</h2>
+    <p class="small muted tm-how">${esc(t('mapHow'))}</p>
+    <p class="tm-swipe" aria-hidden="true">${state.lang === 'es' ? 'Desliza para ver todos los temas' : 'Swipe to see all topics'} →</p>
+    <div class="tmap-wrap"><table class="tmap"><colgroup><col class="c-p">${cols}<col class="c-g"></colgroup><thead><tr><th scope="col" class="th-p"><span class="vh">${state.lang === 'es' ? 'Partido' : 'Party'}</span></th>${head}<th scope="col" class="th-g">${state.lang === 'es' ? 'Global' : 'Overall'}</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <ul class="tm-legend">${legend.map(([sw, l]) => `<li>${sw}${esc(l)}</li>`).join('')}</ul>
   </section>`;
 }
 
@@ -615,6 +727,7 @@ function render() {
   }
   const views = { home: viewHome, province: viewProvince, question: viewQuestion, weights: viewWeights, results: viewResults, party: viewParty };
   app.innerHTML = (views[state.step] || viewHome)();
+  if (state.step === 'question') measureStatements();
 }
 
 // ---------- answering
@@ -679,6 +792,22 @@ app.addEventListener('click', async (e) => {
     }
     return;
   }
+  const wtog = e.target.closest('[data-wtoggle]');
+  if (wtog) {
+    const id = wtog.dataset.wtoggle;
+    const open = !state.openWeights.has(id);
+    if (open) state.openWeights.add(id);
+    else state.openWeights.delete(id);
+    wtog.setAttribute('aria-expanded', String(open));
+    wtog.textContent = open ? t('weightsHide') : t('weightsShow')(state.data.statements.filter((x) => x.topic === id).length);
+    app.querySelector(`#wl-${CSS.escape(id)}`).hidden = !open;
+    return;
+  }
+  const sb = e.target.closest('[data-sample]');
+  if (sb) {
+    for (const x of app.querySelectorAll('[data-sample]')) x.setAttribute('aria-pressed', String(x === sb));
+    return;
+  }
   const wt = e.target.closest('[data-weight-topic]');
   if (wt) {
     const id = wt.dataset.weightTopic;
@@ -692,13 +821,6 @@ app.addEventListener('click', async (e) => {
   const party = e.target.closest('[data-party]');
   if (party) {
     go('party', { partyId: party.dataset.party });
-    return;
-  }
-  const ord = e.target.closest('[data-order]');
-  if (ord) {
-    state.sortByMatch = ord.dataset.order === 'match';
-    render();
-    app.querySelector(`[data-order="${ord.dataset.order}"]`)?.focus();
     return;
   }
   const btn = e.target.closest('[data-act]');
@@ -731,23 +853,26 @@ app.addEventListener('click', async (e) => {
   else if (act === 'edit-answers') go('question', { editing: true, idx: 0 });
   else if (act === 'edit-weights') go('weights', { editing: true });
   else if (act === 'close-ref') closeRef();
-  else if (act === 'pdf' || act === 'share') {
+  else if (act === 'pdf-report' || act === 'pdf-share' || act === 'png-share') {
     const status = app.querySelector('#share-status');
     btn.disabled = true;
     if (status) status.textContent = t('sharing');
     try {
-      const card = await buildCard();
-      if (act === 'pdf') await downloadPdf(card, `${t('cardTitle')} · 29N`);
-      else await shareImage(card, t('shareText'));
+      const d = await exportData();
+      if (act === 'pdf-report') download(new Blob([await reportPdf(d)], { type: 'application/pdf' }), fileName('informe', 'report', 'pdf'));
+      else if (act === 'pdf-share') download(new Blob([await sharePdf(d)], { type: 'application/pdf' }), fileName('resumen', 'summary', 'pdf'));
+      else await shareImage(await sharePng(d));
       if (status) status.textContent = '';
     } catch (err) {
+      console.warn(err);
       if (status) status.textContent = t('loadError');
     } finally {
       btn.disabled = false;
     }
   } else if (act === 'restart') {
     if (hasAnswers() && !confirm(t('confirmRestart'))) return;
-    Object.assign(state, { answers: {}, idx: 0, province: '', editing: false, sortByMatch: false, excludeLow: false, showAll: false, partyId: null });
+    Object.assign(state, { answers: {}, idx: 0, province: '', editing: false, excludeLow: false, showAll: false, partyId: null, notice: null });
+    state.openWeights.clear();
     state.statementOrder = shuffle(state.statementOrder, cryptoRandom);
     state.partyOrder = shuffle(state.partyOrder, cryptoRandom);
     state.topicOrder = topicOrderFromStatements();
@@ -777,33 +902,88 @@ app.addEventListener('change', (e) => {
   }
 });
 
-async function buildCard() {
-  const { results } = currentResults({ forCard: true });
-  const palette = state.data.topics.map((tp) => TOPIC_STYLE[tp.id].accent);
-  const keyTopics = state.topicOrder.filter((id) => state.weights[id] > 1);
-  const data = await prepareCardData({
-    strings: {
-      cardTitle: t('cardTitle'),
-      cardSubtitle: t('cardSubtitle'),
-      cardOrder: t('cardOrder'),
-      cardTopics: t('cardTopics'),
-      cardNoTopics: t('cardNoTopics'),
-      cardWhere: t('cardWhere'),
-      cardAnswered: t('cardAnswered'),
-      cardLimited: t('cardLimited'),
-      cardFoot: t('cardFoot'),
-      cardCta: t('cardCta'),
-    },
+// ---------- exports (full report PDF; one-page summary PDF/PNG)
+function fileName(es, en, ext) {
+  return `29N-${state.lang === 'es' ? es : en}.${ext}`;
+}
+function download(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 4000);
+}
+async function shareImage(blob) {
+  const file = new File([blob], fileName('coincidencias', 'matches', 'png'), { type: 'image/png' });
+  if (navigator.canShare?.({ files: [file] })) {
+    try {
+      await navigator.share({ files: [file], text: `${t('shareText')} ${SITE_URL}` });
+      return;
+    } catch (err) {
+      if (err?.name === 'AbortError') return;
+    }
+  }
+  download(blob, file.name);
+}
+
+let qrCache = null;
+async function exportData() {
+  const d = state.data;
+  const { results } = currentResults({ forExport: true });
+  const inProv = partiesInProvince();
+  const visible = d.parties.filter((p) => !inProv || inProv.has(p.id));
+  if (!qrCache) {
+    try {
+      qrCache = parseQr(await (await fetch('img/qr.svg')).text());
+    } catch {
+      qrCache = null;
+    }
+  }
+  const fmt = (opts) => new Intl.DateTimeFormat(state.lang === 'es' ? 'es-ES' : 'en-GB', { timeZone: 'Europe/Madrid', ...opts }).format(new Date());
+  const S = t('report');
+  const topics = d.topics.map((tp) => ({ id: tp.id, label: loc(tp.label), short: loc(TOPIC_SHORT[tp.id]) || loc(tp.label), accent: TOPIC_STYLE[tp.id].accent, tint: TOPIC_STYLE[tp.id].tint }));
+  const parties = results.map((r) => {
+    const p = partyById(r.party);
+    const tops = {};
+    for (const tr of r.topics) tops[tr.topic] = tr.answered === 0 ? 'skip' : tr.agreement;
+    return { id: p.id, name: p.name, mono: MONO[p.id] || p.name.slice(0, 3), pct: r.overall, withPos: r.coverage.withPosition, answeredCount: r.coverage.answered, limited: r.limitedData, topics: tops };
+  });
+  const answers = [];
+  for (const tp of d.topics) {
+    for (const st of d.statements.filter((x) => x.topic === tp.id)) {
+      const u = state.answers[st.id];
+      const by = { agree: [], disagree: [], neutral: [], none: [] };
+      for (const p of visible) {
+        const stance = d.positions[p.id]?.[st.id]?.stance;
+        (by[stance] || by.none).push(p.name);
+      }
+      answers.push({ topicId: tp.id, text: loc(st.text), answer: u === null || u === undefined ? null : t('answers')[u + 2], favor: by.agree, contra: by.disagree, neutral: by.neutral, none: by.none });
+    }
+  }
+  const restore = `${SITE_URL}${state.lang === 'en' ? '?lang=en' : ''}#r=${encodeRestore({ statements: d.statements, topics: d.topics, answers: state.answers, weights: state.weights, province: state.province })}`;
+  const more = d.topics.filter((tp) => state.weights[tp.id] > 1);
+  return {
+    S,
+    lang: state.lang,
+    dateLabel: S.generated(fmt({ day: 'numeric', month: 'long', year: 'numeric' })),
+    dateShort: fmt({ day: 'numeric', month: 'short', year: 'numeric' }),
     place: state.province ? provinceName(state.province) : t('allParties'),
     answered: answeredCount(),
-    palette,
-    parties: results.map((r) => {
-      const p = partyById(r.party);
-      return { name: p.name, mono: MONO[p.id] || p.name.slice(0, 3), logoSrc: state.logos[p.id] ? `img/parties/${state.logos[p.id]}` : null, pct: r.overall, limited: r.limitedData };
-    }),
-    topics: keyTopics.map((id) => ({ label: loc(topicById(id).label), accent: TOPIC_STYLE[id].accent, tint: TOPIC_STYLE[id].tint, icon: topicIconDataUrl(id, TOPIC_STYLE[id].accent) })),
-  });
-  return drawCard(data);
+    total: d.statements.length,
+    moreTopics: more.map((tp) => loc(tp.label)),
+    moreTopicsFull: more.map((tp) => ({ label: loc(tp.label), accent: TOPIC_STYLE[tp.id].accent, tint: TOPIC_STYLE[tp.id].tint })),
+    lessTopics: d.topics.filter((tp) => state.weights[tp.id] < 1).map((tp) => loc(tp.label)),
+    topics,
+    parties,
+    answers,
+    restoreUrl: restore,
+    siteUrl: SITE_URL,
+    siteLabel: SITE_URL.replace(/^https:\/\//, '').replace(/\/$/, ''),
+    qr: qrCache,
+  };
 }
 
 // Leaving the page would lose the answers; ask first while a questionnaire is in progress.

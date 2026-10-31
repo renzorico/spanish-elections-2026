@@ -51,6 +51,10 @@ const ok = (c, m) => {
   await p.click('[data-act=toggle-context]');
   ok((await p.locator('#exp-context').isVisible()) && !(await p.locator('#exp-simple').isVisible()), 'context replaces the explanation');
 
+  // Fixed statement height: the scale does not move between short and long statements
+  const scaleY = () => p.locator('.scale-track').evaluate((e) => Math.round(e.getBoundingClientRect().top + scrollY));
+  const y0 = await scaleY();
+
   // D-002: arrow keys must not advance
   const q1 = await qtext();
   await p.locator('input[name=answer]').first().focus();
@@ -63,6 +67,7 @@ const ok = (c, m) => {
   await p.keyboard.press('Enter');
   await p.waitForTimeout(200);
   ok((await qtext()) !== q1, 'Enter moves to the next question');
+  ok((await scaleY()) === y0, 'answer scale stays in the same place on the next statement');
 
   // Next is always present, even unanswered ("Saltar"), and pointer choices auto-advance
   ok(/Saltar/.test(await p.locator('#q-next').textContent()), 'Next is available on an unanswered question (Skip)');
@@ -113,6 +118,9 @@ const ok = (c, m) => {
   }
   // topic weights: Less / Same / More per topic (option B)
   ok((await p.locator('.wrow').count()) === 11, 'weights screen lists all 11 topics');
+  ok((await p.locator('.wlist:visible').count()) === 0, 'topic statement lists start closed');
+  await p.click('[data-wtoggle="vivienda"]');
+  ok((await p.locator('#wl-vivienda li').count()) === 2 && (await p.locator('#wl-vivienda').isVisible()), 'a topic can be opened to see its statements and the answers given');
   ok((await p.locator('.wseg button[aria-pressed="true"]').count()) === 11 && (await p.locator('.wseg button[data-weight="1"][aria-pressed="true"]').count()) === 11, 'all topics start at "Same"');
   await p.click('[data-weight-topic="vivienda"][data-weight="2"]');
   await p.click('[data-weight-topic="sanidad"][data-weight="2"]');
@@ -132,8 +140,11 @@ const ok = (c, m) => {
   await p.waitForTimeout(150);
   ok((await p.locator('.flag', { hasText: 'En coalición' }).count()) > 0, 'coalition members flagged for Las Palmas');
 
-  // topic map with labels and explicit no-data marker
-  ok((await p.locator('.heat .hlab').count()) === 11, 'topic map has a visible label for each topic');
+  // topic map with labels; results sorted by agreement (no random-order option)
+  ok((await p.locator('.tmap .th-t').count()) === 11, 'topic map has a visible label for each topic');
+  ok((await p.locator('[data-order]').count()) === 0, 'no random-order switch');
+  const pcts = await p.locator('.pcard:not(:has(.flag)) .ppct').evaluateAll((els) => els.map((e) => parseInt(e.textContent, 10)));
+  ok(pcts.every((v, i) => i === 0 || v <= pcts[i - 1]), `results sorted by agreement (${pcts.join(',')})`);
 
   // party detail: topic accordions, not one long list (user request)
   await p.locator('.pcard').first().click();
@@ -169,17 +180,32 @@ const ok = (c, m) => {
   await p.waitForSelector('.pcard');
   await p.setViewportSize({ width: 1000, height: 900 });
 
-  // share card exports
-  let [dl] = await Promise.all([p.waitForEvent('download'), p.click('[data-act=pdf]')]);
-  const pdfPath = await dl.path();
-  const head = fs.readFileSync(pdfPath).subarray(0, 8).toString();
-  ok(head.startsWith('%PDF-1.4'), 'PDF download is a PDF file');
-  [dl] = await Promise.all([p.waitForEvent('download'), p.click('[data-act=share]')]);
+  // exports: full report (to keep), one-page summary (to share), share image
+  let [dl] = await Promise.all([p.waitForEvent('download'), p.click('[data-act=pdf-report]')]);
+  const report = fs.readFileSync(await dl.path()).toString('latin1');
+  ok(report.startsWith('%PDF-1.4') && (report.match(/\/Type \/Page\b/g) || []).length >= 3, 'full report is a multi-page PDF');
+  const restoreUrl = /\/URI \(([^)]*#r=[^)]*)\)/.exec(report)?.[1];
+  ok(Boolean(restoreUrl), 'full report contains the return-to-results link');
+  [dl] = await Promise.all([p.waitForEvent('download'), p.click('[data-act=pdf-share]')]);
+  const summary = fs.readFileSync(await dl.path()).toString('latin1');
+  ok(summary.startsWith('%PDF-1.4') && (summary.match(/\/Type \/Page\b/g) || []).length === 1 && !/#r=/.test(summary), 'shared summary is one page without the restore link');
+  [dl] = await Promise.all([p.waitForEvent('download'), p.click('[data-act=png-share]')]);
   const png = fs.readFileSync(await dl.path());
   ok(png.subarray(1, 4).toString() === 'PNG', 'share image falls back to a PNG download');
 
+  // the return link reopens the same results on a fresh page
+  const before = await p.locator('.pcard .ppct').allTextContents();
+  const p2 = await ctx.newPage();
+  await p2.goto(BASE + restoreUrl.slice(restoreUrl.indexOf('#')));
+  await p2.waitForSelector('.pcard');
+  ok((await p2.locator('.note[role=status]').count()) === 1, 'restored results announce where they came from');
+  ok(JSON.stringify(await p2.locator('.pcard .ppct').allTextContents()) === JSON.stringify(before), 'restore link reproduces the same results');
+  await p2.goto(BASE + '#r=9.bad');
+  await p2.waitForSelector('.hero');
+  ok((await p2.locator('.note[role=status]').count()) === 1, 'an invalid restore link explains itself on the home page');
+  await p2.close();
+
   // F-007 + D-004: restart resets everything and asks first
-  await p.click('[data-order=match]');
   await p.check('[data-control=excludeLow]');
   let asked = false;
   p.removeAllListeners('dialog');
