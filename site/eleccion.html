@@ -9,7 +9,7 @@
   <meta name="description" content="Qué se elige el 29 de noviembre de 2026: Congreso y Senado, listas cerradas por provincia, sistema D'Hondt, investidura y calendario, en lenguaje sencillo.">
   <link rel="canonical" href="https://renzorico.github.io/spanish-elections-2026/eleccion.html">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <meta name="theme-color" content="#23527c">
+  <meta name="theme-color" content="#f6f2ea">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_ES">
   <meta property="og:site_name" content="29N · 2026">
@@ -26,87 +26,56 @@
 </head>
 <body>
   <a class="skip" href="#main">Saltar al contenido</a>
-  <header class="site">
-    <a class="brand" data-href-lang="./" href="./">29N · 2026</a>
-    <nav aria-label="Principal">
-      <a data-href-lang="metodologia.html" href="metodologia.html"><span data-lang="es">Metodología</span><span data-lang="en" hidden>Methodology</span></a>
-      <button id="lang" type="button" lang="en">English</button>
+  <header class="site-header">
+    <a class="brand" data-href-lang="./" href="./"><svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g transform="rotate(-9 17 11)"><rect x="10" y="2.5" width="14" height="16" rx="2.2" fill="var(--paper)" stroke="currentColor" stroke-width="2"/><path d="M13.6 10.6l2.4 2.4 4.6-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><rect x="2.5" y="15" width="29" height="16.5" rx="5" fill="currentColor"/><rect x="9" y="18.6" width="16" height="2.2" rx="1.1" fill="var(--paper)"/></svg><span><span class="brand-name">29N</span><span class="brand-tag">Elecciones generales · 29 nov 2026</span></span></a>
+    <nav class="site-nav" aria-label="Principal">
+      <a class="nav-link" data-href-lang="metodologia.html" href="metodologia.html"><span data-lang="es">Metodología</span><span data-lang="en" hidden>Methodology</span></a>
+      <a class="btn btn-primary" data-href-lang="./" href="./" style="min-height:40px;padding:.5rem 1rem;font-size:.9rem"><span data-lang="es">Hacer el test</span><span data-lang="en" hidden>Take the quiz</span></a>
+      <button id="lang" class="lang-btn" type="button" lang="en">EN</button>
     </nav>
   </header>
-  <main id="main" class="prose">
-    <article class="card" data-lang="es">
-      <h1>Cómo funciona la elección del 29 de noviembre de 2026</h1>
-      <p>Explicación en lenguaje sencillo. Fuente legal: Ley Orgánica 5/1985 del Régimen Electoral General (LOREG), Constitución Española (arts. 68, 69 y 99) y <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742" rel="noopener">Real Decreto 806/2026 de convocatoria (BOE 6/10/2026)</a>.</p>
-
-      <h2>1. Se elige el Parlamento, no al presidente</h2>
-      <p>El 29 de noviembre se eligen las <strong>Cortes Generales</strong>: el Congreso de los Diputados (350 escaños) y la mayoría del Senado. El presidente del Gobierno no aparece en la papeleta: lo elige después el Congreso.</p>
-
-      <h2>2. El Congreso: listas cerradas por provincia</h2>
-      <ul>
-        <li>Cada una de las 50 provincias es una circunscripción; Ceuta y Melilla eligen un diputado cada una.</li>
-        <li>Cada provincia tiene un número fijo de escaños según su población, con un mínimo de dos (por ejemplo, Madrid elige 38 y Soria 2 en 2026).</li>
-        <li>Votas a una <strong>lista cerrada y bloqueada</strong>: no puedes cambiar el orden ni elegir nombres sueltos.</li>
-        <li>Solo entran en el reparto las listas con al menos el <strong>3 % de los votos válidos</strong> de la provincia (los votos en blanco cuentan como válidos).</li>
-        <li>Los escaños se reparten con el <strong>sistema D'Hondt</strong>: se dividen los votos de cada lista entre 1, 2, 3… y se asignan los escaños a los cocientes más altos. En provincias con pocos escaños, este sistema favorece a las listas más votadas.</li>
-      </ul>
-
-      <h2>3. El Senado: listas abiertas</h2>
-      <p>En la papeleta del Senado (de color sepia) puedes marcar hasta tres candidatos en la mayoría de provincias, de cualquier partido. Otros senadores los designan los parlamentos autonómicos.</p>
-
-      <h2>4. Después de votar: la investidura</h2>
-      <ol>
-        <li>Las nuevas Cámaras se constituyen el <strong>23 de diciembre de 2026</strong>.</li>
-        <li>El Rey, tras consultar a los grupos, propone un candidato.</li>
-        <li>El Congreso vota: el candidato necesita <strong>mayoría absoluta (176 votos)</strong>, o en una segunda votación 48 horas después, <strong>más síes que noes</strong>.</li>
-        <li>Si en dos meses desde la primera votación nadie lo consigue, se repiten las elecciones.</li>
+  <main id="main" class="wrap prose">
+    <article data-lang="es">
+      <p class="kicker">En 1 minuto</p>
+      <h1>Qué se elige el 29 de noviembre</h1>
+      <ol class="steps">
+        <li><span class="num">1</span><h3>Votas al Parlamento, no al presidente</h3><p>Se eligen los 350 diputados del Congreso y la mayoría del Senado.</p></li>
+        <li><span class="num">2</span><h3>Listas cerradas por provincia</h3><p>Votas a la lista de un partido en tu provincia. Cada provincia elige un número fijo de diputados según su población (mínimo 2; Ceuta y Melilla, 1).</p></li>
+        <li><span class="num">3</span><h3>Reparto con el sistema D'Hondt</h3><p>Entran las listas con al menos el 3 % de los votos válidos de la provincia. Este sistema favorece a los más votados en cada provincia.</p></li>
+        <li><span class="num">4</span><h3>El Congreso elige al presidente</h3><p>Necesita 176 votos en la primera votación, o más síes que noes en la segunda. Por eso suele haber pactos.</p></li>
       </ol>
-      <p>Por eso, el número de escaños de cada partido —y los acuerdos posibles entre ellos— determinan quién gobierna.</p>
-
-      <h2>5. Calendario</h2>
-      <table>
-        <tbody>
-          <tr><th scope="row">13–27 de noviembre</th><td>Campaña electoral</td></tr>
-          <tr><th scope="row">28 de noviembre</th><td>Jornada de reflexión</td></tr>
-          <tr><th scope="row">29 de noviembre</th><td>Votación</td></tr>
-          <tr><th scope="row">23 de diciembre</th><td>Constitución del Congreso y del Senado</td></tr>
-        </tbody>
-      </table>
-      <p class="meta">Cómo votar: <a href="https://www.infoelectoral.interior.gob.es/" rel="noopener">Infoelectoral (Ministerio del Interior)</a>, <a href="https://www.juntaelectoralcentral.es/" rel="noopener">Junta Electoral Central</a> y, para el voto por correo, <a href="https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo" rel="noopener">la página de Correos</a>. Los plazos los fija la normativa electoral: compruébalos allí.</p>
-      <p><a data-href-lang="./" href="./">← Volver a la herramienta</a></p>
-    </article>
-
-    <article class="card" data-lang="en" hidden>
-      <h1>How the 29 November 2026 election works</h1>
-      <p>Plain-language explanation. Legal basis: Organic Law 5/1985 on the General Electoral Regime (LOREG), the Spanish Constitution (arts. 68, 69 and 99) and <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742" rel="noopener">Royal Decree 806/2026 calling the election (BOE 6/10/2026)</a>.</p>
-      <h2>1. You elect Parliament, not the Prime Minister</h2>
-      <p>On 29 November voters elect the <strong>Cortes Generales</strong>: the Congreso de los Diputados (350 seats) and most of the Senate. The Prime Minister is not on the ballot; the Congreso elects them afterwards.</p>
-      <h2>2. The Congreso: closed lists by province</h2>
-      <ul>
-        <li>Each of the 50 provinces is a constituency; Ceuta and Melilla elect one deputy each.</li>
-        <li>Each province has a fixed number of seats based on population, with a minimum of two (e.g. Madrid elects 38 and Soria 2 in 2026).</li>
-        <li>You vote for a <strong>closed, blocked list</strong>: you cannot reorder it or pick individual names.</li>
-        <li>Only lists with at least <strong>3% of valid votes</strong> in the province take part in the allocation (blank votes count as valid).</li>
-        <li>Seats are allocated with the <strong>D'Hondt method</strong>: each list's votes are divided by 1, 2, 3… and seats go to the highest quotients. In provinces with few seats, this favours the largest lists.</li>
-      </ul>
-      <h2>3. The Senate: open lists</h2>
-      <p>On the Senate ballot (sepia-coloured) you can mark up to three candidates in most provinces, from any party. Other senators are appointed by the regional parliaments.</p>
-      <h2>4. After the vote: investiture</h2>
-      <ol>
-        <li>The new chambers convene on <strong>23 December 2026</strong>.</li>
-        <li>The King, after consulting the groups, proposes a candidate.</li>
-        <li>The Congreso votes: the candidate needs an <strong>absolute majority (176)</strong>, or in a second vote 48 hours later, <strong>more yes than no votes</strong>.</li>
-        <li>If nobody succeeds within two months of the first vote, new elections are held.</li>
-      </ol>
-      <p>That is why each party's seat count — and the possible agreements between parties — decide who governs.</p>
-      <h2>5. Timeline</h2>
+      <p><strong>Senado:</strong> en la papeleta sepia marcas hasta 3 candidatos (en la mayoría de provincias), de cualquier partido.</p>
+      <h2>Calendario</h2>
       <table><tbody>
-        <tr><th scope="row">13–27 November</th><td>Election campaign</td></tr>
-        <tr><th scope="row">28 November</th><td>Day of reflection</td></tr>
-        <tr><th scope="row">29 November</th><td>Election day</td></tr>
-        <tr><th scope="row">23 December</th><td>New Congreso and Senate convene</td></tr>
+        <tr><th scope="row">13–27 nov</th><td>Campaña electoral</td></tr>
+        <tr><th scope="row">28 nov</th><td>Jornada de reflexión</td></tr>
+        <tr><th scope="row">29 nov</th><td>Votación</td></tr>
+        <tr><th scope="row">23 dic</th><td>Se constituyen el Congreso y el Senado</td></tr>
       </tbody></table>
-      <p class="meta">How to vote: <a href="https://www.infoelectoral.interior.gob.es/" rel="noopener">Infoelectoral (Ministry of the Interior)</a>, the <a href="https://www.juntaelectoralcentral.es/" rel="noopener">Central Electoral Board</a> and, for postal voting, <a href="https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo" rel="noopener">the Correos page</a>. Deadlines are set by electoral law: check them there.</p>
-      <p><a data-href-lang="./" href="./">← Back to the tool</a></p>
+      <p class="small">Cómo votar: <a href="https://www.infoelectoral.interior.gob.es/" rel="noopener">Infoelectoral (Ministerio del Interior)</a> · <a href="https://www.juntaelectoralcentral.es/" rel="noopener">Junta Electoral Central</a> · voto por correo: <a href="https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo" rel="noopener">Correos</a>. Los plazos los fija la normativa electoral: compruébalos allí.</p>
+      <p class="tiny">Fuentes: Constitución (arts. 68, 69 y 99), Ley Orgánica del Régimen Electoral General y <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742" rel="noopener">Real Decreto 806/2026 (BOE 6/10/2026)</a>.</p>
+      <p><a class="btn btn-primary" data-href-lang="./" href="./">← Volver al test</a></p>
+    </article>
+    <article data-lang="en" hidden>
+      <p class="kicker">In one minute</p>
+      <h1>What is elected on 29 November</h1>
+      <ol class="steps">
+        <li><span class="num">1</span><h3>You elect Parliament, not the Prime Minister</h3><p>Voters choose the 350 members of the Congreso and most of the Senate.</p></li>
+        <li><span class="num">2</span><h3>Closed lists by province</h3><p>You vote for one party's list in your province. Each province elects a fixed number of deputies based on population (minimum 2; Ceuta and Melilla, 1).</p></li>
+        <li><span class="num">3</span><h3>Seats shared with D'Hondt</h3><p>Lists with at least 3% of the province's valid votes take part. The method favours the largest parties in each province.</p></li>
+        <li><span class="num">4</span><h3>The Congreso elects the Prime Minister</h3><p>A candidate needs 176 votes in the first round, or more yes than no votes in the second. That is why coalition deals are common.</p></li>
+      </ol>
+      <p><strong>Senate:</strong> on the sepia ballot you mark up to 3 candidates (in most provinces), from any party.</p>
+      <h2>Timeline</h2>
+      <table><tbody>
+        <tr><th scope="row">13–27 Nov</th><td>Campaign</td></tr>
+        <tr><th scope="row">28 Nov</th><td>Day of reflection</td></tr>
+        <tr><th scope="row">29 Nov</th><td>Election day</td></tr>
+        <tr><th scope="row">23 Dec</th><td>New Congreso and Senate convene</td></tr>
+      </tbody></table>
+      <p class="small">How to vote: <a href="https://www.infoelectoral.interior.gob.es/" rel="noopener">Infoelectoral (Ministry of the Interior)</a> · <a href="https://www.juntaelectoralcentral.es/" rel="noopener">Central Electoral Board</a> · postal voting: <a href="https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo" rel="noopener">Correos</a>. Deadlines are set by electoral law: check them there.</p>
+      <p class="tiny">Sources: Constitution (arts. 68, 69 and 99), Organic Law on the General Electoral Regime and <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742" rel="noopener">Royal Decree 806/2026 (BOE 6/10/2026)</a>.</p>
+      <p><a class="btn btn-primary" data-href-lang="./" href="./">← Back to the quiz</a></p>
     </article>
   </main>
 </body>

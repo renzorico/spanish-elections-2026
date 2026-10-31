@@ -10,7 +10,8 @@ function apply() {
   applyLang(document, lang);
   const btn = document.getElementById('lang');
   if (btn) {
-    btn.textContent = lang === 'es' ? 'English' : 'Español';
+    btn.textContent = lang === 'es' ? 'EN' : 'ES';
+    btn.setAttribute('aria-label', lang === 'es' ? 'English version' : 'Versión en español');
     btn.lang = lang === 'es' ? 'en' : 'es';
   }
   const title = document.querySelector(`[data-title-${lang}]`);

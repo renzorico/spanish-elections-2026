@@ -6,6 +6,10 @@
       "es": "Las administraciones deberían poder limitar el precio del alquiler en las zonas donde es especialmente alto.",
       "en": "Public authorities should be able to cap rents in areas where they are especially high."
     },
+    "simple": {
+      "es": "Si vives de alquiler, pagas cada mes al dueño de la casa. La pregunta es si el Gobierno o tu comunidad deberían poder fijar un precio máximo en los barrios donde alquilar es muy caro. «De acuerdo» = que se pueda poner ese tope.",
+      "en": "If you rent, you pay the owner every month. The question is whether the government or your region should be able to set a maximum rent in areas where renting is very expensive. \"Agree\" = allow that cap."
+    },
     "context": {
       "es": "La Ley 12/2023 por el derecho a la vivienda permite a las comunidades autónomas declarar «zonas tensionadas» y limitar allí las subidas de alquiler. Cada comunidad decide si la aplica.",
       "en": "Housing Law 12/2023 lets regional governments declare 'stressed areas' and cap rent increases there. Each region decides whether to apply it."
@@ -17,6 +21,10 @@
     "text": {
       "es": "Debería acelerarse por ley el desalojo de viviendas ocupadas sin permiso del propietario.",
       "en": "The law should speed up the eviction of people occupying a home without the owner's permission."
+    },
+    "simple": {
+      "es": "A veces alguien entra a vivir en una casa sin permiso de su dueño, y sacarle de ahí requiere un procedimiento judicial. «De acuerdo» = cambiar la ley para que ese desalojo sea más rápido.",
+      "en": "Sometimes someone moves into a home without the owner's permission, and getting them out requires a court procedure. \"Agree\" = change the law so that eviction happens faster."
     },
     "context": {
       "es": "La ocupación no autorizada de una vivienda puede ser delito (allanamiento de morada o usurpación); los conflictos por posesión o por un alquiler vencido se resuelven por vía civil. El tiempo que tarda un desalojo depende del procedimiento judicial.",
@@ -30,6 +38,10 @@
       "es": "Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros).",
       "en": "The Temporary Solidarity Tax on Large Fortunes (wealth above €3 million) should be abolished."
     },
+    "simple": {
+      "es": "Las personas con un patrimonio enorme (casas, ahorros, acciones… por encima de 3 millones de euros) pagan cada año un impuesto extra creado en 2022. «De acuerdo» = quitar ese impuesto.",
+      "en": "People with very large wealth (homes, savings, shares… above €3 million) pay an extra yearly tax created in 2022. \"Agree\" = abolish that tax."
+    },
     "context": {
       "es": "Además del Impuesto sobre el Patrimonio, que gestionan las comunidades y estas pueden bonificar, en 2022 se creó este impuesto estatal y complementario sobre los patrimonios de más de 3 millones de euros. En 2023 se prorrogó hasta que se revise la tributación del patrimonio en la reforma de la financiación autonómica.",
       "en": "Besides the Wealth Tax, which the regions manage and can reduce, this complementary State tax on wealth above €3 million was created in 2022. In 2023 it was extended until wealth taxation is reviewed in the reform of regional financing."
@@ -41,6 +53,10 @@
     "text": {
       "es": "Deberían bajarse los impuestos sobre la renta (IRPF).",
       "en": "Income tax (IRPF) should be lowered."
+    },
+    "simple": {
+      "es": "El IRPF es el impuesto que pagas por lo que ganas (sueldo, pensión…); se descuenta cada mes de la nómina. «De acuerdo» = que ese impuesto baje.",
+      "en": "IRPF is the tax you pay on what you earn (salary, pension…); it is deducted from your pay every month. \"Agree\" = lower that tax."
     },
     "context": {
       "es": "El IRPF es el impuesto que pagan las personas por sus ingresos; su recaudación se reparte entre el Estado y las comunidades autónomas.",
@@ -54,6 +70,10 @@
       "es": "Debería volver a aplicarse el gravamen especial sobre las grandes empresas energéticas que estuvo en vigor en 2023 y 2024.",
       "en": "The special levy on large energy companies that applied in 2023 and 2024 should be reintroduced."
     },
+    "simple": {
+      "es": "En 2023 y 2024 las grandes empresas de luz, gas y petróleo pagaron un impuesto especial calculado sobre lo que ingresaban. Dejó de aplicarse en 2025. «De acuerdo» = volver a cobrarlo.",
+      "en": "In 2023 and 2024 large electricity, gas and oil companies paid a special tax calculated on their revenue. It stopped applying in 2025. \"Agree\" = bring it back."
+    },
     "context": {
       "es": "Ese gravamen se calculaba sobre los ingresos (cifra de negocios) de las grandes energéticas, no sobre sus beneficios. En enero de 2025 el Congreso no convalidó su prórroga y dejó de aplicarse.",
       "en": "That levy was calculated on large energy companies' revenue (turnover), not on their profits. In January 2025 the Congreso rejected its extension and it lapsed."
@@ -65,6 +85,10 @@
     "text": {
       "es": "Debería eliminarse el impuesto especial a la banca.",
       "en": "The special tax on banks should be abolished."
+    },
+    "simple": {
+      "es": "Una ley de 2024 creó un impuesto especial para los bancos, calculado sobre lo que ganan con intereses y comisiones. «De acuerdo» = quitar ese impuesto.",
+      "en": "A 2024 law created a special tax for banks, calculated on what they earn from interest and fees. \"Agree\" = abolish that tax."
     },
     "context": {
       "es": "La Ley 7/2024 creó un impuesto sobre el margen de intereses y comisiones de las entidades financieras, que sustituyó al gravamen temporal de 2023-2024.",
@@ -78,6 +102,10 @@
       "es": "La jornada laboral máxima debería reducirse por ley a 37,5 horas semanales sin bajar el salario.",
       "en": "The legal maximum working week should be cut to 37.5 hours without a pay cut."
     },
+    "simple": {
+      "es": "Hoy se puede trabajar como máximo 40 horas a la semana. La propuesta es bajar ese máximo a 37 horas y media cobrando lo mismo. «De acuerdo» = hacer ese cambio por ley.",
+      "en": "Today the maximum working week is 40 hours. The proposal is to lower that maximum to 37.5 hours with the same pay. \"Agree\" = make that change by law."
+    },
     "context": {
       "es": "La jornada máxima legal es de 40 horas semanales. En septiembre de 2025 el Congreso aprobó devolver al Gobierno un proyecto de ley para reducirla a 37,5 horas, que no siguió adelante.",
       "en": "The legal maximum is 40 hours a week. In September 2025 the Congreso voted to send back a bill cutting it to 37.5 hours, which did not go ahead."
@@ -89,6 +117,10 @@
     "text": {
       "es": "El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio.",
       "en": "The minimum wage should keep rising and stay at no less than 60% of the average wage."
+    },
+    "simple": {
+      "es": "El salario mínimo es lo menos que se puede pagar por un trabajo a jornada completa (en 2026, 1.221 € al mes en 14 pagas). «De acuerdo» = que siga subiendo y nunca baje del 60 % de lo que se cobra de media.",
+      "en": "The minimum wage is the least that can be paid for a full-time job (in 2026, €1,221 a month over 14 payments). \"Agree\" = keep raising it and never let it fall below 60% of the average wage."
     },
     "context": {
       "es": "El Gobierno fija el salario mínimo cada año tras consultar a sindicatos y patronal; en 2026 es de 1.221 euros al mes en 14 pagas. Desde 2023 el Gobierno considera que equivale al 60 % del salario medio neto, la referencia de la Carta Social Europea.",
@@ -102,6 +134,10 @@
       "es": "Debería limitarse por ley que la sanidad pública encargue la gestión de hospitales o servicios a empresas privadas.",
       "en": "The law should restrict public health services from contracting private companies to run hospitals or services."
     },
+    "simple": {
+      "es": "Algunas comunidades encargan a empresas privadas que gestionen hospitales o servicios de la sanidad pública. «De acuerdo» = poner límites por ley a esos encargos.",
+      "en": "Some regions contract private companies to run public hospitals or health services. \"Agree\" = limit those contracts by law."
+    },
     "context": {
       "es": "Las comunidades autónomas gestionan la sanidad y algunas encargan centros o servicios a empresas privadas. El Gobierno presentó en 2025 una propuesta de ley sobre gestión pública del Sistema Nacional de Salud.",
       "en": "Regions run health care and some contract hospitals or services out to private companies. In 2025 the Government put forward a bill on public management of the National Health System."
@@ -113,6 +149,10 @@
     "text": {
       "es": "La sanidad pública debería cubrir más tratamientos dentales de los que cubre hoy.",
       "en": "Public health care should cover more dental treatments than it does today."
+    },
+    "simple": {
+      "es": "Hoy la sanidad pública solo cubre una parte de la atención del dentista, y varía según la comunidad. «De acuerdo» = que cubra más tratamientos dentales.",
+      "en": "Today public health care only covers part of dental care, and it varies by region. \"Agree\" = cover more dental treatments."
     },
     "context": {
       "es": "Hoy la sanidad pública cubre solo una parte de la atención bucodental, con diferencias entre comunidades.",
@@ -126,6 +166,10 @@
       "es": "El derecho al aborto debería incluirse en la Constitución.",
       "en": "The right to abortion should be written into the Constitution."
     },
+    "simple": {
+      "es": "El aborto está permitido y regulado por una ley, que el Parlamento puede cambiar por mayoría. Si estuviera en la Constitución, cambiarlo exigiría mayorías mucho más amplias. «De acuerdo» = incluir este derecho en la Constitución.",
+      "en": "Abortion is allowed and regulated by a law that Parliament can change by majority. If it were in the Constitution, changing it would require much larger majorities. \"Agree\" = put this right in the Constitution."
+    },
     "context": {
       "es": "El aborto está regulado por la Ley Orgánica 2/2010. En 2026 el Gobierno presentó un proyecto para incluirlo en el artículo 43 de la Constitución, que decayó con la disolución de las Cortes. Reformar la Constitución requiere normalmente tres quintos de ambas cámaras.",
       "en": "Abortion is regulated by Organic Law 2/2010. In 2026 the Government tabled a bill to add it to article 43 of the Constitution, which lapsed when Parliament was dissolved. Amending the Constitution normally requires three-fifths of both chambers."
@@ -137,6 +181,10 @@
     "text": {
       "es": "Debería derogarse la ley que regula la eutanasia.",
       "en": "The law regulating euthanasia should be repealed."
+    },
+    "simple": {
+      "es": "Desde 2021 una ley permite que una persona con una enfermedad grave e incurable pida ayuda médica para morir, tras varios controles. «De acuerdo» = eliminar esa ley.",
+      "en": "Since 2021 a law allows a person with a serious, incurable illness to ask for medical help to die, after several checks. \"Agree\" = repeal that law."
     },
     "context": {
       "es": "La Ley Orgánica 3/2021 permite pedir ayuda médica para morir en casos de enfermedad grave e incurable, con varios controles.",
@@ -150,6 +198,10 @@
       "es": "Para cambiar el sexo en el registro civil debería exigirse un informe médico o psicológico.",
       "en": "A medical or psychological report should be required to change one's legal sex at the civil registry."
     },
+    "simple": {
+      "es": "Desde 2023, a partir de los 16 años se puede cambiar el sexo que figura en los documentos oficiales solo con la propia declaración. «De acuerdo» = exigir un informe médico o psicológico para hacerlo.",
+      "en": "Since 2023, people aged 16 or over can change the sex on their official documents by their own declaration alone. \"Agree\" = require a medical or psychological report to do so."
+    },
     "context": {
       "es": "La Ley 4/2023 (conocida como «ley trans») permite cambiarlo desde los 16 años con la propia declaración, sin informes médicos.",
       "en": "Law 4/2023 (known as the 'trans law') lets people aged 16 or over change it by their own declaration, without medical reports."
@@ -161,6 +213,10 @@
     "text": {
       "es": "Deberían hacerse regularizaciones extraordinarias de las personas extranjeras que ya viven en España sin permiso de residencia.",
       "en": "There should be one-off regularisations of foreign nationals already living in Spain without a residence permit."
+    },
+    "simple": {
+      "es": "Hay personas extranjeras que viven en España sin permiso de residencia. Una regularización extraordinaria se lo concede de una vez a quienes cumplen ciertos requisitos; en 2026 se aprobó una. «De acuerdo» = que se hagan este tipo de regularizaciones.",
+      "en": "Some foreign nationals live in Spain without a residence permit. A one-off regularisation grants one, at once, to those who meet certain conditions; one was approved in 2026. \"Agree\" = carry out this kind of regularisation."
     },
     "context": {
       "es": "En 2024 el Congreso admitió a trámite una iniciativa legislativa popular para una regularización extraordinaria. En abril de 2026 el Gobierno aprobó una por real decreto (RD 316/2026), sin votación en el Congreso.",
@@ -174,6 +230,10 @@
       "es": "Todas las comunidades autónomas deberían estar obligadas a acoger a menores migrantes no acompañados según un reparto fijado por el Estado.",
       "en": "All regions should be required to take in unaccompanied migrant minors according to a distribution set by the State."
     },
+    "simple": {
+      "es": "Llegan niños y adolescentes migrantes solos, sin su familia, y algunas comunidades (como Canarias o Ceuta) reciben muchos más que otras. «De acuerdo» = que el Estado los reparta y todas las comunidades estén obligadas a acogerlos.",
+      "en": "Migrant children and teenagers arrive alone, without their families, and some regions (such as the Canary Islands or Ceuta) receive many more than others. \"Agree\" = the State distributes them and every region must take them in."
+    },
     "context": {
       "es": "En 2025 se aprobó por real decreto-ley un mecanismo de reparto obligatorio cuando una comunidad supera su capacidad de acogida.",
       "en": "In 2025 a royal decree-law created a mandatory distribution mechanism for when a region exceeds its reception capacity."
@@ -185,6 +245,10 @@
     "text": {
       "es": "España debería acelerar la devolución a sus países de las personas que han entrado de forma irregular y no tienen derecho a asilo.",
       "en": "Spain should speed up the return to their home countries of people who entered irregularly and are not entitled to asylum."
+    },
+    "simple": {
+      "es": "Quien entra en España de forma irregular y no tiene derecho a asilo puede ser devuelto a su país tras un procedimiento. «De acuerdo» = hacer que esas devoluciones sean más rápidas.",
+      "en": "Someone who enters Spain irregularly and has no right to asylum can be returned to their country after a procedure. \"Agree\" = make those returns faster."
     },
     "context": {
       "es": "Las devoluciones requieren un procedimiento administrativo o judicial y, en muchos casos, acuerdos con los países de origen. Quien pide asilo tiene derecho a que se estudie su solicitud.",
@@ -198,6 +262,10 @@
       "es": "Las centrales nucleares deberían seguir funcionando más allá del calendario de cierre previsto.",
       "en": "Nuclear power plants should keep operating beyond the planned closure timetable."
     },
+    "simple": {
+      "es": "España tiene siete reactores nucleares que producen una parte de su electricidad. Está previsto cerrarlos entre 2027 y 2035. «De acuerdo» = que sigan funcionando más años.",
+      "en": "Spain has seven nuclear reactors that produce part of its electricity. They are scheduled to close between 2027 and 2035. \"Agree\" = keep them running for longer."
+    },
     "context": {
       "es": "El calendario acordado en 2019 entre el Gobierno y las eléctricas prevé cerrar las centrales entre 2027 y 2035.",
       "en": "The timetable agreed in 2019 between the Government and the power companies foresees closing the plants between 2027 and 2035."
@@ -209,6 +277,10 @@
     "text": {
       "es": "Debería permitirse vender coches nuevos de gasolina o diésel también después de 2035.",
       "en": "Sales of new petrol or diesel cars should still be allowed after 2035."
+    },
+    "simple": {
+      "es": "La Unión Europea decidió que a partir de 2035 no se puedan vender coches nuevos de gasolina o diésel (los de segunda mano, sí). «De acuerdo» = que se puedan seguir vendiendo después de 2035.",
+      "en": "The European Union decided that from 2035 new petrol or diesel cars can no longer be sold (second-hand ones still can). \"Agree\" = allow selling them after 2035 too."
     },
     "context": {
       "es": "Una norma de la UE de 2023 prohíbe vender coches nuevos de gasolina o diésel desde 2035. En 2025 la Comisión Europea propuso flexibilizarla.",
@@ -222,6 +294,10 @@
       "es": "Debería mantenerse la ley de amnistía para las personas implicadas en el proceso independentista de Cataluña.",
       "en": "The amnesty law for people involved in the Catalan independence process should be kept."
     },
+    "simple": {
+      "es": "Una amnistía hace que ciertos delitos dejen de perseguirse o castigarse. En 2024 se aprobó una para hechos relacionados con el proceso independentista de Cataluña (2011-2023). «De acuerdo» = mantener esa ley.",
+      "en": "An amnesty means certain offences are no longer prosecuted or punished. In 2024 one was passed for acts linked to the Catalan independence process (2011-2023). \"Agree\" = keep that law."
+    },
     "context": {
       "es": "La Ley Orgánica 1/2024 de amnistía cubre hechos vinculados al proceso independentista entre 2011 y 2023.",
       "en": "Organic Law 1/2024 on amnesty covers acts linked to the independence process between 2011 and 2023."
@@ -233,6 +309,10 @@
     "text": {
       "es": "Una comunidad autónoma debería poder votar en referéndum si quiere independizarse, si lo acuerda con el Estado.",
       "en": "A region should be able to hold a referendum on independence if it is agreed with the State."
+    },
+    "simple": {
+      "es": "Hoy una comunidad autónoma no puede celebrar legalmente una votación sobre si separarse de España. «De acuerdo» = que pueda hacerlo si lo acuerda con el Gobierno de España.",
+      "en": "Today a region cannot legally hold a vote on leaving Spain. \"Agree\" = allow it if agreed with the Spanish government."
     },
     "context": {
       "es": "Actualmente no existe un procedimiento legal para que una comunidad autónoma celebre un referéndum de independencia.",
@@ -246,6 +326,10 @@
       "es": "Las comunidades autónomas que lo pidan deberían poder recaudar y gestionar todos sus impuestos, como hacen el País Vasco y Navarra.",
       "en": "Regions that ask for it should be able to collect and manage all of their taxes, as the Basque Country and Navarre do."
     },
+    "simple": {
+      "es": "El País Vasco y Navarra cobran casi todos sus impuestos y pagan al Estado una cantidad por los servicios comunes. Las demás comunidades reciben su dinero a través de un sistema común. «De acuerdo» = que cualquier comunidad que lo pida pueda hacer como el País Vasco y Navarra.",
+      "en": "The Basque Country and Navarre collect almost all their own taxes and pay the State an amount for shared services. The other regions get their money through a common system. \"Agree\" = any region that asks can do as the Basque Country and Navarre do."
+    },
     "context": {
       "es": "El País Vasco y Navarra recaudan casi todos sus impuestos (concierto y convenio económico). El resto de comunidades se financian con el sistema común.",
       "en": "The Basque Country and Navarre collect almost all their own taxes (economic agreement). The other regions are funded through the common system."
@@ -257,6 +341,10 @@
     "text": {
       "es": "La educación y la sanidad deberían volver a ser gestionadas por el Estado central en lugar de por las comunidades autónomas.",
       "en": "Education and health care should go back to being managed by the central State instead of the regions."
+    },
+    "simple": {
+      "es": "Hoy cada comunidad autónoma gestiona sus colegios y su sanidad. «De acuerdo» = que pase a hacerlo el Gobierno central.",
+      "en": "Today each region runs its own schools and health care. \"Agree\" = the central government takes this over."
     },
     "context": {
       "es": "Entre los años 80 y 2002 el Estado traspasó a las comunidades autónomas la gestión de la educación y la sanidad.",
@@ -270,6 +358,10 @@
       "es": "En los debates del Congreso solo debería poder usarse el castellano.",
       "en": "Only Spanish should be allowed in Congreso debates."
     },
+    "simple": {
+      "es": "Desde 2023, en los debates del Congreso se puede hablar en catalán, euskera o gallego, con traducción simultánea. «De acuerdo» = que solo se pueda hablar en castellano.",
+      "en": "Since 2023, Catalan, Basque or Galician can be spoken in Congreso debates, with simultaneous interpretation. \"Agree\" = only Spanish may be spoken."
+    },
     "context": {
       "es": "Desde 2023 el Reglamento del Congreso permite usar también el catalán, el euskera y el gallego, con interpretación simultánea.",
       "en": "Since 2023 the Congreso's rules also allow Catalan, Basque and Galician, with simultaneous interpretation."
@@ -281,6 +373,10 @@
     "text": {
       "es": "Debería reducirse la financiación pública de los colegios concertados para destinarla a la escuela pública.",
       "en": "Public funding for state-subsidised private schools ('concertados') should be reduced and moved to public schools."
+    },
+    "simple": {
+      "es": "Los colegios concertados son privados, pero el Estado paga gran parte de su funcionamiento. «De acuerdo» = darles menos dinero público y dedicarlo a los colegios públicos.",
+      "en": "'Concertado' schools are privately owned, but the State pays for much of their running costs. \"Agree\" = give them less public money and spend it on public schools."
     },
     "context": {
       "es": "Los colegios concertados son de titularidad privada pero se financian en gran parte con dinero público.",
@@ -294,6 +390,10 @@
       "es": "Las familias deberían poder elegir que sus hijos estudien principalmente en castellano en cualquier comunidad autónoma.",
       "en": "Families should be able to choose for their children to be taught mainly in Spanish in every region."
     },
+    "simple": {
+      "es": "En las comunidades con otra lengua oficial (como Cataluña, Galicia o el País Vasco), cada una decide cuántas clases se dan en cada lengua. «De acuerdo» = que las familias puedan elegir que sus hijos estudien sobre todo en castellano.",
+      "en": "In regions with another official language (such as Catalonia, Galicia or the Basque Country), each region decides how many classes are taught in each language. \"Agree\" = families can choose for their children to study mainly in Spanish."
+    },
     "context": {
       "es": "En las comunidades con lengua cooficial, cada una aplica su propio modelo lingüístico en la escuela.",
       "en": "Regions with a co-official language each apply their own language model in schools."
@@ -305,6 +405,10 @@
     "text": {
       "es": "Los jueces deberían elegir directamente a la mayoría de los miembros del Consejo General del Poder Judicial, en lugar del Congreso y el Senado.",
       "en": "Judges themselves should directly elect most members of the General Council of the Judiciary, instead of the Congreso and Senate."
+    },
+    "simple": {
+      "es": "El Consejo General del Poder Judicial es el órgano que gobierna a los jueces (nombramientos, ascensos…). Hoy sus miembros los eligen el Congreso y el Senado. «De acuerdo» = que la mayoría los elijan los propios jueces.",
+      "en": "The General Council of the Judiciary is the body that governs judges (appointments, promotions…). Today its members are chosen by the Congreso and the Senate. \"Agree\" = judges themselves elect most of them."
     },
     "context": {
       "es": "El Consejo General del Poder Judicial gobierna a los jueces. Sus vocales los eligen el Congreso y el Senado por mayoría de tres quintos.",
@@ -318,6 +422,10 @@
       "es": "Debería celebrarse un referéndum para que la ciudadanía elija entre monarquía y república.",
       "en": "There should be a referendum for citizens to choose between monarchy and republic."
     },
+    "simple": {
+      "es": "España es una monarquía parlamentaria: el jefe del Estado es el Rey. «De acuerdo» = hacer una votación para que la gente decida si sigue siendo monarquía o pasa a ser república, con un presidente elegido.",
+      "en": "Spain is a parliamentary monarchy: the head of state is the King. \"Agree\" = hold a vote so people decide whether it stays a monarchy or becomes a republic, with an elected president."
+    },
     "context": {
       "es": "La Constitución de 1978 establece la monarquía parlamentaria. Cambiarlo exige el procedimiento reforzado de reforma constitucional.",
       "en": "The 1978 Constitution establishes a parliamentary monarchy. Changing this requires the special constitutional amendment procedure."
@@ -329,6 +437,10 @@
     "text": {
       "es": "Debería derogarse la Ley de Memoria Democrática de 2022.",
       "en": "The 2022 Democratic Memory Law should be repealed."
+    },
+    "simple": {
+      "es": "La Ley de Memoria Democrática (2022) se ocupa, entre otras cosas, de buscar a víctimas de la Guerra Civil y la dictadura y de retirar símbolos franquistas. «De acuerdo» = eliminar esa ley.",
+      "en": "The Democratic Memory Law (2022) deals with, among other things, searching for victims of the Civil War and the dictatorship and removing Francoist symbols. \"Agree\" = repeal that law."
     },
     "context": {
       "es": "La Ley 20/2022 regula, entre otras cosas, la búsqueda de víctimas de la Guerra Civil y la dictadura y la retirada de símbolos franquistas.",
@@ -342,6 +454,10 @@
       "es": "España debería aumentar su gasto en defensa hasta el 3,5 % del PIB, el objetivo acordado en la OTAN en 2025.",
       "en": "Spain should raise defence spending to 3.5% of GDP, the target agreed in NATO in 2025."
     },
+    "simple": {
+      "es": "Los países de la OTAN acordaron gastar en defensa (ejército, equipamiento, ciberseguridad…) el 3,5 % de lo que produce su economía. España gasta alrededor del 2 %. «De acuerdo» = subir hasta el 3,5 %.",
+      "en": "NATO countries agreed to spend 3.5% of their economic output on defence (armed forces, equipment, cybersecurity…). Spain spends around 2%. \"Agree\" = raise it to 3.5%."
+    },
     "context": {
       "es": "En la cumbre de La Haya (2025) los aliados acordaron llegar en 2035 al 3,5 % del PIB en defensa (5 % sumando gastos relacionados). El Gobierno español sostiene que obtuvo una excepción y que le basta con alrededor del 2,1 %.",
       "en": "At the 2025 Hague summit allies agreed to reach 3.5% of GDP on defence by 2035 (5% including related spending). The Spanish Government says it obtained an exception and that around 2.1% is enough."
@@ -353,6 +469,10 @@
     "text": {
       "es": "España debería mantener la prohibición de comprar y vender armas a Israel.",
       "en": "Spain should keep its ban on buying and selling arms to Israel."
+    },
+    "simple": {
+      "es": "Desde 2025 España prohíbe comprar armas a Israel y vendérselas. «De acuerdo» = mantener esa prohibición.",
+      "en": "Since 2025 Spain has banned buying arms from and selling arms to Israel. \"Agree\" = keep that ban."
     },
     "context": {
       "es": "En 2025 el Gobierno aprobó un real decreto-ley de embargo de armas a Israel, que se votó en el Congreso.",
