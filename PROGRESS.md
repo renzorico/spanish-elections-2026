@@ -47,3 +47,12 @@ Open: party logos (licence check in progress; monograms until then).
 - Metodología: inclusion criteria + party chips, statement rules + 15/15 polarity bar, stance chips, confidence ladder, "nothing is inferred" callout, 3-step calculation + full agreement grid, results/downloads, privacy, limitations, per-party coverage bars, corrections.
 - Shared widgets in site/js/reference.js (enhanceReference), used by the standalone pages and inside the app; in-page links scroll without touching the URL so the app's history is not affected.
 - Fixed in passing: reference pages' CSP now allows the site's inline select icon; party-detail header no longer overflows at 320 px.
+
+## Mobile friction pass (31 Oct 2026)
+Touch audit on emulated iPhone SE (320×568), iPhone 13 and Pixel 7 / Galaxy S9+:
+- Short phones: statement, scale, explanation buttons and Next now fit on one screen for all 30 statements (previously the sticky bar covered the scale labels on the SE).
+- Weights: "See results" bar pinned at the bottom on phones. Results: the candidacy note moved below the cards so the first result shows without scrolling.
+- iOS: results province select at 16px (no zoom on focus); `touch-action: manipulation` (no double-tap zoom when answering quickly); no grey tap flash; hover effects only on hover-capable devices.
+- Larger touch areas: header links/lang button, "show statements" toggles, example scale, sources/"spot an error" links, footer links.
+- Export code (PDF writer, fonts) now loads only when a download is requested.
+- Browser suite: new iPhone SE checks (fit for all 30 statements, reachable CTA, first result visible, no form field under 16px).
