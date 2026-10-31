@@ -24,7 +24,16 @@ Other scripts: `npm run votes` (re-derive vote tallies from `data/votes/curated.
 `node scripts/reconcile_votes.mjs --dry` (compare coded stances with votes),
 `npm run check-sources` (check every source URL resolves).
 
-Deploy: publish the `site/` folder on any static host (e.g. GitHub Pages).
+## Deployment (GitHub Pages)
+
+`.github/workflows/pages.yml` runs the tests, validates the data, rebuilds
+`site/data/bundle.json` and deploys `site/` on every push to `main` (or manually
+via *Actions → Deploy site to GitHub Pages → Run workflow*). A failing check
+blocks deployment. One-time setup: *Settings → Pages → Build and deployment →
+Source: GitHub Actions*. The site is then served at
+`https://<owner>.github.io/spanish-elections-2026/`.
+
+`.github/workflows/ci.yml` runs the same checks on other branches and pull requests.
 
 ## Docs
 

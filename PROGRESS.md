@@ -15,7 +15,7 @@ _Last updated: 2026-10-31_
 1. **3 Nov 2026**: re-parse proclaimed candidacies (BOE 3 Nov), set `candidacies.json` status to `proclaimed`; check Asturias "PODEMOS (PAZ, CASA Y TRABAJO)" (AUDIT L10)
 2. As parties publish 2026 programs: set `program_2026.status = published` and recode against them (start with statements coded from 2023 programs)
 3. Confirm the official psoe.es 2023 program URL in a browser (DATA_GAPS)
-4. Deploy `site/` (GitHub Pages: Settings → Pages → deploy from branch, folder `/site`, or a Pages workflow)
+4. Deploy: Pages workflow added (`.github/workflows/pages.yml`). Remaining: enable *Settings → Pages → Source: GitHub Actions* and merge to `main`
 5. Optional: Catalan / Galician / Basque UI strings (add to `site/js/i18n.js`; statements need translations in `data/statements.json`)
 
 ## How to run
