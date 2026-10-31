@@ -224,6 +224,33 @@ const ok = (c, m) => {
   }
   await p.click('[data-act=results]');
   ok((await p.locator('.panel', { hasText: /ninguna afirmación/ }).count()) === 1, 'all skipped: explanatory empty state, no invented scores');
+  // Small phone (iPhone SE, 320×568, touch): no scrolling needed to answer and move on
+  const { devices } = require('playwright');
+  const se = await b.newContext({ ...devices['iPhone SE'] });
+  const m = await se.newPage();
+  await m.goto(BASE);
+  await m.tap('[data-act=start]');
+  await m.tap('[data-act=province-next]');
+  await m.waitForSelector('#q-text');
+  let fits = true;
+  for (let i = 0; i < 30; i++) {
+    const f = await m.evaluate(() => {
+      const g = (s) => document.querySelector(s).getBoundingClientRect();
+      return g('.q-tools').bottom <= g('.q-nav').top + 1 && g('.q-nav').bottom <= innerHeight + 1 && document.documentElement.scrollWidth <= innerWidth;
+    });
+    if (!f) fits = false;
+    await m.tap('.stop[data-v="1"]');
+    await m.waitForTimeout(330);
+  }
+  ok(fits, 'iPhone SE: statement, scale, explanations and Next fit on screen for all 30 statements');
+  ok(await m.locator('.w-actions [data-act=results]').evaluate((e) => e.getBoundingClientRect().bottom <= innerHeight), 'iPhone SE: "See results" is reachable without scrolling the weights list');
+  await m.tap('[data-act=results]');
+  await m.waitForSelector('.pcard');
+  ok(await m.locator('.pcard').first().evaluate((e) => e.getBoundingClientRect().bottom <= innerHeight), 'iPhone SE: the first result is visible without scrolling');
+  const zoomy = await m.evaluate(() => [...document.querySelectorAll('select, input:not([type=radio]):not([type=checkbox])')].filter((e) => parseFloat(getComputedStyle(e).fontSize) < 16).length);
+  ok(zoomy === 0, 'iPhone SE: form fields are at least 16px (no iOS zoom on focus)');
+  await se.close();
+
   ok(errs.length === 0, 'no console errors ' + JSON.stringify(errs));
   await b.close();
   server.close();

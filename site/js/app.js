@@ -5,7 +5,8 @@ import { STRINGS } from './i18n.js';
 import { computeMatch, sortByAgreement, shuffle, cryptoRandom, DEFAULT_WEIGHT } from './match.js';
 import { REPO_URL, applyLang, fetchReference, enhanceReference } from './reference.js';
 import { TOPIC_STYLE, TOPIC_SHORT, topicIcon, topicVars } from './topics.js';
-import { SITE_URL, reportPdf, sharePdf, sharePng, parseQr } from './report.js';
+const SITE_URL = 'https://renzorico.github.io/spanish-elections-2026/';
+const loadReport = () => import('./report.js');
 import { encodeRestore, decodeRestore } from './restore.js';
 
 const app = document.getElementById('app');
@@ -400,7 +401,7 @@ function viewWeights() {
       <p class="muted">${esc(t('weightsHelp'))}</p>
       <ul class="wrows">${rows}</ul>
       <p class="wstatus" id="wstatus" aria-live="polite">${esc(t('weightsSummary')(more, less))}</p>
-      <div class="row between" style="margin-top:1.5rem">
+      <div class="row between w-actions">
         ${state.editing ? `<button class="btn btn-quiet" data-act="back-to-results">${ICON.arrowL} ${esc(t('backToResults'))}</button>` : `<button class="btn btn-quiet" data-act="w-back">${ICON.arrowL} ${esc(t('back'))}</button>`}
         <button class="btn btn-primary btn-big" data-act="results">${esc(t('seeResults'))} ${ICON.arrowR}</button>
       </div>
@@ -473,9 +474,9 @@ function viewResults() {
           </select></label>
         <label class="check"><input type="checkbox" data-control="excludeLow" ${state.excludeLow ? 'checked' : ''}> ${esc(t('lowToggle'))}</label>
       </div>
-      ${note}
     </section>
     <ul class="pgrid">${cards}</ul>
+    ${note}
     ${inProv && hiddenCount ? `<p><label class="check"><input type="checkbox" data-control="showAll" ${state.showAll ? 'checked' : ''}> ${state.lang === 'es' ? `Ver también los ${hiddenCount} partidos que no se presentan en ${esc(provinceName(state.province))}` : `Also show the ${hiddenCount} parties not running in ${esc(provinceName(state.province))}`}</label></p>` : ''}
     ${viewHeatmap(results)}
     <section class="exports" aria-labelledby="exp-h">
@@ -857,6 +858,7 @@ app.addEventListener('click', async (e) => {
     btn.disabled = true;
     if (status) status.textContent = t('sharing');
     try {
+      const { reportPdf, sharePdf, sharePng } = await loadReport();
       const d = await exportData();
       if (act === 'pdf-report') download(new Blob([await reportPdf(d)], { type: 'application/pdf' }), fileName('informe', 'report', 'pdf'));
       else if (act === 'pdf-share') download(new Blob([await sharePdf(d)], { type: 'application/pdf' }), fileName('resumen', 'summary', 'pdf'));
@@ -936,6 +938,7 @@ async function exportData() {
   const visible = d.parties.filter((p) => !inProv || inProv.has(p.id));
   if (!qrCache) {
     try {
+      const { parseQr } = await loadReport();
       qrCache = parseQr(await (await fetch('img/qr.svg')).text());
     } catch {
       qrCache = null;
