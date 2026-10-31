@@ -1,0 +1,652 @@
+{
+  "party": "vox",
+  "coded_by": "subagent:group-b",
+  "coded_on": "2026-10-31",
+  "positions": [
+    {
+      "statement": "viv-limite-alquiler",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Acabaremos con la expropiación temporal de inmuebles y con el control de rentas en el contrato de arrendamiento puestos en marcha en los últimos años por distintas regiones.",
+          "page": "p. 42",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Derogaremos la Ley por el derecho a la vivienda aprobada por el gobierno de Sánchez, la cual no contribuirá a conseguir vivienda más asequible, hundirá el mercado del alquiler",
+          "page": "p. 43",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "viv-compra-no-residentes",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://forbes.es/economia/821981/vox-propone-costear-las-ayudas-a-espanoles-para-vivienda-con-mas-impuestos-a-los-compradores-extranjeros/",
+          "title": "Vox propone costear las ayudas a españoles para vivienda con más impuestos a los compradores extranjeros",
+          "publisher": "Forbes España",
+          "date": "2025-11-03",
+          "quote": "Vox ha registrado una iniciativa en el Congreso con la que plantea gravar con más impuestos a los compradores extranjeros de vivienda",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://brainsre.news/vox-elevar-impuestos-compradores-extranjeros-casas/",
+          "title": "Vox propone aumentar los impuestos a compradores extranjeros de vivienda para facilitar el acceso a los españoles",
+          "publisher": "Brains RE News",
+          "date": "2025-11-04",
+          "quote": "Vox ha presentado en el Congreso una proposición no de ley con la que pretende gravar con más impuestos la compra de viviendas por parte de extranjeros",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Based on press reports (two outlets) of a Vox proposición no de ley registered in the Congreso in Nov 2025. Vox targets foreign buyers in general (not specifically non-EU non-residents) and the reports give no tax rate; the 2023 program does not address this. Primary BOCG text not consulted."
+    },
+    {
+      "statement": "viv-desalojo-rapido",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Tolerancia cero con la ocupación ilegal. Reformaremos tanto del Código Penal como de las Leyes de Enjuiciamiento Criminal y Civil para proteger real y efectivamente a los propietarios",
+          "page": "p. 40",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Proposición no de Ley relativa a combatir el fenómeno de la ocupación y de la “inquiocupación” a través de medidas como la reducción de los plazos en el procedimiento de desahucio",
+          "page": "p. 44",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program backs faster eviction of squatters without exceptions, but does not explicitly mention occupants in vulnerable situations."
+    },
+    {
+      "statement": "eco-impuesto-grandes-fortunas",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Suprimiremos el Impuesto sobre el Patrimonio, el Impuesto sobre Sucesiones y Donaciones y Plusvalías municipales en todo el territorio nacional",
+          "page": "p. 77",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "eco-bajar-irpf",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "progresiva y continuada del IRPF a un tipo único reducido del 15% a aplicar sobre bases imponibles inferiores a 70.000 euros y un tipo ordinario del 25%",
+          "page": "p. 75",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "eco-impuesto-energeticas-banca",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Votación Congreso XV, sesión 89, votación 2 (22/01/2025): convalidación del RDL 10/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "All 33 Vox deputies voted against validating the 2025 temporary levy on energy companies (decree defeated 165-183). This vote covers only the energy-company part of the statement; no direct vote on the banking levy was checked. The 2023 program proposes broad tax cuts."
+    },
+    {
+      "statement": "tra-jornada-37h",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion130/20250910/Votacion010/VOT_20250910213544.json",
+          "title": "Votación Congreso XV, sesión 130, votación 10 (10/09/2025): enmiendas de totalidad de devolución",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-09-10",
+          "quote": "Votación conjunta de las enmiendas a la totalidad de devolución al Proyecto de Ley para la reducción de la duración máxima de la jornada ordinaria de trabajo",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Vox filed one of the amendments to return the 37.5-hour bill and its 33 deputies voted yes (a yes vote here means rejecting the bill). The amendments passed 178-170."
+    },
+    {
+      "statement": "tra-salario-minimo",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Mientras el gobierno decía subir el SMI para ayudar a los españoles, subía aún más los impuestos y se disparaban los precios",
+          "page": "p. 22",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The 2023 program says it will push for higher wages, \"especialmente los más bajos\", by cutting burdens on companies, and criticises how the Government raised the SMI. It sets no target linked to 60% of the average wage. No XV-legislature vote was found (the SMI is set by decree)."
+    },
+    {
+      "statement": "san-gestion-privada",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Reduciremos el volumen y tiempo de las listas de espera en todos los ámbitos, incentivando a los centros públicos para su reducción, y reforzando los conciertos con la sanidad privada.",
+          "page": "p. 57",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program proposes expanding contracts with private healthcare, the opposite of limiting them; it does not discuss a legal limit as such."
+    },
+    {
+      "statement": "san-dental-publica",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Incluiremos en la cartera de servicios las prestaciones relacionadas con la salud bucodental y oftalmológica.",
+          "page": "p. 58",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program commits to adding dental care to the public benefits catalogue but does not say exactly which treatments or groups are covered."
+    },
+    {
+      "statement": "der-aborto-constitucion",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Eliminaremos el falso “derecho al aborto”",
+          "page": "p. 170",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "comenzaremos por la derogación de la Ley de la Eutanasia y la Ley del aborto libre.",
+          "page": "p. 170",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "der-eutanasia",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Derogaremos la Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia",
+          "page": "p. 172",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "der-ley-trans",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Derogación de las leyes ideológicas que no protegen a las personas, sino que colectivizan al individuo y los someten a las exigencias de grupos de interés, ya sea LGTBIQ+ o Ley trans.",
+          "page": "p. 11",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "inm-regularizacion",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion001/VOT_20240409210631.json",
+          "title": "Votación Congreso XV, sesión 34, votación 1 (09/04/2024): toma en consideración ILP regularización",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición de Ley para una regularización extraordinaria para personas extranjeras en España",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Trasladaremos el mensaje claro de que cualquier inmigrante que llegue ilegalmente nunca podrá regularizar su situación en España.",
+          "page": "p. 101",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The 33 Vox deputies cast all 33 votes against taking the regularisation ILP into consideration (310 yes)."
+    },
+    {
+      "statement": "inm-reparto-menores",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion106/20250410/Votacion015/VOT_20250410155154.json",
+          "title": "Votación Congreso XV, sesión 106, votación 15 (10/04/2025): convalidación del RDL 2/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-04-10",
+          "quote": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y adolescencia ante situaciones de contingencias migratorias extraordinarias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Todos los menores extranjeros no acompañados deben ser repatriados con sus padres a sus países de origen de forma inmediata.",
+          "page": "p. 101",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "All 33 Vox deputies voted against validating RDL 2/2025, which set up mandatory distribution of unaccompanied migrant minors among regions."
+    },
+    {
+      "statement": "inm-reducir-llegadas",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Impulsaremos un bloqueo naval que proteja nuestras costas de la llegada masiva de inmigrantes ilegales",
+          "page": "p. 102",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Inmediata expulsión de todos los inmigrantes que accedan ilegalmente a nuestro país.",
+          "page": "p. 100",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.que.es/2026/10/12/precampana-vox-29n-abascal/",
+          "title": "Abascal arranca la precampaña de Vox: vivienda, pensiones y 'remigración' para el 29-N",
+          "publisher": "Qué!",
+          "date": "2026-10-12",
+          "quote": "Junto a esas palabras, situó tres ejes para la campaña: la remigración (la salida del país de determinados inmigrantes), la 'prioridad nacional' y la desregulación administrativa.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program measures target irregular immigration. It says immigration must be \"legal, controlada, adaptada a las necesidades de España\" and sets no overall numerical target. Its 2026 pre-campaign message centres on \"remigración\"."
+    },
+    {
+      "statement": "cli-nucleares",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Fomentaremos la inversión y actualización del parque de generación nuclear y promoveremos la extensión de la vida útil de las centrales nucleares existentes.",
+          "page": "p. 117",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "cli-coches-2035",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Exigiremos el fin de la prohibición de fabricar coches de combustión a partir de 2035.",
+          "page": "p. 137",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-amnistia",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion030/20240314/Votacion001/VOT_20240314135323.json",
+          "title": "Votación Congreso XV, sesión 30, votación 1 (14/03/2024): Proposición de Ley Orgánica de amnistía",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-03-14",
+          "quote": "Proposición de Ley Orgánica de amnistía para la normalización institucional, política y social en Cataluña.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "All 33 Vox deputies voted against the amnesty bill (178-172)."
+    },
+    {
+      "statement": "ter-referendum",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Reintroduciremos los delitos de referéndum ilegal, sedición, traición y malversación de caudales públicos",
+          "page": "p. 16",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Fin de las subvenciones públicas e ilegalización de los partidos, asociaciones u ONGs que persigan la destrucción de la unidad territorial de la nación y de su soberanía.",
+          "page": "p. 16",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program does not address a referendum agreed with the State specifically. It opposes any route to secession, including outlawing separatist parties."
+    },
+    {
+      "statement": "ter-financiacion-cataluna",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "la gestión y recaudación de todos los tributos estatales, cedidos o no, se realizará por la AEAT, poniendo fin a la proliferación de Agencias tributarias regionales",
+          "page": "p. 78",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Suprimiremos todos los privilegios legales y fiscales amparados en supuestos “derechos históricos”",
+          "page": "p. 8",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-recentralizar",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "proponemos la devolución inmediata al Estado de las competencias en Educación, Sanidad, Seguridad y Justicia.",
+          "page": "p. 8",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-lenguas-congreso",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion003/20230921/Votacion004/VOT_20230921120100.json",
+          "title": "Votación Congreso XV, sesión 3, votación 4 (21/09/2023): reforma del Reglamento (uso de lenguas)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2023-09-21",
+          "quote": "Votación de conjunto de la Proposición de reforma del Reglamento del Congreso de los Diputados.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "All 33 Vox deputies voted against the Rules reform that allows Catalan, Basque and Galician in the Congreso (180-170). Vox had also filed an alternative full text (votación 1)."
+    },
+    {
+      "statement": "edu-concertada",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Blindaremos la libre elección de centro educativo en todos los niveles a través de un cheque escolar para que las familias elijan libremente el modelo educativo que desean",
+          "page": "p. 33",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "The program does not mention concertada funding by name. It proposes a school voucher with free choice of school, which is the opposite of cutting that funding."
+    },
+    {
+      "statement": "edu-lengua-castellano",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Aseguraremos de forma clara e inmediata el derecho a ser educado en español en todo el territorio nacional.",
+          "page": "p. 33",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ins-cgpj",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Los jueces deben elegir a los jueces.",
+          "page": "p. 127",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "todos los miembros del CGPJ sean designados o propuestos por los propios jueces y magistrados, sin injerencia de partidos o asociaciones politizadas.",
+          "page": "p. 127",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ins-referendum-monarquia",
+      "stance": "disagree",
+      "confidence": "low",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Dotaremos de la máxima protección jurídica a los símbolos de la nación, especialmente la Bandera, el Himno y la Coro-",
+          "page": "p. 16",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Indirect evidence: the program gives maximum legal protection to the Crown as a national symbol and says nothing about a referendum on the monarchy."
+    },
+    {
+      "statement": "ins-memoria-democratica",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "Vox",
+          "date": "2023-07-06",
+          "quote": "Derogación de toda legislación de “memoria histórica” o “democrática”.",
+          "page": "p. 158",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ext-gasto-defensa",
+      "stance": "agree",
+      "confidence": "low",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-107.PDF",
+          "title": "Diario de Sesiones del Congreso, Pleno, núm. 107 (26/03/2025) – intervención de Santiago Abascal",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-26",
+          "quote": "¡Claro que hay que aumentar el gasto en defensa! ¿Cómo vamos a negarlo si llevamos diciéndolo desde mucho antes que ustedes? Pero en nuestra defensa, en los Ejércitos de España, para que protejan nuestra frontera",
+          "page": "p. 19",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Vox's leader backed higher defence spending in the Congreso but tied it to Spain's own borders (Ceuta, Melilla) and did not commit to the NATO targets. The 2023 program sets no spending figure."
+    },
+    {
+      "statement": "ext-embargo-israel",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/Votacion087/VOT_20251008195359.json",
+          "title": "Votación Congreso XV, sesión 136, votación 87 (08/10/2025): convalidación del RDL 10/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-10-08",
+          "quote": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "All 33 Vox deputies voted against validating the decree-law that put the arms embargo on Israel into law (178-169)."
+    }
+  ]
+}
