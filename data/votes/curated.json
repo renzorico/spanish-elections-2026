@@ -349,5 +349,19 @@
     "yes_means": "agree",
     "note": "Toma en consideración de la PL (SUMAR y Mixto) que introduce en la Ley 53/2007 la figura del embargo de armas, impulsada con Israel como motivo. Es un instrumento general y no menciona a Israel en el título: sí = agree (confianza media). Aprobada 176-171.",
     "relation": "related"
+  },
+  {
+    "id": "v-irpf-deflactar-mocion-2026-04-22",
+    "statement": "eco-bajar-irpf",
+    "date": "2026-04-22",
+    "legislature": 15,
+    "session": 174,
+    "number": 14,
+    "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+    "title": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+    "subgroup": "Punto 1.",
+    "yes_means": "agree",
+    "relation": "related",
+    "note": "Punto 1 de la moción del PP, que pide deflactar de forma generalizada el IRPF. Relacionada: deflactar no es una bajada de tipos. Sí = de acuerdo. Aprobada 177-163-5 (Sí: GP, GVOX, GJxCAT, Valido, Catalán; abstención: GV (EAJ-PNV); No: el resto)."
   }
 ]

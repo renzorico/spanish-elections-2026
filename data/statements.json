@@ -27,12 +27,12 @@
     "id": "eco-suprimir-impuesto-fortunas",
     "topic": "economia",
     "text": {
-      "es": "Debería eliminarse el impuesto específico sobre los patrimonios más altos.",
-      "en": "The specific tax on the largest personal fortunes should be abolished."
+      "es": "Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros).",
+      "en": "The Temporary Solidarity Tax on Large Fortunes (wealth above €3 million) should be abolished."
     },
     "context": {
-      "es": "Existen el Impuesto sobre el Patrimonio (gestionado por las comunidades, que pueden bonificarlo) y el Impuesto Temporal de Solidaridad de las Grandes Fortunas, creado en 2022.",
-      "en": "There is a Wealth Tax (managed by the regions, which can reduce it) and a Temporary Solidarity Tax on Large Fortunes created in 2022."
+      "es": "Además del Impuesto sobre el Patrimonio, que gestionan las comunidades y estas pueden bonificar, en 2022 se creó este impuesto estatal y complementario sobre los patrimonios de más de 3 millones de euros. En 2023 se prorrogó hasta que se revise la tributación del patrimonio en la reforma de la financiación autonómica.",
+      "en": "Besides the Wealth Tax, which the regions manage and can reduce, this complementary State tax on wealth above €3 million was created in 2022. In 2023 it was extended until wealth taxation is reviewed in the reform of regional financing."
     }
   },
   {
@@ -87,12 +87,12 @@
     "id": "tra-salario-minimo",
     "topic": "trabajo",
     "text": {
-      "es": "El salario mínimo debería seguir subiendo hasta llegar al 60 % del salario medio.",
-      "en": "The minimum wage should keep rising until it reaches 60% of the average wage."
+      "es": "El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio.",
+      "en": "The minimum wage should keep rising and stay at no less than 60% of the average wage."
     },
     "context": {
-      "es": "El Gobierno fija el salario mínimo interprofesional cada año, tras consultar a sindicatos y patronal.",
-      "en": "The Government sets the national minimum wage every year after consulting unions and employers."
+      "es": "El Gobierno fija el salario mínimo cada año tras consultar a sindicatos y patronal; en 2026 es de 1.221 euros al mes en 14 pagas. Desde 2023 el Gobierno considera que equivale al 60 % del salario medio neto, la referencia de la Carta Social Europea.",
+      "en": "The Government sets the minimum wage every year after consulting unions and employers; in 2026 it is €1,221 a month over 14 payments. Since 2023 the Government has considered it equal to 60% of the net average wage, the European Social Charter benchmark."
     }
   },
   {

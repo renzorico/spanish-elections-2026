@@ -35,15 +35,24 @@
     },
     {
       "statement": "viv-desalojo-rapido",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
       "sources": [
         {
-          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
-          "publisher": "Sumar",
-          "date": "2023-07-10",
-          "quote": "",
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
           "accessed": "2026-10-31"
         }
       ],
@@ -51,7 +60,7 @@
         "v-okupacion-junts-2025-03-18",
         "v-okupacion-pp-2026-05-19"
       ],
-      "note": "Nothing explicit found in the Sumar 2023 joint program. podemos.info could not be reached (HTTP 403)."
+      "note": "Votó en contra de tomar en consideración las dos proposiciones de ley que aceleran el desalojo de viviendas ocupadas (Junts, 18/03/2025, y PP, 19/05/2026), ambas votaciones directas. Sus diputadas votaron en el Grupo Mixto."
     },
     {
       "statement": "eco-suprimir-impuesto-fortunas",
@@ -63,14 +72,14 @@
           "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
           "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
           "publisher": "Sumar",
-          "date": "2023-07-10",
+          "date": "2023-07-01",
           "quote": "Implementaremos un impuesto a las grandes fortunas de forma permanente, reforzando además su progresividad, hasta llegar a tipos impositivos de al menos el 4% para los patrimonios más elevados.",
-          "page": "PDF p. 16",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
         }
       ],
       "vote_refs": [],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. La única prueba es el programa conjunto de Sumar 2023, así que la confianza máxima es media."
     },
     {
       "statement": "eco-bajar-irpf",
@@ -82,9 +91,33 @@
           "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
           "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
           "publisher": "Sumar",
-          "date": "2023-07-10",
+          "date": "2023-07-01",
           "quote": "Aumento de la progresividad del impuesto sobre la renta de las personas físicas (IRPF). En primer lugar, ampliando el número de tramos a partir de 120.000€ y aplicando tipos marginales crecientes",
-          "page": "PDF p. 17",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
           "accessed": "2026-10-31"
         }
       ],
@@ -92,7 +125,65 @@
         "v-irpf-deflactar-2024-04-09",
         "v-irpf-deflactar-2025-06-12"
       ],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. The joint program raises top IRPF rates; it does not propose a general cut."
+      "note": "La única prueba es el programa conjunto de Sumar 2023, que sube los tipos altos del IRPF; confianza media. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: No; PNL del PP de 12/06/2025: No; punto 1 de la moción del PP de 22/04/2026: No."
+    },
+    {
+      "statement": "eco-impuesto-energeticas",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó a favor de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó a favor de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto). Sus diputadas votaron en el Grupo Mixto."
+    },
+    {
+      "statement": "eco-suprimir-impuesto-banca",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Mantendremos los impuestos extraordinarios sobre las empresas energéticas y financieras mientras se aprueba e implementa completamente la reforma integral del impuesto de sociedades.",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
+          "title": "Congreso de los Diputados – votación de 21/11/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-11-21",
+          "quote": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el […]",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-impuesto-banca-ley7-2024-11-21"
+      ],
+      "note": "La única prueba es el programa conjunto de Sumar 2023, así que la confianza máxima es media. podemos.info no permite el acceso automatizado. Votó Sí al dictamen de la Ley 7/2024 (21/11/2024), que creó el impuesto junto con otros tributos (votación relacionada, solo contexto)."
     },
     {
       "statement": "tra-jornada-37h",
@@ -125,14 +216,14 @@
           "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
           "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
           "publisher": "Sumar",
-          "date": "2023-07-10",
-          "quote": "Haber alcanzado, con los 1.080 €, el 60% del salario medio, si bien es un gran avance, no es suficiente en un país que tiene salarios un 25% por debajo de la media de los países de la Eurozona.",
-          "page": "PDF p. 26",
-          "accessed": "2026-10-31"
+          "date": "2023-07-01",
+          "quote": "Haber alcanzado, con los 1.080 €, el 60% del salario medio, si bien es un gran avance, no es suficiente",
+          "accessed": "2026-10-31",
+          "page": "p. 26 del PDF"
         }
       ],
       "vote_refs": [],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. La única prueba es el programa conjunto de Sumar 2023, así que la confianza máxima es media."
     },
     {
       "statement": "san-gestion-privada",

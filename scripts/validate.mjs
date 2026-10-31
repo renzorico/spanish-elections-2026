@@ -107,9 +107,9 @@ export function validate(data) {
         if (!/^https?:\/\//.test(src.url || '')) err(`${where}: source url missing/invalid`);
         if (src.date && !ISO.test(src.date)) err(`${where}: source date not ISO (${src.date})`);
         if (!src.date && !ncp) warn(`${where}: source without date`);
-        if (!ncp && !src.quote && pos.evidence_type !== 'vote_xv') err(`${where}: quote required for coded positions`);
         if (src.quote && src.quote.split(/\s+/).length > 60) warn(`${where}: quote longer than 60 words`);
       }
+      if (!ncp && pos.evidence_type !== 'vote_xv' && !(pos.sources || []).some((src) => src.quote)) err(`${where}: at least one source needs a verbatim quote`);
       if (pos.evidence_type === 'vote_xv' && !(pos.vote_refs || []).length && !(pos.sources || []).some((s) => /congreso\.es/.test(s.url))) {
         err(`${where}: vote_xv evidence needs vote_refs or a congreso.es source`);
       }

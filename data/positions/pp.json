@@ -28,24 +28,32 @@
     {
       "statement": "viv-desalojo-rapido",
       "stance": "agree",
-      "confidence": "medium",
-      "evidence_type": "program_2023",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
       "sources": [
         {
           "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
           "title": "Programa electoral. Un proyecto al servicio de un gran país. 365 medidas (elecciones generales 2023)",
           "publisher": "Partido Popular",
           "date": "2023-07-04",
-          "quote": "AGILIZAREMOS LOS DESALOJOS PARA QUE PUEDAN REALIZARSE EN EL PLAZO MÁXIMO DE 24 HORAS desde el requerimiento si los ocupantes no acreditan en dicho plazo el título jurídico que legitime la permanencia en el inmueble",
-          "page": "p. 82 del PDF",
+          "quote": "APROBAREMOS UN PAQUETE DE MEDIDAS “ANTI-OKUPACIÓN” para permitir que los desalojos se produzcan en un plazo máximo de 24 horas",
+          "accessed": "2026-10-31",
+          "page": "p. 82 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/",
-          "title": "Feijoo anuncia deducciones para alquileres y aprobará en sus cien días las leyes para construir un millón de viviendas y desalojar okupas",
-          "publisher": "Partido Popular",
-          "date": "2026-10-21",
-          "quote": "desalojará a los okupas en 48 horas",
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
           "accessed": "2026-10-31"
         }
       ],
@@ -53,7 +61,7 @@
         "v-okupacion-junts-2025-03-18",
         "v-okupacion-pp-2026-05-19"
       ],
-      "note": "El PP propone desalojos en 24-48 horas sin excepción por vulnerabilidad, aunque no se pronuncia expresamente sobre los ocupantes vulnerables; por eso la confianza es media."
+      "note": "Votó a favor en las dos votaciones directas (proposición de Junts de 2025 y la suya propia de 2026), y su programa 2023 propone desalojos en 24 horas."
     },
     {
       "statement": "eco-suprimir-impuesto-fortunas",
@@ -67,11 +75,12 @@
           "publisher": "Partido Popular",
           "date": "2023-07-04",
           "quote": "Eliminaremos el impuesto a las grandes fortunas",
-          "page": "p. 23 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "page": "p. 23 del PDF"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. El programa 2023 promete eliminar el impuesto a las grandes fortunas, es decir, el ITSGF."
     },
     {
       "statement": "eco-bajar-irpf",
@@ -85,22 +94,122 @@
           "publisher": "Partido Popular",
           "date": "2023-07-04",
           "quote": "APROBAREMOS UN ALIVIO FISCAL INMEDIATO A LAS FAMILIAS. Corregiremos los efectos de la inflación en la tarifa del IRPF que supone una subida real de impuestos sobre la clase media.",
-          "page": "p. 23 del PDF",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "page": "p. 23 del PDF"
         },
         {
           "url": "https://www.pp.es/actualidad/articulos/feijoo-asegura-que-en-2027-habra-una-rebaja-del-irpf-para-que-la-inflacion-y-los-impuestos-no-se-coman-el-salario-de-los-espanoles/",
           "title": "Feijóo asegura que en 2027 habrá una rebaja del IRPF para que la inflación y los impuestos no se coman el salario de los españoles",
           "publisher": "Partido Popular",
           "date": "2026-10-23",
-          "quote": "Feijóo asegura que en 2027 habrá una rebaja del IRPF para que la inflación y los impuestos no se coman el salario de los españoles",
+          "quote": "Y en 2027, lo haremos realidad. En 2027, habrá una rebaja del IRPF para que la inflación y los impuestos no se coman el salario de los españoles",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-irpf-deflactar-2024-04-09",
         "v-irpf-deflactar-2025-06-12"
-      ]
+      ],
+      "note": "El programa 2023 y la web del partido (octubre de 2026) prometen bajar el IRPF. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: Sí; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: Sí."
+    },
+    {
+      "statement": "eco-impuesto-energeticas",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-82.PDF",
+          "title": "Diario de Sesiones del Congreso de los Diputados, Pleno, núm. 82 (21/11/2024)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-11-21",
+          "quote": "con nuestro voto evitamos los nuevos impuestos que ahora ustedes van a someter a votación: impuestos a la banca, […] impuesto sobre las energéticas, que ya se está viendo que promueven la deslocalización, la desinversión",
+          "accessed": "2026-10-31",
+          "page": "p. 65 del PDF (Puy Fraga, GP)"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó en contra de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+    },
+    {
+      "statement": "eco-suprimir-impuesto-banca",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-82.PDF",
+          "title": "Diario de Sesiones del Congreso de los Diputados, Pleno, núm. 82 (21/11/2024)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-11-21",
+          "quote": "con nuestro voto evitamos los nuevos impuestos que ahora ustedes van a someter a votación: impuestos a la banca, que al final van a gravar a todos los depositantes",
+          "accessed": "2026-10-31",
+          "page": "p. 65 del PDF (Puy Fraga, GP)"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
+          "title": "Congreso de los Diputados – votación de 21/11/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-11-21",
+          "quote": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el […]",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
+          "title": "Programa electoral. Un proyecto al servicio de un gran país. 365 medidas (elecciones generales 2023)",
+          "publisher": "Partido Popular",
+          "date": "2023-07-04",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-impuesto-banca-ley7-2024-11-21"
+      ],
+      "note": "El portavoz del PP en el debate de la Ley 7/2024 se opuso expresamente al impuesto a la banca. El programa 2023 no lo menciona. Votó No al dictamen de la Ley 7/2024 (21/11/2024), que creó el impuesto junto con otros tributos (votación relacionada, solo contexto)."
     },
     {
       "statement": "tra-jornada-37h",
@@ -125,30 +234,30 @@
     },
     {
       "statement": "tra-salario-minimo",
-      "stance": "neutral",
-      "confidence": "low",
-      "evidence_type": "program_2023",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
       "sources": [
         {
           "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
           "title": "Programa electoral. Un proyecto al servicio de un gran país. 365 medidas (elecciones generales 2023)",
           "publisher": "Partido Popular",
           "date": "2023-07-04",
-          "quote": "ACTUALIZAREMOS EL SALARIO MÍNIMO INTERPROFESIONAL EN EL MARCO DEL DIÁLOGO SOCIAL. Involucraremos a sindicatos, empresarios y expertos en la toma de decisiones sobre el SMI.",
-          "page": "p. 19 del PDF",
-          "accessed": "2026-10-31"
+          "quote": "ACTUALIZAREMOS EL SALARIO MÍNIMO INTERPROFESIONAL EN EL MARCO DEL DIÁLOGO SOCIAL.",
+          "accessed": "2026-10-31",
+          "page": "p. 19 del PDF"
         },
         {
           "url": "https://www.pp.es/actualidad/articulos/feijoo-mi-objetivo-no-solo-es-que-suba-el-salario-minimo-sino-tambien-el-salario-medio-para-hacer-crecer-la-economia/",
           "title": "Feijóo: «Mi objetivo no solo es que suba el salario mínimo, sino también el salario medio para hacer crecer la economía»",
           "publisher": "Partido Popular",
           "date": "2026-10-23",
-          "quote": "Mi objetivo no solo es que suba el salario mínimo, sino también el salario medio para hacer crecer la economía",
+          "quote": "su objetivo no solo será subir el salario mínimo de los trabajadores, sino también el salario medio",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "El PP apoya que el salario mínimo siga subiendo mediante el diálogo social, pero no asume el objetivo del 60 % del salario medio."
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. El PP quiere que el SMI siga subiendo mediante el diálogo social, pero no se pronuncia sobre la referencia del 60 % del salario medio, que es el núcleo de la afirmación. Con la redacción actual la codificación sería la misma."
     },
     {
       "statement": "san-gestion-privada",

@@ -1,0 +1,277 @@
+{
+  "statement": "eco-suprimir-impuesto-fortunas",
+  "coded_on": "2026-10-31",
+  "coded_by": "subagent:recode-a",
+  "coded_against_proposed_wording": {
+    "text": {
+      "es": "Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros).",
+      "en": "The Temporary Solidarity Tax on Large Fortunes (wealth above €3 million) should be abolished."
+    },
+    "context": {
+      "es": "Además del Impuesto sobre el Patrimonio, que gestionan las comunidades y estas pueden bonificar, en 2022 se creó este impuesto estatal y complementario sobre los patrimonios de más de 3 millones de euros. En 2023 se prorrogó hasta que se revise la tributación del patrimonio en la reforma de la financiación autonómica.",
+      "en": "Besides the Wealth Tax, which the regions manage and can reduce, this complementary State tax on wealth above €3 million was created in 2022. In 2023 it was extended until wealth taxation is reviewed in the reform of regional financing."
+    },
+    "reason": "La redacción actual no deja claro si se refiere al Impuesto sobre el Patrimonio o al ITSGF. «Patrimonios más altos» encaja con el ITSGF (más de 3 millones de euros), y los programas que se citan casi siempre se refieren al impuesto a las «grandes fortunas».",
+    "sources": [
+      {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-22684",
+        "title": "Ley 38/2022, art. 3 (Impuesto Temporal de Solidaridad de las Grandes Fortunas), texto consolidado",
+        "publisher": "BOE",
+        "date": "2022-12-28",
+        "quote": "complementario del Impuesto sobre el Patrimonio que grava el patrimonio neto de las personas físicas de cuantía superior a 3.000.000 de euros",
+        "accessed": "2026-10-31"
+      },
+      {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-26452",
+        "title": "Real Decreto-ley 8/2023, de 27 de diciembre",
+        "publisher": "BOE",
+        "date": "2023-12-28",
+        "quote": "en tanto no se produzca la revisión de la tributación patrimonial en el contexto de la reforma del sistema de financiación autonómica, se prorroga la aplicación del Impuesto Temporal de Solidaridad de las Grandes Fortunas",
+        "accessed": "2026-10-31"
+      }
+    ]
+  },
+  "positions": {
+    "pp": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
+          "title": "Programa electoral. Un proyecto al servicio de un gran país. 365 medidas (elecciones generales 2023)",
+          "publisher": "Partido Popular",
+          "date": "2023-07-04",
+          "quote": "Eliminaremos el impuesto a las grandes fortunas",
+          "accessed": "2026-10-31",
+          "page": "p. 23 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. El programa 2023 promete eliminar el impuesto a las grandes fortunas, es decir, el ITSGF."
+    },
+    "psoe": {
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "Evaluaremos los resultados del Impuesto Temporal de Solidaridad de las Grandes Fortunas y, en su caso, avanzaremos en el debate sobre la tributación de la riqueza",
+          "accessed": "2026-10-31",
+          "page": "p. 39 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. El PSOE creó el impuesto en 2022 y lo prorrogó en 2023. El programa no promete suprimirlo y habla de avanzar en la tributación de la riqueza, aunque condiciona su futuro a una evaluación; por eso la confianza es media."
+    },
+    "vox": {
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "VOX",
+          "date": "2023-07-01",
+          "quote": "Suprimiremos el Impuesto sobre el Patrimonio, el Impuesto sobre Sucesiones y Donaciones y Plusvalías municipales en todo el territorio nacional, impuestos que suponen confiscaciones injustas, duplicadas o desproporcionadas del patrimonio",
+          "accessed": "2026-10-31",
+          "page": "p. 77"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. El programa suprime el Impuesto sobre el Patrimonio en toda España y califica estos impuestos de confiscatorios. No nombra el ITSGF, que es un complemento estatal del de Patrimonio, así que la postura es una implicación clara pero no explícita: confianza media."
+    },
+    "frente-amplio": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Implementaremos un impuesto a las grandes fortunas de forma permanente, reforzando además su progresividad, hasta llegar a tipos impositivos de al menos el 4% para los patrimonios más elevados.",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. "
+    },
+    "podemos": {
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "Implementaremos un impuesto a las grandes fortunas de forma permanente, reforzando además su progresividad, hasta llegar a tipos impositivos de al menos el 4% para los patrimonios más elevados.",
+          "accessed": "2026-10-31",
+          "page": "p. 16 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. La única prueba es el programa conjunto de Sumar 2023, así que la confianza máxima es media."
+    },
+    "erc": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-01",
+          "quote": "Millorar el funcionament de l’impost a les grans fortunes",
+          "accessed": "2026-10-31",
+          "page": "p. 70 del PDF"
+        },
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-01",
+          "quote": "Cal crear impostos sobre les grans fortunes, les transaccions financeres o les emissions de CO2.",
+          "accessed": "2026-10-31",
+          "page": "p. 54 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. "
+    },
+    "junts": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. El programa 2023 no se pronuncia sobre el ITSGF ni sobre el Impuesto sobre el Patrimonio (buscado: patrimoni, grans fortunes, riquesa)."
+    },
+    "eh-bildu": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+          "title": "Compromiso de Euskal Herria Bildu (programa elecciones generales 23-J 2023)",
+          "publisher": "EH Bildu",
+          "date": "2023-07-01",
+          "quote": "Aumentar la carga impositiva y convertir en permanentes los impuestos a la banca, energéticas y grandes fortunas",
+          "accessed": "2026-10-31",
+          "page": "p. 8"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. "
+    },
+    "pnv": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+          "title": "Con voz propia / Euskadiren ahotsa. Programa Electoral 23-J",
+          "publisher": "EAJ-PNV",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. El programa 2023 no trata el ITSGF ni el Impuesto sobre el Patrimonio estatal (en Euskadi la fiscalidad es foral)."
+    },
+    "bng": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
+          "publisher": "BNG",
+          "date": "2023-07-05",
+          "quote": "Estabelecer a permanencia dos impostos específicos aos beneficios da banca, das grandes enerxéticas e ás grandes fortunas",
+          "accessed": "2026-10-31",
+          "page": "p. 40 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. "
+    },
+    "cc": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
+          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» (elecciones generales 23-J 2023)",
+          "publisher": "Coalición Canaria",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. No se encontró posición en el manifiesto de 2023."
+    },
+    "compromis": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa Electoral 23J Compromís-Sumar: 12 propuestas x 12 ministerios",
+          "publisher": "Compromís",
+          "date": "2023-07-01",
+          "quote": "Impuesto permanente a las grandes fortunas para profundizar en la redistribución de la riqueza, haciendo que quien más tenga más pueda aportar.",
+          "accessed": "2026-10-31",
+          "page": "p. 10 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. "
+    },
+    "salf": {
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+          "title": "Contrato electoral Se Acabó La Fiesta en Castilla y León (programa autonómico 2026)",
+          "publisher": "Se Acabó La Fiesta",
+          "date": "2026-03-01",
+          "quote": "Suprimiremos el Impuesto sobre el Patrimonio en Castilla y León, para que quienes ahorran e invierten aquí no huyan a otras comunidades.",
+          "accessed": "2026-10-31",
+          "page": "p. 4 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. SALF no tiene programa estatal. Su programa autonómico de Castilla y León (2026) suprime el Impuesto sobre el Patrimonio en esa comunidad, pero no se pronuncia sobre el ITSGF estatal. Con la redacción actual se podría codificar de acuerdo con confianza baja."
+    }
+  },
+  "proposed_votes": []
+}

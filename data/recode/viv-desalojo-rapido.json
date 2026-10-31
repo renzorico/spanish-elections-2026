@@ -1,0 +1,451 @@
+{
+  "statement": "viv-desalojo-rapido",
+  "coded_on": "2026-10-31",
+  "coded_by": "subagent:recode-a",
+  "positions": {
+    "pp": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
+          "title": "Programa electoral. Un proyecto al servicio de un gran país. 365 medidas (elecciones generales 2023)",
+          "publisher": "Partido Popular",
+          "date": "2023-07-04",
+          "quote": "APROBAREMOS UN PAQUETE DE MEDIDAS “ANTI-OKUPACIÓN” para permitir que los desalojos se produzcan en un plazo máximo de 24 horas",
+          "accessed": "2026-10-31",
+          "page": "p. 82 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Votó a favor en las dos votaciones directas (proposición de Junts de 2025 y la suya propia de 2026), y su programa 2023 propone desalojos en 24 horas."
+    },
+    "psoe": {
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
+          "publisher": "PSOE",
+          "date": "2023-07-07",
+          "quote": "se impulsará la reforma Legislativa normativa para garantizar el desalojo de los ocupas ilegales en un plazo máximo de 48 horas.",
+          "accessed": "2026-10-31",
+          "page": "p. 251 del PDF"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/docu/tramit/LegXV/AT/ATCD_15_PL_20260519.pdf",
+          "title": "Acta taquigráfica, Sesión plenaria del Congreso de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Y, sí, evidentemente, a quien sufre una okupación tenemos que ayudarle. Tenemos que ayudarle a través de la mejora de la respuesta administrativa y de la respuesta judicial",
+          "accessed": "2026-10-31",
+          "page": "p. 22 (Díaz Marín, GS)"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Pruebas contradictorias. El programa 2023 promete desalojos en 48 horas y el PSOE votó Sí a tramitar la ley de Junts (18/03/2025), pero votó No a la del PP (19/05/2026). Su portavoz justificó el No por el endurecimiento penal y el trato a los inquilinos morosos, no por rechazar desalojos más rápidos, y defendió mejorar la respuesta judicial. Se codifica de acuerdo y se baja la confianza a media por el voto contrario más reciente."
+    },
+    "vox": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "VOX",
+          "date": "2023-07-01",
+          "quote": "Tolerancia cero con la ocupación ilegal. Reformaremos tanto del Código Penal como de las Leyes de Enjuiciamiento Criminal y Civil para proteger real y efectivamente a los propietarios",
+          "accessed": "2026-10-31",
+          "page": "p. 40"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Votó a favor en las dos votaciones directas (2025 y 2026)."
+    },
+    "frente-amplio": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
+          "publisher": "Sumar",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Votó en contra de tomar en consideración las dos proposiciones de ley que aceleran el desalojo de viviendas ocupadas (Junts, 18/03/2025, y PP, 19/05/2026), ambas votaciones directas. No se encontró posición explícita en el programa de Sumar 2023 (buscado: ocupación, desalojo, usurpación)."
+    },
+    "podemos": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Votó en contra de tomar en consideración las dos proposiciones de ley que aceleran el desalojo de viviendas ocupadas (Junts, 18/03/2025, y PP, 19/05/2026), ambas votaciones directas. Sus diputadas votaron en el Grupo Mixto."
+    },
+    "erc": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-01",
+          "quote": "Cal evitar els desnonaments sense garantia habitacional",
+          "accessed": "2026-10-31",
+          "page": "p. 54 del PDF"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Votó en contra de tomar en consideración las dos proposiciones de ley que aceleran el desalojo de viviendas ocupadas (Junts, 18/03/2025, y PP, 19/05/2026), ambas votaciones directas."
+    },
+    "junts": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/docu/tramit/LegXV/AT/ATCD_15_PL_20260519.pdf",
+          "title": "Acta taquigráfica, Sesión plenaria del Congreso de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Una propuesta solvente técnicamente, moderada, respetuosa con los derechos fundamentales y centrada en lo que funciona de verdad: el desalojo rápido.",
+          "accessed": "2026-10-31",
+          "page": "p. 14 (Madrenas i Mir, GJxCAT)"
+        },
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "es proposen mesures de tipus processal com el desallotjament cautelar en 48 hores en els supòsits d’ocupacions que pertorbin la convivència o que tinguin caràcter delinqüencial",
+          "accessed": "2026-10-31",
+          "page": "p. 129 del PDF"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Junts es autor de la proposición de 2025 (votó Sí). En 2026 se abstuvo en la del PP por el endurecimiento penal, pero su portavoz reiteró que defiende el desalojo rápido."
+    },
+    "eh-bildu": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Votó en contra de tomar en consideración las dos proposiciones de ley que aceleran el desalojo de viviendas ocupadas (Junts, 18/03/2025, y PP, 19/05/2026), ambas votaciones directas."
+    },
+    "pnv": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/docu/tramit/LegXV/AT/ATCD_15_PL_20260519.pdf",
+          "title": "Acta taquigráfica, Sesión plenaria del Congreso de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "a nuestro grupo parlamentario lo encontrarán en el camino de hallar respuestas judiciales eficaces desde el momento inicial del proceso para recuperación inmediata de la propiedad usurpada",
+          "accessed": "2026-10-31",
+          "page": "p. 10 (Legarda Uriarte, GV)"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Votó Sí a tramitar la ley de Junts (2025). Se abstuvo en la del PP (2026) porque rechaza que la policía desaloje sin orden judicial, pero su portavoz defendió una recuperación judicial inmediata. Pide además atención social a los ocupantes vulnerables."
+    },
+    "bng": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Votó en contra de tomar en consideración las dos proposiciones de ley que aceleran el desalojo de viviendas ocupadas (Junts, 18/03/2025, y PP, 19/05/2026), ambas votaciones directas. Votó Néstor Rego (Grupo Mixto)."
+    },
+    "cc": {
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/docu/tramit/LegXV/AT/ATCD_15_PL_20260519.pdf",
+          "title": "Acta taquigráfica, Sesión plenaria del Congreso de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Y todo esto pasa porque los procedimientos se eternizan y porque tenemos que disuadir",
+          "accessed": "2026-10-31",
+          "page": "p. 7 (Valido García, GMx)"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Cristina Valido (Grupo Mixto) votó Sí en las dos votaciones directas (2025 y 2026)."
+    },
+    "compromis": {
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-okupacion-junts-2025-03-18",
+        "v-okupacion-pp-2026-05-19"
+      ],
+      "note": "Votó en contra de tomar en consideración las dos proposiciones de ley que aceleran el desalojo de viviendas ocupadas (Junts, 18/03/2025, y PP, 19/05/2026), ambas votaciones directas. En 2025 votó Àgueda Micó dentro del grupo de Sumar y en 2026 desde el Grupo Mixto."
+    },
+    "salf": {
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+          "title": "Contrato electoral Se Acabó La Fiesta en Castilla y León (programa autonómico 2026)",
+          "publisher": "Se Acabó La Fiesta",
+          "date": "2026-03-01",
+          "quote": "exigiremos al Estado cambios legislativos) para que toda vivienda ocupada ilegalmente sea desalojada policialmente en un plazo máximo de 24 horas.",
+          "accessed": "2026-10-31",
+          "page": "p. 3 del PDF"
+        }
+      ],
+      "vote_refs": [],
+      "note": "SALF no tiene diputados en el Congreso ni programa estatal. La fuente es su programa autonómico de Castilla y León (marzo de 2026), que pide expresamente al Estado cambios legales para desalojar en 24 horas."
+    }
+  },
+  "proposed_votes": []
+}

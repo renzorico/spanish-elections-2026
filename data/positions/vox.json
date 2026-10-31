@@ -36,25 +36,32 @@
     {
       "statement": "viv-desalojo-rapido",
       "stance": "agree",
-      "confidence": "medium",
-      "evidence_type": "program_2023",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
       "sources": [
         {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
           "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
-          "publisher": "Vox",
-          "date": "2023-07-06",
+          "publisher": "VOX",
+          "date": "2023-07-01",
           "quote": "Tolerancia cero con la ocupación ilegal. Reformaremos tanto del Código Penal como de las Leyes de Enjuiciamiento Criminal y Civil para proteger real y efectivamente a los propietarios",
-          "page": "p. 40",
+          "accessed": "2026-10-31",
+          "page": "p. 40"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
+          "title": "Congreso de los Diputados – votación de 18/03/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-03-18",
+          "quote": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
           "accessed": "2026-10-31"
         },
         {
-          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
-          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
-          "publisher": "Vox",
-          "date": "2023-07-06",
-          "quote": "Proposición no de Ley relativa a combatir el fenómeno de la ocupación y de la “inquiocupación” a través de medidas como la reducción de los plazos en el procedimiento de desahucio",
-          "page": "p. 44",
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
+          "title": "Congreso de los Diputados – votación de 19/05/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-05-19",
+          "quote": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
           "accessed": "2026-10-31"
         }
       ],
@@ -62,25 +69,26 @@
         "v-okupacion-junts-2025-03-18",
         "v-okupacion-pp-2026-05-19"
       ],
-      "note": "The program backs faster eviction of squatters without exceptions, but does not explicitly mention occupants in vulnerable situations."
+      "note": "Votó a favor en las dos votaciones directas (2025 y 2026)."
     },
     {
       "statement": "eco-suprimir-impuesto-fortunas",
       "stance": "agree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
           "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
-          "publisher": "Vox",
-          "date": "2023-07-06",
-          "quote": "Suprimiremos el Impuesto sobre el Patrimonio, el Impuesto sobre Sucesiones y Donaciones y Plusvalías municipales en todo el territorio nacional",
-          "page": "p. 77",
-          "accessed": "2026-10-31"
+          "publisher": "VOX",
+          "date": "2023-07-01",
+          "quote": "Suprimiremos el Impuesto sobre el Patrimonio, el Impuesto sobre Sucesiones y Donaciones y Plusvalías municipales en todo el territorio nacional, impuestos que suponen confiscaciones injustas, duplicadas o desproporcionadas del patrimonio",
+          "accessed": "2026-10-31",
+          "page": "p. 77"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [],
+      "note": "Codificado contra la redacción propuesta: «Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros)». La redacción actual («el impuesto específico sobre los patrimonios más altos») es ambigua porque existen dos impuestos. El programa suprime el Impuesto sobre el Patrimonio en toda España y califica estos impuestos de confiscatorios. No nombra el ITSGF, que es un complemento estatal del de Patrimonio, así que la postura es una implicación clara pero no explícita: confianza media."
     },
     {
       "statement": "eco-bajar-irpf",
@@ -91,17 +99,108 @@
         {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
           "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
-          "publisher": "Vox",
-          "date": "2023-07-06",
+          "publisher": "VOX",
+          "date": "2023-07-01",
           "quote": "progresiva y continuada del IRPF a un tipo único reducido del 15% a aplicar sobre bases imponibles inferiores a 70.000 euros y un tipo ordinario del 25%",
-          "page": "p. 75",
+          "accessed": "2026-10-31",
+          "page": "p. 74"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion034/20240409/Votacion012/VOT_20240409210642.json",
+          "title": "Congreso de los Diputados – votación de 09/04/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-04-09",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para deflactar el IRPF ajustándolo a la inflación para ayudar a las familias.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion118/20250612/Votacion001/VOT_20250612132238.json",
+          "title": "Congreso de los Diputados – votación de 12/06/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-06-12",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Popular en el Congreso, para ajustar el IRPF por la inflación.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion174/20260422/Votacion014/VOT_20260422152001.json",
+          "title": "Congreso de los Diputados – votación de 22/04/2026 (moción del PP, punto 1: deflactación del IRPF)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-04-22",
+          "quote": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [
         "v-irpf-deflactar-2024-04-09",
         "v-irpf-deflactar-2025-06-12"
-      ]
+      ],
+      "note": "El programa propone bajar el IRPF a dos tipos del 15 % y el 25 %. En las votaciones relacionadas sobre deflactar el IRPF (solo contexto) votó: PNL del PP de 09/04/2024: Sí; PNL del PP de 12/06/2025: Sí; punto 1 de la moción del PP de 22/04/2026: Sí."
+    },
+    {
+      "statement": "eco-impuesto-energeticas",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
+          "title": "Congreso de los Diputados – votación de 22/01/2025",
+          "publisher": "Congreso de los Diputados",
+          "date": "2025-01-22",
+          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion002/VOT_20260930153550.json",
+          "title": "Congreso de los Diputados – votación de 30/09/2026",
+          "publisher": "Congreso de los Diputados",
+          "date": "2026-09-30",
+          "quote": "Proposición no de Ley del Grupo Parlamentario Socialista, para la puesta en marcha de un instrumento europeo excepcional de contribución sobre los beneficios extraordinarios de las empresas energéticas.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-gravamen-energetico-2025-01-22",
+        "v-pnl-beneficios-energeticas-2026-09-30"
+      ],
+      "note": "Votó en contra de convalidar el RDL 10/2024, que prorrogaba en 2025 el gravamen temporal a las energéticas (22/01/2025, votación directa; no convalidado). También votó en contra de la PNL del PSOE para un instrumento europeo sobre los beneficios extraordinarios de las energéticas (30/09/2026; relacionada, solo contexto)."
+    },
+    {
+      "statement": "eco-suprimir-impuesto-banca",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
+          "title": "Congreso de los Diputados – votación de 21/11/2024",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-11-21",
+          "quote": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el […]",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-82.PDF",
+          "title": "Diario de Sesiones del Congreso de los Diputados, Pleno, núm. 82 (21/11/2024)",
+          "publisher": "Congreso de los Diputados",
+          "date": "2024-11-21",
+          "quote": "",
+          "accessed": "2026-10-31",
+          "page": "pp. 57-58 del PDF (Figaredo Álvarez-Sala, GVOX)"
+        },
+        {
+          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
+          "publisher": "VOX",
+          "date": "2023-07-01",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [
+        "v-impuesto-banca-ley7-2024-11-21"
+      ],
+      "note": "Vox votó No a la Ley 7/2024 (relacionada, en un paquete con otros impuestos), pero su portavoz no se refirió al impuesto a la banca y el programa 2023 no lo trata. No se encontró una declaración oficial que pida suprimirlo."
     },
     {
       "statement": "tra-jornada-37h",
@@ -127,20 +226,21 @@
     {
       "statement": "tra-salario-minimo",
       "stance": "no_clear_position",
+      "confidence": null,
       "evidence_type": "none",
       "sources": [
         {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
           "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
-          "publisher": "Vox",
-          "date": "2023-07-06",
+          "publisher": "VOX",
+          "date": "2023-07-01",
           "quote": "Mientras el gobierno decía subir el SMI para ayudar a los españoles, subía aún más los impuestos y se disparaban los precios",
-          "page": "p. 22",
-          "accessed": "2026-10-31"
+          "accessed": "2026-10-31",
+          "page": "p. 22"
         }
       ],
       "vote_refs": [],
-      "note": "The 2023 program says it will push for higher wages, \"especialmente los más bajos\", by cutting burdens on companies, and criticises how the Government raised the SMI. It sets no target linked to 60% of the average wage. No XV-legislature vote was found (the SMI is set by decree)."
+      "note": "Codificado contra la redacción propuesta: «El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio». La redacción actual («hasta llegar al 60 %») parte de una premisa superada: el Gobierno dio por alcanzado ese 60 % en febrero de 2023. El programa 2023 critica cómo se subió el SMI y no fija ningún objetivo ligado al salario medio. El SMI se aprueba por real decreto, así que no hay votación en el Congreso."
     },
     {
       "statement": "san-gestion-privada",

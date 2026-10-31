@@ -3267,6 +3267,127 @@
           "implied_stance": null
         }
       }
+    },
+    "v-irpf-deflactar-mocion-2026-04-22": {
+      "statement": "eco-bajar-irpf",
+      "date": "2026-04-22",
+      "yes_means": "agree",
+      "title": "Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el infierno fiscal al que ha condenado el Gobierno a todos los españoles.",
+      "subgroup": "Votación separada por puntos. — Punto 1.",
+      "totals": {
+        "asentimiento": "No",
+        "presentes": 345,
+        "afavor": 177,
+        "enContra": 163,
+        "abstenciones": 5,
+        "noVotan": 5
+      },
+      "by_party": {
+        "pp": {
+          "yes": 135,
+          "no": 0,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "psoe": {
+          "yes": 0,
+          "no": 119,
+          "abstain": 0,
+          "absent": 2,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "vox": {
+          "yes": 32,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "frente-amplio": {
+          "yes": 0,
+          "no": 25,
+          "abstain": 0,
+          "absent": 1,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "podemos": {
+          "yes": 0,
+          "no": 4,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "erc": {
+          "yes": 0,
+          "no": 7,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "junts": {
+          "yes": 7,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "eh-bildu": {
+          "yes": 0,
+          "no": 6,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "pnv": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 5,
+          "absent": 0,
+          "majority": "abstain",
+          "implied_stance": "neutral"
+        },
+        "bng": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "cc": {
+          "yes": 1,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "yes",
+          "implied_stance": "agree"
+        },
+        "compromis": {
+          "yes": 0,
+          "no": 1,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "no",
+          "implied_stance": "disagree"
+        },
+        "salf": {
+          "yes": 0,
+          "no": 0,
+          "abstain": 0,
+          "absent": 0,
+          "majority": "absent",
+          "implied_stance": null
+        }
+      }
     }
   }
 }
