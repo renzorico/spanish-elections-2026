@@ -384,21 +384,21 @@
     },
     {
       "statement": "inm-devolver-irregulares",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
+      "stance": "agree",
+      "confidence": "low",
+      "evidence_type": "official_statement",
       "sources": [
         {
-          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
-          "title": "Manifiesto electoral Coalición por Canarias 2023",
-          "publisher": "Coalición Canaria",
-          "date": "2023-07-01",
-          "quote": "",
+          "url": "https://theobjective.com/espana/politica/2024-09-10/feijoo-clavijo-acuerdo-sobre-inmigracion/",
+          "title": "Feijóo y Clavijo cierran un acuerdo sobre inmigración",
+          "publisher": "The Objective",
+          "date": "2024-09-10",
+          "quote": "aumentar el personal en tramitación expedientes de retorno",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "(pendiente de recodificar)"
+      "note": "Solo prensa: el pacto migratorio PP-CC en Canarias (sept. 2024, firmado por Clavijo como presidente canario) incluye aumentar el personal que tramita expedientes de retorno. El programa 2023 de CC solo habla de cooperación con países de origen contra la inmigración irregular, sin retornos. Confianza baja; no se abrió el texto del pacto en fuente oficial."
     },
     {
       "statement": "cli-nucleares",

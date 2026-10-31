@@ -449,33 +449,16 @@
       "evidence_type": "none",
       "sources": [
         {
-          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-68.PDF",
-          "title": "Diario de Sesiones del Congreso, Pleno núm. 68 (intervención de Sánchez Pérez-Castejón, presidente del Gobierno)",
-          "publisher": "Congreso de los Diputados",
-          "date": "2024-10-09",
-          "quote": "España tiene que elegir entre ser un país abierto y próspero o un país cerrado y pobre.",
-          "page": "p. 10 del PDF",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2024/091024-sanchez-comparecencia-congreso.aspx",
-          "title": "Pedro Sánchez: «Acoger al que viene de fuera no es sólo un deber, sino un paso para garantizar el Estado del bienestar»",
-          "publisher": "La Moncloa",
-          "date": "2024-10-09",
-          "quote": "El presidente del Gobierno reivindica la política migratoria \"humanitaria y responsable\" del Ejecutivo",
-          "accessed": "2026-10-31"
-        },
-        {
           "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
-          "title": "Programa electoral elecciones generales 2023",
+          "title": "Programa electoral PSOE, elecciones generales 2023",
           "publisher": "PSOE",
           "date": "2023-07-07",
-          "quote": "",
+          "quote": "Aplicaremos una política migratoria que reduzca llegadas irregulares y que salve vidas.",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "(pendiente de recodificar)"
+      "note": "El programa 2023 solo habla de reducir llegadas irregulares y desmantelar mafias; no menciona devoluciones, expulsiones ni acuerdos de readmisión (el control de llegadas no es una posición sobre devolver). No se ha encontrado una declaración oficial del partido sobre acelerar devoluciones; las declaraciones del Ministerio del Interior sobre el Pacto Europeo no se han podido verificar en esta sesión (la página consultada no devolvió contenido)."
     },
     {
       "statement": "cli-nucleares",

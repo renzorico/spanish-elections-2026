@@ -450,16 +450,25 @@
       "sources": [
         {
           "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Programa electoral eleccions generals 2023",
+          "title": "Programa electoral ERC, elecciones generales 2023",
           "publisher": "ERC",
           "date": "2023-07-01",
-          "quote": "Regulació dels fluxos migratoris des d’una perspectiva real i objectiva de les causes de les migracions per a la bona gestió de les entrades i sortides.",
-          "page": "p. 37 del PDF",
-          "accessed": "2026-10-31"
+          "quote": "Tancament dels Centres d’Internament d’Estrangers (CIE).",
+          "accessed": "2026-10-31",
+          "page": "p. 40 del PDF"
+        },
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Programa electoral ERC 2023",
+          "publisher": "ERC",
+          "date": "2023-07-01",
+          "quote": "Directiva de retorn (115/2008), més coneguda en el context dels Drets Humans com a “directiva de la vergonya”.",
+          "accessed": "2026-10-31",
+          "page": "p. 36 del PDF"
         }
       ],
       "vote_refs": [],
-      "note": "(pendiente de recodificar)"
+      "note": "El programa pide cerrar los centros de internamiento de extranjeros (CIE), que es un instrumento para ejecutar las expulsiones, pero no se pronuncia sobre acelerar o no las devoluciones: no se codifica una posición. Su crítica a la Directiva de retorno de la UE tampoco se refiere a la rapidez de las devoluciones."
     },
     {
       "statement": "cli-nucleares",

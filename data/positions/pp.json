@@ -422,30 +422,30 @@
     },
     {
       "statement": "inm-devolver-irregulares",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
       "sources": [
         {
           "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
           "title": "Plan Nacional para una inmigración legal, ordenada y mutuamente beneficiosa",
           "publisher": "PP",
           "date": "2025-10-14",
-          "quote": "Ni el inmovilismo del “que entre quien quiera” ni el simplismo del “hay que echarlos a todos” ofrecen respuestas a la altura de un gran país.",
-          "accessed": "2026-10-31"
+          "quote": "Mecanismos rápidos para la tramitación de los expedientes de devolución de extranjeros en situación irregular o implicados en actividades criminales",
+          "accessed": "2026-10-31",
+          "page": "p. 7 del PDF"
         },
         {
-          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-68.PDF",
-          "title": "Diario de Sesiones del Congreso, Pleno núm. 68 (intervención de Núñez Feijóo, GP Popular)",
-          "publisher": "Congreso de los Diputados",
-          "date": "2024-10-09",
-          "quote": "hay otras naciones de nuestro entorno que sí han logrado reducir el flujo. Oiga, no haga demagogia: mi grupo no ha cuestionado la migración regular.",
-          "page": "p. 15 del PDF",
+          "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+          "title": "Plan Nacional de Inmigración del PP",
+          "publisher": "PP",
+          "date": "2025-10-14",
+          "quote": "Urge revisar los acuerdos que España mantiene con determinados países, en aras de agilizar los procedimientos de devolución y retorno.",
           "accessed": "2026-10-31"
         }
       ],
       "vote_refs": [],
-      "note": "(pendiente de recodificar)"
+      "note": "Plan oficial del PP (oct. 2025, no es programa electoral): devoluciones con plazos más rápidos, revisión de acuerdos con países de origen para agilizar devolución y retorno, y ampliar el máximo de estancia en CIE para ejecutar expulsiones. Se codifica como declaración oficial (media), no como programa."
     },
     {
       "statement": "cli-nucleares",

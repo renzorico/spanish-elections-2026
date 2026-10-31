@@ -430,15 +430,16 @@
       "sources": [
         {
           "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar 2023",
+          "title": "Programa electoral Sumar, elecciones generales 2023",
           "publisher": "Sumar",
-          "date": "2023-07-07",
-          "quote": "",
-          "accessed": "2026-10-31"
+          "date": "2023-07-01",
+          "quote": "Cierre de los Centros de Internamiento para Extranjeros (CIEs) en todo el territorio nacional.",
+          "accessed": "2026-10-31",
+          "page": "p. 105 del PDF"
         }
       ],
       "vote_refs": [],
-      "note": "(pendiente de recodificar)"
+      "note": "El programa pide cerrar los centros de internamiento de extranjeros (CIE), que es un instrumento para ejecutar las expulsiones, pero no se pronuncia sobre acelerar o no las devoluciones: no se codifica una posición."
     },
     {
       "statement": "cli-nucleares",

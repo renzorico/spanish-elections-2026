@@ -382,21 +382,22 @@
     },
     {
       "statement": "inm-devolver-irregulares",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Programa eleccións xerais 2023",
+          "title": "Programa electoral BNG, elecciones generales 2023",
           "publisher": "BNG",
           "date": "2023-07-05",
-          "quote": "",
-          "accessed": "2026-10-31"
+          "quote": "Peche dos Centros de Internamento para Estranxeiros (CIEs) no Estado español e fin das deportacións",
+          "accessed": "2026-10-31",
+          "page": "p. 20 del PDF"
         }
       ],
       "vote_refs": [],
-      "note": "(pendiente de recodificar)"
+      "note": "Programa explícito: cierre de los CIE y fin de las deportaciones."
     },
     {
       "statement": "cli-nucleares",

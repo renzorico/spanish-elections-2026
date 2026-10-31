@@ -1,0 +1,281 @@
+{
+ "statement": "inm-devolver-irregulares",
+ "coded_on": "2026-10-31",
+ "coded_by": "subagent:recode2-c",
+ "positions": {
+  "pp": {
+   "stance": "agree",
+   "confidence": "medium",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+     "title": "Plan Nacional para una inmigración legal, ordenada y mutuamente beneficiosa",
+     "publisher": "PP",
+     "date": "2025-10-14",
+     "quote": "Mecanismos rápidos para la tramitación de los expedientes de devolución de extranjeros en situación irregular o implicados en actividades criminales",
+     "accessed": "2026-10-31",
+     "page": "p. 7 del PDF"
+    },
+    {
+     "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+     "title": "Plan Nacional de Inmigración del PP",
+     "publisher": "PP",
+     "date": "2025-10-14",
+     "quote": "Urge revisar los acuerdos que España mantiene con determinados países, en aras de agilizar los procedimientos de devolución y retorno.",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Plan oficial del PP (oct. 2025, no es programa electoral): devoluciones con plazos más rápidos, revisión de acuerdos con países de origen para agilizar devolución y retorno, y ampliar el máximo de estancia en CIE para ejecutar expulsiones. Se codifica como declaración oficial (media), no como programa."
+  },
+  "psoe": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
+     "title": "Programa electoral PSOE, elecciones generales 2023",
+     "publisher": "PSOE",
+     "date": "2023-07-07",
+     "quote": "Aplicaremos una política migratoria que reduzca llegadas irregulares y que salve vidas.",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa 2023 solo habla de reducir llegadas irregulares y desmantelar mafias; no menciona devoluciones, expulsiones ni acuerdos de readmisión (el control de llegadas no es una posición sobre devolver). No se ha encontrado una declaración oficial del partido sobre acelerar devoluciones; las declaraciones del Ministerio del Interior sobre el Pacto Europeo no se han podido verificar en esta sesión (la página consultada no devolvió contenido)."
+  },
+  "vox": {
+   "stance": "agree",
+   "confidence": "high",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+     "title": "Programa electoral VOX, elecciones generales 2023",
+     "publisher": "VOX",
+     "date": "2023-07-01",
+     "quote": "Inmediata expulsión de todos los inmigrantes que accedan ilegalmente a nuestro país.",
+     "accessed": "2026-10-31",
+     "page": "medida 202, p. 100 del PDF"
+    },
+    {
+     "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
+     "title": "Programa electoral VOX 2023",
+     "publisher": "VOX",
+     "date": "2023-07-01",
+     "quote": "la gestión eficaz del retorno de inmigrantes ilegales, supeditando los acuerdos de cooperación a la voluntad de repatriación de los estados de origen.",
+     "accessed": "2026-10-31",
+     "page": "medida 211, p. 102 del PDF"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Programa explícito sobre expulsión inmediata y retorno de inmigrantes ilegales. Su PNL de abril de 2024 (expulsión inmediata) fue rechazada por todos los demás grupos según prensa, pero no se ha verificado el JSON oficial de la votación y es un texto de 19 puntos, por lo que no se propone como voto."
+  },
+  "frente-amplio": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+     "title": "Programa electoral Sumar, elecciones generales 2023",
+     "publisher": "Sumar",
+     "date": "2023-07-01",
+     "quote": "Cierre de los Centros de Internamiento para Extranjeros (CIEs) en todo el territorio nacional.",
+     "accessed": "2026-10-31",
+     "page": "p. 105 del PDF"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa de Sumar 2023 pide cerrar todos los CIE, instrumento para ejecutar las expulsiones, y no propone acelerar devoluciones. Medium porque el texto trata el instrumento (CIE), no la devolución en general."
+  },
+  "podemos": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+     "title": "Programa electoral Sumar, elecciones generales 2023",
+     "publisher": "Sumar",
+     "date": "2023-07-01",
+     "quote": "Cierre de los Centros de Internamiento para Extranjeros (CIEs) en todo el territorio nacional.",
+     "accessed": "2026-10-31",
+     "page": "p. 105 del PDF"
+    }
+   ],
+   "vote_refs": [],
+   "note": "La única evidencia verificada es el programa conjunto de Sumar 2023 (cierre de CIE), por lo que se limita a medium. Una noticia de 2026 que atribuye a Podemos la voluntad de acabar con los CIE no se pudo abrir."
+  },
+  "erc": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+     "title": "Programa electoral ERC, elecciones generales 2023",
+     "publisher": "ERC",
+     "date": "2023-07-01",
+     "quote": "Tancament dels Centres d’Internament d’Estrangers (CIE).",
+     "accessed": "2026-10-31",
+     "page": "p. 40 del PDF"
+    },
+    {
+     "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+     "title": "Programa electoral ERC 2023",
+     "publisher": "ERC",
+     "date": "2023-07-01",
+     "quote": "Directiva de retorn (115/2008), més coneguda en el context dels Drets Humans com a “directiva de la vergonya”.",
+     "accessed": "2026-10-31",
+     "page": "p. 36 del PDF"
+    }
+   ],
+   "vote_refs": [],
+   "note": "ERC pide cerrar los CIE y critica la Directiva de retorno de la UE; además exige poner fin a las devoluciones en caliente. No propone acelerar devoluciones."
+  },
+  "junts": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+     "title": "Programa electoral Junts per Catalunya",
+     "publisher": "Junts",
+     "date": "2023-07-01",
+     "quote": "L’eliminació de les devolucions en calent derogant la disposició addicional desena de la Llei orgànica 4/2000",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "El programa solo pide eliminar las devoluciones en caliente y vías de migración regular; no aborda la devolución de irregulares sin derecho a asilo. Sus iniciativas sobre expulsar a multirreincidentes (prensa) son de otro alcance (delincuentes), por lo que no cuentan."
+  },
+  "eh-bildu": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
+     "title": "Programa electoral EH Bildu, elecciones generales 2023",
+     "publisher": "EH Bildu",
+     "date": "2023-07-01",
+     "quote": "Exigiremos el fin de las devoluciones en caliente ya sean por vía terrestre o marítima.",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Solo rechaza las devoluciones en caliente y pide derogar la Ley de Extranjería; no menciona CIE, expulsiones ni retornos en general. Sin evidencia sobre la medida concreta."
+  },
+  "pnv": {
+   "stance": "no_clear_position",
+   "confidence": null,
+   "evidence_type": "none",
+   "sources": [
+    {
+     "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+     "title": "Con voz propia, programa electoral EAJ-PNV 23J",
+     "publisher": "PNV",
+     "date": "2023-07-01",
+     "quote": "velaremos por la aplicación de alternativas a la privación de libertad en los Centros de Internamiento de Extranjeros (CIE), por la reforma del Reglamento de los CIE",
+     "accessed": "2026-10-31",
+     "page": "p. 11 del PDF"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Pide alternativas a la privación de libertad y reformar el reglamento de los CIE, y garantías en las devoluciones en caliente; no rechaza ni defiende acelerar las devoluciones."
+  },
+  "bng": {
+   "stance": "disagree",
+   "confidence": "high",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+     "title": "Programa electoral BNG, elecciones generales 2023",
+     "publisher": "BNG",
+     "date": "2023-07-05",
+     "quote": "Peche dos Centros de Internamento para Estranxeiros (CIEs) no Estado español e fin das deportacións",
+     "accessed": "2026-10-31",
+     "page": "p. 20 del PDF"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Programa explícito: cierre de los CIE y fin de las deportaciones."
+  },
+  "cc": {
+   "stance": "agree",
+   "confidence": "low",
+   "evidence_type": "official_statement",
+   "sources": [
+    {
+     "url": "https://theobjective.com/espana/politica/2024-09-10/feijoo-clavijo-acuerdo-sobre-inmigracion/",
+     "title": "Feijóo y Clavijo cierran un acuerdo sobre inmigración",
+     "publisher": "The Objective",
+     "date": "2024-09-10",
+     "quote": "aumentar el personal en tramitación expedientes de retorno",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Solo prensa: el pacto migratorio PP-CC en Canarias (sept. 2024, firmado por Clavijo como presidente canario) incluye aumentar el personal que tramita expedientes de retorno. El programa 2023 de CC solo habla de cooperación con países de origen contra la inmigración irregular, sin retornos. Confianza baja; no se abrió el texto del pacto en fuente oficial."
+  },
+  "compromis": {
+   "stance": "disagree",
+   "confidence": "medium",
+   "evidence_type": "program_2023",
+   "sources": [
+    {
+     "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+     "title": "Programa electoral 23J Sumar-Compromís",
+     "publisher": "Compromís",
+     "date": "2023-07-01",
+     "quote": "poniendo fin a las políticas de fronteras basadas en la represión, concertinas, expulsiones inmediatas, vuelos de deportación y batidas racistas.",
+     "accessed": "2026-10-31",
+     "page": "p. 13 del PDF"
+    },
+    {
+     "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+     "title": "Programa electoral 23J Sumar-Compromís",
+     "publisher": "Compromís",
+     "date": "2023-07-01",
+     "quote": "Cierre inmediato de los Centros de Internament Extranjeros (CIE)",
+     "accessed": "2026-10-31",
+     "page": "p. 13 del PDF"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Evidencia única: programa conjunto Sumar 2023, límite medium. Rechaza expulsiones inmediatas, vuelos de deportación y los CIE."
+  },
+  "salf": {
+   "stance": "agree",
+   "confidence": "medium",
+   "evidence_type": "program_2026",
+   "sources": [
+    {
+     "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+     "title": "Programa electoral SALF, Castilla y León 2026",
+     "publisher": "SALF",
+     "date": "2026-03-04",
+     "quote": "el que esté ilegal, será repatriado sin excusas.",
+     "accessed": "2026-10-31",
+     "page": "p. 7 del PDF"
+    },
+    {
+     "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+     "title": "Programa electoral SALF CyL 2026",
+     "publisher": "SALF",
+     "date": "2026-03-04",
+     "quote": "ejecutar el mayor plan de deportación de inmigrantes ilegales de la historia reciente del país",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "vote_refs": [],
+   "note": "Programa explícito pero autonómico (Castilla y León, 2026), único documento programático de SALF; se codifica medium por ser regional y de otro nivel de gobierno. SALF no ha publicado programa estatal."
+  }
+ },
+ "proposed_votes": []
+}

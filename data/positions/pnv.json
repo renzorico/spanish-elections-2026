@@ -427,15 +427,16 @@
       "sources": [
         {
           "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-          "title": "Con voz propia. Programa electoral 23-J",
-          "publisher": "EAJ-PNV",
+          "title": "Con voz propia, programa electoral EAJ-PNV 23J",
+          "publisher": "PNV",
           "date": "2023-07-01",
-          "quote": "",
-          "accessed": "2026-10-31"
+          "quote": "velaremos por la aplicación de alternativas a la privación de libertad en los Centros de Internamiento de Extranjeros (CIE), por la reforma del Reglamento de los CIE",
+          "accessed": "2026-10-31",
+          "page": "p. 11 del PDF"
         }
       ],
       "vote_refs": [],
-      "note": "(pendiente de recodificar)"
+      "note": "Pide alternativas a la privación de libertad y reformar el reglamento de los CIE, y garantías en las devoluciones en caliente; no rechaza ni defiende acelerar las devoluciones."
     },
     {
       "statement": "cli-nucleares",

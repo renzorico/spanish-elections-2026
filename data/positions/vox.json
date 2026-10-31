@@ -409,39 +409,31 @@
     },
     {
       "statement": "inm-devolver-irregulares",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
-          "title": "Programa electoral elecciones generales 2023",
-          "publisher": "Vox",
+          "title": "Programa electoral VOX, elecciones generales 2023",
+          "publisher": "VOX",
           "date": "2023-07-01",
-          "quote": "Impulsaremos un bloqueo naval que proteja nuestras costas de la llegada masiva de inmigrantes ilegales",
-          "page": "p. 102 del PDF",
-          "accessed": "2026-10-31"
+          "quote": "Inmediata expulsión de todos los inmigrantes que accedan ilegalmente a nuestro país.",
+          "accessed": "2026-10-31",
+          "page": "medida 202, p. 100 del PDF"
         },
         {
           "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
-          "title": "Programa electoral elecciones generales 2023",
-          "publisher": "Vox",
+          "title": "Programa electoral VOX 2023",
+          "publisher": "VOX",
           "date": "2023-07-01",
-          "quote": "El gobierno de Sánchez y las entidades supranacionales están imponiendo un modelo de puertas abiertas que ha importado inseguridad y ha provocado ruina",
-          "page": "p. 89 del PDF",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.que.es/2026/10/12/precampana-vox-29n-abascal/",
-          "title": "Abascal arranca la precampaña de Vox: vivienda, pensiones y remigración para el 29-N",
-          "publisher": "Qué!",
-          "date": "2026-10-12",
-          "quote": "La formación coloca vivienda, pensiones y 'remigración' en el centro de su discurso",
-          "accessed": "2026-10-31"
+          "quote": "la gestión eficaz del retorno de inmigrantes ilegales, supeditando los acuerdos de cooperación a la voluntad de repatriación de los estados de origen.",
+          "accessed": "2026-10-31",
+          "page": "medida 211, p. 102 del PDF"
         }
       ],
       "vote_refs": [],
-      "note": "(pendiente de recodificar)"
+      "note": "Programa explícito sobre expulsión inmediata y retorno de inmigrantes ilegales. Su PNL de abril de 2024 (expulsión inmediata) fue rechazada por todos los demás grupos según prensa, pero no se ha verificado el JSON oficial de la votación y es un texto de 19 puntos, por lo que no se propone como voto."
     },
     {
       "statement": "cli-nucleares",

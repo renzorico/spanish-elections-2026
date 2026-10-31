@@ -428,21 +428,31 @@
     },
     {
       "statement": "inm-devolver-irregulares",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
       "sources": [
         {
           "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
-          "title": "Programa de Compromís para Compromís-Sumar 2023",
+          "title": "Programa electoral 23J Sumar-Compromís",
           "publisher": "Compromís",
           "date": "2023-07-01",
-          "quote": "",
-          "accessed": "2026-10-31"
+          "quote": "poniendo fin a las políticas de fronteras basadas en la represión, concertinas, expulsiones inmediatas, vuelos de deportación y batidas racistas.",
+          "accessed": "2026-10-31",
+          "page": "p. 13 del PDF"
+        },
+        {
+          "url": "https://sumar.compromis.net/docs/programa-cas.pdf",
+          "title": "Programa electoral 23J Sumar-Compromís",
+          "publisher": "Compromís",
+          "date": "2023-07-01",
+          "quote": "Cierre inmediato de los Centros de Internament Extranjeros (CIE)",
+          "accessed": "2026-10-31",
+          "page": "p. 13 del PDF"
         }
       ],
       "vote_refs": [],
-      "note": "(pendiente de recodificar)"
+      "note": "Evidencia única: programa conjunto Sumar 2023, límite medium. Rechaza expulsiones inmediatas, vuelos de deportación y los CIE."
     },
     {
       "statement": "cli-nucleares",
