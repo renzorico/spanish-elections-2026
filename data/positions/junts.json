@@ -5,17 +5,9 @@
   "positions": [
     {
       "statement": "viv-limite-alquiler",
-      "stance": "disagree",
-      "evidence_type": "vote_xv",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
       "sources": [
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion175/20260428/Votacion003/VOT_20260428200330.json",
-          "title": "Real Decreto-ley 8/2026, de 20 de marzo, de medidas en el alquiler en respuesta a las consecuencias económicas y sociales de la Guerra de Irán.",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-04-28",
-          "quote": "",
-          "accessed": "2026-10-31"
-        },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
           "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
@@ -37,25 +29,8 @@
         "v-alquiler-rdl8-2026-04-28",
         "v-alquiler-temporada-2024-12-17"
       ],
-      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-alquiler-rdl8-2026-04-28).",
-      "confidence": "high"
-    },
-    {
-      "statement": "viv-compra-no-residentes",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
-          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
-          "publisher": "Junts per Catalunya",
-          "date": "2023-07-19",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [],
-      "note": "Cap menció al programa 2023 ni a les propostes web consultades."
+      "note": "Sin posición explícita en los documentos consultados. Su voto en contra del RDL 8/2026 (tope estatal del 2 %) es una votación relacionada y por sí sola no basta para codificar. [Calibración 31/10/2026 tras auditoría de neutralidad.]",
+      "confidence": null
     },
     {
       "statement": "viv-desalojo-rapido",
@@ -143,32 +118,10 @@
       "note": "Rebaixa centrada en rendes mitjanes i del treball (i deflactar trams); no es pronuncia sobre l'impacte en la recaptació."
     },
     {
-      "statement": "eco-impuesto-energeticas-banca",
-      "stance": "disagree",
-      "confidence": "medium",
-      "evidence_type": "official_statement",
-      "sources": [
-        {
-          "url": "https://junts.cat/actualitat/nogueras-quan-junts-te-forca-catalunya-hi-guanya/",
-          "title": "Nogueras: “Quan Junts té força, Catalunya hi guanya”",
-          "publisher": "Junts per Catalunya",
-          "date": "2026-10-27",
-          "quote": "Ha destacat les rebaixes de l’impost de societats per a petites empreses i cooperatives, els incentius fiscals a la creació d’ocupació i el fre al gravamen energètic.",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-impuesto-banca-ley7-2024-11-21",
-        "v-pnl-beneficios-energeticas-2026-09-30"
-      ],
-      "note": "Junts reivindica haver frenat el gravamen a les energètiques. No hem trobat posició oficial sobre l'impost a la banca; el programa 2023 no en parla."
-    },
-    {
       "statement": "tra-jornada-37h",
       "stance": "disagree",
-      "confidence": "medium",
-      "evidence_type": "official_statement",
+      "confidence": "high",
+      "evidence_type": "vote_xv",
       "sources": [
         {
           "url": "https://www.periodicodeibiza.es/noticias/nacional/2025/09/11/2467647/congreso-tumba-reduccion-jornada-laboral-prosperar-veto-vox-junts.html",
@@ -191,7 +144,7 @@
         "v-jornada-totalidad-2025-09-10",
         "v-jornada-pnl-2024-02-22"
       ],
-      "note": "Junts va presentar i mantenir una esmena a la totalitat que va tornar el projecte de 37,5 hores al Govern (10/09/2025). El programa 2023 no en parla. El mapatge sistemàtic de votacions pot elevar-ne la confiança."
+      "note": "Junts presentó y votó a favor de la enmienda a la totalidad que devolvió al Gobierno el proyecto de reducción de jornada (v-jornada-totalidad-2025-09-10). [Calibración 31/10/2026 tras auditoría de neutralidad.]"
     },
     {
       "statement": "tra-salario-minimo",
@@ -481,36 +434,9 @@
       "note": "Junts defensa el dret a l'autodeterminació de Catalunya sense condicionar-lo a un acord amb l'Estat; el programa no parla explícitament d'un referèndum pactat."
     },
     {
-      "statement": "ter-financiacion-cataluna",
-      "stance": "agree",
-      "confidence": "high",
-      "evidence_type": "program_2023",
-      "sources": [
-        {
-          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
-          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
-          "publisher": "Junts per Catalunya",
-          "date": "2023-07-19",
-          "quote": "La Generalitat ha de tenir la titularitat de tots els impostos suportats a Catalunya",
-          "page": "p. 59 (PDF)",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://junts.cat/propostes/financament-per-catalunya/",
-          "title": "Propostes: Finançament per Catalunya",
-          "publisher": "Junts per Catalunya",
-          "quote": "Per això reclamem un concert econòmic que permeti recaptar i gestionar els nostres recursos des de Catalunya",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-financiacion-singular-2024-04-23"
-      ]
-    },
-    {
       "statement": "ter-recentralizar",
       "stance": "disagree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "official_statement",
       "sources": [
         {
@@ -530,11 +456,12 @@
           "accessed": "2026-10-31"
         }
       ],
-      "vote_refs": []
+      "vote_refs": [],
+      "note": " Declaración oficial: confianza media. [Calibración 31/10/2026 tras auditoría de neutralidad.]"
     },
     {
-      "statement": "ter-lenguas-congreso",
-      "stance": "agree",
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -557,7 +484,8 @@
       ],
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
-      ]
+      ],
+      "note": "[La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "edu-concertada",
@@ -663,17 +591,9 @@
     },
     {
       "statement": "ins-derogar-memoria",
-      "stance": "disagree",
-      "evidence_type": "vote_xv",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
       "sources": [
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion040/20240523/Votacion004/VOT_20240523140934.json",
-          "title": "Proposición no de Ley del Grupo Parlamentario Socialista, sobre la garantía de la aplicación de las políticas de memoria democrática en España. Se vota en los términos resultantes de la incorporación de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Plurinacional SUMAR.",
-          "publisher": "Congreso de los Diputados",
-          "date": "2024-05-23",
-          "quote": "",
-          "accessed": "2026-10-31"
-        },
         {
           "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
           "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
@@ -688,8 +608,8 @@
         "v-memoria-mocion-2024-02-06",
         "v-memoria-pnl-2024-05-23"
       ],
-      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-memoria-pnl-2024-05-23). [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]",
-      "confidence": "high"
+      "note": "Sin posición explícita sobre la derogación: Junts critica la ley por insuficiente y votó a favor de iniciativas sobre su aplicación (votaciones relacionadas, que por sí solas no bastan para codificar). [Calibración 31/10/2026 tras auditoría de neutralidad.]",
+      "confidence": null
     },
     {
       "statement": "ext-gasto-defensa",
@@ -721,7 +641,7 @@
       "statement": "ext-embargo-israel",
       "stance": "agree",
       "confidence": "high",
-      "evidence_type": "official_statement",
+      "evidence_type": "vote_xv",
       "sources": [
         {
           "url": "https://rtvc.es/congreso-aprueba-embargo-armas-israel-8-octubre-2025/",

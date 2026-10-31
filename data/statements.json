@@ -12,23 +12,11 @@
     }
   },
   {
-    "id": "viv-compra-no-residentes",
-    "topic": "vivienda",
-    "text": {
-      "es": "La compra de vivienda por personas que no residen en la Unión Europea debería tener impuestos mucho más altos.",
-      "en": "Home purchases by people who do not live in the European Union should be taxed much more heavily."
-    },
-    "context": {
-      "es": "En enero de 2025 el Gobierno anunció una propuesta de gravamen de hasta el 100 % sobre estas compras.",
-      "en": "In January 2025 the Government announced a proposal for a levy of up to 100% on such purchases."
-    }
-  },
-  {
     "id": "viv-desalojo-rapido",
     "topic": "vivienda",
     "text": {
-      "es": "Debería acelerarse por ley el desalojo de viviendas ocupadas sin permiso del propietario, también cuando los ocupantes estén en situación vulnerable.",
-      "en": "The law should speed up the eviction of people occupying a home without the owner's permission, including when the occupants are in a vulnerable situation."
+      "es": "Debería acelerarse por ley el desalojo de viviendas ocupadas sin permiso del propietario.",
+      "en": "The law should speed up the eviction of people occupying a home without the owner's permission."
     },
     "context": {
       "es": "Ocupar una vivienda sin título es delito; el tiempo que tarda el desalojo depende del procedimiento judicial y de si hay personas vulnerables.",
@@ -51,8 +39,8 @@
     "id": "eco-bajar-irpf",
     "topic": "economia",
     "text": {
-      "es": "Deberían bajarse los impuestos sobre la renta (IRPF), aunque el Estado ingrese menos.",
-      "en": "Income tax (IRPF) should be lowered, even if the State collects less revenue."
+      "es": "Deberían bajarse los impuestos sobre la renta (IRPF).",
+      "en": "Income tax (IRPF) should be lowered."
     },
     "context": {
       "es": "El IRPF es el impuesto que pagan las personas por sus ingresos; su recaudación se reparte entre el Estado y las comunidades autónomas.",
@@ -60,15 +48,27 @@
     }
   },
   {
-    "id": "eco-impuesto-energeticas-banca",
+    "id": "eco-impuesto-energeticas",
     "topic": "economia",
     "text": {
-      "es": "Las grandes empresas energéticas y los bancos deberían pagar un impuesto especial sobre sus beneficios.",
-      "en": "Large energy companies and banks should pay a special tax on their profits."
+      "es": "Debería volver a aplicarse un impuesto especial sobre los beneficios de las grandes empresas energéticas.",
+      "en": "A special tax on the profits of large energy companies should be reintroduced."
     },
     "context": {
-      "es": "En 2023 y 2024 se aplicaron gravámenes temporales a grandes energéticas y entidades financieras. Su continuidad ha sido objeto de votaciones en el Congreso.",
-      "en": "Temporary levies on large energy companies and banks applied in 2023 and 2024. Whether to continue them has been voted on in the Congreso."
+      "es": "Entre 2023 y 2024 se aplicó un gravamen temporal a las grandes energéticas. En enero de 2025 el Congreso no convalidó su prórroga y dejó de aplicarse.",
+      "en": "A temporary levy on large energy companies applied in 2023 and 2024. In January 2025 the Congreso rejected its extension and it lapsed."
+    }
+  },
+  {
+    "id": "eco-suprimir-impuesto-banca",
+    "topic": "economia",
+    "text": {
+      "es": "Debería eliminarse el impuesto especial a la banca.",
+      "en": "The special tax on banks should be abolished."
+    },
+    "context": {
+      "es": "La Ley 7/2024 creó un impuesto sobre el margen de intereses y comisiones de las entidades financieras, que sustituyó al gravamen temporal de 2023-2024.",
+      "en": "Law 7/2024 created a tax on banks' net interest and fee income, replacing the temporary levy of 2023-2024."
     }
   },
   {
@@ -79,8 +79,8 @@
       "en": "The legal maximum working week should be cut to 37.5 hours without a pay cut."
     },
     "context": {
-      "es": "La jornada máxima legal es de 40 horas semanales. Un proyecto de ley para reducirla a 37,5 horas se votó en el Congreso en septiembre de 2025.",
-      "en": "The legal maximum is 40 hours a week. A bill to cut it to 37.5 hours was voted on in the Congreso in September 2025."
+      "es": "La jornada máxima legal es de 40 horas semanales. En septiembre de 2025 el Congreso aprobó devolver al Gobierno un proyecto de ley para reducirla a 37,5 horas, que no siguió adelante.",
+      "en": "The legal maximum is 40 hours a week. In September 2025 the Congreso voted to send back a bill cutting it to 37.5 hours, which did not go ahead."
     }
   },
   {
@@ -127,8 +127,8 @@
       "en": "The right to abortion should be written into the Constitution."
     },
     "context": {
-      "es": "El aborto está regulado por la Ley Orgánica 2/2010. Reformar la Constitución requiere mayorías de tres quintos en ambas cámaras.",
-      "en": "Abortion is regulated by Organic Law 2/2010. Amending the Constitution requires three-fifths majorities in both chambers."
+      "es": "El aborto está regulado por la Ley Orgánica 2/2010. En 2026 el Gobierno presentó un proyecto para incluirlo en el artículo 43 de la Constitución, que decayó con la disolución de las Cortes. Reformar la Constitución requiere tres quintos de ambas cámaras.",
+      "en": "Abortion is regulated by Organic Law 2/2010. In 2026 the Government tabled a bill to add it to article 43 of the Constitution, which lapsed when Parliament was dissolved. Amending the Constitution requires three-fifths of both chambers."
     }
   },
   {
@@ -159,12 +159,12 @@
     "id": "inm-regularizacion",
     "topic": "inmigracion",
     "text": {
-      "es": "Debería hacerse una regularización extraordinaria de las personas extranjeras que ya viven en España sin permiso de residencia.",
-      "en": "There should be a one-off regularisation of foreign nationals already living in Spain without a residence permit."
+      "es": "Deberían hacerse regularizaciones extraordinarias de las personas extranjeras que ya viven en España sin permiso de residencia.",
+      "en": "There should be one-off regularisations of foreign nationals already living in Spain without a residence permit."
     },
     "context": {
-      "es": "En abril de 2024 el Congreso admitió a trámite una iniciativa legislativa popular (ILP), apoyada por más de 600.000 firmas, para una regularización extraordinaria.",
-      "en": "In April 2024 the Congreso agreed to consider a citizens' legislative initiative, backed by over 600,000 signatures, for a one-off regularisation."
+      "es": "En 2024 el Congreso admitió a trámite una iniciativa legislativa popular para una regularización extraordinaria. En abril de 2026 el Gobierno aprobó una por real decreto (RD 316/2026), sin votación en el Congreso.",
+      "en": "In 2024 the Congreso agreed to consider a citizens' initiative for a one-off regularisation. In April 2026 the Government approved one by royal decree (RD 316/2026), without a vote in the Congreso."
     }
   },
   {
@@ -211,8 +211,8 @@
       "en": "Sales of new petrol or diesel cars should still be allowed after 2035."
     },
     "context": {
-      "es": "Lo establece una norma de la Unión Europea aprobada en 2023; su posible flexibilización se debate en la UE.",
-      "en": "This comes from an EU rule adopted in 2023; possible changes to it are being debated in the EU."
+      "es": "Una norma de la UE de 2023 prohíbe vender coches nuevos de gasolina o diésel desde 2035. En 2025 la Comisión Europea propuso flexibilizarla.",
+      "en": "A 2023 EU rule bans sales of new petrol or diesel cars from 2035. In 2025 the European Commission proposed relaxing it."
     }
   },
   {
@@ -240,15 +240,15 @@
     }
   },
   {
-    "id": "ter-financiacion-cataluna",
+    "id": "ter-concierto-ccaa",
     "topic": "territorial",
     "text": {
-      "es": "Cataluña debería recaudar y gestionar todos sus impuestos, con un modelo parecido al del País Vasco y Navarra.",
-      "en": "Catalonia should collect and manage all of its taxes, under a model similar to that of the Basque Country and Navarre."
+      "es": "Las comunidades autónomas que lo pidan deberían poder recaudar y gestionar todos sus impuestos, como hacen el País Vasco y Navarra.",
+      "en": "Regions that ask for it should be able to collect and manage all of their taxes, as the Basque Country and Navarre do."
     },
     "context": {
-      "es": "El País Vasco y Navarra recaudan casi todos sus impuestos (concierto y convenio). El resto de comunidades se financian con el sistema común.",
-      "en": "The Basque Country and Navarre collect almost all their own taxes. The other regions are funded through the common system."
+      "es": "El País Vasco y Navarra recaudan casi todos sus impuestos (concierto y convenio económico). El resto de comunidades se financian con el sistema común.",
+      "en": "The Basque Country and Navarre collect almost all their own taxes (economic agreement). The other regions are funded through the common system."
     }
   },
   {
@@ -259,20 +259,20 @@
       "en": "Education and health care should go back to being managed by the central State instead of the regions."
     },
     "context": {
-      "es": "Desde los años 80 y 90 las comunidades autónomas gestionan la educación y la sanidad.",
-      "en": "Since the 1980s and 1990s, the regions have managed education and health care."
+      "es": "Entre los años 80 y 2002 el Estado traspasó a las comunidades autónomas la gestión de la educación y la sanidad.",
+      "en": "Between the 1980s and 2002 the State transferred the management of education and health care to the regions."
     }
   },
   {
-    "id": "ter-lenguas-congreso",
+    "id": "ter-solo-castellano-congreso",
     "topic": "territorial",
     "text": {
-      "es": "Debería seguir permitiéndose usar el catalán, el euskera y el gallego en los debates del Congreso.",
-      "en": "Catalan, Basque and Galician should continue to be allowed in Congreso debates."
+      "es": "En los debates del Congreso solo debería poder usarse el castellano.",
+      "en": "Only Spanish should be allowed in Congreso debates."
     },
     "context": {
-      "es": "El Congreso reformó su Reglamento en 2023 para permitirlo, con interpretación simultánea.",
-      "en": "The Congreso changed its rules in 2023 to allow this, with simultaneous interpretation."
+      "es": "Desde 2023 el Reglamento del Congreso permite usar también el catalán, el euskera y el gallego, con interpretación simultánea.",
+      "en": "Since 2023 the Congreso's rules also allow Catalan, Basque and Galician, with simultaneous interpretation."
     }
   },
   {
@@ -339,12 +339,12 @@
     "id": "ext-gasto-defensa",
     "topic": "exterior",
     "text": {
-      "es": "España debería aumentar su gasto en defensa hasta alcanzar los objetivos fijados por la OTAN.",
-      "en": "Spain should increase defence spending to meet the targets set by NATO."
+      "es": "España debería aumentar su gasto en defensa hasta el 3,5 % del PIB, el objetivo acordado en la OTAN en 2025.",
+      "en": "Spain should raise defence spending to 3.5% of GDP, the target agreed in NATO in 2025."
     },
     "context": {
-      "es": "En la cumbre de la OTAN de 2025 los aliados fijaron un objetivo de hasta el 5 % del PIB; España defendió que le basta con alrededor del 2,1 %.",
-      "en": "At the 2025 NATO summit allies set a target of up to 5% of GDP; Spain argued that around 2.1% is enough for it."
+      "es": "En la cumbre de La Haya (2025) los aliados acordaron llegar en 2035 al 3,5 % del PIB en defensa (5 % sumando gastos relacionados). España obtuvo una excepción y sostiene que le basta con alrededor del 2,1 %.",
+      "en": "At the 2025 Hague summit allies agreed to reach 3.5% of GDP on defence by 2035 (5% including related spending). Spain obtained an exception and argues that around 2.1% is enough for it."
     }
   },
   {

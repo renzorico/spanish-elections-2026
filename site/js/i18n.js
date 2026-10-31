@@ -15,7 +15,7 @@ export const STRINGS = {
     explainerTitle: 'En 1 minuto: qué se elige el 29 de noviembre',
     explainer: [
       'No se vota directamente al presidente del Gobierno. Se elige el Parlamento: 350 diputados del Congreso y la mayoría de senadores.',
-      'En el Congreso votas a una lista cerrada de un partido en tu provincia. Cada provincia elige un número fijo de diputados según su población (Ceuta y Melilla, uno cada una).',
+      'En el Congreso votas a una lista cerrada de un partido en tu provincia. Cada provincia elige un número fijo de diputados según su población, con un mínimo de dos (Ceuta y Melilla, uno cada una).',
       'Los escaños de cada provincia se reparten entre las listas con al menos el 3 % de los votos válidos, usando el sistema D\'Hondt, que tiende a favorecer a los partidos más votados en cada provincia.',
       'Después, el Congreso vota a un candidato a la Presidencia del Gobierno. Necesita mayoría absoluta (176) en la primera votación o más síes que noes en la segunda. Por eso suelen ser necesarios acuerdos entre partidos.',
       'Los partidos que se presentan cambian según la provincia: algunos solo concurren en ciertas comunidades.',
@@ -40,7 +40,7 @@ export const STRINGS = {
       'Porcentaje de coincidencia entre tus respuestas y las posiciones documentadas de cada partido. Los partidos aparecen en orden aleatorio. Mira el detalle por tema: una cifra total no lo dice todo.',
     resultsNoAnswers: 'No has respondido a ninguna afirmación. Vuelve atrás para responder al menos una.',
     sortToggle: 'Ordenar por mi coincidencia total',
-    lowToggle: 'Excluir posiciones con confianza baja',
+    lowToggle: 'Excluir posiciones con confianza baja (basadas solo en prensa o en evidencia indirecta)',
     showAllToggle: 'Mostrar también los partidos que no presentan lista en mi provincia',
     provinceNotice: (status) =>
       status === 'proclaimed'
@@ -51,7 +51,9 @@ export const STRINGS = {
     overall: 'Coincidencia total',
     noScore: 'Sin datos suficientes para calcular',
     coverage: (a, b) => `Basado en ${a} de ${b} afirmaciones que respondiste`,
-    limitedData: 'Datos limitados: este partido no tiene posición documentada en muchas de tus afirmaciones.',
+    limitedData: 'Datos limitados: este partido no tiene posición documentada en la mitad o más de tus afirmaciones. Al ordenar, aparece después de los demás.',
+    ballotName: 'En la papeleta de tu provincia',
+    coalitionNotice: 'Concurre dentro de una coalición encabezada por otro partido: se muestran las posiciones del partido a escala estatal, no necesariamente las de la coalición.',
     programPending: 'Programa 2026 pendiente',
     programPublished: 'Programa 2026 incluido',
     details: 'Ver detalle por tema y fuentes',
@@ -100,7 +102,7 @@ export const STRINGS = {
     explainerTitle: 'In one minute: what is elected on 29 November',
     explainer: [
       'You do not vote directly for the Prime Minister. You elect Parliament: the 350 members of the Congreso and most senators.',
-      'For the Congreso you vote for a closed party list in your province. Each province elects a fixed number of deputies based on population (Ceuta and Melilla, one each).',
+      'For the Congreso you vote for a closed party list in your province. Each province elects a fixed number of deputies based on population, with a minimum of two (Ceuta and Melilla, one each).',
       'Seats in each province are shared among lists with at least 3% of valid votes, using the D\'Hondt method, which tends to favour the largest parties in each province.',
       'The Congreso then votes on a candidate for Prime Minister, who needs an absolute majority (176) in the first vote or more yes than no votes in the second. That is why agreements between parties are often needed.',
       'Which parties are on the ballot depends on the province: some only run in certain regions.',
@@ -125,7 +127,7 @@ export const STRINGS = {
       'Percentage of agreement between your answers and each party\'s documented positions. Parties are listed in random order. Look at the topic breakdown: one overall number does not tell the whole story.',
     resultsNoAnswers: 'You have not answered any statement. Go back and answer at least one.',
     sortToggle: 'Sort by my overall agreement',
-    lowToggle: 'Exclude low-confidence positions',
+    lowToggle: 'Exclude low-confidence positions (based only on press or indirect evidence)',
     showAllToggle: 'Also show parties without a list in my province',
     provinceNotice: (status) =>
       status === 'proclaimed'
@@ -136,7 +138,9 @@ export const STRINGS = {
     overall: 'Overall agreement',
     noScore: 'Not enough data to calculate',
     coverage: (a, b) => `Based on ${a} of the ${b} statements you answered`,
-    limitedData: 'Limited data: this party has no documented position on many of your statements.',
+    limitedData: 'Limited data: this party has no documented position on half or more of your statements. When sorting, it is listed after the others.',
+    ballotName: "On your province's ballot",
+    coalitionNotice: "Runs within a coalition headed by another party: the party's statewide positions are shown, not necessarily the coalition's.",
     programPending: '2026 program pending',
     programPublished: '2026 program included',
     details: 'See topic breakdown and sources',

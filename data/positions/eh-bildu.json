@@ -26,24 +26,6 @@
       "note": "El programa presenta como logro propio la aprobación de la Ley de Vivienda que limita los alquileres en zonas tensionadas."
     },
     {
-      "statement": "viv-compra-no-residentes",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
-          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
-          "publisher": "EH Bildu",
-          "date": "2023-07-06",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni en declaraciones oficiales revisadas."
-    },
-    {
       "statement": "viv-desalojo-rapido",
       "stance": "disagree",
       "confidence": "medium",
@@ -118,28 +100,6 @@
         "v-irpf-deflactar-2025-06-12"
       ],
       "note": "EH Bildu votó No (6) al punto de la moción del PP que pedía deflactar de forma generalizada el IRPF (22-04-2026). Es un voto sobre una medida relacionada (deflactación), no una rebaja de tipos; el programa 2023 no trata el IRPF."
-    },
-    {
-      "statement": "eco-impuesto-energeticas-banca",
-      "stance": "agree",
-      "confidence": "high",
-      "evidence_type": "program_2023",
-      "sources": [
-        {
-          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
-          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
-          "publisher": "EH Bildu",
-          "date": "2023-07-06",
-          "quote": "Aumentar la carga impositiva y convertir en permanentes los impuestos a la banca, energéticas y grandes fortunas",
-          "accessed": "2026-10-31",
-          "page": "p. 8"
-        }
-      ],
-      "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-impuesto-banca-ley7-2024-11-21",
-        "v-pnl-beneficios-energeticas-2026-09-30"
-      ]
     },
     {
       "statement": "tra-jornada-37h",
@@ -432,26 +392,6 @@
       "note": "Defiende el derecho a decidir de Euskal Herria con 'el diálogo y el acuerdo como base'."
     },
     {
-      "statement": "ter-financiacion-cataluna",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://www.newtral.es/wp-content/uploads/2023/07/Programa-electoral-EHBildu-23j-2023.pdf",
-          "title": "Compromiso de Euskal Herria Bildu. Garantía para más derechos, más bienestar, más libertades, más soberanía (programa elecciones generales 23-J 2023)",
-          "publisher": "EH Bildu",
-          "date": "2023-07-06",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-financiacion-singular-2024-04-23"
-      ],
-      "note": "No se encontró una posición específica de EH Bildu sobre el modelo de financiación de Cataluña; el programa 2023 solo trata el Concierto vasco y el Convenio navarro."
-    },
-    {
       "statement": "ter-recentralizar",
       "stance": "disagree",
       "confidence": "high",
@@ -470,8 +410,8 @@
       "vote_refs": []
     },
     {
-      "statement": "ter-lenguas-congreso",
-      "stance": "agree",
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "vote_xv",
       "sources": [
@@ -496,7 +436,7 @@
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
       ],
-      "note": "Votó a favor (6 Sí) de la reforma del Reglamento que permite las lenguas cooficiales (21-09-2023)."
+      "note": "Votó a favor (6 Sí) de la reforma del Reglamento que permite las lenguas cooficiales (21-09-2023). [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "edu-concertada",

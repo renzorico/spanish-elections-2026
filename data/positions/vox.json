@@ -34,32 +34,6 @@
       ]
     },
     {
-      "statement": "viv-compra-no-residentes",
-      "stance": "agree",
-      "confidence": "medium",
-      "evidence_type": "official_statement",
-      "sources": [
-        {
-          "url": "https://forbes.es/economia/821981/vox-propone-costear-las-ayudas-a-espanoles-para-vivienda-con-mas-impuestos-a-los-compradores-extranjeros/",
-          "title": "Vox propone costear las ayudas a españoles para vivienda con más impuestos a los compradores extranjeros",
-          "publisher": "Forbes España",
-          "date": "2025-11-03",
-          "quote": "Vox ha registrado una iniciativa en el Congreso con la que plantea gravar con más impuestos a los compradores extranjeros de vivienda",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://brainsre.news/vox-elevar-impuestos-compradores-extranjeros-casas/",
-          "title": "Vox propone aumentar los impuestos a compradores extranjeros de vivienda para facilitar el acceso a los españoles",
-          "publisher": "Brains RE News",
-          "date": "2025-11-04",
-          "quote": "Vox ha presentado en el Congreso una proposición no de ley con la que pretende gravar con más impuestos la compra de viviendas por parte de extranjeros",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [],
-      "note": "Based on press reports (two outlets) of a Vox proposición no de ley registered in the Congreso in Nov 2025. Vox targets foreign buyers in general (not specifically non-EU non-residents) and the reports give no tax rate; the 2023 program does not address this. Primary BOCG text not consulted."
-    },
-    {
       "statement": "viv-desalojo-rapido",
       "stance": "agree",
       "confidence": "medium",
@@ -128,28 +102,6 @@
         "v-irpf-deflactar-2024-04-09",
         "v-irpf-deflactar-2025-06-12"
       ]
-    },
-    {
-      "statement": "eco-impuesto-energeticas-banca",
-      "stance": "disagree",
-      "confidence": "high",
-      "evidence_type": "vote_xv",
-      "sources": [
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
-          "title": "Votación Congreso XV, sesión 89, votación 2 (22/01/2025): convalidación del RDL 10/2024",
-          "publisher": "Congreso de los Diputados",
-          "date": "2025-01-22",
-          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-impuesto-banca-ley7-2024-11-21",
-        "v-pnl-beneficios-energeticas-2026-09-30"
-      ],
-      "note": "All 33 Vox deputies voted against validating the 2025 temporary levy on energy companies (decree defeated 165-183). This vote covers only the energy-company part of the statement; no direct vote on the banking levy was checked. The 2023 program proposes broad tax cuts."
     },
     {
       "statement": "tra-jornada-37h",
@@ -477,35 +429,6 @@
       "note": "The program does not address a referendum agreed with the State specifically. It opposes any route to secession, including outlawing separatist parties."
     },
     {
-      "statement": "ter-financiacion-cataluna",
-      "stance": "disagree",
-      "confidence": "high",
-      "evidence_type": "program_2023",
-      "sources": [
-        {
-          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
-          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
-          "publisher": "Vox",
-          "date": "2023-07-06",
-          "quote": "la gestión y recaudación de todos los tributos estatales, cedidos o no, se realizará por la AEAT, poniendo fin a la proliferación de Agencias tributarias regionales",
-          "page": "p. 78",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://votaabascal.es/assets/pdf/Programa-VOX-2023.pdf",
-          "title": "Programa electoral para las Elecciones Generales 23 de julio de 2023",
-          "publisher": "Vox",
-          "date": "2023-07-06",
-          "quote": "Suprimiremos todos los privilegios legales y fiscales amparados en supuestos “derechos históricos”",
-          "page": "p. 8",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-financiacion-singular-2024-04-23"
-      ]
-    },
-    {
       "statement": "ter-recentralizar",
       "stance": "agree",
       "confidence": "high",
@@ -524,8 +447,8 @@
       "vote_refs": []
     },
     {
-      "statement": "ter-lenguas-congreso",
-      "stance": "disagree",
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "agree",
       "confidence": "high",
       "evidence_type": "vote_xv",
       "sources": [
@@ -541,7 +464,7 @@
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
       ],
-      "note": "All 33 Vox deputies voted against the Rules reform that allows Catalan, Basque and Galician in the Congreso (180-170). Vox had also filed an alternative full text (votación 1)."
+      "note": "All 33 Vox deputies voted against the Rules reform that allows Catalan, Basque and Galician in the Congreso (180-170). Vox had also filed an alternative full text (votación 1). [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "edu-concertada",

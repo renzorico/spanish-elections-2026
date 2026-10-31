@@ -26,24 +26,6 @@
       "note": "El programa 2023 apoya fomentar el alquiler y la vivienda pública y rechaza propuestas estatales que 'erosionen nuestro autogobierno', sin pronunciarse sobre limitar precios."
     },
     {
-      "statement": "viv-compra-no-residentes",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-          "title": "Con voz propia / Euskadiren ahotsa. Programa Electoral 23-J",
-          "publisher": "EAJ-PNV",
-          "date": "2023-07-23",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas."
-    },
-    {
       "statement": "viv-desalojo-rapido",
       "stance": "agree",
       "confidence": "medium",
@@ -134,36 +116,6 @@
         "v-irpf-deflactar-2025-06-12"
       ],
       "note": "El programa 2023 no trata el IRPF estatal (en Euskadi es foral). El PNV se abstuvo (5) en el punto de la moción del PP sobre deflactación generalizada del IRPF (22-04-2026); una abstención sin explicar no se codifica como postura."
-    },
-    {
-      "statement": "eco-impuesto-energeticas-banca",
-      "stance": "neutral",
-      "confidence": "medium",
-      "evidence_type": "official_statement",
-      "sources": [
-        {
-          "url": "https://congreso.eaj-pnv.eus/es/noticias/56081/el-grupo-vasco-logra-la-concertacion-con-capacidad",
-          "title": "El Grupo Vasco logra la concertación con capacidad normativa de los impuestos a grupos multinacionales y banca, que serán así regulados por las haciendas forales",
-          "publisher": "EAJ-PNV (Grupo Vasco en el Congreso)",
-          "date": "2024-10-30",
-          "quote": "El gravamen a energéticas decaerá por factores externos a la formación jeltzale, que ha mostrado su voluntad de convertir en impuesto y concertar dicho tributo.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.eaj-pnv.eus/es/noticias/56223/aitor-esteban-no-participara-en-el-paripe-promovid/",
-          "title": "Aitor Esteban no participará en el “paripé” promovido por Podemos para negociar un gravamen a las energéticas",
-          "publisher": "EAJ-PNV",
-          "date": "2024-12-11",
-          "quote": "reformar el Impuesto de Sociedades para dejar de hacer parches impositivos que generan inseguridad jurídica",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-impuesto-banca-ley7-2024-11-21",
-        "v-pnl-beneficios-energeticas-2026-09-30"
-      ],
-      "note": "Posición condicionada: el PNV acepta el impuesto a la banca si está concertado con las haciendas forales, pero no apoyó prorrogar el gravamen energético y pide reformar el Impuesto de Sociedades en lugar de 'parches'."
     },
     {
       "statement": "tra-jornada-37h",
@@ -454,26 +406,6 @@
       "note": "El programa defiende el 'derecho a decidir' y la bilateralidad con el Estado, sin usar la palabra referéndum."
     },
     {
-      "statement": "ter-financiacion-cataluna",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-          "title": "Con voz propia / Euskadiren ahotsa. Programa Electoral 23-J",
-          "publisher": "EAJ-PNV",
-          "date": "2023-07-23",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-financiacion-singular-2024-04-23"
-      ],
-      "note": "El PNV pide que el debate sobre la financiación catalana no afecte al Concierto vasco; no se encontró una posición explícita sobre que Cataluña recaude todos sus impuestos."
-    },
-    {
       "statement": "ter-recentralizar",
       "stance": "disagree",
       "confidence": "high",
@@ -492,8 +424,8 @@
       "vote_refs": []
     },
     {
-      "statement": "ter-lenguas-congreso",
-      "stance": "agree",
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "vote_xv",
       "sources": [
@@ -518,7 +450,7 @@
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
       ],
-      "note": "Votó Sí (5) a la reforma del Reglamento (21-09-2023)."
+      "note": "Votó Sí (5) a la reforma del Reglamento (21-09-2023). [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "edu-concertada",

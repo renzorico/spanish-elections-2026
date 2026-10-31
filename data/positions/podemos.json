@@ -34,23 +34,6 @@
       "note": "Evidence: the joint Sumar 2023 program (Podemos ran inside Sumar), and Podemos' 4 deputies voting yes on RDL 8/2026 on rent measures (closely related). Podemos' own site (podemos.info) returned HTTP 403 and could not be checked."
     },
     {
-      "statement": "viv-compra-no-residentes",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
-          "publisher": "Sumar",
-          "date": "2023-07-10",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [],
-      "note": "Nothing explicit found. The Sumar 2023 joint program only says it would study residence conditions for purchases. podemos.info could not be reached (HTTP 403)."
-    },
-    {
       "statement": "viv-desalojo-rapido",
       "stance": "no_clear_position",
       "evidence_type": "none",
@@ -110,29 +93,6 @@
         "v-irpf-deflactar-2025-06-12"
       ],
       "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. The joint program raises top IRPF rates; it does not propose a general cut."
-    },
-    {
-      "statement": "eco-impuesto-energeticas-banca",
-      "stance": "agree",
-      "confidence": "high",
-      "evidence_type": "program_2023",
-      "sources": [
-        {
-          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
-          "publisher": "Sumar",
-          "date": "2023-07-10",
-          "quote": "Mantendremos los impuestos extraordinarios sobre las empresas energéticas y financieras mientras se aprueba e implementa completamente la reforma integral del impuesto de sociedades.",
-          "page": "PDF p. 16",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-impuesto-banca-ley7-2024-11-21",
-        "v-pnl-beneficios-energeticas-2026-09-30"
-      ],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
     },
     {
       "statement": "tra-jornada-37h",
@@ -381,12 +341,12 @@
         "v-nucleares-pnl-2025-02-12",
         "v-nucleares-pl-2025-06-17"
       ],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. No Podemos statement on the 2026 Almaraz extension was found."
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is (the joint-program cap does not apply because a direct vote supports this coding) when it is the only evidence. No Podemos statement on the 2026 Almaraz extension was found."
     },
     {
       "statement": "cli-coches-combustion-despues-2035",
       "stance": "disagree",
-      "confidence": "low",
+      "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
         {
@@ -400,7 +360,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. This is only indirect evidence: the joint program's 2040 goal implies the 2035 sales ban, which it does not name. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence. This is only indirect evidence: the joint program's 2040 goal implies the 2035 sales ban, which it does not name. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.] Misma evidencia y confianza que Frente Amplio (programa conjunto de Sumar 2023)."
     },
     {
       "statement": "ter-amnistia",
@@ -441,25 +401,6 @@
       "note": "The joint 2023 program supports a vote on a negotiated agreement, not an independence referendum. No current Podemos document found; podemos.info could not be reached (HTTP 403)."
     },
     {
-      "statement": "ter-financiacion-cataluna",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
-          "publisher": "Sumar",
-          "date": "2023-07-10",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-financiacion-singular-2024-04-23"
-      ],
-      "note": "No explicit position found. podemos.info could not be reached (HTTP 403)."
-    },
-    {
       "statement": "ter-recentralizar",
       "stance": "no_clear_position",
       "evidence_type": "none",
@@ -477,8 +418,8 @@
       "note": "No explicit position found in the joint program. Not inferred."
     },
     {
-      "statement": "ter-lenguas-congreso",
-      "stance": "agree",
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "vote_xv",
       "sources": [
@@ -494,7 +435,7 @@
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
       ],
-      "note": "In September 2023 Podemos' deputies still sat in the SUMAR group, which voted 31 yes on the reform of the Congreso rules allowing co-official languages. Per-deputy records for the related amendment votes show Belarra, Sánchez Serna, Velarde and Santana voting with the group."
+      "note": "In September 2023 Podemos' deputies still sat in the SUMAR group, which voted 31 yes on the reform of the Congreso rules allowing co-official languages. Per-deputy records for the related amendment votes show Belarra, Sánchez Serna, Velarde and Santana voting with the group. [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "edu-concertada",
@@ -552,7 +493,7 @@
         "v-cgpj-vox-2024-02-27",
         "v-cgpj-pp-2026-09-10"
       ],
-      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is capped at medium when it is the only evidence."
+      "note": "Podemos ran inside Sumar in 2023; the Sumar 2023 program was a joint program, so confidence is (the joint-program cap does not apply because a direct vote supports this coding) when it is the only evidence."
     },
     {
       "statement": "ins-referendum-monarquia",
@@ -591,7 +532,7 @@
     {
       "statement": "ins-derogar-memoria",
       "stance": "disagree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "program_2023",
       "sources": [
         {

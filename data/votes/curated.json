@@ -9,8 +9,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion175/20260428/Votacion003/VOT_20260428200330.json",
     "title": "Real Decreto-ley 8/2026, de 20 de marzo, de medidas en el alquiler en respuesta a las consecuencias económicas y sociales de la Guerra de Irán.",
     "yes_means": "agree",
-    "note": "Convalidación del RDL 8/2026, que establecía una prórroga extraordinaria de dos años de los contratos de alquiler y un tope del 2 % a la actualización anual de la renta. Votar sí = mantener la limitación de precios (agree). El Congreso lo derogó (166-177-5).",
-    "relation": "direct"
+    "note": "Convalidación del RDL 8/2026: prórroga extraordinaria de dos años de los contratos de alquiler y tope estatal del 2 % a la actualización anual de la renta. Sí = de acuerdo con limitar el alquiler; relación indirecta porque el tope es estatal y no por zonas. No convalidado (166-177-5).",
+    "relation": "related"
   },
   {
     "id": "v-alquiler-temporada-2024-12-17",
@@ -35,8 +35,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion099/20250318/Votacion001/VOT_20250318201321.json",
     "title": "Proposición de Ley del Grupo Parlamentario Junts per Catalunya, de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles (Orgánica).",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL Orgánica de Junts de medidas urgentes contra la ocupación ilegal de inmuebles (desalojo acelerado). Sí = acelerar desalojos (agree). No se comprueba aquí el matiz de la afirmación sobre ocupantes vulnerables. Aprobada 300-44.",
-    "relation": "related"
+    "note": "Toma en consideración de la proposición de ley orgánica de Junts (título oficial: «de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles»), que acelera los desalojos. Sí = de acuerdo. Aprobada 300-44.",
+    "relation": "direct"
   },
   {
     "id": "v-okupacion-pp-2026-05-19",
@@ -48,8 +48,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json",
     "title": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
     "yes_means": "agree",
-    "note": "Toma en consideración de la PL Orgánica del PP contra la ocupación ilegal de inmuebles. Sí = acelerar desalojos (agree). El matiz de la situación de vulnerabilidad no se evalúa por separado. Aprobada 171-164-11.",
-    "relation": "related"
+    "note": "Toma en consideración de la proposición de ley orgánica del PP (título oficial: «contra la ocupación ilegal de inmuebles…»), que acelera los desalojos. Sí = de acuerdo. Aprobada 171-164-11.",
+    "relation": "direct"
   },
   {
     "id": "v-irpf-deflactar-2024-04-09",
@@ -79,7 +79,7 @@
   },
   {
     "id": "v-gravamen-energetico-2025-01-22",
-    "statement": "eco-impuesto-energeticas-banca",
+    "statement": "eco-impuesto-energeticas",
     "date": "2025-01-22",
     "legislature": 15,
     "session": 89,
@@ -87,25 +87,25 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
     "title": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
     "yes_means": "agree",
-    "note": "Convalidación del RDL 10/2024, que prorrogaba el gravamen temporal energético en 2025. Votación directa: sí = mantener el impuesto especial a las energéticas (agree). Derogado 165-183-1.",
+    "note": "Convalidación del RDL 10/2024, que prorrogaba el gravamen temporal energético en 2025. Sí = mantener un impuesto especial a las energéticas (de acuerdo). No convalidado 165-183-1.",
     "relation": "direct"
   },
   {
     "id": "v-impuesto-banca-ley7-2024-11-21",
-    "statement": "eco-impuesto-energeticas-banca",
+    "statement": "eco-suprimir-impuesto-banca",
     "date": "2024-11-21",
     "legislature": 15,
     "session": 79,
     "number": 62,
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
     "title": "Votación del dictamen del Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias (antes denominado Proyecto de Ley por la que se establece un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud).",
-    "yes_means": "agree",
-    "note": "Votación del dictamen de la ley que crea el Impuesto sobre el margen de intereses y comisiones de entidades financieras (impuesto a la banca). La misma ley incluye además el impuesto mínimo global a multinacionales, el de líquidos de cigarrillos electrónicos y otras normas tributarias, así que el voto no responde solo a la banca. Sí = agree. Aprobada 178-171.",
+    "yes_means": "disagree",
+    "note": "Votación del dictamen de la Ley 7/2024, que crea el impuesto sobre el margen de intereses y comisiones de las entidades financieras junto con otros impuestos (mínimo global, cigarrillos electrónicos…). Sí = crear el impuesto a la banca, es decir, en desacuerdo con eliminarlo. Relación indirecta por ir en un paquete con otras medidas.",
     "relation": "related"
   },
   {
     "id": "v-pnl-beneficios-energeticas-2026-09-30",
-    "statement": "eco-impuesto-energeticas-banca",
+    "statement": "eco-impuesto-energeticas",
     "date": "2026-09-30",
     "legislature": 15,
     "session": 202,
@@ -248,7 +248,7 @@
   },
   {
     "id": "v-financiacion-singular-2024-04-23",
-    "statement": "ter-financiacion-cataluna",
+    "statement": "ter-concierto-ccaa",
     "date": "2024-04-23",
     "legislature": 15,
     "session": 36,
@@ -261,15 +261,15 @@
   },
   {
     "id": "v-lenguas-reglamento-2023-09-21",
-    "statement": "ter-lenguas-congreso",
+    "statement": "ter-solo-castellano-congreso",
     "date": "2023-09-21",
     "legislature": 15,
     "session": 3,
     "number": 4,
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion003/20230921/Votacion004/VOT_20230921120100.json",
     "title": "Proposición de reforma del Reglamento del Congreso de los Diputados. — Votación de conjunto de la Proposición de reforma del Reglamento del Congreso de los Diputados.",
-    "yes_means": "agree",
-    "note": "Votación de conjunto de la reforma del Reglamento del Congreso que permite usar las lenguas cooficiales en el Pleno. Sí = agree. Aprobada 180-170.",
+    "yes_means": "disagree",
+    "note": "Votación de conjunto de la reforma del Reglamento que permite usar las lenguas cooficiales en el Pleno. Sí = permitirlas, es decir, en desacuerdo con que solo se use el castellano. Aprobada 180-170.",
     "relation": "direct"
   },
   {
@@ -308,7 +308,7 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion019/20240206/Votacion005/VOT_20240206213127.json",
     "title": "Del Grupo Parlamentario Republicano, en relación con el despliegue y desarrollo de la Ley 20/2022, de 19 de octubre, de Memoria Democrática. Se vota en los términos de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Republicano.",
     "yes_means": "disagree",
-    "note": "Moción de ERC (con enmienda del PSOE) sobre el despliegue y desarrollo de la Ley 20/2022 de Memoria Democrática. Sí = apoyar la ley (agree). Aprobada 174-170. (Afirmación reformulada en sentido inverso: sí = en desacuerdo.)",
+    "note": "Moción de ERC (con enmienda del PSOE) sobre el despliegue y desarrollo de la Ley 20/2022 de Memoria Democrática. Votar sí = apoyar su desarrollo, lo que se relaciona con estar en desacuerdo con derogarla. Aprobada 174-170.",
     "relation": "related"
   },
   {
@@ -321,8 +321,8 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion040/20240523/Votacion004/VOT_20240523140934.json",
     "title": "Proposición no de Ley del Grupo Parlamentario Socialista, sobre la garantía de la aplicación de las políticas de memoria democrática en España. Se vota en los términos resultantes de la incorporación de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Plurinacional SUMAR.",
     "yes_means": "disagree",
-    "note": "PNL del PSOE sobre la garantía de la aplicación de las políticas de memoria democrática (frente a las leyes autonómicas de concordia). Sí = agree. Aprobada 175-167. (Afirmación reformulada en sentido inverso: sí = en desacuerdo.)",
-    "relation": "direct"
+    "note": "PNL del PSOE sobre la garantía de la aplicación de las políticas de memoria democrática (frente a las leyes autonómicas «de concordia»). Votar sí = apoyar la aplicación de la ley, lo que se relaciona con estar en desacuerdo con derogarla; no es una votación sobre su derogación. Aprobada 175-167.",
+    "relation": "related"
   },
   {
     "id": "v-embargo-israel-rdl-2025-10-08",
@@ -334,7 +334,7 @@
     "url_json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/Votacion087/VOT_20251008195359.json",
     "title": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
     "yes_means": "agree",
-    "note": "Convalidación del RDL 10/2025 contra el genocidio en Gaza, que consagra el embargo de compraventa de armas a Israel. Sí = agree. Convalidado 178-169-1.",
+    "note": "Convalidación del Real Decreto-ley 10/2025 (título oficial: «por el que se adoptan medidas urgentes contra el genocidio en Gaza…»), que establece el embargo de compraventa de armas con Israel. Sí = de acuerdo. Convalidado 178-169-1.",
     "relation": "direct"
   },
   {

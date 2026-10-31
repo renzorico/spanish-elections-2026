@@ -81,7 +81,7 @@ test('computeMatch: missing positions are never imputed (do not drag score towar
   assert.equal(y.overall, 0); // only s1 counts, not (0 + 0.5)/2
   assert.equal(y.coverage.withPosition, 1);
   assert.equal(y.coverage.ratio, 0.5);
-  assert.equal(y.limitedData, false); // exactly 50% is not below threshold
+  assert.equal(y.limitedData, true); // 50% or less is flagged
 });
 
 test('computeMatch: topic weights change the overall but not per-topic scores', () => {
@@ -146,6 +146,14 @@ test('sortByAgreement puts null last and is stable for ties', () => {
     { party: 'd', overall: 0.5 },
   ]);
   assert.deepEqual(sorted.map((r) => r.party), ['c', 'b', 'd', 'a']);
+});
+
+test('sortByAgreement lists limited-data parties after well-documented ones', () => {
+  const sorted = sortByAgreement([
+    { party: 'thin', overall: 0.95, limitedData: true },
+    { party: 'full', overall: 0.6, limitedData: false },
+  ]);
+  assert.deepEqual(sorted.map((r) => r.party), ['full', 'thin']);
 });
 
 test('shuffle is a permutation and does not mutate input', () => {

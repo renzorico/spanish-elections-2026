@@ -34,24 +34,6 @@
       "note": "Sumar 2023 program wants rent regulation applied in all stressed areas. The SUMAR group also voted 25 yes on RDL 8/2026 (rent-update limits and contract extensions; the decree was not validated)."
     },
     {
-      "statement": "viv-compra-no-residentes",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
-          "publisher": "Sumar",
-          "date": "2023-07-10",
-          "quote": "En las áreas de mercado tensionado, estudiaremos si conviene condicionar las autorizaciones administrativas de compraventa de vivienda a que el comprador resida en la misma",
-          "page": "PDF p. 76-77",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [],
-      "note": "The 2023 program only says it would study tying purchase permits to residence in stressed areas. It does not mention higher taxes on buyers from outside the EU. Movimiento Sumar website search found nothing more."
-    },
-    {
       "statement": "viv-desalojo-rapido",
       "stance": "no_clear_position",
       "evidence_type": "none",
@@ -110,29 +92,6 @@
         "v-irpf-deflactar-2025-06-12"
       ],
       "note": "The program proposes raising top IRPF rates (up to 52%) rather than a general cut. This clearly implies disagreement, but the program has no sentence that rejects cuts outright."
-    },
-    {
-      "statement": "eco-impuesto-energeticas-banca",
-      "stance": "agree",
-      "confidence": "high",
-      "evidence_type": "program_2023",
-      "sources": [
-        {
-          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
-          "publisher": "Sumar",
-          "date": "2023-07-10",
-          "quote": "Mantendremos los impuestos extraordinarios sobre las empresas energéticas y financieras mientras se aprueba e implementa completamente la reforma integral del impuesto de sociedades.",
-          "page": "PDF p. 16",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-impuesto-banca-ley7-2024-11-21",
-        "v-pnl-beneficios-energeticas-2026-09-30"
-      ],
-      "note": "The program would keep the levies at least until a full reform of corporate tax is in place."
     },
     {
       "statement": "tra-jornada-37h",
@@ -456,25 +415,6 @@
       "note": "The program supports a vote by Catalans on a negotiated Catalonia–State agreement, not a referendum on independence. No explicit position on the statement."
     },
     {
-      "statement": "ter-financiacion-cataluna",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-          "title": "Un programa para ti. Programa electoral de Sumar, elecciones generales 23J 2023",
-          "publisher": "Sumar",
-          "date": "2023-07-10",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-financiacion-singular-2024-04-23"
-      ],
-      "note": "No explicit position on Catalonia collecting and managing all its taxes (concierto-style model) found in the 2023 program or on movimientosumar.es."
-    },
-    {
       "statement": "ter-recentralizar",
       "stance": "no_clear_position",
       "evidence_type": "none",
@@ -492,8 +432,8 @@
       "note": "The program describes Spain as plurinational and supports self-government, but says nothing explicit about who should manage education and health. Not inferred."
     },
     {
-      "statement": "ter-lenguas-congreso",
-      "stance": "agree",
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "vote_xv",
       "sources": [
@@ -518,7 +458,7 @@
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
       ],
-      "note": "All 31 SUMAR deputies voted yes on the 2023 reform of the Congreso rules that allows co-official languages (final vote, 2023-09-21)."
+      "note": "All 31 SUMAR deputies voted yes on the 2023 reform of the Congreso rules that allows co-official languages (final vote, 2023-09-21). [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "edu-concertada",

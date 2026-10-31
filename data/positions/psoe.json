@@ -34,25 +34,6 @@
       ]
     },
     {
-      "statement": "viv-compra-no-residentes",
-      "stance": "agree",
-      "confidence": "medium",
-      "evidence_type": "official_statement",
-      "sources": [
-        {
-          "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-229-1.PDF",
-          "title": "Proposición de Ley para impulsar el alquiler de viviendas a precios asequibles (BOCG Serie B, núm. 229-1), presentada por el Grupo Parlamentario Socialista",
-          "publisher": "Congreso de los Diputados",
-          "date": "2025-05-30",
-          "quote": "La cuota íntegra del impuesto se obtendrá aplicando a la base imponible el tipo de gravamen del cien por ciento.",
-          "page": "p. 16",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [],
-      "note": "Proposición de ley registrada por el Grupo Socialista en mayo de 2025 que crea un «Impuesto Complementario Estatal sobre la Transmisión de Bienes Inmuebles a no Residentes en la Unión Europea» con un tipo del 100 %. El programa de 2023 no trataba esta medida."
-    },
-    {
       "statement": "viv-desalojo-rapido",
       "stance": "neutral",
       "confidence": "medium",
@@ -121,45 +102,6 @@
         "v-irpf-deflactar-2025-06-12"
       ],
       "note": "El programa de 2023 solo propone mejoras de mínimos y deducciones familiares en el IRPF (p. 33 y 38 del PDF), no una bajada general aunque reduzca la recaudación. No se ha encontrado una posición oficial posterior."
-    },
-    {
-      "statement": "eco-impuesto-energeticas-banca",
-      "stance": "agree",
-      "confidence": "high",
-      "evidence_type": "program_2023",
-      "sources": [
-        {
-          "url": "https://www.elindependiente.com/wp-content/uploads/2023/07/ProgramaElectoral_ElexGenerales_PSOE_2023.pdf",
-          "title": "Programa electoral. Elecciones Generales 23 julio 2023",
-          "publisher": "PSOE",
-          "date": "2023-07-07",
-          "quote": "Evaluaremos la prórroga y ajustes de los gravámenes temporales sobre la banca y energéticas, para que ambos sectores sigan contribuyendo a la justicia fiscal y al sostenimiento del Estado de bienestar",
-          "page": "p. 39 del PDF",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
-          "title": "Votación del dictamen del Proyecto de Ley del Impuesto Complementario y del Impuesto sobre el margen de intereses y comisiones de entidades financieras (21/11/2024)",
-          "publisher": "Congreso de los Diputados",
-          "date": "2024-11-21",
-          "quote": "Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
-          "title": "Convalidación del Real Decreto-ley 10/2024 (22/01/2025)",
-          "publisher": "Congreso de los Diputados",
-          "date": "2025-01-22",
-          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-impuesto-banca-ley7-2024-11-21",
-        "v-pnl-beneficios-energeticas-2026-09-30"
-      ],
-      "note": "El Grupo Socialista votó a favor de la ley que crea el impuesto sobre el margen de intereses y comisiones de la banca (21/11/2024) y de convalidar el gravamen temporal energético para 2025 (22/01/2025), que no fue convalidado."
     },
     {
       "statement": "tra-jornada-37h",
@@ -423,7 +365,7 @@
     {
       "statement": "cli-coches-combustion-despues-2035",
       "stance": "disagree",
-      "confidence": "medium",
+      "confidence": "low",
       "evidence_type": "official_statement",
       "sources": [
         {
@@ -444,7 +386,7 @@
         }
       ],
       "vote_refs": [],
-      "note": "Posición expresada por Pedro Sánchez, secretario general del PSOE, como presidente del Gobierno (carta a la Comisión Europea), según la prensa. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "Posición expresada por Pedro Sánchez, secretario general del PSOE, como presidente del Gobierno (carta a la Comisión Europea), según la prensa. [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.] Solo fuentes de prensa: confianza baja. [Calibración 31/10/2026 tras auditoría de neutralidad.]"
     },
     {
       "statement": "ter-amnistia",
@@ -493,34 +435,6 @@
       "note": "Declaración de 2021 (anterior a la legislatura actual) en el Pleno del Congreso; el programa de 2023 no trata la cuestión. Confianza baja por antigüedad."
     },
     {
-      "statement": "ter-financiacion-cataluna",
-      "stance": "neutral",
-      "confidence": "low",
-      "evidence_type": "official_statement",
-      "sources": [
-        {
-          "url": "https://www.ultimahora.es/noticias/comunidades/2024/08/21/2226929/montero-defiende-cataluna-tenga-financiacion-singular-sostiene-acuerdo-psc-erc-concierto-1.html",
-          "title": "Montero defiende que Cataluña tenga «financiación singular» y sostiene que el acuerdo PSC-ERC «no es un concierto»",
-          "publisher": "Última Hora (Europa Press)",
-          "date": "2024-08-21",
-          "quote": "sostiene que «ni es un concierto económico» como el que existe para el País Vasco y Navarra, «ni es una reforma al uso del modelo de financiación».",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.ondavasca.com/erc-avanza-que-sin-soberania-fiscal-no-habra-investidura-pero-el-psoe-rechaza-un-concierto-para-catalunya/",
-          "title": "ERC avanza que sin «soberanía fiscal» no habrá investidura pero el PSOE rechaza un concierto para Catalunya",
-          "publisher": "Onda Vasca",
-          "date": "2024-06-26",
-          "quote": "no comparte el modelo de concierto económico o similar",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-financiacion-singular-2024-04-23"
-      ],
-      "note": "Postura mixta: la dirección del PSOE (María Jesús Montero, vicesecretaria general) rechaza un concierto como el vasco, pero defiende la «financiación singular» pactada por el PSC con ERC, que prevé que la Generalitat recaude progresivamente los impuestos. Basado en prensa."
-    },
-    {
       "statement": "ter-recentralizar",
       "stance": "disagree",
       "confidence": "medium",
@@ -540,8 +454,8 @@
       "note": "El programa defiende reforzar el Estado autonómico; no menciona explícitamente devolver educación y sanidad al Estado."
     },
     {
-      "statement": "ter-lenguas-congreso",
-      "stance": "agree",
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "vote_xv",
       "sources": [
@@ -557,7 +471,7 @@
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
       ],
-      "note": "El Grupo Socialista votó a favor de la reforma del Reglamento que permite usar las lenguas cooficiales en el Congreso."
+      "note": "El Grupo Socialista votó a favor de la reforma del Reglamento que permite usar las lenguas cooficiales en el Congreso. [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "edu-concertada",

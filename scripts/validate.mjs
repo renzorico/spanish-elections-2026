@@ -27,7 +27,8 @@ const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
 export function findLoadedTerms(text) {
   if (!text) return [];
-  const t = ' ' + norm(text).replace(/[^a-z0-9ñ\- ]/g, ' ') + ' ';
+  // Official titles quoted in «…» are reproduced verbatim and exempt.
+  const t = ' ' + norm(text.replace(/«[^»]*»/g, ' ')).replace(/[^a-z0-9ñ\- ]/g, ' ') + ' ';
   return LOADED_TERMS.filter((term) => t.includes(' ' + norm(term) + ' ') || t.includes(' ' + norm(term) + 's '));
 }
 
@@ -112,6 +113,11 @@ export function validate(data) {
       if (pos.evidence_type === 'vote_xv' && !(pos.vote_refs || []).length && !(pos.sources || []).some((s) => /congreso\.es/.test(s.url))) {
         err(`${where}: vote_xv evidence needs vote_refs or a congreso.es source`);
       }
+      if (pos.evidence_type === 'vote_xv' && !ncp) {
+        const direct = (pos.vote_refs || []).some((r) => curated.find((v) => v.id === r)?.relation === 'direct');
+        const hasQuote = (pos.sources || []).some((s) => s.quote && !/congreso\.es/.test(s.url));
+        if (!direct && !hasQuote) err(`${where}: vote_xv coding needs a direct curated vote (related votes alone never justify a coding)`);
+      }
       for (const term of findLoadedTerms(pos.note)) warn(`${where}: loaded term "${term}" in note`);
 
       // Cross-check with Congreso votes
@@ -142,6 +148,7 @@ export function validate(data) {
     if (!['direct', 'related'].includes(v.relation)) err(`vote ${v.id}: relation must be direct|related`);
     if (!/^https:\/\/www\.congreso\.es\//.test(v.url_json || '')) err(`vote ${v.id}: url_json must be a congreso.es URL`);
     if (!ISO.test(v.date || '')) err(`vote ${v.id}: date not ISO`);
+    for (const term of findLoadedTerms(v.note)) err(`vote ${v.id}: loaded term "${term}" in note (quote official titles in «…»)`);
   }
 
   // --- provinces & candidacies

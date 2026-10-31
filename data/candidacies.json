@@ -22,7 +22,9 @@
       "psoe",
       "vox",
       "compromis",
-      "salf"
+      "salf",
+      "frente-amplio",
+      "podemos"
     ],
     "almeria": [
       "pp",
@@ -127,7 +129,9 @@
       "psoe",
       "vox",
       "compromis",
-      "salf"
+      "salf",
+      "frente-amplio",
+      "podemos"
     ],
     "ciudad-real": [
       "pp",
@@ -298,7 +302,9 @@
       "psoe",
       "vox",
       "cc",
-      "salf"
+      "salf",
+      "frente-amplio",
+      "podemos"
     ],
     "pontevedra": [
       "pp",
@@ -330,7 +336,9 @@
       "psoe",
       "vox",
       "cc",
-      "salf"
+      "salf",
+      "frente-amplio",
+      "podemos"
     ],
     "segovia": [
       "pp",
@@ -385,7 +393,9 @@
       "psoe",
       "vox",
       "compromis",
-      "salf"
+      "salf",
+      "frente-amplio",
+      "podemos"
     ],
     "valladolid": [
       "pp",
@@ -439,7 +449,9 @@
       "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
       "vox": "VOX (VOX)",
       "compromis": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)",
-      "salf": "SE ACABÓ LA FIESTA (SALF)"
+      "salf": "SE ACABÓ LA FIESTA (SALF)",
+      "frente-amplio": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)",
+      "podemos": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)"
     },
     "almeria": {
       "pp": "PARTIDO POPULAR (PP)",
@@ -544,7 +556,9 @@
       "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
       "vox": "VOX (VOX)",
       "compromis": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)",
-      "salf": "SE ACABÓ LA FIESTA (SALF)"
+      "salf": "SE ACABÓ LA FIESTA (SALF)",
+      "frente-amplio": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)",
+      "podemos": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)"
     },
     "ciudad-real": {
       "pp": "PARTIDO POPULAR (PP)",
@@ -715,7 +729,9 @@
       "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
       "vox": "VOX (VOX)",
       "cc": "MUNICIPALISTAS PRIMERO CANARIAS-COALICIÓN CANARIA (1.ºCAN-CCa)",
-      "salf": "SE ACABÓ LA FIESTA (SALF)"
+      "salf": "SE ACABÓ LA FIESTA (SALF)",
+      "frente-amplio": "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)",
+      "podemos": "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)"
     },
     "pontevedra": {
       "pp": "PARTIDO POPULAR (PP)",
@@ -747,7 +763,9 @@
       "psoe": "PARTIDO SOCIALISTA DE SANTA CRUZ DE TENERIFE (PSOE)",
       "vox": "VOX (VOX)",
       "cc": "COALICIÓN CANARIA-MUNICIPALISTAS PRIMERO CANARIAS (CCa-1.ºCAN)",
-      "salf": "SE ACABÓ LA FIESTA (SALF)"
+      "salf": "SE ACABÓ LA FIESTA (SALF)",
+      "frente-amplio": "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)",
+      "podemos": "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)"
     },
     "segovia": {
       "pp": "PARTIDO POPULAR (PP)",
@@ -802,7 +820,9 @@
       "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
       "vox": "VOX (VOX)",
       "compromis": "COMPROMÍS: FRONT VALENCIÀ (COMPROMÍS-EUPV-PODEM-ERPV)",
-      "salf": "SE ACABÓ LA FIESTA (SALF)"
+      "salf": "SE ACABÓ LA FIESTA (SALF)",
+      "frente-amplio": "COMPROMÍS: FRONT VALENCIÀ (COMPROMÍS-EUPV-PODEM-ERPV)",
+      "podemos": "COMPROMÍS: FRONT VALENCIÀ (COMPROMÍS-EUPV-PODEM-ERPV)"
     },
     "valladolid": {
       "pp": "PARTIDO POPULAR (PP)",
@@ -852,8 +872,8 @@
       "en": "PSOE runs as PSE-EE (PSOE). ERC has no Congress list here; the EH Bildu-ERC coalition appears only in the Senate candidacies. Frente Amplio runs as 'Frente Amplio-Fronte Zabala'."
     },
     "alicante": {
-      "es": "Compromís concurre como «Compromís: Front Valencià (Compromís-EUPV-Podem-ERPV)», que integra a Podem (Podemos) y EUPV (IU). No hay listas propias de Podemos ni de Frente Amplio; solo se lista Compromís, cuyos componentes en parties.json ya incluyen Podem y EUPV.",
-      "en": "Compromís runs as 'Compromís: Front Valencià (Compromís-EUPV-Podem-ERPV)', which includes Podem (Podemos) and EUPV (IU). Podemos and Frente Amplio have no own lists; only Compromís is listed, as its parties.json components already include Podem and EUPV."
+      "es": "Compromís encabeza «Compromís: Front Valencià», que integra a Podem (Podemos) y a EUPV (federación valenciana de IU, integrante de Frente Amplio). No hay listas separadas de Podemos ni de Frente Amplio.",
+      "en": "Compromís heads 'Compromís: Front Valencià', which includes Podem (Podemos) and EUPV (the Valencian federation of IU, a Frente Amplio member). There are no separate Podemos or Frente Amplio lists."
     },
     "asturias": {
       "es": "Frente Amplio concurre como «Frente Ampliu por Asturies (FA)». La lista de Podemos figura como «PODEMOS (PAZ, CASA Y TRABAJO)».",
@@ -884,8 +904,8 @@
       "en": "SALF has no Congress list."
     },
     "castellon": {
-      "es": "Compromís concurre como «Compromís: Front Valencià (Compromís-EUPV-Podem-ERPV)», que integra a Podem (Podemos) y EUPV (IU). No hay listas propias de Podemos ni de Frente Amplio; solo se lista Compromís, cuyos componentes en parties.json ya incluyen Podem y EUPV.",
-      "en": "Compromís runs as 'Compromís: Front Valencià (Compromís-EUPV-Podem-ERPV)', which includes Podem (Podemos) and EUPV (IU). Podemos and Frente Amplio have no own lists; only Compromís is listed, as its parties.json components already include Podem and EUPV."
+      "es": "Compromís encabeza «Compromís: Front Valencià», que integra a Podem (Podemos) y a EUPV (federación valenciana de IU, integrante de Frente Amplio). No hay listas separadas de Podemos ni de Frente Amplio.",
+      "en": "Compromís heads 'Compromís: Front Valencià', which includes Podem (Podemos) and EUPV (the Valencian federation of IU, a Frente Amplio member). There are no separate Podemos or Frente Amplio lists."
     },
     "ceuta": {
       "es": "No hay lista de Frente Amplio.",
@@ -920,8 +940,8 @@
       "en": "Frente Amplio runs as 'Chunta Aragonesista-Frente Amplio Aragón (CHA-IU-MS-Frente Amplio)'."
     },
     "las-palmas": {
-      "es": "En la papeleta figura «Unidad del Pueblo Canario UPC (NC-BC, Podemos, IU, Sumar)», encabezada por NC-BC, que integra a Podemos y a partidos de Frente Amplio. Esta herramienta no tiene posiciones codificadas de UPC como tal; puedes ver las de Podemos y Frente Amplio activando «mostrar también los partidos que no presentan lista». CC concurre con Municipalistas Primero Canarias.",
-      "en": "The ballot includes 'Unidad del Pueblo Canario UPC (NC-BC, Podemos, IU, Sumar)', headed by NC-BC, which includes Podemos and Frente Amplio parties. This tool has no coded positions for UPC as such; you can see Podemos' and Frente Amplio's by enabling 'also show parties without a list'. CC runs with Municipalistas Primero Canarias."
+      "es": "Podemos y partidos de Frente Amplio (IU, Sumar) concurren dentro de «Unidad del Pueblo Canario UPC», encabezada por NC-BC. CC concurre con Municipalistas Primero Canarias.",
+      "en": "Podemos and Frente Amplio parties (IU, Sumar) run within 'Unidad del Pueblo Canario UPC', headed by NC-BC. CC runs with Municipalistas Primero Canarias."
     },
     "lleida": {
       "es": "El PSOE concurre como PSC (PSC-PSOE). No hay lista de Podemos al Congreso. Frente Amplio concurre como «Comuns-Front Ampli». SALF no presenta lista al Congreso.",
@@ -944,8 +964,8 @@
       "en": "PSOE runs as PSdeG-PSOE. Frente Amplio runs as 'Fronte Ampla (FA)'."
     },
     "santa-cruz-de-tenerife": {
-      "es": "En la papeleta figura «Unidad del Pueblo Canario UPC (NC-BC, Podemos, IU, Sumar)», encabezada por NC-BC, que integra a Podemos y a partidos de Frente Amplio. Esta herramienta no tiene posiciones codificadas de UPC como tal; puedes ver las de Podemos y Frente Amplio activando «mostrar también los partidos que no presentan lista». CC concurre con Municipalistas Primero Canarias. (Tenerife: el PSOE figura como «Partido Socialista de Santa Cruz de Tenerife (PSOE)».)",
-      "en": "The ballot includes 'Unidad del Pueblo Canario UPC (NC-BC, Podemos, IU, Sumar)', headed by NC-BC, which includes Podemos and Frente Amplio parties. This tool has no coded positions for UPC as such; you can see Podemos' and Frente Amplio's by enabling 'also show parties without a list'. CC runs with Municipalistas Primero Canarias."
+      "es": "Podemos y partidos de Frente Amplio (IU, Sumar) concurren dentro de «Unidad del Pueblo Canario UPC», encabezada por NC-BC. CC concurre con Municipalistas Primero Canarias.",
+      "en": "Podemos and Frente Amplio parties (IU, Sumar) run within 'Unidad del Pueblo Canario UPC', headed by NC-BC. CC runs with Municipalistas Primero Canarias."
     },
     "sevilla": {
       "es": "Frente Amplio concurre como «Frente Amplio Andaluz (FA)» (candidatos de Movimiento Sumar e IU Andalucía).",
@@ -960,8 +980,8 @@
       "en": "No Frente Amplio (or CHA-Frente Amplio) list for Congress."
     },
     "valencia": {
-      "es": "Compromís concurre como «Compromís: Front Valencià (Compromís-EUPV-Podem-ERPV)», que integra a Podem (Podemos) y EUPV (IU). No hay listas propias de Podemos ni de Frente Amplio; solo se lista Compromís, cuyos componentes en parties.json ya incluyen Podem y EUPV.",
-      "en": "Compromís runs as 'Compromís: Front Valencià (Compromís-EUPV-Podem-ERPV)', which includes Podem (Podemos) and EUPV (IU). Podemos and Frente Amplio have no own lists; only Compromís is listed, as its parties.json components already include Podem and EUPV."
+      "es": "Compromís encabeza «Compromís: Front Valencià», que integra a Podem (Podemos) y a EUPV (federación valenciana de IU, integrante de Frente Amplio). No hay listas separadas de Podemos ni de Frente Amplio.",
+      "en": "Compromís heads 'Compromís: Front Valencià', which includes Podem (Podemos) and EUPV (the Valencian federation of IU, a Frente Amplio member). There are no separate Podemos or Frente Amplio lists."
     },
     "zaragoza": {
       "es": "Frente Amplio concurre como «Chunta Aragonesista-Frente Amplio Aragón (CHA-IU-MS-Frente Amplio)».",
@@ -969,7 +989,35 @@
     }
   },
   "inclusion_rule": {
-    "es": "Un partido aparece en una provincia solo si presenta lista propia (con su nombre o una marca regional propia) o encabeza la coalición. Si solo forma parte de una coalición encabezada por otro partido, no se lista y la nota de la provincia lo explica.",
-    "en": "A party is shown in a province only if it presents its own list (under its name or its own regional brand) or heads the coalition. If it is only a component of a coalition headed by another party, it is not listed and the province note explains this."
+    "es": "Un partido aparece en una provincia si en el BOE figura una candidatura con su nombre, su marca regional o el de uno de sus partidos integrantes (incluidas sus federaciones regionales). Si esa candidatura es una coalición encabezada por otro partido, se indica con el nombre oficial de la candidatura y un aviso: las posiciones que se muestran son las del partido a escala estatal, no necesariamente las de la coalición.",
+    "en": "A party is shown in a province if the BOE lists a candidacy under its name, its regional brand or the name of one of its member parties (including regional federations). If that candidacy is a coalition headed by another party, the official candidacy name and a notice are shown: the positions displayed are the party's statewide positions, not necessarily the coalition's."
+  },
+  "coalition_member": {
+    "las-palmas": [
+      "frente-amplio",
+      "podemos"
+    ],
+    "santa-cruz-de-tenerife": [
+      "frente-amplio",
+      "podemos"
+    ],
+    "valencia": [
+      "frente-amplio",
+      "podemos"
+    ],
+    "alicante": [
+      "frente-amplio",
+      "podemos"
+    ],
+    "castellon": [
+      "frente-amplio",
+      "podemos"
+    ],
+    "navarra": [
+      "pp"
+    ],
+    "balears": [
+      "frente-amplio"
+    ]
   }
 }

@@ -236,6 +236,12 @@ function viewPartyResult(r, inProv) {
   const p = partyById(r.party);
   const prog = p.program_2026?.status === 'published' ? t('programPublished') : t('programPending');
   const notHere = inProv && !inProv.has(p.id) ? `<span class="badge">${esc(t('notInProvince'))}</span>` : '';
+  const cand = state.data.candidacies;
+  const listName = inProv && inProv.has(p.id) ? cand?.list_names?.[state.province]?.[p.id] : null;
+  const isMember = inProv && (cand?.coalition_member?.[state.province] || []).includes(p.id);
+  const ballot = listName
+    ? `<p class="meta">${esc(t('ballotName'))}: «${esc(listName)}»</p>${isMember ? `<p class="notice small">${esc(t('coalitionNotice'))}</p>` : ''}`
+    : '';
   const topicRows = shuffleStableTopics()
     .map((tp) => {
       const tr = r.topics.find((x) => x.topic === tp.id);
@@ -250,6 +256,7 @@ function viewPartyResult(r, inProv) {
   <li class="card party">
     <h3>${esc(p.name)} <small>${esc(p.full_name_2026)}</small></h3>
     <p class="badges"><span class="badge">${esc(prog)}</span>${notHere}</p>
+    ${ballot}
     <p class="overall">${esc(t('overall'))}: ${r.overall === null ? `<em>${esc(t('noScore'))}</em>` : bar(r.overall, t('overall'))}</p>
     <p class="meta">${esc(t('coverage')(r.coverage.withPosition, r.coverage.answered))}</p>
     ${r.limitedData ? `<p class="notice small">${esc(t('limitedData'))}</p>` : ''}

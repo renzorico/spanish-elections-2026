@@ -6,7 +6,7 @@
     {
       "statement": "viv-limite-alquiler",
       "stance": "agree",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_type": "official_statement",
       "sources": [
         {
@@ -22,25 +22,7 @@
         "v-alquiler-rdl8-2026-04-28",
         "v-alquiler-temporada-2024-12-17"
       ],
-      "note": "Declaración de la portavoz nacional del BNG; el programa de 2023 no menciona topes de alquiler."
-    },
-    {
-      "statement": "viv-compra-no-residentes",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
-          "publisher": "BNG",
-          "date": "2023-07-05",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [],
-      "note": "No se encontró posición en el programa 2023 ni en declaraciones revisadas."
+      "note": "Declaración de la portavoz nacional del BNG; el programa de 2023 no menciona topes de alquiler. Declaración oficial (no programa ni votación directa): confianza media. [Calibración 31/10/2026 tras auditoría de neutralidad.]"
     },
     {
       "statement": "viv-desalojo-rapido",
@@ -126,28 +108,6 @@
         "v-irpf-deflactar-2025-06-12"
       ],
       "note": "Posición intermedia explícita: el programa pide más progresividad, bajar la tributación de las rentas del trabajo y subir la del capital y las rentas altas, y deflactar el IRPF según la inflación gallega. En 2026 Rego votó No a la moción del PP que pedía una deflactación generalizada."
-    },
-    {
-      "statement": "eco-impuesto-energeticas-banca",
-      "stance": "agree",
-      "confidence": "high",
-      "evidence_type": "program_2023",
-      "sources": [
-        {
-          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
-          "publisher": "BNG",
-          "date": "2023-07-05",
-          "quote": "Estabelecer a permanencia dos impostos específicos aos beneficios da banca, das grandes enerxéticas e ás grandes fortunas",
-          "accessed": "2026-10-31",
-          "page": "pp. 40-41"
-        }
-      ],
-      "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-impuesto-banca-ley7-2024-11-21",
-        "v-pnl-beneficios-energeticas-2026-09-30"
-      ]
     },
     {
       "statement": "tra-jornada-37h",
@@ -438,34 +398,6 @@
       "vote_refs": []
     },
     {
-      "statement": "ter-financiacion-cataluna",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-          "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
-          "publisher": "BNG",
-          "date": "2023-07-05",
-          "quote": "",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://valenciaplaza.com/valenciaplaza/compromis-bng-ven-cupo-catalan-oportunidad-mejorar-financiacion-territorios",
-          "title": "Compromis y BNG ven el cupo catalán como una oportunidad para mejorar la financiación en sus territorios",
-          "publisher": "Valencia Plaza (Europa Press)",
-          "date": "2024-09-04",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-financiacion-singular-2024-04-23"
-      ],
-      "note": "El BNG reclama un concierto económico para Galicia y ha descrito el acuerdo PSC-ERC como una oportunidad para Galicia, pero no se encontró una posición explícita sobre que Cataluña recaude todos sus impuestos."
-    },
-    {
       "statement": "ter-recentralizar",
       "stance": "disagree",
       "confidence": "high",
@@ -493,8 +425,8 @@
       "vote_refs": []
     },
     {
-      "statement": "ter-lenguas-congreso",
-      "stance": "agree",
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "vote_xv",
       "sources": [
@@ -510,7 +442,7 @@
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
       ],
-      "note": "Rego votó Sí a la reforma del Reglamento que permite las lenguas cooficiales (21-09-2023)."
+      "note": "Rego votó Sí a la reforma del Reglamento que permite las lenguas cooficiales (21-09-2023). [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "edu-concertada",
@@ -597,18 +529,10 @@
     },
     {
       "statement": "ins-derogar-memoria",
-      "stance": "disagree",
-      "confidence": "high",
-      "evidence_type": "vote_xv",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
       "sources": [
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion040/20240523/Votacion004/VOT_20240523140934.json",
-          "title": "Proposición no de Ley del Grupo Parlamentario Socialista, sobre la garantía de la aplicación de las políticas de memoria democrática en España. Se vota en los términos resultantes de la incorporación de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Plurinacional SUMAR.",
-          "publisher": "Congreso de los Diputados",
-          "date": "2024-05-23",
-          "quote": "",
-          "accessed": "2026-10-31"
-        },
         {
           "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
           "title": "Que Galiza Conte! Con Máis Forza! Programa electoral eleccións xerais 2023",
@@ -623,7 +547,7 @@
         "v-memoria-mocion-2024-02-06",
         "v-memoria-pnl-2024-05-23"
       ],
-      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-memoria-pnl-2024-05-23). [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "Sin posición explícita sobre la derogación: el BNG critica la ley por insuficiente y votó a favor de iniciativas sobre su aplicación (votaciones relacionadas, que por sí solas no bastan para codificar). [Calibración 31/10/2026 tras auditoría de neutralidad.]"
     },
     {
       "statement": "ext-gasto-defensa",

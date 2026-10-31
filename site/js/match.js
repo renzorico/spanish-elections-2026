@@ -94,18 +94,23 @@ export function computeMatch({ statements, topics, parties, positions, answers, 
       party: party.id,
       overall: den > 0 ? num / den : null,
       coverage: { answered: counted.length, withPosition, ratio: coverageRatio },
-      limitedData: counted.length > 0 && coverageRatio < LIMITED_DATA_THRESHOLD,
+      limitedData: counted.length > 0 && coverageRatio <= LIMITED_DATA_THRESHOLD,
       topics: topicResults,
       statements: perStatement,
     };
   });
 }
 
-/** Optional, user-triggered ordering. Ties and parties without data keep their relative (random) order. */
+/**
+ * Optional, user-triggered ordering. Parties with limited data (≤ 50 % coverage)
+ * are listed after the others so that a high score built on few statements is not
+ * shown above better-documented parties. Ties keep their relative (random) order.
+ */
 export function sortByAgreement(results) {
   return results
     .map((r, i) => ({ r, i }))
     .sort((x, y) => {
+      if (Boolean(x.r.limitedData) !== Boolean(y.r.limitedData)) return x.r.limitedData ? 1 : -1;
       const a = x.r.overall;
       const b = y.r.overall;
       if (a === null && b === null) return x.i - y.i;

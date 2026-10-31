@@ -26,23 +26,6 @@
       "note": "En 2026 el PP propone, en lugar de topes, deducciones fiscales a propietarios que prorroguen contratos con subidas por debajo del IPC."
     },
     {
-      "statement": "viv-compra-no-residentes",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
-          "title": "Programa electoral. Un proyecto al servicio de un gran país. 365 medidas (elecciones generales 2023)",
-          "publisher": "Partido Popular",
-          "date": "2023-07-04",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [],
-      "note": "No se ha encontrado en el programa de 2023 ni en las noticias oficiales de pp.es una posición sobre un recargo fiscal a compradores no residentes en la UE."
-    },
-    {
       "statement": "viv-desalojo-rapido",
       "stance": "agree",
       "confidence": "medium",
@@ -118,36 +101,6 @@
         "v-irpf-deflactar-2024-04-09",
         "v-irpf-deflactar-2025-06-12"
       ]
-    },
-    {
-      "statement": "eco-impuesto-energeticas-banca",
-      "stance": "disagree",
-      "confidence": "high",
-      "evidence_type": "vote_xv",
-      "sources": [
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json",
-          "title": "Convalidación del Real Decreto-ley 10/2024 (22/01/2025)",
-          "publisher": "Congreso de los Diputados",
-          "date": "2025-01-22",
-          "quote": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion079/20241121/Votacion062/VOT_20241121173859.json",
-          "title": "Votación del dictamen del Proyecto de Ley del Impuesto Complementario y del Impuesto sobre el margen de intereses y comisiones de entidades financieras (21/11/2024)",
-          "publisher": "Congreso de los Diputados",
-          "date": "2024-11-21",
-          "quote": "Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-impuesto-banca-ley7-2024-11-21",
-        "v-pnl-beneficios-energeticas-2026-09-30"
-      ],
-      "note": "El Grupo Popular votó en contra de convalidar el gravamen temporal energético para 2025 (22/01/2025, derogado) y en contra de la ley que crea el impuesto sobre el margen de intereses y comisiones de la banca (21/11/2024; la ley incluía también otros impuestos)."
     },
     {
       "statement": "tra-jornada-37h",
@@ -474,35 +427,6 @@
       "note": "El PP propone volver a tipificar como delito la convocatoria de referendos no autorizados; no se pronuncia expresamente sobre un referéndum pactado con el Estado."
     },
     {
-      "statement": "ter-financiacion-cataluna",
-      "stance": "disagree",
-      "confidence": "medium",
-      "evidence_type": "official_statement",
-      "sources": [
-        {
-          "url": "https://www.pp.es/actualidad/articulos/feijoo-se-revuelve-contra-el-cupo-separatista-y-advierte-de-que-derogara-todo-lo-que-atente-contra-la-igualdad-de-los-espanoles/",
-          "title": "Feijóo se revuelve contra el cupo separatista y advierte de que «derogará» todo lo que atente contra la igualdad de los españoles",
-          "publisher": "Partido Popular",
-          "date": "2025-07-16",
-          "quote": "Es un acto contra la mayoría y todo aquello que vaya en contra de la igualdad de los españoles se derogará",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://cdn-images.rtp.pt/icm/noticias/docs/d9/d985ef96e9c9bc155f8ad25a75acca03_6792240d29ba0da1be9f503aa422d533.pdf",
-          "title": "Programa electoral. Un proyecto al servicio de un gran país. 365 medidas (elecciones generales 2023)",
-          "publisher": "Partido Popular",
-          "date": "2023-07-04",
-          "quote": "ACORDAREMOS UNA REFORMA DEL SISTEMA DE FINANCIACIÓN AUTONÓMICA que sustituya al vigente desde hace 15 años y lo negociaremos con todas las Comunidades Autónomas",
-          "page": "p. 79 del PDF",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-financiacion-singular-2024-04-23"
-      ],
-      "note": "El PP rechaza el «cupo» o financiación singular para Cataluña y defiende una reforma multilateral del sistema común."
-    },
-    {
       "statement": "ter-recentralizar",
       "stance": "no_clear_position",
       "evidence_type": "none",
@@ -528,8 +452,8 @@
       "note": "El PP pide que «un español debe tener los mismos derechos y los mismos servicios viva donde viva», pero no se ha encontrado una propuesta de devolver la educación y la sanidad al Estado."
     },
     {
-      "statement": "ter-lenguas-congreso",
-      "stance": "disagree",
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "agree",
       "confidence": "high",
       "evidence_type": "vote_xv",
       "sources": [
@@ -553,7 +477,7 @@
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
       ],
-      "note": "El Grupo Popular votó en contra de la reforma del Reglamento que permite las lenguas cooficiales en el Congreso."
+      "note": "El Grupo Popular votó en contra de la reforma del Reglamento que permite las lenguas cooficiales en el Congreso. [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "edu-concertada",

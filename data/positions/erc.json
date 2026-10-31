@@ -35,24 +35,6 @@
       "note": "ERC defensa limitar els preus del lloguer i que les comunitats autònomes amb competències puguin regular-los íntegrament."
     },
     {
-      "statement": "viv-compra-no-residentes",
-      "stance": "no_clear_position",
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-11",
-          "quote": "Suprimir l’obtenció del visat de residència per compra d’immobles o habitatges per inversions der valor igual o superior a 500.000 euros",
-          "page": "p. 115 (PDF), p. 114 (imprès)",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [],
-      "note": "El programa 2023 proposa suprimir la 'golden visa' per compra d'habitatge, però no parla d'un impost específic a compradors no residents a la UE."
-    },
-    {
       "statement": "viv-desalojo-rapido",
       "stance": "disagree",
       "confidence": "medium",
@@ -131,28 +113,6 @@
         "v-irpf-deflactar-2025-06-12"
       ],
       "note": "ERC proposa pujar l'IRPF a les rendes del capital i a les rendes més altes; no proposa una rebaixa general. Sí proposa deduccions concretes (p. ex. lloguer)."
-    },
-    {
-      "statement": "eco-impuesto-energeticas-banca",
-      "stance": "agree",
-      "confidence": "high",
-      "evidence_type": "program_2023",
-      "sources": [
-        {
-          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-11",
-          "quote": "Esquerra aposta per convertir els impostos extraordinaris a la banca i les empreses energètiques en figures permanents",
-          "page": "p. 70 (PDF), p. 69 (imprès)",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-impuesto-banca-ley7-2024-11-21",
-        "v-pnl-beneficios-energeticas-2026-09-30"
-      ]
     },
     {
       "statement": "tra-jornada-37h",
@@ -487,26 +447,6 @@
       "vote_refs": []
     },
     {
-      "statement": "ter-financiacion-cataluna",
-      "stance": "agree",
-      "confidence": "high",
-      "evidence_type": "program_2023",
-      "sources": [
-        {
-          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
-          "publisher": "Esquerra Republicana de Catalunya",
-          "date": "2023-07-11",
-          "quote": "Ampliar les funcions de l’Agència Tributària de Catalunya (ATC) i fer possible els convenis amb les entitats que conformen el sector públic per recaptar i gestionar tots els tributs que es paguen a Catalunya.",
-          "page": "p. 71 (PDF), p. 70 (imprès)",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-financiacion-singular-2024-04-23"
-      ]
-    },
-    {
       "statement": "ter-recentralizar",
       "stance": "disagree",
       "confidence": "high",
@@ -534,8 +474,8 @@
       "vote_refs": []
     },
     {
-      "statement": "ter-lenguas-congreso",
-      "stance": "agree",
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "program_2023",
       "sources": [
@@ -551,7 +491,8 @@
       ],
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
-      ]
+      ],
+      "note": "[La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "edu-concertada",

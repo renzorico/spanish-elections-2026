@@ -5,18 +5,10 @@
   "positions": [
     {
       "statement": "viv-limite-alquiler",
-      "stance": "agree",
-      "confidence": "high",
-      "evidence_type": "vote_xv",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
       "sources": [
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion175/20260428/Votacion003/VOT_20260428200330.json",
-          "title": "Real Decreto-ley 8/2026, de 20 de marzo, de medidas en el alquiler en respuesta a las consecuencias económicas y sociales de la Guerra de Irán.",
-          "publisher": "Congreso de los Diputados",
-          "date": "2026-04-28",
-          "quote": "",
-          "accessed": "2026-10-31"
-        },
         {
           "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
           "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
@@ -30,33 +22,7 @@
         "v-alquiler-rdl8-2026-04-28",
         "v-alquiler-temporada-2024-12-17"
       ],
-      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-alquiler-rdl8-2026-04-28)."
-    },
-    {
-      "statement": "viv-compra-no-residentes",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
-          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
-          "publisher": "Coalición Canaria y otras fuerzas firmantes",
-          "date": "2023-06-26",
-          "quote": "",
-          "accessed": "2026-10-31"
-        },
-        {
-          "url": "https://rtvc.es/ejecutivo-canario-propone-residencia-10-anos-en-canarias-comprar-vivienda-15-octubre-2026/",
-          "title": "El Ejecutivo canario propone una residencia de 10 años en Canarias para comprar una vivienda",
-          "publisher": "RTVC",
-          "date": "2026-10-15",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [],
-      "note": "El Gobierno de Canarias presidido por CC propuso en 2026 limitar la compra de vivienda a quienes no acrediten residencia en las islas (españoles o extranjeros); es una restricción, no un impuesto específico a no residentes en la UE, por lo que no se codifica."
+      "note": "Sin posición explícita en los documentos consultados. Su voto a favor del RDL 8/2026 (tope estatal del 2 %) es una votación relacionada y por sí sola no basta para codificar. [Calibración 31/10/2026 tras auditoría de neutralidad.]"
     },
     {
       "statement": "viv-desalojo-rapido",
@@ -133,28 +99,6 @@
         "v-irpf-deflactar-2025-06-12"
       ],
       "note": "Cristina Valido (CC, Grupo Mixto) votó Sí al punto de la moción del PP que pedía deflactar de forma generalizada el IRPF (22-04-2026). Deflactar es una medida relacionada, no una rebaja de tipos. En junio de 2025 se abstuvo en una moción fiscal de Junts."
-    },
-    {
-      "statement": "eco-impuesto-energeticas-banca",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
-          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
-          "publisher": "Coalición Canaria y otras fuerzas firmantes",
-          "date": "2023-06-26",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-gravamen-energetico-2025-01-22",
-        "v-impuesto-banca-ley7-2024-11-21",
-        "v-pnl-beneficios-energeticas-2026-09-30"
-      ],
-      "note": "No se encontró posición en el manifiesto 2023 ni en declaraciones revisadas."
     },
     {
       "statement": "tra-jornada-37h",
@@ -434,26 +378,6 @@
       "note": "No se encontró posición en el manifiesto 2023 ni en declaraciones revisadas."
     },
     {
-      "statement": "ter-financiacion-cataluna",
-      "stance": "no_clear_position",
-      "confidence": null,
-      "evidence_type": "none",
-      "sources": [
-        {
-          "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
-          "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
-          "publisher": "Coalición Canaria y otras fuerzas firmantes",
-          "date": "2023-06-26",
-          "quote": "",
-          "accessed": "2026-10-31"
-        }
-      ],
-      "vote_refs": [
-        "v-financiacion-singular-2024-04-23"
-      ],
-      "note": "No se encontró una posición explícita de CC sobre que Cataluña recaude todos sus impuestos; el manifiesto solo pide un nuevo modelo de financiación autonómica para Canarias."
-    },
-    {
       "statement": "ter-recentralizar",
       "stance": "disagree",
       "confidence": "medium",
@@ -473,8 +397,8 @@
       "note": "Defiende el máximo autogobierno; no menciona expresamente educación y sanidad."
     },
     {
-      "statement": "ter-lenguas-congreso",
-      "stance": "agree",
+      "statement": "ter-solo-castellano-congreso",
+      "stance": "disagree",
       "confidence": "high",
       "evidence_type": "vote_xv",
       "sources": [
@@ -490,7 +414,7 @@
       "vote_refs": [
         "v-lenguas-reglamento-2023-09-21"
       ],
-      "note": "Cristina Valido (CC, Grupo Mixto) votó Sí a la reforma del Reglamento que permite las lenguas cooficiales (21-09-2023)."
+      "note": "Cristina Valido (CC, Grupo Mixto) votó Sí a la reforma del Reglamento que permite las lenguas cooficiales (21-09-2023). [La afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
     },
     {
       "statement": "edu-concertada",
@@ -577,18 +501,10 @@
     },
     {
       "statement": "ins-derogar-memoria",
-      "stance": "disagree",
-      "confidence": "high",
-      "evidence_type": "vote_xv",
+      "stance": "no_clear_position",
+      "confidence": null,
+      "evidence_type": "none",
       "sources": [
-        {
-          "url": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion040/20240523/Votacion004/VOT_20240523140934.json",
-          "title": "Proposición no de Ley del Grupo Parlamentario Socialista, sobre la garantía de la aplicación de las políticas de memoria democrática en España. Se vota en los términos resultantes de la incorporación de la enmienda presentada por el Grupo Parlamentario Socialista y el Grupo Parlamentario Plurinacional SUMAR.",
-          "publisher": "Congreso de los Diputados",
-          "date": "2024-05-23",
-          "quote": "",
-          "accessed": "2026-10-31"
-        },
         {
           "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00_COALICION%20POR%20CANARIAS.pdf",
           "title": "Manifiesto «Un objetivo común, la defensa de Canarias» y Compromisos con Canarias (elecciones generales 23-J 2023)",
@@ -602,7 +518,7 @@
         "v-memoria-mocion-2024-02-06",
         "v-memoria-pnl-2024-05-23"
       ],
-      "note": "Sin posición explícita en los documentos consultados; codificado a partir del voto del partido en el Congreso (v-memoria-pnl-2024-05-23). [Nota: la afirmación se redactó en sentido inverso el 31/10/2026 para equilibrar el cuestionario; la postura se invirtió en consecuencia.]"
+      "note": "Sin posición explícita sobre la derogación. Los votos sobre la aplicación de la ley (moción y PNL de 2024) son votaciones relacionadas y por sí solas no bastan para codificar. [Calibración 31/10/2026 tras auditoría de neutralidad.]"
     },
     {
       "statement": "ext-gasto-defensa",
