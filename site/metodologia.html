@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
-  <title data-title-es="Metodología" data-title-en="Methodology">Metodología</title>
+  <title data-title-es="Metodología · 29N" data-title-en="Methodology · 29N">Metodología · 29N</title>
   <meta name="description" content="Cómo se eligieron las afirmaciones, cómo se codificaron las posiciones de los partidos, cómo se calcula la coincidencia y qué límites tiene esta herramienta.">
   <link rel="canonical" href="https://renzorico.github.io/spanish-elections-2026/metodologia.html">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -25,180 +25,250 @@
   <script type="module" src="js/page.js"></script>
 </head>
 <body>
-  <a class="skip" href="#main">Saltar al contenido</a>
+  <a class="skip" href="#main"><span data-lang="es">Saltar al contenido</span><span data-lang="en" hidden>Skip to content</span></a>
   <header class="site-header">
-    <a class="brand" data-href-lang="./" href="./"><svg class="brand-mark" viewBox="0 0 40 22" aria-hidden="true" focusable="false"><g fill="currentColor"><circle cx="12.82" cy="19.10" r="2.46"/><circle cx="14.19" cy="14.88" r="2.46"/><circle cx="17.78" cy="12.27" r="2.46"/><circle cx="22.22" cy="12.27" r="2.46"/><circle cx="25.81" cy="14.88" r="2.46"/><circle cx="27.18" cy="19.10" r="2.46"/><circle cx="7.86" cy="19.10" r="2.46"/><circle cx="8.79" cy="14.45" r="2.46"/><circle cx="11.42" cy="10.51" r="2.46"/><circle cx="15.35" cy="7.88" r="2.46"/><circle cx="20.00" cy="6.96" r="2.46"/><circle cx="24.65" cy="7.88" r="2.46"/><circle cx="28.58" cy="10.51" r="2.46"/><circle cx="31.21" cy="14.45" r="2.46"/><circle cx="32.14" cy="19.10" r="2.46"/><circle cx="2.90" cy="19.10" r="2.46"/><circle cx="3.60" cy="14.28" r="2.46"/><circle cx="5.62" cy="9.85" r="2.46"/><circle cx="8.80" cy="6.18" r="2.46"/><circle cx="12.90" cy="3.54" r="2.46"/><circle cx="17.57" cy="2.17" r="2.46"/><circle cx="22.43" cy="2.17" r="2.46"/><circle cx="27.10" cy="3.54" r="2.46"/><circle cx="31.20" cy="6.18" r="2.46"/><circle cx="34.38" cy="9.85" r="2.46"/><circle cx="36.40" cy="14.28" r="2.46"/><circle cx="37.10" cy="19.10" r="2.46"/></g></svg><span><span class="brand-name">29N</span><span class="brand-tag">Elecciones generales · 29 nov 2026</span></span></a>
+    <a class="brand" data-href-lang="./" href="./"><svg class="brand-mark" viewBox="0 0 40 22" aria-hidden="true" focusable="false"><g fill="currentColor"><circle cx="12.82" cy="19.10" r="2.46"/><circle cx="14.19" cy="14.88" r="2.46"/><circle cx="17.78" cy="12.27" r="2.46"/><circle cx="22.22" cy="12.27" r="2.46"/><circle cx="25.81" cy="14.88" r="2.46"/><circle cx="27.18" cy="19.10" r="2.46"/><circle cx="7.86" cy="19.10" r="2.46"/><circle cx="8.79" cy="14.45" r="2.46"/><circle cx="11.42" cy="10.51" r="2.46"/><circle cx="15.35" cy="7.88" r="2.46"/><circle cx="20.00" cy="6.96" r="2.46"/><circle cx="24.65" cy="7.88" r="2.46"/><circle cx="28.58" cy="10.51" r="2.46"/><circle cx="31.21" cy="14.45" r="2.46"/><circle cx="32.14" cy="19.10" r="2.46"/><circle cx="2.90" cy="19.10" r="2.46"/><circle cx="3.60" cy="14.28" r="2.46"/><circle cx="5.62" cy="9.85" r="2.46"/><circle cx="8.80" cy="6.18" r="2.46"/><circle cx="12.90" cy="3.54" r="2.46"/><circle cx="17.57" cy="2.17" r="2.46"/><circle cx="22.43" cy="2.17" r="2.46"/><circle cx="27.10" cy="3.54" r="2.46"/><circle cx="31.20" cy="6.18" r="2.46"/><circle cx="34.38" cy="9.85" r="2.46"/><circle cx="36.40" cy="14.28" r="2.46"/><circle cx="37.10" cy="19.10" r="2.46"/></g></svg><span><span class="brand-name">29N</span><span class="brand-tag"><span data-lang="es">Elecciones generales 2026</span><span data-lang="en" hidden>General election 2026</span></span></span></a>
     <nav class="site-nav" aria-label="Principal">
       <a class="nav-link" data-href-lang="eleccion.html" href="eleccion.html"><span data-lang="es">Cómo se vota</span><span data-lang="en" hidden>How voting works</span></a>
       <a class="btn btn-primary" data-href-lang="./" href="./" style="min-height:40px;padding:.5rem 1rem;font-size:.9rem"><span data-lang="es">Hacer el test</span><span data-lang="en" hidden>Take the quiz</span></a>
       <button id="lang" class="lang-btn" type="button" lang="en">EN</button>
     </nav>
   </header>
-  <main id="main" class="wrap prose">
-    <article data-lang="es">
-      <h1>Metodología</h1>
-      <p>Esta herramienta es independiente, no tiene ánimo de lucro y no está vinculada a ningún partido. Todo el código y los datos son públicos y revisables en el <a href="https://github.com/renzorico/spanish-elections-2026" rel="noopener">repositorio del proyecto</a>.</p>
-      <ul class="steps" style="grid-template-columns:1fr">
-        <li><span class="num">13</span><h3>partidos</h3><p>Los que tenían diputados al disolverse las Cortes o más del 1 % en las europeas de 2024.</p></li>
-        <li><span class="num">30</span><h3>afirmaciones neutrales</h3><p>Sobre 11 temas, la mitad redactadas en cada sentido para no favorecer a nadie.</p></li>
-        <li><span class="num">✓</span><h3>cada posición, con fuente</h3><p>Programa, votación en el Congreso o declaración oficial, con cita literal. Si no hay fuente: «sin posición clara». Nunca se deduce.</p></li>
-        <li><span class="num">0</span><h3>datos guardados</h3><p>Todo se calcula en tu navegador. Sin cuentas, cookies ni analítica.</p></li>
-      </ul>
-      <details><summary>Qué partidos se incluyen</summary>
-      <p>Aplicamos la misma regla a todos: se incluye un partido o coalición que se presenta en 2026 y que (a) tenía al menos un diputado propio en el Congreso al disolverse las Cortes, o (b) obtuvo al menos el 1 % del voto en España en las últimas elecciones de ámbito estatal (europeas de junio de 2024).</p>
-      <p>Resultado (orden alfabético): BNG, CCa, Compromís, EAJ-PNV, EH Bildu, ERC, Frente Amplio, Junts, Podemos, PP (con UPN en Navarra), PSOE, SALF, Vox.</p>
-      <p>Los votos de una coalición en las europeas cuentan solo para la coalición en su conjunto, no para cada integrante por separado. Por eso no se incluyen, al no cumplir ninguno de los dos criterios por sí mismos, otras candidaturas presentes en algunas provincias (por ejemplo, PACMA, Escaños en Blanco, Existe, Geroa Bai —que en 2024 formó parte de la coalición CEUS— o la coalición UPC como tal). Esto es una limitación: pueden estar en tu papeleta.</p>
-      <p>Los partidos que se muestran en cada provincia salen de las candidaturas publicadas en el BOE del 28 de octubre de 2026. Un partido aparece si figura una candidatura con su nombre, su marca regional o el de uno de sus partidos integrantes. Si esa candidatura es una coalición encabezada por otro partido (por ejemplo, UPN-PP en Navarra, UPC en Canarias o Compromís en la Comunitat Valenciana), se muestra el nombre oficial de la papeleta y un aviso: las posiciones son las del partido a escala estatal, no necesariamente las de la coalición.</p>
-      </details>
-      <details><summary>Cómo se eligieron las afirmaciones</summary>
-      <ul>
-        <li>30 afirmaciones sobre 11 temas que ocupan el debate público: vivienda, economía, trabajo, sanidad, derechos, inmigración, clima, modelo territorial, educación, instituciones y política exterior.</li>
-        <li>Cada afirmación trata un solo asunto, se refiere a una medida concreta y está redactada sin términos valorativos. Una lista de palabras cargadas se comprueba automáticamente.</li>
-        <li>Hay afirmaciones en las que estar «de acuerdo» supone cambiar la situación actual y otras en las que supone mantenerla.</li>
-        <li>Cada una incluye una línea de contexto neutral sobre la situación legal actual.</li>
-        <li>El orden de las afirmaciones es aleatorio en cada visita.</li>
-      </ul>
-      </details>
-      <details><summary>Cómo se codificaron las posiciones de los partidos</summary>
-      <p>Para cada partido y afirmación se registra: <em>a favor</em>, <em>en contra</em>, <em>posición intermedia</em> o <em>sin posición clara</em>, con al menos una fuente (enlace, fecha y cita literal breve) y un nivel de confianza.</p>
-      <table>
-        <thead><tr><th>Confianza</th><th>Cuándo se usa</th></tr></thead>
-        <tbody>
-          <tr><td>Alta</td><td>Votación del partido en el Congreso en la legislatura 2023-2026 sobre esa medida, o texto explícito en su programa electoral (2026 o 2023).</td></tr>
-          <tr><td>Media</td><td>Declaración oficial del partido (en su web o canales oficiales, o de su portavoz en el Congreso) o texto de programa que implica claramente la posición.</td></tr>
-          <tr><td>Baja</td><td>Solo información de prensa sobre la posición del partido, declaraciones de dirigentes como miembros del Gobierno recogidas por la prensa, o evidencia indirecta o antigua.</td></tr>
-        </tbody>
-      </table>
-      <ul>
-        <li><strong>Nunca se deduce</strong> una posición a partir de la ideología, los aliados o lo que «probablemente» piense un partido. Si no hay fuente, se marca «sin posición clara».</li>
-        <li><strong>Programas 2026:</strong> muchos partidos no habían publicado su programa al construir esta herramienta. Esos partidos llevan la etiqueta «Programa 2026 pendiente» y se usan como base sus votaciones en el Congreso desde 2023, su programa de 2023 y sus declaraciones oficiales. Se actualizará cuando se publiquen.</li>
-        <li><strong>Votaciones relacionadas y abstenciones:</strong> cada votación se clasifica como «directa» (sobre la misma medida) o «relacionada». Una votación relacionada o una abstención nunca basta por sí sola para codificar una posición; se muestra como contexto.</li>
-        <li><strong>Afirmaciones genéricas</strong> («defenderemos los derechos LGTBI», «financiación justa») no se usan como prueba de una medida concreta.</li>
-        <li><strong>Atribución de los votos:</strong> se cuenta por partido de militancia, no solo por grupo parlamentario. Los diputados de Podemos y de Compromís, elegidos en la lista de Sumar, cuentan para su propio partido durante toda la legislatura; quien abandona su partido (Ábalos, Ortega Smith) cuenta para él hasta la fecha de salida y después como independiente; el diputado de UPN no se suma al PP. El detalle está en <code>data/votes/deputies.json</code>.</li>
-        <li><strong>Votaciones:</strong> se obtienen de los datos abiertos del Congreso (voto nominal de cada diputado) y se atribuyen al partido por grupo parlamentario o, en el Grupo Mixto, diputado a diputado. Una votación es una prueba, no un código automático: si un partido vota en contra de una ley por motivos ajenos a la afirmación, se explica en una nota. El sistema avisa si la posición codificada contradice una votación enlazada sin explicación.</li>
-        <li>Frente Amplio es la sucesora de la coalición Sumar y su programa de 2023 se trata como propio. Podemos y Compromís concurrieron dentro de Sumar en 2023; cuando la única evidencia es aquel programa conjunto, su confianza es como máximo media.</li>
-        <li>Tras la auditoría de neutralidad (ver <a href="https://github.com/renzorico/spanish-elections-2026/blob/main/AUDIT.md" rel="noopener">AUDIT.md</a> en el repositorio), seis afirmaciones se redactaron en sentido inverso para que haya tantas en las que «de acuerdo» coincide con posiciones de un lado como del otro; las posturas de los partidos se invirtieron en consecuencia.</li>
-      </ul>
-      </details>
-      <details><summary>Cómo se calcula la coincidencia</summary>
-      <ul>
-        <li>Tu respuesta: de −2 (muy en desacuerdo) a +2 (muy de acuerdo), o saltar. Posición del partido: −1 (en contra), 0 (intermedia), +1 (a favor).</li>
-        <li>Coincidencia en una afirmación = 1 − |tu respuesta/2 − partido| / 2. Ejemplos: «muy de acuerdo» frente a «a favor» = 100 %; «de acuerdo» frente a «a favor» = 75 %; «neutral» frente a «a favor» = 50 %; «muy en desacuerdo» frente a «a favor» = 0 %.</li>
-        <li>Por tema: media de las afirmaciones que respondiste y en las que el partido tiene posición.</li>
-        <li>Total: media ponderada por el peso que des a cada tema («Menos» ×0,5, «Igual» ×1, «Más» ×2), a nivel de afirmación.</li>
-        <li>Las posiciones que faltan («sin posición clara») <strong>no se rellenan</strong>: simplemente no cuentan. Por eso se muestra en cuántas de tus afirmaciones se basa cada resultado, y se avisa con «datos limitados» si es la mitad o menos. Si ordenas por coincidencia, los partidos con datos limitados aparecen después de los demás.</li>
-        <li>Una posición «intermedia» del partido da al menos un 50 % de coincidencia con cualquier respuesta; solo se usa cuando la fuente expresa explícitamente una postura intermedia.</li>
-        <li>Puedes excluir las posiciones de confianza baja.</li>
-        <li>Los resultados se ordenan por coincidencia con tus respuestas. Los partidos con pocos datos (posición documentada en la mitad o menos de tus respuestas) van al final, marcados, para que un porcentaje calculado con pocas afirmaciones no quede por encima de otros mejor documentados. Los empates se ordenan al azar. No hay recomendaciones ni etiquetas de «mejor opción».</li>
-        <li>Puedes descargar dos documentos, creados en tu navegador: un <b>informe completo</b> (para ti: todas tus respuestas, el mapa por temas y un enlace para volver a tus resultados) y un <b>resumen para compartir</b> (una página, también como imagen, con los tres partidos con más coincidencia entre los que tienen datos suficientes; no muestra tus respuestas).</li>
-        <li><strong>Colores:</strong> cada tema tiene un color apagado, todos con la misma intensidad, para que ninguno recuerde al color de un partido. Los partidos no tienen color propio en la interfaz; sus logotipos aparecen todos al mismo tamaño.</li>
-      </ul>
-      </details>
-      <details><summary>Privacidad</summary>
-      <p>Tus respuestas no salen de tu navegador. No hay cuentas, cookies, analítica ni servicios de terceros; la página solo descarga sus propios archivos. Al cerrar la pestaña, las respuestas desaparecen.</p><p>El informe completo incluye un enlace que vuelve a abrir tus resultados. Tus respuestas van dentro de ese enlace, detrás del signo «#»: los navegadores no envían esa parte a ningún servidor y no se guarda en ningún sitio. Quien tenga el enlace puede ver tus respuestas; compártelo solo si quieres.</p>
-      </details>
-      <details><summary>Limitaciones conocidas</summary>
-      <ul>
-        <li>30 afirmaciones no recogen todo lo que importa en una elección; la selección de temas es en sí una decisión editorial.</li>
-        <li>Una escala de tres posiciones simplifica posturas matizadas. Las notas y fuentes dan el detalle.</li>
-        <li>Los partidos grandes tienen más votaciones y documentos; los pequeños o sin escaños (como SALF) tienen más «sin posición clara». Eso reduce el número de afirmaciones comparables, no la puntuación.</li>
-        <li>Los programas de 2023 y las votaciones pasadas pueden no reflejar la posición actual de un partido.</li>
-        <li>Las candidaturas son las presentadas el 28 de octubre; la proclamación oficial (2 de noviembre) podría excluir alguna.</li>
-        <li>Para las coaliciones regionales (por ejemplo, UPC en Canarias) no hay posiciones propias codificadas.</li>
-      </ul>
-      </details>
-      <details><summary>Cobertura de datos por partido</summary>
-      <p>Ver la tabla al final de esta página.</p>
-      </details>
-      <details><summary>Errores y correcciones</summary>
-      <p>Si encuentras un error o una fuente mejor, <a href="https://github.com/renzorico/spanish-elections-2026/issues/new" rel="noopener">abre una incidencia en el repositorio público</a> indicando la afirmación, el partido y la fuente. En los resultados, cada posición tiene además un enlace «Señalar un error o una fuente mejor» que rellena esos datos. Las correcciones se aplican con el mismo criterio para todos los partidos y quedan registradas en el historial.</p>
-      </details>
-      <p><a data-href-lang="./" href="./">← Volver a la herramienta</a></p>
-    </article>
+  <main id="main" class="wrap-wide">
+    <article data-lang="es" class="ref">
+      <nav class="ref-toc" aria-label="En esta página">
+        <p class="ref-toc-h">En esta página</p>
+        <ol>
+          <li><a href="#mes-partidos">Qué partidos se incluyen</a></li>
+          <li><a href="#mes-afirmaciones">Las afirmaciones</a></li>
+          <li><a href="#mes-posiciones">Las posiciones de los partidos</a></li>
+          <li><a href="#mes-calculo">Cómo se calcula</a></li>
+          <li><a href="#mes-resultados">Resultados y descargas</a></li>
+          <li><a href="#mes-privacidad">Privacidad</a></li>
+          <li><a href="#mes-limites">Limitaciones</a></li>
+          <li><a href="#mes-cobertura">Cobertura de datos</a></li>
+          <li><a href="#mes-correcciones">Errores y correcciones</a></li>
+        </ol>
+      </nav>
+      <div class="ref-main">
+        <header class="ref-hero">
+          <p class="ref-kicker">Cómo funciona esta herramienta</p>
+          <h1>Metodología</h1>
+          <p class="ref-lead">Cómo elegimos los partidos y las afirmaciones, de dónde sale cada posición y cómo se calcula tu resultado. La herramienta es independiente y sin ánimo de lucro, y todo el código y los datos son públicos.</p>
+          <ul class="ref-facts"><li><b>13</b><span>partidos, con la misma regla de inclusión para todos</span></li><li><b>30</b><span>afirmaciones neutrales: 15 en un sentido y 15 en el otro</span></li><li><b>✓</b><span>cada posición, con su fuente y una cita literal; sin fuente no hay posición</span></li><li><b>0</b><span>datos guardados: todo se calcula en tu navegador</span></li></ul>
+          <p class="ref-meta"><a href="https://github.com/renzorico/spanish-elections-2026" rel="noopener">Código y datos en GitHub <span aria-hidden="true">↗</span></a></p>
+        </header>
 
-    <article data-lang="en" hidden>
-      <h1>Methodology</h1>
-      <p>This tool is independent, non-profit and not linked to any party. All code and data are public and open to review in the <a href="https://github.com/renzorico/spanish-elections-2026" rel="noopener">project repository</a>.</p>
-      <ul class="steps" style="grid-template-columns:1fr">
-        <li><span class="num">13</span><h3>parties</h3><p>Those with deputies when Parliament was dissolved, or over 1% in the 2024 European election.</p></li>
-        <li><span class="num">30</span><h3>neutral statements</h3><p>On 11 topics, half worded each way so that no side is favoured.</p></li>
-        <li><span class="num">✓</span><h3>every position sourced</h3><p>Program, Congreso vote or official statement, with a verbatim quote. No source: "no clear position". Nothing is inferred.</p></li>
-        <li><span class="num">0</span><h3>data stored</h3><p>Everything is computed in your browser. No accounts, cookies or analytics.</p></li>
-      </ul>
-      <details><summary>Which parties are included</summary>
-      <p>The same rule applies to everyone: a party or coalition running in 2026 is included if (a) it had at least one deputy of its own in the Congreso at dissolution, or (b) it won at least 1% of the vote in Spain in the most recent nationwide election (European Parliament, June 2024).</p>
-      <p>Result (alphabetical): BNG, CCa, Compromís, EAJ-PNV, EH Bildu, ERC, Frente Amplio, Junts, Podemos, PP (with UPN in Navarre), PSOE, SALF, Vox.</p>
-      <p>A coalition's European-election vote counts only for the coalition as a whole, not for each member. Other candidacies on the ballot in some provinces (e.g. PACMA, Escaños en Blanco, Existe, Geroa Bai — part of the CEUS coalition in 2024 — or the UPC coalition as such) meet neither criterion on their own and are not included. This is a limitation: they may be on your ballot.</p>
-      <p>Parties shown per province come from the candidacies published in the BOE on 28 October 2026. A party appears if a candidacy carries its name, its regional brand or the name of one of its member parties. If that candidacy is a coalition headed by another party (e.g. UPN-PP in Navarre, UPC in the Canary Islands or Compromís in the Valencian Community), the official ballot name and a notice are shown: positions are the party's statewide ones, not necessarily the coalition's.</p>
-      </details>
-      <details><summary>How the statements were chosen</summary>
-      <ul>
-        <li>30 statements across 11 topics prominent in public debate.</li>
-        <li>Each statement covers one issue, refers to a concrete measure and avoids value-laden terms; a list of loaded words is checked automatically.</li>
-        <li>For some statements "agree" means changing the status quo, for others keeping it.</li>
-        <li>Each includes one neutral line of context about the current legal situation.</li>
-        <li>Statement order is randomised on every visit.</li>
-      </ul>
-      </details>
-      <details><summary>How party positions were coded</summary>
-      <p>For each party and statement we record <em>in favour</em>, <em>against</em>, <em>intermediate</em> or <em>no clear position</em>, with at least one source (link, date and short verbatim quote) and a confidence level.</p>
-      <table>
-        <thead><tr><th>Confidence</th><th>When used</th></tr></thead>
-        <tbody>
-          <tr><td>High</td><td>The party's vote in the Congreso in the 2023-2026 legislature on that measure, or explicit text in its election program (2026 or 2023).</td></tr>
-          <tr><td>Medium</td><td>Official party statement (its website or official channels, or its spokesperson in the Congreso) or program text that clearly implies the position.</td></tr>
-          <tr><td>Low</td><td>Only press reports of the party's position, statements by leaders acting as government members reported by the press, or indirect or older evidence.</td></tr>
-        </tbody>
-      </table>
-      <ul>
-        <li>A position is <strong>never inferred</strong> from ideology, allies or what a party "probably" thinks. No source → "no clear position".</li>
-        <li><strong>2026 programs:</strong> many parties had not published theirs when this tool was built. Those parties carry a "2026 program pending" label and their Congreso votes since 2023, 2023 program and official statements are used. Positions will be updated once programs are published.</li>
-        <li><strong>Attribution of votes:</strong> counted by party of membership, not only by parliamentary group. Podemos and Compromís deputies, elected on the Sumar list, count for their own party throughout the legislature; a deputy who leaves their party (Ábalos, Ortega Smith) counts for it until the departure date and as an independent afterwards; UPN's deputy is not added to PP. Details are in <code>data/votes/deputies.json</code>.</li>
-        <li><strong>Votes</strong> come from Congreso open data (each deputy's recorded vote), attributed to parties by parliamentary group or, in the Mixed Group, deputy by deputy. A vote is evidence, not an automatic code; if a party voted against a bill for reasons unrelated to the statement, a note explains it. The pipeline flags any coded position that contradicts a linked vote without explanation.</li>
-        <li><strong>Related votes and abstentions</strong>: each vote is classed as "direct" (on the same measure) or "related". A related vote or an abstention alone never justifies a coding; it is shown as context. Generic statements ("we will defend LGBTI rights") are not used as evidence for a specific measure.</li>
-        <li>Frente Amplio is the successor of the Sumar coalition and its 2023 program is treated as its own. Podemos and Compromís ran within Sumar in 2023; where that joint program is the only evidence, their confidence is at most medium.</li>
-        <li>After the neutrality audit (see <a href="https://github.com/renzorico/spanish-elections-2026/blob/main/AUDIT.md" rel="noopener">AUDIT.md</a> in the repository), six statements were reversed so that "agree" aligns with each side equally often; party stances were inverted accordingly.</li>
-      </ul>
-      </details>
-      <details><summary>How agreement is calculated</summary>
-      <ul>
-        <li>Your answer: −2 (strongly disagree) to +2 (strongly agree), or skip. Party: −1 (against), 0 (intermediate), +1 (in favour).</li>
-        <li>Agreement on one statement = 1 − |your answer/2 − party| / 2. E.g. strongly agree vs in favour = 100%; agree vs in favour = 75%; neutral vs in favour = 50%; strongly disagree vs in favour = 0%.</li>
-        <li>Per topic: mean over statements you answered on which the party has a position.</li>
-        <li>Overall: weighted by the weight you give each topic ("Less" ×0.5, "Same" ×1, "More" ×2), at statement level.</li>
-        <li>Missing positions are <strong>not filled in</strong>; they simply do not count. Each result therefore shows how many of your statements it is based on, with a "limited data" flag at half or less. When sorting by agreement, limited-data parties are listed after the others.</li>
-        <li>An "intermediate" party position gives at least 50% agreement with any answer; it is used only when the source explicitly states an intermediate position.</li>
-        <li>You can exclude low-confidence positions.</li>
-        <li>Results are sorted by agreement with your answers. Parties with limited data (a documented position on half or fewer of your answers) go last, marked, so that a percentage based on few statements is not shown above better-documented parties. Ties are ordered at random. There are no recommendations or "best match" labels.</li>
-        <li>You can download two documents, created in your browser: a <b>full report</b> (for you: all your answers, the topic map and a link back to your results) and a <b>summary to share</b> (one page, also as an image, with the three parties you agree with most among those with enough data; it does not show your answers).</li>
-        <li><strong>Colours:</strong> each topic has a muted colour, all with the same intensity, so none resembles a party colour. Parties have no colour of their own in the interface; their logos all appear at the same size.</li>
-      </ul>
-      </details>
-      <details><summary>Privacy</summary>
-      <p>Your answers never leave your browser. No accounts, cookies, analytics or third-party services; the page only downloads its own files. Closing the tab erases your answers.</p><p>The full report includes a link that reopens your results. Your answers travel inside that link, after the « # » sign: browsers do not send that part to any server, and nothing is stored anywhere. Anyone with the link can see your answers, so share it only if you want to.</p>
-      </details>
-      <details><summary>Known limitations</summary>
-      <ul>
-        <li>30 statements cannot capture everything that matters; choosing topics is itself an editorial decision.</li>
-        <li>A three-point party scale simplifies nuanced positions; notes and sources give detail.</li>
-        <li>Large parties have more votes and documents; small or seatless parties (such as SALF) have more "no clear position". This reduces the number of comparable statements, not the score.</li>
-        <li>2023 programs and past votes may not reflect a party's current position.</li>
-        <li>Candidacies are those submitted on 28 October; official proclamation (2 November) could exclude some.</li>
-        <li>Regional coalitions (e.g. UPC in the Canary Islands) have no positions of their own coded.</li>
-      </ul>
-      </details>
-      <details><summary>Data coverage by party</summary>
-      <p>See the table at the end of this page.</p>
-      </details>
-      <details><summary>Errors and corrections</summary>
-      <p>If you find an error or a better source, <a href="https://github.com/renzorico/spanish-elections-2026/issues/new" rel="noopener">open an issue in the public project repository</a> naming the statement, party and source. In the results, each position also has a "Report an error or a better source" link that pre-fills these details. Corrections follow the same criteria for every party and are recorded in the history.</p>
-      </details>
-      <p><a data-href-lang="./" href="./">← Back to the tool</a></p>
+        <section class="ref-sec" id="mes-partidos" aria-labelledby="mes-partidos-h">
+          <div class="ref-sec-head"><span class="ref-num">01</span><h2 id="mes-partidos-h">Qué partidos se incluyen</h2></div>
+          <p class="ref-sum">Los que se presentan en 2026 y cumplen al menos uno de estos dos criterios:</p>
+          <div class="crit">
+            <div><span class="crit-l">A</span><p>Tenían al menos un diputado propio en el Congreso al disolverse las Cortes.</p></div>
+            <div><span class="crit-l">B</span><p>Obtuvieron al menos el 1 % del voto en España en las europeas de 2024.</p></div>
+          </div>
+          <ul class="chips" aria-label="Partidos incluidos, por orden alfabético"><li>BNG</li><li>CCa</li><li>Compromís</li><li>EAJ-PNV</li><li>EH Bildu</li><li>ERC</li><li>Frente Amplio</li><li>Junts</li><li>Podemos</li><li>PP</li><li>PSOE</li><li>SALF</li><li>Vox</li></ul>
+          <details class="ref-more"><summary>Por qué no aparecen otros partidos</summary>
+            <p>Los votos de una coalición en las europeas cuentan solo para la coalición, no para cada integrante. Por eso no se incluyen candidaturas como PACMA, Escaños en Blanco, Existe, Geroa Bai o la coalición UPC como tal. Es una limitación: pueden estar en tu papeleta.</p>
+          </details>
+          <details class="ref-more"><summary>Partidos en cada provincia y coaliciones</summary>
+            <p>Los partidos de cada provincia salen de las candidaturas publicadas en el BOE del 28 de octubre de 2026. Si un partido va dentro de una coalición encabezada por otro (UPN-PP en Navarra, UPC en Canarias, Compromís en la Comunitat Valenciana), se muestra el nombre de la papeleta y un aviso: las posiciones son las del partido, no necesariamente las de la coalición.</p>
+          </details>
+        </section>
+
+        <section class="ref-sec" id="mes-afirmaciones" aria-labelledby="mes-afirmaciones-h">
+          <div class="ref-sec-head"><span class="ref-num">02</span><h2 id="mes-afirmaciones-h">Las afirmaciones</h2></div>
+          <p class="ref-sum">30 afirmaciones sobre 11 temas del debate público. Cada una cumple estas reglas:</p>
+          <ul class="checks">
+            <li>Trata <b>un solo asunto</b> y una medida concreta.</li>
+            <li>Está redactada <b>sin términos valorativos</b>; una lista de palabras cargadas se comprueba automáticamente.</li>
+            <li>Incluye una explicación sencilla y una línea de contexto sobre la situación actual.</li>
+            <li>Aparece en <b>orden aleatorio</b> en cada visita.</li>
+          </ul>
+          <div class="polarity" role="img" aria-label="15 afirmaciones en un sentido y 15 en el otro"><span style="flex:15">15</span><span style="flex:15">15</span></div>
+          <p class="ref-meta">En la mitad, estar «de acuerdo» supone cambiar la situación actual; en la otra mitad, mantenerla. Así ningún lado sale favorecido por cómo se formulan.</p>
+        </section>
+
+        <section class="ref-sec" id="mes-posiciones" aria-labelledby="mes-posiciones-h">
+          <div class="ref-sec-head"><span class="ref-num">03</span><h2 id="mes-posiciones-h">Las posiciones de los partidos</h2></div>
+          <p class="ref-sum">Para cada partido y afirmación se registra una de estas posiciones, con al menos una fuente (enlace, fecha y cita literal) y un nivel de confianza:</p>
+          <ul class="stances"><li class="st-agree">A favor</li><li class="st-neutral">Intermedia</li><li class="st-disagree">En contra</li><li class="st-none">Sin posición clara</li></ul>
+          <ol class="ladder" aria-label="Niveles de confianza"><li><span class="lvl" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span><div><h3>Alta</h3><p>Votación del partido en el Congreso (2023-2026) sobre esa misma medida, o texto explícito de su programa electoral.</p></div></li><li><span class="lvl" aria-hidden="true"><i class=on></i><i class=on></i><i></i></span><div><h3>Media</h3><p>Declaración oficial del partido o de su portavoz, o texto de programa que implica claramente la posición.</p></div></li><li><span class="lvl" aria-hidden="true"><i class=on></i><i></i><i></i></span><div><h3>Baja</h3><p>Solo información de prensa, o evidencia indirecta o antigua. Puedes excluir estas posiciones en los resultados.</p></div></li></ol>
+          <p class="ref-callout"><b>Nunca se deduce.</b> Una posición no se adivina por la ideología, los aliados o lo que un partido «probablemente» piense. Si no hay fuente, se marca «sin posición clara».</p>
+          <details class="ref-more"><summary>Reglas de codificación en detalle</summary><ul><li><b>Programas 2026.</b> Muchos partidos aún no lo habían publicado. Mientras tanto se usan sus votaciones desde 2023, su programa de 2023 y sus declaraciones oficiales, y el partido lleva la etiqueta «Programa 2026 pendiente».</li><li><b>Votaciones.</b> Salen de los datos abiertos del Congreso, diputado a diputado. Se clasifican como «directas» (sobre la misma medida) o «relacionadas». Una votación relacionada o una abstención nunca basta por sí sola: se muestra como contexto. Si un partido vota en contra por motivos ajenos a la afirmación, se explica en una nota.</li><li><b>Atribución de votos.</b> Por partido de militancia, no solo por grupo. Los diputados de Podemos y Compromís, elegidos en la lista de Sumar, cuentan para su partido; quien abandona su partido cuenta para él hasta la fecha de salida; el diputado de UPN no se suma al PP.</li><li><b>Frases genéricas</b> («defenderemos los derechos», «financiación justa») no prueban una medida concreta y no se usan.</li><li><b>Sumar 2023.</b> Frente Amplio es su sucesora y su programa se trata como propio. Para Podemos y Compromís, si es la única prueba, la confianza es como máximo media.</li><li><b>Auditoría.</b> Tras una auditoría de neutralidad, seis afirmaciones se redactaron en sentido inverso para equilibrar las dos direcciones. Detalle en <a href="https://github.com/renzorico/spanish-elections-2026/blob/main/AUDIT.md" rel="noopener">AUDIT.md</a>.</li></ul></details>
+        </section>
+
+        <section class="ref-sec" id="mes-calculo" aria-labelledby="mes-calculo-h">
+          <div class="ref-sec-head"><span class="ref-num">04</span><h2 id="mes-calculo-h">Cómo se calcula tu coincidencia</h2></div>
+          <ol class="flow flow-3"><li><span class="flow-n">1</span><h3>Por afirmación</h3><p>Se compara tu respuesta con la posición del partido (tabla de abajo).</p></li><li><span class="flow-n">2</span><h3>Por tema</h3><p>Media de las afirmaciones del tema que respondiste y en las que el partido tiene posición.</p></li><li><span class="flow-n">3</span><h3>Total</h3><p>Media de todas, con el peso que diste a cada tema: «Menos» ×0,5, «Igual» ×1, «Más» ×2.</p></li></ol>
+          <div class="table-wrap"><table class="matrix"><caption>Coincidencia en una afirmación, según tu respuesta (filas) y la posición del partido (columnas). En %.</caption><thead><tr><th scope="col"><span class="vh">Tu respuesta</span></th><th scope=col>A favor</th><th scope=col>Intermedia</th><th scope=col>En contra</th></tr></thead><tbody><tr><th scope="row">Muy en desacuerdo</th><td><span class="mx" style="--a:0.0">0</span></td><td><span class="mx" style="--a:0.5">50</span></td><td><span class="mx" style="--a:1.0">100</span></td></tr><tr><th scope="row">En desacuerdo</th><td><span class="mx" style="--a:0.25">25</span></td><td><span class="mx" style="--a:0.75">75</span></td><td><span class="mx" style="--a:0.75">75</span></td></tr><tr><th scope="row">Neutral</th><td><span class="mx" style="--a:0.5">50</span></td><td><span class="mx" style="--a:1.0">100</span></td><td><span class="mx" style="--a:0.5">50</span></td></tr><tr><th scope="row">De acuerdo</th><td><span class="mx" style="--a:0.75">75</span></td><td><span class="mx" style="--a:0.75">75</span></td><td><span class="mx" style="--a:0.25">25</span></td></tr><tr><th scope="row">Muy de acuerdo</th><td><span class="mx" style="--a:1.0">100</span></td><td><span class="mx" style="--a:0.5">50</span></td><td><span class="mx" style="--a:0.0">0</span></td></tr></tbody></table></div>
+          <details class="ref-more"><summary>Datos que faltan y otros detalles</summary><ul><li>Las posiciones que faltan <b>no se rellenan</b>: simplemente no cuentan. Por eso cada resultado dice en cuántas de tus respuestas se basa.</li><li>Si un partido tiene posición en la mitad o menos de tus respuestas, se marca como <b>«Pocos datos»</b>.</li><li>Una posición «intermedia» da al menos un 50 % con cualquier respuesta; solo se usa cuando la fuente expresa una postura intermedia.</li><li>«Sin opinión» y las afirmaciones que saltas no cuentan para ningún partido.</li></ul>
+            <p class="ref-meta">Fórmula: coincidencia = 1 − |respuesta/2 − partido| / 2, con tu respuesta de −2 a +2 y el partido de −1 a +1.</p></details>
+        </section>
+
+        <section class="ref-sec" id="mes-resultados" aria-labelledby="mes-resultados-h">
+          <div class="ref-sec-head"><span class="ref-num">05</span><h2 id="mes-resultados-h">Resultados y descargas</h2></div>
+          <ul class="checks">
+            <li>Los partidos se ordenan por coincidencia con tus respuestas. Los empates se ordenan al azar.</li>
+            <li>Los de «Pocos datos» van al final, marcados, para que un porcentaje calculado con pocas afirmaciones no quede por encima de otros mejor documentados.</li>
+            <li>No hay recomendaciones ni etiquetas de «mejor opción».</li>
+            <li>Los temas tienen colores apagados de la misma intensidad, para que ninguno recuerde a un partido. Los partidos no tienen color propio.</li>
+          </ul>
+          <div class="dl-cards">
+            <div><h3>Informe completo</h3><p>Para ti: todas tus respuestas, el mapa por temas y un enlace para volver a tus resultados.</p></div>
+            <div><h3>Resumen para compartir</h3><p>Una página, también como imagen, con los tres partidos con más coincidencia entre los que tienen datos suficientes. No muestra tus respuestas.</p></div>
+          </div>
+        </section>
+
+        <section class="ref-sec" id="mes-privacidad" aria-labelledby="mes-privacidad-h">
+          <div class="ref-sec-head"><span class="ref-num">06</span><h2 id="mes-privacidad-h">Privacidad</h2></div>
+          <p class="ref-big">Tus respuestas no salen de tu navegador.</p>
+          <ul class="checks">
+            <li>Sin cuentas, cookies, analítica ni servicios de terceros. La página solo descarga sus propios archivos.</li>
+            <li>Al cerrar la pestaña, tus respuestas desaparecen.</li>
+            <li>El enlace del informe completo lleva tus respuestas detrás del signo «#». Los navegadores no envían esa parte a ningún servidor, pero quien tenga el enlace puede verlas: compártelo solo si quieres.</li>
+          </ul>
+        </section>
+
+        <section class="ref-sec" id="mes-limites" aria-labelledby="mes-limites-h">
+          <div class="ref-sec-head"><span class="ref-num">07</span><h2 id="mes-limites-h">Limitaciones</h2></div>
+          <ul class="plain"><li>30 afirmaciones no recogen todo lo que importa; elegir los temas ya es una decisión editorial.</li><li>Tres posiciones (a favor, intermedia, en contra) simplifican posturas matizadas. Las notas y fuentes dan el detalle.</li><li>Los partidos pequeños o sin escaños (como SALF) tienen menos votaciones y documentos, y más «sin posición clara». Eso reduce las afirmaciones comparables, no la puntuación.</li><li>Los programas de 2023 y las votaciones pasadas pueden no reflejar la posición actual de un partido.</li><li>Las candidaturas son las presentadas el 28 de octubre; la proclamación oficial podría excluir alguna. Las coaliciones regionales (por ejemplo, UPC en Canarias) no tienen posiciones propias codificadas.</li></ul>
+        </section>
+
+        <section class="ref-sec" id="mes-cobertura" aria-labelledby="mes-cobertura-h">
+          <div class="ref-sec-head"><span class="ref-num">08</span><h2 id="mes-cobertura-h">Cobertura de datos por partido</h2></div>
+          <p class="ref-sum">Cuántas de las 30 afirmaciones tienen posición documentada para cada partido, y con qué confianza.</p>
+          <div class="coverage" data-coverage id="coverage"></div>
+        </section>
+
+        <section class="ref-sec" id="mes-correcciones" aria-labelledby="mes-correcciones-h">
+          <div class="ref-sec-head"><span class="ref-num">09</span><h2 id="mes-correcciones-h">Errores y correcciones</h2></div>
+          <p class="ref-sum">¿Has visto un error o conoces una fuente mejor? Indica la afirmación, el partido y la fuente. Cada posición de los resultados tiene también un enlace «¿Ves un error?» que rellena esos datos. Las correcciones siguen el mismo criterio para todos los partidos y quedan registradas.</p>
+          <p><a class="btn btn-quiet" href="https://github.com/renzorico/spanish-elections-2026/issues/new" rel="noopener">Abrir una incidencia en GitHub <span aria-hidden="true">↗</span></a></p>
+        </section>
+
+        <aside class="ref-cta">
+          <div><p class="ref-cta-h">¿Con qué partidos coincides?</p><p>30 afirmaciones · unos 8 minutos · no se guarda nada</p></div>
+          <a class="btn btn-big" data-href-lang="./" href="./">Hacer el test <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
     </article>
-    <section aria-labelledby="cov-h">
-      <h2 id="cov-h"><span data-lang="es">Cobertura de datos por partido</span><span data-lang="en" hidden>Data coverage by party</span></h2>
-      <div id="coverage"><p class="meta">…</p></div>
-    </section>
+    <article data-lang="en" hidden class="ref">
+      <nav class="ref-toc" aria-label="On this page">
+        <p class="ref-toc-h">On this page</p>
+        <ol>
+          <li><a href="#men-partidos">Which parties are included</a></li>
+          <li><a href="#men-afirmaciones">The statements</a></li>
+          <li><a href="#men-posiciones">The parties’ positions</a></li>
+          <li><a href="#men-calculo">How agreement is calculated</a></li>
+          <li><a href="#men-resultados">Results and downloads</a></li>
+          <li><a href="#men-privacidad">Privacy</a></li>
+          <li><a href="#men-limites">Limitations</a></li>
+          <li><a href="#men-cobertura">Data coverage</a></li>
+          <li><a href="#men-correcciones">Errors and corrections</a></li>
+        </ol>
+      </nav>
+      <div class="ref-main">
+        <header class="ref-hero">
+          <p class="ref-kicker">How this tool works</p>
+          <h1>Methodology</h1>
+          <p class="ref-lead">How the parties and statements were chosen, where each position comes from and how your result is calculated. The tool is independent and non-profit, and all code and data are public.</p>
+          <ul class="ref-facts"><li><b>13</b><span>parties, all included under the same rule</span></li><li><b>30</b><span>neutral statements: 15 worded one way and 15 the other</span></li><li><b>✓</b><span>every position with its source and a verbatim quote; no source, no position</span></li><li><b>0</b><span>data stored: everything is computed in your browser</span></li></ul>
+          <p class="ref-meta"><a href="https://github.com/renzorico/spanish-elections-2026" rel="noopener">Code and data on GitHub <span aria-hidden="true">↗</span></a></p>
+        </header>
+
+        <section class="ref-sec" id="men-partidos" aria-labelledby="men-partidos-h">
+          <div class="ref-sec-head"><span class="ref-num">01</span><h2 id="men-partidos-h">Which parties are included</h2></div>
+          <p class="ref-sum">Those running in 2026 that meet at least one of these two criteria:</p>
+          <div class="crit">
+            <div><span class="crit-l">A</span><p>They had at least one deputy of their own in the Congreso when Parliament was dissolved.</p></div>
+            <div><span class="crit-l">B</span><p>They won at least 1% of the vote in Spain in the 2024 European election.</p></div>
+          </div>
+          <ul class="chips" aria-label="Parties included, in alphabetical order"><li>BNG</li><li>CCa</li><li>Compromís</li><li>EAJ-PNV</li><li>EH Bildu</li><li>ERC</li><li>Frente Amplio</li><li>Junts</li><li>Podemos</li><li>PP</li><li>PSOE</li><li>SALF</li><li>Vox</li></ul>
+          <details class="ref-more"><summary>Why other parties are not shown</summary>
+            <p>Votes for a coalition in the European election count only for the coalition, not for each member. That is why lists such as PACMA, Escaños en Blanco, Existe, Geroa Bai or the UPC coalition as such are not included. This is a limitation: they may be on your ballot.</p>
+          </details>
+          <details class="ref-more"><summary>Parties in each province and coalitions</summary>
+            <p>The parties in each province come from the candidacies published in the BOE on 28 October 2026. If a party runs within a coalition headed by another (UPN-PP in Navarra, UPC in the Canary Islands, Compromís in the Valencian Community), the ballot name is shown with a notice: positions are the party’s, not necessarily the coalition’s.</p>
+          </details>
+        </section>
+
+        <section class="ref-sec" id="men-afirmaciones" aria-labelledby="men-afirmaciones-h">
+          <div class="ref-sec-head"><span class="ref-num">02</span><h2 id="men-afirmaciones-h">The statements</h2></div>
+          <p class="ref-sum">30 statements on 11 topics in the public debate. Each one follows these rules:</p>
+          <ul class="checks">
+            <li>Covers <b>a single issue</b> and a specific measure.</li>
+            <li>Is worded <b>without loaded terms</b>; a list of loaded words is checked automatically.</li>
+            <li>Includes a plain-language explanation and a line of context on the current situation.</li>
+            <li>Appears in <b>random order</b> on every visit.</li>
+          </ul>
+          <div class="polarity" role="img" aria-label="15 statements one way and 15 the other"><span style="flex:15">15</span><span style="flex:15">15</span></div>
+          <p class="ref-meta">In half, "agree" means changing the current situation; in the other half, keeping it. That way no side benefits from the wording.</p>
+        </section>
+
+        <section class="ref-sec" id="men-posiciones" aria-labelledby="men-posiciones-h">
+          <div class="ref-sec-head"><span class="ref-num">03</span><h2 id="men-posiciones-h">The parties’ positions</h2></div>
+          <p class="ref-sum">For each party and statement one of these positions is recorded, with at least one source (link, date and verbatim quote) and a confidence level:</p>
+          <ul class="stances"><li class="st-agree">In favour</li><li class="st-neutral">Intermediate</li><li class="st-disagree">Against</li><li class="st-none">No clear position</li></ul>
+          <ol class="ladder" aria-label="Confidence levels"><li><span class="lvl" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span><div><h3>High</h3><p>The party’s vote in the Congreso (2023-2026) on that same measure, or explicit text in its election program.</p></div></li><li><span class="lvl" aria-hidden="true"><i class=on></i><i class=on></i><i></i></span><div><h3>Medium</h3><p>An official statement by the party or its spokesperson, or program text that clearly implies the position.</p></div></li><li><span class="lvl" aria-hidden="true"><i class=on></i><i></i><i></i></span><div><h3>Low</h3><p>Press reports only, or indirect or old evidence. You can exclude these positions in the results.</p></div></li></ol>
+          <p class="ref-callout"><b>Nothing is inferred.</b> A position is never guessed from ideology, allies or what a party "probably" thinks. If there is no source, it is marked "no clear position".</p>
+          <details class="ref-more"><summary>Coding rules in detail</summary><ul><li><b>2026 programs.</b> Many parties had not published one yet. Meanwhile their votes since 2023, their 2023 program and official statements are used, and the party is labelled "2026 program pending".</li><li><b>Votes.</b> They come from the Congreso’s open data, deputy by deputy. Each is classed as "direct" (on the same measure) or "related". A related vote or an abstention is never enough on its own: it is shown as context. If a party votes against for reasons unrelated to the statement, a note explains it.</li><li><b>Vote attribution.</b> By party membership, not only by parliamentary group. Podemos and Compromís deputies, elected on the Sumar list, count for their own party; anyone who leaves a party counts for it until the date they left; the UPN deputy is not added to the PP.</li><li><b>Generic phrases</b> ("we will defend rights", "fair funding") do not prove a specific measure and are not used.</li><li><b>Sumar 2023.</b> Frente Amplio is its successor and the program is treated as its own. For Podemos and Compromís, if it is the only evidence, confidence is at most medium.</li><li><b>Audit.</b> After a neutrality audit, six statements were reworded in the opposite direction to balance both sides. Details in <a href="https://github.com/renzorico/spanish-elections-2026/blob/main/AUDIT.md" rel="noopener">AUDIT.md</a>.</li></ul></details>
+        </section>
+
+        <section class="ref-sec" id="men-calculo" aria-labelledby="men-calculo-h">
+          <div class="ref-sec-head"><span class="ref-num">04</span><h2 id="men-calculo-h">How your agreement is calculated</h2></div>
+          <ol class="flow flow-3"><li><span class="flow-n">1</span><h3>Per statement</h3><p>Your answer is compared with the party’s position (table below).</p></li><li><span class="flow-n">2</span><h3>Per topic</h3><p>Average of the statements in the topic that you answered and on which the party has a position.</p></li><li><span class="flow-n">3</span><h3>Overall</h3><p>Average of all of them, weighted as you chose for each topic: "Less" ×0.5, "Same" ×1, "More" ×2.</p></li></ol>
+          <div class="table-wrap"><table class="matrix"><caption>Agreement on one statement, by your answer (rows) and the party’s position (columns). In %.</caption><thead><tr><th scope="col"><span class="vh">Your answer</span></th><th scope=col>In favour</th><th scope=col>Intermediate</th><th scope=col>Against</th></tr></thead><tbody><tr><th scope="row">Strongly disagree</th><td><span class="mx" style="--a:0.0">0</span></td><td><span class="mx" style="--a:0.5">50</span></td><td><span class="mx" style="--a:1.0">100</span></td></tr><tr><th scope="row">Disagree</th><td><span class="mx" style="--a:0.25">25</span></td><td><span class="mx" style="--a:0.75">75</span></td><td><span class="mx" style="--a:0.75">75</span></td></tr><tr><th scope="row">Neutral</th><td><span class="mx" style="--a:0.5">50</span></td><td><span class="mx" style="--a:1.0">100</span></td><td><span class="mx" style="--a:0.5">50</span></td></tr><tr><th scope="row">Agree</th><td><span class="mx" style="--a:0.75">75</span></td><td><span class="mx" style="--a:0.75">75</span></td><td><span class="mx" style="--a:0.25">25</span></td></tr><tr><th scope="row">Strongly agree</th><td><span class="mx" style="--a:1.0">100</span></td><td><span class="mx" style="--a:0.5">50</span></td><td><span class="mx" style="--a:0.0">0</span></td></tr></tbody></table></div>
+          <details class="ref-more"><summary>Missing data and other details</summary><ul><li>Missing positions <b>are not filled in</b>: they simply do not count. That is why each result says how many of your answers it rests on.</li><li>If a party has a position on half or fewer of your answers, it is marked <b>"Limited data"</b>.</li><li>An "intermediate" position gives at least 50% with any answer; it is only used when the source states an intermediate position.</li><li>"No opinion" and skipped statements do not count for any party.</li></ul>
+            <p class="ref-meta">Formula: agreement = 1 − |answer/2 − party| / 2, with your answer from −2 to +2 and the party from −1 to +1.</p></details>
+        </section>
+
+        <section class="ref-sec" id="men-resultados" aria-labelledby="men-resultados-h">
+          <div class="ref-sec-head"><span class="ref-num">05</span><h2 id="men-resultados-h">Results and downloads</h2></div>
+          <ul class="checks">
+            <li>Parties are sorted by agreement with your answers. Ties are ordered at random.</li>
+            <li>Those with "Limited data" go last, marked, so that a percentage based on few statements is not shown above better-documented parties.</li>
+            <li>There are no recommendations or "best match" labels.</li>
+            <li>Topics have muted colours of equal intensity, so none recalls a party. Parties have no colour of their own.</li>
+          </ul>
+          <div class="dl-cards">
+            <div><h3>Full report</h3><p>For you: all your answers, the topic map and a link back to your results.</p></div>
+            <div><h3>Summary to share</h3><p>One page, also as an image, with the three parties you agree with most among those with enough data. It does not show your answers.</p></div>
+          </div>
+        </section>
+
+        <section class="ref-sec" id="men-privacidad" aria-labelledby="men-privacidad-h">
+          <div class="ref-sec-head"><span class="ref-num">06</span><h2 id="men-privacidad-h">Privacy</h2></div>
+          <p class="ref-big">Your answers never leave your browser.</p>
+          <ul class="checks">
+            <li>No accounts, cookies, analytics or third-party services. The page only downloads its own files.</li>
+            <li>Closing the tab erases your answers.</li>
+            <li>The link in the full report carries your answers after the « # » sign. Browsers never send that part to a server, but anyone with the link can see them: share it only if you want to.</li>
+          </ul>
+        </section>
+
+        <section class="ref-sec" id="men-limites" aria-labelledby="men-limites-h">
+          <div class="ref-sec-head"><span class="ref-num">07</span><h2 id="men-limites-h">Limitations</h2></div>
+          <ul class="plain"><li>30 statements cannot capture everything that matters; choosing the topics is itself an editorial decision.</li><li>Three positions (in favour, intermediate, against) simplify nuanced views. Notes and sources give the detail.</li><li>Small or seatless parties (such as SALF) have fewer votes and documents, and more "no clear position". This reduces the comparable statements, not the score.</li><li>2023 programs and past votes may not reflect a party’s current position.</li><li>Candidacies are those submitted on 28 October; official proclamation could exclude some. Regional coalitions (e.g. UPC in the Canary Islands) have no positions of their own coded.</li></ul>
+        </section>
+
+        <section class="ref-sec" id="men-cobertura" aria-labelledby="men-cobertura-h">
+          <div class="ref-sec-head"><span class="ref-num">08</span><h2 id="men-cobertura-h">Data coverage by party</h2></div>
+          <p class="ref-sum">How many of the 30 statements have a documented position for each party, and with what confidence.</p>
+          <div class="coverage" data-coverage></div>
+        </section>
+
+        <section class="ref-sec" id="men-correcciones" aria-labelledby="men-correcciones-h">
+          <div class="ref-sec-head"><span class="ref-num">09</span><h2 id="men-correcciones-h">Errors and corrections</h2></div>
+          <p class="ref-sum">Spotted an error or know a better source? Name the statement, the party and the source. Each position in the results also has a "Spot an error?" link that fills these in. Corrections follow the same criteria for every party and are recorded.</p>
+          <p><a class="btn btn-quiet" href="https://github.com/renzorico/spanish-elections-2026/issues/new" rel="noopener">Open an issue on GitHub <span aria-hidden="true">↗</span></a></p>
+        </section>
+
+        <aside class="ref-cta">
+          <div><p class="ref-cta-h">Which parties do you agree with?</p><p>30 statements · about 8 minutes · nothing is stored</p></div>
+          <a class="btn btn-big" data-href-lang="./" href="./">Take the quiz <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
+    </article>
   </main>
 </body>
 </html>

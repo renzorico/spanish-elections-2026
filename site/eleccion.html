@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
-  <title data-title-es="Cómo funciona la elección del 29 de noviembre" data-title-en="How the 29 November election works">Cómo funciona la elección del 29 de noviembre</title>
+  <title data-title-es="Cómo se vota el 29N · Elecciones generales 2026" data-title-en="How voting works on 29 November · Spanish general election 2026">Cómo se vota el 29N · Elecciones generales 2026</title>
   <meta name="description" content="Qué se elige el 29 de noviembre de 2026: Congreso y Senado, listas cerradas por provincia, sistema D'Hondt, investidura y calendario, en lenguaje sencillo.">
   <link rel="canonical" href="https://renzorico.github.io/spanish-elections-2026/eleccion.html">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -25,57 +25,199 @@
   <script type="module" src="js/page.js"></script>
 </head>
 <body>
-  <a class="skip" href="#main">Saltar al contenido</a>
+  <a class="skip" href="#main"><span data-lang="es">Saltar al contenido</span><span data-lang="en" hidden>Skip to content</span></a>
   <header class="site-header">
-    <a class="brand" data-href-lang="./" href="./"><svg class="brand-mark" viewBox="0 0 40 22" aria-hidden="true" focusable="false"><g fill="currentColor"><circle cx="12.82" cy="19.10" r="2.46"/><circle cx="14.19" cy="14.88" r="2.46"/><circle cx="17.78" cy="12.27" r="2.46"/><circle cx="22.22" cy="12.27" r="2.46"/><circle cx="25.81" cy="14.88" r="2.46"/><circle cx="27.18" cy="19.10" r="2.46"/><circle cx="7.86" cy="19.10" r="2.46"/><circle cx="8.79" cy="14.45" r="2.46"/><circle cx="11.42" cy="10.51" r="2.46"/><circle cx="15.35" cy="7.88" r="2.46"/><circle cx="20.00" cy="6.96" r="2.46"/><circle cx="24.65" cy="7.88" r="2.46"/><circle cx="28.58" cy="10.51" r="2.46"/><circle cx="31.21" cy="14.45" r="2.46"/><circle cx="32.14" cy="19.10" r="2.46"/><circle cx="2.90" cy="19.10" r="2.46"/><circle cx="3.60" cy="14.28" r="2.46"/><circle cx="5.62" cy="9.85" r="2.46"/><circle cx="8.80" cy="6.18" r="2.46"/><circle cx="12.90" cy="3.54" r="2.46"/><circle cx="17.57" cy="2.17" r="2.46"/><circle cx="22.43" cy="2.17" r="2.46"/><circle cx="27.10" cy="3.54" r="2.46"/><circle cx="31.20" cy="6.18" r="2.46"/><circle cx="34.38" cy="9.85" r="2.46"/><circle cx="36.40" cy="14.28" r="2.46"/><circle cx="37.10" cy="19.10" r="2.46"/></g></svg><span><span class="brand-name">29N</span><span class="brand-tag">Elecciones generales · 29 nov 2026</span></span></a>
+    <a class="brand" data-href-lang="./" href="./"><svg class="brand-mark" viewBox="0 0 40 22" aria-hidden="true" focusable="false"><g fill="currentColor"><circle cx="12.82" cy="19.10" r="2.46"/><circle cx="14.19" cy="14.88" r="2.46"/><circle cx="17.78" cy="12.27" r="2.46"/><circle cx="22.22" cy="12.27" r="2.46"/><circle cx="25.81" cy="14.88" r="2.46"/><circle cx="27.18" cy="19.10" r="2.46"/><circle cx="7.86" cy="19.10" r="2.46"/><circle cx="8.79" cy="14.45" r="2.46"/><circle cx="11.42" cy="10.51" r="2.46"/><circle cx="15.35" cy="7.88" r="2.46"/><circle cx="20.00" cy="6.96" r="2.46"/><circle cx="24.65" cy="7.88" r="2.46"/><circle cx="28.58" cy="10.51" r="2.46"/><circle cx="31.21" cy="14.45" r="2.46"/><circle cx="32.14" cy="19.10" r="2.46"/><circle cx="2.90" cy="19.10" r="2.46"/><circle cx="3.60" cy="14.28" r="2.46"/><circle cx="5.62" cy="9.85" r="2.46"/><circle cx="8.80" cy="6.18" r="2.46"/><circle cx="12.90" cy="3.54" r="2.46"/><circle cx="17.57" cy="2.17" r="2.46"/><circle cx="22.43" cy="2.17" r="2.46"/><circle cx="27.10" cy="3.54" r="2.46"/><circle cx="31.20" cy="6.18" r="2.46"/><circle cx="34.38" cy="9.85" r="2.46"/><circle cx="36.40" cy="14.28" r="2.46"/><circle cx="37.10" cy="19.10" r="2.46"/></g></svg><span><span class="brand-name">29N</span><span class="brand-tag"><span data-lang="es">Elecciones generales 2026</span><span data-lang="en" hidden>General election 2026</span></span></span></a>
     <nav class="site-nav" aria-label="Principal">
       <a class="nav-link" data-href-lang="metodologia.html" href="metodologia.html"><span data-lang="es">Metodología</span><span data-lang="en" hidden>Methodology</span></a>
       <a class="btn btn-primary" data-href-lang="./" href="./" style="min-height:40px;padding:.5rem 1rem;font-size:.9rem"><span data-lang="es">Hacer el test</span><span data-lang="en" hidden>Take the quiz</span></a>
       <button id="lang" class="lang-btn" type="button" lang="en">EN</button>
     </nav>
   </header>
-  <main id="main" class="wrap prose">
-    <article data-lang="es">
-      <p class="kicker">En 1 minuto</p>
-      <h1>Qué se elige el 29 de noviembre</h1>
-      <ol class="steps">
-        <li><span class="num">1</span><h3>Votas al Parlamento, no al presidente</h3><p>Se eligen los 350 diputados del Congreso y la mayoría del Senado.</p></li>
-        <li><span class="num">2</span><h3>Listas cerradas por provincia</h3><p>Votas a la lista de un partido en tu provincia. Cada provincia elige un número fijo de diputados según su población (mínimo 2; Ceuta y Melilla, 1).</p></li>
-        <li><span class="num">3</span><h3>Reparto con el sistema D'Hondt</h3><p>Entran las listas con al menos el 3 % de los votos válidos de la provincia. Este sistema favorece a los más votados en cada provincia.</p></li>
-        <li><span class="num">4</span><h3>El Congreso elige al presidente</h3><p>Necesita 176 votos en la primera votación, o más síes que noes en la segunda. Por eso suele haber pactos.</p></li>
-      </ol>
-      <p><strong>Senado:</strong> en la papeleta sepia marcas hasta 3 candidatos (en la mayoría de provincias), de cualquier partido.</p>
-      <h2>Calendario</h2>
-      <table><tbody>
-        <tr><th scope="row">13–27 nov</th><td>Campaña electoral</td></tr>
-        <tr><th scope="row">28 nov</th><td>Jornada de reflexión</td></tr>
-        <tr><th scope="row">29 nov</th><td>Votación</td></tr>
-        <tr><th scope="row">23 dic</th><td>Se constituyen el Congreso y el Senado</td></tr>
-      </tbody></table>
-      <p class="small">Cómo votar: <a href="https://www.infoelectoral.interior.gob.es/" rel="noopener">Infoelectoral (Ministerio del Interior)</a> · <a href="https://www.juntaelectoralcentral.es/" rel="noopener">Junta Electoral Central</a> · voto por correo: <a href="https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo" rel="noopener">Correos</a>. Los plazos los fija la normativa electoral: compruébalos allí.</p>
-      <p class="tiny">Fuentes: Constitución (arts. 68, 69 y 99), Ley Orgánica del Régimen Electoral General y <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742" rel="noopener">Real Decreto 806/2026 (BOE 6/10/2026)</a>.</p>
-      <p><a class="btn btn-primary" data-href-lang="./" href="./">← Volver al test</a></p>
+  <main id="main" class="wrap-wide">
+    <article data-lang="es" class="ref">
+      <nav class="ref-toc" aria-label="En esta página">
+        <p class="ref-toc-h">En esta página</p>
+        <ol>
+          <li><a href="#es-esencial">Lo esencial</a></li>
+          <li><a href="#es-papeletas">Dos papeletas</a></li>
+          <li><a href="#es-escanos">De votos a escaños</a></li>
+          <li><a href="#es-presidente">Cómo se elige al presidente</a></li>
+          <li><a href="#es-calendario">Calendario</a></li>
+          <li><a href="#es-votar">Cómo votar</a></li>
+          <li><a href="#es-fuentes">Fuentes</a></li>
+        </ol>
+      </nav>
+      <div class="ref-main">
+        <header class="ref-hero" id="es-esencial">
+          <p class="ref-kicker">Elecciones generales · domingo 29 de noviembre de 2026</p>
+          <h1>Cómo se vota el 29N</h1>
+          <p class="ref-lead">Votas dos veces: al Congreso y al Senado. No eliges al presidente directamente; lo elige después el Congreso. Esto es lo esencial, en dos minutos.</p>
+          <ul class="ref-facts"><li><b>350</b><span>diputados en el Congreso</span></li><li><b>52</b><span>circunscripciones: 50 provincias, Ceuta y Melilla</span></li><li><b>3 %</b><span>de los votos de la provincia, mínimo para entrar en el reparto</span></li><li><b>176</b><span>votos para ser investido presidente en la primera votación</span></li></ul>
+        </header>
+
+        <section class="ref-sec" id="es-papeletas" aria-labelledby="es-papeletas-h">
+          <div class="ref-sec-head"><span class="ref-num">01</span><h2 id="es-papeletas-h">Dos papeletas</h2></div>
+          <p class="ref-sum">Cada papeleta va en su sobre y en su urna. Puedes votar a partidos distintos en cada una.</p>
+          <div class="ballots">
+        <div class="ballot-card">
+          <div class="ballot white" aria-hidden="true"><span class="b-head">Congreso</span><span class="b-party"></span><ol class="b-names"><li><i></i></li><li><i></i></li><li><i></i></li><li><i></i></li><li><i></i></li></ol></div>
+          <div class="ballot-text">
+            <h3>Congreso de los Diputados</h3>
+            <p>Papeleta y sobre <b>blancos</b>. Eliges <b>la lista de un partido</b>: no puedes cambiar el orden ni tachar nombres. Entran tantos candidatos, por orden, como escaños gane la lista.</p>
+            <p class="ref-meta">350 diputados en total.</p>
+          </div>
+        </div>
+        <div class="ballot-card">
+          <div class="ballot sepia" aria-hidden="true"><span class="b-head">Senado</span><ul class="b-cands"><li class="x"><b></b><i></i></li><li class=""><b></b><i></i></li><li class=""><b></b><i></i></li><li class="x"><b></b><i></i></li><li class="x"><b></b><i></i></li><li class=""><b></b><i></i></li></ul></div>
+          <div class="ballot-text">
+            <h3>Senado</h3>
+            <p>Papeleta y sobre <b>sepia</b>. Marcas con una cruz <b>hasta 3 candidatos</b>, del partido o partidos que quieras. En cada provincia salen elegidos los 4 más votados.</p>
+            <p class="ref-meta">En las islas, Ceuta y Melilla se marcan menos. Así se eligen 208 senadores; el resto los designan los parlamentos autonómicos.</p>
+          </div>
+        </div>
+      </div>
+        </section>
+
+        <section class="ref-sec" id="es-escanos" aria-labelledby="es-escanos-h">
+          <div class="ref-sec-head"><span class="ref-num">02</span><h2 id="es-escanos-h">De votos a escaños</h2></div>
+          <p class="ref-sum">Cada provincia reparte sus diputados por separado, con dos reglas:</p>
+          <ol class="ref-rules">
+            <li><b>Mínimo del 3 %.</b> Solo entran en el reparto las listas con al menos el 3 % de los votos válidos de la provincia. El voto en blanco cuenta como válido; el nulo, no.</li>
+            <li><b>Sistema D’Hondt.</b> Los votos de cada lista se dividen entre 1, 2, 3… y los escaños van a los cocientes más altos.</li>
+          </ol>
+          <div class="table-wrap"><table class="dh"><caption>Ejemplo: una provincia que elige 5 diputados. Los números en círculo indican el orden en que se reparten los escaños.</caption><thead><tr><th scope="col">Lista</th><th scope="col">Votos</th><th scope="col">÷ 1</th><th scope="col">÷ 2</th><th scope="col">÷ 3</th><th scope="col">Escaños</th></tr></thead><tbody><tr><th scope="row">Lista A</th><td class="votes">40.000</td><td class="win">40.000<span class="ord" aria-label="escaño 1">1</span></td><td class="win">20.000<span class="ord" aria-label="escaño 3">3</span></td><td class="">13.333</td><td class="seats-n"><b>2</b></td></tr><tr><th scope="row">Lista B</th><td class="votes">28.000</td><td class="win">28.000<span class="ord" aria-label="escaño 2">2</span></td><td class="win">14.000<span class="ord" aria-label="escaño 5">5</span></td><td class="">9.333</td><td class="seats-n"><b>2</b></td></tr><tr><th scope="row">Lista C</th><td class="votes">17.000</td><td class="win">17.000<span class="ord" aria-label="escaño 4">4</span></td><td class="">8.500</td><td class="">5.667</td><td class="seats-n"><b>1</b></td></tr><tr><th scope="row">Lista D</th><td class="votes">9.000</td><td class="">9.000</td><td class="">4.500</td><td class="">3.000</td><td class="seats-n"><b>0</b></td></tr></tbody></table></div>
+          <p class="ref-callout">La lista D, con casi el 10 % de los votos, se queda sin escaño. En las provincias que eligen pocos diputados hace falta mucho más del 3 % para entrar.</p>
+          <h3 class="ref-h3">¿Cuántos diputados elige tu provincia?</h3>
+          <p class="ref-meta">Cada provincia tiene al menos 2 y el resto se reparte por población; Ceuta y Melilla eligen 1.</p>
+          <div class="seats-widget" data-seats></div>
+        </section>
+
+        <section class="ref-sec" id="es-presidente" aria-labelledby="es-presidente-h">
+          <div class="ref-sec-head"><span class="ref-num">03</span><h2 id="es-presidente-h">Cómo se elige al presidente</h2></div>
+          <p class="ref-sum">Lo elige el Congreso en una votación de investidura. Por eso, si ningún partido tiene mayoría, suele haber pactos.</p>
+          <ol class="flow"><li><span class="flow-n">1</span><h3>Se constituyen las Cortes</h3><p>23 de diciembre.</p></li><li><span class="flow-n">2</span><h3>El Rey propone un candidato</h3><p>Tras consultar a los grupos parlamentarios.</p></li><li><span class="flow-n">3</span><h3>Primera votación</h3><p>Hace falta mayoría absoluta: 176 de 350.</p></li><li><span class="flow-n">4</span><h3>Segunda votación</h3><p>48 horas después basta con más síes que noes.</p></li></ol>
+          <p class="ref-meta">Si dos meses después de la primera votación nadie ha sido investido, se disuelven las Cortes y se repiten las elecciones.</p>
+        </section>
+
+        <section class="ref-sec" id="es-calendario" aria-labelledby="es-calendario-h">
+          <div class="ref-sec-head"><span class="ref-num">04</span><h2 id="es-calendario-h">Calendario</h2></div>
+          <ol class="timeline"><li class=""><time>13 nov</time><span>Empieza la campaña electoral</span></li><li class=""><time>27 nov</time><span>Termina la campaña, a medianoche</span></li><li class=""><time>28 nov</time><span>Jornada de reflexión: no se puede hacer campaña</span></li><li class="key"><time>29 nov</time><span>Votación, de 9:00 a 20:00. El recuento empieza al cerrar los colegios</span></li><li class=""><time>23 dic</time><span>Se constituyen el nuevo Congreso y el nuevo Senado</span></li></ol>
+        </section>
+
+        <section class="ref-sec" id="es-votar" aria-labelledby="es-votar-h">
+          <div class="ref-sec-head"><span class="ref-num">05</span><h2 id="es-votar-h">Cómo votar</h2></div>
+          <p class="ref-sum">Los requisitos y plazos exactos los publican los organismos oficiales: consúltalos allí.</p>
+          <ul class="how-cards"><li><h3>En persona</h3><p>Lleva el DNI, el pasaporte o el carné de conducir, con foto. Tu colegio electoral figura en la tarjeta censal que envía la Oficina del Censo Electoral.</p><a href="https://www.ine.es/" rel="noopener">Oficina del Censo Electoral (INE) <span aria-hidden="true">↗</span></a></li><li><h3>Por correo</h3><p>Se solicita en una oficina de Correos (en persona, con DNI) o en su web con certificado digital, dentro del plazo que fija la ley.</p><a href="https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo" rel="noopener">Voto por correo · Correos <span aria-hidden="true">↗</span></a></li><li><h3>Desde el extranjero</h3><p>Si estás inscrito como residente en el extranjero (CERA), recibes la documentación y puedes votar por correo o en tu consulado.</p><a href="https://www.infoelectoral.interior.gob.es/" rel="noopener">Infoelectoral (Ministerio del Interior) <span aria-hidden="true">↗</span></a></li></ul>
+          <p class="ref-meta">¿Dudas sobre el proceso? <a href="https://www.juntaelectoralcentral.es/" rel="noopener">Junta Electoral Central <span aria-hidden="true">↗</span></a></p>
+        </section>
+
+        <section class="ref-sec ref-sources" id="es-fuentes" aria-labelledby="es-fuentes-h">
+          <div class="ref-sec-head"><span class="ref-num">06</span><h2 id="es-fuentes-h">Fuentes</h2></div>
+          <ul>
+            <li>Constitución Española, artículos 68, 69 y 99.</li>
+            <li>Ley Orgánica 5/1985, del Régimen Electoral General (LOREG).</li>
+            <li><a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742" rel="noopener">Real Decreto 806/2026, de convocatoria de elecciones (BOE, 6 de octubre de 2026)</a>: fecha, calendario y diputados por provincia.</li>
+          </ul>
+        </section>
+
+        <aside class="ref-cta">
+          <div><p class="ref-cta-h">¿Con qué partidos coincides?</p><p>30 afirmaciones · unos 8 minutos · no se guarda nada</p></div>
+          <a class="btn btn-big" data-href-lang="./" href="./">Hacer el test <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
     </article>
-    <article data-lang="en" hidden>
-      <p class="kicker">In one minute</p>
-      <h1>What is elected on 29 November</h1>
-      <ol class="steps">
-        <li><span class="num">1</span><h3>You elect Parliament, not the Prime Minister</h3><p>Voters choose the 350 members of the Congreso and most of the Senate.</p></li>
-        <li><span class="num">2</span><h3>Closed lists by province</h3><p>You vote for one party's list in your province. Each province elects a fixed number of deputies based on population (minimum 2; Ceuta and Melilla, 1).</p></li>
-        <li><span class="num">3</span><h3>Seats shared with D'Hondt</h3><p>Lists with at least 3% of the province's valid votes take part. The method favours the largest parties in each province.</p></li>
-        <li><span class="num">4</span><h3>The Congreso elects the Prime Minister</h3><p>A candidate needs 176 votes in the first round, or more yes than no votes in the second. That is why coalition deals are common.</p></li>
-      </ol>
-      <p><strong>Senate:</strong> on the sepia ballot you mark up to 3 candidates (in most provinces), from any party.</p>
-      <h2>Timeline</h2>
-      <table><tbody>
-        <tr><th scope="row">13–27 Nov</th><td>Campaign</td></tr>
-        <tr><th scope="row">28 Nov</th><td>Day of reflection</td></tr>
-        <tr><th scope="row">29 Nov</th><td>Election day</td></tr>
-        <tr><th scope="row">23 Dec</th><td>New Congreso and Senate convene</td></tr>
-      </tbody></table>
-      <p class="small">How to vote: <a href="https://www.infoelectoral.interior.gob.es/" rel="noopener">Infoelectoral (Ministry of the Interior)</a> · <a href="https://www.juntaelectoralcentral.es/" rel="noopener">Central Electoral Board</a> · postal voting: <a href="https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo" rel="noopener">Correos</a>. Deadlines are set by electoral law: check them there.</p>
-      <p class="tiny">Sources: Constitution (arts. 68, 69 and 99), Organic Law on the General Electoral Regime and <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742" rel="noopener">Royal Decree 806/2026 (BOE 6/10/2026)</a>.</p>
-      <p><a class="btn btn-primary" data-href-lang="./" href="./">← Back to the quiz</a></p>
+    <article data-lang="en" hidden class="ref">
+      <nav class="ref-toc" aria-label="On this page">
+        <p class="ref-toc-h">On this page</p>
+        <ol>
+          <li><a href="#en-esencial">The essentials</a></li>
+          <li><a href="#en-papeletas">Two ballots</a></li>
+          <li><a href="#en-escanos">From votes to seats</a></li>
+          <li><a href="#en-presidente">How the Prime Minister is chosen</a></li>
+          <li><a href="#en-calendario">Timeline</a></li>
+          <li><a href="#en-votar">How to vote</a></li>
+          <li><a href="#en-fuentes">Sources</a></li>
+        </ol>
+      </nav>
+      <div class="ref-main">
+        <header class="ref-hero" id="en-esencial">
+          <p class="ref-kicker">General election · Sunday 29 November 2026</p>
+          <h1>How voting works on 29 November</h1>
+          <p class="ref-lead">You vote twice: for the Congreso and for the Senate. You do not elect the Prime Minister directly; the Congreso does that afterwards. Here are the essentials, in two minutes.</p>
+          <ul class="ref-facts"><li><b>350</b><span>deputies in the Congreso</span></li><li><b>52</b><span>constituencies: 50 provinces, Ceuta and Melilla</span></li><li><b>3%</b><span>of the province’s votes, the minimum to take part in the allocation</span></li><li><b>176</b><span>votes to be invested Prime Minister in the first round</span></li></ul>
+        </header>
+
+        <section class="ref-sec" id="en-papeletas" aria-labelledby="en-papeletas-h">
+          <div class="ref-sec-head"><span class="ref-num">01</span><h2 id="en-papeletas-h">Two ballots</h2></div>
+          <p class="ref-sum">Each ballot goes in its own envelope and ballot box. You can vote for different parties on each.</p>
+          <div class="ballots">
+        <div class="ballot-card">
+          <div class="ballot white" aria-hidden="true"><span class="b-head">Congreso</span><span class="b-party"></span><ol class="b-names"><li><i></i></li><li><i></i></li><li><i></i></li><li><i></i></li><li><i></i></li></ol></div>
+          <div class="ballot-text">
+            <h3>Congress of Deputies</h3>
+            <p><b>White</b> ballot and envelope. You choose <b>one party’s list</b>: you cannot reorder or cross out names. As many candidates enter, in order, as seats the list wins.</p>
+            <p class="ref-meta">350 deputies in total.</p>
+          </div>
+        </div>
+        <div class="ballot-card">
+          <div class="ballot sepia" aria-hidden="true"><span class="b-head">Senado</span><ul class="b-cands"><li class="x"><b></b><i></i></li><li class=""><b></b><i></i></li><li class=""><b></b><i></i></li><li class="x"><b></b><i></i></li><li class="x"><b></b><i></i></li><li class=""><b></b><i></i></li></ul></div>
+          <div class="ballot-text">
+            <h3>Senate</h3>
+            <p><b>Sepia</b> ballot and envelope. You put a cross next to <b>up to 3 candidates</b>, from any party or parties. In each province the 4 most voted are elected.</p>
+            <p class="ref-meta">Fewer are marked in the islands, Ceuta and Melilla. 208 senators are elected this way; the rest are appointed by the regional parliaments.</p>
+          </div>
+        </div>
+      </div>
+        </section>
+
+        <section class="ref-sec" id="en-escanos" aria-labelledby="en-escanos-h">
+          <div class="ref-sec-head"><span class="ref-num">02</span><h2 id="en-escanos-h">From votes to seats</h2></div>
+          <p class="ref-sum">Each province allocates its deputies separately, with two rules:</p>
+          <ol class="ref-rules">
+            <li><b>A 3% minimum.</b> Only lists with at least 3% of the province’s valid votes take part. Blank votes count as valid; spoilt ballots do not.</li>
+            <li><b>The D’Hondt method.</b> Each list’s votes are divided by 1, 2, 3… and seats go to the highest results.</li>
+          </ol>
+          <div class="table-wrap"><table class="dh"><caption>Example: a province that elects 5 deputies. Circled numbers show the order in which seats are allocated.</caption><thead><tr><th scope="col">List</th><th scope="col">Votes</th><th scope="col">÷ 1</th><th scope="col">÷ 2</th><th scope="col">÷ 3</th><th scope="col">Seats</th></tr></thead><tbody><tr><th scope="row">List A</th><td class="votes">40,000</td><td class="win">40,000<span class="ord" aria-label="seat 1">1</span></td><td class="win">20,000<span class="ord" aria-label="seat 3">3</span></td><td class="">13,333</td><td class="seats-n"><b>2</b></td></tr><tr><th scope="row">List B</th><td class="votes">28,000</td><td class="win">28,000<span class="ord" aria-label="seat 2">2</span></td><td class="win">14,000<span class="ord" aria-label="seat 5">5</span></td><td class="">9,333</td><td class="seats-n"><b>2</b></td></tr><tr><th scope="row">List C</th><td class="votes">17,000</td><td class="win">17,000<span class="ord" aria-label="seat 4">4</span></td><td class="">8,500</td><td class="">5,667</td><td class="seats-n"><b>1</b></td></tr><tr><th scope="row">List D</th><td class="votes">9,000</td><td class="">9,000</td><td class="">4,500</td><td class="">3,000</td><td class="seats-n"><b>0</b></td></tr></tbody></table></div>
+          <p class="ref-callout">List D, with almost 10% of the vote, wins no seat. In provinces that elect few deputies, far more than 3% is needed to get in.</p>
+          <h3 class="ref-h3">How many deputies does your province elect?</h3>
+          <p class="ref-meta">Each province gets at least 2 and the rest are shared by population; Ceuta and Melilla elect 1.</p>
+          <div class="seats-widget" data-seats></div>
+        </section>
+
+        <section class="ref-sec" id="en-presidente" aria-labelledby="en-presidente-h">
+          <div class="ref-sec-head"><span class="ref-num">03</span><h2 id="en-presidente-h">How the Prime Minister is chosen</h2></div>
+          <p class="ref-sum">The Congreso chooses them in an investiture vote. That is why, if no party has a majority, deals between parties are common.</p>
+          <ol class="flow"><li><span class="flow-n">1</span><h3>Parliament convenes</h3><p>23 December.</p></li><li><span class="flow-n">2</span><h3>The King proposes a candidate</h3><p>After consulting the parliamentary groups.</p></li><li><span class="flow-n">3</span><h3>First vote</h3><p>An absolute majority is needed: 176 of 350.</p></li><li><span class="flow-n">4</span><h3>Second vote</h3><p>48 hours later, more yes than no votes is enough.</p></li></ol>
+          <p class="ref-meta">If nobody has been invested two months after the first vote, Parliament is dissolved and a new election is held.</p>
+        </section>
+
+        <section class="ref-sec" id="en-calendario" aria-labelledby="en-calendario-h">
+          <div class="ref-sec-head"><span class="ref-num">04</span><h2 id="en-calendario-h">Timeline</h2></div>
+          <ol class="timeline"><li class=""><time>13 Nov</time><span>The election campaign begins</span></li><li class=""><time>27 Nov</time><span>The campaign ends at midnight</span></li><li class=""><time>28 Nov</time><span>Day of reflection: no campaigning allowed</span></li><li class="key"><time>29 Nov</time><span>Election day, 9:00 to 20:00. Counting starts when polling stations close</span></li><li class=""><time>23 Dec</time><span>The new Congreso and Senate convene</span></li></ol>
+        </section>
+
+        <section class="ref-sec" id="en-votar" aria-labelledby="en-votar-h">
+          <div class="ref-sec-head"><span class="ref-num">05</span><h2 id="en-votar-h">How to vote</h2></div>
+          <p class="ref-sum">Exact requirements and deadlines are published by the official bodies: check them there.</p>
+          <ul class="how-cards"><li><h3>In person</h3><p>Bring your DNI, passport or driving licence, with photo. Your polling station is shown on the electoral card sent by the Electoral Census Office.</p><a href="https://www.ine.es/" rel="noopener">Electoral Census Office (INE) <span aria-hidden="true">↗</span></a></li><li><h3>By post</h3><p>Request it at a Correos post office (in person, with ID) or online with a digital certificate, within the legal deadline.</p><a href="https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo" rel="noopener">Postal voting · Correos <span aria-hidden="true">↗</span></a></li><li><h3>From abroad</h3><p>If you are registered as resident abroad (CERA), you receive the documents and can vote by post or at your consulate.</p><a href="https://www.infoelectoral.interior.gob.es/" rel="noopener">Infoelectoral (Ministry of the Interior) <span aria-hidden="true">↗</span></a></li></ul>
+          <p class="ref-meta">Questions about the process? <a href="https://www.juntaelectoralcentral.es/" rel="noopener">Central Electoral Board <span aria-hidden="true">↗</span></a></p>
+        </section>
+
+        <section class="ref-sec ref-sources" id="en-fuentes" aria-labelledby="en-fuentes-h">
+          <div class="ref-sec-head"><span class="ref-num">06</span><h2 id="en-fuentes-h">Sources</h2></div>
+          <ul>
+            <li>Spanish Constitution, articles 68, 69 and 99.</li>
+            <li>Organic Law 5/1985 on the General Electoral Regime (LOREG).</li>
+            <li><a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742" rel="noopener">Royal Decree 806/2026 calling the election (BOE, 6 October 2026)</a>: date, timeline and deputies per province.</li>
+          </ul>
+        </section>
+
+        <aside class="ref-cta">
+          <div><p class="ref-cta-h">Which parties do you agree with?</p><p>30 statements · about 8 minutes · nothing is stored</p></div>
+          <a class="btn btn-big" data-href-lang="./" href="./">Take the quiz <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
     </article>
   </main>
 </body>

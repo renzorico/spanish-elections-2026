@@ -3,7 +3,7 @@
 // site's own reference pages and images.
 import { STRINGS } from './i18n.js';
 import { computeMatch, sortByAgreement, shuffle, cryptoRandom, DEFAULT_WEIGHT } from './match.js';
-import { REPO_URL, applyLang, fetchReference, renderCoverage } from './reference.js';
+import { REPO_URL, applyLang, fetchReference, enhanceReference } from './reference.js';
 import { TOPIC_STYLE, TOPIC_SHORT, topicIcon, topicVars } from './topics.js';
 import { SITE_URL, reportPdf, sharePdf, sharePng, parseQr } from './report.js';
 import { encodeRestore, decodeRestore } from './restore.js';
@@ -667,7 +667,7 @@ function statementRow(sid, p, r) {
 const refCache = {};
 async function renderReference() {
   const name = state.ref;
-  app.innerHTML = `<div class="wrap"><p class="ref-back"><button type="button" class="btn btn-quiet" data-act="close-ref">${ICON.arrowL} ${esc(t('backToTool'))}</button></p><div id="ref-body" class="prose"><p role="status">${esc(t('loading'))}</p></div></div>`;
+  app.innerHTML = `<div class="wrap-wide"><p class="ref-back"><button type="button" class="btn btn-quiet" data-act="close-ref">${ICON.arrowL} ${esc(t('backToTool'))}</button></p><div id="ref-body"><p role="status">${esc(t('loading'))}</p></div></div>`;
   try {
     refCache[name] ||= await fetchReference(name);
   } catch {
@@ -680,10 +680,9 @@ async function renderReference() {
   body.innerHTML = refCache[name].html;
   for (const el of body.querySelectorAll('.ref-standalone-only')) el.remove();
   applyLang(body, state.lang);
-  const cov = body.querySelector('#coverage');
-  if (cov) renderCoverage(cov, state.lang, () => applyLang(body, state.lang));
+  enhanceReference(body);
   if (!state.refFocused) {
-    const h1 = body.querySelector('h1:not([hidden])') || body.querySelector('h1');
+    const h1 = body.querySelector('[data-lang]:not([hidden]) h1') || body.querySelector('h1');
     if (h1) {
       h1.setAttribute('tabindex', '-1');
       h1.focus();
