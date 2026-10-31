@@ -1,0 +1,643 @@
+{
+  "party": "erc",
+  "coded_by": "subagent:group-d",
+  "coded_on": "2026-10-31",
+  "positions": [
+    {
+      "statement": "viv-limite-alquiler",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Defensar la limitació i impulsar la reducció dels preus del lloguer.",
+          "page": "p. 52 (PDF), p. 51 (imprès)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "puguin regular íntegrament els contractes d’arrendaments urbans, incloent la regulació dels preus de lloguer",
+          "page": "p. 114 (PDF), p. 113 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "ERC defensa limitar els preus del lloguer i que les comunitats autònomes amb competències puguin regular-los íntegrament."
+    },
+    {
+      "statement": "viv-compra-no-residentes",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Suprimir l’obtenció del visat de residència per compra d’immobles o habitatges per inversions der valor igual o superior a 500.000 euros",
+          "page": "p. 115 (PDF), p. 114 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa 2023 proposa suprimir la 'golden visa' per compra d'habitatge, però no parla d'un impost específic a compradors no residents a la UE."
+    },
+    {
+      "statement": "viv-desalojo-rapido",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Cal evitar els desnonaments sense garantia habitacional",
+          "page": "p. 54 (PDF), p. 53 (imprès)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Realització, per part dels jutges o jutgesses, de judicis de proporcionalitat abans de prendre la decisió d'autoritzar un desnonament o entrada en un domicili familiar en el qual resideixin menors d'edat",
+          "page": "p. 60 (PDF), p. 59 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa no parla específicament d'ocupacions, però demana garanties (alternativa habitacional, judici de proporcionalitat amb menors) abans de qualsevol desallotjament, contrari a accelerar-los en casos de vulnerabilitat."
+    },
+    {
+      "statement": "eco-impuesto-grandes-fortunas",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Cal crear impostos sobre les grans fortunes, les transaccions financeres o les emissions de CO2.",
+          "page": "p. 54 (PDF), p. 53 (imprès)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Millorar el funcionament de l’impost a les grans fortunes",
+          "page": "p. 70 (PDF), p. 69 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "eco-bajar-irpf",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "es proposa incrementar els tipus aplicats a les rendes del capital així com crear nous trams addicionals per a les rendes més altes.",
+          "page": "p. 70 (PDF), p. 69 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "ERC proposa pujar l'IRPF a les rendes del capital i a les rendes més altes; no proposa una rebaixa general. Sí proposa deduccions concretes (p. ex. lloguer)."
+    },
+    {
+      "statement": "eco-impuesto-energeticas-banca",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Esquerra aposta per convertir els impostos extraordinaris a la banca i les empreses energètiques en figures permanents",
+          "page": "p. 70 (PDF), p. 69 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "tra-jornada-37h",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "implementi mesures com la jornada laboral de quatre dies",
+          "page": "p. 53 (PDF), p. 52 (imprès)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.periodicodeibiza.es/noticias/nacional/2025/09/11/2467647/congreso-tumba-reduccion-jornada-laboral-prosperar-veto-vox-junts.html",
+          "title": "El Congreso tumba la reducción de jornada laboral al prosperar el veto de PP, Vox y Junts",
+          "publisher": "Periódico de Ibiza (Europa Press)",
+          "date": "2025-09-11",
+          "quote": "No ha habido abstenciones y PSOE, Sumar, ERC, PNV, Bildu, Podemos, BNG, Coalición Canaria",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa 2023 defensa reduir la jornada (setmana de quatre dies). El 10/09/2025 ERC va votar contra les esmenes a la totalitat que van tombar el projecte de 37,5 hores (segons Europa Press); el mapatge sistemàtic de votacions ho pot confirmar."
+    },
+    {
+      "statement": "tra-salario-minimo",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "amb l’increment del salari mínim interprofessional a 1.250 euros",
+          "page": "p. 90 (PDF), p. 89 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa demana pujar l'SMI a 1.250 euros i habilitar SMI propis superiors; no esmenta explícitament l'objectiu del 60 % del salari mitjà."
+    },
+    {
+      "statement": "san-gestion-privada",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Al Congrés i al Senat hem d’anar a defensar el nostre sistema públic de salut",
+          "page": "p. 61 (PDF), p. 60 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa defensa un sistema de salut públic però no conté cap proposta sobre limitar per llei la gestió privada de serveis sanitaris."
+    },
+    {
+      "statement": "san-dental-publica",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Transferència financera per a l’aplicació efectiva dels plans de salut bucodental inclosos a la cartera de serveis.",
+          "page": "p. 62 (PDF), p. 61 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Només demana finançament per als plans bucodentals ja inclosos a la cartera; no proposa cobertura dental general universal."
+    },
+    {
+      "statement": "der-aborto-constitucion",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Garantia dels drets sexuals i reproductius, a partir de l’aprofundiment en els drets ja reconeguts, com el dret a l’accés a la interrupció voluntària de l’embaràs amb equitat territorial",
+          "page": "p. 47 (PDF), p. 46 (imprès)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elsaltodiario.com/derechos-reproductivos/congreso-rechaza-enmiendas-totalidad-pp-vox-incluir-aborto-constitucion",
+          "title": "El Congreso rechaza la enmienda total del PP y Vox a integrar el aborto en la Constitución",
+          "publisher": "El Salto",
+          "date": "2026-04-30",
+          "quote": "Pilar Vallugera , de ERC, ha trasladado su “apoyo absoluto” al derecho de las mujeres a su propio cuerpo aunque ha cree que el Gobierno “este debate lo ha encarado mal”.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "ERC defensa el dret a l'avortament, però no hem trobat una posició explícita sobre incloure'l a la Constitució; en el debat de 2026 va criticar l'enfocament del Govern. Pendent del vot final (mapatge de votacions)."
+    },
+    {
+      "statement": "der-eutanasia",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "N’és un exemple la llei per garantir una mort digna que s’ha aprovat aquesta darrera legislatura, després de molts anys d’impuls de les entitats i el Parlament de Catalunya.",
+          "page": "p. 61 (PDF), p. 60 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "der-ley-trans",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "pel reconeixement del dret a l’autodeterminació de gènere, fet que implica despatologitzar el fet trans.",
+          "page": "p. 50 (PDF), p. 49 (imprès)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "donant suport a les lleis que han blindat i han garantit nous drets a les dones i al col·lectiu LGTBIQ+, com la Llei Trans.",
+          "page": "p. 7 (PDF), p. 6 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "ERC va donar suport a la Llei 4/2023 i critica que deixi fora menors trans i persones no binàries (vol ampliar-la, no restringir-la)."
+    },
+    {
+      "statement": "inm-regularizacion",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Regularitzar a les persones en situació administrativa irregular, incloses les persones inexpulsables, en base a la Iniciativa Legislativa Popular portada a terme pel moviment Regularització Ja!",
+          "page": "p. 41 (PDF), p. 40 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "inm-reparto-menores",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Reformar l'article 35 de la LO 4/2000 perquè prevalgui la protecció de les i els menors que arriben a l’Estat espanyol sense la companyia d'una persona adulta",
+          "page": "p. 38 (PDF), p. 37 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa parla de protecció de menors no acompanyats però no del repartiment obligatori entre comunitats. No hem trobat declaració oficial verificable (esquerra.cat bloquejat)."
+    },
+    {
+      "statement": "inm-reducir-llegadas",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Regulació dels fluxos migratoris des d’una perspectiva real i objectiva de les causes de les migracions per a la bona gestió de les entrades i sortides.",
+          "page": "p. 37 (PDF), p. 36 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa defensa vies legals i segures i 'regulació dels fluxos', sense pronunciar-se sobre reduir o augmentar les arribades."
+    },
+    {
+      "statement": "cli-nucleares",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Exigir la contribució de l’Estat al Fons de Transició Nuclear de la Generalitat de Catalunya",
+          "page": "p. 103 (PDF), p. 102 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa aposta per un sistema 100 % renovable i un fons de transició nuclear, però no es pronuncia explícitament sobre allargar o mantenir el calendari de tancament."
+    },
+    {
+      "statement": "cli-coches-2035",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "La prohibició de venta de motors de combustió necessita, com a resposta, el desenvolupament d’una xarxa de punts de recàrrega de vehicles elèctrics",
+          "page": "p. 76 (PDF), p. 75 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Assumeix la prohibició i demana infraestructura per fer-la efectiva."
+    },
+    {
+      "statement": "ter-amnistia",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Impuls d’una llei d’Amnistia, per acabar amb tota la repressió política contra l’independentisme",
+          "page": "p. 16 (PDF), p. 15 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-referendum",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "negociant la celebració d’un referèndum per a la consecució d’una República Catalana de drets i llibertats",
+          "page": "p. 8 (PDF), p. 7 (imprès)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Negociar la convocatòria d’un referèndum d’autodeterminació a Catalunya amb acompanyament internacional.",
+          "page": "p. 12 (PDF), p. 11 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-financiacion-cataluna",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Ampliar les funcions de l’Agència Tributària de Catalunya (ATC) i fer possible els convenis amb les entitats que conformen el sector públic per recaptar i gestionar tots els tributs que es paguen a Catalunya.",
+          "page": "p. 71 (PDF), p. 70 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-recentralizar",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "comencen a prendre força les propostes recentralitzadores, un discurs compartit per la dreta unitarista i l’esquerra jacobina estatals.",
+          "page": "p. 22 (PDF), p. 21 (imprès)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Demanar les competències exclusives en l’elaboració dels currículums de les etapes obligatòries i postobligatòries per a la Generalitat de Catalunya",
+          "page": "p. 127 (PDF), p. 126 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-lenguas-congreso",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Modificar el Reglament del Congrés dels Diputats per tal que el català, el basc, el gallec, l’aragonès, l’asturlleonès, l’occità i les llengües de signes siguin llengües d’ús i de treball de la seva activitat.",
+          "page": "p. 121 (PDF), p. 120 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "edu-concertada",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "permetrà avançar cap a la integració del conjunt del sistema educatiu en un model educatiu públic, laic, universal i en català.",
+          "page": "p. 127 (PDF), p. 126 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Planteja integrar progressivament tots els centres en un model públic (per a la futura República), però no proposa reduir el finançament de la concertada per traslladar-lo a la pública."
+    },
+    {
+      "statement": "edu-lengua-castellano",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Defensar el model d'immersió lingüística i el respecte al marc competencial al conjunt dels Països Catalans",
+          "page": "p. 128 (PDF), p. 127 (imprès)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Aquestes forces reaccionàries volen construir un model educatiu que separi els alumnes per raó de llengua i divideixi els estudiants.",
+          "page": "p. 126 (PDF), p. 125 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ins-cgpj",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "amb l’establiment d’un òrgan de govern dels jutges, que han de ser elegits democràticament, de manera paritària i amb criteris de mèrit i capacitat",
+          "page": "p. 20 (PDF), p. 19 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "La frase es refereix al model de la futura República Catalana i és ambigua sobre qui elegeix; no hi ha proposta concreta sobre el sistema d'elecció del CGPJ."
+    },
+    {
+      "statement": "ins-referendum-monarquia",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Donar suport a la convocatòria d’un referèndum sobre monarquia o república.",
+          "page": "p. 12 (PDF), p. 11 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ins-memoria-democratica",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Garantir el compliment de la Llei de Memòria Democràtica encara que no sigui la que nosaltres hauríem volgut.",
+          "page": "p. 34 (PDF), p. 33 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Hi dona suport tot i considerar-la insuficient."
+    },
+    {
+      "statement": "ext-gasto-defensa",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Reduir la despesa militar espanyola, tant en efectius com en capacitat armamentística, per tal de revertir l’increment de l’última dècada.",
+          "page": "p. 30 (PDF), p. 29 (imprès)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ext-embargo-israel",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "title": "Defensa Catalunya! Eleccions espanyoles 2023 — Programa electoral Eleccions Generals 2023",
+          "publisher": "Esquerra Republicana de Catalunya",
+          "date": "2023-07-11",
+          "quote": "Detenir les transaccions comercials armamentístiques a països que vulneren els Drets Humans (Aràbia Saudita, Egipte, Unió dels Emirats Àrabs, Israel, l'Iraq, Turquia).",
+          "page": "p. 30 (PDF), p. 29 (imprès)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://rtvc.es/congreso-aprueba-embargo-armas-israel-8-octubre-2025/",
+          "title": "El Congreso aprueba el embargo de armas a Israel con el apoyo de los socios",
+          "publisher": "RTVC (Radio Televisión Canaria)",
+          "date": "2025-10-08",
+          "quote": "El resto de socios de investidura de Pedro Sánchez, como ERC, Junts, EH Bildu, PNV y BNG , también se quejaron el martes durante el debate de esta iniciativa de que el decreto ley es incompleto",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Segons la premsa, ERC va votar a favor de convalidar el decret d'embargo (8/10/2025) tot i considerar-lo incomplet."
+    }
+  ]
+}

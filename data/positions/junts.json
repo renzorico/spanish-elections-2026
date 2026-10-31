@@ -1,0 +1,664 @@
+{
+  "party": "junts",
+  "coded_by": "subagent:group-d",
+  "coded_on": "2026-10-31",
+  "positions": [
+    {
+      "statement": "viv-limite-alquiler",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "",
+          "page": "p. 98 (PDF)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/propostes/habitatge-temes/",
+          "title": "Propostes: Habitatge",
+          "publisher": "Junts per Catalunya",
+          "quote": "Oposició a mesures que limitin l’oferta d’habitatge sense resoldre la demanda real.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa 2023 no es pronuncia sobre límits de preu; la web actual s'oposa a mesures que 'limitin l'oferta' i defensa més construcció i desgravacions, però no rebutja explícitament els topalls de preu."
+    },
+    {
+      "statement": "viv-compra-no-residentes",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Cap menció al programa 2023 ni a les propostes web consultades."
+    },
+    {
+      "statement": "viv-desalojo-rapido",
+      "stance": "neutral",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "es proposen mesures de tipus processal com el desallotjament cautelar en 48 hores en els supòsits d’ocupacions que pertorbin la convivència o que tinguin caràcter delinqüencial",
+          "page": "p. 129 (PDF)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "En tot cas, s’atendran les situacions de vulnerabilitat.",
+          "page": "p. 129 (PDF)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/actualitat/okupacions/",
+          "title": "Okupacions (Junts per Vilassar de Mar)",
+          "publisher": "Junts per Catalunya",
+          "quote": "Cal diferenciar entre situacions de vulnerabilitat social, que requereixen resposta per part de l’Administració, i les ocupacions conflictives i delinqüencials",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Junts vol accelerar el desallotjament (48 hores) en ocupacions conflictives o delinqüencials, però diferencia explícitament les situacions de vulnerabilitat, que diu que s'han d'atendre; no dona suport a la part de l'afirmació que inclou persones vulnerables."
+    },
+    {
+      "statement": "eco-impuesto-grandes-fortunas",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "que contribueixi a combatre les desigualtats, de manera que aportin més els que més tenen (les rendes més altes)",
+          "page": "p. 59 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Parla de progressivitat però no es pronuncia sobre l'impost de patrimoni ni l'impost de solidaritat de grans fortunes."
+    },
+    {
+      "statement": "eco-bajar-irpf",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://junts.cat/propostes/impostos/",
+          "title": "Propostes: Impostos",
+          "publisher": "Junts per Catalunya",
+          "quote": "Per això proposem una rebaixa real de l’IRPF per a les rendes mitjanes i treballadores",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "revisar i reequilibrar la fiscalitat que grava les rendes del treball a l’impost sobre la renda, ja que són les que suporten el gruix de la pressió fiscal, amb uns tipus impositius que arriben a ser excessius.",
+          "page": "p. 60 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Rebaixa centrada en rendes mitjanes i del treball (i deflactar trams); no es pronuncia sobre l'impacte en la recaptació."
+    },
+    {
+      "statement": "eco-impuesto-energeticas-banca",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://junts.cat/actualitat/nogueras-quan-junts-te-forca-catalunya-hi-guanya/",
+          "title": "Nogueras: “Quan Junts té força, Catalunya hi guanya”",
+          "publisher": "Junts per Catalunya",
+          "date": "2026-10-27",
+          "quote": "Ha destacat les rebaixes de l’impost de societats per a petites empreses i cooperatives, els incentius fiscals a la creació d’ocupació i el fre al gravamen energètic.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Junts reivindica haver frenat el gravamen a les energètiques. No hem trobat posició oficial sobre l'impost a la banca; el programa 2023 no en parla."
+    },
+    {
+      "statement": "tra-jornada-37h",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://www.periodicodeibiza.es/noticias/nacional/2025/09/11/2467647/congreso-tumba-reduccion-jornada-laboral-prosperar-veto-vox-junts.html",
+          "title": "El Congreso tumba la reducción de jornada laboral al prosperar el veto de PP, Vox y Junts",
+          "publisher": "Periódico de Ibiza (Europa Press)",
+          "date": "2025-09-11",
+          "quote": "El Congreso ha aprobado este miércoles las enmiendas de totalidad que el PP, Vox y Junts han presentado para devolver al Gobierno el proyecto para reducir la jornada laboral a 37,5 horas semanales",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.ondavasca.com/junts-confirma-su-rechazo-a-la-rebaja-de-la-jornada-laboral-y-mantiene-la-enmienda-a-la-totalidad/",
+          "title": "Junts confirma su rechazo a la rebaja de la jornada laboral y mantiene la enmienda a la totalidad",
+          "publisher": "Onda Vasca (Noticias Taldea / EP)",
+          "date": "2025-09-09",
+          "quote": "Miriam Nogueras, ha trasladado al secretario de Estado de Trabajo, Joaquín Pérez Rey, en una reunión este lunes por la tarde su negativa al proyecto de 37,5 horas laborales.",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Junts va presentar i mantenir una esmena a la totalitat que va tornar el projecte de 37,5 hores al Govern (10/09/2025). El programa 2023 no en parla. El mapatge sistemàtic de votacions pot elevar-ne la confiança."
+    },
+    {
+      "statement": "tra-salario-minimo",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "per a Junts per Catalunya, l’actual SMI de 1.080 euros és insuficient per dignificar l’SMI",
+          "page": "p. 65 (PDF)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "Aquest SMI català podria partir dels 1.319 €/mes, de l’actual salari mitjà europeu, per apropar-se progressivament fins als 1.400, 1500 euros al mes.",
+          "page": "p. 65 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Junts considera insuficient l'SMI i proposa un SMI català més alt adaptat al cost de la vida; no esmenta l'objectiu del 60 % del salari mitjà."
+    },
+    {
+      "statement": "san-gestion-privada",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "La varietat de proveïdors i la competitivitat milloren els serveis.",
+          "page": "p. 112 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Defensa el model sanitari català, que combina proveïdors públics i privats."
+    },
+    {
+      "statement": "san-dental-publica",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Cap menció a la cobertura dental al programa 2023 ni a la pàgina de propostes de sanitat."
+    },
+    {
+      "statement": "der-aborto-constitucion",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa 2023 no parla d'avortament. No hem trobat declaració oficial; pendent del vot (mapatge de votacions)."
+    },
+    {
+      "statement": "der-eutanasia",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa 2023 no parla d'eutanàsia."
+    },
+    {
+      "statement": "der-ley-trans",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "Pel reconeixement i defensa dels drets de les persones del col·lectiu LGTBI (lesbianes, gais, bisexuals, trans i intersexuals) en tots els àmbits.",
+          "page": "p. 116 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Suport genèric als drets LGTBI, sense posició sobre l'autodeterminació registral de la Llei 4/2023."
+    },
+    {
+      "statement": "inm-regularizacion",
+      "stance": "disagree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://junts.cat/actualitat/nogueras-catalunya-ha-de-tenir-el-control-de-la-immigracio/",
+          "title": "Nogueras: “Catalunya ha de tenir el control de la immigració”",
+          "publisher": "Junts per Catalunya",
+          "date": "2026-08-26",
+          "quote": "ha denunciat especialment la regularització massiva impulsada pel govern del PSOE i Sumar.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "Buscar vies de solució a les persones que es troben al territori sense tenir la situació administrativa resolta.",
+          "page": "p. 110 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Evidència mixta: el programa 2023 parlava de 'buscar vies de solució' per a persones en situació irregular, però el 2026 Junts critica explícitament la regularització extraordinària del Govern."
+    },
+    {
+      "statement": "inm-reparto-menores",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://junts.cat/propostes/immigracio/",
+          "title": "Propostes: Immigració",
+          "publisher": "Junts per Catalunya",
+          "quote": "Acord pel repartiment de menors migrants, amb la reforma de la llei d’estrangeria, que compensa l’esforç previ de Catalunya",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://rtvc.es/debate-congreso-ley-extranjeria-10-abril-2025/",
+          "title": "El Congreso convalida el decreto ley para distribuir a menores migrantes sin los apoyos de PP ni Vox",
+          "publisher": "RTVC (Radio Televisión Canaria)",
+          "date": "2025-04-10",
+          "quote": "El Gobierno ya lo aprobó el 18 de marzo tras un acuerdo con Junts para que la formación independentista catalana apoyara con sus votos la medida",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Junts va pactar i donar suport al mecanisme de repartiment de 2025, amb una clàusula que compensa l'acollida prèvia de Catalunya. El juliol de 2024 s'havia oposat a una proposta semblant."
+    },
+    {
+      "statement": "inm-reducir-llegadas",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/actualitat/nogueras-catalunya-ha-de-tenir-el-control-de-la-immigracio/",
+          "title": "Nogueras: “Catalunya ha de tenir el control de la immigració”",
+          "publisher": "Junts per Catalunya",
+          "date": "2026-08-26",
+          "quote": "“ Catalunya no té capacitat d’acollida infinita, i cal dir-ho ”",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Junts reclama que Catalunya controli els fluxos i afirma que la seva capacitat d'acollida no és infinita, però no es pronuncia explícitament sobre reduir les arribades al conjunt d'Espanya."
+    },
+    {
+      "statement": "cli-nucleares",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "",
+          "page": "p. 90 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa 2023 té un apartat sobre el mix elèctric i el tancament de les nuclears sense posició explícita. Segons la premsa, Junts s'ha abstingut o ha votat de manera canviant en iniciatives del PP per allargar-ne la vida (2025); pendent del mapatge de votacions."
+    },
+    {
+      "statement": "cli-coches-2035",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "Facilitar, legislativament, la conversió de vehicles de combustió en elèctrics.",
+          "page": "p. 89 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Promou l'electrificació, però no es pronuncia sobre la prohibició de vendes de 2035."
+    },
+    {
+      "statement": "ter-amnistia",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "la resolució del conflicte amb Espanya implica aconseguir l’amnistia per a tots els represaliats i represaliades.",
+          "page": "p. 25 (PDF)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/propostes/nacio/",
+          "title": "Propostes: Nació",
+          "publisher": "Junts per Catalunya",
+          "quote": "La llei d’amnistia és una victòria política de l’independentisme",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-referendum",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "un pas necessari en el camí del reconeixement polític i jurídic internacional de la nació catalana com a subjecte polític amb dret a exercir l’autodeterminació.",
+          "page": "p. 12 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Junts defensa el dret a l'autodeterminació de Catalunya sense condicionar-lo a un acord amb l'Estat; el programa no parla explícitament d'un referèndum pactat."
+    },
+    {
+      "statement": "ter-financiacion-cataluna",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "La Generalitat ha de tenir la titularitat de tots els impostos suportats a Catalunya",
+          "page": "p. 59 (PDF)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/propostes/financament-per-catalunya/",
+          "title": "Propostes: Finançament per Catalunya",
+          "publisher": "Junts per Catalunya",
+          "quote": "Per això reclamem un concert econòmic que permeti recaptar i gestionar els nostres recursos des de Catalunya",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-recentralizar",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://junts.cat/propostes/nacio/",
+          "title": "Propostes: Nació",
+          "publisher": "Junts per Catalunya",
+          "quote": "Catalunya és una nació amb identitat, llengua, institucions i drets propis que cal defensar davant de qualsevol intent de subordinació o recentralització.",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "En aquest afany de laminar l’autogovern català i recentralitzar competències, el Govern de l’Estat ha comptat amb la col·laboració inestimable del Tribunal Constitucional.",
+          "page": "p. 19 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ter-lenguas-congreso",
+      "stance": "agree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "Modificar el reglament intern del Congrés per permetre l'ús de les llengües oficials diferents del castellà en les sessions plenàries i a les comissions.",
+          "page": "p. 141 (PDF)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/propostes/llengua/",
+          "title": "Propostes: Llengua",
+          "publisher": "Junts per Catalunya",
+          "quote": "Després de molts anys, hem aconseguit poder parlar en català al Congrés dels Diputats",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "edu-concertada",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "El servei d’educació de Catalunya està format per centres de titularitat pública i concertats amb finalitat social. Les dues xarxes necessiten els mateixos recursos humans i materials",
+          "page": "p. 117 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Demana més recursos per a l'escola pública, però defensa els mateixos recursos per a la concertada."
+    },
+    {
+      "statement": "edu-lengua-castellano",
+      "stance": "disagree",
+      "confidence": "high",
+      "evidence_type": "program_2023",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "Ens comprometem a defensar la immersió lingüística com a eina de cohesió social.",
+          "page": "p. 116 (PDF)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "Protegir, jurídicament, el model d'escola en català per evitar la ingerència dels tribunals",
+          "page": "p. 141 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": []
+    },
+    {
+      "statement": "ins-cgpj",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "Junts ja ha presentat una iniciativa per modificar la LOPJ que forci la renovació del CGPJ i destitueixi els seus membres quan finalitzin el mandat.",
+          "page": "p. 25 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Critica la politització del CGPJ i proposa forçar-ne la renovació, però no diu qui hauria d'elegir els vocals."
+    },
+    {
+      "statement": "ins-referendum-monarquia",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "",
+          "page": "p. 27 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "El programa esmenta la monarquia només com a debat bloquejat a la Mesa del Congrés; no proposa cap referèndum monarquia/república."
+    },
+    {
+      "statement": "ins-memoria-democratica",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "El Regne d’Espanya ha aprovat una llei de memòria per legitimar el règim del 78 que manté la impunitat dels crims franquistes.",
+          "page": "p. 24 (PDF)",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Critica la llei per insuficient i proposa homologar-la amb lleis d'altres països; no diu si s'ha de mantenir o derogar."
+    },
+    {
+      "statement": "ext-gasto-defensa",
+      "stance": "no_clear_position",
+      "evidence_type": "none",
+      "sources": [
+        {
+          "url": "https://junts.cat/wp-content/uploads/2026/10/Programa-electoral-per-Catalunya.pdf",
+          "title": "Programa electoral per Catalunya — Eleccions generals 23J 2023 (Junts per Catalunya / «Ja n'hi ha prou»)",
+          "publisher": "Junts per Catalunya",
+          "date": "2023-07-19",
+          "quote": "",
+          "page": "p. 131 (PDF)",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://okdiario.com/espana/junts-sanchez-apoyara-aumento-del-gasto-militar-solo-si-inversion-espana-cataluna-14438399",
+          "title": "Junts a Sánchez: apoyará el aumento del gasto militar sólo si la inversión es «en España y en Cataluña»",
+          "publisher": "OKDIARIO",
+          "date": "2025-03-13",
+          "quote": "Junts se muestra abierto a apoyar el aumento del gasto en defensa que el Ejecutivo socialista quiere impulsar, pero con condiciones",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Només una font de premsa (març 2025) informa d'un suport condicionat a un augment, sense referència als objectius de l'OTAN; insuficient per codificar."
+    },
+    {
+      "statement": "ext-embargo-israel",
+      "stance": "agree",
+      "confidence": "medium",
+      "evidence_type": "official_statement",
+      "sources": [
+        {
+          "url": "https://rtvc.es/congreso-aprueba-embargo-armas-israel-8-octubre-2025/",
+          "title": "El Congreso aprueba el embargo de armas a Israel con el apoyo de los socios",
+          "publisher": "RTVC (Radio Televisión Canaria)",
+          "date": "2025-10-08",
+          "quote": "El resto de socios de investidura de Pedro Sánchez, como ERC, Junts, EH Bildu, PNV y BNG , también se quejaron el martes durante el debate de esta iniciativa de que el decreto ley es incompleto",
+          "accessed": "2026-10-31"
+        },
+        {
+          "url": "https://www.elsaltodiario.com/congreso-de-los-diputados/congreso-convalida-decreto-embargo-armas-votos-podemos-junts",
+          "title": "El Congreso convalida el decreto de embargo de armas con los votos de la mayoría de investidura",
+          "publisher": "El Salto",
+          "date": "2025-10-08",
+          "quote": "El Congreso convalida el decreto de embargo de armas con los votos de la mayoría de investidura",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "vote_refs": [],
+      "note": "Segons la premsa, Junts va votar a favor de convalidar el decret d'embargo (8/10/2025) tot i considerar-lo incomplet. El programa 2023 no en parla."
+    }
+  ]
+}
