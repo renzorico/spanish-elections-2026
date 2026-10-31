@@ -19,8 +19,8 @@
       "en": "The law should speed up the eviction of people occupying a home without the owner's permission."
     },
     "context": {
-      "es": "Ocupar una vivienda sin título es delito; el tiempo que tarda el desalojo depende del procedimiento judicial y de si hay personas vulnerables.",
-      "en": "Occupying a home without legal title is an offence; how long eviction takes depends on the court procedure and on whether vulnerable people are involved."
+      "es": "La ocupación no autorizada de una vivienda puede ser delito (allanamiento de morada o usurpación); los conflictos por posesión o por un alquiler vencido se resuelven por vía civil. El tiempo que tarda un desalojo depende del procedimiento judicial.",
+      "en": "Unauthorised occupation of a home can be a criminal offence (trespass or usurpation); disputes over possession or an expired tenancy are settled in civil courts. How long an eviction takes depends on the court procedure."
     }
   },
   {
@@ -51,12 +51,12 @@
     "id": "eco-impuesto-energeticas",
     "topic": "economia",
     "text": {
-      "es": "Debería volver a aplicarse un impuesto especial sobre los beneficios de las grandes empresas energéticas.",
-      "en": "A special tax on the profits of large energy companies should be reintroduced."
+      "es": "Debería volver a aplicarse el gravamen especial sobre las grandes empresas energéticas que estuvo en vigor en 2023 y 2024.",
+      "en": "The special levy on large energy companies that applied in 2023 and 2024 should be reintroduced."
     },
     "context": {
-      "es": "Entre 2023 y 2024 se aplicó un gravamen temporal a las grandes energéticas. En enero de 2025 el Congreso no convalidó su prórroga y dejó de aplicarse.",
-      "en": "A temporary levy on large energy companies applied in 2023 and 2024. In January 2025 the Congreso rejected its extension and it lapsed."
+      "es": "Ese gravamen se calculaba sobre los ingresos (cifra de negocios) de las grandes energéticas, no sobre sus beneficios. En enero de 2025 el Congreso no convalidó su prórroga y dejó de aplicarse.",
+      "en": "That levy was calculated on large energy companies' revenue (turnover), not on their profits. In January 2025 the Congreso rejected its extension and it lapsed."
     }
   },
   {
@@ -111,8 +111,8 @@
     "id": "san-dental-publica",
     "topic": "sanidad",
     "text": {
-      "es": "La sanidad pública debería cubrir la atención dental general (empastes, endodoncias, prótesis) para toda la población.",
-      "en": "Public health care should cover general dental care (fillings, root canals, dentures) for everyone."
+      "es": "La sanidad pública debería cubrir más tratamientos dentales de los que cubre hoy.",
+      "en": "Public health care should cover more dental treatments than it does today."
     },
     "context": {
       "es": "Hoy la sanidad pública cubre solo una parte de la atención bucodental, con diferencias entre comunidades.",
@@ -127,8 +127,8 @@
       "en": "The right to abortion should be written into the Constitution."
     },
     "context": {
-      "es": "El aborto está regulado por la Ley Orgánica 2/2010. En 2026 el Gobierno presentó un proyecto para incluirlo en el artículo 43 de la Constitución, que decayó con la disolución de las Cortes. Reformar la Constitución requiere tres quintos de ambas cámaras.",
-      "en": "Abortion is regulated by Organic Law 2/2010. In 2026 the Government tabled a bill to add it to article 43 of the Constitution, which lapsed when Parliament was dissolved. Amending the Constitution requires three-fifths of both chambers."
+      "es": "El aborto está regulado por la Ley Orgánica 2/2010. En 2026 el Gobierno presentó un proyecto para incluirlo en el artículo 43 de la Constitución, que decayó con la disolución de las Cortes. Reformar la Constitución requiere normalmente tres quintos de ambas cámaras.",
+      "en": "Abortion is regulated by Organic Law 2/2010. In 2026 the Government tabled a bill to add it to article 43 of the Constitution, which lapsed when Parliament was dissolved. Amending the Constitution normally requires three-fifths of both chambers."
     }
   },
   {
@@ -151,8 +151,8 @@
       "en": "A medical or psychological report should be required to change one's legal sex at the civil registry."
     },
     "context": {
-      "es": "La Ley 4/2023 (conocida como «ley trans») permite a los mayores de 16 años cambiarlo con su propia declaración, sin informes médicos.",
-      "en": "Law 4/2023 (known as the 'trans law') lets people over 16 change it by their own declaration, without medical reports."
+      "es": "La Ley 4/2023 (conocida como «ley trans») permite cambiarlo desde los 16 años con la propia declaración, sin informes médicos.",
+      "en": "Law 4/2023 (known as the 'trans law') lets people aged 16 or over change it by their own declaration, without medical reports."
     }
   },
   {
