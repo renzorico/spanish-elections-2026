@@ -27,7 +27,7 @@
 <body>
   <a class="skip" href="#main">Saltar al contenido</a>
   <header class="site-header">
-    <a class="brand" data-href-lang="./" href="./"><svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g transform="rotate(-9 17 11)"><rect x="10" y="2.5" width="14" height="16" rx="2.2" fill="var(--paper)" stroke="currentColor" stroke-width="2"/><path d="M13.6 10.6l2.4 2.4 4.6-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><rect x="2.5" y="15" width="29" height="16.5" rx="5" fill="currentColor"/><rect x="9" y="18.6" width="16" height="2.2" rx="1.1" fill="var(--paper)"/></svg><span><span class="brand-name">29N</span><span class="brand-tag">Elecciones generales · 29 nov 2026</span></span></a>
+    <a class="brand" data-href-lang="./" href="./"><svg class="brand-mark" viewBox="0 0 40 22" aria-hidden="true" focusable="false"><g fill="currentColor"><circle cx="12.82" cy="19.10" r="2.46"/><circle cx="14.19" cy="14.88" r="2.46"/><circle cx="17.78" cy="12.27" r="2.46"/><circle cx="22.22" cy="12.27" r="2.46"/><circle cx="25.81" cy="14.88" r="2.46"/><circle cx="27.18" cy="19.10" r="2.46"/><circle cx="7.86" cy="19.10" r="2.46"/><circle cx="8.79" cy="14.45" r="2.46"/><circle cx="11.42" cy="10.51" r="2.46"/><circle cx="15.35" cy="7.88" r="2.46"/><circle cx="20.00" cy="6.96" r="2.46"/><circle cx="24.65" cy="7.88" r="2.46"/><circle cx="28.58" cy="10.51" r="2.46"/><circle cx="31.21" cy="14.45" r="2.46"/><circle cx="32.14" cy="19.10" r="2.46"/><circle cx="2.90" cy="19.10" r="2.46"/><circle cx="3.60" cy="14.28" r="2.46"/><circle cx="5.62" cy="9.85" r="2.46"/><circle cx="8.80" cy="6.18" r="2.46"/><circle cx="12.90" cy="3.54" r="2.46"/><circle cx="17.57" cy="2.17" r="2.46"/><circle cx="22.43" cy="2.17" r="2.46"/><circle cx="27.10" cy="3.54" r="2.46"/><circle cx="31.20" cy="6.18" r="2.46"/><circle cx="34.38" cy="9.85" r="2.46"/><circle cx="36.40" cy="14.28" r="2.46"/><circle cx="37.10" cy="19.10" r="2.46"/></g></svg><span><span class="brand-name">29N</span><span class="brand-tag">Elecciones generales · 29 nov 2026</span></span></a>
     <nav class="site-nav" aria-label="Principal">
       <a class="nav-link" data-href-lang="eleccion.html" href="eleccion.html"><span data-lang="es">Cómo se vota</span><span data-lang="en" hidden>How voting works</span></a>
       <a class="btn btn-primary" data-href-lang="./" href="./" style="min-height:40px;padding:.5rem 1rem;font-size:.9rem"><span data-lang="es">Hacer el test</span><span data-lang="en" hidden>Take the quiz</span></a>
@@ -56,7 +56,7 @@
         <li>Cada afirmación trata un solo asunto, se refiere a una medida concreta y está redactada sin términos valorativos. Una lista de palabras cargadas se comprueba automáticamente.</li>
         <li>Hay afirmaciones en las que estar «de acuerdo» supone cambiar la situación actual y otras en las que supone mantenerla.</li>
         <li>Cada una incluye una línea de contexto neutral sobre la situación legal actual.</li>
-        <li>El orden de las afirmaciones y de los partidos es aleatorio en cada visita.</li>
+        <li>El orden de las afirmaciones es aleatorio en cada visita.</li>
       </ul>
       </details>
       <details><summary>Cómo se codificaron las posiciones de los partidos</summary>
@@ -89,13 +89,13 @@
         <li>Las posiciones que faltan («sin posición clara») <strong>no se rellenan</strong>: simplemente no cuentan. Por eso se muestra en cuántas de tus afirmaciones se basa cada resultado, y se avisa con «datos limitados» si es la mitad o menos. Si ordenas por coincidencia, los partidos con datos limitados aparecen después de los demás.</li>
         <li>Una posición «intermedia» del partido da al menos un 50 % de coincidencia con cualquier respuesta; solo se usa cuando la fuente expresa explícitamente una postura intermedia.</li>
         <li>Puedes excluir las posiciones de confianza baja.</li>
-        <li>Los resultados se muestran en orden aleatorio; solo se ordenan por coincidencia si tú lo pides. No hay recomendaciones ni etiquetas de «mejor opción».</li>
-        <li>La imagen y el PDF para compartir ordenan los partidos por coincidencia (porque es tu resumen) y ponen al final, marcados, los que tienen pocos datos.</li>
+        <li>Los resultados se ordenan por coincidencia con tus respuestas. Los partidos con pocos datos (posición documentada en la mitad o menos de tus respuestas) van al final, marcados, para que un porcentaje calculado con pocas afirmaciones no quede por encima de otros mejor documentados. Los empates se ordenan al azar. No hay recomendaciones ni etiquetas de «mejor opción».</li>
+        <li>Puedes descargar dos documentos, creados en tu navegador: un <b>informe completo</b> (para ti: todas tus respuestas, el mapa por temas y un enlace para volver a tus resultados) y un <b>resumen para compartir</b> (una página, también como imagen, con los tres partidos con más coincidencia entre los que tienen datos suficientes; no muestra tus respuestas).</li>
         <li><strong>Colores:</strong> cada tema tiene un color apagado, todos con la misma intensidad, para que ninguno recuerde al color de un partido. Los partidos no tienen color propio en la interfaz; sus logotipos aparecen todos al mismo tamaño.</li>
       </ul>
       </details>
       <details><summary>Privacidad</summary>
-      <p>Tus respuestas no salen de tu navegador. No hay cuentas, cookies, analítica ni servicios de terceros; la página solo descarga sus propios archivos. Al cerrar la pestaña, las respuestas desaparecen.</p>
+      <p>Tus respuestas no salen de tu navegador. No hay cuentas, cookies, analítica ni servicios de terceros; la página solo descarga sus propios archivos. Al cerrar la pestaña, las respuestas desaparecen.</p><p>El informe completo incluye un enlace que vuelve a abrir tus resultados. Tus respuestas van dentro de ese enlace, detrás del signo «#»: los navegadores no envían esa parte a ningún servidor y no se guarda en ningún sitio. Quien tenga el enlace puede ver tus respuestas; compártelo solo si quieres.</p>
       </details>
       <details><summary>Limitaciones conocidas</summary>
       <ul>
@@ -137,7 +137,7 @@
         <li>Each statement covers one issue, refers to a concrete measure and avoids value-laden terms; a list of loaded words is checked automatically.</li>
         <li>For some statements "agree" means changing the status quo, for others keeping it.</li>
         <li>Each includes one neutral line of context about the current legal situation.</li>
-        <li>Statement and party order are randomised on every visit.</li>
+        <li>Statement order is randomised on every visit.</li>
       </ul>
       </details>
       <details><summary>How party positions were coded</summary>
@@ -169,13 +169,13 @@
         <li>Missing positions are <strong>not filled in</strong>; they simply do not count. Each result therefore shows how many of your statements it is based on, with a "limited data" flag at half or less. When sorting by agreement, limited-data parties are listed after the others.</li>
         <li>An "intermediate" party position gives at least 50% agreement with any answer; it is used only when the source explicitly states an intermediate position.</li>
         <li>You can exclude low-confidence positions.</li>
-        <li>Results are shown in random order and are only sorted by agreement if you ask. There are no recommendations or "best match" labels.</li>
-        <li>The shareable image and PDF sort parties by agreement (it is your summary) and list limited-data parties last, marked.</li>
+        <li>Results are sorted by agreement with your answers. Parties with limited data (a documented position on half or fewer of your answers) go last, marked, so that a percentage based on few statements is not shown above better-documented parties. Ties are ordered at random. There are no recommendations or "best match" labels.</li>
+        <li>You can download two documents, created in your browser: a <b>full report</b> (for you: all your answers, the topic map and a link back to your results) and a <b>summary to share</b> (one page, also as an image, with the three parties you agree with most among those with enough data; it does not show your answers).</li>
         <li><strong>Colours:</strong> each topic has a muted colour, all with the same intensity, so none resembles a party colour. Parties have no colour of their own in the interface; their logos all appear at the same size.</li>
       </ul>
       </details>
       <details><summary>Privacy</summary>
-      <p>Your answers never leave your browser. No accounts, cookies, analytics or third-party services; the page only downloads its own files. Closing the tab erases your answers.</p>
+      <p>Your answers never leave your browser. No accounts, cookies, analytics or third-party services; the page only downloads its own files. Closing the tab erases your answers.</p><p>The full report includes a link that reopens your results. Your answers travel inside that link, after the « # » sign: browsers do not send that part to any server, and nothing is stored anywhere. Anyone with the link can see your answers, so share it only if you want to.</p>
       </details>
       <details><summary>Known limitations</summary>
       <ul>

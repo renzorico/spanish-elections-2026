@@ -34,3 +34,9 @@ npm run check-sources                       # URL liveness
 ## UI/UX redesign (in progress, 31 Oct 2026)
 Done: new design system (paper/ink, Fraunces + Atkinson Hyperlegible, self-hosted), topic colours + icons, new home with countdown, dot-scale answers with Previous/Next always available, keyboard shortcuts, "Explícamelo fácil" plain-language line for every statement, topic weights per topic (Less ×0.5 / Same / More ×2, chosen by the owner: option B), results with province switcher (incl. all of Spain) and topic map, party detail with collapsible topics, shareable PNG + PDF card with QR, shorter election and methodology pages. Browser suite: 38 checks.
 Decided by the owner: answer input A (dot scale), topic weights B (Less/Same/More). Open: party logos (licence-checked from Wikimedia Commons; monograms until then).
+
+## Design round 2 (31 Oct 2026)
+Owner's choices: logo B (hemicycle), hero keeps the big "30" tile inside a regular 4×4 mosaic plus a tappable example statement, fixed-height statement box (the answer scale never moves; explanations open below it), topic map as diverging bars with equal columns and angled headers, results always sorted by agreement (no random-order switch), statement lists per topic on the weights screen.
+Exports rebuilt as vector PDFs with embedded Fraunces/Atkinson (site/js/pdf.js, report.js): full report (ranking, observations, topic map, every answer with party positions, return-to-results link) and a one-page summary to share (top 3 parties with enough data, invitation + QR; also as PNG). Restore link: site/js/restore.js (#r= fragment, never sent to servers).
+Phone review done at 390 px and 320 px: sticky Previous/Next, short topic names in tiles, 2×2 facts, swipe hint on the topic map, no horizontal overflow. Tests: 48 unit, 51 browser checks.
+Open: party logos (licence check in progress; monograms until then).
