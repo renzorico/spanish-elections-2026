@@ -143,28 +143,55 @@ export function parseQr(svgText) {
   return { size, runs };
 }
 
-// ---------- full report (A4)
+// ---------- full report (A4, three pages)
+//  1  Summary: title, key facts, neutral observations, ranking, return link
+//  2  By topic: topic map and how far apart the parties are on each topic
+//  3  Your answers: one grid, statements down, parties across (continues only if needed)
+// Type rules: serif for titles and numbers, regular sans for text, bold only for the tiny
+// caps labels. Nothing is ever truncated with an ellipsis except party names in a column.
 const A4 = { w: 595.28, h: 841.89, m: 48 };
+const BOTTOM = A4.h - 62; // lowest y for content (footer sits below)
 
 function header(page, d) {
   brand(page, A4.m, 36, d.S);
-  page.text(d.S.reportKind, A4.w - A4.m, 44, { font: 'sansBold', size: 7, color: C.ink2, align: 'right' });
-  page.text(d.dateLabel, A4.w - A4.m, 53, { font: 'sans', size: 7, color: C.ink3, align: 'right' });
+  page.text(d.S.reportKind, A4.w - A4.m, 44, { font: 'sansBold', size: 6.6, color: C.ink2, align: 'right', tracking: 0.8 });
+  page.text(d.dateLabel, A4.w - A4.m, 54, { font: 'sans', size: 7.4, color: C.ink3, align: 'right' });
   page.line(A4.m, 64, A4.w - A4.m, 64, { color: C.ink, width: 1 });
 }
 function footer(page, d, n, total) {
   const y = A4.h - 34;
   page.line(A4.m, y - 12, A4.w - A4.m, y - 12, { color: C.line2, width: 0.5 });
-  page.text(d.siteLabel, A4.m, y, { font: 'sansBold', size: 7, color: C.ink });
-  page.link(A4.m, y - 8, 160, 11, d.siteUrl);
-  page.text(d.S.notAdvice, A4.m + 168, y, { font: 'sans', size: 7, color: C.ink3 });
-  page.text(d.S.pageOf(n, total), A4.w - A4.m, y, { font: 'sans', size: 7, color: C.ink3, align: 'right' });
+  const w = page.text(d.siteLabel, A4.m, y, { font: 'sans', size: 7.4, color: C.ink });
+  page.link(A4.m, y - 8, w, 11, d.siteUrl);
+  page.text(d.S.notAdvice, A4.m + w + 14, y, { font: 'sans', size: 7.4, color: C.ink3 });
+  page.text(d.S.pageOf(n, total), A4.w - A4.m, y, { font: 'sans', size: 7.4, color: C.ink3, align: 'right' });
+}
+/** Section opener: small numbered caps label + serif title. Returns the next y. */
+function sectionHead(page, d, y, num, label, title, size = 21) {
+  caps(page, `${num}  ·  ${label}`, A4.m, y, { lang: d.lang, size: 6.6 });
+  page.text(title, A4.m, y + size + 4, { font: 'serif', size, color: C.ink });
+  return y + size + 4;
+}
+const hex2 = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
+const mixHex = (a, b, t) => `#${hex2(a).map((v, i) => Math.round(v + (hex2(b)[i] - v) * t).toString(16).padStart(2, '0')).join('')}`;
+/** Fill for "how close is this party to you on this statement" (0 light … 1 dark). */
+const shade = (a) => mixHex('#efe9de', '#1c1a17', Math.max(0, Math.min(1, a)));
+const USER_SYM = { '-2': '––', '-1': '–', 0: '0', 1: '+', 2: '++' };
+const STANCE_SYM = { agree: '+', neutral: '0', disagree: '–' };
+
+/** Per-topic spread between parties with enough data (pure; unit-tested). */
+export function topicRanges(parties, topics) {
+  const ok = parties.filter((p) => !p.limited && p.pct !== null && p.pct !== undefined);
+  return topics.map((t) => {
+    const v = ok.map((p) => p.topics[t.id]).filter((x) => typeof x === 'number').map((x) => Math.round(x * 100));
+    return v.length >= 2 ? { topic: t.id, min: Math.min(...v), max: Math.max(...v) } : { topic: t.id, min: null, max: null };
+  });
 }
 
 export function layoutReport(doc, d) {
   const F = doc.fonts;
-  const W = A4.w - 2 * A4.m;
   const L = A4.m;
+  const W = A4.w - 2 * A4.m;
   const pages = [];
   const newPage = () => {
     const p = doc.addPage();
@@ -172,24 +199,36 @@ export function layoutReport(doc, d) {
     header(p, d);
     return p;
   };
-  // ---- page 1: summary
+  const full = d.parties.filter((x) => !x.limited);
+  const lim = d.parties.filter((x) => x.limited);
+
+  // ================= page 1: summary
   let p = newPage();
-  let y = 100;
-  p.text(d.S.reportTitle, L, y, { font: 'serif', size: 25, color: C.ink });
-  y += 26;
+  let y = 96;
+  caps(p, d.S.kicker, L, y, { lang: d.lang, size: 6.8 });
+  y += 8;
+  for (const line of wrap(F.serif.metrics, d.S.reportTitle, 30, W)) {
+    y += 30;
+    p.text(line, L, y, { font: 'serif', size: 30, color: C.ink });
+  }
+  y += 28;
+  // key facts: label above, plain value below (values wrap, never cut)
   const kv = [
     [d.S.kvPlace, d.place],
     [d.S.kvAnswered, d.S.answeredOf(d.answered, d.total)],
     [d.S.kvMore, d.moreTopics.length ? d.moreTopics.join(', ') : d.S.none],
     [d.S.kvLess, d.lessTopics.length ? d.lessTopics.join(', ') : d.S.none],
   ];
-  const colW = W / 4;
+  const kw = W / 4;
+  let kh = 0;
   kv.forEach(([k, v], i) => {
-    caps(p, k, L + i * colW, y, { lang: d.lang });
-    paragraph(p, F, v, L + i * colW, y + 11, colW - 10, { font: 'sansBold', size: 8.5, color: C.ink, maxLines: 2 });
+    caps(p, k, L + i * kw, y, { lang: d.lang, size: 6.2 });
+    kh = Math.max(kh, paragraph(p, F, v, L + i * kw, y + 12, kw - 12, { size: 9, color: C.ink, lead: 1.35 }));
   });
-  y += 36;
-  // insights
+  y += 12 + kh + 4;
+  p.line(L, y, L + W, y, { color: C.line2, width: 0.5 });
+  y += 24;
+  // neutral observations
   const ins = computeInsights(d.parties, d.topics);
   const topicLabel = (id) => d.topics.find((t) => t.id === id)?.label || id;
   const boxes = [];
@@ -197,162 +236,233 @@ export function layoutReport(doc, d) {
   if (ins.mostDivergent) boxes.push([topicLabel(ins.mostDivergent.topic), d.S.insMostText(ins.mostDivergent)]);
   if (ins.leastDivergent) boxes.push([topicLabel(ins.leastDivergent.topic), d.S.insLeastText(ins.leastDivergent)]);
   if (boxes.length) {
-    p.line(L, y, L + W, y, { color: C.line2, width: 0.5 });
+    caps(p, d.S.insTitle, L, y - 8, { lang: d.lang, size: 6.2 });
+    y += 10;
     const bw = W / boxes.length;
-    let maxH = 0;
+    let bh = 0;
     boxes.forEach(([big, txt], i) => {
       const x = L + i * bw;
-      p.text(fit(F.serif.metrics, big, 15, bw - 14), x, y + 24, { font: 'serif', size: 15, color: C.ink });
-      maxH = Math.max(maxH, paragraph(p, F, txt, x, y + 38, bw - 16, { size: 8, color: C.ink2, maxLines: 5 }));
+      const bigLines = wrap(F.serif.metrics, big, 14, bw - 16);
+      bigLines.forEach((l, k) => p.text(l, x, y + 12 + k * 15, { font: 'serif', size: 14, color: C.ink }));
+      const off = 12 + (bigLines.length - 1) * 15 + 14;
+      bh = Math.max(bh, off + paragraph(p, F, txt, x, y + off, bw - 18, { size: 8.2, color: C.ink2, lead: 1.4 }));
     });
-    y += 38 + maxH + 6;
+    y += bh + 12;
     p.line(L, y, L + W, y, { color: C.line2, width: 0.5 });
+    y += 26;
   }
-  y += 26;
   // ranking
-  caps(p, d.S.rankTitle, L, y, { lang: d.lang });
-  caps(p, d.S.rankOrder, L + W, y, { lang: d.lang, align: 'right' });
+  caps(p, d.S.rankTitle, L, y, { lang: d.lang, size: 6.6 });
+  caps(p, d.S.rankOrder, L + W, y, { lang: d.lang, size: 6.2, align: 'right' });
   y += 14;
-  const cols = { mono: L, name: L + 22, bar: L + 150, barW: 210, pct: L + 410, cov: L + W };
+  const cols = { mono: L, name: L + 24, bar: L + 140, barW: 215, pct: L + 410, cov: L + W };
   caps(p, d.S.colParty, cols.name, y, { size: 5.8, lang: d.lang });
   caps(p, d.S.colMatch, cols.bar, y, { size: 5.8, lang: d.lang });
-  caps(p, '%', cols.pct, y, { size: 5.8, align: 'right' });
   caps(p, d.S.colCoverage, cols.cov, y, { size: 5.8, align: 'right', lang: d.lang });
   y += 5;
   p.line(L, y, L + W, y, { color: C.ink, width: 0.8 });
   const row = (party) => {
-    y += 17;
-    mono(p, party, cols.mono, y - 11.5, 14);
-    p.text(fit(F.sansBold.metrics, party.name, 8.5, 122), cols.name, y - 1.5, { font: 'sansBold', size: 8.5, color: party.limited ? C.ink2 : C.ink });
-    bar(p, cols.bar, y - 8, cols.barW, 6, party.pct, { limited: party.limited });
-    p.text(party.pct === null ? '—' : `${Math.round(party.pct * 100)}%`, cols.pct, y - 1, { font: 'serif', size: 10.5, color: C.ink, align: 'right' });
-    p.text(d.S.coverageShort(party.withPos, party.answeredCount), cols.cov, y - 1.5, { font: 'sans', size: 7.5, color: C.ink3, align: 'right' });
-    p.line(L, y + 4, L + W, y + 4, { color: C.line, width: 0.4 });
+    y += 19;
+    mono(p, party, cols.mono, y - 12.5, 15);
+    p.text(fit(F.sans.metrics, party.name, 9.2, 108), cols.name, y - 2, { font: 'sans', size: 9.2, color: party.limited ? C.ink2 : C.ink });
+    bar(p, cols.bar, y - 8.5, cols.barW, 6, party.pct, { limited: party.limited });
+    p.text(party.pct === null ? '—' : `${Math.round(party.pct * 100)}%`, cols.pct, y - 1, { font: 'serif', size: 11.5, color: C.ink, align: 'right' });
+    p.text(d.S.coverageShort(party.withPos, party.answeredCount), cols.cov, y - 2, { font: 'sans', size: 7.6, color: C.ink3, align: 'right' });
+    p.line(L, y + 5, L + W, y + 5, { color: C.line, width: 0.4 });
   };
-  const full = d.parties.filter((x) => !x.limited);
-  const lim = d.parties.filter((x) => x.limited);
   full.forEach(row);
   if (lim.length) {
-    y += 20;
+    y += 24;
     caps(p, d.S.limitedGroup, cols.name, y, { size: 5.8, lang: d.lang });
     y += 4;
     p.line(L, y, L + W, y, { color: C.ink, width: 0.5 });
     lim.forEach(row);
-    y += 14;
-    y += paragraph(p, F, d.S.limitedNote, L, y, W, { size: 7.2, color: C.ink3 });
+    y += 18;
+    y += paragraph(p, F, d.S.limitedNote, L, y, W, { size: 7.6, color: C.ink3, lead: 1.4 });
   }
-  // restore box
-  y = Math.max(y + 18, 0);
-  const boxH = 64;
-  if (y + boxH > A4.h - 60) {
+  // return-to-results box: sits at the foot of the page
+  const boxH = 66;
+  y = Math.max(y + 22, BOTTOM - boxH - 4);
+  if (y + boxH > BOTTOM) {
     p = newPage();
-    y = 90;
+    y = 96;
   }
   p.rect(L, y, W, boxH, { fill: C.paper, radius: 6 });
-  p.text(d.S.restoreTitle, L + 16, y + 22, { font: 'serif', size: 12.5, color: C.ink });
-  paragraph(p, F, d.S.restoreText, L + 16, y + 36, W - 190, { size: 7.6, color: C.ink2, maxLines: 3 });
+  p.text(d.S.restoreTitle, L + 16, y + 24, { font: 'serif', size: 13, color: C.ink });
+  paragraph(p, F, d.S.restoreText, L + 16, y + 39, W - 190, { size: 7.8, color: C.ink2, lead: 1.4 });
   const bw = 140;
-  p.rect(L + W - bw - 16, y + 18, bw, 28, { fill: C.ink, radius: 14 });
-  p.text(d.S.restoreButton, L + W - bw / 2 - 16, y + 35.5, { font: 'sansBold', size: 8.6, color: C.white, align: 'center' });
-  p.link(L + W - bw - 16, y + 18, bw, 28, d.restoreUrl);
-  p.link(L + 16, y + 10, 220, 16, d.restoreUrl);
+  p.rect(L + W - bw - 16, y + 19, bw, 28, { fill: C.ink, radius: 14 });
+  p.text(d.S.restoreButton, L + W - bw / 2 - 16, y + 36.5, { font: 'sansBold', size: 8.4, color: C.white, align: 'center' });
+  p.link(L + W - bw - 16, y + 19, bw, 28, d.restoreUrl);
 
-  // ---- topic map
+  // ================= page 2: by topic
   p = newPage();
-  y = 100;
-  p.text(d.S.mapTitle, L, y, { font: 'serif', size: 19, color: C.ink });
+  y = 96;
+  y = sectionHead(p, d, y, '02', d.S.sec2, d.S.mapTitle);
   y += 16;
-  y += paragraph(p, F, d.S.mapHow, L, y, W, { size: 8.2, color: C.ink2 });
-  y += 6;
-  const nameW = 84;
+  y += paragraph(p, F, d.S.mapHow, L, y, W - 40, { size: 8.4, color: C.ink2, lead: 1.45 });
+  y += 8;
+  const nameW = 88;
   const globW = 34;
   const cw = (W - nameW - globW) / d.topics.length;
-  const headBase = y + 62;
+  const headBase = y + 50;
   d.topics.forEach((t, i) => {
     const cx = L + nameW + i * cw + cw / 2;
-    p.text(t.short, cx - 2, headBase, { font: 'sansBold', size: 7, color: C.ink2, angle: 40 });
-    p.rect(cx - 5, headBase + 4, 10, 2, { fill: t.accent });
+    p.text(t.short, cx - 2, headBase, { font: 'sans', size: 7.2, color: C.ink2, angle: 40 });
+    p.rect(cx - 5, headBase + 5, 10, 2, { fill: t.accent });
   });
-  caps(p, d.S.colGlobal, L + W, headBase + 1, { size: 5.8, align: 'right', lang: d.lang });
-  y = headBase + 12;
+  caps(p, d.S.colGlobal, L + W, headBase + 3, { size: 5.8, align: 'right', lang: d.lang });
+  y = headBase + 14;
   const mapRow = (party) => {
-    p.text(fit(F.sansBold.metrics, party.name, 7.8, nameW - 6), L, y + 9.5, { font: 'sansBold', size: 7.8, color: C.ink });
+    p.text(fit(F.sans.metrics, party.name, 8.2, nameW - 8), L, y + 9.6, { font: 'sans', size: 8.2, color: C.ink });
     d.topics.forEach((t, i) => divCell(p, L + nameW + i * cw + 1, y, cw - 2, 13, party.topics[t.id]));
-    p.text(party.pct === null ? '—' : `${Math.round(party.pct * 100)}%`, L + W, y + 9.5, { font: 'serif', size: 8.5, color: C.ink, align: 'right' });
-    y += 16;
+    p.text(party.pct === null ? '—' : `${Math.round(party.pct * 100)}%`, L + W, y + 10, { font: 'serif', size: 9, color: C.ink, align: 'right' });
+    y += 17;
   };
   full.forEach(mapRow);
   if (lim.length) {
-    y += 6;
+    y += 7;
     caps(p, d.S.limitedGroup, L, y + 2, { size: 5.8, lang: d.lang });
-    y += 8;
+    y += 9;
     lim.forEach(mapRow);
   }
-  // legend
   y += 10;
   let lx = L;
-  const legend = [
-    [0.15, d.S.legDis],
-    [0.5, d.S.legMid],
-    [0.85, d.S.legAgree],
-    [null, d.S.legNone],
-    ['skip', d.S.legSkip],
-  ];
-  for (const [v, label] of legend) {
+  for (const [v, label] of [[0.15, d.S.legDis], [0.5, d.S.legMid], [0.85, d.S.legAgree], [null, d.S.legNone], ['skip', d.S.legSkip]]) {
     divCell(p, lx, y, 26, 11, v);
     p.text(label, lx + 31, y + 8, { font: 'sans', size: 7.2, color: C.ink2 });
-    lx += 31 + measure(F.sans.metrics, label, 7.2) + 16;
+    lx += 31 + measure(F.sans.metrics, label, 7.2) + 14;
   }
-  y += 58;
+  // spread per topic
+  y += 44;
+  caps(p, d.S.spreadTitle, L, y, { lang: d.lang, size: 6.6 });
+  y += 14;
+  y += paragraph(p, F, d.S.spreadHow, L, y, W - 40, { size: 8.4, color: C.ink2, lead: 1.45 });
+  y += 8;
+  const tc = { topic: L + 14, weight: L + 188, answered: L + 250, bar: L + 322, barW: 130 };
+  caps(p, d.S.colTopic, tc.topic, y, { size: 5.8, lang: d.lang });
+  caps(p, d.S.colWeight, tc.weight, y, { size: 5.8, lang: d.lang });
+  caps(p, d.S.colAnswered, tc.answered, y, { size: 5.8, lang: d.lang });
+  caps(p, d.S.colSpread, tc.bar, y, { size: 5.8, lang: d.lang });
+  y += 5;
+  p.line(L, y, L + W, y, { color: C.ink, width: 0.8 });
+  const ranges = topicRanges(d.parties, d.topics);
+  d.topics.forEach((t, i) => {
+    y += 19;
+    p.rect(L, y - 9, 3, 11, { fill: t.accent });
+    p.text(t.label, tc.topic, y - 1, { font: 'sans', size: 8.6, color: C.ink });
+    const wgt = d.topicWeights[t.id];
+    p.text(d.S.weightNames[wgt > 1 ? 2 : wgt < 1 ? 0 : 1], tc.weight, y - 1, { font: 'sans', size: 8.2, color: wgt === 1 ? C.ink3 : C.ink });
+    p.text(d.S.answeredOf(t.answered, t.total), tc.answered, y - 1, { font: 'sans', size: 8.2, color: C.ink2 });
+    const r = ranges[i];
+    p.rect(tc.bar, y - 6, tc.barW, 4, { fill: C.track });
+    if (r.min !== null) {
+      const x0 = tc.bar + (r.min / 100) * tc.barW;
+      p.rect(x0, y - 7.5, Math.max(2, ((r.max - r.min) / 100) * tc.barW), 7, { fill: C.ink, radius: 1 });
+      p.text(`${r.min}–${r.max}`, L + W, y - 1, { font: 'serif', size: 9, color: C.ink, align: 'right' });
+    } else p.text('—', L + W, y - 1, { font: 'sans', size: 8.2, color: C.ink3, align: 'right' });
+    p.line(L, y + 5, L + W, y + 5, { color: C.line, width: 0.4 });
+  });
 
-  // ---- answers, one by one (flows over as many pages as needed)
-  const bottom = A4.h - 62;
-  const startAnswers = () => {
-    p.text(d.S.answersTitle, L, y, { font: 'serif', size: 19, color: C.ink });
-    y += 16;
-    y += paragraph(p, F, d.S.answersHow, L, y, W, { size: 8.2, color: C.ink2 });
-    y += 8;
-  };
-  if (y > bottom - 140) {
-    p = newPage();
-    y = 100;
+  // ================= page 3: your answers, one grid
+  let rowPad = 3.7; // sized below so the whole grid fits on one page when it can
+  const FS = 7;
+  const LEAD = 1.12;
+  const gutter = 13;
+  const tuW = 20;
+  const np = d.parties.length;
+  const cellW = 13.2;
+  const gridX = L + W - np * cellW;
+  const stX = L + gutter;
+  const stW = gridX - 6 - tuW - 6 - stX;
+  const headH = 48;
+  const tuX = stX + stW + 6;
+  const rowsOf = (g) => g.rows.map((r) => ({ ...r, lines: wrap(F.sans.metrics, r.text, FS, stW) }));
+  const groups = [];
+  for (const r of d.answerRows) {
+    let g = groups[groups.length - 1];
+    if (!g || g.topicId !== r.topicId) groups.push((g = { topicId: r.topicId, rows: [] }));
+    g.rows.push(r);
   }
-  startAnswers();
-  const stW = 300;
-  const ansX = L + stW + 20;
-  let lastTopic = null;
-  for (const a of d.answers) {
-    const stLines = wrap(F.sans.metrics, a.text, 8.6, stW);
-    const groups = [
-      [d.S.favor, a.favor],
-      [d.S.against, a.contra],
-      [d.S.neutralStance, a.neutral],
-      [d.S.noPos, a.none],
-    ].filter(([, list]) => list.length);
-    const detail = groups.map(([k, list]) => `${k}: ${list.join(', ')}`);
-    const detailLines = detail.flatMap((line) => wrap(F.sans.metrics, line, 7, W - 12));
-    const h = (lastTopic !== a.topicId ? 18 : 0) + stLines.length * 12 + detailLines.length * 9.4 + 14;
-    if (y + h > bottom) {
+  const rowH = (r) => r.lines.length * FS * LEAD + rowPad * 2;
+  const drawGridHead = (pg, y0) => {
+    caps(pg, d.S.you, tuX + tuW / 2, y0 + headH - 3, { size: 5.8, align: 'center', lang: d.lang });
+    d.parties.forEach((party, i) => {
+      const cx = gridX + i * cellW + cellW / 2;
+      pg.text(fit(F.sans.metrics, party.name, 6.4, headH - 8), cx + 2.2, y0 + headH - 3, { font: 'sans', size: 6.4, color: party.limited ? C.ink3 : C.ink2, angle: 90 });
+    });
+    pg.line(L, y0 + headH, L + W, y0 + headH, { color: C.ink, width: 0.8 });
+    return y0 + headH;
+  };
+  p = newPage();
+  y = 86;
+  y = sectionHead(p, d, y, '03', d.S.sec3, d.S.answersTitle, 18);
+  y += 13;
+  y += paragraph(p, F, d.S.answersHow, L, y, W, { size: 8.2, color: C.ink2, lead: 1.4 });
+  // legend
+  y += 3;
+  const leg = [
+    ['+', d.S.legPlus],
+    ['0', d.S.legZero],
+    ['–', d.S.legMinus],
+    ['·', d.S.legDot],
+  ];
+  let gx = L;
+  for (const [sym, label] of leg) {
+    p.rect(gx, y - 7.5, 12, 10, { fill: C.cell, radius: 1.5 });
+    p.text(sym, gx + 6, y + 0.4, { font: 'sansBold', size: 7.2, color: C.ink, align: 'center' });
+    p.text(label, gx + 16, y, { font: 'sans', size: 7, color: C.ink2 });
+    gx += 16 + measure(F.sans.metrics, label, 7) + 12;
+  }
+  y += 13;
+  const shadeLegend = (x) => {
+    for (let i = 0; i < 5; i++) p.rect(x + i * 9, y - 7.5, 8, 10, { fill: shade(i / 4) });
+    p.text(d.S.legShade, x + 50, y, { font: 'sans', size: 7, color: C.ink2 });
+  };
+  shadeLegend(L);
+  y += 8;
+  {
+    const all = groups.flatMap((g) => rowsOf(g));
+    const textSum = all.reduce((t, r) => t + r.lines.length * FS * LEAD, 0);
+    const avail = BOTTOM - (y + headH) - 2;
+    rowPad = Math.min(4.6, Math.max(2.2, (avail - textSum) / (2 * all.length)));
+  }
+  y = drawGridHead(p, y);
+  for (const g0 of groups) {
+    const g = { ...g0, rows: rowsOf(g0) };
+    const gh = g.rows.reduce((s, r) => s + rowH(r), 0);
+    if (y + gh > BOTTOM) {
       p = newPage();
       y = 96;
-      lastTopic = null;
+      caps(p, `${d.S.answersTitle} · ${d.S.cont}`, L, y, { lang: d.lang, size: 6.6 });
+      y = drawGridHead(p, y + 10);
     }
-    if (lastTopic !== a.topicId) {
-      const t = d.topics.find((x) => x.id === a.topicId);
-      y += 6;
-      p.rect(L, y - 6, 3, 9, { fill: t.accent });
-      caps(p, t.label, L + 8, y + 1.6, { color: t.accent, size: 6.6, lang: d.lang });
-      y += 12;
-      lastTopic = a.topicId;
+    const t = d.topics.find((x) => x.id === g.topicId);
+    const y0 = y;
+    for (const r of g.rows) {
+      const h = rowH(r);
+      r.lines.forEach((l, k) => p.text(l, stX, y + rowPad + FS * 0.92 + k * FS * LEAD, { font: 'sans', size: FS, color: C.ink }));
+      const sy = r.user === null || r.user === undefined ? '·' : USER_SYM[r.user];
+      p.text(sy, tuX + tuW / 2, y + h / 2 + 2.6, { font: 'sansBold', size: 7.6, color: r.user === null ? C.ink3 : C.ink, align: 'center' });
+      r.cells.forEach((c, i) => {
+        const x = gridX + i * cellW + 0.9;
+        const w = cellW - 1.8;
+        const hh = h - 3;
+        const gy = y + 1.5;
+        if (c.agreement !== null && c.agreement !== undefined) {
+          p.rect(x, gy, w, hh, { fill: shade(c.agreement), radius: 1.5 });
+          p.text(STANCE_SYM[c.stance] || '·', x + w / 2, gy + hh / 2 + 2.5, { font: 'sansBold', size: 7.2, color: c.agreement >= 0.6 ? C.white : C.ink, align: 'center' });
+        } else if (c.stance) {
+          p.rect(x, gy, w, hh, { stroke: C.line2, lineWidth: 0.5, radius: 1.5 });
+          p.text(STANCE_SYM[c.stance], x + w / 2, gy + hh / 2 + 2.5, { font: 'sansBold', size: 7.2, color: C.ink3, align: 'center' });
+        } else p.text('·', x + w / 2, gy + hh / 2 + 2.5, { font: 'sans', size: 7.2, color: C.line2, align: 'center' });
+      });
+      y += h;
+      p.line(stX, y, L + W, y, { color: C.line, width: 0.4 });
     }
-    stLines.forEach((l, i) => p.text(l, L, y + 9 + i * 12, { font: 'sans', size: 8.6, color: C.ink }));
-    caps(p, d.S.you, ansX, y + 4, { size: 5.6, lang: d.lang });
-    p.text(a.answer || d.S.skipped, ansX, y + 15, { font: a.answer ? 'sansBold' : 'sans', size: 8.6, color: a.answer ? C.ink : C.ink3 });
-    y += stLines.length * 12 + 4;
-    detailLines.forEach((l, i) => p.text(l, L, y + 7 + i * 9.4, { font: 'sans', size: 7, color: C.ink2 }));
-    y += detailLines.length * 9.4 + 6;
-    p.line(L, y, L + W, y, { color: C.line, width: 0.4 });
-    y += 4;
+    // topic marker: colour bar and the topic name running up the left edge
+    p.rect(L, y0 + 1, 2.4, y - y0 - 2, { fill: t.accent });
+    p.text(fit(F.sansBold.metrics, t.short.toLocaleUpperCase(d.lang), 5.2, y - y0 - 6), L + 9.2, y - 4, { font: 'sansBold', size: 5.2, color: t.accent, angle: 90, tracking: 0.5 });
   }
   pages.forEach((pg, i) => footer(pg, d, i + 1, pages.length));
   return pages.length;

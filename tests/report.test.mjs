@@ -3,7 +3,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { encodeRestore, decodeRestore } from '../site/js/restore.js';
-import { computeInsights, layoutReport, layoutShare, parseQr, SHARE } from '../site/js/report.js';
+import { computeInsights, topicRanges, layoutReport, layoutShare, parseQr, SHARE } from '../site/js/report.js';
 import { PdfDoc, winAnsiCodes, measure, wrap } from '../site/js/pdf.js';
 import { STRINGS } from '../site/js/i18n.js';
 
@@ -59,7 +59,7 @@ function fonts() {
 }
 
 function sampleData(lang = 'es') {
-  const topics = bundle.topics.map((t) => ({ id: t.id, label: t.label[lang], short: t.label[lang].split(' ')[0], accent: '#555555', tint: '#eeeeee' }));
+  const topics = bundle.topics.map((t) => ({ id: t.id, label: t.label[lang], short: t.label[lang].split(' ')[0], accent: '#555555', tint: '#eeeeee', answered: 2, total: 2 }));
   const parties = bundle.parties.map((p, i) => ({ id: p.id, name: p.name, mono: p.name.slice(0, 3), pct: 0.4 + i / 50, withPos: 20, answeredCount: 30, limited: i > 10, topics: Object.fromEntries(topics.map((t, j) => [t.id, j === 0 ? null : j === 1 ? 'skip' : (i + j) % 5 / 4])) }));
   return {
     S: STRINGS[lang].report,
@@ -74,7 +74,8 @@ function sampleData(lang = 'es') {
     lessTopics: [],
     topics,
     parties,
-    answers: bundle.statements.map((s) => ({ topicId: s.topic, text: s.text[lang], answer: 'De acuerdo', favor: ['PP'], contra: ['PSOE'], neutral: [], none: ['SALF'] })),
+    answerRows: bundle.statements.map((s, k) => ({ topicId: s.topic, text: s.text[lang], user: k % 7 === 0 ? null : (k % 5) - 2, cells: parties.map((p, i) => ({ stance: ['agree', 'disagree', 'neutral', null][(i + k) % 4], agreement: (i + k) % 4 === 3 ? null : ((i + k) % 5) / 4 })) })),
+    topicWeights: Object.fromEntries(bundle.topics.map((t, i) => [t.id, [0.5, 1, 2][i % 3]])),
     restoreUrl: 'https://example.org/#r=1.abc',
     siteUrl: 'https://example.org/',
     siteLabel: 'example.org',
@@ -85,7 +86,7 @@ function sampleData(lang = 'es') {
 test('full report: valid multi-page PDF with embedded fonts, selectable text and the restore link', async () => {
   const doc = new PdfDoc({ fonts: fonts(), title: 'Informe' });
   const pages = layoutReport(doc, sampleData());
-  assert.ok(pages >= 3, `pages: ${pages}`);
+  assert.ok(pages >= 3 && pages <= 4, `pages: ${pages}`);
   const bytes = await doc.toBytes();
   const txt = Buffer.from(bytes).toString('latin1');
   assert.ok(txt.startsWith('%PDF-1.4'));
@@ -120,4 +121,16 @@ test('English report and summary lay out without errors', async () => {
   const s = new PdfDoc({ width: SHARE.w, height: SHARE.h, fonts: f });
   layoutShare(s.addPage(), sampleData('en'), f);
   assert.ok((await s.toBytes()).length > 1000);
+});
+
+test('topic ranges use only parties with enough data and need at least two values', () => {
+  const topics = [{ id: 'a' }, { id: 'b' }];
+  const parties = [
+    { pct: 0.6, limited: false, topics: { a: 0.9, b: 0.5 } },
+    { pct: 0.5, limited: false, topics: { a: 0.3, b: 'skip' } },
+    { pct: 0.9, limited: true, topics: { a: 1, b: 1 } },
+  ];
+  const r = topicRanges(parties, topics);
+  assert.deepEqual(r[0], { topic: 'a', min: 30, max: 90 });
+  assert.deepEqual(r[1], { topic: 'b', min: null, max: null });
 });

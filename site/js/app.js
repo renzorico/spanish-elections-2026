@@ -953,17 +953,28 @@ async function exportData() {
     for (const tr of r.topics) tops[tr.topic] = tr.answered === 0 ? 'skip' : tr.agreement;
     return { id: p.id, name: p.name, mono: MONO[p.id] || p.name.slice(0, 3), pct: r.overall, withPos: r.coverage.withPosition, answeredCount: r.coverage.answered, limited: r.limitedData, topics: tops };
   });
-  const answers = [];
+  // One row per statement: your answer and, for every party in ranking order, its position
+  // and how close it is to your answer (null when you skipped it or the party has no position).
+  const answerRows = [];
   for (const tp of d.topics) {
     for (const st of d.statements.filter((x) => x.topic === tp.id)) {
       const u = state.answers[st.id];
-      const by = { agree: [], disagree: [], neutral: [], none: [] };
-      for (const p of visible) {
-        const stance = d.positions[p.id]?.[st.id]?.stance;
-        (by[stance] || by.none).push(p.name);
-      }
-      answers.push({ topicId: tp.id, text: loc(st.text), answer: u === null || u === undefined ? null : t('answers')[u + 2], favor: by.agree, contra: by.disagree, neutral: by.neutral, none: by.none });
+      answerRows.push({
+        topicId: tp.id,
+        text: loc(st.text),
+        user: u === null || u === undefined ? null : u,
+        cells: results.map((r) => {
+          const stance = d.positions[r.party]?.[st.id]?.stance;
+          const sr = r.statements.find((x) => x.statement === st.id);
+          return { stance: ['agree', 'disagree', 'neutral'].includes(stance) ? stance : null, agreement: sr?.agreement ?? null };
+        }),
+      });
     }
+  }
+  for (const tp of topics) {
+    const rows = answerRows.filter((r) => r.topicId === tp.id);
+    tp.total = rows.length;
+    tp.answered = rows.filter((r) => r.user !== null).length;
   }
   const restore = `${SITE_URL}${state.lang === 'en' ? '?lang=en' : ''}#r=${encodeRestore({ statements: d.statements, topics: d.topics, answers: state.answers, weights: state.weights, province: state.province })}`;
   const more = d.topics.filter((tp) => state.weights[tp.id] > 1);
@@ -980,7 +991,8 @@ async function exportData() {
     lessTopics: d.topics.filter((tp) => state.weights[tp.id] < 1).map((tp) => loc(tp.label)),
     topics,
     parties,
-    answers,
+    answerRows,
+    topicWeights: { ...state.weights },
     restoreUrl: restore,
     siteUrl: SITE_URL,
     siteLabel: SITE_URL.replace(/^https:\/\//, '').replace(/\/$/, ''),

@@ -56,3 +56,6 @@ Touch audit on emulated iPhone SE (320×568), iPhone 13 and Pixel 7 / Galaxy S9+
 - Larger touch areas: header links/lang button, "show statements" toggles, example scale, sources/"spot an error" links, footer links.
 - Export code (PDF writer, fonts) now loads only when a download is requested.
 - Browser suite: new iPhone SE checks (fit for all 30 statements, reachable CTA, first result visible, no form field under 16px).
+
+## Report redesign (31 Oct 2026)
+Full report cut from 5–6 pages to 3: (1) summary with key facts, three neutral observations, ranking and the return link anchored at the foot; (2) topic map plus "how far apart the parties are" per topic; (3) all 30 statements in one grid (statements down, parties across in ranking order; symbols + − 0 for stance, shading for how close each party is to the answer). Row padding adapts so the grid fits one page even with 13 parties. Type rules: serif titles and numbers, regular sans text, bold only for tiny caps labels; no text is truncated with an ellipsis except party names in narrow columns. Title is a working choice ("Tus ideas frente a los partidos") pending the owner's pick among 6 options.
