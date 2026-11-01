@@ -143,3 +143,14 @@ The rebuilt interface adds visual elements that could carry bias. Each was decid
 | Two downloads: full report (to keep) and one-page summary (to share, PDF + PNG). | Both are created in the browser; nothing is uploaded. The summary shows the three closest parties **among those with enough data** and no answers. Automatic observations are descriptive (spread between parties, topics where parties differ most/least) and never name a "best" party. |
 | "Return to my results" link in the full report. | Answers, weights and constituency are encoded in the URL fragment (`#r=…`), which browsers do not send to servers; nothing is stored. The report and methodology warn that anyone with the link can see the answers. The summary to share never contains it (tested). |
 | New logo (Congress hemicycle, single tone). | No party colours; the mark is the chamber, not any group within it. |
+
+## Return-visit features (owner decision, 1 Nov 2026)
+
+| Feature | Neutrality / privacy reasoning |
+| --- | --- |
+| "Tu papeleta" (parties on your ballot, seats, Senate rule, practical info) | Parties listed alphabetically; only facts from official sources (candidacies, seats decree, LOREG). States that other lists may be on the ballot. |
+| Phase banners (reflection day, polling day, after) | Factual and identical for everyone; no party named. Preview with `?hoy=YYYY-MM-DD`. |
+| Compare with someone | Two people's answers compared with each other only (1 − |a−b|/4); no party involved. The link carries answers and an optional first name typed by the user; computed in the recipient's browser; warning shown before sharing. |
+| What's new + Atom feed | Curated public changelog (data/changelog.json). Reopened report links list data changes since the report date. |
+| Calendar (.ics) | Static download; no subscription, tracking or notifications from the site. |
+| "¿Votan como prometieron?" | Page built with an explicit availability notice (from January 2027, after the new Congreso convenes on 23 Dec 2026 and votes). Will use the same roll-call method as the quiz. |

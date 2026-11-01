@@ -7,7 +7,9 @@ import { REPO_URL, applyLang, fetchReference, enhanceReference } from './referen
 import { TOPIC_STYLE, TOPIC_SHORT, topicIcon, topicVars } from './topics.js';
 const SITE_URL = 'https://renzorico.github.io/spanish-elections-2026/';
 const loadReport = () => import('./report.js');
-import { encodeRestore, decodeRestore } from './restore.js';
+import { encodeRestore, decodeRestore, encodeCompare, decodeCompare } from './restore.js';
+import { madridToday, electionPhase, daysUntil } from './phase.js';
+import { peerAgreement } from './compare.js';
 
 const app = document.getElementById('app');
 // Topic weights (option B chosen by the owner): less ×0.5, same ×1, more ×2.
@@ -19,7 +21,7 @@ const state = {
   lang: initialLang(),
   data: null,
   logos: {},
-  step: 'home', // home | province | question | weights | results | party
+  step: 'home', // home | province | question | weights | results | party | ballot | compare | news | tracker
   province: '',
   statementOrder: [],
   partyOrder: [],
@@ -31,7 +33,11 @@ const state = {
   excludeLow: false,
   showAll: false,
   openWeights: new Set(), // topics whose statements are listed on the weights screen
-  notice: null, // one-off message on the results screen (restored link)
+  notice: null, // one-off message (restored link, invitation…)
+  noticeChanges: [], // changelog entries newer than a restored report
+  peer: null, // { answers, name } from a "compare with someone" link (memory only)
+  compareLink: '',
+  today: madridToday(new URLSearchParams(location.search).get('hoy')),
   editing: false,
   autoAdvance: true,
   partyId: null,
@@ -119,7 +125,22 @@ async function load() {
   for (const tp of state.data.topics) state.weights[tp.id] = DEFAULT_WEIGHT;
   const hash = location.hash;
   history.replaceState({ step: 'home' }, '', location.href.split('#')[0]);
-  if (!applyRestore(hash)) render();
+  if (!applyRestore(hash) && !applyCompare(hash)) render();
+}
+
+// "Compare with someone" link (#c=…): the other person's answers travel in the fragment.
+function applyCompare(hash) {
+  if (!hash.startsWith('#c=')) return false;
+  const r = decodeCompare(hash.slice(3), state.data);
+  state.ref = null;
+  if (!r) {
+    go('home', { notice: 'restoreInvalid' });
+    return true;
+  }
+  state.peer = r;
+  if (hasAnswers()) go('compare');
+  else go('home', { notice: 'peer' });
+  return true;
 }
 
 // "Return to my results" link from the full report: the data lives only in the URL
@@ -129,6 +150,9 @@ function applyRestore(hash) {
   const r = decodeRestore(hash.slice(3), state.data);
   if (r) {
     Object.assign(state, { answers: r.answers, weights: r.weights, province: r.province, ref: null, editing: false });
+    // Tell the person what changed in the data since their report was made.
+    state.noticeChanges = r.stamp ? (state.data.changelog || []).filter((c) => c.type === 'data' && c.date > r.stamp) : [];
+    state.restoredStamp = r.stamp;
     go('results', { notice: 'restored' });
   } else {
     state.ref = null;
@@ -137,7 +161,9 @@ function applyRestore(hash) {
   return true;
 }
 window.addEventListener('hashchange', () => {
-  if (state.data && location.hash.startsWith('#r=')) applyRestore(location.hash);
+  if (!state.data) return;
+  if (location.hash.startsWith('#r=')) applyRestore(location.hash);
+  else if (location.hash.startsWith('#c=')) applyCompare(location.hash);
 });
 
 function topicOrderFromStatements() {
@@ -186,8 +212,7 @@ window.addEventListener('popstate', (e) => {
 // ---------- views
 function viewHome() {
   const e = state.data.election;
-  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid' }).format(new Date());
-  const days = Math.round((Date.parse(e.date) - Date.parse(today)) / 86400000);
+  const days = daysUntil(state.today, e.date);
   const count = days > 0 ? `<b>${days}</b><span>${esc(t('daysTo')(days))}</span>` : days === 0 ? `<span>${esc(t('electionToday'))}</span>` : `<span>${esc(t('electionPast'))}</span>`;
   const nStatements = state.data.statements.length;
   const tiles = state.data.topics
@@ -198,9 +223,15 @@ function viewHome() {
     .join('');
   const sample = statementById('viv-limite-alquiler') || state.data.statements[0];
   const labels = t('answers');
-  const notice = state.notice === 'restoreInvalid' ? `<p class="note" role="status">${esc(t('restoreInvalid'))}</p>` : '';
+  const notice =
+    state.notice === 'restoreInvalid'
+      ? `<p class="note" role="status">${esc(t('restoreInvalid'))}</p>`
+      : state.notice === 'peer' && state.peer
+        ? `<div class="invite" role="status"><p><b>${esc(t('compareInvite')(state.peer.name))}</b></p><p>${esc(t('compareInviteHint'))}</p><button class="btn btn-primary" data-act="start">${esc(t('start'))} ${ICON.arrowR}</button></div>`
+        : '';
   return `
   <div class="wrap-wide">
+    ${phaseBanner()}
     ${notice}
     <section class="hero">
       <div class="hero-copy">
@@ -234,6 +265,176 @@ function viewHome() {
       <ol class="how">${t('how').map(([h, p]) => `<li><h3>${esc(h)}</h3><p>${esc(p)}</p></li>`).join('')}</ol>
       <p class="home-links"><a class="btn btn-quiet" href="eleccion.html">${esc(t('electionLink'))} ${ICON.arrowR}</a></p>
     </section>
+    ${viewHub()}
+  </div>`;
+}
+
+// ---------- return-visit features
+const calHref = () => `29n-${state.lang}.ics`;
+const fmtDate = (iso, opts = { day: 'numeric', month: 'long', year: 'numeric' }) =>
+  new Intl.DateTimeFormat(state.lang === 'es' ? 'es-ES' : 'en-GB', { timeZone: 'UTC', ...opts }).format(new Date(`${iso}T12:00:00Z`));
+const INFOELECTORAL = 'https://www.infoelectoral.interior.gob.es/';
+
+/** One-line banner that changes with the election phase (reflection day, polling day, after). */
+function phaseBanner() {
+  const ph = electionPhase(state.today, state.data.election);
+  if (ph === 'reflection') return `<p class="phase-banner">${esc(t('phaseReflection'))} <button class="btn-link" data-act="ballot">${esc(t('phaseBallotLink'))} →</button></p>`;
+  if (ph === 'election') return `<p class="phase-banner strong">${esc(t('phaseElection'))} <button class="btn-link" data-act="ballot">${esc(t('phaseBallotLink'))} →</button></p>`;
+  if (ph === 'post') return `<p class="phase-banner">${esc(t('phasePost'))} <a href="${INFOELECTORAL}" rel="noopener">${esc(t('phaseResultsLink'))} ↗</a></p>`;
+  if (ph === 'legislature') return `<p class="phase-banner">${esc(t('phaseLegislature'))} <button class="btn-link" data-act="tracker">${esc(t('hubTrackT'))} →</button></p>`;
+  return '';
+}
+
+function hubCard({ chip, soon, title, text, action }) {
+  return `<li class="hub-card${soon ? ' soon' : ''}"><span class="hub-chip">${esc(chip)}</span><h3>${esc(title)}</h3><p>${esc(text)}</p>${action}</li>`;
+}
+
+function viewHub() {
+  const last = (state.data.changelog || [])[0]?.date || state.data.generated_on;
+  const trackerOpen = Boolean(state.data.tracker);
+  return `
+  <section class="hub" aria-labelledby="hub-h">
+    <h2 class="h2" id="hub-h">${esc(t('hubTitle'))}</h2>
+    <ul class="hub-grid">
+      ${hubCard({ chip: t('chipNow'), title: t('hubBallotT'), text: t('hubBallotD'), action: `<button class="btn btn-quiet" data-act="ballot">${esc(t('hubBallotBtn'))} ${ICON.arrowR}</button>` })}
+      ${hubCard({ chip: hasAnswers() ? t('chipNow') : t('chipAfterTest'), title: t('hubCompareT'), text: t('hubCompareD'), action: `<button class="btn btn-quiet" data-act="compare">${esc(t('hubCompareBtn'))} ${ICON.arrowR}</button>` })}
+      ${hubCard({ chip: t('chipNow'), title: t('hubCalT'), text: t('hubCalD'), action: `<a class="btn btn-quiet" href="${calHref()}" download>${ICON.download} ${esc(t('hubCalBtn'))}</a>` })}
+      ${hubCard({ chip: t('chipNow'), title: t('hubNewsT'), text: t('hubNewsD')(fmtDate(last)), action: `<button class="btn btn-quiet" data-act="news">${esc(t('hubNewsBtn'))} ${ICON.arrowR}</button>` })}
+      ${hubCard({ chip: trackerOpen ? t('chipNow') : t('chipSoon'), soon: !trackerOpen, title: t('hubTrackT'), text: trackerOpen ? t('hubTrackD') : `${t('hubTrackD')} ${t('hubTrackSoon')}.`, action: `<button class="btn btn-quiet" data-act="tracker">${esc(t('hubTrackBtn'))} ${ICON.arrowR}</button>` })}
+    </ul>
+  </section>`;
+}
+
+function provinceOptions(selected) {
+  return [...state.data.provinces]
+    .sort((a, b) => a.name.localeCompare(b.name, 'es'))
+    .map((p) => `<option value="${esc(p.id)}" ${selected === p.id ? 'selected' : ''}>${esc(p.name)}</option>`)
+    .join('');
+}
+
+function senateRule(provId) {
+  if (provId === 'balears' || provId === 'las-palmas' || provId === 'santa-cruz-de-tenerife') return t('senateIslands');
+  if (provId === 'ceuta' || provId === 'melilla') return t('senateCeutaMelilla');
+  return t('senate3');
+}
+
+function viewBallot() {
+  const d = state.data;
+  const prov = d.provinces.find((p) => p.id === state.province);
+  const here = prov ? partiesInProvince(prov.id) : null;
+  const c = candidacies();
+  const names = prov && here ? d.parties.filter((p) => here.has(p.id)).sort((a, b) => a.name.localeCompare(b.name, 'es')) : [];
+  const chips = names
+    .map((p) => {
+      const listName = c?.list_names?.[prov.id]?.[p.id];
+      return `<li><b>${esc(p.name)}</b>${listName && listName !== p.name ? `<small>${esc(listName)}</small>` : ''}</li>`;
+    })
+    .join('');
+  const body = !prov
+    ? `<p class="muted">${esc(t('ballotNone'))}</p>`
+    : `
+      <div class="ballot-grid">
+        <section class="bcard"><h2 class="h3">${esc(t('ballotCongress'))}</h2>
+          <p>${esc(t('ballotCongressText')(prov.seats_congreso_2026))}</p>
+          <div class="seat-dots" role="img" aria-label="${prov.seats_congreso_2026}">${'<i></i>'.repeat(prov.seats_congreso_2026)}</div>
+          <h3 class="bsub">${esc(t('ballotParties'))}</h3>
+          <ul class="bparties">${chips}</ul>
+          <p class="tiny">${esc(t('ballotMore'))} ${esc(t('candidacyNote')(c?.status))}</p>
+        </section>
+        <section class="bcard"><h2 class="h3">${esc(t('ballotSenate'))}</h2><p>${esc(senateRule(prov.id))}</p></section>
+        <section class="bcard"><h2 class="h3">${esc(t('ballotDay'))}</h2>
+          <ul class="bday"><li>${esc(t('ballotHours'))}</li><li>${esc(t('ballotId'))}</li><li>${esc(t('ballotWhere'))}</li></ul>
+          <p class="row"><a class="btn btn-quiet" href="${calHref()}" download>${ICON.download} ${esc(t('hubCalBtn'))}</a>
+          <a class="btn btn-text" href="https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo" rel="noopener">${esc(t('ballotPost'))} ↗</a></p>
+        </section>
+      </div>
+      <p class="row" style="margin-top:1.2rem"><button class="btn btn-primary" data-act="start-from-ballot">${esc(t('ballotQuiz'))} ${ICON.arrowR}</button><a class="btn btn-quiet" href="eleccion.html">${esc(t('ballotHow'))}</a></p>`;
+  return `
+  <div class="wrap step-screen">
+    ${phaseBanner()}
+    <p style="margin:0 0 .8rem"><button class="btn btn-quiet" data-act="home">${ICON.arrowL} ${esc(t('back'))}</button></p>
+    <h1 class="h2" data-focus>${esc(t('ballotTitle'))}</h1>
+    <p class="muted">${esc(t('ballotLead'))}</p>
+    <label class="vh" for="ballot-prov">${esc(t('ballotPick'))}</label>
+    <select id="ballot-prov" class="select" data-control="ballot-prov"><option value="">${esc(t('ballotPick'))}</option>${provinceOptions(state.province)}</select>
+    <div class="ballot-body">${body}</div>
+  </div>`;
+}
+
+function answerLabel(v) {
+  return v === null || v === undefined ? t('skipped') : t('answers')[v + 2];
+}
+
+function viewCompare() {
+  const d = state.data;
+  const head = `<p style="margin:0 0 .8rem"><button class="btn btn-quiet" data-act="${hasAnswers() ? 'results' : 'home'}">${ICON.arrowL} ${esc(t('back'))}</button></p><h1 class="h2" data-focus>${esc(state.peer ? t('compareWith')(state.peer.name) : t('compareTitle'))}</h1>`;
+  if (!hasAnswers()) {
+    return `<div class="wrap step-screen">${head}<p class="muted">${esc(state.peer ? t('compareInviteHint') : t('compareLead'))}</p><p class="muted">${esc(t('compareNeedTest'))}</p><button class="btn btn-primary btn-big" data-act="start">${esc(t('start'))} ${ICON.arrowR}</button></div>`;
+  }
+  const maker = `
+    <section class="cmp-make" aria-labelledby="cmp-make-h">
+      <h2 class="h3" id="cmp-make-h">${esc(state.peer ? t('compareSendBack') : t('compareMake'))}</h2>
+      <label class="cmp-label" for="peer-name">${esc(t('compareName'))}</label>
+      <input id="peer-name" class="input" type="text" maxlength="24" autocomplete="given-name" aria-describedby="peer-name-help">
+      <p class="tiny" id="peer-name-help">${esc(t('compareNameHelp'))} ${esc(t('compareWarn'))}</p>
+      <div class="row"><button class="btn btn-primary" data-act="compare-share">${ICON.share} ${esc(t('compareShare'))}</button><button class="btn btn-quiet" data-act="compare-copy">${esc(t('compareCopy'))}</button></div>
+      <p class="tiny" id="cmp-status" aria-live="polite"></p>
+    </section>`;
+  if (!state.peer) return `<div class="wrap step-screen">${head}<p class="muted">${esc(t('compareLead'))}</p>${maker}</div>`;
+  const r = peerAgreement(d.statements, d.topics, state.answers, state.peer.answers);
+  const them = t('compareThem')(state.peer.name);
+  if (!r.n) return `<div class="wrap step-screen">${head}<p>${esc(t('compareNone'))}</p>${maker}</div>`;
+  const pctN = Math.round(r.overall * 100);
+  const sorted = [...r.items].sort((a, b) => b.agreement - a.agreement);
+  const item = (x) => `<li style="${topicVars(x.topic)}"><p>${esc(loc(statementById(x.statement).text))}</p><div class="cmp-ans"><span><small>${esc(t('you'))}</small>${esc(answerLabel(x.a))}</span><span><small>${esc(them)}</small>${esc(answerLabel(x.b))}</span></div></li>`;
+  const topicRows = r.topics
+    .filter((x) => x.n)
+    .map((x) => `<li style="${topicVars(x.topic)}"><span class="tname">${topicIcon(x.topic)} ${esc(loc(topicById(x.topic).label))}</span><span class="track"><span style="width:${x.agreement * 100}%"></span></span><span class="val">${pct(x.agreement)}</span></li>`)
+    .join('');
+  return `
+  <div class="wrap step-screen">
+    ${head}
+    <p class="cmp-big"><b>${pctN}%</b><span>${esc(t('compareOverall')(pctN, r.n))}</span></p>
+    <h2 class="h3" style="margin-top:2rem">${esc(t('compareByTopic'))}</h2>
+    <ul class="cmp-topics">${topicRows}</ul>
+    <div class="cmp-cols">
+      <section><h2 class="h3">${esc(t('compareMost'))}</h2><ul class="cmp-items">${sorted.slice(0, 4).map(item).join('')}</ul></section>
+      <section><h2 class="h3">${esc(t('compareLeast'))}</h2><ul class="cmp-items">${sorted.slice(-4).reverse().map(item).join('')}</ul></section>
+    </div>
+    ${maker}
+  </div>`;
+}
+
+function viewNews() {
+  const items = (state.data.changelog || [])
+    .map((c) => `<li><time>${esc(fmtDate(c.date))}</time><span class="news-type">${esc(t('newsTypes')[c.type] || c.type)}</span><p>${esc(loc(c))}</p></li>`)
+    .join('');
+  return `
+  <div class="wrap step-screen">
+    <p style="margin:0 0 .8rem"><button class="btn btn-quiet" data-act="home">${ICON.arrowL} ${esc(t('back'))}</button></p>
+    <h1 class="h2" data-focus>${esc(t('newsTitle'))}</h1>
+    <p class="muted">${esc(t('newsLead'))}</p>
+    <ol class="news">${items}</ol>
+    <p class="row"><a class="btn btn-quiet" href="feed.xml">${esc(t('newsFeed'))}</a><a class="btn btn-quiet" href="${calHref()}" download>${ICON.download} ${esc(t('hubCalBtn'))}</a></p>
+  </div>`;
+}
+
+function viewTracker() {
+  const e = state.data.election;
+  return `
+  <div class="wrap step-screen">
+    <p style="margin:0 0 .8rem"><button class="btn btn-quiet" data-act="home">${ICON.arrowL} ${esc(t('back'))}</button></p>
+    <h1 class="h2" data-focus>${esc(t('trackTitle'))}</h1>
+    <div class="soon-box" role="status">
+      <span class="hub-chip">${esc(t('chipSoon'))}</span>
+      <h2 class="h3">${esc(t('trackSoonTitle'))}</h2>
+      <p>${esc(t('trackSoonText'))}</p>
+      <p class="tiny">${esc(fmtDate(e.chambers_convene))}</p>
+    </div>
+    <h2 class="h3" style="margin-top:1.8rem">${esc(t('trackWhat'))}</h2>
+    <ul class="checks">${t('trackBullets').map((b) => `<li>${esc(b)}</li>`).join('')}</ul>
+    <p class="muted small">${esc(t('trackMethod'))}</p>
+    <p class="row"><a class="btn btn-quiet" href="${calHref()}" download>${ICON.download} ${esc(t('trackCal'))}</a></p>
   </div>`;
 }
 
@@ -460,10 +661,15 @@ function viewResults() {
   const note = inProv
     ? `<p class="note">${esc(t('candidacyNote')(candidacies().status))}${loc(candidacies().notes?.[state.province]) ? ` ${esc(loc(candidacies().notes[state.province]))}` : ''}</p>`
     : '';
-  const notice = state.notice === 'restored' ? `<p class="note" role="status">${esc(t('restored'))}</p>` : '';
+  const changes = state.notice === 'restored' && state.noticeChanges.length
+    ? `<p>${esc(t('restoredChanges')(fmtDate(state.restoredStamp)))}</p><ul>${state.noticeChanges.map((c) => `<li>${esc(fmtDate(c.date))}: ${esc(loc(c))}</li>`).join('')}</ul>`
+    : '';
+  const notice = state.notice === 'restored' ? `<div class="note" role="status"><p>${esc(t('restored'))}</p>${changes}</div>` : '';
+  const peerCard = state.peer ? `<div class="invite"><p><b>${esc(t('compareCard')(state.peer.name))}</b></p><button class="btn btn-primary" data-act="compare">${esc(t('compareCardBtn'))} ${ICON.arrowR}</button></div>` : '';
   return `
   <div class="wrap-wide">
     ${notice}
+    ${peerCard}
     <section class="res-head">
       <h1 class="h2" data-focus>${esc(t('resultsTitle'))}</h1>
       <p class="muted" style="margin:0">${esc(t('resultsLead'))}</p>
@@ -494,6 +700,16 @@ function viewResults() {
             <button class="btn btn-primary" data-act="pdf-share">${ICON.download} ${esc(t('exportShareBtn'))}</button>
             <button class="btn btn-quiet" data-act="png-share">${ICON.share} ${esc(t('exportImageBtn'))}</button>
           </div>
+        </div>
+        <div class="exp-card">
+          <h3>${esc(t('compareExportT'))}</h3>
+          <p>${esc(t('compareExportD'))}</p>
+          <button class="btn btn-primary" data-act="compare">${esc(t('hubCompareBtn'))} ${ICON.arrowR}</button>
+        </div>
+        <div class="exp-card">
+          <h3>${esc(t('hubCalT'))}</h3>
+          <p>${esc(t('hubCalD'))}</p>
+          <a class="btn btn-quiet" href="${calHref()}" download>${ICON.download} ${esc(t('hubCalBtn'))}</a>
         </div>
       </div>
       <p class="tiny" id="share-status" aria-live="polite"></p>
@@ -725,7 +941,7 @@ function render() {
     renderReference();
     return;
   }
-  const views = { home: viewHome, province: viewProvince, question: viewQuestion, weights: viewWeights, results: viewResults, party: viewParty };
+  const views = { home: viewHome, province: viewProvince, question: viewQuestion, weights: viewWeights, results: viewResults, party: viewParty, ballot: viewBallot, compare: viewCompare, news: viewNews, tracker: viewTracker };
   app.innerHTML = (views[state.step] || viewHome)();
   if (state.step === 'question') measureStatements();
 }
@@ -827,6 +1043,28 @@ app.addEventListener('click', async (e) => {
   if (!btn) return;
   const act = btn.dataset.act;
   if (act === 'start') go('province');
+  else if (act === 'ballot' || act === 'news' || act === 'tracker' || act === 'compare') go(act);
+  else if (act === 'start-from-ballot') go('question', { idx: 0 });
+  else if (act === 'compare-share' || act === 'compare-copy') {
+    const name = app.querySelector('#peer-name')?.value || '';
+    const url = `${SITE_URL}${state.lang === 'en' ? '?lang=en' : ''}#c=${encodeCompare({ statements: state.data.statements, topics: state.data.topics, answers: state.answers, weights: state.weights }, name)}`;
+    const status = app.querySelector('#cmp-status');
+    if (act === 'compare-share' && navigator.share) {
+      try {
+        await navigator.share({ text: t('compareShareText'), url });
+        return;
+      } catch (err) {
+        if (err?.name === 'AbortError') return;
+      }
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      if (status) status.textContent = t('compareCopied');
+    } catch {
+      if (status) status.innerHTML = `<input class="input" readonly value="${esc(url)}" aria-label="${esc(t('compareCopy'))}">`;
+      status?.querySelector('input')?.select();
+    }
+  }
   else if (act === 'home') go('home');
   else if (act === 'province-next') {
     state.province = app.querySelector('#prov').value;
@@ -872,7 +1110,7 @@ app.addEventListener('click', async (e) => {
     }
   } else if (act === 'restart') {
     if (hasAnswers() && !confirm(t('confirmRestart'))) return;
-    Object.assign(state, { answers: {}, idx: 0, province: '', editing: false, excludeLow: false, showAll: false, partyId: null, notice: null });
+    Object.assign(state, { answers: {}, idx: 0, province: '', editing: false, excludeLow: false, showAll: false, partyId: null, notice: null, peer: null });
     state.openWeights.clear();
     state.statementOrder = shuffle(state.statementOrder, cryptoRandom);
     state.partyOrder = shuffle(state.partyOrder, cryptoRandom);
@@ -891,6 +1129,10 @@ app.addEventListener('change', (e) => {
     state.province = el.value;
     const here = partiesInProvince();
     app.querySelector('#prov-count').textContent = here ? t('partiesHere')(here.size, state.data.parties.length) : '';
+  } else if (el.dataset.control === 'ballot-prov') {
+    state.province = el.value;
+    render();
+    app.querySelector('#ballot-prov')?.focus();
   } else if (el.dataset.control === 'province') {
     state.province = el.value;
     state.showAll = false;
@@ -976,7 +1218,7 @@ async function exportData() {
     tp.total = rows.length;
     tp.answered = rows.filter((r) => r.user !== null).length;
   }
-  const restore = `${SITE_URL}${state.lang === 'en' ? '?lang=en' : ''}#r=${encodeRestore({ statements: d.statements, topics: d.topics, answers: state.answers, weights: state.weights, province: state.province })}`;
+  const restore = `${SITE_URL}${state.lang === 'en' ? '?lang=en' : ''}#r=${encodeRestore({ statements: d.statements, topics: d.topics, answers: state.answers, weights: state.weights, province: state.province, stamp: d.generated_on })}`;
   const more = d.topics.filter((tp) => state.weights[tp.id] > 1);
   return {
     S,

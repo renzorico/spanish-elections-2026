@@ -59,3 +59,12 @@ Touch audit on emulated iPhone SE (320×568), iPhone 13 and Pixel 7 / Galaxy S9+
 
 ## Report redesign (31 Oct 2026)
 Full report cut from 5–6 pages to 3: (1) summary with key facts, three neutral observations, ranking and the return link anchored at the foot; (2) topic map plus "how far apart the parties are" per topic; (3) all 30 statements in one grid (statements down, parties across in ranking order; symbols + − 0 for stance, shading for how close each party is to the answer). Row padding adapts so the grid fits one page even with 13 parties. Type rules: serif titles and numbers, regular sans text, bold only for tiny caps labels; no text is truncated with an ellipsis except party names in narrow columns. Title chosen by the owner: "Dónde coinciden tus ideas" / "Where your views meet".
+
+## Return-visit bundle (1 Nov 2026)
+- Home "Más para el 29N" hub with five tools; phase-aware banner (reflection day, polling day, after the election, new legislature). `?hoy=YYYY-MM-DD` previews any date.
+- "Tu papeleta": parties running in your province, seats, Senate rule (islands, Ceuta/Melilla), polling hours, ID, postal voting, calendar.
+- "Compara con alguien": `#c=` link with answers + optional name; invitation on open; comparison by topic and the statements where two people agree/differ most.
+- "Qué hay de nuevo": data/changelog.json → bundle + site/feed.xml (Atom). Report links now carry the data date; reopened links list data changes since then.
+- Calendar: site/29n-es.ics and 29n-en.ics (campaign, reflection day, polling day with reminder, Parliament convenes), generated in the build (scripts/publish.mjs).
+- "¿Votan como prometieron?": page live with a "available from January 2027" notice; to build once the new Congreso votes (reuse scripts/fetch_votes.mjs for the XVI legislature).
+- Maintenance: add an entry to data/changelog.json whenever data changes (the 4 Nov scheduled task does this).

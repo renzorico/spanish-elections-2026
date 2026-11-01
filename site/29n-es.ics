@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//29N//Elecciones generales 2026//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elecciones generales 29N
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:29n-2026-campaign-es@renzorico.github.io
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261128
+SUMMARY:Campaña electoral (elecciones generales)
+DESCRIPTION:Del 13 al 27 de noviembre. ¿Con qué partidos coincides? Haz e
+ l test: https://renzorico.github.io/spanish-elections-2026/
+URL:https://renzorico.github.io/spanish-elections-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:29n-2026-reflection-es@renzorico.github.io
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Jornada de reflexión
+DESCRIPTION:No se puede hacer campaña. Repasa cómo se vota y qué hay en 
+ tu papeleta: https://renzorico.github.io/spanish-elections-2026/
+URL:https://renzorico.github.io/spanish-elections-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:29n-2026-election-es@renzorico.github.io
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Elecciones generales: hoy se vota
+DESCRIPTION:Colegios abiertos de 9:00 a 20:00. Lleva DNI\, pasaporte o carn
+ é de conducir. Tu papeleta y cómo se vota: https://renzorico.github.io/s
+ panish-elections-2026/
+URL:https://renzorico.github.io/spanish-elections-2026/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Elecciones generales: hoy se vota
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:29n-2026-convene-es@renzorico.github.io
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Se constituyen el nuevo Congreso y el nuevo Senado
+DESCRIPTION:Después empieza la investidura del presidente. Cómo funciona:
+  https://renzorico.github.io/spanish-elections-2026/eleccion.html
+URL:https://renzorico.github.io/spanish-elections-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
