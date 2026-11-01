@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <title>29N · Novedades</title>
+  <subtitle>Cambios en los datos y en la herramienta independiente para las elecciones generales del 29 de noviembre de 2026.</subtitle>
+  <id>https://renzorico.github.io/spanish-elections-2026/</id>
+  <link href="https://renzorico.github.io/spanish-elections-2026/"/>
+  <link rel="self" href="https://renzorico.github.io/spanish-elections-2026/feed.xml"/>
+  <updated>2026-11-01T00:00:00Z</updated>
+  <author><name>29N</name></author>
+  <entry>
+    <id>https://renzorico.github.io/spanish-elections-2026/#novedad-2026-11-01-3</id>
+    <title>Nuevas herramientas: «Tu papeleta», comparar respuestas con otra persona, calendario para el móvil y esta lista de novedades.</title>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <link href="https://renzorico.github.io/spanish-elections-2026/"/>
+    <category term="site"/>
+    <content type="text">Nuevas herramientas: «Tu papeleta», comparar respuestas con otra persona, calendario para el móvil y esta lista de novedades.
+
+New tools: &quot;Your ballot&quot;, compare answers with someone else, a phone calendar and this list of updates.</content>
+  </entry>
+  <entry>
+    <id>https://renzorico.github.io/spanish-elections-2026/#novedad-2026-10-31-2</id>
+    <title>Partidos por provincia según las candidaturas presentadas (BOE del 28 de octubre de 2026). Se actualizarán con la proclamación oficial.</title>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <link href="https://renzorico.github.io/spanish-elections-2026/"/>
+    <category term="data"/>
+    <content type="text">Partidos por provincia según las candidaturas presentadas (BOE del 28 de octubre de 2026). Se actualizarán con la proclamación oficial.
+
+Parties per province based on the candidacies submitted (BOE, 28 October 2026). They will be updated with the official proclamation.</content>
+  </entry>
+  <entry>
+    <id>https://renzorico.github.io/spanish-elections-2026/#novedad-2026-10-31-1</id>
+    <title>Primera versión: 13 partidos, 30 afirmaciones y cada posición con su fuente.</title>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <link href="https://renzorico.github.io/spanish-elections-2026/"/>
+    <category term="site"/>
+    <content type="text">Primera versión: 13 partidos, 30 afirmaciones y cada posición con su fuente.
+
+First version: 13 parties, 30 statements and every position with its source.</content>
+  </entry>
+</feed>

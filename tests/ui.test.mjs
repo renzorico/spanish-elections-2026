@@ -30,7 +30,7 @@ test('UI never labels a party as recommended or best', () => {
 });
 
 test('frontend makes no third-party requests and uses no storage', () => {
-  const src = ['site/index.html', 'site/eleccion.html', 'site/metodologia.html', 'site/js/app.js', 'site/js/page.js', 'site/js/reference.js', 'site/js/match.js', 'site/js/report.js', 'site/js/pdf.js', 'site/js/brand.js', 'site/js/restore.js', 'site/js/topics.js', 'site/css/style.css']
+  const src = ['site/index.html', 'site/eleccion.html', 'site/metodologia.html', 'site/js/app.js', 'site/js/page.js', 'site/js/reference.js', 'site/js/match.js', 'site/js/report.js', 'site/js/pdf.js', 'site/js/brand.js', 'site/js/restore.js', 'site/js/phase.js', 'site/js/compare.js', 'site/js/topics.js', 'site/css/style.css']
     .map((f) => readFileSync(f, 'utf8'))
     .join('\n');
   assert.ok(!/localStorage|sessionStorage|indexedDB|document\.cookie/.test(src), 'storage API used');

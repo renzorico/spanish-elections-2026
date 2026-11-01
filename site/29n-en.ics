@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//29N//Elecciones generales 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Spanish election 29N
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:29n-2026-campaign-en@renzorico.github.io
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261128
+SUMMARY:Election campaign (Spanish general election)
+DESCRIPTION:13 to 27 November. Which parties do you agree with? Take the qu
+ iz: https://renzorico.github.io/spanish-elections-2026/?lang=en
+URL:https://renzorico.github.io/spanish-elections-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:29n-2026-reflection-en@renzorico.github.io
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Day of reflection (Spain)
+DESCRIPTION:No campaigning allowed. Check how voting works and what is on y
+ our ballot: https://renzorico.github.io/spanish-elections-2026/?lang=en
+URL:https://renzorico.github.io/spanish-elections-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:29n-2026-election-en@renzorico.github.io
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Spanish general election: polling day
+DESCRIPTION:Polling stations open 9:00 to 20:00. Bring your DNI\, passport 
+ or driving licence. Your ballot and how to vote: https://renzorico.github.
+ io/spanish-elections-2026/?lang=en
+URL:https://renzorico.github.io/spanish-elections-2026/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Spanish general election: polling day
+TRIGGER:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:29n-2026-convene-en@renzorico.github.io
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:New Congreso and Senate convene
+DESCRIPTION:The investiture of the Prime Minister follows. How it works: ht
+ tps://renzorico.github.io/spanish-elections-2026/eleccion.html?lang=en
+URL:https://renzorico.github.io/spanish-elections-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

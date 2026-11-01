@@ -1,0 +1,23 @@
+{
+  "note": "Public 'What's new' log. Newest first. type: data (positions, candidacies, programs) | site (features). Shown on the site and in site/feed.xml.",
+  "entries": [
+    {
+      "date": "2026-11-01",
+      "type": "site",
+      "es": "Nuevas herramientas: «Tu papeleta», comparar respuestas con otra persona, calendario para el móvil y esta lista de novedades.",
+      "en": "New tools: \"Your ballot\", compare answers with someone else, a phone calendar and this list of updates."
+    },
+    {
+      "date": "2026-10-31",
+      "type": "data",
+      "es": "Partidos por provincia según las candidaturas presentadas (BOE del 28 de octubre de 2026). Se actualizarán con la proclamación oficial.",
+      "en": "Parties per province based on the candidacies submitted (BOE, 28 October 2026). They will be updated with the official proclamation."
+    },
+    {
+      "date": "2026-10-31",
+      "type": "site",
+      "es": "Primera versión: 13 partidos, 30 afirmaciones y cada posición con su fuente.",
+      "en": "First version: 13 parties, 30 statements and every position with its source."
+    }
+  ]
+}

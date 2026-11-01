@@ -1,7 +1,8 @@
 // Builds site/data/bundle.json — the only file the static site loads.
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { ROOT, loadAll } from './lib.mjs';
+import { ROOT, loadAll, readJSON } from './lib.mjs';
+import { buildIcs, buildFeed } from './publish.mjs';
 
 const d = loadAll();
 const missing = d.curated.filter((v) => !d.derived.votes?.[v.id]);
@@ -73,8 +74,12 @@ const bundle = {
   provinces: d.provincesDoc.provinces || [],
   provinces_source: d.provincesDoc.source || null,
   candidacies: d.candidacies,
+  changelog: (readJSON(join(ROOT, 'data', 'changelog.json'), { entries: [] }).entries || []).sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0)),
 };
 
 mkdirSync(join(ROOT, 'site', 'data'), { recursive: true });
 writeFileSync(join(ROOT, 'site', 'data', 'bundle.json'), JSON.stringify(bundle));
+// Calendar files (Spanish / English) and the Atom feed of updates.
+for (const lang of ['es', 'en']) writeFileSync(join(ROOT, 'site', `29n-${lang}.ics`), buildIcs(election, lang, bundle.generated_on));
+writeFileSync(join(ROOT, 'site', 'feed.xml'), buildFeed(bundle.changelog));
 console.log(`bundle.json: ${d.parties.length} parties, ${d.statements.length} statements, ${Object.keys(votes).length} votes, ${bundle.provinces.length} provinces`);

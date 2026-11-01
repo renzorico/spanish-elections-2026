@@ -224,6 +224,47 @@ const ok = (c, m) => {
   }
   await p.click('[data-act=results]');
   ok((await p.locator('.panel', { hasText: /ninguna afirmación/ }).count()) === 1, 'all skipped: explanatory empty state, no invented scores');
+  // Return-visit features: hub, ballot, news, tracker notice, phases, compare link
+  const h = await ctx.newPage();
+  await h.goto(BASE);
+  await h.waitForSelector('.hub');
+  ok((await h.locator('.hub-card').count()) === 5, 'home shows the five extra tools');
+  await h.click('.hub [data-act=ballot]');
+  await h.selectOption('#ballot-prov', 'madrid');
+  ok((await h.locator('.bparties li').count()) > 0 && /38/.test(await h.locator('.bcard').first().textContent()), 'ballot screen lists the parties and seats for the province');
+  await h.goto(BASE);
+  await h.click('.hub [data-act=tracker]');
+  ok(/enero de 2027/.test(await h.locator('.soon-box').textContent()), 'vote tracker says when it will be available');
+  await h.goto(BASE);
+  await h.click('.hub [data-act=news]');
+  ok((await h.locator('.news li').count()) >= 1, 'what\'s new lists the changelog');
+  ok((await (await h.request.get(BASE + '29n-es.ics')).text()).includes('BEGIN:VCALENDAR'), 'calendar file is served');
+  await h.goto(BASE + '?hoy=2026-11-29');
+  ok(/9:00 a 20:00/.test(await h.locator('.phase-banner').textContent()), 'polling-day banner on 29 November');
+  await h.goto(BASE + '?hoy=2026-11-05');
+  ok((await h.locator('.phase-banner').count()) === 0, 'no banner before the campaign');
+  const peerAnswers = await h.evaluate(async () => {
+    const r = await import('./js/restore.js');
+    const b = await (await fetch('data/bundle.json')).json();
+    const a = Object.fromEntries(b.statements.map((s) => [s.id, 2]));
+    return r.encodeCompare({ statements: b.statements, topics: b.topics, answers: a, weights: {} }, 'Ana');
+  });
+  await h.goto(BASE + '#c=' + peerAnswers);
+  await h.waitForSelector('.invite');
+  ok(/Ana quiere comparar/.test(await h.locator('.invite').textContent()), 'compare link shows the invitation');
+  await h.locator('.invite [data-act=start]').click();
+  await h.click('[data-act=province-next]');
+  for (let i = 0; i < 40; i++) {
+    if (await h.locator('.wrows').count()) break;
+    await h.click('.stop[data-v="2"]');
+    await h.waitForTimeout(320);
+  }
+  await h.click('[data-act=results]');
+  await h.locator('.invite [data-act=compare]').click();
+  await h.waitForSelector('.cmp-big');
+  ok(/100%/.test(await h.locator('.cmp-big').textContent()), 'comparison: identical answers agree 100%');
+  await h.close();
+
   // Small phone (iPhone SE, 320×568, touch): no scrolling needed to answer and move on
   const { devices } = require('playwright');
   const se = await b.newContext({ ...devices['iPhone SE'] });
