@@ -2,6 +2,12 @@
   "note": "Public 'What's new' log. Newest first. type: data (positions, candidacies, programs) | site (features). Shown on the site and in site/feed.xml.",
   "entries": [
     {
+      "date": "2026-11-03",
+      "type": "site",
+      "es": "Nueva dirección: compara29n.vercel.app. La dirección anterior redirige a la nueva. Contamos las visitas sin cookies y sin datos personales; tus respuestas nunca se envían.",
+      "en": "New address: compara29n.vercel.app. The previous address redirects to it. We count visits without cookies and without personal data; your answers are never sent."
+    },
+    {
       "date": "2026-11-01",
       "type": "site",
       "es": "Nuevas herramientas: «Tu papeleta», comparar respuestas con otra persona, calendario para el móvil y esta lista de novedades.",

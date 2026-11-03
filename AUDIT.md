@@ -154,3 +154,12 @@ The rebuilt interface adds visual elements that could carry bias. Each was decid
 | What's new + Atom feed | Curated public changelog (data/changelog.json). Reopened report links list data changes since the report date. |
 | Calendar (.ics) | Static download; no subscription, tracking or notifications from the site. |
 | "¿Votan como prometieron?" | Page built with an explicit availability notice (from January 2027, after the new Congreso convenes on 23 Dec 2026 and votes). Will use the same roll-call method as the quiz. |
+
+## Hosting move and visit counting (owner decision, 3 Nov 2026)
+
+| Change | Neutrality / privacy reasoning |
+| --- | --- |
+| Main site on Vercel (compara29n.vercel.app); GitHub Pages kept as backup/redirect | Static files only; no server code, no accounts. The old address redirects and keeps `?lang` and `#…` parts so earlier PDFs, QR codes and shared links still work. The Pages workflow only redirects while the new site answers; otherwise it serves the full site. |
+| Real HTTP security headers (CSP incl. `frame-ancestors 'none'`, Referrer-Policy, Permissions-Policy, nosniff) | Same rules as the pages' meta CSP (tested to be a superset); nothing can be loaded from other sites. |
+| Visit counter: Vercel Web Analytics, loaded from our own address | Counts page loads with country and device type, no cookies, no profiles. Before sending, the address is cut to origin + path, so the `#` part (answers in shared links) and `?` parameters never leave the page (tested; verified in a browser with a stand-in script). No custom events: nothing about answers, steps or results is recorded. Vercel's own statement is quoted on the methodology page: IP used briefly for country and same-day de-duplication, not stored. |
+| Wording | "0 datos guardados" became "0 respuestas guardadas"; "no analytics" claims were replaced by an exact description of the counter. |

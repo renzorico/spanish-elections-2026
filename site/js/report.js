@@ -7,7 +7,7 @@
 import { PdfDoc, CanvasPage, wrap, measure, fit } from './pdf.js';
 import { drawHemicycle } from './brand.js';
 
-export const SITE_URL = 'https://renzorico.github.io/spanish-elections-2026/';
+export const SITE_URL = 'https://compara29n.vercel.app/';
 const C = { ink: '#1c1a17', ink2: '#57524a', ink3: '#8a8378', line: '#e4ddd0', line2: '#d2c9b8', track: '#efe9de', dis: '#b3a894', paper: '#f6f2ea', white: '#ffffff', cell: '#f2ede3' };
 const FONT_CSS = { serif: "700 Fraunces, Georgia, serif", serifMed: "500 Fraunces, Georgia, serif", sans: "400 Atkinson, Arial, sans-serif", sansBold: "700 Atkinson, Arial, sans-serif" };
 const FONT_FILES = { serif: 'fraunces-700', serifMed: 'fraunces-500', sans: 'atkinson-400', sansBold: 'atkinson-700' };

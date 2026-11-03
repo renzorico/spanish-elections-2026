@@ -68,3 +68,9 @@ Full report cut from 5–6 pages to 3: (1) summary with key facts, three neutral
 - Calendar: site/29n-es.ics and 29n-en.ics (campaign, reflection day, polling day with reminder, Parliament convenes), generated in the build (scripts/publish.mjs).
 - "¿Votan como prometieron?": page live with a "available from January 2027" notice; to build once the new Congreso votes (reuse scripts/fetch_votes.mjs for the XVI legislature).
 - Maintenance: add an entry to data/changelog.json whenever data changes (the 4 Nov scheduled task does this).
+
+## Move to Vercel (3 Nov 2026)
+- Address chosen by the owner: https://compara29n.vercel.app/ (verified unclaimed on 3 Nov; claimed when the project is created).
+- Repo ready: vercel.json (build `npm test && npm run build`, output `site/`, clean URLs, security headers, caching), site/js/analytics.js (page-view counter, address cut to origin + path), QR regenerated (scripts/make_qr.py), all addresses/canonical/og/calendar/feed updated, privacy text rewritten, redirect stub in redirect/ and a Pages workflow that redirects only when the new site answers.
+- Owner steps: import the repo in Vercel (project name `compara29n`, framework Other), deploy, enable Web Analytics; then merge this branch; then re-run "Deploy site to GitHub Pages" so the old address starts redirecting.
+- Tests: 65 unit, browser suite incl. "no analytics script on localhost".
