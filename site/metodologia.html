@@ -7,7 +7,7 @@
   <meta name="referrer" content="no-referrer">
   <title data-title-es="Metodología · 29N" data-title-en="Methodology · 29N">Metodología · 29N</title>
   <meta name="description" content="Cómo se eligieron las afirmaciones, cómo se codificaron las posiciones de los partidos, cómo se calcula la coincidencia y qué límites tiene esta herramienta.">
-  <link rel="canonical" href="https://renzorico.github.io/spanish-elections-2026/metodologia.html">
+  <link rel="canonical" href="https://compara29n.vercel.app/metodologia">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <meta name="theme-color" content="#f6f2ea">
   <meta property="og:type" content="website">
@@ -15,14 +15,15 @@
   <meta property="og:site_name" content="29N · 2026">
   <meta property="og:title" content="Metodología · Elecciones generales 2026">
   <meta property="og:description" content="Cómo se eligieron las afirmaciones, cómo se codificaron las posiciones de los partidos, cómo se calcula la coincidencia y qué límites tiene esta herramienta.">
-  <meta property="og:url" content="https://renzorico.github.io/spanish-elections-2026/metodologia.html">
-  <meta property="og:image" content="https://renzorico.github.io/spanish-elections-2026/og.png">
+  <meta property="og:url" content="https://compara29n.vercel.app/metodologia">
+  <meta property="og:image" content="https://compara29n.vercel.app/og.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="29N · 2026 — compara tus opiniones con las posiciones documentadas de los partidos">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="css/style.css">
   <script type="module" src="js/page.js"></script>
+  <script type="module" src="js/analytics.js"></script>
 </head>
 <body>
   <a class="skip" href="#main"><span data-lang="es">Saltar al contenido</span><span data-lang="en" hidden>Skip to content</span></a>
@@ -55,7 +56,7 @@
           <p class="ref-kicker">Cómo funciona esta herramienta</p>
           <h1>Metodología</h1>
           <p class="ref-lead">Cómo elegimos los partidos y las afirmaciones, de dónde sale cada posición y cómo se calcula tu resultado. La herramienta es independiente y sin ánimo de lucro, y todo el código y los datos son públicos.</p>
-          <ul class="ref-facts"><li><b>13</b><span>partidos, con la misma regla de inclusión para todos</span></li><li><b>30</b><span>afirmaciones neutrales: 15 en un sentido y 15 en el otro</span></li><li><b>✓</b><span>cada posición, con su fuente y una cita literal; sin fuente no hay posición</span></li><li><b>0</b><span>datos guardados: todo se calcula en tu navegador</span></li></ul>
+          <ul class="ref-facts"><li><b>13</b><span>partidos, con la misma regla de inclusión para todos</span></li><li><b>30</b><span>afirmaciones neutrales: 15 en un sentido y 15 en el otro</span></li><li><b>✓</b><span>cada posición, con su fuente y una cita literal; sin fuente no hay posición</span></li><li><b>0</b><span>respuestas guardadas: todo se calcula en tu navegador</span></li></ul>
           <p class="ref-meta"><a href="https://github.com/renzorico/spanish-elections-2026" rel="noopener">Código y datos en GitHub <span aria-hidden="true">↗</span></a></p>
         </header>
 
@@ -123,7 +124,8 @@
           <div class="ref-sec-head"><span class="ref-num">06</span><h2 id="mes-privacidad-h">Privacidad</h2></div>
           <p class="ref-big">Tus respuestas no salen de tu navegador.</p>
           <ul class="checks">
-            <li>Sin cuentas, cookies, analítica ni servicios de terceros. La página solo descarga sus propios archivos.</li>
+            <li>Sin cuentas, sin cookies y sin servicios de terceros: la página solo descarga sus propios archivos.</li>
+            <li>Contamos las visitas con la analítica sin cookies de Vercel, el proveedor donde está alojada la web. Solo registra la página vista, el país y el tipo de dispositivo: nunca tus respuestas ni lo que hay detrás del signo «#» de un enlace. Según Vercel, usa tu dirección IP un instante (para el país y para no contarte dos veces el mismo día) y no la guarda. Como cualquier servidor, el de Vercel recibe tu IP para enviarte la página.</li>
             <li>Al cerrar la pestaña, tus respuestas desaparecen.</li>
             <li>El enlace del informe completo lleva tus respuestas detrás del signo «#». Los navegadores no envían esa parte a ningún servidor, pero quien tenga el enlace puede verlas: compártelo solo si quieres.</li>
             <li>«Compara con alguien» funciona igual: tu enlace lleva tus respuestas (y el nombre que escribas, si quieres) y la comparación se calcula en el navegador de quien lo abre. No se envía nada a ningún servidor.</li>
@@ -149,7 +151,7 @@
         </section>
 
         <aside class="ref-cta">
-          <div><p class="ref-cta-h">¿Con qué partidos coincides?</p><p>30 afirmaciones · unos 8 minutos · no se guarda nada</p></div>
+          <div><p class="ref-cta-h">¿Con qué partidos coincides?</p><p>30 afirmaciones · unos 8 minutos · no se guardan tus respuestas</p></div>
           <a class="btn btn-big" data-href-lang="./" href="./">Hacer el test <span aria-hidden="true">→</span></a>
         </aside>
       </div>
@@ -174,7 +176,7 @@
           <p class="ref-kicker">How this tool works</p>
           <h1>Methodology</h1>
           <p class="ref-lead">How the parties and statements were chosen, where each position comes from and how your result is calculated. The tool is independent and non-profit, and all code and data are public.</p>
-          <ul class="ref-facts"><li><b>13</b><span>parties, all included under the same rule</span></li><li><b>30</b><span>neutral statements: 15 worded one way and 15 the other</span></li><li><b>✓</b><span>every position with its source and a verbatim quote; no source, no position</span></li><li><b>0</b><span>data stored: everything is computed in your browser</span></li></ul>
+          <ul class="ref-facts"><li><b>13</b><span>parties, all included under the same rule</span></li><li><b>30</b><span>neutral statements: 15 worded one way and 15 the other</span></li><li><b>✓</b><span>every position with its source and a verbatim quote; no source, no position</span></li><li><b>0</b><span>answers stored: everything is computed in your browser</span></li></ul>
           <p class="ref-meta"><a href="https://github.com/renzorico/spanish-elections-2026" rel="noopener">Code and data on GitHub <span aria-hidden="true">↗</span></a></p>
         </header>
 
@@ -242,7 +244,8 @@
           <div class="ref-sec-head"><span class="ref-num">06</span><h2 id="men-privacidad-h">Privacy</h2></div>
           <p class="ref-big">Your answers never leave your browser.</p>
           <ul class="checks">
-            <li>No accounts, cookies, analytics or third-party services. The page only downloads its own files.</li>
+            <li>No accounts, no cookies and no third-party services: the page only downloads its own files.</li>
+            <li>We count visits with the cookie-free analytics of Vercel, the provider hosting the site. It records only the page viewed, the country and the device type: never your answers, nor anything after the « # » sign of a link. According to Vercel, it uses your IP address for a moment (to find the country and to avoid counting you twice on the same day) and does not store it. Like any server, Vercel’s receives your IP address in order to send you the page.</li>
             <li>Closing the tab erases your answers.</li>
             <li>The link in the full report carries your answers after the « # » sign. Browsers never send that part to a server, but anyone with the link can see them: share it only if you want to.</li>
             <li>"Compare with someone" works the same way: your link carries your answers (and the name you type, if you want) and the comparison is computed in the browser of whoever opens it. Nothing is sent to any server.</li>
@@ -268,7 +271,7 @@
         </section>
 
         <aside class="ref-cta">
-          <div><p class="ref-cta-h">Which parties do you agree with?</p><p>30 statements · about 8 minutes · nothing is stored</p></div>
+          <div><p class="ref-cta-h">Which parties do you agree with?</p><p>30 statements · about 8 minutes · your answers are not stored</p></div>
           <a class="btn btn-big" data-href-lang="./" href="./">Take the quiz <span aria-hidden="true">→</span></a>
         </aside>
       </div>

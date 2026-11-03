@@ -1,6 +1,6 @@
 // Static files generated at build time: calendar (.ics) and Atom feed of updates.
 // Pure functions (unit-tested); build.mjs writes their output into site/.
-export const SITE = 'https://renzorico.github.io/spanish-elections-2026/';
+export const SITE = 'https://compara29n.vercel.app/';
 
 const ymd = (iso) => iso.replace(/-/g, '');
 const nextDay = (iso) => {
@@ -35,13 +35,13 @@ const EVENTS = {
     { id: 'campaign', start: e.campaign.start, end: nextDay(e.campaign.end), title: 'Campaña electoral (elecciones generales)', desc: 'Del 13 al 27 de noviembre. ¿Con qué partidos coincides? Haz el test: ' + SITE },
     { id: 'reflection', start: prevDay(e.date), end: e.date, title: 'Jornada de reflexión', desc: 'No se puede hacer campaña. Repasa cómo se vota y qué hay en tu papeleta: ' + SITE },
     { id: 'election', start: e.date, end: nextDay(e.date), title: 'Elecciones generales: hoy se vota', desc: 'Colegios abiertos de 9:00 a 20:00. Lleva DNI, pasaporte o carné de conducir. Tu papeleta y cómo se vota: ' + SITE, alarm: 'PT8H30M' },
-    { id: 'convene', start: e.chambers_convene, end: nextDay(e.chambers_convene), title: 'Se constituyen el nuevo Congreso y el nuevo Senado', desc: 'Después empieza la investidura del presidente. Cómo funciona: ' + SITE + 'eleccion.html' },
+    { id: 'convene', start: e.chambers_convene, end: nextDay(e.chambers_convene), title: 'Se constituyen el nuevo Congreso y el nuevo Senado', desc: 'Después empieza la investidura del presidente. Cómo funciona: ' + SITE + 'eleccion' },
   ],
   en: (e) => [
     { id: 'campaign', start: e.campaign.start, end: nextDay(e.campaign.end), title: 'Election campaign (Spanish general election)', desc: '13 to 27 November. Which parties do you agree with? Take the quiz: ' + SITE + '?lang=en' },
     { id: 'reflection', start: prevDay(e.date), end: e.date, title: 'Day of reflection (Spain)', desc: 'No campaigning allowed. Check how voting works and what is on your ballot: ' + SITE + '?lang=en' },
     { id: 'election', start: e.date, end: nextDay(e.date), title: 'Spanish general election: polling day', desc: 'Polling stations open 9:00 to 20:00. Bring your DNI, passport or driving licence. Your ballot and how to vote: ' + SITE + '?lang=en', alarm: 'PT8H30M' },
-    { id: 'convene', start: e.chambers_convene, end: nextDay(e.chambers_convene), title: 'New Congreso and Senate convene', desc: 'The investiture of the Prime Minister follows. How it works: ' + SITE + 'eleccion.html?lang=en' },
+    { id: 'convene', start: e.chambers_convene, end: nextDay(e.chambers_convene), title: 'New Congreso and Senate convene', desc: 'The investiture of the Prime Minister follows. How it works: ' + SITE + 'eleccion?lang=en' },
   ],
 };
 
@@ -49,7 +49,7 @@ const EVENTS = {
 export function buildIcs(election, lang = 'es', stamp = '2026-11-01') {
   const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//29N//Elecciones generales 2026//' + lang.toUpperCase(), 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH', `X-WR-CALNAME:${icsText(lang === 'es' ? 'Elecciones generales 29N' : 'Spanish election 29N')}`, 'X-WR-TIMEZONE:Europe/Madrid'];
   for (const ev of EVENTS[lang](election)) {
-    lines.push('BEGIN:VEVENT', `UID:29n-2026-${ev.id}-${lang}@renzorico.github.io`, `DTSTAMP:${ymd(stamp)}T000000Z`, `DTSTART;VALUE=DATE:${ymd(ev.start)}`, `DTEND;VALUE=DATE:${ymd(ev.end)}`, `SUMMARY:${icsText(ev.title)}`, `DESCRIPTION:${icsText(ev.desc)}`, `URL:${SITE}`, 'TRANSP:TRANSPARENT');
+    lines.push('BEGIN:VEVENT', `UID:29n-2026-${ev.id}-${lang}@compara29n.vercel.app`, `DTSTAMP:${ymd(stamp)}T000000Z`, `DTSTART;VALUE=DATE:${ymd(ev.start)}`, `DTEND;VALUE=DATE:${ymd(ev.end)}`, `SUMMARY:${icsText(ev.title)}`, `DESCRIPTION:${icsText(ev.desc)}`, `URL:${SITE}`, 'TRANSP:TRANSPARENT');
     if (ev.alarm) lines.push('BEGIN:VALARM', 'ACTION:DISPLAY', `DESCRIPTION:${icsText(ev.title)}`, `TRIGGER:${ev.alarm}`, 'END:VALARM');
     lines.push('END:VEVENT');
   }

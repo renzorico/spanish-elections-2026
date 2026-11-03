@@ -10,7 +10,7 @@ not tell anyone whom to vote for.
 * Congreso XV-legislature votes from official open data, attributed per deputy
 * Party lists per province from the BOE (28 Oct 2026)
 * Per-topic agreement with user-set topic weights; random party/statement order; no ranking by default
-* Static, client-side only: no cookies, storage, analytics or third-party requests
+* Static, client-side only: no cookies, no storage of answers, no third-party requests. The only counter is Vercel's cookie-free page-view analytics (page, country, device; the URL is cut to origin + path before it is sent)
 
 ## Quick start
 
@@ -24,14 +24,21 @@ Other scripts: `npm run votes` (re-derive vote tallies from `data/votes/curated.
 `node scripts/reconcile_votes.mjs --dry` (compare coded stances with votes),
 `npm run check-sources` (check every source URL resolves).
 
-## Deployment (GitHub Pages)
+## Deployment
 
-`.github/workflows/pages.yml` runs the tests, validates the data, rebuilds
-`site/data/bundle.json` and deploys `site/` on every push to `main` (or manually
-via *Actions → Deploy site to GitHub Pages → Run workflow*). A failing check
-blocks deployment. One-time setup: *Settings → Pages → Build and deployment →
-Source: GitHub Actions*. The site is then served at
-`https://<owner>.github.io/spanish-elections-2026/`.
+**Main site: Vercel** — https://compara29n.vercel.app/. `vercel.json` sets the build
+(`npm test && npm run build`, output folder `site/`), real security headers (CSP, referrer,
+permissions), clean addresses (`/metodologia`) and caching. Every push to `main` deploys to
+production; every branch/PR gets a preview address. Page views are counted with Vercel Web
+Analytics (cookie-free); `site/js/analytics.js` cuts the address to origin + path before sending.
+
+**Backup: GitHub Pages** — `.github/workflows/pages.yml` runs the same tests and then either
+redirects the old address to the Vercel site (when it answers) or serves the full site (when it
+does not). One-time setup: *Settings → Pages → Source: GitHub Actions*.
+
+**Vercel setup (once):** import the repository at vercel.com/new, set *Project name* to
+`compara29n`, leave the framework as "Other" (the settings come from `vercel.json`), deploy,
+then in the project open *Analytics → Enable Web Analytics*.
 
 `.github/workflows/ci.yml` runs the same checks on other branches and pull requests.
 

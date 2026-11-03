@@ -30,7 +30,7 @@ a visible caveat until proclamation.
       │
       └── scripts/build.mjs         ─> site/data/bundle.json
                                           │
- site/ (static, no build step, no server, no cookies, no analytics)
+ site/ (static, no build step, no server, no cookies; cookie-free page-view counter only)
    index.html  ─ app.js (UI)  ─ match.js (pure matching, unit-tested)
    metodologia.html (methodology, limitations, sources)
 ```
@@ -128,5 +128,5 @@ SALF. Excluded parties are listed on the methodology page with the reason.
 | 2026 lists/coalitions change (proclamation 2 Nov) | `candidacies.json` has status field; UI caveat; easy update |
 | Votes are tactical (e.g. voting against a bill as "insufficient") | Votes are evidence, not automatic codes; conflicts explained in notes |
 | Congreso open data gaps (latest sessions only publish charts) | Logged in DATA_GAPS.md; use earlier sessions' JSON |
-| GDPR | No storage, no analytics, no external requests |
+| GDPR | No storage of answers, no cookies, no third-party requests; page-view counter only (Vercel Web Analytics, URL stripped to origin + path) |
 | Perception of recommending | No ranking by default, explicit disclaimer, per-topic view |

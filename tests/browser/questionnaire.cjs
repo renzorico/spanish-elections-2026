@@ -26,6 +26,11 @@ const ok = (c, m) => {
   if (!c) process.exitCode = 1;
 };
 
+async function countAnalytics(page, base) {
+  await page.goto(base);
+  await page.waitForSelector('.hero');
+  return page.evaluate(() => document.querySelectorAll('script[src*="_vercel"]').length);
+}
 (async () => {
   await new Promise((r) => server.listen(0, r));
   const BASE = `http://localhost:${server.address().port}/`;
@@ -264,6 +269,9 @@ const ok = (c, m) => {
   await h.waitForSelector('.cmp-big');
   ok(/100%/.test(await h.locator('.cmp-big').textContent()), 'comparison: identical answers agree 100%');
   await h.close();
+
+  // The visit counter must stay silent on localhost
+  ok((await countAnalytics(await ctx.newPage(), BASE)) === 0, 'no analytics script on localhost');
 
   // Small phone (iPhone SE, 320×568, touch): no scrolling needed to answer and move on
   const { devices } = require('playwright');

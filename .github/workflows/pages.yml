@@ -1,5 +1,7 @@
-# Builds and deploys the static site in site/ to GitHub Pages.
-# Runs the full test suite and data validation first; a failing check blocks deployment.
+# GitHub Pages is the BACKUP address of the site (the main one is https://compara29n.vercel.app/).
+# It runs the full test suite and data validation first; a failing check blocks deployment.
+# Then it decides what to serve: if the Vercel site answers, this address only redirects to it
+# (keeping ?lang and #… parts); if not, it serves the full site so nothing goes dark.
 name: Deploy site to GitHub Pages
 
 on:
@@ -34,9 +36,20 @@ jobs:
 
       - uses: actions/configure-pages@v5
 
+      - name: Choose what GitHub Pages serves
+        run: |
+          mkdir _pages
+          if curl -fsS --max-time 20 https://compara29n.vercel.app/data/bundle.json | grep -q '"election"'; then
+            echo "The new site is live: this address will redirect to it."
+            cp -r redirect/. _pages/
+          else
+            echo "The new site is not reachable: this address keeps serving the full site."
+            cp -r site/. _pages/
+          fi
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: _pages
 
   deploy:
     needs: build

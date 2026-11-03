@@ -5,7 +5,7 @@ import { STRINGS } from './i18n.js';
 import { computeMatch, sortByAgreement, shuffle, cryptoRandom, DEFAULT_WEIGHT } from './match.js';
 import { REPO_URL, applyLang, fetchReference, enhanceReference } from './reference.js';
 import { TOPIC_STYLE, TOPIC_SHORT, topicIcon, topicVars } from './topics.js';
-const SITE_URL = 'https://renzorico.github.io/spanish-elections-2026/';
+const SITE_URL = 'https://compara29n.vercel.app/';
 const loadReport = () => import('./report.js');
 import { encodeRestore, decodeRestore, encodeCompare, decodeCompare } from './restore.js';
 import { madridToday, electionPhase, daysUntil } from './phase.js';

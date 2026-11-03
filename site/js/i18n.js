@@ -136,7 +136,7 @@ export const STRINGS = {
 
     // Share card
     // Round 2: home, map, weights, exports, restore link
-    heroFacts: [['30', 'afirmaciones'], ['13', 'partidos'], ['52', 'circunscripciones'], ['0', 'datos guardados']],
+    heroFacts: [['30', 'afirmaciones'], ['13', 'partidos'], ['52', 'circunscripciones'], ['0', 'respuestas guardadas']],
     heroMinutes: 'Unos 8 minutos',
     heroNote: 'No es una recomendación de voto. Cada posición tiene su fuente.',
     daysTo: (n) => (n === 1 ? 'día para el 29 de noviembre' : 'días para el 29 de noviembre'),
@@ -440,7 +440,7 @@ export const STRINGS = {
     loading: 'Loading…',
     loadError: 'Could not load the data. Please reload the page.',
 
-    heroFacts: [['30', 'statements'], ['13', 'parties'], ['52', 'constituencies'], ['0', 'data stored']],
+    heroFacts: [['30', 'statements'], ['13', 'parties'], ['52', 'constituencies'], ['0', 'answers stored']],
     heroMinutes: 'About 8 minutes',
     heroNote: 'Not a voting recommendation. Every position has a source.',
     daysTo: (n) => (n === 1 ? 'day to 29 November' : 'days to 29 November'),
