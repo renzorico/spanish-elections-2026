@@ -73,8 +73,8 @@ export const STRINGS = {
     allParties: 'Toda España',
     candidacyNote: (status) =>
       status === 'proclaimed'
-        ? 'Según las candidaturas proclamadas.'
-        : 'Según las candidaturas presentadas (BOE 28/10/2026). Comprueba tu papeleta.',
+        ? 'Según las candidaturas proclamadas (BOE 3/11/2026). Comprueba tu papeleta.'
+        : 'Según las candidaturas presentadas el 28/10/2026, pendientes de proclamación. Comprueba tu papeleta.',
     match: 'coincidencia',
     noScore: 'Sin datos',
     basedOn: (a, b) => `${a} de ${b} respuestas comparables`,
@@ -382,7 +382,7 @@ export const STRINGS = {
     lowToggle: 'Hide low-confidence positions',
     allParties: 'All of Spain',
     candidacyNote: (status) =>
-      status === 'proclaimed' ? 'According to the proclaimed candidacies.' : 'According to the candidacies submitted (BOE 28/10/2026). Check your ballot.',
+      status === 'proclaimed' ? 'According to the proclaimed candidacies (BOE 3/11/2026). Check your ballot.' : 'According to the candidacies submitted on 28/10/2026, pending proclamation. Check your ballot.',
     match: 'agreement',
     noScore: 'No data',
     basedOn: (a, b) => `${a} of ${b} answers comparable`,

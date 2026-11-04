@@ -48,7 +48,7 @@ Severity: **H** high · **M** medium · **L** low. Status: ✅ fixed · ⚠️ p
 | L7 | Official titles containing charged words repeated unquoted in vote notes | Official titles now in «…»; the loaded-term lint now covers vote notes (quoted titles exempt) | ✅ |
 | L8 | Stale coverage table in DATA_GAPS.md | Regenerated | ✅ |
 | L9 | Podemos notes said "capped at medium" on high codings | Notes corrected | ✅ |
-| L10 | Asturias "PODEMOS (PAZ, CASA Y TRABAJO)" mapped to Podemos without confirmation | Re-check after proclamation (BOE 3 Nov) | ⏳ |
+| L10 | Asturias "PODEMOS (PAZ, CASA Y TRABAJO)" mapped to Podemos without confirmation | Re-checked against the proclamation (BOE-A-2026-23103, 3 Nov 2026): Asturias is "PODEMOS (PODEMOS)"; "PAZ,CASA Y TRABAJO" is the Ceuta list. Names corrected. | ✅ |
 | L11 | Explainer omitted the 2-seat provincial minimum | Added | ✅ |
 
 ## Post-fix verification (2026-10-31)
@@ -163,3 +163,10 @@ The rebuilt interface adds visual elements that could carry bias. Each was decid
 | Real HTTP security headers (CSP incl. `frame-ancestors 'none'`, Referrer-Policy, Permissions-Policy, nosniff) | Same rules as the pages' meta CSP (tested to be a superset); nothing can be loaded from other sites. |
 | Visit counter: Vercel Web Analytics, loaded from our own address | Counts page loads with country and device type, no cookies, no profiles. Before sending, the address is cut to origin + path, so the `#` part (answers in shared links) and `?` parameters never leave the page (tested; verified in a browser with a stand-in script). No custom events: nothing about answers, steps or results is recorded. Vercel's own statement is quoted on the methodology page: IP used briefly for country and same-day de-duplication, not stored. |
 | Wording | "0 datos guardados" became "0 respuestas guardadas"; "no analytics" claims were replaced by an exact description of the counter. |
+
+## Proclaimed candidacies (4 Nov 2026)
+- Source: BOE 3 Nov 2026, Juntas Electorales Provinciales, BOE-A-2026-23103 (52 provincial proclamations).
+- Checked: for each of the 52 constituencies, the Congreso candidacies were compared with data/candidacies.json under the inclusion rule. No party is added or removed. Frente Amplio appears where its member party IU/EUPV runs inside a coalition (Compromís in València, Alacant and Castelló; UPC in Canarias); the rule already covers this.
+- Corrected: list names for Podemos in Asturias ("PODEMOS (PODEMOS)") and in Ceuta ("PODEMOS (PAZ,CASA Y TRABAJO)").
+- Public wording updated from "presentadas el 28 de octubre" to "proclamadas, BOE 3 de noviembre" (ES and EN).
+- Status set to "proclaimed".

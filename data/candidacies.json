@@ -1,13 +1,13 @@
 {
-  "status": "presented",
+  "status": "proclaimed",
   "source": {
-    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
-    "pdf": "https://www.boe.es/boe/dias/2026/10/28/pdfs/BOE-A-2026-22607.pdf",
-    "title": "Candidaturas presentadas para las elecciones al Congreso de los Diputados y al Senado, convocadas por Real Decreto 806/2026, de 5 de octubre (BOE núm. 267, sección III, Juntas Electorales Provinciales, BOE-A-2026-22607)",
-    "date": "2026-10-28",
-    "accessed": "2026-10-31"
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+    "pdf": "https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-A-2026-23103.pdf",
+    "title": "Candidaturas proclamadas para las elecciones al Congreso de los Diputados y al Senado, convocadas por Real Decreto 806/2026, de 5 de octubre (BOE núm. 273, de 3 de noviembre de 2026, Juntas Electorales Provinciales, BOE-A-2026-23103)",
+    "date": "2026-11-03",
+    "accessed": "2026-11-04"
   },
-  "status_note": "Candidaturas presentadas, no proclamadas. La proclamación (2 nov., BOE 3 nov.) puede excluir listas.",
+  "status_note": "Candidaturas proclamadas por las Juntas Electorales Provinciales (BOE 3 nov. 2026). Verificadas las 52 circunscripciones el 4 nov. 2026 contra la lista presentada.",
   "by_province": {
     "albacete": [
       "pp",
@@ -476,7 +476,7 @@
       "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
       "vox": "VOX (VOX)",
       "frente-amplio": "FRENTE AMPLIU POR ASTURIES (FA)",
-      "podemos": "PODEMOS (PAZ, CASA Y TRABAJO)",
+      "podemos": "PODEMOS (PODEMOS)",
       "salf": "SE ACABÓ LA FIESTA (SALF)"
     },
     "avila": {
@@ -852,7 +852,7 @@
       "pp": "PARTIDO POPULAR (PP)",
       "psoe": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
       "vox": "VOX (VOX)",
-      "podemos": "PODEMOS (PODEMOS)",
+      "podemos": "PODEMOS (PAZ,CASA Y TRABAJO)",
       "salf": "SE ACABÓ LA FIESTA (SALF)"
     },
     "melilla": {
@@ -876,8 +876,8 @@
       "en": "Compromís heads 'Compromís: Front Valencià', which includes Podem (Podemos) and EUPV (the Valencian federation of IU, a Frente Amplio member). There are no separate Podemos or Frente Amplio lists."
     },
     "asturias": {
-      "es": "Frente Amplio concurre como «Frente Ampliu por Asturies (FA)». La lista de Podemos figura como «PODEMOS (PAZ, CASA Y TRABAJO)».",
-      "en": "Frente Amplio runs as 'Frente Ampliu por Asturies (FA)'. The Podemos list is printed as 'PODEMOS (PAZ, CASA Y TRABAJO)'."
+      "es": "Frente Amplio concurre como «Frente Ampliu por Asturies (FA)». La lista de Podemos figura como «PODEMOS (PODEMOS)» en la proclamación.",
+      "en": "Frente Amplio runs as 'Frente Ampliu por Asturies (FA)'. The Podemos list is 'PODEMOS (PODEMOS)' in the proclamation."
     },
     "balears": {
       "es": "El PSOE concurre como PSIB-PSOE. Frente Amplio concurre como «Ara Més-Front Ampli (ARAMÉS-EU-MS)». No hay lista de Podemos. (La coalición «Acord de Progrés per Mallorca», PSIB-PSOE-Més-Sumar-EUIB, es solo para el Senado.)",
@@ -908,8 +908,8 @@
       "en": "Compromís heads 'Compromís: Front Valencià', which includes Podem (Podemos) and EUPV (the Valencian federation of IU, a Frente Amplio member). There are no separate Podemos or Frente Amplio lists."
     },
     "ceuta": {
-      "es": "No hay lista de Frente Amplio.",
-      "en": "No Frente Amplio list."
+      "es": "No hay lista de Frente Amplio. Podemos concurre como «PODEMOS (PAZ,CASA Y TRABAJO)».",
+      "en": "No Frente Amplio list. Podemos runs as 'PODEMOS (PAZ,CASA Y TRABAJO)'."
     },
     "ciudad-real": {
       "es": "SALF no presenta lista al Congreso.",
@@ -1019,5 +1019,10 @@
     "balears": [
       "frente-amplio"
     ]
+  },
+  "presented_source": {
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
+    "date": "2026-10-28",
+    "note": "Candidaturas presentadas (previas a la proclamación); usadas como base hasta el 3 de noviembre."
   }
 }
