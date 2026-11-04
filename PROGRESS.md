@@ -74,3 +74,7 @@ Full report cut from 5–6 pages to 3: (1) summary with key facts, three neutral
 - Repo ready: vercel.json (build `npm test && npm run build`, output `site/`, clean URLs, security headers, caching), site/js/analytics.js (page-view counter, address cut to origin + path), QR regenerated (scripts/make_qr.py), all addresses/canonical/og/calendar/feed updated, privacy text rewritten, redirect stub in redirect/ and a Pages workflow that redirects only when the new site answers.
 - Owner steps: import the repo in Vercel (project name `compara29n`, framework Other), deploy, enable Web Analytics; then merge this branch; then re-run "Deploy site to GitHub Pages" so the old address starts redirecting.
 - Tests: 65 unit, browser suite incl. "no analytics script on localhost".
+
+## Proclaimed candidacies verified (4 Nov 2026)
+- candidacies.json status is now "proclaimed", source BOE-A-2026-23103 (3 Nov 2026); all 52 Congreso lists compared, no party changes needed; Asturias and Ceuta Podemos names corrected; public wording updated (ES/EN); changelog entry added.
+- Not done: Senate lists not compared; 2026 programs and logos are unchanged from the earlier check.

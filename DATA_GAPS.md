@@ -55,7 +55,7 @@ _Updated 2026-10-31. Detailed per-party logs (what was searched, unreachable sit
 None of the 13 parties had published a 2026 general-election program as of 31 Oct 2026. All are marked "2026 program pending".
 
 ## Candidacies
-Based on presented lists (BOE 28/10/2026); proclamation 2 Nov (BOE 3 Nov) still to check. See `data/gaps/candidacies.md`.
+Proclaimed candidacies verified against BOE 3 Nov 2026 (BOE-A-2026-23103) on 4 Nov 2026. Senate lists were not compared (the app shows Congreso only). See `data/gaps/candidacies.md`.
 
 ## Reconciliation and calibration decisions (after the neutrality audit)
 - Single evidence ladder for all parties (see data/SCHEMA.md and the methodology page). Press-only evidence counts as low. Program PDFs mirrored on press sites count as party documents.

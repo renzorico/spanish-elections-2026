@@ -2,6 +2,12 @@
   "note": "Public 'What's new' log. Newest first. type: data (positions, candidacies, programs) | site (features). Shown on the site and in site/feed.xml.",
   "entries": [
     {
+      "date": "2026-11-04",
+      "type": "data",
+      "es": "Candidaturas proclamadas (BOE del 3 de noviembre): comprobamos los partidos de las 52 circunscripciones y no hay cambios. Corregidos los nombres de Podemos en Asturias («PODEMOS») y en Ceuta («PAZ,CASA Y TRABAJO»).",
+      "en": "Proclaimed candidacies (BOE of 3 November): we checked the parties in all 52 constituencies and found no changes. Corrected the Podemos list names in Asturias ('PODEMOS') and Ceuta ('PAZ,CASA Y TRABAJO')."
+    },
+    {
       "date": "2026-11-03",
       "type": "site",
       "es": "Nueva dirección: compara29n.vercel.app. La dirección anterior redirige a la nueva. Contamos las visitas sin cookies y sin datos personales; tus respuestas nunca se envían.",
