@@ -3,6 +3,9 @@
 import { STRINGS } from './i18n.js';
 import { computeMatch, sortByAgreement, shuffle, cryptoRandom, DEFAULT_WEIGHT } from './match.js';
 
+// The three buttons map to -2 / 0 / +2 on the scoring scale in match.js.
+const ANSWER_CHOICES = [-2, 0, 2];
+
 const app = document.getElementById('app');
 const state = {
   lang: initialLang(),
@@ -115,7 +118,7 @@ function viewQuestion() {
   const s = statementById(state.statementOrder[state.idx]);
   const current = state.answers[s.id];
   const labels = t('answers');
-  const radios = [-2, -1, 0, 1, 2]
+  const radios = ANSWER_CHOICES
     .map(
       (v, i) => `
       <label class="answer">
@@ -273,7 +276,7 @@ function viewStatementDetail(sid, p) {
   const s = statementById(sid);
   const pos = state.data.positions[p.id]?.[sid];
   const u = state.answers[sid];
-  const userLabel = u === null || u === undefined ? t('skipped') : t('answers')[u + 2];
+  const userLabel = u === null || u === undefined ? t('skipped') : t('answers')[ANSWER_CHOICES.indexOf(u)];
   const stance = pos ? t('stance')[pos.stance] : t('stance').no_clear_position;
   const conf = pos?.confidence ? ` (${t('confidence')[pos.confidence]})` : '';
   const sources = (pos?.sources || [])

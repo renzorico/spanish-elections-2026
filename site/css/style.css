@@ -87,7 +87,7 @@ fieldset { border: 0; padding: 0; margin: 0; }
 }
 .answer input:checked + span, .seg input:checked + span { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
 .answer input:focus-visible + span, .seg input:focus-visible + span { outline: 3px solid var(--focus); outline-offset: 2px; }
-@media (min-width: 640px) { .answers { grid-template-columns: repeat(5, 1fr); } .answer span { height: 100%; display: flex; align-items: center; justify-content: center; } }
+@media (min-width: 640px) { .answers { grid-template-columns: repeat(3, 1fr); } .answer span { height: 100%; display: flex; align-items: center; justify-content: center; } }
 
 .weight { margin: .9rem 0; }
 .weight legend { font-weight: 600; margin-bottom: .35rem; }

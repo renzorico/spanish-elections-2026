@@ -3,8 +3,8 @@
     "id": "viv-limite-alquiler",
     "topic": "vivienda",
     "text": {
-      "es": "Las administraciones deberían poder limitar el precio del alquiler en las zonas donde es especialmente alto.",
-      "en": "Public authorities should be able to cap rents in areas where they are especially high."
+      "es": "Debería poder limitarse el precio del alquiler en las zonas más caras.",
+      "en": "It should be possible to cap rents in the most expensive areas."
     },
     "context": {
       "es": "La Ley 12/2023 por el derecho a la vivienda permite a las comunidades autónomas declarar «zonas tensionadas» y limitar allí las subidas de alquiler. Cada comunidad decide si la aplica.",
@@ -15,8 +15,8 @@
     "id": "viv-desalojo-rapido",
     "topic": "vivienda",
     "text": {
-      "es": "Debería acelerarse por ley el desalojo de viviendas ocupadas sin permiso del propietario.",
-      "en": "The law should speed up the eviction of people occupying a home without the owner's permission."
+      "es": "La ley debería permitir desalojar más rápido las viviendas ocupadas sin permiso.",
+      "en": "The law should make it faster to evict people occupying a home without permission."
     },
     "context": {
       "es": "Ocupar una vivienda sin título es delito; el tiempo que tarda el desalojo depende del procedimiento judicial y de si hay personas vulnerables.",
@@ -27,19 +27,19 @@
     "id": "eco-suprimir-impuesto-fortunas",
     "topic": "economia",
     "text": {
-      "es": "Debería eliminarse el Impuesto Temporal de Solidaridad de las Grandes Fortunas (patrimonios de más de 3 millones de euros).",
-      "en": "The Temporary Solidarity Tax on Large Fortunes (wealth above €3 million) should be abolished."
+      "es": "Habría que eliminar el impuesto a las grandes fortunas.",
+      "en": "The tax on large fortunes should be abolished."
     },
     "context": {
-      "es": "Además del Impuesto sobre el Patrimonio, que gestionan las comunidades y estas pueden bonificar, en 2022 se creó este impuesto estatal y complementario sobre los patrimonios de más de 3 millones de euros. En 2023 se prorrogó hasta que se revise la tributación del patrimonio en la reforma de la financiación autonómica.",
-      "en": "Besides the Wealth Tax, which the regions manage and can reduce, this complementary State tax on wealth above €3 million was created in 2022. In 2023 it was extended until wealth taxation is reviewed in the reform of regional financing."
+      "es": "Se refiere al Impuesto Temporal de Solidaridad de las Grandes Fortunas. Además del Impuesto sobre el Patrimonio, que gestionan las comunidades y estas pueden bonificar, en 2022 se creó este impuesto estatal y complementario sobre los patrimonios de más de 3 millones de euros. En 2023 se prorrogó hasta que se revise la tributación del patrimonio en la reforma de la financiación autonómica.",
+      "en": "This refers to the Temporary Solidarity Tax on Large Fortunes. Besides the Wealth Tax, which the regions manage and can reduce, this complementary State tax on wealth above €3 million was created in 2022. In 2023 it was extended until wealth taxation is reviewed in the reform of regional financing."
     }
   },
   {
     "id": "eco-bajar-irpf",
     "topic": "economia",
     "text": {
-      "es": "Deberían bajarse los impuestos sobre la renta (IRPF).",
+      "es": "Habría que bajar el impuesto sobre la renta (IRPF).",
       "en": "Income tax (IRPF) should be lowered."
     },
     "context": {
@@ -51,8 +51,8 @@
     "id": "eco-impuesto-energeticas",
     "topic": "economia",
     "text": {
-      "es": "Debería volver a aplicarse un impuesto especial sobre los beneficios de las grandes empresas energéticas.",
-      "en": "A special tax on the profits of large energy companies should be reintroduced."
+      "es": "Las grandes empresas de energía deberían pagar un impuesto especial sobre sus beneficios.",
+      "en": "Large energy companies should pay a special tax on their profits."
     },
     "context": {
       "es": "Entre 2023 y 2024 se aplicó un gravamen temporal a las grandes energéticas. En enero de 2025 el Congreso no convalidó su prórroga y dejó de aplicarse.",
@@ -63,7 +63,7 @@
     "id": "eco-suprimir-impuesto-banca",
     "topic": "economia",
     "text": {
-      "es": "Debería eliminarse el impuesto especial a la banca.",
+      "es": "Habría que eliminar el impuesto especial a los bancos.",
       "en": "The special tax on banks should be abolished."
     },
     "context": {
@@ -75,8 +75,8 @@
     "id": "tra-jornada-37h",
     "topic": "trabajo",
     "text": {
-      "es": "La jornada laboral máxima debería reducirse por ley a 37,5 horas semanales sin bajar el salario.",
-      "en": "The legal maximum working week should be cut to 37.5 hours without a pay cut."
+      "es": "La semana laboral máxima debería bajar por ley a 37,5 horas, sin recortar el sueldo.",
+      "en": "The legal maximum working week should be cut to 37.5 hours, with no pay cut."
     },
     "context": {
       "es": "La jornada máxima legal es de 40 horas semanales. En septiembre de 2025 el Congreso aprobó devolver al Gobierno un proyecto de ley para reducirla a 37,5 horas, que no siguió adelante.",
@@ -87,8 +87,8 @@
     "id": "tra-salario-minimo",
     "topic": "trabajo",
     "text": {
-      "es": "El salario mínimo debería seguir subiendo y mantenerse, como mínimo, en el 60 % del salario medio.",
-      "en": "The minimum wage should keep rising and stay at no less than 60% of the average wage."
+      "es": "El salario mínimo debería seguir subiendo y ser, como mínimo, el 60 % del salario medio.",
+      "en": "The minimum wage should keep rising and be at least 60% of the average wage."
     },
     "context": {
       "es": "El Gobierno fija el salario mínimo cada año tras consultar a sindicatos y patronal; en 2026 es de 1.221 euros al mes en 14 pagas. Desde 2023 el Gobierno considera que equivale al 60 % del salario medio neto, la referencia de la Carta Social Europea.",
@@ -99,8 +99,8 @@
     "id": "san-gestion-privada",
     "topic": "sanidad",
     "text": {
-      "es": "Debería limitarse por ley que la sanidad pública encargue la gestión de hospitales o servicios a empresas privadas.",
-      "en": "The law should restrict public health services from contracting private companies to run hospitals or services."
+      "es": "La ley debería limitar que la sanidad pública contrate a empresas privadas para gestionar hospitales.",
+      "en": "The law should limit public health services hiring private companies to run hospitals."
     },
     "context": {
       "es": "Las comunidades autónomas gestionan la sanidad y algunas encargan centros o servicios a empresas privadas. El Gobierno presentó en 2025 una propuesta de ley sobre gestión pública del Sistema Nacional de Salud.",
@@ -111,8 +111,8 @@
     "id": "san-dental-publica",
     "topic": "sanidad",
     "text": {
-      "es": "La sanidad pública debería cubrir la atención dental general (empastes, endodoncias, prótesis) para toda la población.",
-      "en": "Public health care should cover general dental care (fillings, root canals, dentures) for everyone."
+      "es": "La sanidad pública debería cubrir el dentista (empastes, prótesis…) para todos.",
+      "en": "Public health care should cover the dentist (fillings, dentures…) for everyone."
     },
     "context": {
       "es": "Hoy la sanidad pública cubre solo una parte de la atención bucodental, con diferencias entre comunidades.",
@@ -123,7 +123,7 @@
     "id": "der-aborto-constitucion",
     "topic": "derechos",
     "text": {
-      "es": "El derecho al aborto debería incluirse en la Constitución.",
+      "es": "El derecho al aborto debería estar escrito en la Constitución.",
       "en": "The right to abortion should be written into the Constitution."
     },
     "context": {
@@ -135,8 +135,8 @@
     "id": "der-derogar-eutanasia",
     "topic": "derechos",
     "text": {
-      "es": "Debería derogarse la ley que regula la eutanasia.",
-      "en": "The law regulating euthanasia should be repealed."
+      "es": "Habría que eliminar la ley de la eutanasia.",
+      "en": "The euthanasia law should be repealed."
     },
     "context": {
       "es": "La Ley Orgánica 3/2021 permite pedir ayuda médica para morir en casos de enfermedad grave e incurable, con varios controles.",
@@ -147,8 +147,8 @@
     "id": "der-cambio-sexo-informe",
     "topic": "derechos",
     "text": {
-      "es": "Para cambiar el sexo en el registro civil debería exigirse un informe médico o psicológico.",
-      "en": "A medical or psychological report should be required to change one's legal sex at the civil registry."
+      "es": "Para cambiar de sexo en el registro civil debería hacer falta un informe médico o psicológico.",
+      "en": "Changing legal sex at the civil registry should require a medical or psychological report."
     },
     "context": {
       "es": "La Ley 4/2023 (conocida como «ley trans») permite a los mayores de 16 años cambiarlo con su propia declaración, sin informes médicos.",
@@ -159,8 +159,8 @@
     "id": "inm-regularizacion",
     "topic": "inmigracion",
     "text": {
-      "es": "Deberían hacerse regularizaciones extraordinarias de las personas extranjeras que ya viven en España sin permiso de residencia.",
-      "en": "There should be one-off regularisations of foreign nationals already living in Spain without a residence permit."
+      "es": "Se debería dar permiso de residencia, una sola vez, a los extranjeros que ya viven en España sin él.",
+      "en": "Foreign nationals already living in Spain without a residence permit should be given one, as a one-off."
     },
     "context": {
       "es": "En 2024 el Congreso admitió a trámite una iniciativa legislativa popular para una regularización extraordinaria. En abril de 2026 el Gobierno aprobó una por real decreto (RD 316/2026), sin votación en el Congreso.",
@@ -171,8 +171,8 @@
     "id": "inm-reparto-menores",
     "topic": "inmigracion",
     "text": {
-      "es": "Todas las comunidades autónomas deberían estar obligadas a acoger a menores migrantes no acompañados según un reparto fijado por el Estado.",
-      "en": "All regions should be required to take in unaccompanied migrant minors according to a distribution set by the State."
+      "es": "Todas las comunidades deberían estar obligadas a acoger a parte de los menores migrantes que llegan solos.",
+      "en": "All regions should be required to take in a share of the migrant children who arrive alone."
     },
     "context": {
       "es": "En 2025 se aprobó por real decreto-ley un mecanismo de reparto obligatorio cuando una comunidad supera su capacidad de acogida.",
@@ -183,7 +183,7 @@
     "id": "inm-reducir-llegadas",
     "topic": "inmigracion",
     "text": {
-      "es": "España debería reducir el número de personas inmigrantes que llegan cada año.",
+      "es": "España debería reducir el número de inmigrantes que llegan cada año.",
       "en": "Spain should reduce the number of immigrants arriving each year."
     },
     "context": {
@@ -195,8 +195,8 @@
     "id": "cli-nucleares",
     "topic": "clima",
     "text": {
-      "es": "Las centrales nucleares deberían seguir funcionando más allá del calendario de cierre previsto.",
-      "en": "Nuclear power plants should keep operating beyond the planned closure timetable."
+      "es": "Las centrales nucleares deberían seguir abiertas más allá de la fecha prevista de cierre.",
+      "en": "Nuclear power plants should stay open beyond their planned closure date."
     },
     "context": {
       "es": "El calendario acordado en 2019 entre el Gobierno y las eléctricas prevé cerrar las centrales entre 2027 y 2035.",
@@ -207,8 +207,8 @@
     "id": "cli-coches-combustion-despues-2035",
     "topic": "clima",
     "text": {
-      "es": "Debería permitirse vender coches nuevos de gasolina o diésel también después de 2035.",
-      "en": "Sales of new petrol or diesel cars should still be allowed after 2035."
+      "es": "Se deberían poder seguir vendiendo coches nuevos de gasolina y diésel después de 2035.",
+      "en": "New petrol and diesel cars should still be sold after 2035."
     },
     "context": {
       "es": "Una norma de la UE de 2023 prohíbe vender coches nuevos de gasolina o diésel desde 2035. En 2025 la Comisión Europea propuso flexibilizarla.",
@@ -219,8 +219,8 @@
     "id": "ter-amnistia",
     "topic": "territorial",
     "text": {
-      "es": "Debería mantenerse la ley de amnistía para las personas implicadas en el proceso independentista de Cataluña.",
-      "en": "The amnesty law for people involved in the Catalan independence process should be kept."
+      "es": "La amnistía para los implicados en el independentismo catalán debería mantenerse.",
+      "en": "The amnesty for people involved in Catalan independence should be kept."
     },
     "context": {
       "es": "La Ley Orgánica 1/2024 de amnistía cubre hechos vinculados al proceso independentista entre 2011 y 2023.",
@@ -231,8 +231,8 @@
     "id": "ter-referendum",
     "topic": "territorial",
     "text": {
-      "es": "Una comunidad autónoma debería poder votar en referéndum si quiere independizarse, si lo acuerda con el Estado.",
-      "en": "A region should be able to hold a referendum on independence if it is agreed with the State."
+      "es": "Una comunidad debería poder votar su independencia si el Estado lo acepta.",
+      "en": "A region should be able to vote on independence if the State agrees."
     },
     "context": {
       "es": "Actualmente no existe un procedimiento legal para que una comunidad autónoma celebre un referéndum de independencia.",
@@ -243,8 +243,8 @@
     "id": "ter-concierto-ccaa",
     "topic": "territorial",
     "text": {
-      "es": "Las comunidades autónomas que lo pidan deberían poder recaudar y gestionar todos sus impuestos, como hacen el País Vasco y Navarra.",
-      "en": "Regions that ask for it should be able to collect and manage all of their taxes, as the Basque Country and Navarre do."
+      "es": "Las comunidades que lo pidan deberían poder cobrar todos sus impuestos, como el País Vasco y Navarra.",
+      "en": "Regions that ask should be able to collect all their taxes, like the Basque Country and Navarre."
     },
     "context": {
       "es": "El País Vasco y Navarra recaudan casi todos sus impuestos (concierto y convenio económico). El resto de comunidades se financian con el sistema común.",
@@ -255,8 +255,8 @@
     "id": "ter-recentralizar",
     "topic": "territorial",
     "text": {
-      "es": "La educación y la sanidad deberían volver a ser gestionadas por el Estado central en lugar de por las comunidades autónomas.",
-      "en": "Education and health care should go back to being managed by the central State instead of the regions."
+      "es": "La sanidad y la educación deberían volver a depender del Estado, no de las comunidades.",
+      "en": "Health care and education should go back to the State instead of the regions."
     },
     "context": {
       "es": "Entre los años 80 y 2002 el Estado traspasó a las comunidades autónomas la gestión de la educación y la sanidad.",
@@ -267,7 +267,7 @@
     "id": "ter-solo-castellano-congreso",
     "topic": "territorial",
     "text": {
-      "es": "En los debates del Congreso solo debería poder usarse el castellano.",
+      "es": "En el Congreso solo debería poder hablarse castellano.",
       "en": "Only Spanish should be allowed in Congreso debates."
     },
     "context": {
@@ -279,8 +279,8 @@
     "id": "edu-concertada",
     "topic": "educacion",
     "text": {
-      "es": "Debería reducirse la financiación pública de los colegios concertados para destinarla a la escuela pública.",
-      "en": "Public funding for state-subsidised private schools ('concertados') should be reduced and moved to public schools."
+      "es": "Los colegios concertados deberían recibir menos dinero público, a favor de la escuela pública.",
+      "en": "Concertado schools should get less public money, in favour of state schools."
     },
     "context": {
       "es": "Los colegios concertados son de titularidad privada pero se financian en gran parte con dinero público.",
@@ -291,8 +291,8 @@
     "id": "edu-lengua-castellano",
     "topic": "educacion",
     "text": {
-      "es": "Las familias deberían poder elegir que sus hijos estudien principalmente en castellano en cualquier comunidad autónoma.",
-      "en": "Families should be able to choose for their children to be taught mainly in Spanish in every region."
+      "es": "Las familias deberían poder elegir que sus hijos estudien sobre todo en castellano, en cualquier comunidad.",
+      "en": "Families should be able to choose mainly Spanish-language schooling for their children in any region."
     },
     "context": {
       "es": "En las comunidades con lengua cooficial, cada una aplica su propio modelo lingüístico en la escuela.",
@@ -303,8 +303,8 @@
     "id": "ins-cgpj",
     "topic": "instituciones",
     "text": {
-      "es": "Los jueces deberían elegir directamente a la mayoría de los miembros del Consejo General del Poder Judicial, en lugar del Congreso y el Senado.",
-      "en": "Judges themselves should directly elect most members of the General Council of the Judiciary, instead of the Congreso and Senate."
+      "es": "Los jueces deberían elegir a la mayoría del Consejo General del Poder Judicial (CGPJ), en vez del Parlamento.",
+      "en": "Judges should elect most members of the General Council of the Judiciary (CGPJ), instead of Parliament."
     },
     "context": {
       "es": "El Consejo General del Poder Judicial gobierna a los jueces. Sus vocales los eligen el Congreso y el Senado por mayoría de tres quintos.",
@@ -315,8 +315,8 @@
     "id": "ins-referendum-monarquia",
     "topic": "instituciones",
     "text": {
-      "es": "Debería celebrarse un referéndum para que la ciudadanía elija entre monarquía y república.",
-      "en": "There should be a referendum for citizens to choose between monarchy and republic."
+      "es": "Debería hacerse un referéndum para elegir entre monarquía y república.",
+      "en": "There should be a referendum to choose between monarchy and republic."
     },
     "context": {
       "es": "La Constitución de 1978 establece la monarquía parlamentaria. Cambiarlo exige el procedimiento reforzado de reforma constitucional.",
@@ -327,7 +327,7 @@
     "id": "ins-derogar-memoria",
     "topic": "instituciones",
     "text": {
-      "es": "Debería derogarse la Ley de Memoria Democrática de 2022.",
+      "es": "Habría que eliminar la Ley de Memoria Democrática de 2022.",
       "en": "The 2022 Democratic Memory Law should be repealed."
     },
     "context": {
@@ -339,20 +339,20 @@
     "id": "ext-gasto-defensa",
     "topic": "exterior",
     "text": {
-      "es": "España debería aumentar su gasto en defensa hasta el 3,5 % del PIB, el objetivo acordado en la OTAN en 2025.",
-      "en": "Spain should raise defence spending to 3.5% of GDP, the target agreed in NATO in 2025."
+      "es": "España debería subir el gasto en defensa hasta el 3,5 % del PIB, el objetivo de la OTAN.",
+      "en": "Spain should raise defence spending to 3.5% of GDP, the NATO target."
     },
     "context": {
-      "es": "En la cumbre de La Haya (2025) los aliados acordaron llegar en 2035 al 3,5 % del PIB en defensa (5 % sumando gastos relacionados). El Gobierno español sostiene que obtuvo una excepción y que le basta con alrededor del 2,1 %.",
-      "en": "At the 2025 Hague summit allies agreed to reach 3.5% of GDP on defence by 2035 (5% including related spending). The Spanish Government says it obtained an exception and that around 2.1% is enough."
+      "es": "El PIB es lo que produce el país en un año. En la cumbre de La Haya (2025) los aliados acordaron llegar en 2035 al 3,5 % del PIB en defensa (5 % sumando gastos relacionados). El Gobierno español sostiene que obtuvo una excepción y que le basta con alrededor del 2,1 %.",
+      "en": "GDP is what the country produces in a year. At the 2025 Hague summit allies agreed to reach 3.5% of GDP on defence by 2035 (5% including related spending). The Spanish Government says it obtained an exception and that around 2.1% is enough."
     }
   },
   {
     "id": "ext-embargo-israel",
     "topic": "exterior",
     "text": {
-      "es": "España debería mantener la prohibición de comprar y vender armas a Israel.",
-      "en": "Spain should keep its ban on buying and selling arms to Israel."
+      "es": "España debería seguir sin comprar ni vender armas a Israel.",
+      "en": "Spain should keep not buying or selling arms to Israel."
     },
     "context": {
       "es": "En 2025 el Gobierno aprobó un real decreto-ley de embargo de armas a Israel, que se votó en el Congreso.",
