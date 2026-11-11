@@ -86,8 +86,8 @@ a visible caveat until proclamation.
 
 ## 3. Matching (see `site/js/match.js`)
 
-* User answer per statement: −2…+2 (strongly disagree … strongly agree) or
-  skip. Party stance: disagree −1, neutral 0, agree +1, none = missing.
+* User answer per statement: three buttons (don't agree −2, not sure 0,
+  agree +2) or skip. Party stance: disagree −1, neutral 0, agree +1, none = missing.
 * Per statement agreement = `1 − |u/2 − p| / 2` ∈ [0,1].
 * Per topic = mean over statements the user answered *and* the party has a
   position on. Coverage (n of m) reported alongside.

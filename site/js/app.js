@@ -11,6 +11,9 @@ import { encodeRestore, decodeRestore, encodeCompare, decodeCompare } from './re
 import { madridToday, electionPhase, daysUntil } from './phase.js';
 import { peerAgreement } from './compare.js';
 
+// The three answer buttons store -2 / 0 / +2 on the -2…+2 scoring scale.
+const ANSWER_CHOICES = [-2, 0, 2];
+
 const app = document.getElementById('app');
 // Topic weights (option B chosen by the owner): less ×0.5, same ×1, more ×2.
 const WEIGHT_LEVELS = [0.5, 1, 2];
@@ -254,7 +257,7 @@ function viewHome() {
         <div class="sample" style="${topicVars(sample.topic)}">
           <span class="sample-label">${topicIcon(sample.topic)} ${esc(loc(topicById(sample.topic).label))} · ${esc(t('sampleLabel'))}</span>
           <p class="sample-q">${esc(loc(sample.text))}</p>
-          <div class="sample-scale" role="group" aria-label="${esc(t('sampleNote'))}">${[-2, -1, 0, 1, 2].map((v, i) => `<button type="button" data-sample="${v}" aria-pressed="false" aria-label="${esc(labels[i])}"></button>`).join('')}</div>
+          <div class="sample-scale" role="group" aria-label="${esc(t('sampleNote'))}">${ANSWER_CHOICES.map((v) => `<button type="button" data-sample="${v}" aria-pressed="false" aria-label="${esc(labels[v + 2])}"></button>`).join('')}</div>
           <div class="sample-ends" aria-hidden="true"><span>${esc(labels[0])}</span><span>${esc(labels[4])}</span></div>
           <p class="sample-note" aria-live="polite">${esc(t('sampleNote'))}</p>
         </div>
@@ -517,15 +520,15 @@ function viewQuestion() {
   const cur = state.answers[s.id];
   const answered = cur !== null && cur !== undefined;
   const labels = t('answers');
-  const stops = [-2, -1, 0, 1, 2]
-    .map((v, i) => `<label class="stop" data-v="${v}"><input type="radio" name="answer" value="${v}" ${cur === v ? 'checked' : ''} aria-label="${esc(labels[i])}"><span class="dot"></span></label>`)
+  const stops = ANSWER_CHOICES
+    .map((v) => `<label class="stop" data-v="${v}"><input type="radio" name="answer" value="${v}" ${cur === v ? 'checked' : ''} aria-label="${esc(labels[v + 2])}"><span class="dot"></span></label>`)
     .join('');
   const last = state.idx === n - 1;
   const nextLabel = last ? (state.editing ? t('backToResults') : t('next')) : answered ? t('next') : t('skipNext');
   const simpleOpen = state.open === 'simple';
   const contextOpen = state.open === 'context';
   const simple = loc(s.simple);
-  const [simpleBody, simpleEq] = simple.split(/(?=«De acuerdo»|"Agree")/);
+  const [simpleBody, simpleEq] = simple.split(/(?=«Coincido»|"I agree")/);
   return `
   <div class="wrap step-screen" style="${topicVars(s.topic)}">
     <div class="q-top">
@@ -983,9 +986,9 @@ document.addEventListener('keydown', (e) => {
   if (state.step !== 'question' || state.ref || e.metaKey || e.ctrlKey || e.altKey) return;
   const tag = (e.target.tagName || '').toLowerCase();
   if (tag === 'select' || tag === 'textarea' || (tag === 'input' && e.target.type !== 'radio')) return;
-  if (/^[1-5]$/.test(e.key)) {
+  if (/^[1-3]$/.test(e.key)) {
     e.preventDefault();
-    setAnswerByKey(Number(e.key) - 3);
+    setAnswerByKey(ANSWER_CHOICES[Number(e.key) - 1]);
   } else if (e.key === 'Enter' && (tag === 'input' || tag === 'body' || tag === 'main' || tag === 'h1')) {
     e.preventDefault();
     advance();
