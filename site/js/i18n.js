@@ -21,7 +21,7 @@ export const STRINGS = {
     electionPast: 'Elecciones del 29 de noviembre de 2026',
     howTitle: 'Así funciona',
     how: [
-      ['Responde', 'De acuerdo o en desacuerdo con 30 afirmaciones sobre 11 temas.'],
+      ['Responde', 'Dices si coincides o no con 30 afirmaciones sobre 11 temas.'],
       ['Elige tus temas', 'Da más o menos peso a cada tema.'],
       ['Compara', 'Mira tu coincidencia con cada partido, tema por tema, con las fuentes.'],
     ],
@@ -41,7 +41,8 @@ export const STRINGS = {
     simpleBtn: 'Explícamelo fácil',
     contextBtn: 'Contexto',
     answerLegend: 'Tu respuesta',
-    answers: ['Muy en desacuerdo', 'En desacuerdo', 'Neutral', 'De acuerdo', 'Muy de acuerdo'],
+    // Three buttons use slots 0, 2, 4 (-2, 0, +2). Slots 1 and 3 label old shared links that hold -1/+1.
+    answers: ['No coincido', 'Más bien no coincido', 'No lo tengo claro', 'Más bien coincido', 'Coincido'],
     noOpinion: 'Sin opinión',
     prev: 'Anterior',
     next: 'Siguiente',
@@ -52,7 +53,7 @@ export const STRINGS = {
     autoOff: 'Desactivar',
     autoOn: 'Activar avance automático',
     savedAnswer: (label) => `Respuesta guardada: ${label}`,
-    keysHint: 'Teclado: 1–5 para responder, Intro para seguir.',
+    keysHint: 'Teclado: 1–3 para responder, Intro para seguir.',
 
     // Weights
     weightsTitle: '¿Qué temas te importan más?',
@@ -335,7 +336,7 @@ export const STRINGS = {
     electionPast: 'Election of 29 November 2026',
     howTitle: 'How it works',
     how: [
-      ['Answer', 'Agree or disagree with 30 statements on 11 topics.'],
+      ['Answer', 'Say whether you agree with 30 statements on 11 topics.'],
       ['Weigh your topics', 'Give each topic more or less weight.'],
       ['Compare', 'See how much you agree with each party, topic by topic, with sources.'],
     ],
@@ -353,7 +354,8 @@ export const STRINGS = {
     simpleBtn: 'Explain it simply',
     contextBtn: 'Context',
     answerLegend: 'Your answer',
-    answers: ['Strongly disagree', 'Disagree', 'Neutral', 'Agree', 'Strongly agree'],
+    // Three buttons use slots 0, 2, 4 (-2, 0, +2). Slots 1 and 3 label old shared links that hold -1/+1.
+    answers: ["I don't agree", 'Lean no', 'Not sure', 'Lean yes', 'I agree'],
     noOpinion: 'No opinion',
     prev: 'Previous',
     next: 'Next',
@@ -364,7 +366,7 @@ export const STRINGS = {
     autoOff: 'Turn off',
     autoOn: 'Turn on auto-advance',
     savedAnswer: (label) => `Answer saved: ${label}`,
-    keysHint: 'Keyboard: 1–5 to answer, Enter to continue.',
+    keysHint: 'Keyboard: 1–3 to answer, Enter to continue.',
 
     weightsTitle: 'Which topics matter most to you?',
     weightsHelp: 'If you change nothing, all topics count the same. "More" counts double; "Less", half.',

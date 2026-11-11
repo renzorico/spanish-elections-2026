@@ -144,8 +144,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 700; letter-spacing: -.015e
 .sample-scale { display: flex; justify-content: space-between; align-items: center; position: relative; padding: .2rem 2px; }
 .sample-scale::before { content: ''; position: absolute; left: 12px; right: 12px; top: 50%; height: 2px; background: var(--line-2); }
 .sample-scale button { position: relative; width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--ink-3); background: var(--surface); padding: 0; cursor: pointer; }
-.sample-scale button:nth-child(2), .sample-scale button:nth-child(4) { width: 20px; height: 20px; }
-.sample-scale button:nth-child(3) { width: 15px; height: 15px; }
 .sample-scale button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); }
 .sample-ends { display: flex; justify-content: space-between; font-size: .7rem; color: var(--ink-3); }
 .sample-note { margin: 0; font-size: .7rem; color: var(--ink-3); text-align: center; }
@@ -199,14 +197,12 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 700; letter-spacing: -.015e
 
 /* ---------- answer scale (discrete slider) */
 .scale { border: 0; margin: 1.2rem 0 0; padding: 0; min-width: 0; }
-.scale-track { position: relative; display: grid; grid-template-columns: repeat(5, 1fr); align-items: center; padding: .4rem 0; }
-.scale-track::before { content: ''; position: absolute; left: 10%; right: 10%; top: 50%; height: 3px; transform: translateY(-50%); background: color-mix(in srgb, var(--ink) 18%, transparent); border-radius: 2px; }
+.scale-track { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); align-items: center; padding: .4rem 0; }
+.scale-track::before { content: ''; position: absolute; left: 16.67%; right: 16.67%; top: 50%; height: 3px; transform: translateY(-50%); background: color-mix(in srgb, var(--ink) 18%, transparent); border-radius: 2px; }
 .stop { position: relative; display: grid; place-items: center; cursor: pointer; min-height: 64px; }
 .stop input { position: absolute; opacity: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
 .stop .dot { display: block; border-radius: 999px; background: var(--surface); border: 3px solid color-mix(in srgb, var(--ink) 45%, transparent); transition: transform .15s ease, background .15s ease, border-color .15s ease; }
-.stop[data-v="-2"] .dot, .stop[data-v="2"] .dot { width: 46px; height: 46px; }
-.stop[data-v="-1"] .dot, .stop[data-v="1"] .dot { width: 36px; height: 36px; }
-.stop[data-v="0"] .dot { width: 28px; height: 28px; }
+.stop .dot { width: 46px; height: 46px; }
 @media (hover: hover) { .stop:hover .dot { transform: scale(1.08); border-color: var(--ink); } }
 .stop input:checked + .dot { background: var(--ink); border-color: var(--ink); transform: scale(1.12); box-shadow: 0 0 0 6px color-mix(in srgb, var(--ink) 12%, transparent); }
 .stop input:focus-visible + .dot { outline: 3px solid var(--focus); outline-offset: 4px; }
@@ -699,9 +695,7 @@ html { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
   .statement { font-size: 1.14rem; line-height: 1.24; }
   .scale { margin-top: .6rem; }
   .stop { min-height: 52px; }
-  .stop[data-v="-2"] .dot, .stop[data-v="2"] .dot { width: 40px; height: 40px; }
-  .stop[data-v="-1"] .dot, .stop[data-v="1"] .dot { width: 32px; height: 32px; }
-  .stop[data-v="0"] .dot { width: 25px; height: 25px; }
+  .stop .dot { width: 40px; height: 40px; }
   /* the chosen dot is the visual confirmation; the label stays for screen readers */
   .scale-value { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); margin: 0; }
   .q-tools { margin-top: .55rem; gap: .35rem; }
