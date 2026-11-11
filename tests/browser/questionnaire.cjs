@@ -52,7 +52,7 @@ async function countAnalytics(page, base) {
   // Explain-it-simply and context panels
   await p.click('[data-act=toggle-simple]');
   ok(await p.locator('#exp-simple').isVisible(), 'plain-language explanation opens');
-  ok(/«De acuerdo»/.test(await p.locator('#exp-simple').textContent()), 'explanation says what "agree" means');
+  ok(/«Coincido»/.test(await p.locator('#exp-simple').textContent()), 'explanation says what "Coincido" means');
   await p.click('[data-act=toggle-context]');
   ok((await p.locator('#exp-context').isVisible()) && !(await p.locator('#exp-simple').isVisible()), 'context replaces the explanation');
 
@@ -67,8 +67,8 @@ async function countAnalytics(page, base) {
   await p.waitForTimeout(400);
   ok((await qtext()) === q1, 'D-002 arrow key keeps the same question');
   ok((await p.locator('#scale-value').textContent()).length > 0, 'D-002 chosen answer is shown and announced');
-  await p.keyboard.press('3');
-  ok((await p.locator('#scale-value').textContent()) === 'Neutral', 'digit keys answer (3 = Neutral)');
+  await p.keyboard.press('2');
+  ok((await p.locator('#scale-value').textContent()) === 'No lo tengo claro', 'digit keys answer (2 = No lo tengo claro)');
   await p.keyboard.press('Enter');
   await p.waitForTimeout(200);
   ok((await qtext()) !== q1, 'Enter moves to the next question');
@@ -82,7 +82,7 @@ async function countAnalytics(page, base) {
   ok((await qtext()) !== q2, 'pointer choice advances to the next question');
   await p.click('[data-act=auto-off]');
   const q3 = await qtext();
-  await p.click('.stop[data-v="1"]');
+  await p.click('.stop[data-v="0"]');
   await p.waitForTimeout(500);
   ok((await qtext()) === q3, 'with auto-advance off a pointer choice only saves');
   await p.click('[data-act=auto-on]');
@@ -288,7 +288,7 @@ async function countAnalytics(page, base) {
       return g('.q-tools').bottom <= g('.q-nav').top + 1 && g('.q-nav').bottom <= innerHeight + 1 && document.documentElement.scrollWidth <= innerWidth;
     });
     if (!f) fits = false;
-    await m.tap('.stop[data-v="1"]');
+    await m.tap('.stop[data-v="0"]');
     await m.waitForTimeout(330);
   }
   ok(fits, 'iPhone SE: statement, scale, explanations and Next fit on screen for all 30 statements');
